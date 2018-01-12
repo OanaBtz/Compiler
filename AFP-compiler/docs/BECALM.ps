@@ -1,0 +1,1199 @@
+ %!PS
+
+/ulshow % string on stack
+{
+  currentpoint /y exch def /x exch def
+  dup
+  show
+  stringwidth pop dup neg 0 rlineto stroke
+  x add y moveto
+} def
+/mm {360 mul 127 div} def
+
+
+/pagewidth  currentpagedevice /PageSize get 0 get def
+/right-indent 0 mm def
+/right-justify { 
+	/y exch def 
+	dup stringwidth pop  
+ 	right-indent y moveto  
+	neg 0 rmoveto  
+	show 
+} def 
+
+/right-justify-ulshow { 
+	/y exch def 
+	dup stringwidth pop  
+ 	right-indent y moveto  
+	neg 0 rmoveto  
+	ulshow 
+} def 
+
+/over {
+	1 index
+} def
+
+/rot {
+	3 -1 roll
+} def
+
+/toupper {
+	dup length 0 eq { return } if
+	dup length 1 sub 0 1 rot {
+		over over get char_toupper 2 index 3 1 roll put
+	} for
+} def
+
+/char_toupper {
+	32 not and   % Incorrect for non-alphabetic characters
+} def
+
+ /textwrap
+{
+/width exch def    
+/startx exch def    
+/txt exch def
+currentpoint /y exch def /x exch def
+/txtwidth txt stringwidth pop def
+x txtwidth add startx width add gt
+{
+   x startx sub neg 3 neg mm rmoveto
+}if
+txt show
+( ) stringwidth pop 0 rmoveto
+}def
+/SIKHED05A (osguhieughreiw) def
+/BANKSTED (782478) def
+/LANGKTONR (11111111111) def
+/BANKNAVN. (BEC Banken) def
+/REGTYPE11 (2013) def
+/REGTYPELNG (Kassekredit) def
+/DATO (24.12.0001) def
+/BREVNAVN (BECKRED) def
+/TID (34758345) def
+/INDENT 0 def
+/KTOLAAN (K) def
+/LKAFT (P) def
+/AFDYDL01 (kek) def
+/PRIERH (P) def
+/DINE. (dig) def
+/DIN. (dig) def
+/DIG. (dig) def
+/DU. (dig) def
+/BANKNAVN. (BEC Banken) def
+/BANKNAVN.. (BEC Banken) def
+/SDU. (Du) def
+/GENVARSEL. (fyha) def
+/GENVARSEL4. (fyha) def
+/DEBANTAL (1) def
+/KTOKNDNR1 (00000000000) def
+/DEB1ADR1 (Olsen Drag\371r K\371benhavn) def
+/DEB1ADR2 (Strandgade 16) def
+/DEB1ADR3 (4600 K\371ge) def
+/DEB1ADR4 () def
+/DEB1ADR5 () def
+/ARIALbold 8 selectfont
+/BOXx 20 def
+/BOXy 257 def
+/BOXw 175 def
+/VENDx 7 def
+/VENDy 27 def
+/VENDw 180 def
+/VENDr -90 def
+/OVERSKRx 20 def
+/OVERSKRy 265 def
+/OVERSKRw 130 def
+BOXx mm BOXy mm moveto
+currentpoint /BOXy exch def /BOXx exch def
+INDENT mm 0 rmoveto
+newpath
+20 mm 262 mm moveto
+195 mm 262 mm lineto
+195 mm 27 mm lineto
+20 mm 27 mm lineto
+closepath
+stroke
+20 mm 45 mm moveto
+
+VENDx mm VENDy mm moveto
+VENDr neg rotate
+currentpoint /VENDy exch def /VENDx exch def
+INDENT mm 0 rmoveto
+/ARIALbold 6 selectfont
+BREVNAVN VENDx VENDw mm textwrap
+currentpoint /y exch def /x exch def
+x VENDx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Kl.) VENDx VENDw mm textwrap
+TID VENDx VENDw mm textwrap
+VENDr rotate
+/ARIALbold 8 selectfont
+OVERSKRx mm OVERSKRy mm moveto
+currentpoint /OVERSKRy exch def /OVERSKRx exch def
+INDENT mm 0 rmoveto
+/ARIALboldbold 12 selectfont
+(Vilkaar) OVERSKRx OVERSKRw mm textwrap
+(for) OVERSKRx OVERSKRw mm textwrap
+(kreditaftalen) OVERSKRx OVERSKRw mm textwrap
+
+/ARIALbold 8 selectfont
+/ARIALbold 10 selectfont
+/COL1x 21 def
+/COL1y 255 def
+/COL1w 85 def
+/COL2x 108 def
+/COL2y 255 def
+/COL2w 85 def
+/ARIALbold 8 selectfont
+/ARIALbold 8 selectfont
+COL1x mm COL1y mm moveto
+currentpoint /COL1y exch def /COL1x exch def
+INDENT mm 0 rmoveto
+/ARIALbold 8 selectfont
+(1.) COL1x COL1w mm textwrap
+(\341ndring) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(renter) COL1x COL1w mm textwrap
+(og) COL1x COL1w mm textwrap
+(priser) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Renter) COL1x COL1w mm textwrap
+(og) COL1x COL1w mm textwrap
+(priser) COL1x COL1w mm textwrap
+(er) COL1x COL1w mm textwrap
+(variable,) COL1x COL1w mm textwrap
+(medmindre) COL1x COL1w mm textwrap
+(andet) COL1x COL1w mm textwrap
+(fremgaar) COL1x COL1w mm textwrap
+(udtrykkeligt.) COL1x COL1w mm textwrap
+(Priser) COL1x COL1w mm textwrap
+(betegnes) COL1x COL1w mm textwrap
+(ogsaa) COL1x COL1w mm textwrap
+(som) COL1x COL1w mm textwrap
+(gebyrer.) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(1.1.) COL1x COL1w mm textwrap
+(\341ndring) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(variable) COL1x COL1w mm textwrap
+(rentesatser) COL1x COL1w mm textwrap
+(og) COL1x COL1w mm textwrap
+(priser) COL1x COL1w mm textwrap
+(uden) COL1x COL1w mm textwrap
+(varsel) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+BANKNAVN. COL1x COL1w mm textwrap
+(kan) COL1x COL1w mm textwrap
+(uden) COL1x COL1w mm textwrap
+(vars\361el) COL1x COL1w mm textwrap
+(s\361tte) COL1x COL1w mm textwrap
+(rentesatser) COL1x COL1w mm textwrap
+(op) COL1x COL1w mm textwrap
+(paa) COL1x COL1w mm textwrap
+(laan) COL1x COL1w mm textwrap
+(og) COL1x COL1w mm textwrap
+(kreditter,) COL1x COL1w mm textwrap
+(samt) COL1x COL1w mm textwrap
+(s\361tte) COL1x COL1w mm textwrap
+(sine) COL1x COL1w mm textwrap
+(priser) COL1x COL1w mm textwrap
+(op) COL1x COL1w mm textwrap
+(og) COL1x COL1w mm textwrap
+(indf\371re) COL1x COL1w mm textwrap
+(nye) COL1x COL1w mm textwrap
+(priser,) COL1x COL1w mm textwrap
+(paa) COL1x COL1w mm textwrap
+(grund) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(udefrakommende) COL1x COL1w mm textwrap
+(forhold) COL1x COL1w mm textwrap
+(som) COL1x COL1w mm textwrap
+BANKNAVN. COL1x COL1w mm textwrap
+(ikke) COL1x COL1w mm textwrap
+(har) COL1x COL1w mm textwrap
+(indflydelse) COL1x COL1w mm textwrap
+(paa) COL1x COL1w mm textwrap
+(og) COL1x COL1w mm textwrap
+(som) COL1x COL1w mm textwrap
+(har) COL1x COL1w mm textwrap
+(betydning) COL1x COL1w mm textwrap
+(for) COL1x COL1w mm textwrap
+BANKNAVN. COL1x COL1w mm textwrap
+(,) COL1x COL1w mm textwrap
+(bl.a.) COL1x COL1w mm textwrap
+(naar) COL1x COL1w mm textwrap
+(der) COL1x COL1w mm textwrap
+(sker) COL1x COL1w mm textwrap
+(-) COL1x COL1w mm textwrap
+(ikke) COL1x COL1w mm textwrap
+(udt\371mmende) COL1x COL1w mm textwrap
+(opremsning) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 mm add 0 rmoveto
+(*) COL1x mm COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 05 mm add 0 rmoveto
+(inden) COL1x mm COL1w mm textwrap
+(-eller) COL1x COL1w mm textwrap
+(udenlandske) COL1x COL1w mm textwrap
+(\361ndringer) COL1x COL1w mm textwrap
+(i) COL1x COL1w mm textwrap
+(penge-) COL1x COL1w mm textwrap
+(eller) COL1x COL1w mm textwrap
+(kreditpolitik,) COL1x COL1w mm textwrap
+(som) COL1x COL1w mm textwrap
+(paavirker) COL1x COL1w mm textwrap
+(det) COL1x COL1w mm textwrap
+(almindelige) COL1x COL1w mm textwrap
+(renteniveau,) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 05 mm add 0 rmoveto
+(*) COL1x mm COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 05 mm add 0 rmoveto
+(anden) COL1x mm COL1w mm textwrap
+(udvikling) COL1x COL1w mm textwrap
+(i) COL1x COL1w mm textwrap
+(det) COL1x COL1w mm textwrap
+(almindelige) COL1x COL1w mm textwrap
+(renteniveau,) COL1x COL1w mm textwrap
+(f.eks.) COL1x COL1w mm textwrap
+(paa) COL1x COL1w mm textwrap
+(penge-) COL1x COL1w mm textwrap
+(og) COL1x COL1w mm textwrap
+(obligationsmarkederne,) COL1x COL1w mm textwrap
+(eller) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 05 mm add 0 rmoveto
+(*) COL1x mm COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 05 mm add 0 rmoveto
+(\361ndringer) COL1x mm COL1w mm textwrap
+(i) COL1x COL1w mm textwrap
+(skatter) COL1x COL1w mm textwrap
+(og) COL1x COL1w mm textwrap
+(afgifter.) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(1.2.) COL1x COL1w mm textwrap
+(\341ndring) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(variable) COL1x COL1w mm textwrap
+(rentesatser) COL1x COL1w mm textwrap
+(og) COL1x COL1w mm textwrap
+(priser) COL1x COL1w mm textwrap
+(med) COL1x COL1w mm textwrap
+(maaneds) COL1x COL1w mm textwrap
+(varsel) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+BANKNAVN. COL1x COL1w mm textwrap
+(kan) COL1x COL1w mm textwrap
+(med) COL1x COL1w mm textwrap
+(maaneds) COL1x COL1w mm textwrap
+(varsel) COL1x COL1w mm textwrap
+(s\361tte) COL1x COL1w mm textwrap
+(rentesatser) COL1x COL1w mm textwrap
+(op) COL1x COL1w mm textwrap
+(paa) COL1x COL1w mm textwrap
+(laan) COL1x COL1w mm textwrap
+(og) COL1x COL1w mm textwrap
+(kreditter,) COL1x COL1w mm textwrap
+(samt) COL1x COL1w mm textwrap
+(s\361tte) COL1x COL1w mm textwrap
+(sine) COL1x COL1w mm textwrap
+(priser) COL1x COL1w mm textwrap
+(op,) COL1x COL1w mm textwrap
+(hvis) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 05 mm add 0 rmoveto
+(*) COL1x mm COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 05 mm add 0 rmoveto
+(der) COL1x mm COL1w mm textwrap
+(sker) COL1x COL1w mm textwrap
+(\361ndringer) COL1x COL1w mm textwrap
+(i) COL1x COL1w mm textwrap
+(de) COL1x COL1w mm textwrap
+(forhold,) COL1x COL1w mm textwrap
+(som) COL1x COL1w mm textwrap
+(individuelt) COL1x COL1w mm textwrap
+(blev) COL1x COL1w mm textwrap
+(lagt) COL1x COL1w mm textwrap
+(til) COL1x COL1w mm textwrap
+(grund) COL1x COL1w mm textwrap
+(ved) COL1x COL1w mm textwrap
+(fasts\361ttelsen) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+DINE. COL1x COL1w mm textwrap
+(rente-) COL1x COL1w mm textwrap
+(og) COL1x COL1w mm textwrap
+(prisvilkaar,) COL1x COL1w mm textwrap
+(eller) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 05 mm add 0 rmoveto
+(*) COL1x mm COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 05 mm add 0 rmoveto
+() COL1x mm COL1w mm textwrap
+BANKNAVN. COL1x COL1w mm textwrap
+(\361ndrer) COL1x COL1w mm textwrap
+(sin) COL1x COL1w mm textwrap
+(generelle) COL1x COL1w mm textwrap
+(rente-) COL1x COL1w mm textwrap
+(og) COL1x COL1w mm textwrap
+(prisfasts\361ttelse) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(forretningsm\361ssige) COL1x COL1w mm textwrap
+(grunde,) COL1x COL1w mm textwrap
+(f.eks.) COL1x COL1w mm textwrap
+(for) COL1x COL1w mm textwrap
+(at) COL1x COL1w mm textwrap
+(\371ge) COL1x COL1w mm textwrap
+(indtjeningen) COL1x COL1w mm textwrap
+(eller) COL1x COL1w mm textwrap
+(opnaa) COL1x COL1w mm textwrap
+(en) COL1x COL1w mm textwrap
+(mere) COL1x COL1w mm textwrap
+(hensigtsm\361ssig) COL1x COL1w mm textwrap
+(anvendelse) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+BANKNAVN. COL1x COL1w mm textwrap
+(s) COL1x COL1w mm textwrap
+(ressourcer) COL1x COL1w mm textwrap
+(eller) COL1x COL1w mm textwrap
+(kapacitet.) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(For) COL1x COL1w mm textwrap
+(etablerede) COL1x COL1w mm textwrap
+(boliglaan) COL1x COL1w mm textwrap
+(kan) COL1x COL1w mm textwrap
+BANKNAVN. COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(samme) COL1x COL1w mm textwrap
+(aarsager) COL1x COL1w mm textwrap
+(kun) COL1x COL1w mm textwrap
+(s\361tte) COL1x COL1w mm textwrap
+(sine) COL1x COL1w mm textwrap
+(priser) COL1x COL1w mm textwrap
+(op) COL1x COL1w mm textwrap
+(med) COL1x COL1w mm textwrap
+GENVARSEL4. COL1x COL1w mm textwrap
+(maaneders) COL1x COL1w mm textwrap
+(varsel.) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+BANKNAVN. COL1x COL1w mm textwrap
+(kan) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(samme) COL1x COL1w mm textwrap
+(aarsager) COL1x COL1w mm textwrap
+(indf\371re) COL1x COL1w mm textwrap
+(nye) COL1x COL1w mm textwrap
+(priser) COL1x COL1w mm textwrap
+(med) COL1x COL1w mm textwrap
+(et) COL1x COL1w mm textwrap
+(varsel) COL1x COL1w mm textwrap
+(paa) COL1x COL1w mm textwrap
+GENVARSEL. COL1x COL1w mm textwrap
+(maaneder.) COL1x COL1w mm textwrap
+(Nye) COL1x COL1w mm textwrap
+(priser) COL1x COL1w mm textwrap
+(er) COL1x COL1w mm textwrap
+(priser) COL1x COL1w mm textwrap
+(for) COL1x COL1w mm textwrap
+(ydelser,) COL1x COL1w mm textwrap
+(som) COL1x COL1w mm textwrap
+BANKNAVN. COL1x COL1w mm textwrap
+(ikke) COL1x COL1w mm textwrap
+(tidligere) COL1x COL1w mm textwrap
+(har) COL1x COL1w mm textwrap
+(taget) COL1x COL1w mm textwrap
+(betaling) COL1x COL1w mm textwrap
+(for.) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(1.3.) COL1x COL1w mm textwrap
+(Meddelelse) COL1x COL1w mm textwrap
+(om) COL1x COL1w mm textwrap
+(rente-) COL1x COL1w mm textwrap
+(og) COL1x COL1w mm textwrap
+(pris\361ndringer) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+BANKNAVN. COL1x COL1w mm textwrap
+(annoncerer) COL1x COL1w mm textwrap
+(i) COL1x COL1w mm textwrap
+(dagspressen) COL1x COL1w mm textwrap
+(eller) COL1x COL1w mm textwrap
+(giver) COL1x COL1w mm textwrap
+(skriftlig) COL1x COL1w mm textwrap
+(eller) COL1x COL1w mm textwrap
+(elektronisk) COL1x COL1w mm textwrap
+(besked) COL1x COL1w mm textwrap
+(ved) COL1x COL1w mm textwrap
+(rente-) COL1x COL1w mm textwrap
+(og) COL1x COL1w mm textwrap
+(pris\361ndringer.) COL1x COL1w mm textwrap
+(V\361sentlige) COL1x COL1w mm textwrap
+(pris\361ndringer) COL1x COL1w mm textwrap
+(eller) COL1x COL1w mm textwrap
+(indf\371relse) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(nye) COL1x COL1w mm textwrap
+(priser) COL1x COL1w mm textwrap
+(varsles) COL1x COL1w mm textwrap
+(ved) COL1x COL1w mm textwrap
+(individuel) COL1x COL1w mm textwrap
+(kommunikation.) COL1x COL1w mm textwrap
+(Det) COL1x COL1w mm textwrap
+(vil) COL1x COL1w mm textwrap
+(fremgaa,) COL1x COL1w mm textwrap
+(hvorfor) COL1x COL1w mm textwrap
+(der) COL1x COL1w mm textwrap
+(sker) COL1x COL1w mm textwrap
+(\361ndringer.) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Rente\361ndringer) COL1x COL1w mm textwrap
+(vil) COL1x COL1w mm textwrap
+(ogsaa) COL1x COL1w mm textwrap
+(fremgaa) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(det) COL1x COL1w mm textwrap
+(f\371rste) COL1x COL1w mm textwrap
+(kontoudskrift) COL1x COL1w mm textwrap
+(-) COL1x COL1w mm textwrap
+(eller) COL1x COL1w mm textwrap
+(opg\371relse) COL1x COL1w mm textwrap
+(efter) COL1x COL1w mm textwrap
+(\361ndringen.) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SDU. COL1x COL1w mm textwrap
+(faar) COL1x COL1w mm textwrap
+(under) COL1x COL1w mm textwrap
+(alle) COL1x COL1w mm textwrap
+(omst\361ndigheder) COL1x COL1w mm textwrap
+(skriftlig) COL1x COL1w mm textwrap
+(eller) COL1x COL1w mm textwrap
+(elektronisk) COL1x COL1w mm textwrap
+(besked) COL1x COL1w mm textwrap
+(senest) COL1x COL1w mm textwrap
+(dagen) COL1x COL1w mm textwrap
+(forud) COL1x COL1w mm textwrap
+(om) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 05 mm add 0 rmoveto
+(*) COL1x mm COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 05 mm add 0 rmoveto
+(enhver) COL1x mm COL1w mm textwrap
+(\361ndring) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(renten) COL1x COL1w mm textwrap
+(paa) COL1x COL1w mm textwrap
+(laan) COL1x COL1w mm textwrap
+(og) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 05 mm add 0 rmoveto
+(*) COL1x mm COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 05 mm add 0 rmoveto
+(forh\371jelse) COL1x mm COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(renten) COL1x COL1w mm textwrap
+(eller) COL1x COL1w mm textwrap
+(priser) COL1x COL1w mm textwrap
+(paa) COL1x COL1w mm textwrap
+(kreditter.) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Ved) COL1x COL1w mm textwrap
+(\361ndring) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(renten) COL1x COL1w mm textwrap
+(paa) COL1x COL1w mm textwrap
+(laan) COL1x COL1w mm textwrap
+(indeholder) COL1x COL1w mm textwrap
+(den) COL1x COL1w mm textwrap
+(skriftlige) COL1x COL1w mm textwrap
+(eller) COL1x COL1w mm textwrap
+(elektroniske) COL1x COL1w mm textwrap
+(besked) COL1x COL1w mm textwrap
+(ogsaa) COL1x COL1w mm textwrap
+(oplysninger) COL1x COL1w mm textwrap
+(om) COL1x COL1w mm textwrap
+(eventuelle) COL1x COL1w mm textwrap
+(\361ndringer) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(fremtidige) COL1x COL1w mm textwrap
+(betalingers) COL1x COL1w mm textwrap
+(st\371rrelse,) COL1x COL1w mm textwrap
+(antal) COL1x COL1w mm textwrap
+(eller) COL1x COL1w mm textwrap
+(hyppighed.) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Rente\361ndringer) COL1x COL1w mm textwrap
+(paa) COL1x COL1w mm textwrap
+(SDO-laan) COL1x COL1w mm textwrap
+(kan) COL1x COL1w mm textwrap
+(meddeles) COL1x COL1w mm textwrap
+(efter) COL1x COL1w mm textwrap
+(\361ndringen) COL1x COL1w mm textwrap
+(er) COL1x COL1w mm textwrap
+(traadt) COL1x COL1w mm textwrap
+(i) COL1x COL1w mm textwrap
+(kraft) COL1x COL1w mm textwrap
+(ved) COL1x COL1w mm textwrap
+(refinansiering) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(laanet.) COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(\361ndring) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(renter) COL1x COL1w mm textwrap
+(baseret) COL1x COL1w mm textwrap
+(paa) COL1x COL1w mm textwrap
+(referencesatser,) COL1x COL1w mm textwrap
+(f.eks.) COL1x COL1w mm textwrap
+(Nationalbankens) COL1x COL1w mm textwrap
+(indskudsbevisrente,) COL1x COL1w mm textwrap
+(fremgaar) COL1x COL1w mm textwrap
+(alene) COL1x COL1w mm textwrap
+(af) COL1x COL1w mm textwrap
+(kontoudskrifter) COL1x COL1w mm textwrap
+(eller) COL1x COL1w mm textwrap
+(opg\371relser) COL1x COL1w mm textwrap
+(fra) COL1x COL1w mm textwrap
+BANKNAVN.. COL1x COL1w mm textwrap
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+
+/ARIALbold 8 selectfont
+COL2x mm COL2y mm moveto
+currentpoint /COL2y exch def /COL2x exch def
+INDENT mm 0 rmoveto
+/ARIALbold 8 selectfont
+(2.) COL2x COL2w mm textwrap
+(Morarente) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(overtr\361ksrente) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(f\371lger) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(manglende) COL2x COL2w mm textwrap
+(betaling) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Betales) COL2x COL2w mm textwrap
+(en) COL2x COL2w mm textwrap
+(ydelse) COL2x COL2w mm textwrap
+(ikke) COL2x COL2w mm textwrap
+(senest) COL2x COL2w mm textwrap
+(paa) COL2x COL2w mm textwrap
+(forfaldsdagen,) COL2x COL2w mm textwrap
+(eller) COL2x COL2w mm textwrap
+(overtr\361kkes) COL2x COL2w mm textwrap
+(en) COL2x COL2w mm textwrap
+(kassekredit,) COL2x COL2w mm textwrap
+(er) COL2x COL2w mm textwrap
+BANKNAVN. COL2x COL2w mm textwrap
+(berettiget) COL2x COL2w mm textwrap
+(til) COL2x COL2w mm textwrap
+(at) COL2x COL2w mm textwrap
+(opkr\361ve) COL2x COL2w mm textwrap
+(morarente) COL2x COL2w mm textwrap
+(overtr\361ksrente.) COL2x COL2w mm textwrap
+(Morarente) COL2x COL2w mm textwrap
+(overtr\361ksrente) COL2x COL2w mm textwrap
+(beregnes) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(det) COL2x COL2w mm textwrap
+(forfaldne) COL2x COL2w mm textwrap
+(bel\371b) COL2x COL2w mm textwrap
+(overtr\361kket.) COL2x COL2w mm textwrap
+(Morarenten) COL2x COL2w mm textwrap
+(overtr\361ksrenten) COL2x COL2w mm textwrap
+(beregnes) COL2x COL2w mm textwrap
+(med) COL2x COL2w mm textwrap
+(den) COL2x COL2w mm textwrap
+(i) COL2x COL2w mm textwrap
+(kreditaftalen) COL2x COL2w mm textwrap
+(angivne) COL2x COL2w mm textwrap
+(sats,) COL2x COL2w mm textwrap
+(som) COL2x COL2w mm textwrap
+(er) COL2x COL2w mm textwrap
+(variabel,) COL2x COL2w mm textwrap
+(fra) COL2x COL2w mm textwrap
+(forfaldsdagen) COL2x COL2w mm textwrap
+(overtr\361kket,) COL2x COL2w mm textwrap
+(indtil) COL2x COL2w mm textwrap
+(betaling) COL2x COL2w mm textwrap
+(sker.) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Morarenten) COL2x COL2w mm textwrap
+(overtr\361ksrenten) COL2x COL2w mm textwrap
+(\361ndres) COL2x COL2w mm textwrap
+(paa) COL2x COL2w mm textwrap
+(samme) COL2x COL2w mm textwrap
+(maade) COL2x COL2w mm textwrap
+(som) COL2x COL2w mm textwrap
+(\371vrige) COL2x COL2w mm textwrap
+(rente\361ndringer.) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Ved) COL2x COL2w mm textwrap
+(overtr\361k) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(forsinket) COL2x COL2w mm textwrap
+(betaling) COL2x COL2w mm textwrap
+(kan) COL2x COL2w mm textwrap
+(der) COL2x COL2w mm textwrap
+(paal\371be) COL2x COL2w mm textwrap
+(rykkergebyrer.) COL2x COL2w mm textwrap
+(Rykkergebyr) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(andre) COL2x COL2w mm textwrap
+(misligholdelsesomkostninger) COL2x COL2w mm textwrap
+(fremgaar) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+BANKNAVN. COL2x COL2w mm textwrap
+(s) COL2x COL2w mm textwrap
+(prisbog.) COL2x COL2w mm textwrap
+(Ved) COL2x COL2w mm textwrap
+(overdragelse) COL2x COL2w mm textwrap
+(til) COL2x COL2w mm textwrap
+(inkasso) COL2x COL2w mm textwrap
+(vil) COL2x COL2w mm textwrap
+(der) COL2x COL2w mm textwrap
+(paal\371be) COL2x COL2w mm textwrap
+(omkostninger) COL2x COL2w mm textwrap
+(til) COL2x COL2w mm textwrap
+(advokat,) COL2x COL2w mm textwrap
+(domstole) COL2x COL2w mm textwrap
+(m.v.) COL2x COL2w mm textwrap
+(Overtr\361k) COL2x COL2w mm textwrap
+(vil) COL2x COL2w mm textwrap
+(kunne) COL2x COL2w mm textwrap
+(medf\371re,) COL2x COL2w mm textwrap
+(at) COL2x COL2w mm textwrap
+(kreditaftalen) COL2x COL2w mm textwrap
+(oph\361ves,) COL2x COL2w mm textwrap
+(ligesom) COL2x COL2w mm textwrap
+(overtr\361k) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(manglende) COL2x COL2w mm textwrap
+(indfrielse) COL2x COL2w mm textwrap
+(vil) COL2x COL2w mm textwrap
+(kunne) COL2x COL2w mm textwrap
+(medf\371re,) COL2x COL2w mm textwrap
+(at) COL2x COL2w mm textwrap
+(det) COL2x COL2w mm textwrap
+(er) COL2x COL2w mm textwrap
+(vanskeligt) COL2x COL2w mm textwrap
+(at) COL2x COL2w mm textwrap
+(opnaa) COL2x COL2w mm textwrap
+(kredit.) COL2x COL2w mm textwrap
+(Opsigelse) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(kreditaftalen) COL2x COL2w mm textwrap
+(vil) COL2x COL2w mm textwrap
+(medf\371re) COL2x COL2w mm textwrap
+(en) COL2x COL2w mm textwrap
+(forh\371jelse) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(rente) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(priser.) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+BANKNAVN. COL2x COL2w mm textwrap
+(kan) COL2x COL2w mm textwrap
+(til) COL2x COL2w mm textwrap
+(enhver) COL2x COL2w mm textwrap
+(tid) COL2x COL2w mm textwrap
+(v\361lge) COL2x COL2w mm textwrap
+(at) COL2x COL2w mm textwrap
+(standse) COL2x COL2w mm textwrap
+(rentetilskrivningen) COL2x COL2w mm textwrap
+(paa) COL2x COL2w mm textwrap
+(misligholdte) COL2x COL2w mm textwrap
+(laan) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(kreditter) COL2x COL2w mm textwrap
+(administrativt) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(regnskabsm\361ssigt.) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Hvis) COL2x COL2w mm textwrap
+(rentetilskrivningen) COL2x COL2w mm textwrap
+(standser,) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(det) COL2x COL2w mm textwrap
+(ikke) COL2x COL2w mm textwrap
+(er) COL2x COL2w mm textwrap
+(efter) COL2x COL2w mm textwrap
+(aftale) COL2x COL2w mm textwrap
+(med) COL2x COL2w mm textwrap
+DIG. COL2x COL2w mm textwrap
+(,) COL2x COL2w mm textwrap
+(betyder) COL2x COL2w mm textwrap
+(det) COL2x COL2w mm textwrap
+(ikke,) COL2x COL2w mm textwrap
+(at) COL2x COL2w mm textwrap
+BANKNAVN. COL2x COL2w mm textwrap
+(giver) COL2x COL2w mm textwrap
+(afkald) COL2x COL2w mm textwrap
+(paa) COL2x COL2w mm textwrap
+(at) COL2x COL2w mm textwrap
+(faa) COL2x COL2w mm textwrap
+(forrentet) COL2x COL2w mm textwrap
+(sit) COL2x COL2w mm textwrap
+(krav) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(at) COL2x COL2w mm textwrap
+(kr\361ve) COL2x COL2w mm textwrap
+(d\361kning) COL2x COL2w mm textwrap
+(for) COL2x COL2w mm textwrap
+(senere) COL2x COL2w mm textwrap
+(paal\371bne) COL2x COL2w mm textwrap
+(omkostninger.) COL2x COL2w mm textwrap
+(Dette) COL2x COL2w mm textwrap
+(g\361lder,) COL2x COL2w mm textwrap
+(selv) COL2x COL2w mm textwrap
+(om) COL2x COL2w mm textwrap
+(der) COL2x COL2w mm textwrap
+(paa) COL2x COL2w mm textwrap
+(et) COL2x COL2w mm textwrap
+(kontoudskrift) COL2x COL2w mm textwrap
+(eller) COL2x COL2w mm textwrap
+(lignende) COL2x COL2w mm textwrap
+(staar,) COL2x COL2w mm textwrap
+(at) COL2x COL2w mm textwrap
+(rentetilskrivningen) COL2x COL2w mm textwrap
+(er) COL2x COL2w mm textwrap
+(standset.) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(3.) COL2x COL2w mm textwrap
+(Regulering) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(ydelse) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Ved) COL2x COL2w mm textwrap
+(\361ndring) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(rente) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(omkostninger) COL2x COL2w mm textwrap
+(er) COL2x COL2w mm textwrap
+BANKNAVN. COL2x COL2w mm textwrap
+(berettiget) COL2x COL2w mm textwrap
+(til) COL2x COL2w mm textwrap
+(at) COL2x COL2w mm textwrap
+(\361ndre) COL2x COL2w mm textwrap
+(ydelsernes) COL2x COL2w mm textwrap
+(st\371rrelse,) COL2x COL2w mm textwrap
+(antal) COL2x COL2w mm textwrap
+(eller) COL2x COL2w mm textwrap
+(hyppighed) COL2x COL2w mm textwrap
+(eller) COL2x COL2w mm textwrap
+(en) COL2x COL2w mm textwrap
+(kombination) COL2x COL2w mm textwrap
+(heraf.) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(4.) COL2x COL2w mm textwrap
+(Ydelsesoversigt) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SDU. COL2x COL2w mm textwrap
+(har) COL2x COL2w mm textwrap
+(ret) COL2x COL2w mm textwrap
+(til) COL2x COL2w mm textwrap
+(paa) COL2x COL2w mm textwrap
+(anmodning) COL2x COL2w mm textwrap
+(til) COL2x COL2w mm textwrap
+(enhver) COL2x COL2w mm textwrap
+(tid) COL2x COL2w mm textwrap
+(i) COL2x COL2w mm textwrap
+(l\371bet) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(en) COL2x COL2w mm textwrap
+(laaneaftales) COL2x COL2w mm textwrap
+(varighed) COL2x COL2w mm textwrap
+(uden) COL2x COL2w mm textwrap
+(omkostninger) COL2x COL2w mm textwrap
+(at) COL2x COL2w mm textwrap
+(modtage) COL2x COL2w mm textwrap
+(en) COL2x COL2w mm textwrap
+(opg\371relse) COL2x COL2w mm textwrap
+(i) COL2x COL2w mm textwrap
+(form) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(en) COL2x COL2w mm textwrap
+(ydelsesoversigt) COL2x COL2w mm textwrap
+(amortiseringsplan) COL2x COL2w mm textwrap
+(med) COL2x COL2w mm textwrap
+(angivelse) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(skyldige) COL2x COL2w mm textwrap
+(betalinger) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(tidspunkter) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(betingelser) COL2x COL2w mm textwrap
+(for) COL2x COL2w mm textwrap
+(betaling) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(saadanne) COL2x COL2w mm textwrap
+(bel\371b) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(specifikation) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(den) COL2x COL2w mm textwrap
+(enkelte) COL2x COL2w mm textwrap
+(tilbagebetaling.) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Ydelsesoversigten) COL2x COL2w mm textwrap
+(viser) COL2x COL2w mm textwrap
+(afvikling) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(kapitalen) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(renterne) COL2x COL2w mm textwrap
+(beregnet) COL2x COL2w mm textwrap
+(paa) COL2x COL2w mm textwrap
+(grundlag) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+DIN. COL2x COL2w mm textwrap
+(rente) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(eventuelle) COL2x COL2w mm textwrap
+(yderligere) COL2x COL2w mm textwrap
+(omkostninger.) COL2x COL2w mm textwrap
+(Ydelsesoversigten) COL2x COL2w mm textwrap
+(er) COL2x COL2w mm textwrap
+(kun) COL2x COL2w mm textwrap
+(gyldig) COL2x COL2w mm textwrap
+(indtil) COL2x COL2w mm textwrap
+(n\361ste) COL2x COL2w mm textwrap
+(\361ndring) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+DIN. COL2x COL2w mm textwrap
+(rente) COL2x COL2w mm textwrap
+(eller) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(de) COL2x COL2w mm textwrap
+(eventuelle) COL2x COL2w mm textwrap
+(yderligere) COL2x COL2w mm textwrap
+(omkostninger) COL2x COL2w mm textwrap
+(i) COL2x COL2w mm textwrap
+(henhold) COL2x COL2w mm textwrap
+(til) COL2x COL2w mm textwrap
+(kreditaftalen.) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(5.) COL2x COL2w mm textwrap
+(Oplysning) COL2x COL2w mm textwrap
+(om) COL2x COL2w mm textwrap
+(\371konomiske) COL2x COL2w mm textwrap
+(forhold) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SDU. COL2x COL2w mm textwrap
+(skal) COL2x COL2w mm textwrap
+(holde) COL2x COL2w mm textwrap
+BANKNAVN. COL2x COL2w mm textwrap
+(orienteret) COL2x COL2w mm textwrap
+(om) COL2x COL2w mm textwrap
+DINE. COL2x COL2w mm textwrap
+(\371konomiske) COL2x COL2w mm textwrap
+(forhold) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(paa) COL2x COL2w mm textwrap
+(anmodning) COL2x COL2w mm textwrap
+(indlevere) COL2x COL2w mm textwrap
+(\371konomiske) COL2x COL2w mm textwrap
+(oplysninger,) COL2x COL2w mm textwrap
+(herunder) COL2x COL2w mm textwrap
+(bl.a.) COL2x COL2w mm textwrap
+(seneste) COL2x COL2w mm textwrap
+(aars-) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(forskudsopg\371relse) COL2x COL2w mm textwrap
+(fra) COL2x COL2w mm textwrap
+(SKAT.) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(6.) COL2x COL2w mm textwrap
+(Opsigelse) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(indfrielse) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+BANKNAVN. COL2x COL2w mm textwrap
+(kan) COL2x COL2w mm textwrap
+(opsige) COL2x COL2w mm textwrap
+(laan) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(kreditter) COL2x COL2w mm textwrap
+(med) COL2x COL2w mm textwrap
+(maaneders) COL2x COL2w mm textwrap
+(varsel) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(forlange) COL2x COL2w mm textwrap
+(betaling) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(det) COL2x COL2w mm textwrap
+(skyldige) COL2x COL2w mm textwrap
+(bel\371b,) COL2x COL2w mm textwrap
+(herunder) COL2x COL2w mm textwrap
+(paal\371bne) COL2x COL2w mm textwrap
+(renter) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(omkostninger.) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Ved) COL2x COL2w mm textwrap
+BANKNAVN. COL2x COL2w mm textwrap
+(s) COL2x COL2w mm textwrap
+(opsigelse) COL2x COL2w mm textwrap
+(har) COL2x COL2w mm textwrap
+DU. COL2x COL2w mm textwrap
+(krav) COL2x COL2w mm textwrap
+(paa) COL2x COL2w mm textwrap
+(en) COL2x COL2w mm textwrap
+(saglig) COL2x COL2w mm textwrap
+(begrundelse) COL2x COL2w mm textwrap
+(paa) COL2x COL2w mm textwrap
+(papir) COL2x COL2w mm textwrap
+(eller) COL2x COL2w mm textwrap
+(elektronisk.) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SDU. COL2x COL2w mm textwrap
+(har) COL2x COL2w mm textwrap
+(til) COL2x COL2w mm textwrap
+(enhver) COL2x COL2w mm textwrap
+(tid) COL2x COL2w mm textwrap
+(ret) COL2x COL2w mm textwrap
+(til) COL2x COL2w mm textwrap
+(helt) COL2x COL2w mm textwrap
+(eller) COL2x COL2w mm textwrap
+(delvist) COL2x COL2w mm textwrap
+(at) COL2x COL2w mm textwrap
+(indfri) COL2x COL2w mm textwrap
+DINE. COL2x COL2w mm textwrap
+(forpligtelser) COL2x COL2w mm textwrap
+(i) COL2x COL2w mm textwrap
+(henhold) COL2x COL2w mm textwrap
+(til) COL2x COL2w mm textwrap
+(laane-) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(kreditaftalen.) COL2x COL2w mm textwrap
+SDU. COL2x COL2w mm textwrap
+(har) COL2x COL2w mm textwrap
+(herefter) COL2x COL2w mm textwrap
+(ret) COL2x COL2w mm textwrap
+(til) COL2x COL2w mm textwrap
+(en) COL2x COL2w mm textwrap
+(reduktion) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(de) COL2x COL2w mm textwrap
+(samlede) COL2x COL2w mm textwrap
+(kreditomkostninger,) COL2x COL2w mm textwrap
+(der) COL2x COL2w mm textwrap
+(bestaar) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(renter) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(omkostninger) COL2x COL2w mm textwrap
+(i) COL2x COL2w mm textwrap
+(den) COL2x COL2w mm textwrap
+(resterende) COL2x COL2w mm textwrap
+(del) COL2x COL2w mm textwrap
+(af) COL2x COL2w mm textwrap
+(laanet) COL2x COL2w mm textwrap
+(og) COL2x COL2w mm textwrap
+(kredittens) COL2x COL2w mm textwrap
+(l\371betid.) COL2x COL2w mm textwrap
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x COL2x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+
+/ARIALbold 8 selectfont

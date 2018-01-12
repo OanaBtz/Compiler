@@ -1,0 +1,132 @@
+/SIKHED05A (osguhieughreiw) def
+/BANKSTED (782478) def
+/LANGKTONR (11111111111) def
+/BANKNAVN. (BEC Banken) def
+/REGTYPE11 (2013) def
+/REGTYPELNG (Kassekredit) def
+/DATO (24.12.0001) def
+/BREVNAVN (BECKOPL) def
+/TID (34758345) def
+/INDENT 0 def
+/KTOLAAN (K) def
+/LKAFT (P) def
+/AFDYDL01 (kek) def
+/PRIERH (E) def
+
+/ALLON001A. ( og finde anvendelse, indtil kreditaftalen udl\371ber.) def
+/ALLON001B () def
+/ALLON002A. () def
+/ALLON002B () def
+/ALLON003A. () def
+/ALLON003B () def
+/ALLON004A. (Anslaaet depotgebyr inkl. moms i) def
+/ALLON004B () def
+/ALLON005A. (laanets/kredittens l\371betid                                             468,49) def
+/ALLON005B () def
+/ALLON006A. () def
+/ALLON006B () def
+/ALLON007A. () def
+/ALLON007B () def
+/ALLON008A. (Anslaaet depotgebyr inkl. moms i) def
+/ALLON008B () def
+/ALLON009A. (laanets/kredittens l\371betid                                             468,49) def
+/ALLON009B () def
+/ALLON010A. () def
+/ALLON010B () def
+/ALLON011A. () def
+/ALLON011B () def
+/ALLON012A. (Der udskrives kontoudskrift ved fyldt udskrift og ultimo aar) def
+/ALLON012B () def
+/ALLON013A. () def
+/ALLON013B () def
+/ALLON014A. () def
+/ALLON014B () def
+/ALLON015A. (Afviklingstabel:) def
+/ALLON015B () def
+/ALLON016A. () def
+/ALLON016B () def
+/ALLON017A. (Dato                                      Ydelse                                  Rente/Prov.                                       Afdrag                                       Restg\361ld) def
+/ALLON017B () def
+/ALLON018A. (31.07.2015                          1.000,00                                              0,00                                     1.000,00                                       44.000,00) def
+/ALLON018B () def
+/ALLON019A. (31.08.2015                          1.000,00                                              0,00                                     1.000,00                                       43.000,00) def
+/ALLON019B () def
+/ALLON020A. (30.09.2015                          2.432,63                                       1.432,63                                     1.000,00                                       42.000,00) def
+/ALLON020B () def
+/ALLON021A. (30.10.2015                          1.000,00                                              0,00                                     1.000,00                                       41.000,00) def
+/ALLON021B () def
+/ALLON022A. (30.11.2015                          1.000,00                                              0,00                                     1.000,00                                       40.000,00) def
+/ALLON022B () def
+/ALLON023A. (30.12.2015                          2.346,99                                       1.346,99                                     1.000,00                                       39.000,00) def
+/ALLON023B () def
+/ALLON024A. (29.01.2016                          1.000,00                                              0,00                                     1.000,00                                       38.000,00) def
+/ALLON024B () def 
+/ALLON025A. (29.02.2016                          1.000,00                                              0,00                                     1.000,00                                       37.000,00) def
+/ALLON025B () def
+/ALLON026A. (31.03.2016                          2.246,64                                       1.246,64                                     1.000,00                                       36.000,00) def
+/ALLON026B () def          
+/ALLON027A. (29.04.2016                          1.000,00                                              0,00                                     1.000,00                                       35.000,00) def
+/ALLON027B () def
+/ALLON028A. (31.05.2016                          1.000,00                                              0,00                                     1.000,00                                       34.000,00) def
+/ALLON028B () def
+/ALLON029A. (30.06.2016                          2.164,89                                       1.164,89                                     1.000,00                                       33.000,00) def
+/ALLON029B () def
+/ALLON030A. (29.07.2016                          1.000,00                                              0,00                                     1.000,00                                       32.000,00) def
+/ALLON030B () def
+/ALLON031A. (31.08.2016                          1.000,00                                              0,00                                     1.000,00                                       31.000,00) def
+/ALLON031B () def
+/ALLON032A. (30.09.2016                          2.094,76                                       1.094,76                                     1.000,00                                       30.000,00) def
+/ALLON032B () def
+/ALLON033A. (31.10.2016                          1.000,00                                              0,00                                     1.000,00                                       29.000,00) def
+/ALLON033B () def       
+/ALLON034A. (30.11.2016                          1.000,00                                              0,00                                     1.000,00                                       28.000,00) def
+/ALLON034B () def
+/ALLON035A. (30.12.2016                          2.011,81                                       1.011,81                                     1.000,00                                       27.000,00) def
+/ALLON035B () def
+/ALLON036A. (31.01.2017                          1.000,00                                              0,00                                     1.000,00                                       26.000,00) def
+/ALLON036B () def
+/ALLON037A. (28.02.2017                          1.000,00                                              0,00                                     1.000,00                                       25.000,00) def
+/ALLON037B () def
+/ALLON038A. (31.03.2017                          1.911,42                                          911,42                                     1.000,00                                       24.000,00) def
+/ALLON038B () def
+/ALLON039A. (28.04.2017                          1.000,00                                              0,00                                     1.000,00                                       23.000,00) def
+/ALLON039B () def
+/ALLON040A. (31.05.2017                          1.000,00                                              0,00                                     1.000,00                                       22.000,00) def
+/ALLON040B () def
+/ALLON041A. (30.06.2017                          1.838,68                                          838,68                                     1.000,00                                       21.000,00) def
+/ALLON041B () def
+/ALLON042A. (31.07.2017                          1.000,00                                              0,00                                     1.000,00                                       20.000,00) def
+/ALLON042B () def
+/ALLON043A. (31.08.2017                          1.000,00                                              0,00                                     1.000,00                                       19.000,00) def
+/ALLON043B () def
+/ALLON044A. (29.09.2017                          1.765,35                                          765,35                                     1.000,00                                       18.000,00) def
+/ALLON044B () def
+/ALLON045A. (31.10.2017                          1.000,00                                              0,00                                     1.000,00                                       17.000,00) def
+/ALLON045B () def
+/ALLON046A. (30.11.2017                          1.000,00                                              0,00                                     1.000,00                                       16.000,00) def
+/ALLON046B () def
+/ALLON047A. () def
+/ALLON047B () def
+/ALLON048A. () def
+/ALLON048B () def
+/ALLON049A. () def
+/ALLON049B () def
+/ALLON050A. () def
+/ALLON050B () def
+/ALLON051A. () def
+/ALLON051B () def
+/ALLON052A. () def
+/ALLON052B () def
+/ALLON053A. () def
+/ALLON053B () def
+/ALLON054A. () def
+/ALLON054B () def
+/ALLON055A. () def
+/ALLON055B () def
+/ALLON056A. () def
+/ALLON056B () def
+
+
+
+
+

@@ -1,0 +1,692 @@
+ %!PS
+
+/ulshow % string on stack
+{
+  currentpoint /y exch def /x exch def
+  dup
+  show
+  stringwidth pop dup neg 0 rlineto stroke
+  x add y moveto
+} def
+/mm {360 mul 127 div} def
+
+
+/pagewidth  currentpagedevice /PageSize get 0 get def
+/right-indent 0 mm def
+/right-justify { 
+	/y exch def 
+	dup stringwidth pop  
+ 	right-indent y moveto  
+	neg 0 rmoveto  
+	show 
+} def 
+
+/right-justify-ulshow { 
+	/y exch def 
+	dup stringwidth pop  
+ 	right-indent y moveto  
+	neg 0 rmoveto  
+	ulshow 
+} def 
+
+/over {
+	1 index
+} def
+
+/rot {
+	3 -1 roll
+} def
+
+/toupper {
+	dup length 0 eq { return } if
+	dup length 1 sub 0 1 rot {
+		over over get char_toupper 2 index 3 1 roll put
+	} for
+} def
+
+/char_toupper {
+	32 not and   % Incorrect for non-alphabetic characters
+} def
+
+ /textwrap
+{
+/width exch def    
+/startx exch def    
+/txt exch def
+currentpoint /y exch def /x exch def
+/txtwidth txt stringwidth pop def
+x txtwidth add startx width add gt
+{
+   x startx sub neg 3 neg mm rmoveto
+}if
+txt show
+( ) stringwidth pop 0 rmoveto
+}def
+/SIKHED05A (osguhieughreiw) def
+/BANKSTED (782478) def
+/LANGKTONR (11111111111) def
+/BANKNAVN. (BEC Banken) def
+/REGTYPE11 (2013) def
+/REGTYPELNG (Kassekredit) def
+/DATO (24.12.0001) def
+/BREVNAVN (BECKOPL) def
+/TID (34758345) def
+/INDENT 0 def
+/KTOLAAN (K) def
+/LKAFT (P) def
+/AFDYDL01 (kek) def
+/PRIERH (E) def
+
+/ALLON001A. (29.12.2017                      1.681,57                             681,57                         1.000,00                        15.000,00) def
+/ALLON001B () def
+/ALLON002A. (31.01.2018                      1.000,00                                 0,00                         1.000,00                        14.000,00) def
+/ALLON002B () def
+/ALLON003A. (28.02.2018                      1.000,00                                 0,00                         1.000,00                        13.000,00) def
+/ALLON003B () def
+/ALLON004A. (30.04.2018                      1.000,00                                 0,00                         1.000,00                        12.000,00) def
+/ALLON004B () def
+/ALLON005A. (31.05.2018                      1.000,00                                 0,00                         1.000,00                        11.000,00) def
+/ALLON005B () def
+/ALLON006A. (29.06.2018                      1.509,89                             509,89                         1.000,00                          9.000,00) def
+/ALLON006B () def
+/ALLON007A. (31.07.2018                      1.000,00                                 0,00                         1.000,00                          8.000,00) def
+/ALLON007B () def
+/ALLON008A. (31.08.2018                      1.000,00                                 0,00                         1.000,00                          7.000,00) def
+/ALLON008B () def
+/ALLON009A. (28.09.2018                      1.432,33                             432,00                         1.000,00                          6.000,00) def
+/ALLON009B () def
+/ALLON010A. (31.10.2018                      1.000,00                                 0,00                         1.000,00                          5.000,00) def
+/ALLON010B () def
+/ALLON011A. (30.11.2018                      1.000,00                                 0,00                         1.000,00                          4.000,00) def
+/ALLON011B () def
+/ALLON012A. (28.12.2018                      1.348,55                             348,55                         1.000,00                          3.000,00) def
+/ALLON012B () def
+/ALLON013A. (31.01.2019                      1.000,00                                 0,00                         1.000,00                          2.000,00) def
+/ALLON013B () def
+/ALLON014A. (28.02.2019                      1.000,00                                 0,00                         1.000,00                          1.000,00) def
+/ALLON014B () def
+/ALLON015A. (29.03.2019                      1.260,76                             260,76                         1.000,00                                 0,00) def
+/ALLON015B () def
+/ALLON016A. () def
+/ALLON016B () def
+/ALLON017A. () def
+/ALLON017B () def
+/ALLON018A. () def
+/ALLON018B () def
+/ALLON019A. () def
+/ALLON019B () def
+/ALLON020A. () def
+/ALLON020B () def
+/ALLON021A. () def
+/ALLON021B () def
+/ALLON022A. () def
+/ALLON022B () def
+/ALLON023A. () def
+/ALLON023B () def
+/ALLON024A. () def
+/ALLON024B () def
+/ALLON025A. () def
+/ALLON025B () def
+/ALLON026A. () def
+/ALLON026B () def
+/ALLON027A. () def
+/ALLON027B () def
+/ALLON028A. () def
+/ALLON028B () def
+/ALLON029A. () def
+/ALLON029B () def
+/ALLON030A. () def
+/ALLON030B () def
+/ALLON031A. () def
+/ALLON031B () def
+/ALLON032A. () def
+/ALLON032B () def
+/ALLON033A. () def
+/ALLON033B () def
+/ALLON034A. () def
+/ALLON034B () def
+/ALLON035A. () def
+/ALLON035B () def
+/ALLON036A. () def
+/ALLON036B () def
+/ALLON037A. () def
+/ALLON037B () def
+/ALLON038A. () def
+/ALLON038B () def
+/ALLON039A. () def
+/ALLON039B () def
+/ALLON040A. () def
+/ALLON040B () def
+/ALLON041A. () def
+/ALLON041B () def
+/ALLON042A. () def
+/ALLON042B () def
+/ALLON043A. () def
+/ALLON043B () def
+/ALLON044A. () def
+/ALLON044B () def
+/ALLON045A. () def
+/ALLON045B () def
+/ALLON046A. () def
+/ALLON046B () def
+/ALLON047A. () def
+/ALLON047B () def
+/ALLON048A. () def
+/ALLON048B () def
+/ALLON049A. () def
+/ALLON049B () def
+/ALLON050A. () def
+/ALLON050B () def
+/ALLON051A. () def
+/ALLON051B () def
+/ALLON052A. () def
+/ALLON052B () def
+/ALLON053A. () def
+/ALLON053B () def
+/ALLON054A. () def
+/ALLON054B () def
+/ALLON055A. () def
+/ALLON055B () def
+/ALLON056A. () def
+/ALLON056B () def
+/ALLON057A. () def
+/ALLON057B () def
+/ALLON058A. () def
+/ALLON058B () def
+/ALLON059A. () def
+/ALLON059B () def
+/ALLON060A. () def
+/ALLON060B () def
+/ARIALbold 8 selectfont
+/VEND1x 7 def
+/VEND1y 27 def
+/VEND1w 180 def
+/VEND1r -90 def
+/OVERSKR1x 20 def
+/OVERSKR1y 265 def
+/OVERSKR1w 175 def
+VEND1x mm VEND1y mm moveto
+VEND1r neg rotate
+currentpoint /VEND1y exch def /VEND1x exch def
+INDENT mm 0 rmoveto
+/ARIALboldbold 8 selectfont
+BREVNAVN VEND1x VEND1w mm textwrap
+currentpoint /y exch def /x exch def
+x VEND1x sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Kl.) VEND1x VEND1w mm textwrap
+TID VEND1x VEND1w mm textwrap
+VEND1r rotate
+/ARIALbold 8 selectfont
+OVERSKR1x mm OVERSKR1y mm moveto
+currentpoint /OVERSKR1y exch def /OVERSKR1x exch def
+INDENT mm 0 rmoveto
+/ARIALboldbold 12 selectfont
+KTOLAAN toupper
+(K)
+eq
+{
+  (Afviklingstabel) ulshow
+}
+{
+  (Kreditoplysninger) ulshow
+}ifelse
+
+/ARIALbold 8 selectfont
+/BOXx 20 def
+/BOXy 257 def
+/BOXw 175 def
+BOXx mm BOXy mm moveto
+currentpoint /BOXy exch def /BOXx exch def
+INDENT mm 0 rmoveto
+/ARIALboldbold 9 selectfont
+currentpoint /y exch def /x exch def
+x BOXx sub neg 1 mm add 0 rmoveto
+(BankstedÂ) BOXx mm BOXw mm textwrap
+currentpoint /y exch def /x exch def
+x BOXx sub neg 30 mm add 0 rmoveto
+(KontonummerÂ) BOXx mm BOXw mm textwrap
+currentpoint /y exch def /x exch def
+x BOXx sub neg 65 mm add 0 rmoveto
+(KredittypeÂ) BOXx mm BOXw mm textwrap
+currentpoint /y exch def /x exch def
+x BOXx sub neg 140 mm add 0 rmoveto
+(Dannelsesdato) BOXx mm BOXw mm textwrap
+newpath
+20 mm 262 mm moveto
+195 mm 262 mm lineto
+195 mm 249 mm lineto
+20 mm 249 mm lineto
+closepath
+stroke
+20 mm 45 mm moveto
+newpath
+20 mm 245 mm moveto
+195 mm 245 mm lineto
+195 mm 25 mm lineto
+20 mm 25 mm lineto
+closepath
+stroke
+20 mm 45 mm moveto
+
+/ARIALbold 8 selectfont
+/BUNDTXTx 22 def
+/BUNDTXTy 117 def
+/BUNDTXTw 170 def
+BUNDTXTx mm BUNDTXTy mm moveto
+currentpoint /BUNDTXTy exch def /BUNDTXTx exch def
+INDENT mm 0 rmoveto
+/ARIALboldbold 9 selectfont
+newpath
+20 mm 55 mm moveto
+195 mm 55 mm lineto
+closepath
+stroke
+22 mm 52 mm moveto
+/indent 1 def
+(Ydelse) BUNDTXTx BUNDTXTw mm textwrap
+(og) BUNDTXTx BUNDTXTw mm textwrap
+(l\371betid) BUNDTXTx BUNDTXTw mm textwrap
+(er) BUNDTXTx BUNDTXTw mm textwrap
+(beregnet) BUNDTXTx BUNDTXTw mm textwrap
+(paa) BUNDTXTx BUNDTXTw mm textwrap
+(grundlag) BUNDTXTx BUNDTXTw mm textwrap
+(af) BUNDTXTx BUNDTXTw mm textwrap
+(de) BUNDTXTx BUNDTXTw mm textwrap
+(priser,) BUNDTXTx BUNDTXTw mm textwrap
+(renter) BUNDTXTx BUNDTXTw mm textwrap
+(og) BUNDTXTx BUNDTXTw mm textwrap
+(gebyrer,) BUNDTXTx BUNDTXTw mm textwrap
+(som) BUNDTXTx BUNDTXTw mm textwrap
+(g\361lder) BUNDTXTx BUNDTXTw mm textwrap
+(ved) BUNDTXTx BUNDTXTw mm textwrap
+(aftalens) BUNDTXTx BUNDTXTw mm textwrap
+(indgaaelse.) BUNDTXTx BUNDTXTw mm textwrap
+(Hvis) BUNDTXTx BUNDTXTw mm textwrap
+(der) BUNDTXTx BUNDTXTw mm textwrap
+(sker) BUNDTXTx BUNDTXTw mm textwrap
+(\361ndringer) BUNDTXTx BUNDTXTw mm textwrap
+(heri,) BUNDTXTx BUNDTXTw mm textwrap
+(f.eks.) BUNDTXTx BUNDTXTw mm textwrap
+(at) BUNDTXTx BUNDTXTw mm textwrap
+(renten) BUNDTXTx BUNDTXTw mm textwrap
+(forh\371jes,) BUNDTXTx BUNDTXTw mm textwrap
+(kan) BUNDTXTx BUNDTXTw mm textwrap
+(dette) BUNDTXTx BUNDTXTw mm textwrap
+(medf\371re,) BUNDTXTx BUNDTXTw mm textwrap
+(at) BUNDTXTx BUNDTXTw mm textwrap
+(l\371betiden) BUNDTXTx BUNDTXTw mm textwrap
+(forl\361nges.) BUNDTXTx BUNDTXTw mm textwrap
+currentpoint /y exch def /x exch def
+x BUNDTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x BUNDTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Hvis) BUNDTXTx BUNDTXTw mm textwrap
+PRIERH toupper
+(P)
+eq
+{
+
+}
+{
+
+}ifelse
+(l\361gger) BUNDTXTx BUNDTXTw mm textwrap
+(v\361gt) BUNDTXTx BUNDTXTw mm textwrap
+(paa,) BUNDTXTx BUNDTXTw mm textwrap
+(at) BUNDTXTx BUNDTXTw mm textwrap
+(laanet) BUNDTXTx BUNDTXTw mm textwrap
+(er) BUNDTXTx BUNDTXTw mm textwrap
+(f\361rdigafviklet) BUNDTXTx BUNDTXTw mm textwrap
+(paa) BUNDTXTx BUNDTXTw mm textwrap
+(det) BUNDTXTx BUNDTXTw mm textwrap
+(angivne) BUNDTXTx BUNDTXTw mm textwrap
+(tidspunkt,) BUNDTXTx BUNDTXTw mm textwrap
+(opfordres) BUNDTXTx BUNDTXTw mm textwrap
+PRIERH toupper
+(P)
+eq
+{
+
+}
+{
+
+}ifelse
+(til) BUNDTXTx BUNDTXTw mm textwrap
+(at) BUNDTXTx BUNDTXTw mm textwrap
+(rette) BUNDTXTx BUNDTXTw mm textwrap
+(henvendelse) BUNDTXTx BUNDTXTw mm textwrap
+(til) BUNDTXTx BUNDTXTw mm textwrap
+BANKNAVN. BUNDTXTx BUNDTXTw mm textwrap
+(,) BUNDTXTx BUNDTXTw mm textwrap
+(saaledes) BUNDTXTx BUNDTXTw mm textwrap
+(at) BUNDTXTx BUNDTXTw mm textwrap
+(vi) BUNDTXTx BUNDTXTw mm textwrap
+(kan) BUNDTXTx BUNDTXTw mm textwrap
+(beregne) BUNDTXTx BUNDTXTw mm textwrap
+(om) BUNDTXTx BUNDTXTw mm textwrap
+(l\371betiden) BUNDTXTx BUNDTXTw mm textwrap
+(kan) BUNDTXTx BUNDTXTw mm textwrap
+(overholdes.) BUNDTXTx BUNDTXTw mm textwrap
+(Er) BUNDTXTx BUNDTXTw mm textwrap
+(dette) BUNDTXTx BUNDTXTw mm textwrap
+(ikke) BUNDTXTx BUNDTXTw mm textwrap
+(tilf\361ldet,) BUNDTXTx BUNDTXTw mm textwrap
+(kan) BUNDTXTx BUNDTXTw mm textwrap
+(vi) BUNDTXTx BUNDTXTw mm textwrap
+(tilbyde) BUNDTXTx BUNDTXTw mm textwrap
+(at) BUNDTXTx BUNDTXTw mm textwrap
+(regulere) BUNDTXTx BUNDTXTw mm textwrap
+(ydelsen,) BUNDTXTx BUNDTXTw mm textwrap
+(saaledes) BUNDTXTx BUNDTXTw mm textwrap
+(at) BUNDTXTx BUNDTXTw mm textwrap
+(den) BUNDTXTx BUNDTXTw mm textwrap
+(aftalte) BUNDTXTx BUNDTXTw mm textwrap
+(l\371betid) BUNDTXTx BUNDTXTw mm textwrap
+(kan) BUNDTXTx BUNDTXTw mm textwrap
+(overholdes.) BUNDTXTx BUNDTXTw mm textwrap
+/indent 0 def
+
+/ARIALbold 8 selectfont
+/BANKSTEDx 20 def
+/BANKSTEDy 250 def
+/BANKSTEDw 175 def
+/KREDOPLx 22 def
+/KREDOPLy 238 def
+/KREDOPLw 175 def
+BANKSTEDx mm BANKSTEDy mm moveto
+currentpoint /BANKSTEDy exch def /BANKSTEDx exch def
+INDENT mm 0 rmoveto
+/ARIALboldbold 9 selectfont
+currentpoint /y exch def /x exch def
+x BANKSTEDx sub neg 1 mm add 0 rmoveto
+() BANKSTEDx mm BANKSTEDw mm textwrap
+BANKSTED BANKSTEDx BANKSTEDw mm textwrap
+currentpoint /y exch def /x exch def
+x BANKSTEDx sub neg 30 mm add 0 rmoveto
+() BANKSTEDx mm BANKSTEDw mm textwrap
+LANGKTONR BANKSTEDx BANKSTEDw mm textwrap
+currentpoint /y exch def /x exch def
+x BANKSTEDx sub neg 65 mm add 0 rmoveto
+() BANKSTEDx mm BANKSTEDw mm textwrap
+REGTYPE11 BANKSTEDx BANKSTEDw mm textwrap
+REGTYPELNG BANKSTEDx BANKSTEDw mm textwrap
+currentpoint /y exch def /x exch def
+x BANKSTEDx sub neg 140 mm add 0 rmoveto
+() BANKSTEDx mm BANKSTEDw mm textwrap
+DATO BANKSTEDx BANKSTEDw mm textwrap
+
+/ARIALbold 8 selectfont
+KREDOPLx mm KREDOPLy mm moveto
+currentpoint /KREDOPLy exch def /KREDOPLx exch def
+INDENT mm 0 rmoveto
+ALLON001A. KREDOPLx KREDOPLw mm textwrap
+ALLON001B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON002A. KREDOPLx KREDOPLw mm textwrap
+ALLON002B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON003A. KREDOPLx KREDOPLw mm textwrap
+ALLON003B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON004A. KREDOPLx KREDOPLw mm textwrap
+ALLON004B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON005A. KREDOPLx KREDOPLw mm textwrap
+ALLON005B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON006A. KREDOPLx KREDOPLw mm textwrap
+ALLON006B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON007A. KREDOPLx KREDOPLw mm textwrap
+ALLON007B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON008A. KREDOPLx KREDOPLw mm textwrap
+ALLON008B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON009A. KREDOPLx KREDOPLw mm textwrap
+ALLON009B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON010A. KREDOPLx KREDOPLw mm textwrap
+ALLON010B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON011A. KREDOPLx KREDOPLw mm textwrap
+ALLON011B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON012A. KREDOPLx KREDOPLw mm textwrap
+ALLON012B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON013A. KREDOPLx KREDOPLw mm textwrap
+ALLON013B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON014A. KREDOPLx KREDOPLw mm textwrap
+ALLON014B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON015A. KREDOPLx KREDOPLw mm textwrap
+ALLON015B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON016A. KREDOPLx KREDOPLw mm textwrap
+ALLON016B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON017A. KREDOPLx KREDOPLw mm textwrap
+ALLON017B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON018A. KREDOPLx KREDOPLw mm textwrap
+ALLON018B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON019A. KREDOPLx KREDOPLw mm textwrap
+ALLON019B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON020A. KREDOPLx KREDOPLw mm textwrap
+ALLON020B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON021A. KREDOPLx KREDOPLw mm textwrap
+ALLON021B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON022A. KREDOPLx KREDOPLw mm textwrap
+ALLON022B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON023A. KREDOPLx KREDOPLw mm textwrap
+ALLON023B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON024A. KREDOPLx KREDOPLw mm textwrap
+ALLON024B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON025A. KREDOPLx KREDOPLw mm textwrap
+ALLON025B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON026A. KREDOPLx KREDOPLw mm textwrap
+ALLON026B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON027A. KREDOPLx KREDOPLw mm textwrap
+ALLON027B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON028A. KREDOPLx KREDOPLw mm textwrap
+ALLON028B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON029A. KREDOPLx KREDOPLw mm textwrap
+ALLON029B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON030A. KREDOPLx KREDOPLw mm textwrap
+ALLON030B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON031A. KREDOPLx KREDOPLw mm textwrap
+ALLON031B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON032A. KREDOPLx KREDOPLw mm textwrap
+ALLON032B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON033A. KREDOPLx KREDOPLw mm textwrap
+ALLON033B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON034A. KREDOPLx KREDOPLw mm textwrap
+ALLON034B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON035A. KREDOPLx KREDOPLw mm textwrap
+ALLON035B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON036A. KREDOPLx KREDOPLw mm textwrap
+ALLON036B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON037A. KREDOPLx KREDOPLw mm textwrap
+ALLON037B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON038A. KREDOPLx KREDOPLw mm textwrap
+ALLON038B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON039A. KREDOPLx KREDOPLw mm textwrap
+ALLON039B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON040A. KREDOPLx KREDOPLw mm textwrap
+ALLON040B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON041A. KREDOPLx KREDOPLw mm textwrap
+ALLON041B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON042A. KREDOPLx KREDOPLw mm textwrap
+ALLON042B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON043A. KREDOPLx KREDOPLw mm textwrap
+ALLON043B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON044A. KREDOPLx KREDOPLw mm textwrap
+ALLON044B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON045A. KREDOPLx KREDOPLw mm textwrap
+ALLON045B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON046A. KREDOPLx KREDOPLw mm textwrap
+ALLON046B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON047A. KREDOPLx KREDOPLw mm textwrap
+ALLON047B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON048A. KREDOPLx KREDOPLw mm textwrap
+ALLON048B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON049A. KREDOPLx KREDOPLw mm textwrap
+ALLON049B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON050A. KREDOPLx KREDOPLw mm textwrap
+ALLON050B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON051A. KREDOPLx KREDOPLw mm textwrap
+ALLON051B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON052A. KREDOPLx KREDOPLw mm textwrap
+ALLON052B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON053A. KREDOPLx KREDOPLw mm textwrap
+ALLON053B KREDOPLx KREDOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KREDOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+ALLON054A. KREDOPLx KREDOPLw mm textwrap
+ALLON054B KREDOPLx KREDOPLw mm textwrap
+

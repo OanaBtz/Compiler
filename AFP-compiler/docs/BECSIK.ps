@@ -1,0 +1,582 @@
+ %!PS
+
+/ulshow % string on stack
+{
+  currentpoint /y exch def /x exch def
+  dup
+  show
+  stringwidth pop dup neg 0 rlineto stroke
+  x add y moveto
+} def
+/mm {360 mul 127 div} def
+
+
+/pagewidth  currentpagedevice /PageSize get 0 get def
+/right-indent 0 mm def
+/right-justify { 
+	/y exch def 
+	dup stringwidth pop  
+ 	right-indent y moveto  
+	neg 0 rmoveto  
+	show 
+} def 
+
+/right-justify-ulshow { 
+	/y exch def 
+	dup stringwidth pop  
+ 	right-indent y moveto  
+	neg 0 rmoveto  
+	ulshow 
+} def 
+
+/over {
+	1 index
+} def
+
+/rot {
+	3 -1 roll
+} def
+
+/toupper {
+	dup length 0 eq { return } if
+	dup length 1 sub 0 1 rot {
+		over over get char_toupper 2 index 3 1 roll put
+	} for
+} def
+
+/char_toupper {
+	32 not and   % Incorrect for non-alphabetic characters
+} def
+
+ /textwrap
+{
+/width exch def    
+/startx exch def    
+/txt exch def
+currentpoint /y exch def /x exch def
+/txtwidth txt stringwidth pop def
+x txtwidth add startx width add gt
+{
+   x startx sub neg 3 neg mm rmoveto
+}if
+txt show
+( ) stringwidth pop 0 rmoveto
+}def
+/SIKHED05A (osguhieughreiw) def
+/BANKSTED (782478) def
+/LANGKTONR (11111111111) def
+/REGTYPE11 (2013) def
+/REGTYPELNG (Kassekredit) def
+/DATO (24.12.0001) def
+/BREVNAVN (BECSIK) def
+/TID (34758345) def
+/INDENT 0 def
+
+/SIKHED01A. (Deponeret af:) def
+/SIKHED01B () def
+/SIKHED02A. () def
+/SIKHED02B () def
+/SIKHED03A. (Petersen) def
+/SIKHED03B () def
+/SIKHED04A. (SL\351RET CO-ADRESSE) def
+/SIKHED04B () def
+/SIKHED05A. (N\371rregade 13 B) def
+/SIKHED05B () def
+/SIKHED06A. (7860 Sp\371ttrup) def
+/SIKHED06B () def
+/SIKHED07A. (3333333333333333) def
+/SIKHED07B () def
+/SIKHED08A. () def
+/SIKHED08B () def
+/SIKHED09A. (De til enhver tid i sikkerhedsdepot nr.) def
+/SIKHED09B (2222-222222) def
+/SIKHED10A. () def
+/SIKHED10B () def
+/SIKHED11A. (beroende effekter) def
+/SIKHED11B () def
+/SIKHED12A. () def
+/SIKHED12B () def
+/SIKHED13A. () def
+/SIKHED13B () def
+/SIKHED14A. () def
+/SIKHED14B () def
+/SIKHED15A. () def
+/SIKHED15B () def
+/SIKHED16A. () def
+/SIKHED16B () def
+/SIKHED17A. () def
+/SIKHED17B () def
+/SIKHED18A. () def
+/SIKHED18B () def
+/SIKHED19A. () def
+/SIKHED19B () def
+/SIKHED20A. () def
+/SIKHED20B () def
+/SIKHED21A. () def
+/SIKHED21B () def
+/SIKHED22A. () def
+/SIKHED22B () def
+/SIKHED23A. () def
+/SIKHED23B () def
+/SIKHED24A. () def
+/SIKHED24B () def
+/SIKHED25A. () def
+/SIKHED25B () def
+/SIKHED26A. () def
+/SIKHED26B () def
+/SIKHED27A. () def
+/SIKHED27B () def
+/SIKHED28A. () def
+/SIKHED28B () def
+/SIKHED29A. () def
+/SIKHED29B () def
+/SIKHED30A. () def
+/SIKHED30B () def
+/SIKHED31A. () def
+/SIKHED31B () def
+/SIKHED32A. () def
+/SIKHED32B () def
+/SIKHED33A. () def
+/SIKHED33B () def
+/SIKHED34A. () def
+/SIKHED34B () def
+/SIKHED35A. () def
+/SIKHED35B () def
+/SIKHED36A. () def
+/SIKHED36B () def
+/SIKHED37A. () def
+/SIKHED37B () def
+/SIKHED38A. () def
+/SIKHED38B () def
+/SIKHED39A. () def
+/SIKHED39B () def
+/SIKHED40A. () def
+/SIKHED40B () def
+/SIKHED41A. () def
+/SIKHED41B () def
+/SIKHED42A. () def
+/SIKHED42B () def
+/SIKHED43A. () def
+/SIKHED43B () def
+/SIKHED44A. () def
+/SIKHED44B () def
+/SIKHED45A. () def
+/SIKHED45B () def
+/SIKHED46A. () def
+/SIKHED46B () def
+/SIKHED47A. () def
+/SIKHED47B () def
+/SIKHED48A. () def
+/SIKHED48B () def
+/SIKHED49A. () def
+/SIKHED49B () def
+/SIKHED50A. () def
+/SIKHED50B () def
+/SIKHED51A. () def
+/SIKHED51B () def
+/SIKHED52A. () def
+/SIKHED52B () def
+/SIKHED53A. () def
+/SIKHED53B () def
+/SIKHED54A. () def
+/SIKHED54B () def
+/SIKHED55A. () def
+/SIKHED55B () def
+/SIKHED56A. () def
+/SIKHED56B () def
+/SIKHED57A. () def
+/SIKHED57B () def
+/SIKHED58A. () def
+/SIKHED58B () def
+/SIKHED59A. () def
+/SIKHED59B () def
+/COUR 10 selectfont
+/VENDx 7 def
+/VENDy 27 def
+/VENDw 180 def
+/VENDr -90 def
+/OVERSKRx 20 def
+/OVERSKRy 265 def
+/OVERSKRw 175 def
+VENDx mm VENDy mm moveto
+VENDr neg rotate
+currentpoint /VENDy exch def /VENDx exch def
+INDENT mm 0 rmoveto
+/ARIALbold 6 selectfont
+BREVNAVN VENDx VENDw mm textwrap
+currentpoint /y exch def /x exch def
+x VENDx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Kl.) VENDx VENDw mm textwrap
+TID VENDx VENDw mm textwrap
+VENDr rotate
+/COUR 10 selectfont
+OVERSKRx mm OVERSKRy mm moveto
+currentpoint /OVERSKRy exch def /OVERSKRx exch def
+INDENT mm 0 rmoveto
+/ARIALboldbold 12 selectfont
+(Sikkerheder) ulshow
+
+/COUR 10 selectfont
+/BOXx 20 def
+/BOXy 257 def
+/BOXw 175 def
+BOXx mm BOXy mm moveto
+currentpoint /BOXy exch def /BOXx exch def
+INDENT mm 0 rmoveto
+/ARIALbold 9 selectfont
+currentpoint /y exch def /x exch def
+x BOXx sub neg 1 mm add 0 rmoveto
+(BankstedÂ) BOXx mm BOXw mm textwrap
+currentpoint /y exch def /x exch def
+x BOXx sub neg 30 mm add 0 rmoveto
+(KontonummerÂ) BOXx mm BOXw mm textwrap
+currentpoint /y exch def /x exch def
+x BOXx sub neg 65 mm add 0 rmoveto
+(KredittypeÂ) BOXx mm BOXw mm textwrap
+currentpoint /y exch def /x exch def
+x BOXx sub neg 140 mm add 0 rmoveto
+(Dannelsesdato) BOXx mm BOXw mm textwrap
+newpath
+20 mm 262 mm moveto
+195 mm 262 mm lineto
+195 mm 249 mm lineto
+20 mm 249 mm lineto
+closepath
+stroke
+20 mm 45 mm moveto
+newpath
+20 mm 245 mm moveto
+195 mm 245 mm lineto
+195 mm 25 mm lineto
+20 mm 25 mm lineto
+closepath
+stroke
+20 mm 45 mm moveto
+
+/COUR 10 selectfont
+/BANKSTEDx 20 def
+/BANKSTEDy 250 def
+/BANKSTEDw 175 def
+/SIKKERx 25 def
+/SIKKERy 238 def
+/SIKKERw 175 def
+BANKSTEDx mm BANKSTEDy mm moveto
+currentpoint /BANKSTEDy exch def /BANKSTEDx exch def
+INDENT mm 0 rmoveto
+/ARIALbold 9 selectfont
+currentpoint /y exch def /x exch def
+x BANKSTEDx sub neg 1 mm add 0 rmoveto
+() BANKSTEDx mm BANKSTEDw mm textwrap
+BANKSTED BANKSTEDx BANKSTEDw mm textwrap
+currentpoint /y exch def /x exch def
+x BANKSTEDx sub neg 30 mm add 0 rmoveto
+() BANKSTEDx mm BANKSTEDw mm textwrap
+LANGKTONR BANKSTEDx BANKSTEDw mm textwrap
+currentpoint /y exch def /x exch def
+x BANKSTEDx sub neg 65 mm add 0 rmoveto
+() BANKSTEDx mm BANKSTEDw mm textwrap
+REGTYPE11 BANKSTEDx BANKSTEDw mm textwrap
+REGTYPELNG BANKSTEDx BANKSTEDw mm textwrap
+currentpoint /y exch def /x exch def
+x BANKSTEDx sub neg 140 mm add 0 rmoveto
+() BANKSTEDx mm BANKSTEDw mm textwrap
+DATO BANKSTEDx BANKSTEDw mm textwrap
+
+/COUR 10 selectfont
+SIKKERx mm SIKKERy mm moveto
+currentpoint /SIKKERy exch def /SIKKERx exch def
+INDENT mm 0 rmoveto
+SIKHED01A. SIKKERx SIKKERw mm textwrap
+SIKHED01B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED02A. SIKKERx SIKKERw mm textwrap
+SIKHED02B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED03A. SIKKERx SIKKERw mm textwrap
+SIKHED03B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED04A. SIKKERx SIKKERw mm textwrap
+SIKHED04B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED05A. SIKKERx SIKKERw mm textwrap
+SIKHED05B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED06A. SIKKERx SIKKERw mm textwrap
+SIKHED06B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED07A. SIKKERx SIKKERw mm textwrap
+SIKHED07B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED08A. SIKKERx SIKKERw mm textwrap
+SIKHED08B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED09A. SIKKERx SIKKERw mm textwrap
+SIKHED09B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED10A. SIKKERx SIKKERw mm textwrap
+SIKHED10B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED11A. SIKKERx SIKKERw mm textwrap
+SIKHED11B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED12A. SIKKERx SIKKERw mm textwrap
+SIKHED12B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED13A. SIKKERx SIKKERw mm textwrap
+SIKHED13B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED14A. SIKKERx SIKKERw mm textwrap
+SIKHED14B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED15A. SIKKERx SIKKERw mm textwrap
+SIKHED15B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED16A. SIKKERx SIKKERw mm textwrap
+SIKHED16B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED17A. SIKKERx SIKKERw mm textwrap
+SIKHED17B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED18A. SIKKERx SIKKERw mm textwrap
+SIKHED18B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED19A. SIKKERx SIKKERw mm textwrap
+SIKHED19B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED20A. SIKKERx SIKKERw mm textwrap
+SIKHED20B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED21A. SIKKERx SIKKERw mm textwrap
+SIKHED21B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED22A. SIKKERx SIKKERw mm textwrap
+SIKHED22B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED23A. SIKKERx SIKKERw mm textwrap
+SIKHED23B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED24A. SIKKERx SIKKERw mm textwrap
+SIKHED24B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED25A. SIKKERx SIKKERw mm textwrap
+SIKHED25B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED26A. SIKKERx SIKKERw mm textwrap
+SIKHED26B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED27A. SIKKERx SIKKERw mm textwrap
+SIKHED27B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED28A. SIKKERx SIKKERw mm textwrap
+SIKHED28B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED29A. SIKKERx SIKKERw mm textwrap
+SIKHED29B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED30A. SIKKERx SIKKERw mm textwrap
+SIKHED30B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED31A. SIKKERx SIKKERw mm textwrap
+SIKHED31B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED32A. SIKKERx SIKKERw mm textwrap
+SIKHED32B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED33A. SIKKERx SIKKERw mm textwrap
+SIKHED33B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED34A. SIKKERx SIKKERw mm textwrap
+SIKHED34B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED35A. SIKKERx SIKKERw mm textwrap
+SIKHED35B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED36A. SIKKERx SIKKERw mm textwrap
+SIKHED36B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED37A. SIKKERx SIKKERw mm textwrap
+SIKHED37B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED38A. SIKKERx SIKKERw mm textwrap
+SIKHED38B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED39A. SIKKERx SIKKERw mm textwrap
+SIKHED39B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED40A. SIKKERx SIKKERw mm textwrap
+SIKHED40B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED41A. SIKKERx SIKKERw mm textwrap
+SIKHED41B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED42A. SIKKERx SIKKERw mm textwrap
+SIKHED42B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED43A. SIKKERx SIKKERw mm textwrap
+SIKHED43B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED44A. SIKKERx SIKKERw mm textwrap
+SIKHED44B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED45A. SIKKERx SIKKERw mm textwrap
+SIKHED45B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED46A. SIKKERx SIKKERw mm textwrap
+SIKHED46B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED47A. SIKKERx SIKKERw mm textwrap
+SIKHED47B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED48A. SIKKERx SIKKERw mm textwrap
+SIKHED48B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED49A. SIKKERx SIKKERw mm textwrap
+SIKHED49B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED50A. SIKKERx SIKKERw mm textwrap
+SIKHED50B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED51A. SIKKERx SIKKERw mm textwrap
+SIKHED51B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED52A. SIKKERx SIKKERw mm textwrap
+SIKHED52B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED53A. SIKKERx SIKKERw mm textwrap
+SIKHED53B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED54A. SIKKERx SIKKERw mm textwrap
+SIKHED54B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED55A. SIKKERx SIKKERw mm textwrap
+SIKHED55B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED56A. SIKKERx SIKKERw mm textwrap
+SIKHED56B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED57A. SIKKERx SIKKERw mm textwrap
+SIKHED57B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED58A. SIKKERx SIKKERw mm textwrap
+SIKHED58B SIKKERx SIKKERw mm textwrap
+currentpoint /y exch def /x exch def
+x SIKKERx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+SIKHED59A. SIKKERx SIKKERw mm textwrap
+SIKHED59B SIKKERx SIKKERw mm textwrap
+

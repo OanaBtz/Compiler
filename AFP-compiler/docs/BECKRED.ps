@@ -1,0 +1,553 @@
+ %!PS
+
+/ulshow % string on stack
+{
+  currentpoint /y exch def /x exch def
+  dup
+  show
+  stringwidth pop dup neg 0 rlineto stroke
+  x add y moveto
+} def
+/mm {360 mul 127 div} def
+
+
+/pagewidth  currentpagedevice /PageSize get 0 get def
+/right-indent 0 mm def
+/right-justify { 
+	/y exch def 
+	dup stringwidth pop  
+ 	right-indent y moveto  
+	neg 0 rmoveto  
+	show 
+} def 
+
+/right-justify-ulshow { 
+	/y exch def 
+	dup stringwidth pop  
+ 	right-indent y moveto  
+	neg 0 rmoveto  
+	ulshow 
+} def 
+
+/over {
+	1 index
+} def
+
+/rot {
+	3 -1 roll
+} def
+
+/toupper {
+	dup length 0 eq { return } if
+	dup length 1 sub 0 1 rot {
+		over over get char_toupper 2 index 3 1 roll put
+	} for
+} def
+
+/char_toupper {
+	32 not and   % Incorrect for non-alphabetic characters
+} def
+
+ /textwrap
+{
+/width exch def    
+/startx exch def    
+/txt exch def
+currentpoint /y exch def /x exch def
+/txtwidth txt stringwidth pop def
+x txtwidth add startx width add gt
+{
+   x startx sub neg 3 neg mm rmoveto
+}if
+txt show
+( ) stringwidth pop 0 rmoveto
+}def
+/SIKHED05A (osguhieughreiw) def
+/BANKSTED (782478) def
+/LANGKTONR (11111111111) def
+/BANKNAVN. (BEC Banken) def
+/REGTYPE11 (2013) def
+/REGTYPELNG (Kassekredit) def
+/DATO (24.12.0001) def
+/BREVNAVN (BECKRED) def
+/TID (34758345) def
+/INDENT 0 def
+/KTOLAAN (K) def
+/LKAFT (P) def
+/AFDYDL01 (kek) def
+/PRIERH (P) def
+/DINE. (dig) def
+/DIN. (dig) def
+/DIG. (dig) def
+/DU. (dig) def
+/BANKNAVN. (BEC Banken) def
+/BANKNAVN.. (BEC Banken) def
+/SDU. (Du) def
+/GENVARSEL. (fyha) def
+/GENVARSEL4. (fyha) def
+/DEBANTAL (1) def
+/KTOKNDNR1 (00000000000) def
+/DEB1ADR1 (Olsen Drag\371r K\371benhavn) def
+/DEB1ADR2 (Strandgade 16) def
+/DEB1ADR3 (4600 K\371ge) def
+/DEB1ADR4 () def
+/DEB1ADR5 () def
+PRIERH toupper
+(0)
+eq
+{
+  (Skriv P for privat eller E for erhverv) show
+
+}
+if
+PRIERH toupper
+(E)
+eq
+{
+  /debsomt (V) def
+  /deblomt () def
+  /migos () def
+  /min () def
+  /mine () def
+
+}
+if
+DEBANTAL(1)
+eq
+{
+  /debsomt (J) def
+  /deblomt () def
+  /migos () def
+  /min () def
+  /mine () def
+
+}
+{
+  /debsomt (V) def  /deblomt () def  /migos () def  /min () def  /mine () def
+}ifelse
+/ARIALbold 9 selectfont
+/VENDx 7 def
+/VENDy 27 def
+/VENDw 180 def
+/VENDr -90 def
+/OVERSKRx 20 def
+/OVERSKRy 265 def
+/OVERSKRw 175 def
+VENDx mm VENDy mm moveto
+VENDr neg rotate
+currentpoint /VENDy exch def /VENDx exch def
+INDENT mm 0 rmoveto
+/ARIALbold 6 selectfont
+BREVNAVN VENDx VENDw mm textwrap
+currentpoint /y exch def /x exch def
+x VENDx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Kl.) VENDx VENDw mm textwrap
+TID VENDx VENDw mm textwrap
+VENDr rotate
+/ARIALbold 9 selectfont
+OVERSKRx mm OVERSKRy mm moveto
+currentpoint /OVERSKRy exch def /OVERSKRx exch def
+INDENT mm 0 rmoveto
+/ARIALboldbold 12 selectfont
+(Kreditaftale) ulshow
+PRIERH toupper
+(P)
+eq
+{
+  (Forbruger) ulshow
+}
+if
+PRIERH toupper
+(E)
+eq
+{
+  (Erhverv) ulshow
+}
+if
+
+/ARIALbold 9 selectfont
+/SIDEx 20 def
+/SIDEy 257 def
+/SIDEw 175 def
+SIDEx mm SIDEy mm moveto
+currentpoint /SIDEy exch def /SIDEx exch def
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x SIDEx sub neg 1 mm add 0 rmoveto
+(BankstedÂ) SIDEx mm SIDEw mm textwrap
+currentpoint /y exch def /x exch def
+x SIDEx sub neg 30 mm add 0 rmoveto
+(KontonummerÂ) SIDEx mm SIDEw mm textwrap
+currentpoint /y exch def /x exch def
+x SIDEx sub neg 65 mm add 0 rmoveto
+(KredittypeÂ) SIDEx mm SIDEw mm textwrap
+currentpoint /y exch def /x exch def
+x SIDEx sub neg 140 mm add 0 rmoveto
+(Dannelsesdato) SIDEx mm SIDEw mm textwrap
+newpath
+20 mm 262 mm moveto
+195 mm 262 mm lineto
+195 mm 249 mm lineto
+20 mm 249 mm lineto
+closepath
+stroke
+20 mm 45 mm moveto
+newpath
+20 mm 245 mm moveto
+195 mm 245 mm lineto
+195 mm 205 mm lineto
+20 mm 205 mm lineto
+closepath
+stroke
+20 mm 45 mm moveto
+newpath
+20 mm 201 mm moveto
+195 mm 201 mm lineto
+195 mm 17 mm lineto
+20 mm 17 mm lineto
+closepath
+stroke
+20 mm 45 mm moveto
+
+/BANKSTEDx 20 def
+/BANKSTEDy 250 def
+/BANKSTEDw 175 def
+/KUNDEOPLx 25 def
+/KUNDEOPLy 236 def
+/KUNDEOPLw 85 def
+/KUNDEOPL2x 112.5 def
+/KUNDEOPL2y 236 def
+/KUNDEOPL2w 85 def
+BANKSTEDx mm BANKSTEDy mm moveto
+currentpoint /BANKSTEDy exch def /BANKSTEDx exch def
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x BANKSTEDx sub neg 1 mm add 0 rmoveto
+() BANKSTEDx mm BANKSTEDw mm textwrap
+BANKSTED BANKSTEDx BANKSTEDw mm textwrap
+currentpoint /y exch def /x exch def
+x BANKSTEDx sub neg 30 mm add 0 rmoveto
+() BANKSTEDx mm BANKSTEDw mm textwrap
+LANGKTONR BANKSTEDx BANKSTEDw mm textwrap
+currentpoint /y exch def /x exch def
+x BANKSTEDx sub neg 65 mm add 0 rmoveto
+() BANKSTEDx mm BANKSTEDw mm textwrap
+REGTYPE11 BANKSTEDx BANKSTEDw mm textwrap
+REGTYPELNG BANKSTEDx BANKSTEDw mm textwrap
+currentpoint /y exch def /x exch def
+x BANKSTEDx sub neg 140 mm add 0 rmoveto
+() BANKSTEDx mm BANKSTEDw mm textwrap
+DATO BANKSTEDx BANKSTEDw mm textwrap
+
+KUNDEOPLx mm KUNDEOPLy mm moveto
+currentpoint /KUNDEOPLy exch def /KUNDEOPLx exch def
+INDENT mm 0 rmoveto
+(Laantager) KUNDEOPLx KUNDEOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KUNDEOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x KUNDEOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+DEB1ADR1 KUNDEOPLx KUNDEOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KUNDEOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+DEB1ADR2 KUNDEOPLx KUNDEOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KUNDEOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+DEB1ADR3 KUNDEOPLx KUNDEOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KUNDEOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+DEB1ADR4 KUNDEOPLx KUNDEOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KUNDEOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+DEB1ADR5 KUNDEOPLx KUNDEOPLw mm textwrap
+currentpoint /y exch def /x exch def
+x KUNDEOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x KUNDEOPLx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Kundenummer) KUNDEOPLx KUNDEOPLw mm textwrap
+KTOKNDNR1 KUNDEOPLx KUNDEOPLw mm textwrap
+
+KUNDEOPL2x mm KUNDEOPL2y mm moveto
+currentpoint /KUNDEOPL2y exch def /KUNDEOPL2x exch def
+INDENT mm 0 rmoveto
+DEBANTAL(1)
+gt
+{
+
+}
+if
+
+/ARIALbold 9 selectfont
+/OVERSKRx 20 def
+/OVERSKRy 265 def
+/OVERSKRw 175 def
+/BOXx 20 def
+/BOXy 257 def
+/BOXw 175 def
+/BANKSTEDx 20 def
+/BANKSTEDy 250 def
+/BANKSTEDw 175 def
+/VENDx 7 def
+/VENDy 27 def
+/VENDw 180 def
+/VENDr -90 def
+VENDx mm VENDy mm moveto
+VENDr neg rotate
+currentpoint /VENDy exch def /VENDx exch def
+INDENT mm 0 rmoveto
+/ARIALbold 6 selectfont
+BREVNAVN VENDx VENDw mm textwrap
+currentpoint /y exch def /x exch def
+x VENDx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Kl.) VENDx VENDw mm textwrap
+TID VENDx VENDw mm textwrap
+VENDr rotate
+/ARIALbold 9 selectfont
+/DOCTXTx 23 def
+/DOCTXTy 197 def
+/DOCTXTw 169 def
+DOCTXTx mm DOCTXTy mm moveto
+currentpoint /DOCTXTy exch def /DOCTXTx exch def
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Bel\371b) DOCTXTx DOCTXTw mm textwrap
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Jeg) DOCTXTx DOCTXTw mm textwrap
+(har) DOCTXTx DOCTXTw mm textwrap
+(aftalt) DOCTXTx DOCTXTw mm textwrap
+(med) DOCTXTx DOCTXTw mm textwrap
+(BEC) DOCTXTx DOCTXTw mm textwrap
+(Banken,) DOCTXTx DOCTXTw mm textwrap
+(at) DOCTXTx DOCTXTw mm textwrap
+(jeg) DOCTXTx DOCTXTw mm textwrap
+(kan) DOCTXTx DOCTXTw mm textwrap
+(tr\361kke) DOCTXTx DOCTXTw mm textwrap
+(op) DOCTXTx DOCTXTw mm textwrap
+(til) DOCTXTx DOCTXTw mm textwrap
+(45.000,00) DOCTXTx DOCTXTw mm textwrap
+(kr.) DOCTXTx DOCTXTw mm textwrap
+(paa) DOCTXTx DOCTXTw mm textwrap
+(denne) DOCTXTx DOCTXTw mm textwrap
+(kredit) DOCTXTx DOCTXTw mm textwrap
+(inklusive) DOCTXTx DOCTXTw mm textwrap
+(rente) DOCTXTx DOCTXTw mm textwrap
+(og) DOCTXTx DOCTXTw mm textwrap
+(omkostninger.) DOCTXTx DOCTXTw mm textwrap
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Afvikling) DOCTXTx DOCTXTw mm textwrap
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Ekstraordin\361rt) DOCTXTx DOCTXTw mm textwrap
+(nedskrives) DOCTXTx DOCTXTw mm textwrap
+(kreditten) DOCTXTx DOCTXTw mm textwrap
+(med) DOCTXTx DOCTXTw mm textwrap
+(1.000,00) DOCTXTx DOCTXTw mm textwrap
+(kr.) DOCTXTx DOCTXTw mm textwrap
+(hver) DOCTXTx DOCTXTw mm textwrap
+(maaned,) DOCTXTx DOCTXTw mm textwrap
+(f\371rste) DOCTXTx DOCTXTw mm textwrap
+(gang) DOCTXTx DOCTXTw mm textwrap
+(den) DOCTXTx DOCTXTw mm textwrap
+(31.07.2015.) DOCTXTx DOCTXTw mm textwrap
+(Denne) DOCTXTx DOCTXTw mm textwrap
+(nedskrivning) DOCTXTx DOCTXTw mm textwrap
+(sker) DOCTXTx DOCTXTw mm textwrap
+(gange.) DOCTXTx DOCTXTw mm textwrap
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Rente) DOCTXTx DOCTXTw mm textwrap
+(og) DOCTXTx DOCTXTw mm textwrap
+(omkostninger) DOCTXTx DOCTXTw mm textwrap
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Rente) DOCTXTx DOCTXTw mm textwrap
+(og) DOCTXTx DOCTXTw mm textwrap
+(omkostninger) DOCTXTx DOCTXTw mm textwrap
+(er) DOCTXTx DOCTXTw mm textwrap
+(variabel) DOCTXTx DOCTXTw mm textwrap
+(og) DOCTXTx DOCTXTw mm textwrap
+(fasts\361ttes) DOCTXTx DOCTXTw mm textwrap
+(til) DOCTXTx DOCTXTw mm textwrap
+(enhver) DOCTXTx DOCTXTw mm textwrap
+(tid) DOCTXTx DOCTXTw mm textwrap
+(af) DOCTXTx DOCTXTw mm textwrap
+(BEC) DOCTXTx DOCTXTw mm textwrap
+(Banken.) DOCTXTx DOCTXTw mm textwrap
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Den) DOCTXTx DOCTXTw mm textwrap
+(aarlige) DOCTXTx DOCTXTw mm textwrap
+(rente) DOCTXTx DOCTXTw mm textwrap
+(er) DOCTXTx DOCTXTw mm textwrap
+(variabel) DOCTXTx DOCTXTw mm textwrap
+(og) DOCTXTx DOCTXTw mm textwrap
+(udg\371r) DOCTXTx DOCTXTw mm textwrap
+(p.t.) DOCTXTx DOCTXTw mm textwrap
+(11,000) DOCTXTx DOCTXTw mm textwrap
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Renten) DOCTXTx DOCTXTw mm textwrap
+(beregnes) DOCTXTx DOCTXTw mm textwrap
+(dagligt) DOCTXTx DOCTXTw mm textwrap
+(af) DOCTXTx DOCTXTw mm textwrap
+(den) DOCTXTx DOCTXTw mm textwrap
+(udnyttede) DOCTXTx DOCTXTw mm textwrap
+(kreditramme) DOCTXTx DOCTXTw mm textwrap
+(og) DOCTXTx DOCTXTw mm textwrap
+(tilskrives) DOCTXTx DOCTXTw mm textwrap
+(kreditten) DOCTXTx DOCTXTw mm textwrap
+(hvert) DOCTXTx DOCTXTw mm textwrap
+(kvartal,) DOCTXTx DOCTXTw mm textwrap
+(f\371rste) DOCTXTx DOCTXTw mm textwrap
+(gang) DOCTXTx DOCTXTw mm textwrap
+(den) DOCTXTx DOCTXTw mm textwrap
+(30.09.2015.) DOCTXTx DOCTXTw mm textwrap
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Provisionen) DOCTXTx DOCTXTw mm textwrap
+(er) DOCTXTx DOCTXTw mm textwrap
+(for) DOCTXTx DOCTXTw mm textwrap
+(tiden) DOCTXTx DOCTXTw mm textwrap
+(2,000) DOCTXTx DOCTXTw mm textwrap
+(om) DOCTXTx DOCTXTw mm textwrap
+(aaret.) DOCTXTx DOCTXTw mm textwrap
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Overtr\361ksprovision) DOCTXTx DOCTXTw mm textwrap
+(er) DOCTXTx DOCTXTw mm textwrap
+(for) DOCTXTx DOCTXTw mm textwrap
+(tiden) DOCTXTx DOCTXTw mm textwrap
+(4,000) DOCTXTx DOCTXTw mm textwrap
+(om) DOCTXTx DOCTXTw mm textwrap
+(aaret.) DOCTXTx DOCTXTw mm textwrap
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Provision) DOCTXTx DOCTXTw mm textwrap
+(af) DOCTXTx DOCTXTw mm textwrap
+(bevilget) DOCTXTx DOCTXTw mm textwrap
+(overtr\361k) DOCTXTx DOCTXTw mm textwrap
+(er) DOCTXTx DOCTXTw mm textwrap
+(for) DOCTXTx DOCTXTw mm textwrap
+(tiden) DOCTXTx DOCTXTw mm textwrap
+(2,000) DOCTXTx DOCTXTw mm textwrap
+(om) DOCTXTx DOCTXTw mm textwrap
+(aaret.) DOCTXTx DOCTXTw mm textwrap
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Ved) DOCTXTx DOCTXTw mm textwrap
+(overtr\361k) DOCTXTx DOCTXTw mm textwrap
+(eller) DOCTXTx DOCTXTw mm textwrap
+(forsinket) DOCTXTx DOCTXTw mm textwrap
+(indfrielse) DOCTXTx DOCTXTw mm textwrap
+(af) DOCTXTx DOCTXTw mm textwrap
+(kassekreditten) DOCTXTx DOCTXTw mm textwrap
+(er) DOCTXTx DOCTXTw mm textwrap
+(BEC) DOCTXTx DOCTXTw mm textwrap
+(Banken) DOCTXTx DOCTXTw mm textwrap
+(berettiget) DOCTXTx DOCTXTw mm textwrap
+(til) DOCTXTx DOCTXTw mm textwrap
+(at) DOCTXTx DOCTXTw mm textwrap
+(opkr\361ve) DOCTXTx DOCTXTw mm textwrap
+(en) DOCTXTx DOCTXTw mm textwrap
+(aarlig) DOCTXTx DOCTXTw mm textwrap
+(variabel) DOCTXTx DOCTXTw mm textwrap
+(morarente) DOCTXTx DOCTXTw mm textwrap
+(overtr\361ksrente) DOCTXTx DOCTXTw mm textwrap
+(som) DOCTXTx DOCTXTw mm textwrap
+(udg\371r) DOCTXTx DOCTXTw mm textwrap
+(et) DOCTXTx DOCTXTw mm textwrap
+(variabelt) DOCTXTx DOCTXTw mm textwrap
+(till\361g) DOCTXTx DOCTXTw mm textwrap
+(paa) DOCTXTx DOCTXTw mm textwrap
+(p.t.) DOCTXTx DOCTXTw mm textwrap
+(4,000) DOCTXTx DOCTXTw mm textwrap
+(i) DOCTXTx DOCTXTw mm textwrap
+(till\361g) DOCTXTx DOCTXTw mm textwrap
+(til) DOCTXTx DOCTXTw mm textwrap
+(renten.) DOCTXTx DOCTXTw mm textwrap
+(Ved) DOCTXTx DOCTXTw mm textwrap
+(min) DOCTXTx DOCTXTw mm textwrap
+(udnyttelse) DOCTXTx DOCTXTw mm textwrap
+(af) DOCTXTx DOCTXTw mm textwrap
+(fortrydelsesretten) DOCTXTx DOCTXTw mm textwrap
+(udg\371r) DOCTXTx DOCTXTw mm textwrap
+(det) DOCTXTx DOCTXTw mm textwrap
+(daglige) DOCTXTx DOCTXTw mm textwrap
+(rentebel\371b) DOCTXTx DOCTXTw mm textwrap
+(kr.) DOCTXTx DOCTXTw mm textwrap
+(13,56) DOCTXTx DOCTXTw mm textwrap
+(ved) DOCTXTx DOCTXTw mm textwrap
+(fuld) DOCTXTx DOCTXTw mm textwrap
+(udnyttelse) DOCTXTx DOCTXTw mm textwrap
+(af) DOCTXTx DOCTXTw mm textwrap
+(kreditrammen.) DOCTXTx DOCTXTw mm textwrap
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+currentpoint /y exch def /x exch def
+x DOCTXTx sub neg 3 neg mm rmoveto
+INDENT mm 0 rmoveto
+(Betaling) DOCTXTx DOCTXTw mm textwrap
+(Jeg) DOCTXTx DOCTXTw mm textwrap
+(faar) DOCTXTx DOCTXTw mm textwrap
+(ikke) DOCTXTx DOCTXTw mm textwrap
+(separat) DOCTXTx DOCTXTw mm textwrap
+(meddelelse) DOCTXTx DOCTXTw mm textwrap
+(om) DOCTXTx DOCTXTw mm textwrap
+(bel\371b,) DOCTXTx DOCTXTw mm textwrap
+(der) DOCTXTx DOCTXTw mm textwrap
+(er) DOCTXTx DOCTXTw mm textwrap
+(h\361vet) DOCTXTx DOCTXTw mm textwrap
+(paa) DOCTXTx DOCTXTw mm textwrap
+(kontoen.) DOCTXTx DOCTXTw mm textwrap
+(Jeg) DOCTXTx DOCTXTw mm textwrap
+(skal) DOCTXTx DOCTXTw mm textwrap
+(selv) DOCTXTx DOCTXTw mm textwrap
+(s\371rge) DOCTXTx DOCTXTw mm textwrap
+(for,) DOCTXTx DOCTXTw mm textwrap
+(at) DOCTXTx DOCTXTw mm textwrap
+(der) DOCTXTx DOCTXTw mm textwrap
+(er) DOCTXTx DOCTXTw mm textwrap
+(d\361kning.) DOCTXTx DOCTXTw mm textwrap
+/indent 0 def
+
