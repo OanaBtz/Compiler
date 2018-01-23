@@ -15,9 +15,8 @@ void yyerror(char *msg);
 std:: vector <Node> list;
 Node docNode(DOCUMENT, "");
 
+#include "./parser/printing.cpp"
 #include "./parser/treebuilding.cpp"
-#include "./parser/printTree.cpp"
-#include "./parser/printList.cpp"
 
 
 
@@ -29,7 +28,7 @@ Node docNode(DOCUMENT, "");
 	char tokens[1000];
 }
 
-%token <tokens> NOTEQUAL_T OF_T CL_T CD_T TM_T DEPTH_T HY_T HR_T MG_T DR_T WEIGHT_T UPPERCASE_T LENGTH_T IN_T PA_T NS_T IR_T IF_T EL_T TH_T OR_T AN_T CT_T EQUAL_T GTHANE_T LTHANE_T GTHAN_T LTHAN_T CANCEL_T RH_T KP_T LL_T GOTO_T EXECUTE_T LABEL_T SE_T PM_T BR_T BR_UP_T NV_T NY_T PAGE_T ENY_T COMMENT_T TI_T DA_T FO_T ON_T OFF_T AR_T BX_T SP_T US_T SIZE_T STYLE_T IDENT_T VAR_UP_T VAR_T DIRECTION_T NUM_T WIDTH_T TP_T TAB_T ROTATE_T NEW_LINE_T BM_T SU_T DM_T GS_T SK_T CE_T
+%token <tokens> NOTEQUAL_T OF_T CL_T CD_T TM_T DEPTH_T HY_T HR_T MG_T DR_T WEIGHT_T UPPERCASE_T LENGTH_T IN_T PA_T NS_T IR_T IF_T EL_T TH_T OR_T AN_T CT_T EQUAL_T GTHANE_T LTHANE_T GTHAN_T LTHAN_T CANCEL_T RH_T KP_T LL_T GOTO_T EXECUTE_T LABEL_T SE_T PM_T BR_T BR_UP_T NV_T NY_T PAGE_T ENY_T COMMENT_T TI_T DA_T FO_T ON_T OFF_T AR_T BX_T SP_T US_T SIZE_T STYLE_T IDENT_T VAR_UP_T VAR_T DIRECTION_T NUM_T WIDTH_T TP_T TAB_T ROTATE_T NEW_LINE_T BM_T SU_T DM_T GS_T SK_T CE_T TB_T
 %type  <tokens> CT PM BR BR_UP NV NY ENY COMMENT TI DA KP FO AR BX RH TOKEN EX IF VARPROC OPERATOR AN COMPARISON OR OPTIONALDA OPTINALMEASURE STRING_LINE SIZE_LIST SU CE DM
 
 %%
@@ -416,6 +415,25 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 			|	CE NEW_LINE_T
 			|	SU NEW_LINE_T
 			|	DM NEW_LINE_T
+			|	TB_T NUM_T NUM_T NEW_LINE_T																			{
+																											cout << "TB" << endl;
+																											Node tbNode(TB, "");
+																											numberFct($2);
+																											Node tbNum1Node(NUMBER, number);
+																											numberFct($3);
+																											Node tbNum2Node(NUMBER, number);
+																											list.push_back(tbNode);
+																											list.push_back(tbNum1Node);
+																											list.push_back(tbNum2Node);
+																										}
+			|	SK_T NUM_T NEW_LINE_T																	{
+																											cout << "SK" << endl;
+																											Node sknode(SK, "");
+																											numberFct($2);
+																											Node skNumberNode(NUMBER, number);
+																											list.push_back(sknode);
+																											list.push_back(skNumberNode);
+																										}
 			|	US_T																					{
 																											cout << "UNDERSCORE" << endl;
 																											Node us(US, "");
@@ -445,9 +463,7 @@ CE 			:	CE_T ON_T																				{
 																										}
 			|	CE_T OFF_T 																				{
 																											cout << "CE OFF" << endl;
-																											Node ceNode(CE, "");
 																											Node ceOffNode(OFF_CE, "");
-																											list.push_back(ceNode);
 																											list.push_back(ceOffNode);
 																										}
 			;
@@ -460,9 +476,7 @@ SU 			:	SU_T ON_T																				{
 																										}
 			|	SU_T OFF_T 																				{
 																											cout << "SU OFF" << endl;
-																											Node suNode(SU, "");
 																											Node suOffNode(OFF_SU, "");
-																											list.push_back(suNode);
 																											list.push_back(suOffNode);
 																										}
 			;
@@ -477,9 +491,7 @@ DM 			:	DM_T IDENT_T ON_T																		{
 																										}
 			|	DM_T OFF_T 																				{
 																											cout << "DM OFF" << endl;
-																											Node dmNode(DM, "");
 																											Node dmOffNode(OFF_DM, "");
-																											list.push_back(dmNode);
 																											list.push_back(dmOffNode);
 																										}
 			;

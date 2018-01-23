@@ -44,6 +44,7 @@
 ".su"               	{ strcpy(yylval.tokens, yytext); return SU_T;}
 ".dm"               	{ strcpy(yylval.tokens, yytext); return DM_T;}
 ".gs"               	{ strcpy(yylval.tokens, yytext); return GS_T;}
+".tb"               	{ strcpy(yylval.tokens, yytext); return TB_T;}
 ".sk"               	{ strcpy(yylval.tokens, yytext); return SK_T;}
 ".ce"               	{ strcpy(yylval.tokens, yytext); return CE_T;}
 ".cl"               	{ strcpy(yylval.tokens, yytext); return CL_T;}

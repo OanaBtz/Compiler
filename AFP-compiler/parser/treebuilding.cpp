@@ -1,12 +1,51 @@
+#include "./printing.cpp"
+
 int lastKnownIfIndex = 0;
+
+int connectNextNodes(int addToIndex, int fromIndex, int amount)
+{
+	list[addToIndex].addNode(&list[fromIndex]);
+	for(int i = 1; i < amount + 1; i++)
+	{
+		list[fromIndex].addNode(&list[fromIndex + i]);
+	}
+	return fromIndex + amount;
+}
 
 int addNodeOfType(int addToIndex, int fromIndex)
 {
-	cout << "Node is " << list[fromIndex].getType() << endl;
+	cout << "Building node: ";
+	printNode(&list[fromIndex]);
 	switch(list[fromIndex].getType())
 	{
-			case EXECUTE: 	list[fromIndex].addNode(&list[fromIndex]);
-							break;
+		case STRINGLITERAL:			return connectNextNodes(addToIndex, fromIndex, 0);
+		case ON: 					return connectNextNodes(addToIndex, fromIndex, 0);
+		case IDENTIFIER:			return connectNextNodes(addToIndex, fromIndex, 0);
+		case LINEBREAK:				return connectNextNodes(addToIndex, fromIndex, 0);
+		case STRINGVARIABLE:		return connectNextNodes(addToIndex, fromIndex, 1);
+		case US:					return connectNextNodes(addToIndex, fromIndex, 1);
+		case TM:			return connectNextNodes(addToIndex, fromIndex, 1);
+		case BM:			return connectNextNodes(addToIndex, fromIndex, 1);
+		case PM:			return connectNextNodes(addToIndex, fromIndex, 1);
+		case TI: 			return connectNextNodes(addToIndex, fromIndex, 2);
+		case SP:			return connectNextNodes(addToIndex, fromIndex, 1);
+		case LL:			return connectNextNodes(addToIndex, fromIndex, 1);
+		case IN:			return connectNextNodes(addToIndex, fromIndex, 1);
+		case IR:			return connectNextNodes(addToIndex, fromIndex, 1);
+		case PA:			return connectNextNodes(addToIndex, fromIndex, 1);
+		case DR:			return connectNextNodes(addToIndex, fromIndex, 3);
+		case MG:			return connectNextNodes(addToIndex, fromIndex, 2);
+		case SE:			return connectNextNodes(addToIndex, fromIndex, 4);
+		case LABEL:			return connectNextNodes(addToIndex, fromIndex, 0);
+		case HY:			return connectNextNodes(addToIndex, fromIndex, 1);
+		case OFF_HY:		return connectNextNodes(addToIndex, fromIndex, 0);
+		case NEWLINE:		return connectNextNodes(addToIndex, fromIndex, 0);
+		case SK:			return connectNextNodes(addToIndex, fromIndex, 1);
+		case TB:			return connectNextNodes(addToIndex, fromIndex, 2);
+		case GO:			return connectNextNodes(addToIndex, fromIndex, 1);
+		case CL:			return connectNextNodes(addToIndex, fromIndex, 1);
+		case EXECUTE: 	list[fromIndex].addNode(&list[fromIndex]);
+						break;
 			case OF:	list[addToIndex].addNode(&list[fromIndex]);
 						if(list[fromIndex+1].getType() == NUMBER)
 						{
@@ -14,9 +53,6 @@ int addNodeOfType(int addToIndex, int fromIndex)
 							return fromIndex + 1;
 						}
 						return fromIndex;
-			case CL:	list[addToIndex].addNode(&list[fromIndex]);
-						list[fromIndex].addNode(&list[fromIndex+1]);
-						return fromIndex+1;
 			case CD:	{
 							list[addToIndex].addNode(&list[fromIndex]);
 							list[fromIndex].addNode(&list[fromIndex+1]);
@@ -28,29 +64,6 @@ int addNodeOfType(int addToIndex, int fromIndex)
 							}
 							return fromIndex + ii - 1;
 						}
-			case STRINGLITERAL:		list[addToIndex].addNode(&list[fromIndex]);
-						return fromIndex;
-			case ON: 	list[addToIndex].addNode(&list[fromIndex]);
-						return fromIndex;
-			case IDENTIFIER:	list[addToIndex].addNode(&list[fromIndex]);
-								return fromIndex;
-			case LINEBREAK:		list[addToIndex].addNode(&list[fromIndex]);
-								return fromIndex;
-			case STRINGVARIABLE:		list[addToIndex].addNode(&list[fromIndex]);
-						list[fromIndex].addNode(&list[fromIndex+1]);
-						return fromIndex+1;
-			case US:	list[addToIndex].addNode(&list[fromIndex]);
-						list[fromIndex].addNode(&list[fromIndex+1]);
-						return fromIndex+1;
-			case TM:	
-			case BM:	
-			case PM:	list[addToIndex].addNode(&list[fromIndex]);
-						list[fromIndex].addNode(&list[fromIndex+1]);
-						return fromIndex+1;
-			case TI: 	list[addToIndex].addNode(&list[fromIndex]);
-						list[fromIndex].addNode(&list[fromIndex+1]);
-						list[fromIndex].addNode(&list[fromIndex+2]);
-						return fromIndex+2;
 			case FONT: 	list[addToIndex].addNode(&list[fromIndex]);
 						list[fromIndex].addNode(&list[fromIndex+1]);
 						list[fromIndex].addNode(&list[fromIndex+2]);
@@ -73,30 +86,6 @@ int addNodeOfType(int addToIndex, int fromIndex)
 							}
 							return fromIndex + ii - 1;
 						}
-			case SP:	list[addToIndex].addNode(&list[fromIndex]);
-						list[fromIndex].addNode(&list[fromIndex+1]);
-						return fromIndex + 1;
-			case LL:	list[addToIndex].addNode(&list[fromIndex]);
-						list[fromIndex].addNode(&list[fromIndex+1]);
-						return fromIndex + 1;
-			case IN:	list[addToIndex].addNode(&list[fromIndex]);
-						list[fromIndex].addNode(&list[fromIndex+1]);
-						return fromIndex+1;
-			case IR:	list[addToIndex].addNode(&list[fromIndex]);
-						list[fromIndex].addNode(&list[fromIndex+1]);
-						return fromIndex+1;
-			case PA:	list[addToIndex].addNode(&list[fromIndex]);
-						list[fromIndex].addNode(&list[fromIndex+1]);
-						return fromIndex+1;
-			case DR:	list[addToIndex].addNode(&list[fromIndex]);
-						list[fromIndex].addNode(&list[fromIndex+1]);
-						list[fromIndex].addNode(&list[fromIndex+2]);
-						list[fromIndex].addNode(&list[fromIndex+3]);
-						return fromIndex + 3;
-			case MG:	list[addToIndex].addNode(&list[fromIndex]);
-						list[fromIndex].addNode(&list[fromIndex+1]);
-						list[fromIndex].addNode(&list[fromIndex+2]);
-						return fromIndex+2;
 			case CT:	{
 							list[addToIndex].addNode(&list[fromIndex]);
 							int ii = fromIndex + 1;
@@ -107,9 +96,6 @@ int addNodeOfType(int addToIndex, int fromIndex)
 							}
 							return ii - 1;
 						}
-			case GO:	list[addToIndex].addNode(&list[fromIndex]);
-						list[fromIndex].addNode(&list[fromIndex+1]);
-						return fromIndex+1;
 			case HR:	list[addToIndex].addNode(&list[fromIndex]);
 						if(list[fromIndex+1].getType() == STRINGLITERAL && list[fromIndex+2].getType() == NUMBER && list[fromIndex+3].getType() == NUMBER && list[fromIndex+4].getType() == NUMBER && list[fromIndex+5].getType() == NUMBER)
 						{
@@ -127,21 +113,6 @@ int addNodeOfType(int addToIndex, int fromIndex)
 							fromIndex += 2;
 						}
 						return fromIndex;
-			case SE:	list[addToIndex].addNode(&list[fromIndex]);
-						list[fromIndex].addNode(&list[fromIndex+1]);
-						list[fromIndex].addNode(&list[fromIndex+2]);
-						list[fromIndex].addNode(&list[fromIndex+3]);
-						list[fromIndex+3].addNode(&list[fromIndex+4]);
-						return fromIndex+4;
-			case LABEL:			list[addToIndex].addNode(&list[fromIndex]);
-								return fromIndex;
-			case HY:			list[addToIndex].addNode(&list[fromIndex]);
-								list[fromIndex].addNode(&list[fromIndex+1]);
-								return fromIndex+1;
-			case OFF_HY:		list[addToIndex].addNode(&list[fromIndex]);
-								return fromIndex;
-			case NEWLINE:	list[addToIndex].addNode(&list[fromIndex]);
-							return fromIndex;
 			case THEN:			{
 									list[lastKnownIfIndex].addNode(&list[fromIndex]);
 									if(list[fromIndex +1].getType() == STRINGLITERAL || list[fromIndex +1].getType() == STRINGVARIABLE)
@@ -182,29 +153,31 @@ int addNodeOfType(int addToIndex, int fromIndex)
 									}
 									return elseindex;
 								}
-			case CONDITION:		int j = fromIndex + 1;
-								for (; list[j].getType() != VALUE ; ++j)
-								{
-									list[fromIndex].addNode(&list[j]);
-									if(list[j].getType() == STRINGVARIABLE)
+			case CONDITION:		{
+									int j = fromIndex + 1;
+									for (; list[j].getType() != VALUE ; ++j)
 									{
-										list[j].addNode(&list[j+1]);
-										j++;
+										list[fromIndex].addNode(&list[j]);
+										if(list[j].getType() == STRINGVARIABLE)
+										{
+											list[j].addNode(&list[j+1]);
+											j++;
+										}
 									}
+									list[j].addNode(&list[j+1]);
+									list[fromIndex].addNode(&list[j]);
+									list[j+2].addNode(&list[fromIndex]);
+									if(list[j+2].getType() == IF)
+									{
+										list[addToIndex].addNode(&list[j+2]);
+										lastKnownIfIndex = j+2;
+									}
+									else
+									{
+										list[lastKnownIfIndex].addNode(&list[j+2]);
+									}
+									return j+2;
 								}
-								list[j].addNode(&list[j+1]);
-								list[fromIndex].addNode(&list[j]);
-								list[j+2].addNode(&list[fromIndex]);
-								if(list[j+2].getType() == IF)
-								{
-									list[addToIndex].addNode(&list[j+2]);
-									lastKnownIfIndex = j+2;
-								}
-								else
-								{
-									list[lastKnownIfIndex].addNode(&list[j+2]);
-								}
-								return j+2;
 		break;
 	}
 	return fromIndex;	
@@ -212,6 +185,7 @@ int addNodeOfType(int addToIndex, int fromIndex)
 
 int recursiveContainerTraversal(int addToIndex, int fromIndex, int off_type)
 {
+	cout << "   >>    Container start" << endl;
 	list[addToIndex].addNode(&list[fromIndex]);
 	int j = fromIndex+1;
 	for(;list[j].getType()!=off_type;j++)
@@ -239,9 +213,17 @@ int recursiveContainerTraversal(int addToIndex, int fromIndex, int off_type)
 			case DM: 		j = recursiveContainerTraversal(fromIndex, j, OFF_DM);
 							break;
 		}
+		if(j > list.size() - 1)
+		{
+			cout << "ERROR: ";
+			printNode(&list[fromIndex]);
+			cout << "Missing OFF node";
+			exit(0);
+		}
 		j = addNodeOfType(fromIndex, j);
 	}
 	list[fromIndex].addNode(&list[j]);
+	cout << "   <<    Container end" << endl;
 	return j;
 }
 
@@ -251,7 +233,6 @@ void startTreeBuilding(std::vector<Node> list)
 	
 	for(int i=0;i<list.size();i++){
 		i = addNodeOfType(0, i);
-		cout << i << endl;
 		switch(list[i].getType()){
 			case AREADEFINITION:	list[0].addNode(&list[i]);
 									for(j=i+1; list[j].getType()!=AREADEFINITION && list[j].getType()!=AREA && list[j].getType()!=TI && list[j].getType()!=RH;j++)
@@ -273,11 +254,11 @@ void startTreeBuilding(std::vector<Node> list)
 							break;
 			case AREA: 		i = recursiveContainerTraversal(0, i, OFF_AREA);
 							break;
-			case SU: 		j = recursiveContainerTraversal(0, i, OFF_SU);
+			case SU: 		i = recursiveContainerTraversal(0, i, OFF_SU);
 							break;
-			case CE: 		j = recursiveContainerTraversal(0, i, OFF_CE);
+			case CE: 		i = recursiveContainerTraversal(0, i, OFF_CE);
 							break;
-			case DM: 		j = recursiveContainerTraversal(0, i, OFF_DM);
+			case DM: 		i = recursiveContainerTraversal(0, i, OFF_DM);
 							break;
 		}
 	}

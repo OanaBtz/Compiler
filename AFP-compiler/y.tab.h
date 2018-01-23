@@ -115,7 +115,8 @@ extern int yydebug;
     DM_T = 325,
     GS_T = 326,
     SK_T = 327,
-    CE_T = 328
+    CE_T = 328,
+    TB_T = 329
   };
 #endif
 /* Tokens.  */
@@ -190,17 +191,18 @@ extern int yydebug;
 #define GS_T 326
 #define SK_T 327
 #define CE_T 328
+#define TB_T 329
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
 
 union YYSTYPE
 {
-#line 28 "compiler.y" /* yacc.c:1909  */
+#line 27 "compiler.y" /* yacc.c:1909  */
 
 	char tokens[1000];
 
-#line 204 "y.tab.h" /* yacc.c:1909  */
+#line 206 "y.tab.h" /* yacc.c:1909  */
 };
 
 typedef union YYSTYPE YYSTYPE;

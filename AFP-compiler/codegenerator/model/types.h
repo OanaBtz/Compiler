@@ -74,7 +74,9 @@ enum Type
     OFF_DM,
     CE,
     OFF_CE,
-    IDENTIFIER
+    IDENTIFIER,
+    SK,
+    TB
 };
 
 #endif //AFPCG_TYPES_H
