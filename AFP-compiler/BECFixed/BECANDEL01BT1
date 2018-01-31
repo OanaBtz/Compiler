@@ -1,0 +1,51 @@
+.da ANDBOL 45mm 49,5mm
+.da ANDHAV 25mm 59,4mm
+.da ANDADR 20mm 82mm width 175mm
+.**************************************************************************
+.ar ANDBOL on
+&FORENING
+.ar off
+.**************************************************************************
+.ar ANDHAV on
+&ANDHAVER
+.ar off
+.**************************************************************************
+.ar ANDADR on
+.tp 10mm 30mm 50mm
+¤&ANDLEJNR01. ¤¤&ANDADRES01.
+.sp 2
+¤&ANDLEJNR02. ¤¤&ANDADRES02.
+.sp 2
+¤&ANDLEJNR03. ¤¤&ANDADRES03.
+.sp 2
+¤&ANDLEJNR04. ¤¤&ANDADRES04.
+.sp 2
+¤&ANDLEJNR05. ¤¤&ANDADRES05.
+.sp 2
+¤&ANDLEJNR06. ¤¤&ANDADRES06.
+.sp 2
+¤&ANDLEJNR07. ¤¤&ANDADRES07.
+.sp 2
+¤&ANDLEJNR08. ¤¤&ANDADRES08.
+.sp 2
+¤&ANDLEJNR09. ¤¤&ANDADRES09.
+.sp 2
+¤&ANDLEJNR10. ¤¤&ANDADRES10.
+.sp 2
+¤&ANDLEJNR11. ¤¤&ANDADRES11.
+.sp 2
+¤&ANDLEJNR12. ¤¤&ANDADRES12.
+.sp 2
+¤&ANDLEJNR13. ¤¤&ANDADRES13.
+.sp 2
+¤&ANDLEJNR14. ¤¤&ANDADRES14.
+.sp 2
+¤&ANDLEJNR15. ¤¤&ANDADRES15.
+.sp 2
+¤&ANDLEJNR16. ¤¤&ANDADRES16.
+.sp 2
+¤&ANDLEJNR17. ¤¤&ANDADRES17.
+.sp 2
+¤&ANDLEJNR18. ¤¤&ANDADRES18.
+.*:SKRSLUT.
+.ar off

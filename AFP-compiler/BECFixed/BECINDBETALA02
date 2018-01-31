@@ -1,0 +1,159 @@
+#fed DERES INDBETALING:
+#skrslut
+.br
+.tp 05 08 55 60
+.sk
+.if &L'&PEN10006 eq 0 .go LAP
+Vi har registreret at De årligt ønsker at indbetale kr. &PEN10006..
+.sk
+...LAP
+Første indbetaling i måned &PEN30001 og derefter &PEN30002 indtil
+sidste indbetaling &PEN30003..
+.sk
+.se B = indeksreguleret.
+.se C = &PEN10007
+.su off
+.if X&B eq X&C
+.th .su on
+.th Indbetalinger på ordningen forudsættes pristalreguleret.
+.el .su on
+.sk
+.if &ÅLC lt 5
+.th .tp 55
+.th ^fortsættes
+.th .pa
+Første kalenderårs indbetaling anvendes på følgende måde:
+.sk
+.if &L'&PEN20001 eq 0 .go RATE
+Indbetaling ialt før skattefradrag ¤¤¤ kr. ¤ &PEN20001
+.br
+...RATE
+.if &L'&PEN40004 eq 0 .go OMK
+  Indbetaling ialt ¤¤¤ : ¤ &PEN40004
+.br
+...OMK
+Omkostninger (depot) ¤¤¤ kr. ¤ &PEN20007
+.br
+.if &ÅLC lt 6
+.th .tp 55
+.th ¤¤¤ fortsættes
+.th .pa
+.sk
+.se F = &PEN20009
+.se G = &PEN20011
+.se H = &PEN20013
+.se I = &PEN20015
+.se J = &PEN20017
+.se K = &PEN20019
+.su off
+.if X&F eq X0 .an X&G eq X0 .an X&H eq X0 .an X&I eq X0
+.th .su on
+.go LAP8
+Præmiebetaling til forsikringer:
+.br
+.su off
+.if X&F eq X0
+.th .su on
+.go LAP5
+¤¤ Livsforsikring ¤ : ¤ &PEN20009
+...LAP5
+.br
+.su off
+.if X&G eq X0
+.th .su on
+.go LAP6
+¤¤ Gruppelivsforsikring ¤ : ¤ &PEN20011
+...LAP6
+.br
+.su off
+.if X&H eq X0
+.th .su on
+.go LAP7
+¤¤ Invaliderente ¤ : ¤ &PEN20013
+...LAP7
+.br
+.su off
+.if X&I eq X0
+.th .su on
+.go LAP8
+¤¤ Invalidesum ¤ : ¤ &PEN20015
+...LAP8
+.if X&J eq X0 .an X&K eq X0 .go LAP10
+.if X&F eq X0 .an X&G eq X0 .an X&H eq X0 .an X&I eq X0
+.th .tp 28 48 right 66 right
+.th Indbetaling på forsikringer:
+.br
+.su off
+.if X&J eq X0
+.th .su on
+.go LAP9
+¤¤ Gruppeinvaliderente ¤ : ¤ &PEN20017
+...LAP9
+.br
+.su off
+.if X&K eq X0
+.th .su on
+.go LAP10
+¤¤ Gruppeinvalidesum ¤ : ¤ &PEN20019
+...LAP10
+.se N = &PEN10008
+.if X&N eq X0 .go LAP11
+.if &ÅLC lt 6
+.th .tp 55
+.th ¤fortsættes
+.th .pa
+.sk2
+Fra eksisterende pensionsordning overføres:
+.sk 1
+¤ Startbenoldning ¤¤kr. ¤ &PEN10008
+...LAP11
+.pa
+.sk
+.if &L'&PEN30005 eq 0 .go LAP12
+.tp 32 48 right
+Fra eksisterende pensionsordning overføres:
+.sk
+ &PEN30005.
+.sk2
+...LAP12
+.if &ÅLC lt 6
+.th .tp 55
+.th ¤¤¤ fortsættes
+.th .pa
+.if &ÅLC lt 11
+.th .tp 55
+.th ¤fortsættes
+.th .pa
+.us SÅ MEGET FÅR DE UDBETALT
+.sk
+.if X&PEN30010 eq X0 .go LAP13
+Ved pensionering den &PEN30009.. udbetales:
+.sk
+.tp 48 right 67 right
+¤ Fremtidsværdi ¤ Nutidsværdi
+.sk
+.tp 32 48 right 66 right
+  Total opsparet kapital-
+  pension ¤:¤ &PEN30010 ¤ 30011
+  - 40% afgift¤:¤ &PEN30012 ¤ &PEN30013
+¤¤_____________¤_____________
+.sk
+  Til udbetaling¤:¤ &PEN30014 ¤ &PEN30015
+.sk2
+...LAP13
+.if X&PEN10013 eq x0 .go LAP14
+Ved pensionering den &PEN30009. udbetales Deres ratepension som følger:
+.sk
+.tp 48 right 67 right
+¤Før skat¤Efter skat
+.sk
+.tp 33 48 right 66 right
+1. års udbetaling i  
+nutidsværdi ¤:¤ & PEN10013 ¤ &PEN10014.s
+k..
+.LAP14.s
+k.i
+f &ÅLC lt 10.t
+h .tp 55.t
+h ¤fortsættes.t
+h .pa

@@ -1,0 +1,50 @@
+Ordningen skal oprettes som en KRYDSLIVSFORSIKRING, hvor forsikringstager
+er:
+.sk
+.ll 92
+.tp 26 54
+Forsikringstagers navn: ¤#fed &LOKNAVN #skrslut ¤ CPR-nr.: #fed &LOKCPR
+#skrslut
+.ll 90
+.br
+Adresse: ¤#fed &LOKADR#skrslut
+.br
+Post nr. og by: ¤ #fed &LOKBY#skrslut
+.ll 80
+#fed
+.sk
+Begunstigelse #skrslut
+.sk
+Begunstiget er forsikrede, subsidiært forsikringstagers "nærmeste
+pårørende".
+.sk
+Ordningen oprettes uden ret til fradrag for præmiebetalingen (skattekode 5)
+og uden beskatning af udbetalingen.
+.tp 40
+.sk
+Dato: &DXBDATE
+.sk 2
+____________________________________ ¤ ___________________________________
+.br
+&NAVN (forsikrede) ¤ &LOKNAVN (forsikringstager)
+.sk 2
+Denne krydslivserklæring gælder alene forsikringsdækning ved forsikredes
+død. Øvrige forsikringsdækninger udbetales til forsikrede.
+#ant17
+.sk
+.ll 120
+Følgende afsnit i forsikringsbetingelsernes §5 i "kundeliv" gælder#fed
+ ikke,#skrslut når der er tegnes krydsliv: "Den udbetalte forsikringssum
+anvendes af pengeinstituttet til betaling af forsikredes gæld
+pengeinstituttet."
+.br
+"Hvis de samlede
+*******
+#ant10
+.ll 83
+#fed
+.sk
+Husk at udfylde side 2 af blanketten, hvis den uigenkaldelige begunsti-
+.br
+gelse af pengeinstituttet skal opretholdes.
+#skrslut

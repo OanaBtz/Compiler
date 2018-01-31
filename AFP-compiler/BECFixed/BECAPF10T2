@@ -1,0 +1,69 @@
+.*****************************************
+.da INDBARBPCT     21mm 112.5mm width 168mm
+.da INDBARBKONTP   42mm 128mm   width  80mm
+.da INDBARBENG     25mm 112.5mm width 168mm
+.*******************************************
+.if &L'&GENARBPCT > 0
+.or &L'&GENARBENGA > 0
+.th .go ARBPCT
+.el .go AENGSL
+...ARBPCT
+.**********************
+.ar INDBARBPCT on
+.* ARBEJDSGIVERORDNING ***
+.****arbejdsgiver procentindbetaling **
+.if &L'&RESULTA = 4
+.an x&RESULTA = x0,00
+.th Der er p.t. ikke aftalt løbende overførsler.
+.th .go AENGSL
+.if &L'&GENARBPCT gt 0
+.th .go PCT
+.el .go PCTSLUT
+...PCT
+.tp 32mm 71mm right
+.if &L'&RESULTA gt 6
+.th .mg /T/PENSIONSBIDRAG STØRRE END 100,00 %/
+.if &L'&RESULTA lt 6
+.th .go ALTOK4
+.if X&RESULTA gt X100,00
+.th .mg /T/PENSIONSBIDRAG STØRRE END 100,00 %/
+...ALTOK4
+¤¤&RESULTA
+.if &L'&GENDATO4 gt 0
+.th .br
+.th &GENDATO4..
+.sp 21,1mm
+.tp 117mm
+.***** her deles kombinationskontonr op i to parametre
+.se kombiregnr = substr &GENKOMBKTO 1 4
+.se kombiktonr = substr &GENKOMBKTO 5 7
+.if &L'&GENKOMBKTO gt 0
+.th ¤&kombiregnr &kombiktonr
+...PCTSLUT
+.ar off
+.*********************************
+.ar INDBARBKONTP on
+.if &L'&GENARBPCT gt 0
+.th .go SKRIV2
+.el .go SKRIV2SL
+...SKRIV2
+.tp 15mm char ,
+¤&GENARB %
+.br
+¤&GENMED %
+...SKRIV2SL
+.ar off
+.***************************
+.ar INDBARBENG on
+.*** arbejdsgiver engangsindskud *****
+.if &L'&GENARBENGA gt 0
+.th .go AENG
+.el .go AENGSL
+...AENG
+.tp 38mm right 63mm 81mm right
+¤¤¤&RESULTA
+.br
+¤&RESULTA ¤&GENDATO4
+...AENGSL
+.ar off
+.*********************

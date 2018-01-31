@@ -1,0 +1,47 @@
+.*da side1 20mm 35mm width 175mm
+.da side1 20mm 41mm width 175mm
+.ar side1 on
+.sp
+.***** her laves kassen til kunde ***********
+.bx new left right
+.sp 28mm
+.bx off
+.bx can
+:SWISS10.
+:FED.
+Erklæring
+:SKRSLUT.
+.***** her laves kassen til erklæring ****************
+.bx new left right
+.sp 70mm
+.bx off
+.bx can
+:SWISS10.
+:FED.
+Samtykke
+:SKRSLUT.
+.***** her laves kassen til samtykke *****************
+.bx new left right
+.sp 40mm
+.bx off
+.bx can
+:SWISS10.
+:FED.
+Pensionsinstitut
+:SKRSLUT.
+.***** her laves kassen til samtykke *****************
+.bx new left right
+.sp 40mm
+.bx off
+.bx can
+:SWISS10.
+:FED.
+.sp 4mm
+.*Underskrift
+:SKRSLUT.
+.***** her laves kassen til underskrifter  ***************
+.bx new left right
+.sp 12mm
+.bx off
+.bx can
+.ar off

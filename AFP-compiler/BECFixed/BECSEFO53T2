@@ -1,0 +1,130 @@
+.*PUNKT 3 (1)**************************************************************
+:FED.
+3. Kreditomkostninger
+:SKRSLUT.
+.**************************************************************************
+.ta table SEFO3 on
+.ta row SEFO3 on
+.ta cell 1
+.in 5mm
+.ir 1mm
+Debitorrenten eller, hvis det er relevant, de forskellige debitorrenter,
+der gælder for kreditaftalen.
+.ta cell 2
+&DEBRTETX1.
+&DEBRTETX2.
+&DEBRTETX3.
+&DEBRTETX4.
+&DEBRTETX5.
+&DEBRTETX6.
+.br
+:COUR9.
+&DEBRTETX7.
+.br
+&DEBRTETX8.
+.br
+&DEBRTETX9.
+.br
+&DEBRTETX10.
+:SWISS9.
+.sp 3mm
+.us Ændring af rentesatser
+.br
+&BANKNAVN kan nedsætte renten uden varsel.
+.sp 3mm
+&BANKNAVN kan forhøje renten, ved underretning inden ændringen træder i
+kraft, hvis inden- eller udenlandske ændringer i penge- eller
+kreditpolitik har betydning for &BANKNAVN., fordi det almindelige
+renteniveau påvirkes. &BANKNAVN kan på samme måde forhøje renten,
+hvis anden udvikling i det almindelige renteniveau, eksempelvis på
+penge- og obligationsmarkederne, har betydning for &BANKNAVN., eller hvis
+ændringer i skatter og afgifter har betydning for &BANKNAVN..
+.sp 3mm
+&BANKNAVN kan forhøje renten med
+.us én måneds varsel
+ved ændringer i de forhold, som individuelt blev lagt til grund ved
+fastsættelse af debitors rentevilkår. &BANKNAVN kan på samme måde
+forhøje renten, hvis &BANKNAVN ændrer sin generelle rente- og
+prisfastsættelse af forretningsmæssige grunde, uden at det har
+sammenhæng med udviklingen i det almindelige
+renteniveau. Forretningsmæssige grunde kan bl.a. være at opnå en mere
+hensigtsmæssig anvendelse af &BANKNAVN.s ressourcer eller kapacitet
+eller at øge indtjeningen.
+.sp 3mm
+Debitor får oplysning om stigning i renten på papir eller andet varigt
+medium inden ændringen træder i kraft.
+.ta row SEFO3 off
+.*PUNKT 3 (2)**************************************************************
+.ta row SEFO3 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 1mm
+De årlige omkostninger i procent (ÅOP)
+.br
+:KURSIV.
+Dette er de samlede omkostninger udtrykt i procent pr. år af det samlede
+kreditbeløb.
+.br
+ÅOP anføres for at hjælpe &DIG med at sammenligne forskellige tilbud.
+:SKRSLUT.
+.ta cell 2
+&ÅOP. %.
+.sp 3mm
+:KURSIV.
+Her ses et eksempel på, hvilke faktorer, der indgår i beregningen af
+en ÅOP på 13,6 %.
+.sp 3mm
+.tp 70mm right
+Kreditrammen: ¤100.000,00 DKK
+.br
+Debitorrente ¤10,921 %
+.br
+Stiftelsesomkostninger: ¤5.700,00 DKK
+.br
+Kredittens varighed: ¤60 måneder
+.ta row SEFO3 off
+.*PUNKT 3 (3)**************************************************************
+.ta row SEFO3 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 1mm
+Omkostninger
+.br
+Betingelserne for ændring af disse omkostninger
+.ta cell 2
+&BETÆNDOMK1. &BETÆNDOMK2. &BETÆNDOMK3. &BETÆNDOMK4. &BETÆNDOMK5.
+.ta row SEFO3 off
+.*PUNKT 3 (4)**************************************************************
+.ta row SEFO3 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 1mm
+Morarenter
+.ta cell 2
+&SDU vil blive pålagt &MORARTE. % for forsinkede betalinger.
+.sp 3mm
+.**LÅN ***
+.if &U'&LÅNKRED = L
+.th Debitor får oplysning om ændring af morarenten på samme måde som
+.th ændring af debitorrenten.
+.th .sp 3mm
+.th Ved forsinket betaling kan der påløbe rykkergebyrer. &ÅCONT
+.**KREDIT***
+.el Overtrækkes eller indfries kassekreditten ikke senest på forfaldsdagen,
+.el er &BANKNAVN berettiget til at opkræve
+.el overtræks-/morarente. Overtræks-/morarenten beregnes af overtrækket/det
+.el forfaldne beløb. Ved overtræk og forsinket betaling kan
+.el der påløbe rykkergebyrer. &ÅCONT
+.**BÅDE LÅN OG KREDIT ***
+Rykkergebyr og andre misligholdelsesomkostninger fremgår af &BANKNAVN.s
+prisbog. Ved overdragelse af kundens gæld til inkasso vil der påløbe
+omkostninger til advokat, domstole m.v. &ÅCONT
+.**LÅN *****
+.if &U'&LÅNKRED = L
+.th Manglende betaling vil kunne medføre, at kreditaftalen ophæves og vil
+.th gøre det vanskeligt at opnå kredit. Ophævelse af kreditaftalen vil
+.th medføre en forhøjelse af renter og gebyrer.
+.**KREDIT***
+.el Overtræk vil kunne medføre, at kreditten ophæves, ligesom overtræk og
+.el manglende indfrielse vil medføre, at det er vanskeligt at opnå kredit.
+.ta table off

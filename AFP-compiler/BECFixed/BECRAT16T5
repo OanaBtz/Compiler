@@ -1,0 +1,157 @@
+.****************************************
+.da BEGUNSDØD1     25mm 223mm   width 168mm
+.da PERSON         25mm 268mm   width 168mm
+.****************************************
+.if &L'&GENNAVNBD1 eq 0
+.an &L'&GENNAVNBD2 eq 0
+.an &L'&GENNAVNBD3 eq 0
+.th .go TESTOK
+.if &L'&GENPERGRP1 eq 0
+.an &L'&GENPERGRP2 eq 0
+.th .go TESTOK
+.el .mg /T/enten individuelle begunstigede eller persongrupper/
+...TESTOK
+.***************************************
+.if &L'&RESULTE gt 6
+.th .mg /T/Summen af de begunstigedes andel% > 100,00/
+.if &L'&RESULTE lt 6
+.th .go ANDEL
+.if X&RESULTE eq X100,00
+.th .go ANDELOK
+.el .mg /T/Summen af de begunstigedes andel% > 100,00/
+...ANDEL
+.if X&RESULTE eq X0,00
+.th .go ANDELOK
+.el .mg /T/Summen af de begunstigedes andel% < 100,00/
+...ANDELOK
+.******************************************
+.ar BEGUNSDØD1 on
+.tp 88mm 90mm
+.** FØRSTE og ANDEN BEGUNSTIGEDE *******
+.if &l'&GENNAVNBD1 > 0
+.th &GENNAVNBD1
+.el .go BEGUN2
+.if &l'&GENNAVNBD2 > 0
+.th .ct ¤¤&GENNAVNBD2
+.el .go EJBEGUN2
+.br
+&GENRELABD1 ¤¤&GENRELABD2
+.br
+.if &L'&GENCPRBD1 > 0
+.th CPR.nr. &GENCPRBD1
+.if &L'&GENCPRBD2 > 0
+.th .ct ¤¤CPR.nr. &GENCPRBD2
+.br
+.if &GENPCTBD1 > 0,00
+.an &GENPCTBD2 = 0,00
+.th .mg /T/Enten ligedeling (pct=0,00) eller andel% > 0,00/
+.if &GENPCTBD1 = 0,00
+.an &GENPCTBD2 > 0,00
+.th .mg /T/Enten ligedeling (pct=0,00) eller andel% > 0,00/
+.if &GENPCTBD1 > 0,00
+.th &GENPCTBD1 %
+.if &GENPCTBD2 > 0,00
+.th .ct ¤¤&GENPCTBD2 %
+.sp
+.go BEGUN3
+...EJBEGUN2
+.** FØRSTE og TREDIE  BEGUNSTIGEDE *******
+.if &l'&GENNAVNBD3 > 0
+.th .ct ¤¤&GENNAVNBD3
+.el .go EJBEGUN3
+.br
+&GENRELABD1 ¤¤&GENRELABD3
+.br
+.if &L'&GENCPRBD1 > 0
+.th CPR.nr. &GENCPRBD1
+.if &L'&GENCPRBD3 > 0
+.th .ct ¤¤CPR.nr. &GENCPRBD3
+.br
+.if &GENPCTBD1 > 0,00
+.an &GENPCTBD3 = 0,00
+.th .mg /T/Enten ligedeling (pct=0,00) eller andel% > 0,00/
+.if &GENPCTBD1 = 0,00
+.an &GENPCTBD3 > 0,00
+.th .mg /T/Enten ligedeling (pct=0,00) eller andel% > 0,00/
+.if &GENPCTBD1 > 0,00
+.th &GENPCTBD1 %
+.if &GENPCTBD3 > 0,00
+.th .ct ¤¤&GENPCTBD3 %
+.go SLUTBGU
+...EJBEGUN3
+.** KUN FØRSTE BEGUNSTIGEDE *******
+.br
+&GENRELABD1
+.br
+.if &L'&GENCPRBD1 > 0
+.th CPR.nr. &GENCPRBD1
+.br
+.if &GENPCTBD1 > 0,00
+.th &GENPCTBD1 %
+.go SLUTBGU
+...BEGUN2
+.** ANDEN og TREDIE  BEGUNSTIGEDE *******
+.if &L'&GENNAVNBD2 > 0
+.th &GENNAVNBD2
+.el .go BEGUN3
+.if &l'&GENNAVNBD3 > 0
+.th .ct ¤¤&GENNAVNBD3
+.el .go KUNBEG2
+.br
+&GENRELABD2 ¤¤&GENRELABD3
+.br
+.if &L'&GENCPRBD2 > 0
+.th CPR.nr. &GENCPRBD2
+.if &L'&GENCPRBD3 > 0
+.th .ct ¤¤CPR.nr. &GENCPRBD3
+.br
+.if &GENPCTBD2 > 0,00
+.an &GENPCTBD3 = 0,00
+.th .mg /T/Enten ligedeling (pct=0,00) eller andel% > 0,00/
+.if &GENPCTBD2 = 0,00
+.an &GENPCTBD3 > 0,00
+.th .mg /T/Enten ligedeling (pct=0,00) eller andel% > 0,00/
+.if &GENPCTBD2 > 0,00
+.th &GENPCTBD2 %
+.if &GENPCTBD3 > 0,00
+.th .ct ¤¤&GENPCTBD3 %
+.go SLUTBGU
+...KUNBEG2
+.** KUN ANDEN BEGUNSTIGEDE *******
+.br
+&GENRELABD2
+.br
+.if &L'&GENCPRBD2 > 0
+.th CPR.nr. &GENCPRBD2
+.br
+.if &GENPCTBD2 > 0,00
+.th &GENPCTBD2 %
+.go SLUTBGU
+...BEGUN3
+.** KUN TREDIE BEGUNSTIGEDE *******
+.if &l'&GENNAVNBD3 > 0
+.th &GENNAVNBD3
+.el .go SLUTBGU
+.br
+&GENRELABD3
+.br
+.if &L'&GENCPRBD3 > 0
+.th CPR.nr. &GENCPRBD3
+.br
+.if &GENPCTBD1 > 0,00
+.an &GENPCTBD3 = 0,00
+.th .mg /T/enten ligedeling (pct=0,00) eller andel% > 0,00/
+.if &GENPCTBD1 = 0,00
+.an &GENPCTBD3 > 0,00
+.th .mg /T/enten ligedeling (pct=0,00) eller andel% > 0,00/
+.if &GENPCTBD3 > 0,00
+.th &GENPCTBD3 %
+...SLUTBGU
+.ar off
+.**************
+.ar PERSON on
+&GENPERGRP1
+.br
+&GENPERGRP2
+.ar off
+.**********************

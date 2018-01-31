@@ -1,0 +1,32 @@
+.********************AREAL-DEFINITIONER************************************
+.*Rykker
+.da RYKKER 20mm 88mm
+.*** Først skal gebyrstørrelse afgøres.
+.**** Erhverv
+.if &U'X&GENVALGA  = XE
+.th .se gebyr = 250,00
+.**** Privat
+.if &U'X&GENVALGA  = XP
+.th .se gebyr = 250,00
+.********** RYKKER ***************
+.ar RYKKER ON
+:FED.
+.us on
+Manglende betaling på kontrakt nr.: &AFTALENR.
+.if &L'&REGISNR01 > 0
+.th  reg.nr.: &REGISNR01.
+.us off
+.sp
+:SKRSLUT.
+&SJEG. har modtaget meddelelse om at ydelsen for indeværende måned enten er
+blevet afvist eller tilbageført af &DIN. bank. Ydelsen udgør
+.sp
+.ce on
+kr. &OPKRÆV1.
+.ce off
+.sp
+&SJEG. sender &DIG. derfor et indbetalingskort, som &DU. kan
+benytte. Beløbet skal betales straks.
+.sp
+Til at dække &MINE. omkostninger til denne opkrævning, vil der blive
+opkrævet et gebyr på kr. &gebyr. sammen med næste ordinære opkrævning.

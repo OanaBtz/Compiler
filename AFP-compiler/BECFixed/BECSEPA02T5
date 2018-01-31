@@ -1,0 +1,229 @@
+.kp on
+:SWISS10.
+:FED.
+7.¤¤Gennemførelse af betalinger
+.sp 3mm
+:SWISS8.
+:KURSIV.
+7.1¤¤Tidspunkt for gennemførelse af betalinger
+.br
+:SKRSLUT.
+:SWISS8.
+Debitor skal aftale med kreditor på hvilke tidspunkter, kreditor må
+iværksætte betalinger fra debitors konto.
+.sp 3mm
+.kp off
+.kp on
+Beløbet hæves på debitors konto på betalingsdagen - eller den efterfølgende
+bankdag, hvis betalingsdagen ikke er en bankdag.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+7.2¤¤Maksimal gennemførelsestid
+.br
+:SKRSLUT.
+Den samlede gennemførelsestid er maksimalt en bankdag.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+8.¤¤Tilbagekaldelse af betalingsdata
+.sp 3mm
+:SKRSLUT.
+:SWISS8.
+Kreditor kan senest på betalingsdagen tilbagekalde indsendte
+betalingsdata. Hvis data tilbagekaldes rettidigt, vil de iværksatte
+betalinger ikke blive gennemført.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+9.¤¤Afvisning af en erhvervsbetaling samt frister
+.sp 3mm
+:SWISS8.
+:KURSIV.
+9.1¤¤Debitors afvisning af en erhvervsbetaling
+.br
+:SKRSLUT.
+Når en betaling er iværksat som en erhvervsbetaling, gælder nedenstående
+regler for at afvise en betaling.
+.sp 3mm
+Ønsker debitor, at en erhvervsbetaling ikke skal gennemføres,
+kan debitor afvise den. Debitors meddelelse skal være kommet frem til
+&BANKNAVN. senest på betalingsdagen, inden kl. 10.30, som beskrevet
+i pkt. 12.1 og 12.2.
+.sp 3mm
+.kp off
+.kp on
+En afvisning gælder ikke for fremtidige betalinger i henhold til SEPA
+betalingsaftalen. En betaling kan kun afvises i sin helhed.
+.sp 3mm
+Vil debitor imidlertid helt hindre kreditor i at kunne iværksætte
+betalinger fra debitors konto, skal debitor
+afmelde SEPA betalingsaftalen over for både kreditor og &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+9.2¤¤&BANKNAVN.s afvisning af en erhvervsbetaling
+.br
+:SKRSLUT.
+:SWISS8.
+&BANKNAVN. kan anmode om afvisning, hvis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10.¤¤Tilbageførsel af en erhvervsbetaling.sp 3mm.of:SWISS8.:KURSIV..of 7mm10.1¤¤Debitors mulighed for at iværksætte tilbageførsel af enerhvervsbetaling.of.br:SKRSLUT.:SWISS8.En betaling anses for uautoriseret, hvis kreditor ikke kan dokumentere, atder foreligger en gyldig SEPA betalingsaftale..sp 3mm.kp off.kp onEn betaling anses for gennemført ved en fejl, hvis betalingsdata er blevetforvansket og dermed får et andet indhold eller hvis samme betalingsdatabenyttes mere end en gang, og debitor dermed betaler samme fordring mereend en gang..sp
+ 3mm.kp
+ of
+f.kp onD
+ebitor k
+an frem
+sætte indsigelsen over for &BANKNAVN senest 2 dageefter betal
+ingsdagen inden 
+kl.
+ 10
+.30, som 
+beskreve
+t i pkt. 12.1 og 12.2..sp 3mm.kp off.kp onNår det er fastslået, at betalin
+gen er uautorisereteller fejlbehæftet, vil bel
+øbet bl
+ive til
+bagefø
+rtvia &BANKNAVN...sp 3mm.kp off.kp on:KURSIV..of 7mm10.2¤¤&BANKNAVN.s muli
+ghed for at iværksætte en tilbageførsel.of.br:SKRSLUT.:SWISS8.Der kan sk
+e tilbageførsel, hvis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.of 3mm*¤&BANKNAVN. har hævet aftalen om kontoen før betalingsdagen,eller.of.of 3mm*¤SEPA Direct Debit tilslutningsaftalen og dermed kontoen er faldet bort,fordi debitors kundeforhold til &BANKNAVN. er ophørt før betalingsdagen..of.sp 3mm.kp off.kp on&BANKNAVN.s tilbageførsel skal iværksættes senest 2 bankdageefter betalingsdagen, jf. pkt. 12.1 og 12.2..sp 5mm.kp off.kp on:SWISS10.:FED.11.¤¤Kreditors tilbageførsel af en erhvervsbetaling.sp 3mm:SKRSLUT.:SWISS8.Kreditor har mulighed for at iværksætte en tilbageførsel af en alleredegennemført betaling, såfremt kreditor bliver opmærksom på, at en betalingikke skulle have været iværksat..sp 3mm.kp off.kp onKreditors
+ anmodning om tilbageførsel skaliværksættes senest 5 bankdage
+ efte
+r b
+etaling
+sdagen,jf. pkt. 12.1 og 12.2..sp 5mm.kp off.kp on:SWISS9.:FED..of 7mm12.¤
+¤Åbningstider, frister og fremgangsmåde.of.sp 3mm.kp off.kp on:KURSIV.12
+.1¤
+¤Åbning
+stider.
+br:SKR
+SLUT.Der er åbent for henvendelser vedrørende indsigelserpå 
+alle bankdage indtil kl. 10.30. Vedhenvendel
+se på e
+t sener
+e tids
+punkt bet
+ragte
+shenvendelsen som foretaget den følgende bankdag..s
+p 3mm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kp off.kp onÅbningstiden er fastsat under hensyn til, hvornårdata skal være fremme for at kunne nå at blivebehandlet samme kalenderdag..sp 3mm.kp off.kp on:KURSIV.12.2 Frister.br:SKRSLUT.Hvis den dag, jf. pkt. 12.1, hvor en frist udløber, falder på en Targetdag,der ikke er en bankdag, vil fristen i SEPA Direct Debit udløbe påTargetdagen. I så fald er debitor nødt til at fremsættesin indsigelse senest på bankdagen inden denTargetdag, hvor fristen udløber..sp 3mm.kp off.kp on:KURSIV.12.3 Fremgangsmåde.br:SKRSLUT.Hvis en gennemført betaling skal tilbageføres, vilbeløbet blive tilbageført fra kreditors konto tildebitors konto..sp 5mm.kp off
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

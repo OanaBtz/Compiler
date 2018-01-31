@@ -1,0 +1,51 @@
+.da OVERSK 20mm 32mm width 180mm
+.da SIDE1 20mm 38mm width 175mm
+.***************************************************************
+.ar OVERSK on
+:SWISS12.:FED.
+.us Anmodning om udførelse af BEC SERVICE OPKRÆVNING
+:SKRSLUT.
+.ar off
+.***************************************************************
+.ar SIDE1 on
+:SWISS10.
+.in 1mm
+:FED.
+Parter
+:SKRSLUT.
+.***** her laves kassen til arbejdsgiver og edb-nr ************************
+.bx left 87.5mm right
+.sp 11mm
+.***** her laves kassen til edb-nr ****************************************
+.hr 87.5mm right
+.sp 11mm
+.***** her laves kassen til Pengeinstituttet ******************************
+.bx new left right
+.sp 22mm
+.bx off
+.bx can
+:SWISS10.
+:FED.
+Indhold
+:SKRSLUT.
+.***** her laves kassen til Indhold ***************************************
+.bx left right
+.sp 30mm
+.bx off
+.***** her laves kassen til betingelser  **********************************
+:SWISS10.
+:FED.
+Betingelser
+:SKRSLUT.
+.bx left right
+.sp 100mm
+.bx off
+:SWISS10.
+:FED.
+Underskrift
+:SKRSLUT.
+.***** her laves kassen til arbejdsgiver/pi. underskrift ******************
+.bx left 87.5mm right
+.sp 30mm
+.bx off
+.ar off

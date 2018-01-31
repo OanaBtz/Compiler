@@ -1,0 +1,94 @@
+.kp on
+.*Afsnit fra kontonr.- kontotype- Understregning
+.**************************************************************
+.tp 34mm 75mm 110mm
+.**************************************************************
+.if &L'&GENEOPA01 gt 0
+.or &L'&GENEOPA02 gt 0
+.th .go KTO
+.el .go ENDKTO
+...KTO
+:FED.
+Følgende konti anmodes om at blive overført snarest muligt med renter til
+opgørelsesdagen.
+:SKRSLUT.
+.sp
+.hr left right
+.br
+:SWISS9.
+Fra ¤Kontotype ¤Til ¤Anden oplysning
+.hr left right
+.**************************************************************
+.*Afsnit med ktonr. og ktotyper
+.**************************************************************
+.fo left
+.*************************************
+.if &L'&GENEOPB01 gt 0
+.or &L'&GENEOPA01 gt 0
+.or &L'&GENEOPD01 gt 0
+.th &GENEOPA01.¤&GENEOPB01.¤&GENEOPC01.¤&GENEOPD01.
+.th .br
+.if &L'&GENEOPB02 gt 0
+.or &L'&GENEOPA02 gt 0
+.or &L'&GENEOPD02 gt 0
+.th &GENEOPA02.¤&GENEOPB02.¤&GENEOPC02.¤&GENEOPD02.
+.th .br
+.if &L'&GENEOPB03 gt 0
+.or &L'&GENEOPA03 gt 0
+.or &L'&GENEOPD03 gt 0
+.th &GENEOPA03.¤&GENEOPB03.¤&GENEOPC03.¤&GENEOPD03.
+.th .br
+.if &L'&GENEOPB04 gt 0
+.or &L'&GENEOPA04 gt 0
+.or &L'&GENEOPD04 gt 0
+.th &GENEOPA04.¤&GENEOPB04.¤&GENEOPC04.¤&GENEOPD04.
+.th .br
+.if &L'&GENEOPB05 gt 0
+.or &L'&GENEOPA05 gt 0
+.or &L'&GENEOPD05 gt 0
+.th &GENEOPA05.¤&GENEOPB05.¤&GENEOPC05.¤&GENEOPD05.
+.th .br
+.if &L'&GENEOPB06 gt 0
+.or &L'&GENEOPA06 gt 0
+.or &L'&GENEOPD06 gt 0
+.th &GENEOPA06.¤&GENEOPB06.¤&GENEOPC06.¤&GENEOPD06.
+.th .br
+.if &L'&GENEOPB07 gt 0
+.or &L'&GENEOPA07 gt 0
+.or &L'&GENEOPD07 gt 0
+.th &GENEOPA07.¤&GENEOPB07.¤&GENEOPC07.¤&GENEOPD07.
+.th .br
+.if &L'&GENEOPB08 gt 0
+.or &L'&GENEOPA08 gt 0
+.or &L'&GENEOPD08 gt 0
+.th &GENEOPA08.¤&GENEOPB08.¤&GENEOPC08.¤&GENEOPD08.
+.th .br
+.if &L'&GENEOPB09 gt 0
+.or &L'&GENEOPA09 gt 0
+.or &L'&GENEOPD09 gt 0
+.th &GENEOPA09.¤&GENEOPB09.¤&GENEOPC09.¤&GENEOPD09.
+.th .br
+.if &L'&GENEOPB10 gt 0
+.or &L'&GENEOPA10 gt 0
+.or &L'&GENEOPD10 gt 0
+.th &GENEOPA10.¤&GENEOPB10.¤&GENEOPC10.¤&GENEOPD10.
+.th .br
+:SKRSLUT.
+.sp 5mm
+.kp off
+.***************
+.kp on
+.if &U'X&GENFOOPL = XJ
+.th Oversigt over faste overførsler samt indbetalingskort og
+.th e-kort vedrørende ovennævnte konti skal fremsendes af
+.th &GENOVFBANK. til &BANKNAVN..
+.th .sp 5mm
+.kp off
+.kp on
+.if &U'X&GENBSOPL = XJ
+.th Oversigt over ikke flyttede BS-aftaler vedrørende ovennævnte produkter
+.th fremsendes af &GENOVFBANK. til &BANKNAVN..
+.th .sp 5mm
+.kp off
+.************************************************
+...ENDKTO

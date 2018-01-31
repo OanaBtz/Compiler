@@ -1,0 +1,115 @@
+.*SAMTYKKE - SMS **********************************************************
+.kp on
+.if &U'&SWSAMTYK = J
+.an &U'&SWSMS = J
+.th .go SMS
+.el .go ENDSMS
+...SMS
+*¤SMS
+.br
+.in 8mm
+Det aftales, at &BANKNAVN kan henvende sig til mig/os på:
+.br
+.tp 75mm
+.*SMS1*******
+.if &L'&SMSTXT1A > 0
+.or &L'&SMSTXT1B > 0
+.th &SMSTXT1A ¤&SMSTXT1B
+.th .br
+.*SMS2*******
+.if &L'&SMSTXT2A > 0
+.or &L'&SMSTXT2B > 0
+.th &SMSTXT2A ¤&SMSTXT2B
+.th .br
+.*SMS3*******
+.if &L'&SMSTXT3A > 0
+.or &L'&SMSTXT3B > 0
+.th &SMSTXT3A ¤&SMSTXT3B
+.th .br
+.*SMS4*******
+.if &L'&SMSTXT4A > 0
+.or &L'&SMSTXT4B > 0
+.th &SMSTXT4A ¤&SMSTXT4B
+.th .br
+.*SMS5*******
+.if &L'&SMSTXT5A > 0
+.or &L'&SMSTXT5B > 0
+.th &SMSTXT5A ¤&SMSTXT5B
+.th .br
+.*SMS6*******
+.if &L'&SMSTXT6A > 0
+.or &L'&SMSTXT6B > 0
+.th &SMSTXT6A ¤&SMSTXT6B
+.th .br
+.*SMS7*******
+.if &L'&SMSTXT7A > 0
+.or &L'&SMSTXT7B > 0
+.th &SMSTXT7A ¤&SMSTXT7B
+.th .br
+.*SMS8*******
+.if &L'&SMSTXT8A > 0
+.or &L'&SMSTXT8B > 0
+.th &SMSTXT8A ¤&SMSTXT8B
+.th .br
+.*SMS9*******
+.if &L'&SMSTXT9A > 0
+.or &L'&SMSTXT9B > 0
+.th &SMSTXT9A ¤&SMSTXT9B
+.th .br
+.*SMS10******
+.if &L'&SMSTXT10A > 0
+.or &L'&SMSTXT10B > 0
+.th &SMSTXT10A ¤&SMSTXT10B
+.*SMSHENV******************************************************************
+.if &L'&HENVSMS1 = 0
+.an &L'&HENVSMS2 = 0
+.an &L'&HENVSMS3 = 0
+.an &L'&HENVSMS4 = 0
+.an &L'&HENVSMS5 = 0
+.an &L'&HENVSMS6 = 0
+.th .go ENDSMS
+.*.if &L'&HENVSMS1 > 0
+.*.an &L'&HENVSMS2 > 0
+.*.an &L'&HENVSMS3 > 0
+.*.an &L'&HENVSMS4 > 0
+.*.an &L'&HENVSMS5 > 0
+.*.an &L'&HENVSMS6 > 0
+.*.th .go ENDSMS
+.*KUN BEGRÆNSNINGER UDSKRIVES, HVIS DER GIVES TILLADELSE TIL ALT SKRIVES***
+.*DET IKKE (DVS INGEN UDSKRIVNING, HVIS ALLE HENVENDELSER ER UDFYLDT) *****
+.**************************************************************************
+.br
+Henvendelse via SMS gælder inden for områderne:
+.br
+.if &L'&HENVSMS1 > 0
+.th - &HENVSMS1
+.th .br
+.*******************
+.if &L'&HENVSMS2 > 0
+.th - &HENVSMS2
+.th .br
+.*******************
+.if &L'&HENVSMS3 > 0
+.th - &HENVSMS3
+.th .br
+.*******************
+.if &L'&HENVSMS4 > 0
+.th - &HENVSMS4
+.th .br
+.*******************
+.if &L'&HENVSMS5 > 0
+.th - &HENVSMS5
+.th .br
+.*******************
+.if &L'&HENVSMS6 > 0
+.th - &HENVSMS6
+.*******************
+...ENDSMS
+.in 5mm
+.**DEN TEKST VEDRØRER BÅDE TLF, BREVE, E-MAIL OG SMS **********************
+.if &U'&SWSAMTYK = J
+.th .sp 3mm
+.th Jeg/vi kan til enhver tid annullere tilladelsen om henvendelse fra
+.th &BANKNAVN..
+.sp 5mm
+.kp off

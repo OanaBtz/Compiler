@@ -1,0 +1,39 @@
+.**************************************************************************
+.** INDBETALINGSKASSEN fortsat. Test på pentype = F og E og METODE = 1 el 2
+.** AREAL FORTSAT FRA BECPEN01T2 ******************************************
+.**************************************************************************
+.* BODELINGSKONTRAKT - tekst er afhængig af metode:                       *
+.* Metode 1 - ingen        tekst MEN henvisning til Særlige vilkår        *
+.* Metode 2 - eksisterende tekst PLUS henvisning til Særlige vilkår       *
+.* Metode 3 - eksisterende tekst INGEN henvisning til Særlige vilkår      *
+.**************************************************************************
+.if &L'&PENMETODE > 0
+.an X&PENMETODE = X1
+.th .go PENGSL
+.*************************************************************************
+.**************************************************************************
+.** PENTYPE = E: ENGANGSINDSKUD - 1 BETALINGSFORLØB
+.**************************************************************************
+.if &U'&PENTYPE = E
+.th .go PENG
+.el .go PENGSL
+.***********
+...PENG
+.***********
+.if &U'&PENSELV = J
+.or &U'&PENLOFT = J
+.th I forbindelse med, at aftalen er indgået, er det aftalt, at kontohaver
+.el Kontohaver
+indbetaler et engangsindskud på &PENTOTAL1. kr.
+.if &L'&PENFKTONR1 = 0
+.an &L'&PENSTDATO1 = 0
+.th .go PENGSL1
+.******
+.if &L'&PENFKTONR1 > 0
+.th .ct , der overføres fra kontonr. &PENFKTONR1.
+.el .ct , der indbetales
+.ct  den &PENSTDATO1..
+...PENGSL1
+.sp 1mm
+.**************************************************************************
+...PENGSL

@@ -1,0 +1,57 @@
+.da AFTALE        25mm    45.5mm width 80mm
+.da KUNDEOPL      25mm      54mm width 80mm
+.da GIVER      112.5mm      54mm width 80mm
+.da KUNDCPR       25mm    78.5mm width 80mm
+.da GIVCVR     112.5mm    78.5mm width 80mm
+.da UNDSKR        25mm     104mm width 169mm
+.**************************************************************************
+.ar AFTALE on
+&AFTALENR.
+.ar off
+.****LEASINGTAGERS NAVN OG ADRESSE*****************************************
+.ar KUNDEOPL on
+&ADR1
+.br
+&ADR2.
+.br
+&ADR3.
+.br
+&ADR4.
+.br
+&ADR5.
+.ar off
+.****EJER OG LEASINGGIVER NAVN OG ADRESSE**********************************
+.ar GIVER on
+&AFDBNKNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.**************************************************************************
+.ar KUNDCPR on
+&KUNDENR.
+.ar off
+.**************************************************************************
+.ar GIVCVR on
+&AFDSENR.
+.ar off
+.*Underskrifter**************************************************
+.ar UNDSKR on
+.tp 110mm center
+.dr tynd weight 0.1mm
+:SWISS10.
+:FED.
+Underskrifter
+:SKRSLUT.:SKRSLUT.
+:SWISS8.
+.sp 5mm
+Som leasingtager
+.sp 14mm
+.hr tynd left 45mm 50mm 165mm
+Dato :SKRSLUT. ¤&UNDSNAVN. :SWISS8.
+.sp 5mm
+Som leasinggiver
+.sp 14mm
+.hr tynd left 45mm 50mm 165mm
+Dato :SKRSLUT. ¤&AFDBNKNAVN. :SWISS8.

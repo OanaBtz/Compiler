@@ -1,0 +1,114 @@
+.in 1
+.fo left
+:NY.
+.in 0mm
+:ENY.
+.su off
+.se indr = 'Kortet er inddraget som følge af'
+.se spr = 'at kortet er spærret'
+.se tekfejl = 'at der har været teknisk fejl i automaten'
+.se ejtaget = 'at kortet ikke er taget af kunden efter præsentation'
+.se defekt = 'at kortet er defekt og bør udskiftes'
+.se glf = 'at kortet er glemt/fundet i automaten'
+.su on
+.************************** Hvis kun et modul ***************************
+.******************************* Spærret ********************************
+:GL.
+.da GRUND 5 32 width 70
+:EGL.
+:NY.
+.da GRUND 20mm 136mm width 175mm
+:ENY.
+.ar GRUND on
+.if &L'&GENKORTSP gt 0
+.an &L'&GENTEKFEJL eq 0
+.an &L'&GENEJTAGT1 eq 0
+.an &L'&GENKORTDEF eq 0
+.an &L'&GENKORTFUN eq 0
+.an &L'&GENANDEN eq 0
+.th &indr., &spr..
+.th .go SLUT
+.**************************** Teknisk fejl *****************************
+.if &L'&GENKORTSP eq 0
+.an &L'&GENTEKFEJL gt 0
+.an &L'&GENEJTAGT1 eq 0
+.an &L'&GENKORTDEF eq 0
+.an &L'&GENKORTFUN eq 0
+.an &L'&GENANDEN eq 0
+.th &indr., &tekfejl..
+.th .go SLUT
+.**************************** Ikke taget *******************************
+.if &L'&GENKORTSP eq 0
+.an &L'&GENTEKFEJL eq 0
+.an &L'&GENEJTAGT1 gt 0
+.an &L'&GENKORTDEF eq 0
+.an &L'&GENKORTFUN eq 0
+.an &L'&GENANDEN eq 0
+.th &indr., &ejtaget..
+.th .go SLUT
+.**************************** Kort defekt ******************************
+.if &L'&GENKORTSP eq 0
+.an &L'&GENTEKFEJL eq 0
+.an &L'&GENEJTAGT1 eq 0
+.an &L'&GENKORTDEF gt 0
+.an &L'&GENKORTFUN eq 0
+.an &L'&GENANDEN eq 0
+.th &indr., &defekt..
+.th .go SLUT
+.*************************** Kort glemt/fundet *************************
+.if &L'&GENKORTSP eq 0
+.an &L'&GENTEKFEJL eq 0
+.an &L'&GENEJTAGT1 eq 0
+.an &L'&GENKORTDEF eq 0
+.an &L'&GENKORTFUN gt 0
+.an &L'&GENANDEN eq 0
+.th &indr., &glf..
+.th .go SLUT
+.*************************** Anden årsag *******************************
+.if &L'&GENKORTSP eq 0
+.an &L'&GENTEKFEJL eq 0
+.an &L'&GENEJTAGT1 eq 0
+.an &L'&GENKORTDEF eq 0
+.an &L'&GENKORTFUN eq 0
+.an &L'&GENANDEN gt 0
+.th &indr., &GENANDEN..
+.th .go SLUT
+.*************************** Intet angivet *****************************
+.if &L'&GENKORTSP eq 0
+.an &L'&GENTEKFEJL eq 0
+.an &L'&GENEJTAGT1 eq 0
+.an &L'&GENKORTDEF eq 0
+.an &L'&GENKORTFUN eq 0
+.an &L'&GENANDEN eq 0
+.th .go SLUT
+.*************************** Hvis flere valg ***************************
+&indr.:
+.sp
+:GL.
+.in 6
+.*.ll 66
+:EGL.
+:NY.
+.in 16mm
+:ENY.
+.if &L'&GENKORTSP gt 0
+.th &spr
+.th .br
+.if &L'&GENTEKFEJL gt 0
+.th &tekfejl
+.th .br
+.if &L'&GENEJTAGT1 gt 0
+.th &ejtaget
+.th .br
+.if &L'&GENKORTDEF gt 0
+.th &defekt
+.th .br
+.if &L'&GENKORTFUN gt 0
+.th &glf
+.th .br
+.if &L'&GENANDEN gt 0
+.th &GENANDEN
+.go SLUT
+.************************************************************************
+...SLUT
+.in 0

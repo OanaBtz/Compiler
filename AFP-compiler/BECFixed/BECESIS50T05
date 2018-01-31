@@ -1,0 +1,72 @@
+.th Betalingernes hyppighed: Kvartalsvis
+.th .br
+.th .go VIDT5
+.el
+Betalingernes hyppighed: Kvartalsvis/&afvfretx1c.&afvfretx2c.&afvfretx3c.
+.br
+.go VIDT5
+...BEVTX
+Betalingernes hyppighed: Kvartalsvis
+.br
+.go VIDT5
+...INDF
+Betalingernes hyppighed: Kvartalsvis
+.br
+.go VIDT5
+...NORM
+Betalingernes hyppighed: &afvfretx1c.&afvfretx2c.&afvfretx3c.
+.br
+...VIDT5
+Antal betalinger: &ANTALYDL01.
+.sp 3mm
+.kp off
+.******************************************************************
+.tp 140mm right
+.****************************
+.kp on
+.hr left right
+:SWISS10.
+:FED. 5. Betalingernes hyppighed og antal:SKRSLUT.
+:SKRSLUT.
+:SWISS9.
+.hr left right
+.sp 1.5mm
+.if &L'&BEVOVTSUM > 0
+.th .go BEVTX
+.if &U'&LÅNKRED = K
+.th .go KRETX
+.el .go NORM
+.******************************
+...KRETX
+.if &L'&AFVFREK01 > 0
+.th .go KAFTX
+.el .go INDF
+.******************************
+...KAFTX
+.if x&AFVFREK01 = x01
+.th .se krtx '/månedlige'
+.th .se krtx1 '/måned'
+.if x&AFVFREK01 = x03
+.th .se krtx '/kvatalsvise'
+.th .se krtx1 '/kvatal'
+.if x&AFVFREK01 = x04
+.th .se krtx '/hver 2. måned'
+.th .se krtx1 '/hver 2. måned'
+.if x&AFVFREK01 = x06
+.th .se krtx '/halvårlige'
+.th .se krtx1 '/halvårlig'
+.if x&AFVFREK01 = x07
+.th .se krtx '/ugentlige'
+.th .se krtx1 '/ugentlig'
+.if x&AFVFREK01 = x09
+.th .se krtx '/årlige'
+.th .se krtx1 '/årlig'
+.if x&AFVFREK01 = x14
+.th .se krtx '/14. dages'
+.th .se krtx1 '/14. dag'
+.if x&AFVFREK01 = x15
+.th .se krtx '/hver den 15. og sidste i måneden'
+.th .se krtx1 '/hver den 15. og sidste i måneden'
+.if x&AFVFREK01 = x03
+.or x&AFVFREK02 = x03
+.or x&AFVFREK03 = x03

@@ -1,0 +1,78 @@
+.* Parameterlisten *******************
+.if &L'&GENNAVNBD1 > 0
+.th .go BEG1
+.el .go BEG1END
+...BEG1
+.if &L'&GENJANEJ1 = 0
+.th .mg/T/Punkt. 3 - navn(1) er udfyldt: tast J eller N i punkt 5 (1)/
+.if &U'X&GENJANEJ1 = XJ
+.or &U'X&GENJANEJ1 = XN
+.th .go BEG1END
+.el .mg/T/Punkt. 5 (1) - Udbetaling har fundet sted: Tast J eller N/
+...BEG1END
+.if &L'&GENJANEJ1 > 0
+.an &L'&GENNAVNBD1 = 0
+.th .mg/T/Punkt. 3 - navn(1) er ikke udfyldt: fjern værdien i punkt 5 (1)/
+.*************************************************************************
+.if &L'&GENNAVNBD2 > 0
+.th .go BEG2
+.el .go BEG2END
+...BEG2
+.if &L'&GENJANEJ2 = 0
+.th .mg/T/Punkt. 3 - navn(2) er udfyldt: tast J eller N i punkt 5 (2)/
+.if &U'X&GENJANEJ2 = XJ
+.or &U'X&GENJANEJ2 = XN
+.th .go BEG2END
+.el .mg/T/Punkt. 5 - Udbetaling har fundet sted: Tast J eller N/
+...BEG2END
+.if &L'&GENJANEJ2 > 0
+.an &L'&GENNAVNBD2 = 0
+.th .mg/T/Punkt. 3 - navn(2) er ikke udfyldt: fjern værdien i punkt 5 (2)/
+.*************************************************************************
+.if &L'&GENNAVNBD3 > 0
+.th .go BEG3
+.el .go BEG3END
+...BEG3
+.if &L'&GENJANEJ3 = 0
+.th .mg/T/Punkt. 3 - navn(3) er udfyldt: tast J eller N i punkt 5 (3)/
+.if &U'X&GENJANEJ3 = XJ
+.or &U'X&GENJANEJ3 = XN
+.th .go BEG3END
+.el .mg/T/Punkt. 5 - Udbetaling har fundet sted: Tast J eller N/
+...BEG3END
+.if &L'&GENJANEJ3 > 0
+.an &L'&GENNAVNBD3 = 0
+.th .mg/T/Punkt. 3 - navn(3) er ikke udfyldt: fjern værdien i punkt 5 (3)/
+.*************************************************************************
+.if &L'&GENNAVNBD4 > 0
+.th .go BEG4
+.el .go BEG4END
+...BEG4
+.if &L'&GENJANEJ4 = 0
+.th .mg/T/Punkt. 3 - navn(4) er udfyldt: tast J eller N i punkt 5 (4)/
+.if &U'X&GENJANEJ4 = XJ
+.or &U'X&GENJANEJ4 = XN
+.th .go BEG4END
+.el .mg/T/Punkt. 5 - Udbetaling har fundet sted: Tast J eller N/
+...BEG4END
+.if &L'&GENJANEJ4 > 0
+.an &L'&GENNAVNBD4 = 0
+.th .mg/T/Punkt. 3 - navn(4) er ikke udfyldt: fjern værdien i punkt 5 (4)/
+.*************************************************************************
+.if &L'&GENBELØB11 > 0
+.an &L'&GENKTONR01 = 0
+.th .mg/T/Felt 6 - statsafgift: Konto(1) i felt 1 skal være udfyldt/
+.*************************************************************************
+.if &L'&GENBELØB12 > 0
+.an &L'&GENKTONR02 = 0
+.th .mg/T/Felt 6 - statsafgift: Konto(2) i felt 1 skal være udfyldt/
+.*************************************************************************
+.if &L'&GENBELØB13 > 0
+.an &L'&GENKTONR03 = 0
+.th .mg/T/Felt 6 - statsafgift: Konto(3) i felt 1 skal være udfyldt/
+.*************************************************************************
+.if &L'&GENBELØB14 > 0
+.an &L'&GENKTONR04 = 0
+.th .mg/T/Felt 6 - statsafgift: Konto(4) i felt 1 skal være udfyldt/
+.*************************************************************************
+.*Test på felt 7 ligger i BECBEGUN01P4***********************************

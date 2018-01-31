@@ -1,0 +1,173 @@
+:SWISS8.
+.******************************************************
+.*dette er en kopi af afsnittet BECRAT02T2, så hvis du retter i dette
+.* afsnit skal det andet også rettes.
+.******************************************************
+.da KONTOH     21mm 44mm width 85mm
+.da ARBG      108.5mm 44mm width 85mm
+.da PI         21mm 65mm width 85mm
+.da CPRNR     108.5mm 65mm width 85mm
+.da KONTONR   108.5mm 75mm width 45mm
+.da DEPNR     151mm 75mm width 45mm
+.da TEKST      21mm 86mm width 170mm
+.da INDBET     21mm 96.8mm width 170mm
+.da INDDATOA   21mm 125mm width 172mm
+.da INDDATOP   21mm 124mm width 172mm
+.da FORHØJ     21mm 129mm width 170mm
+.da FORSIK     21mm 145.7mm width 170mm
+.******************************************************
+.ar KONTOH on
+Kontohaver
+.ar off
+.******************************************************
+.ar ARBG on
+.if &L'&GENNAVN1 gt 0
+.th Arbejdsgiver
+.th .sp 14mm
+.th CVR-nr.
+.ar off
+.******************************************************
+.ar PI on
+Pengeinstitut
+.ar off
+.******************************************************
+.ar CPRNR on
+CPR-nr.
+.ar off
+.******************************************************
+.ar KONTONR on
+Kontonr.
+.ar off
+.******************************************************
+.ar DEPNR on
+Depotnr.
+.ar off
+.******************************************************
+.ar TEKST on
+Aftalen ændres iflg. nedenstående, med virkning fra den:
+.ar off
+.******************************************************
+.ar INDBET on
+Indbetalinger
+.sp
+.*** privat ordning *********
+.if &L'&GENKTNR1 gt 0
+.an &L'&GENNAVN1 gt 0
+.th .sp 5mm
+.th Du har indtastet i privat og arbejdegiver ordning vælg kun 1 ordning
+.th .go NEDERST
+.if &L'&GENNAVN1 gt 0
+.th .go ARB
+.if &L'&GENKR gt 0
+.th Som bidrag til ratepension indbetales kr.
+.th .sp2mm
+.el Som bidrag til ratepension kan der indbetales et beløb svarende til
+.el det i henhold til loven fastsatte opfyldningsfradrag.
+.el .sp2mm
+.if &U'X&GENTILVALG = XJ
+.th Det aftalte indskud reduceres med det til enhver tid værende
+.th maksimumsbeløb for indskud på kapitalpensionskonti.
+.th .sp
+.el
+.go SLUT
+.*
+.****** ARBEJDSGIVERORDNING **********
+...ARB
+.tp 108mm
+.if &U'X&GENVÆRDI eq X2
+.th .se KRPR = '%'
+.el .se KRPR = 'kr.'
+.if &L'&GENNAVN1 gt 0
+.th Som bidrag betaler arbejdsgiver, som led i
+.th pensionsordning ¤&KRPR af
+.th medarbejderens bruttoløn
+.sp
+Det er mellem parterne aftalt at bidraget
+tilvejebringes med: ¤&KRPR fra arbejdsgiver og
+.br
+¤&KRPR fra medarbejder
+.sp
+.if &U'&GENTILVALG = J
+.an &U'&GENREGULER = J
+.th Det aftalte indskud reduceres med det til enhver tid værende
+.th maksimumsbeløb
+.th for indskud på kapitalpensionskonti.
+.th .br
+.th Bidraget pristalsreguleres.
+.el
+.if &U'&GENTILVALG = J
+.an &U'&GENREGULER = N
+.th Det aftalte indskud reduceres med det til enhver tid værende
+.th maksimumsbeløb for indskud på kapitalpensionskonti.
+.el
+.if &U'&GENTILVALG = N
+.an &U'&GENREGULER = N
+.th
+.if &U'&GENTILVALG = N
+.an &U'&GENREGULER = J
+.th Bidraget pristalsreguleres.
+.el
+...SLUT
+.ar off
+.******************************************************
+.ar INDDATOA on
+.if &L'&GENNAVN1 gt 0
+.an &L'&GENTILMED gt 0
+.th .tp 57mm
+.th Bidrag betales til og med: ¤bidraget betales dog kun, så længe
+.th kontohaver er ansat i virksomheden.
+.ar off
+.******************************************************
+.ar INDDATOP on
+.if &L'&GENNAVN1 eq 0
+.an &L'&GENTILMED gt 0
+.an &U'X&GENREGULER eq XJ
+.th .tp 55mm 112mm
+.th Bidraget pristalsreguleres ¤Overføres fra kontonr.: ¤Bidrag betales til
+.th og med:
+.tp 65mm
+.if &L'&GENNAVN1 eq 0
+.an &L'&GENTILMED eq 0
+.an &U'X&GENREGULER eq XJ
+.th .tp 55mm 112mm
+.th Bidraget pristalsreguleres ¤Overføres fra kontonr.:
+.th og med:
+.el
+.if &L'&GENNAVN1 eq 0
+.an &L'&GENTILMED gt 0
+.an &U'X&GENREGULER = XN
+.th Overføres fra kontonr.: ¤Bidrag betales til og med:
+.if &L'&GENNAVN1 eq 0
+.an &L'&GENTILMED eq 0
+.an &U'X&GENREGULER = XN
+.th Overføres fra kontonr.:
+.el
+.ar off
+.******************************************************
+.ar FORHØJ on
+.tp 60mm
+Forhøjelsestillæg ved det fyldte 60. år
+.sp
+Værdi i alt kr. ¤Aftalte fremtidige indbetalinger kr.
+.sp
+De fremtidige indbetalinger til tillægget kan herefter maksimalt udgøre kr.
+.ar off
+.******************************************************
+.ar FORSIK on
+Forsikringsdækning
+.sp
+Der søges ved pengeinstituttets foranstaltning tegnet følgende
+forsikring(er) i:
+.sp
+.tp 110mm
+.if &L'&GENPOLICE gt 0
+.th Forsikringstype(r): ¤Policenr(er).:
+.el Forsikringstype(r):
+.sp 3.5
+Nedennævnte forsikring(er) udgår af aftalen:
+.sp 0.5
+Forsikringstype(r):
+.ar off
+.******************************************************
+...NEDERST
+.ar off

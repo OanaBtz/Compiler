@@ -1,0 +1,142 @@
+Settlement organisation for MasterCard.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+PIN code
+:SKRSLUT.
+.br
+The 4-digit personal code that is linked to your card.
+.br
+A single PIN code: A PIN code you have chosen to use from one of your
+other physical
+payment cards issued by &BANKNAVN., if &BANKNAVN. has given you the
+opportunity to do so.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+MasterCard SecureCode
+:SKRSLUT.
+.br
+A security system designed to prevent the misuse of card data in
+connection with purchases on the Internet.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+One-off code
+:SKRSLUT.
+.br
+A code received by the cardholder in a text message to the registered
+mobile phone. The code is to be used for future purchases from shops that
+use the MasterCard SecureCode system.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+NemID
+:SKRSLUT.
+.br
+NemID is a digital signature. There is a technical distinction between
+Bank NemID and OCES NemID but you may use both types to register for
+MasterCard SecureCode.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Price list
+:SKRSLUT.
+.br
+.kp on
+:SWISS8.
+:FED.
+Account
+:SKRSLUT.
+.br
+Account used for transactions in connection with your MasterCard. Every
+time you use your card, the transaction is registered on your account.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Maximum consumption and withdrawal limits
+:SKRSLUT.
+.br
+The maximum sum at your disposal.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Fee period
+:SKRSLUT.
+.br
+Card fees are charged annually. The fee period commences on the date the
+card is issued.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Receipt
+:SKRSLUT.
+.br
+Information about a payment in hard copy or electronic format.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Transaction
+:SKRSLUT.
+.br
+A transaction is the name for the procedure that takes place when you
+either use your card to make a purchase - in a shop or similar - or to
+withdraw cash from an ATM.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Nets (hereinafter called Nets)
+:SKRSLUT.
+.br
+The price list: The list of charges, fees etc. applicable at any time. See
+the &BANKNAVN.s website.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Data Centre
+:SKRSLUT.
+.br
+A computer centre that supplies IT services to &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Contactless payment
+:SKRSLUT.
+.br
+A card, with built-in antenna, which is connected to the card chip, makes
+it possible to make payments without direct contact between the card and
+the payment terminal if the payment terminal also has a contactless
+device. You can pay simply by holding the card 0-3 centimetres from the
+payment terminal's contactless symbol. Cards and payment terminals, that
+have the contactless device, will have the symbol - ))) - at the front of
+the card or terminal.
+.sp 3mm
+.kp off
+:FED.
+Wallet for the use of physical purchases
+:SKRSLUT.
+.br
+A personal software-based solution which enables you to pay by means of a
+MasterCard on a mobile phone when making physical purchases.
+.sp 3mm
+:FED.
+Digital wallet
+:SKRSLUT.
+.br
+A software-based solution, where you register your card data for future use
+in connection with Internet purchases in a webshop.
+.sp 5mm
+.kp off
+.**************************************************************************

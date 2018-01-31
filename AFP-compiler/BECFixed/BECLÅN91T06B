@@ -1,0 +1,98 @@
+.*****Fortsat fra BECLÅN91T06A*
+.if &L'&GENFKUA5A > 0
+.or &L'&GENFKMA5B > 0
+.th .go TXT6BF
+.el .go TXT6BE
+.*************************
+...TXT6BF
+.if x&U'&GENFKUA5A = xJ
+.th .go FKUA5A
+.if x&U'&GENFKMA5B = xJ
+.th .go FKMA5B
+.****** F-kort uden afdrag **********************************************
+...FKUA5A
+.kp on
+Omkostningerne afhænger af, hvordan lånet indfries
+(jf. beskrevet under 'Opsigelses- og indfrielsesvilkår').
+.br
+Beregningseksempler på indfrielsesmetoder:
+.sp 3mm
+Obligationsindfrielse:
+.br
+Hvis der er lang tid til refinansiering og indfrielse skal ske hurtigt
+er der kun mulighed for at indfri ved opkøb af de bagvedliggende
+obligationer. Er obligationsrestgælden på en million kroner og kursen
+på obligationerne 101, kan lånet indfries til 1.010.000 kr.
+.sp 3mm
+Opsigelse og straks opsigelse op til refinansiering:
+.br
+Ved refinansiering kan lånet indfries ved at opsige lånet til kurs 100 med
+to måneders varsel til et refinansieringstidspunkt.
+.br
+Er obligationsrestgælden på en million kroner, kan lånet ved
+refinansiering indfries til en million kroner.
+.sp 3mm
+Op til et refinansieringstidspunkt kan lånet også indfries straks
+mod betaling af opsigelsesrenter under forudsætning af, at det er
+opsagt to måneder før refinansieringen. Opsigelsesrenter opstår,
+fordi obligationsejeren skal have renter af de
+bagvedliggende obligationer frem til den termin, som opsigelse
+kunne være sket til. Da indfrielsesbeløbet betales straks, mens
+Totalkredit først skal viderebetale til obligationsejeren
+senere, opkræver eller godtgør Totalkredit en mellemregningsrente
+af beløbet i denne periode. Summen af obligationsrente og
+mellemregningsrente kaldes opsigelsesrente. Er
+obligationsrestgælden på en million kroner, kan
+lånet indfries til en million kroner plus opsigelsesrente.
+.sp 3mm
+Herudover må &deblomt påregne indfrielsesomkostninger og ved låneomlægning
+tillige omkostninger ved optagelsen af det nye lån. Disse omkostninger
+fremgår af &BANKNAVN. og Totalkredits prisblad.
+.kp off
+.go TXT6BE
+.****** F-kort med afdrag *************************************************
+...FKMA5B
+.kp on
+Omkostningerne afhænger af, hvordan lånet indfries (jf. beskrevet under
+'Opsigelses- og indfrielsesvilkår').
+.br
+.sp 3mm
+Beregningseksempler på indfrielsesmetoder:
+.sp
+Obligationsindfrielse:
+.br
+Hvis der er lang tid til refinansiering og indfrielse skal ske hurtigt
+er der kun mulighed for at indfri ved opkøb af de bagvedliggende
+obligationer. Er obligationsrestgælden på en million kroner og kursen på
+obligationerne 101, kan lånet
+indfries til 1.010.000 kr.
+.sp 3mm
+Opsigelse og straksopsigelse op til refinansiering:
+.br
+Ved refinansiering kan lånet indfries ved at opsige lånet til kurs 100 med
+to måneders varsel til et refinansieringstidspunkt.
+.br
+Er obligationsrestgælden på en million kroner, kan lånet ved
+refinansiering indfries til en million kroner.
+.sp 3mm
+Op til et refinansieringstidspunkt kan lånet også indfries straks mod
+betaling af opsigelsesrenter under forudsætning af, at det er opsagt to
+måneder før refinansieringen. Opsigelsesrenter opstår, fordi
+obligationsejeren skal have renter af de
+bagvedliggende obligationer frem til den termin, som opsigelse kunne være
+sket til. Da indfrielsesbeløbet betales straks, mens Totalkredit
+først skal viderebetale til obligationsejeren senere, opkræver
+eller godtgør Totalkredit en mellemregningsrente af beløbet i
+denne periode. Summen af obligationsrente og mellemregningsrente kaldes
+opsigelsesrente. Er obligationsrestgælden på en million kroner, kan lånet
+indfries til en million kroner plus opsigelsesrente.
+.sp 3mm
+Herudover må &deblomt påregne indfrielsesomkostninger og ved
+låneomlægning tillige omkostninger ved optagelsen af det nye lån. Disse
+omkostninger fremgår af &BANKNAVN. og Totalkredits prisblad.
+.kp off
+.go TXT6BE
+.*****************************
+...TXT6BE
+.sp 5mm
+.**********

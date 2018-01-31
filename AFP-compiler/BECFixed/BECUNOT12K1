@@ -1,0 +1,30 @@
+.**************************************************************************
+.da SIDE1  20mm 38mm width 175mm
+.**************************************************************************
+.ar SIDE1 on
+.tp 1mm 88.5mm 131.5mm
+:SWISS10.
+:FED.
+Parties
+:SKRSLUT.
+:SKRSLUT.
+.***** her laves kassen til Firmaet og pengeinstitut **********************
+.bx left 87.5mm right
+:SWISS8.
+¤Company ¤Bank
+:SKRSLUT.
+.sp 19mm
+.bx off
+.bx can
+:SWISS10.
+:FED.
+Contents
+:SKRSLUT.
+:SKRSLUT.
+.***** her laves kassen til resten af siden *******************************
+.bx new left right
+.sp 207mm
+.bx off
+.bx can
+.********************
+.ar off

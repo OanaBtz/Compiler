@@ -1,0 +1,136 @@
+.***************
+.if &L'&AFTDATO10 = 0
+.an &L'&GENFDATO = 0
+.th .go INDFRI
+:FED.
+Renegotiation
+.br
+:SKRSLUT.
+.if &L'&AFTDATO10 > 0
+.th &debsomt agree on further payment or repayment with &BANKNAVN.
+.th &AFTDATO10..
+.if &L'&GENFDATO > 0
+.th .br
+.th The credit is renegotiated
+.th &GENFDATO..
+.sp 5mm
+...INDFRI
+.**************************
+.if &L'&INDFRIDATO > 0
+.th
+.el .go RENTE
+:FED.
+Closing date
+.br
+:SKRSLUT.
+Drawing rights on the credit ceases &INDFRIDATO. where outstanding
+amount, if any, is to be paid up.
+.sp 5mm
+...RENTE
+.***************
+:FED.
+Costs and interest rates
+.br
+:SKRSLUT.
+Costs and interest rates are
+.if &U'&RENTETYP = V
+.th floating
+.if &U'&RENTETYP = D
+.th differentiated
+and fixed at any time by &BANKNAVN..
+.**&BANKNAVN.'s "General Terms and Conditions of Business and Special
+.**Conditions for Loans and Credits
+.**.if &U'&PRIERH = E
+.**.th , Business Customers".
+.**.el , Consumer Customers".
+.sp 3mm
+.if &U'&RENTETYP = V
+.th .go TYPV
+.el .go TYPD
+...TYPV
+.th overdraft/default interest, currently representing a variable
+.th surcharge of &PROVOVERTR % in addition to the interest.
+.************************************************
+.*nedenstående er ikke oversat!!
+.*.if &U'&PRIERH = P
+.*.th .br
+.*.th Ved &min udnyttelse af fortrydelsesretten udgør det daglige
+.*.th rentebeløb kr. &FTRRTEDAG ved fuld udnyttelse af kreditrammen.
+.if &U'&PRIERH = P
+.th .br
+.th If &deblomt exercise &mine right of withdrawal the daily amount of
+.th interest is DKK &FTRRTEDAG. by full exploitation of the credit line.
+.************************************************
+.***************
+.sp 5mm
+.if &L'&AFDYDL01 > 0
+.an &U'&AFDYDL01 = H
+.th .go FORBI
+:FED.
+Payment
+.br
+:SKRSLUT.
+.************************************************
+.if &U'&PRIERH = P
+.th &debsomt will not be advised regarding amounts withdrawn from
+.th &mine account. &debsomt &amare solely responsible that
+ &mine account balances.
+.************************************************
+.**ERHVERV *****
+.if &U'&PRIERH = E
+.th &BANKNAVN. is entitled to debit any amount from the account which may
+.th in any way be owed by &migos to &BANKNAVN..
+.sp 5mm
+.*****************************
+...FORBI
+.sp 5mm
+The annual interest rate is floating at the current rate of
+&RENTE..
+.*&RENTE. %, which is added to the credit
+.*.if &RTEFREK01 = 1
+.*.th every month,
+.*.if &RTEFREK01 = 3
+.*.th every quarter,
+.*.if &RTEFREK01 = 6
+.*.th every six months,
+.*.if &RTEFREK01 = 9
+.*.th every year,
+.*initially &RTEDATO01..
+...TYPD
+.if &U'&RENTETYP = D
+.th The interest rate is differentiated and is stated in the Repayment
+.th table.
+.sp 3mm
+Interest is calculated daily on the credit limit used and added to the
+credit
+.if &RTEFREK01 = 1
+.th every month
+.if &RTEFREK01 = 3
+.th every quarter
+.if &RTEFREK01 = 6
+.th every six months
+.if &RTEFREK01 = 9
+.th every year
+initially &RTEDATO01..
+.if &L'&PROV = 0
+.an &L'&PROVOVERTR = 0
+.an &L'&PROVBEVILG = 0
+.th .go PROVSL
+.el .sp 3mm
+.el .go PROV
+.***************
+...PROV
+.if &L'&PROV > 0
+.th Commision rates is currently &PROV. % per year. &ÅCONT
+.th of the credit limit.
+.th .br
+.if &L'&PROVOVERTR > 0
+.th Overdraft commission is currently &PROVOVERTR. % per year.
+.th .br
+.if &L'&PROVBEVILG > 0
+.th Provision of granted overdraft is currently &PROVBEVILG % per year.
+.th .br
+...PROVSL
+.if &L'&PROVOVERTR > 0
+.th In the event of an overdraft or late repayment of the
+.th credit, &BANKNAVN. is entitled to charge annual floating

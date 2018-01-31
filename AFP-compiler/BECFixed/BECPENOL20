@@ -1,0 +1,52 @@
+.**************************************************************************
+.*OLTYPE = A Overløb fra ratepension til kapitalpension********************
+.*OLTYPE = B Overløb fra kapitalpension til ratepension********************
+.*OLTYPE = D Overløb til livrentekonto fra ratepension*********************
+.*OLTYPE = F Overløb fra kapitalpension til ratepension m overløb livrente*
+.**************************************************************************
+.*OLART = 1 Beløbsgrænse***************************************************
+.*OLART = 2 Fradragsgrænse*************************************************
+.**************************************************************************
+.if &L'&OLTYPE > 0
+.th
+.el .go SLUTOLR
+.**************************************************************************
+.*Test på OLTYPE = D ******************************************************
+.if &U'&OLTYPE = D
+.th .go TYPD
+.el .go UDENOMD
+.**************************
+...TYPD
+.if X&OLART = X1
+.th .go D1TX
+.el .go TEST2
+.**************************
+...TEST2
+.if X&OLART = X2
+.th .go D2TX
+.el .go UDENOMD
+.**************************
+...D1TX
+.br
+Hvis indbetalingen overstiger
+:VS. &PENOBEL.
+overføres den overskydende del af indbetalingen
+til en livsvarig livrente i &PENSELSK., police nummer &PENPOLICE..
+.*.br
+.*SBL-test-1: Værdi i felt: PENSELSK: &PENSELSK. -
+.*.ct  SBL-test-2: Værdi i felt: PENOBEL: &PENOBEL.
+.*.ct  SBL-test-3: Værdi i felt: PENPOLICE: &PENPOLICE.
+.go SLUTOLR
+.*****************
+...D2TX
+.br
+Hvis indbetalingen på ratepension overstiger
+fradragsloftet for ratepensioner overføres den overskydende
+del af indbetalingen til en livsvarig livrente i &PENSELSK., police nummer
+&PENPOLICE.. Fradragsloftet i &GENMAXDATO. udgør &GENMAXRAT. kr.
+.go SLUTOLR
+.*****************
+...UDENOMD
+.*****************
+...SLUTOLR
+.*****************

@@ -1,0 +1,102 @@
+begunstigelse, der følger af kapitalpensionen.
+.ar off
+&AFDBY
+.ar off
+.**************************************************************************
+.***** HER DELES DEPOTNR. og KONTONR OP I HVER 2 PARAMETRE *****
+.su off
+.se dregnr = substr &PENDEPNR 1 4
+.se depnr = substr &PENDEPNR 5 6
+.se regnr = substr &PENKTONR 1 4
+.se ktonr = substr &PENKTONR 5 10
+.se regnr1 = substr &PENKTONR1 1 4
+.se ktonr1 = substr &PENKTONR1 5 10
+.su on
+.**************************************************************************
+.ar KTOOPL on
+.tp 43mm
+.if &U'&PENVALG = J
+.th &KUNDENR ¤&PENACVR
+.el &KUNDENR
+.sp 6mm
+&regnr &ktonr ¤&dregnr &depnr
+.ar off
+.**************************************************************************
+.**** Her starter teksten *********
+.**************************************************************************
+.ar TEKST on
+Undertegnede parter indgår herved aftale om konvertering af kapitalpension
+til aldersopsparing (opsparing i pensionsøjemed).
+.br
+Aftalen indebærer at kapitalpensionen &regnr. &ktonr. konverteres til en
+aldersopsparing &regnr1. &ktonr1.. I denne forbindelse finder de generelle
+vilkår for aldersopsparing anvendelse fremadrettet.
+.ar off
+.***************************************
+.ar AFGIFT on
+I forbindelse med konverteringen skal der betales en afgift på 40
+%. Hvis der ikke er tilstrækkeligt med
+kontante midler på kontoen til betaling af afgiften, kan konverteringen
+ikke gennemføres. Eventuel nødvendig salg af værdipapirer skal ske efter
+særskilt aftale med &BANKNAVN..
+.ar off
+.***************************************
+.ar PENALDER on
+I forbindelse med konverteringen bevares den
+pensionsudbetalingsalder, der følger af kapitalpensionen, på den nye
+aldersopsparing.
+.ar off
+.***************************************
+.ar BEGUN on
+Kunden er informeret om, at konverteringen kan medføre, at
+begunstigelsen på aldersopsparingen kan være en anden end den
+.**************************************************************************
+.da KUNDEOPL   25mm     47mm     width  84mm
+.da ARBGOPL    112.5mm  47mm     width  84mm
+.da PIOPL      25mm     69mm     width  84mm
+.da KTOOPL     112.5mm  69.5mm   width  80mm
+.da TEKST      21mm     83mm     width 173mm
+.da AFGIFT     21mm     102mm    width 173mm
+.da PENALDER   21mm     136.5mm  width 173mm
+.da BEGUN      21mm     171mm    width 173mm
+.**************************************************************************
+.*****  Kundeoplysninger
+.**************************************************************************
+.ar KUNDEOPL on
+&PENKADR1.
+.br
+&PENKADR2.
+.br
+&PENKADR3.
+.br
+&PENKADR4.
+.br
+&PENKADR5.
+.ar off
+.**************************************************************************
+.*****  Arbejdsgiveroplysninger
+.**************************************************************************
+.ar ARBGOPL on
+.if &U'&PENVALG = N
+.th .go ARBX
+&PENANAVN
+.br
+&PENADR1
+.br
+&PENADR2
+.br
+&PENADR3
+.br
+&PENADR4
+...ARBX
+.ar off
+.**************************************************************************
+.*****  Pengeinstituttets oplysninger
+.**************************************************************************
+.ar PIOPL on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br

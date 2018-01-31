@@ -1,0 +1,19 @@
+.*Parametre, substrings og tests ******************************************
+.su off
+.se fdag = substr &KTOKNDNR1 1 2
+.se fmd = substr &KTOKNDNR1 3 2
+.se faar = substr &KTOKNDNR1 5 2
+.se cprx = substr &KTOKNDNR1 10 1
+.** SUBSTRING PÅ KONTO ***************************************************
+.se regnr = substr &LANGKTONR 1 4
+.se ktonr = substr &LANGKTONR 5 21
+.su on
+.*TEST PÅ KUNDENS KØN*
+.if x&cprx = x1
+.or x&cprx = x3
+.or x&cprx = x5
+.or x&cprx = x7
+.or x&cprx = x9
+.th .se koen = han
+.el .se koen = hun
+.**************************************************************************

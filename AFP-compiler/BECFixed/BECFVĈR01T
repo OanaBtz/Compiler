@@ -1,0 +1,18 @@
+.***********
+.da TEKST      21mm   63mm width 175mm
+.da BKTXT      21mm   183mm width 175mm
+.************
+.ar TEKST on
+:SWISS10.
+.ar off
+.**************************************************************************
+.**Det er bankens eget ansvar at tilrette denne side med sine
+.**forretningsbetingelser vedrÄrende handel med finansielle instrumenter
+.**I Aftale om Webbank vÄrdipapirhandel er der mange henvisninger til
+.**bankens forretningsbetingelser vedrÄrende handel med finan. instrumenter
+.**************************************************************************
+.***AL TEKST UNDER DENNE STREG SKAL IKKE MEDTAGES I BREVET*******
+.ar BKTXT on
+:SWISS12.
+Det er bankens eget ansvar at tilrette denne side.
+.ar off

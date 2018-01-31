@@ -1,0 +1,322 @@
+.el Denne nedskrivning sker &AFVANT02 gang.
+.go 3AFVIKL
+...AFV02YZ
+.if &AFVANT02 > 1
+.th Denne ydelse betales &AFVANT02 gange.
+.el Denne ydelse betales &AFVANT02 gang.
+.go 3AFVIKL
+.kp off
+.kp on
+...3AFVIKL
+.*3. AFVIKLING ***********
+.*** Er afviklingsrækken overhovedet udfyldt?
+.if &L'&AFDYDL03 = 0
+.th .sp 5mm
+.th .go INDFRID
+.br
+.if &U'&AFDYDL03 = F
+.th .go AFDFRI3
+.el .go UDENOM3
+...AFDFRI3
+Kreditten henstår afdragsfrit fra den &AFVFDATO03. til den
+&AFVTDATO03.. I den afdragsfri
+periode betales påløbne renter på kreditten,
+.if &AFVFREK03 = 1
+.th hver måned,
+.if &AFVFREK03 = 3
+.th hvert kvartal,
+.if &AFVFREK03 = 4
+.th hver 2. måned,
+.if &AFVFREK03 = 6
+.th hvert halvår,
+.if &AFVFREK03 = 7
+.th hver uge,
+.if &AFVFREK03 = 9
+.th hvert år,
+.if &AFVFREK03 = 14
+.th hver 14. dag,
+.if &AFVFREK03 = 15
+.th hver den 15. og sidste i måneden,
+første gang den &AFVDATO03..
+.go 4AFVIKL
+...UDENOM3
+.if &U'&AFDYDL03 = A
+.th Kreditten nedskrives med
+.if &U'&AFDYDL03 = Y
+.th Ydelsen er
+.if &U'&AFDYDL03 = X
+.th Ekstraordinært nedskrives kreditten med
+.if &U'&AFDYDL03 = Z
+.th Ekstraordinær ydelse på
+.th hver uge,
+.if &AFVFREK02 = 9
+.th hvert år,
+.if &AFVFREK02 = 14
+.th hver 14. dag,
+.if &AFVFREK02 = 15
+.th hver den 15. og sidste i måneden,
+første gang den &AFVDATO02..
+.go 3AFVIKL
+...UDENOM2
+.if &U'&AFDYDL02 = A
+.th Kreditten nedskrives med
+.if &U'&AFDYDL02 = Y
+.th Ydelsen er
+.if &U'&AFDYDL02 = X
+.th Ekstraordinært nedskrives kreditten med
+.if &U'&AFDYDL02 = Z
+.th Ekstraordinær ydelse på
+:VS. &AFVBEL02
+&GENVAL. &ÅCONT
+.if &AFVFREK02 = 1
+.th hver måned,
+.if &AFVFREK02 = 3
+.th hvert kvartal,
+.if &AFVFREK02 = 4
+.th hver 2. måned,
+.if &AFVFREK02 = 6
+.th hvert halvår,
+.if &AFVFREK02 = 7
+.th hver uge,
+.if &AFVFREK02 = 9
+.th hvert år,
+.if &AFVFREK02 = 14
+.th hver 14. dag,
+.if &AFVFREK02 = 15
+.th hver den 15. og sidste i måneden,
+første gang den &AFVDATO02.. &ÅCONT
+.if x&AFVANT02 = x99
+.th .go 3AFVIKL
+.if &U'&AFDYDL02 = X
+.or &U'&AFDYDL02 = Z
+.th
+.el .go 3AFVIKL
+.if &U'&AFDYDL02 = A
+.or &U'&AFDYDL02 = X
+.th .go AFV02AX
+.el .go AFV02YZ
+...AFV02AX
+.if &AFVANT02 > 1
+.th Denne nedskrivning sker &AFVANT02 gange.
+.if &AFVFREK01 = 14
+.th hver 14. dag,
+.if &AFVFREK01 = 15
+.th hver den 15. og sidste i måneden,
+første gang den &AFVDATO01.. &ÅCONT
+.if x&AFVANT01 = x99
+.th .go 2AFVIKL
+.if &U'&AFDYDL01 = X
+.or &U'&AFDYDL01 = Z
+.th
+.el .go 2AFVIKL
+.if &U'&AFDYDL01 = A
+.or &U'&AFDYDL01 = X
+.th .go AFV01AX
+.el .go AFV01YZ
+...AFV01AX
+.if &AFVANT01 > 1
+.th Denne nedskrivning sker &AFVANT01 gange.
+.el Denne nedskrivning sker &AFVANT01 gang.
+.go 2AFVIKL
+...AFV01YZ
+.if &AFVANT01 > 1
+.th Denne ydelse betales &AFVANT01 gange.
+.el Denne ydelse betales &AFVANT01 gang.
+.go 2AFVIKL
+.kp off
+.kp on
+...2AFVIKL
+.*2. AFVIKLING ***********
+.*** Er afviklingsrækken overhovedet udfyldt?
+.if &L'&AFDYDL02 = 0
+.th .sp 5mm
+.th .go INDFRID
+.br
+.if &U'&AFDYDL02 = F
+.th .go AFDFRI2
+.el .go UDENOM2
+...AFDFRI2
+Kreditten henstår afdragsfrit fra den &AFVFDATO02. til den
+&AFVTDATO02..I den afdragsfri
+periode betales påløbne renter på kreditten,
+.if &AFVFREK02 = 1
+.th hver måned,
+.if &AFVFREK02 = 3
+.th hvert kvartal,
+.if &AFVFREK02 = 4
+.th hver 2. måned,
+.if &AFVFREK02 = 6
+.th hvert halvår,
+.if &AFVFREK02 = 7
+...BEVOVT
+.*****************************************************************
+.if &L'&BEVOVTSUM > 0
+.th
+.el .go BEVTXTX
+.*****************************************************************
+Den samlede rente i perioden udgør
+:VS. &RTESUM
+&GENVAL. (ved 100 procent udnyttelse af den midlertidige trækningsret).
+.sp 3mm
+Den midlertidige trækningsret bortfalder den &BEVOVTSL., hvor
+:VS. &BEVOVTSUM
+&GENVAL. skal indbetales (ved 100 procent udnyttelse af den midlertige
+trækningsret).
+.go EXKRAFV
+...BEVTXTX
+.*****************************************************************
+...AFVIKL1
+Kreditten tilskrives
+:VS. &KRERTE01
+&GENVAL. i rente hvert
+kvartal (beregnet ud fra første hele rentetermin og ved
+100 procent udnyttelse af kreditten).
+.************************************
+.if &L'&AFDYDL01 = 0
+.th .go INDFRID
+.el .br
+.************************************
+.if &U'&AFDYDL01 = A
+.th Kreditten nedskrives med
+.if &U'&AFDYDL01 = Y
+.th Ydelsen er
+.if &U'&AFDYDL01 = X
+.th Ekstraordinært nedskrives kreditten med
+.if &U'&AFDYDL01 = Z
+.th Ekstraordinær ydelse på
+:VS. &AFVBEL01
+&GENVAL. &ÅCONT
+.if &AFVFREK01 = 1
+.th hver måned,
+.if &AFVFREK01 = 3
+.th hvert kvartal,
+.if &AFVFREK01 = 4
+.th hver 2. måned,
+.if &AFVFREK01 = 6
+.th hvert halvår,
+.if &AFVFREK01 = 7
+.th hver uge,
+.if &AFVFREK01 = 9
+.th hvert år,
+.kp on
+.hr left right
+:SWISS10.
+:FED. 6. Ydelsernes størrelse :SKRSLUT.
+:SKRSLUT.
+:SWISS9.
+.hr left right
+.sp 1.5mm
+.if &U'&LÅNKRED = L
+.th .go EXKRAFV
+.*****************************************************************
+.**** ----- HER BEGYNDER AFVIKLINGSLINIER FOR KREDITTER ----- ****
+.*            --------- OG BEVILGEDE OVERTRÆK ----------
+.*****************************************************************
+.if &U'&REVOLV = J
+.th .go REVOLAFV
+.el .go BEVOVT
+.***
+...REVOLAFV
+Inden for kreditrammen afvikler
+.if &U'&GENMEDKTOH = J
+.th vi
+.el jeg
+de trukne beløb med tillæg af renter ved betaling af afdrag
+på &REVOLPCT. % af udlånssaldoen
+.if &REVOLPCT ne 100
+.th .go UND100
+.el .ct . &ÅCONT
+.el .go UND100SL
+...UND100
+.if &L'&REVOLMINB = 0
+.th .ct . &ÅCONT
+.th .go UND100SL
+.*** denne tekst skal kun udskrives hvis der findes et revolv minbeløb.
+.ct , dog mindst
+:VS. &REVOLMINB
+&GENVAL.. &ÅCONT
+...UND100SL
+Banken beregner afdragene pr. den 15., eller førstkommende
+bankdag derefter, i måneden før beløbet skal betales.
+.br
+.if &L'&INDFRIDATO > 0
+.th
+.el .go EXKRAFV
+Trækningsretten på kreditten bortfalder den &INDFRIDATO., hvor et
+eventuelt skyldigt beløb skal indbetales.
+.sp 5mm
+.kp off
+.kp on
+.go EXKRAFV
+...INDFRID
+.if &L'&INDFRIDATO > 0
+.th .br
+.el .go EXKRAFV
+Trækningsretten på kreditten bortfalder den &INDFRIDATO., hvor et
+eventuelt skyldigt beløb skal indbetales.
+.br
+Sidste ydelse kan variere fra størrelsen af ovenfor nævnte ydelser.
+.*.br
+.*.if &L'&INDFRIDATO > 0
+.*.th
+.*.el .go EXKRAFV
+.*.if &U'&GENMEDKTOH = J
+.*.th I
+.*.el Du
+.*betaler restgælden
+.*:VS. &YDLSIDSTE
+.*&GENVAL. på kreditten, inklusiv rente
+.*til betalingsdagen, senest den &INDFRIDATO..
+...EXKRAFV
+.sp 3mm
+.kp off
+:VS. &AFVBEL03
+&GENVAL. &ÅCONT
+.if &AFVFREK03 = 1
+.th hver måned,
+.if &AFVFREK03 = 3
+.th hvert kvartal,
+.if &AFVFREK03 = 4
+.th hver 2. måned,
+.if &AFVFREK03 = 6
+.th hvert halvår,
+.if &AFVFREK03 = 7
+.th hver uge,
+.if &AFVFREK03 = 9
+.th hvert år,
+.if &AFVFREK03 = 14
+.th hver 14. dag,
+.if &AFVFREK03 = 15
+.th hver den 15. og sidste i måneden,
+første gang den &AFVDATO03.. &ÅCONT
+.if x&AFVANT03 = x99
+.th .go 4AFVIKL
+.if &U'&AFDYDL03 = X
+.or &U'&AFDYDL03 = Z
+.th
+.el .go 4AFVIKL
+.if &U'&AFDYDL03 = A
+.or &U'&AFDYDL03 = X
+.th .go AFV03AX
+.el .go AFV03YZ
+...AFV03AX
+.if &AFVANT03 > 1
+.th Denne nedskrivning sker &AFVANT03 gange.
+.el Denne nedskrivning sker &AFVANT03 gang.
+.go 4AFVIKL
+...AFV03YZ
+.if &AFVANT03 > 1
+.th Denne ydelse betales &AFVANT03 gange.
+.el Denne ydelse betales &AFVANT03 gang.
+.go 4AFVIKL
+.kp off
+.kp on
+...4AFVIKL
+.*4. AFVIKLING *********
+.if &L'AFDYDL04 = 0
+.th .sp 3mm
+.th .go INDFRID
+.br
+.if &U'&AFDYDL04 = T
+.th Se i øvrigt afviklingstabel i kreditaftalen.
+.th .sp 3mm

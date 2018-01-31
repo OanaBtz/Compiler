@@ -1,0 +1,5 @@
+.***** TEST PÅ OM KUNDEKOPI SKAL UDSKRIVES ********************************
+.*** stopper resten af udskrivning hvis N til Kundekopi *******************
+.if &U'X&KOPI = XN
+.th .qu
+.**************************************************************************

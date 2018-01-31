@@ -1,0 +1,88 @@
+.th + Kurssikringstillæg til &INDFDATO.¤¤&KURSSSATS.
+.th .br
+.th Indfrielseskurs¤¤&INDFKURS.
+.sp 3mm
+:FED.
+Indfrielsesbeløb
+:SKRSLUT.
+.br
+Ekstraordinært afdrag¤¤&EAAFDRAG.¤kr.
+.sp 1mm
+Indfrielsesbeløbet beregnes således:
+.sp 1mm
+.tp 25mm 80mm center 150mm right 153mm
+Ekstraordinært afdrag * indfrielseskurs¤¤&EAAFDRAG. kr. &ÅCONT.
+* &KURSBEREG.¤&EAKURSAFD.¤kr.
+.br
+.hr tynd 0mm 54mm 60mm 101mm
+.br
+¤100¤100
+.tp 3mm 150mm right 153mm
+.sp 1mm
+.if &L'&INDFGEB > 0
+.th .br
+.th +¤Indfrielsesgebyr¤&INDFGEB.¤kr.
+.if &L'&RABATIALT > 0
+.th .br
+.th -¤Rabat på gebyr¤&RABATIALT.¤kr.
+.br
+Indfrielsesbeløb¤¤&INDFBELØB.¤kr.
+.sp 1mm
+Restgæld efter ekstraordinært afdrag¤¤&EARSTGÆLD.¤kr.
+.sp 1mm
+Nærværende tilbud er udarbejdet med udgangspunkt i dagsaktuelle
+rentesatser, og kan derfor kun gøres gældende dags dato ved henvendelse til
+banken inden kl. 16.00. Tilbuddet forudsætter, at evt. ydelser på lånet
+frem til afdragsdatoen betales i henhold til låneaftalen.
+.sp 1mm
+Der beregnes et gebyr på &TILBUDGEB. kr. for nærværende tilbud.
+.da TEKST 20mm 104mm width 175mm
+.**************************************************************************
+.ar TEKST on
+.**********************
+.tp 150mm right
+.dr tynd weight 0.2mm
+.***********************
+.tp 3mm 150mm right 153mm
+.**********************
+Låntype¤¤&LAANETYPE.
+.br
+Dato for ekstraordinært afdrag¤¤&INDFDATO.
+.br
+Restgæld¤¤&LÅNRESTG.¤kr.
+.br
+Udløb fastrenteperiode ¤¤&RTEBINDAU.
+.br
+Rentesats¤¤&PRIRENTE.¤% p.a.
+.br
+Referencerente ved indfrielse¤¤&REFRENTE.¤% p.a.
+.sp 3mm
+:FED.
+Beregning af indfrielseskurs :SKRSLUT.
+.br
+Lånets resterende aftalte ydelser i rentebindingsperioden
+tilbagediskonteres med følgende rentesats
+.sp 1mm
+  Referencerente ved indfrielse minus &RTEREDREF %¤¤&RTEREDUREF.¤% p.a.
+.br
+- Referencerente ved aftales indgåelse¤¤&REFRTEIND.¤% p.a.
+.br
++ Lånets årlige nominelle rente ¤¤&NOMRENTE.¤% p.a.
+.br
+.hr tynd 125mm 150mm
+.br
+= Rentesats ved tilbagediskontering ¤¤&DISKONRTE.¤% p.a.
+.sp 3mm
+:FED.
+Indfrielseskursen beregnes herefter :SKRSLUT.
+.br
+Den tilbagediskonterede værdi¤¤&NUTIDVÆR.¤kr.
+.br
+Skyldige renter pr. &RTEFFDATO.¤¤&RTEBELØB.¤kr.
+.sp 1mm
+.tp 3mm 120mm right 150mm right 153mm
+Kursberegning¤¤(Nutidsværdi - skyldige renter)
+* 100 / Restgæld¤&KURSBEREG.
+.tp 3mm 150mm right 153mm
+.if &L'&KURSSSATS > 0
+.th .br

@@ -1,0 +1,15 @@
+.** Dette P-afsnit skal anvende når der påtrykkes FI-kort
+.**
+.** Indhold: Parametre til betalingsID og kreditorID samt
+.**          rubrikkerne 'Tilmelding til BetalingsService'
+.**          Desuden parametre til OCR-linien, som er den
+.**          maskinlæsbare linie nederst på FI-Kortet. (Font = OCRB10)
+.**
+.** Flg. param. skal have bankens egne std.værdier: FIKREDNR
+.**                                                 PBSNR
+.**                                                 PBSDEBGRP
+.**                                                 GENOCRNR1
+.**                                                 GENOCRNR3
+.** Flg. param. skal leveres af kald. system (LOF): BETALID
+.**                                                 PBSKUNDENR
+.**                                                 GENOCRNR2

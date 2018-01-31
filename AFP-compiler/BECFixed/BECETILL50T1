@@ -1,0 +1,77 @@
+.sp 5mm
+:FED.
+Reference rate
+:SKRSLUT.
+.br
+At the time of entering into the agreement, the reference rate is
+calculated as the average effective bond yield before tax for government
+bonds etc. This is currently published on the website of &BØRSNAVN. under
+'Stat, fiskeri & Færøerne' (Government, fisheries & the Faroe Islands):
+www.nasdaqomxnordic.com/obligationer/danmark/rentegennemsnit/.
+.br
+The interval for the maturity period corresponding to the term of the
+fixed-rate agreement is applied.
+.sp 3mm
+In case of repayment before the agreed date, the reference rate is
+calculated in a manner similar to that applied when the agreement was
+entered into. However, the rate applicable on the day before the
+calculation of the repayment amount will be used together with the maturity
+interval corresponding to the remaining term of the fixed-rate agreement.
+.sp 3mm
+If the average bond yield is no longer included in the official list of
+&BØRSNAVN., &BANKNAVN has the right to use another reference rate which is
+representative of the market rate. The same applies if &BANKNAVN believes
+that the average bond yield is no longer representative of market rate
+trends.
+.sp 5mm
+.*FORTSÆTTER I T2 *********************************************************
+:FED.
+Interest rate
+:SKRSLUT.
+.br
+.if X&AFTDATO10 eq X01.01.0001
+.th .go EJRENTE
+.el .go RENTE
+...RENTE
+The interest rate, which applies until &AFTDATO10., has been set at
+&NOMRENTE% p.a. After the date stated, any outstanding loan balance carries
+a variable interest rate under the relevant loan provided by &BANKNAVN.
+.go INDFRI
+...EJRENTE
+The interest rate, which applies throughout the term of the loan, has been
+set at &NOMRENTE% p.a.
+...INDFRI
+.sp 5mm
+:FED.
+Repayments prior to agreed maturity date
+:SKRSLUT.
+.br
+.if X&AFTDATO10 eq X01.01.0001
+.th .go EJVILKÅR
+.el .go VILKÅR
+...VILKÅR
+Special terms and conditions apply to repayment prior to the agreed date
+during the fixed-rate period.
+.go KURS
+...EJVILKÅR
+Special terms and conditions apply to repayment prior to the loan's
+maturity date.
+...KURS
+.sp 3mm
+The repayment value is calculated on the basis of a reference rate (see
+below). The rate used in connection with early repayments is &REFRENT. % at
+the time of entering into the agreement. Examples of repayment amounts at
+various interest rates are shown at the end of this addendum.
+.sp 3mm
+The special terms and conditions mean that, if the loan is repaid before
+the agreed maturity date, it must be repaid at an amount that may be higher
+or lower than the outstanding loan balance recorded. If the interest level
+(the market rate) has fallen after the agreement has been entered into, the
+repayment amount may be higher than the outstanding loan balance recorded.
+If the interest level has increased by more than 0.25 percentage point
+after the agreement has been entered into, the repayment amount may be
+lower than the outstanding loan balance recorded.
+.sp 3mm
+The rules apply regardless of whether the debtor on its own initiative
+decides to repay the loan early, or whether &BANKNAVN. demands repayment of
+the loan due to termination or default.

@@ -1,0 +1,308 @@
+.* TEST PÅ "PENVÆSAFT" ER FLYTTET LIDT NED I DETTE TEKSTMODUL *************
+.**************************************************************************
+.se brev1 = substr &BREVNAVN 7 2
+.if &L'&PENMETODE > 0
+.th
+.el .go VAET2
+.if &U'&PENGODKJN = J
+.th .go LAVGODT2
+...LAVGODT2
+.if X&PENMETODE = X1
+.th .da SAERVIL  21mm 70mm width 170mm
+.th .da VAESENT  21mm 129mm width 170mm
+.th .go BODEL2
+.if X&PENMETODE = X2
+.th .da SAERVIL  21mm 70mm width 170mm
+.th .da VAESENT  21mm 126mm width 170mm
+.th .go BODEL2
+...VAET2
+.if &U'&PENVÆSAFT = N
+.th .go VAESSL4
+.el .da VAESENT  21mm 70mm width 170mm
+.el .go VAESN2
+...BODEL2
+.****Særlige vilkår - tekst i forbindelse med bodeling/skilsmisse**********
+.ar SAERVIL on
+:SWISS8.
+.us Indbetalinger:
+.sp 1mm
+Vilkårene på bodelingstidspunktet for den pensionsordning, hvorfra
+udlodningen er foretaget, gælder også for den udloddede del.
+.sp 2mm
+.of 5mm
+For kontoen gælder desuden følgende:
+.br
+.if X&PENMETODE = X1
+.th *¤Der kan ikke indbetales på kontoen
+.th .br
+*¤Kontohaver kan indsætte begunstigede
+.br
+*¤Kontohaveren kan selv bestemme i hvilket institut, den udloddede del skal
+føres.
+.of
+.sp
+.us Udbetaling:
+.sp 1mm
+.if x&brev1 = x40
+.or x&brev1 = x60
+.th .go UDBTXT
+.if X&PENMETODE ne X3
+.an &U'&PENGODKJN = J
+.th .go RATETXT
+...RATETXT
+.th Udbetalingen sker i rater over &PENANTUDÅR. år, således at sidste rate
+.th udbetales i det kalenderår, hvor &ktohav fylder &PENSLALDER. år.
+.th .sp 1mm
+...UDBTXT
+Kontoens indestående kan desuden udbetales, hvis kontohaveren, på den konto
+hvorfra denne pensionsordning er udloddet, rammes af varigt nedsat
+erhvervsevne, som efter reglerne i lov om social pension berettiger
+kontohaveren, på den konto hvorfra denne pensionsordning er udloddet, til
+førtidspension og hvis den konto, hvorfra denne pensionsordning er udloddet
+er oprettet før kontohaveren, på den konto hvorfra denne pensionsordning er
+udloddet, bliver berettiget til førtidspension. Desuden kan kontoens
+indestående udbetales, hvis kontohaveren, på den konto hvorfra denne
+pensionsordning er udloddet, rammes af en af visse livstruende sygdomme.
+.ar off
+.if &U'&PENVÆSAFT = N
+.th .go VAESSL4
+...VAESN2
+.**************************************************************************
+.*Der er valgt at have en skrifttype SWISS10, her så det fylder lidt mere
+.*på siden*****************************************************************
+.ar VAESENT on
+:SWISS10.
+.if &L'&PENTEKST01 = 0
+.th .sp
+.el &PENTEKST01.
+.el .br
+.if &L'&PENTEKST02 = 0
+.th .sp
+.el &PENTEKST02.
+.el .br
+.if &L'&PENTEKST03 = 0
+.th .sp
+.el &PENTEKST03.
+.el .br
+.if &L'&PENTEKST04 = 0
+.th .sp
+.el &PENTEKST04.
+.el .br
+.if &L'&PENTEKST05 = 0
+.th .sp
+.el &PENTEKST05.
+.el .br
+.if &L'&PENTEKST06 = 0
+.th .sp
+.el &PENTEKST06.
+.el .br
+.if &L'&PENTEKST07 = 0
+.th .sp
+.el &PENTEKST07.
+.el .br
+.if &L'&PENTEKST08 = 0
+.th .sp
+.el &PENTEKST08.
+.el .br
+.if &L'&PENTEKST09 = 0
+.th .sp
+.el &PENTEKST09.
+.el .br
+.if &L'&PENTEKST10 = 0
+.th .sp
+.el &PENTEKST10.
+.el .br
+.if &L'&PENTEKST11 = 0
+.th .sp
+.el &PENTEKST11.
+.el .br
+.if &L'&PENTEKST12 = 0
+.th .sp
+.el &PENTEKST12.
+.el .br
+.if &L'&PENTEKST13 = 0
+.th .sp
+.el &PENTEKST13.
+.el .br
+.if &L'&PENTEKST14 = 0
+.th .sp
+.el &PENTEKST14.
+.el .br
+.if &L'&PENTEKST15 = 0
+.th .sp
+.el &PENTEKST15.
+.el .br
+.if &L'&PENTEKST16 = 0
+.th .sp
+.el &PENTEKST16.
+.el .br
+.if &L'&PENTEKST17 = 0
+.th .sp
+.el &PENTEKST17.
+.el .br
+.if &L'&PENTEKST18 = 0
+.th .sp
+.el &PENTEKST18.
+.el .br
+.if &L'&PENTEKST19 = 0
+.th .sp
+.el &PENTEKST19.
+.el .br
+.if &L'&PENTEKST20 = 0
+.th .sp
+.el &PENTEKST20.
+.el .br
+.if &L'&PENTEKST21 = 0
+.th .sp
+.el &PENTEKST21.
+.el .br
+.if &L'&PENTEKST22 = 0
+.th .sp
+.el &PENTEKST22.
+.el .br
+.if &L'&PENTEKST23 = 0
+.th .sp
+.el &PENTEKST23.
+.el .br
+.if &L'&PENTEKST24 = 0
+.th .sp
+.el &PENTEKST24.
+.el .br
+.if &L'&PENTEKST25 = 0
+.th .sp
+.el &PENTEKST25.
+.el .br
+.if &L'&PENTEKST26 = 0
+.th .sp
+.el &PENTEKST26.
+.el .br
+.if &L'&PENTEKST27 = 0
+.th .sp
+.el &PENTEKST27.
+.el .br
+.if &L'&PENTEKST28 = 0
+.th .sp
+.el &PENTEKST28.
+.el .br
+.if &L'&PENTEKST29 = 0
+.th .sp
+.el &PENTEKST29.
+.el .br
+.if &L'&PENTEKST30 = 0
+.th .sp
+.el &PENTEKST30.
+.el .br
+.if &L'&PENTEKST31 = 0
+.th .sp
+.el &PENTEKST31.
+.el .br
+.if &L'&PENTEKST32 = 0
+.th .sp
+.el &PENTEKST32.
+.el .br
+.if &L'&PENTEKST33 = 0
+.th .sp
+.el &PENTEKST33.
+.el .br
+.if &L'&PENTEKST34 = 0
+.th .sp
+.el &PENTEKST34.
+.el .br
+.if &L'&PENTEKST35 = 0
+.th .sp
+.el &PENTEKST35.
+.el .br
+.if &L'&PENTEKST36 = 0
+.th .sp
+.el &PENTEKST36.
+.el .br
+.if &L'&PENTEKST37 = 0
+.th .sp
+.el &PENTEKST37.
+.el .br
+.if &L'&PENTEKST38 = 0
+.th .sp
+.el &PENTEKST38.
+.el .br
+.if &L'&PENTEKST39 = 0
+.th .sp
+.el &PENTEKST39.
+.el .br
+.if &L'&PENTEKST40 = 0
+.th .sp
+.el &PENTEKST40.
+.el .br
+.*****Bodelingskontrakt - hvis metode 1,2 og lavere godkendt pensionsalder
+.********************** - så stopper vi her!!
+.if X&PENMETODE ne X3
+.an &U'&PENGODKJN = J
+.th .go VAESEND
+.if &L'&PENTEKST41 = 0
+.th .sp
+.el &PENTEKST41.
+.el .br
+.if &L'&PENTEKST42 = 0
+.th .sp
+.el &PENTEKST42.
+.el .br
+.*****Bodelingskontrakt - hvis metode 1 el. 2 så stopper vi her ********
+.if &L'&PENMETODE > 0
+.an X&PENMETODE = X1
+.th .go VAESEND
+.if &L'&PENMETODE > 0
+.an X&PENMETODE = X2
+.th .go VAESEND
+.if &L'&PENTEKST43 = 0
+.th .sp
+.el &PENTEKST43.
+.el .br
+.if &L'&PENTEKST44 = 0
+.th .sp
+.el &PENTEKST44.
+.el .br
+.if &L'&PENTEKST45 = 0
+.th .sp
+.el &PENTEKST45.
+.el .br
+.if &L'&PENTEKST46 = 0
+.th .sp
+.el &PENTEKST46.
+.el .br
+.if &L'&PENTEKST47 = 0
+.th .sp
+.el &PENTEKST47.
+.el .br
+.if &L'&PENTEKST48 = 0
+.th .sp
+.el &PENTEKST48.
+.el .br
+.if &L'&PENTEKST49 = 0
+.th .sp
+.el &PENTEKST49.
+.el .br
+.if &L'&PENTEKST50 = 0
+.th .sp
+.el &PENTEKST50.
+.el .br
+.if &L'&PENTEKST51 = 0
+.th .sp
+.el &PENTEKST51.
+.el .br
+.if &L'&PENTEKST52 = 0
+.th .sp
+.el &PENTEKST52.
+.el .br
+.if &L'&PENTEKST53 = 0
+.th .sp
+.el &PENTEKST53.
+.el .br
+.if &L'&PENTEKST54 = 0
+.th .sp
+.el &PENTEKST54.
+.el .br
+&PENTEKST55.
+:SKRSLUT.
+...VAESEND
+.ar off
+.**************************************************************************
+...VAESSL4

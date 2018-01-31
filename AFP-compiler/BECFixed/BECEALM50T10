@@ -1,0 +1,137 @@
+.* AFSNIT, SOM KUN UDSKRIVES, NÅR LÅNET/KREDITTEN ER SIKRET VED PANT ******
+.**************************************************************************
+.if &U'&GENPANTSAT eq N
+.th .go NEJPANT
+.kp on
+:SWISS10.
+:FED.
+Særlige bestemmelser om pant
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+.us 1. Forringelse af pant
+.br
+Hvis pantets værdi forringes væsentligt, kan &BANKNAVN stille
+krav om, at &DU enten ekstraordinært nedbringer
+gælden/maksimum på kreditten eller, at &DU stiller yderligere
+sikkerhed, der modsvarer den skete forringelse. I modsat fald
+kan &BANKNAVN betragte lånet/kreditten som misligholdt.
+.sp 3mm
+.kp off
+.kp on
+Hvis &BANKNAVN har pant i ejerbolig, vil &BANKNAVN dog
+ikke ved forringelse af ejendomsværdien stille krav om
+ekstraordinær nedbringelse eller yderligere sikkerhed,
+medmindre forringelsen skyldes vanrøgt.
+.sp 3mm
+.kp off
+.kp on
+.us 2. &BANKNAVN.s rettigheder over det pantsatte
+.br
+&BANKNAVN kan udnytte alle pantsætters rettigheder over det
+pantsatte, herunder modtage og kvittere for ethvert beløb
+ifølge det pantsatte, opsige og inddrive, kvittere samt
+transportere pantsatte fordringer og pantebreve til sig selv
+eller andre.
+.sp 3mm
+.kp off
+.kp on
+Ved udøvelsen af disse rettigheder er dette dokument
+legitimation for &BANKNAVN., også i forhold til
+tinglysningsmyndighederne.
+.sp 3mm
+.kp off
+.kp on
+Ved pantsætning af aktier, anparter og lignende kan &BANKNAVN.
+alene på grundlag af dette dokument udøve alle de rettigheder,
+som aktionærer og anpartshavere har efter gældende
+selskabslove, selskabets vedtægter, eventuelle
+aktionæroverenskomster og lignende.
+.sp 3mm
+.kp off
+.kp on
+Hvis pantet omfatter forsikringspolice, er pantsætter pligtig
+til på anfordring at forevise &BANKNAVN. behørig kvittering
+for præmiens rettidige betaling.
+.sp 3mm
+.kp off
+.kp on
+Såfremt &BANKNAVN. vælger at søge sig fyldestgjort i policens
+tilbagekøbsværdi, skal &BANKNAVN. være berettiget hertil uden
+at afvente det i forsikringsaftaleloven fastsatte varsel.
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN. har ingen pligt til forlods at søge dækning i det
+stillede pant, ligesom &BANKNAVN. har valgfrihed med hensyn
+til anvendelsen i forhold til &DIT samlede engagement.
+.sp 3mm
+.kp off
+.kp on
+.us 3. Udgifter angående pantet
+.br
+&BANKNAVN kan forlange betaling af gebyr for pantsatte
+effekter.
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN kan også forlange betaling af pengeinstituttets
+udgifter til at varetage sine interesser som panthaver,
+herunder eventuelle udgifter til betaling af
+forsikringspræmie, besigtigelse af det pantsatte, udgifter til
+juridisk bistand m.v.
+.sp 3mm
+.kp off
+.kp on
+.us 4. Afkast af pantet
+.br
+Under pantsætningen er indbefattet renter og udbytte af enhver
+art af det pantsatte, derunder bonus på
+livsforsikringspolicer, ved aktier eventuelle friaktier og
+tegningsrettigheder, lejeindtægter og lignende.
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN. er berettiget, men ikke forpligtet (heller ikke i
+forhold til kautionister), til at oppebære renter og udbytte
+til betaling af afdrag, renter og omkostninger.
+.sp 3mm
+.kp off
+.kp on
+.us 5. Meddelelser
+.br
+Alle meddelelser, som pantsætter modtager vedrørende de
+pantsatte effekter, har denne pligt til omgående at tilstille
+&BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+.us 6. Udtrækning af obligationer
+.br
+Hvis pantsatte obligationer udtrækkes, og der købes andre i
+stedet for de udtrukne, er &BANKNAVN. bemyndiget til over for
+Værdipapircentralen at begære registrering af panteret over
+disse.
+.sp 3mm
+.kp off
+.kp on
+.us 7. Tvangsfuldbyrdelse
+.br
+Eventuel realisation af panterettigheder sker efter
+forudgående varsel til pantsætter ved tvangsauktion eller på
+anden måde, som &BANKNAVN. skønner hensigtsmæssig, herunder
+realisation ved &BANKNAVN.s egen foranstaltning.
+.sp 3mm
+.kp off
+.kp on
+Inden &BANKNAVN sælger effekterne, sendes et anbefalet brev,
+hvor pantsætter med en uges varsel opfordres til at opfylde
+&BANKNAVN.s krav.
+.sp 3mm
+.kp off
+.kp on
+Det gælder dog ikke, hvis omgående salg er nødvendigt for at
+undgå eller begrænse et tab.
+.sp 5mm
+.kp off
+...NEJPANT

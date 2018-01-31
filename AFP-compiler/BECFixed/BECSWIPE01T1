@@ -1,0 +1,70 @@
+.br
+&AFDNAVN.
+.br
+&AFDGADE.
+.br
+&AFDBY.
+.ar off
+.***
+.ar PITLF on
+&AFDTLF.
+.ar off
+.***
+.ar PIEMAIL on
+&BANKEMAIL.
+.ar off
+.***
+.ar PIEKSP on
+&GENEKSP.
+.ar off
+.**************************************************************************
+.da KUNDEOPL     25mm  44.5mm width  84mm
+.da KTOCPR       25mm    69mm width  84mm
+.da KTONR        25mm    79mm width 170mm
+.da MOBINR       25mm    88mm width 170mm
+.da MOBINAVN     25mm    98mm width 170mm
+.da SWIPKOD      25mm   108mm width 170mm
+.da PIADR        25mm 126.5mm width 170mm
+.da PITLF     112.5mm 126.5mm width 170mm
+.da PIEMAIL   112.5mm   136mm width 170mm
+.da PIEKSP    112.5mm   145mm width 170mm
+.**************************************************************************
+.ar KUNDEOPL on
+.if &L'&KTOCO > 0
+.an &L'&KTOLAND > 0
+.th
+.el &KTOSTILL.
+.el .br
+&KTONAVN.
+.br
+&KTOCO.
+.br
+&KTOGADE.
+.br
+&KTOBY.
+.br
+&KTOLAND.
+.ar off
+.*CPR-NR. *****************************************************************
+.ar KTOCPR on
+&KTOKNDNR1.
+.ar off
+.*KONTONR *****************************************************************
+.ar KTONR on
+&LANGKTONR.
+.ar off
+.*MOBIL OPLYSNINGER *******************************************************
+.ar MOBINR on
+&MOBBRUGTLF.
+.ar off
+.**************************
+.ar MOBINAVN on
+&MOBKALDNVN.
+.ar off
+.**************************
+.ar SWIPKOD on
+&SWIPPKODE.
+.ar off
+.*PI OPLYSNINGER **********************************************************
+.ar PIADR on
+&BANKNAVN.

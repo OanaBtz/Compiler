@@ -1,0 +1,34 @@
+CPR.nr.
+.ar off
+.*************************************************
+.ar BINDPER on
+Bindingsperiodens udlÄb:
+.ar off
+.**************************************************
+.ar INDHOLD on
+Overdragelse af status som ""opretter
+"".sp 5
+mmUndertegnede opretter af bÄrneopsparingskontoen overdrager herve
+d,med virkning f
+ra&DATO., status som ""opretter"" af kontoen
+ ti
+l.br&GENNA
+VN...ar
+ off.**********************************************
+****.ar OPUNDSK
+R onOpretters undersk
+rift.ar
+ off.**********************************************
+****.ar OPDAT
+O onD
+ato:.ar
+ off.**********************************************
+****.ar NYUNDSK
+R onNy opretters undersk
+rift.ar
+ off.**********************************************
+****.ar NYDAT
+O onD
+ato:.ar
+ off.**********************************************
+****"

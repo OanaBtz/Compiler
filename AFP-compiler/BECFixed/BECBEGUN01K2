@@ -1,0 +1,81 @@
+.*************** definer siden som et areal *******************************
+.da SIDE 20mm 40mm width 175mm
+.************ PARTER ******************************************************
+.ar SIDE on
+.bx left right
+:SWISS8.
+.tp 5mm
+.in 1mm
+.ir 1mm
+:FED.
+4.¤Pensionsopsparingens størrelse (Før skat (inklusiv PAL) og afgifter):
+.sp 5mm
+.tp 18mm _/80mm
+¤¤ kr.
+.sp 5mm
+5.¤Udbetaling har fundet sted til følgende begunstigede jf. pkt. 3:
+.sp 13mm
+6.¤Statsafgift (angives hvis beregnet):
+:SKRSLUT.
+.sp 5mm
+.tp 5mm _/80mm 85mm _/160mm
+¤Konto 1): ¤ kr. ¤Konto 2): ¤ kr.
+.sp 5mm
+¤Konto 3): ¤ kr. ¤Konto 4): ¤ kr.
+.sp 5mm
+:FED.
+7.¤Boafgift/tillægsboafgift (angives hvis beregnet):
+:SKRSLUT.
+.sp 4mm
+.tp 5mm 18mm _/80mm 85mm _/160mm
+¤Konto 1): ¤Person 1) ¤ kr. ¤Person 2) ¤ kr.
+.sp 4mm
+¤¤Person 3) ¤ kr. ¤Person 4) ¤ kr.
+.sp 4mm
+¤Konto 2): ¤Person 1) ¤ kr. ¤Person 2) ¤ kr.
+.sp 4mm
+¤¤Person 3) ¤ kr. ¤Person 4) ¤ kr.
+.sp 4mm
+¤Konto 3): ¤Person 1) ¤ kr. ¤Person 2) ¤ kr.
+.sp 4mm
+¤¤Person 3) ¤ kr. ¤Person 4) ¤ kr.
+.sp 4mm
+¤Konto 4): ¤Person 1) ¤ kr. ¤Person 2) ¤ kr.
+.sp 4mm
+¤¤Person 3) ¤ kr. ¤Person 4) ¤ kr.
+.sp 5mm
+:FED.
+8.¤Kontohaver har begrundet begunstigelsen:
+:SKRSLUT.
+.br
+Hvis der er svaret ja, skal begrundelsen vedlægges.
+.sp 3mm
+Hvis skifteretten er bekendt med, at andre end de ovenfor angivne personer
+er berettigede til at modtage udbetalingen fra afdødes pensionskonti,
+bedes skifteretten underrette &BANKNAVN..
+.in
+.ir
+.bx off
+:SWISS10.
+:FED.
+Pengeinstituttets underskrift
+:SKRSLUT.
+:SWISS8.
+.bx left right
+.tp 1mm
+¤Dato
+.sp 15mm
+.tp 131mm center
+.bx new left right
+.tp 1mm
+¤Afsender (Pengeinstituttet):
+.sp 20mm
+.bx new left right
+¤Kontaktperson
+.sp 7mm
+¤Tlf.
+.sp 1mm
+.bx off
+.bx can
+.bx can
+.ar off

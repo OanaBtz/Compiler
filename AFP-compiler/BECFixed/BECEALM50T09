@@ -1,0 +1,60 @@
+.* AFSNIT, SOM KUN UDSKRIVES, NÅR LÅNET/KREDITTEN ER SIKRET VED KAUTION ***
+.**************************************************************************
+.if &U'&GENKAUTION eq N
+.th .go NEJKAU
+.kp on
+:SWISS10.
+:FED.
+Særlige bestemmelser om kaution
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+.us Anvendelse af indbetalinger
+.br
+Indbetaling fra kautionister anvendes først til dækning af
+renter, provision og omkostninger og dernæst til nedbringelse
+af den i øvrigt sikrede gæld.
+.sp 3mm
+.kp off
+.kp on
+Hvis lånet/kreditten kun er delvis sikret ved kaution,
+anvendes indbetalinger fra &DIG. først til nedbringelse af den
+usikrede del af gælden.
+.sp 3mm
+.kp off
+.kp on
+.us Realisation og regres
+.br
+&BANKNAVN forbeholder sig ret til at realisere de
+sikkerheder, der er stillet af &DIG. eller tredjemand og
+afskrive provenuet efter &BANKNAVN.s frie valg. Kautionisten
+har således ingen regresret i sådanne sikkerheder.
+.sp 3mm
+.kp off
+.kp on
+Det betyder blandt andet:
+.sp 3mm
+.of 3mm
+-¤at &BANKNAVN. uden kautionistens tilladelse kan frigive
+andre sikkerheder for den kautionssikrede forpligtelse
+.br
+.of
+.kp off
+.kp on
+.of 3mm
+-¤at &BANKNAVN kan anvende pant, der tillige tjener til
+sikkerhed for andre fordringer end den kautionssikrede til
+forlods fyldestgørelse af sådanne fordringer.
+.sp 3mm
+.of
+.kp off
+.kp on
+.us Tvangsfuldbyrdelse
+.br
+Hvis kautionen tjener til sikkerhed for lån, kan
+lånedokumentet med kautionserklæring tjene som grundlag for
+tvangsfuldbyrdelse hos kautionisten i henhold til
+retsplejelovens § 478, stk. 1, nr. 5.
+.sp 5mm
+.kp off
+...NEJKAU

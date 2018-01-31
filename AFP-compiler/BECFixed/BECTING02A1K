@@ -1,0 +1,41 @@
+.fo off
+:GL.
+.sp 13
+:EGL.
+:NY.
+.sp 50mm
+:ENY.
+.*************Understregning af matr.nr. m.m.***************
+:GL.
+.us on
+Matrikelnr.
+.is 1
+By eller ejerlav/sogn
+.is 18
+Areal
+.is 3
+heraf vej
+.us off
+:EGL.
+:NY.
+.tp 26mm 113mm 155mm right
+Matrikelnr.¤By eller ejerlav/sogn ¤Areal ¤heraf vej
+.HR 0mm for 155mm
+:ENY.
+.sp
+.*************Tekst til matr.nr. m.m. ************
+:GL.
+.tp 13 57 right 69 right
+:EGL.
+:NY.
+.tp 26mm 123mm right 155mm right
+:ENY.
+.fo off
+&GENMATRNR1.¤&GENBYSOGN1.¤&GENAREAL1.¤&GENHVEJ1
+.br
+.if &L'&GENBYSOGN2 gt 0
+.th ¤&GENBYSOGN2
+.if &L'&GENBYSOGN3 gt 0
+.th ¤&GENBYSOGN3
+.if &L'&GENBYSOGN4 gt 0
+.th ¤&GENBYSOGN4

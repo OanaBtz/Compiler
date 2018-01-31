@@ -1,0 +1,24 @@
+.dm becform on
+.*
+.gs scan formnr
+.se formnr = &U'&formnr
+.se lgd = &L'&formnr
+.se nylgd = &lgd - 3
+.se lgd = &lgd - 2
+.su off
+.se sidste = substr &V'&formnr &lgd
+.se first = substr &V'&formnr 1 &nylgd
+.su on
+.se nysidst = &sidste + 1
+.if &nysidst lt 010
+.th .se nysidst1 = 00&nysidst
+.if &nysidst ge 010 .an &nysidst lt 100
+.th .se nysidst1 = 0&nysidst
+.if &nysidst ge 100
+.th .se nysidst1 = &nysidst
+.br
+.gs tag off
+.oc  //LA!&formnr.!!
+//LA!&first.&nysidst1.!!
+.gs tag on
+.dm off

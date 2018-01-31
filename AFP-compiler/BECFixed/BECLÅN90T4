@@ -1,0 +1,17 @@
+.kp on
+.*UNDERSKRIFT *************************************************************
+.tp _/50mm
+:FED.
+Underskrift
+:SKRSLUT.
+.sp 5mm
+:FED.
+Kunden
+:SKRSLUT.
+.sp 5mm
+Den ¤
+.sp 14mm
+.hr tynd 5mm 80mm
+.br
+&NAVN
+.kp off

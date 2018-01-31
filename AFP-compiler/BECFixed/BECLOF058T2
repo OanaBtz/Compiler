@@ -1,0 +1,61 @@
+.********************AREAL-DEFINITIONER************************************
+.da TEKST 20mm 102mm
+.da UNDERS 20mm 245mm width 85mm
+.**************************************************************************
+.ar TEKST on
+Bilen med reg.nr.: &REGISNR01. afleveres til Bilsalg.dk samt
+samarbejdspartnere
+.in 5mm
+.sp
+.bx 2mm 5mm
+.sp 1,5mm
+.bx off
+.sp
+.bx 2mm 5mm
+.sp 1,5mm
+.bx off
+.sp
+.bx 2mm 5mm
+.sp 1,5mm
+.bx off
+.sp
+.bx 2mm 5mm
+.sp 1,5mm
+.bx off
+.sp
+.bx 2mm 5mm
+.sp 1,5mm
+.bx off
+.sp
+.bx 2mm 5mm
+.sp 1,5mm
+.bx off
+.sp
+.bx 2mm 5mm
+.sp 1,5mm
+.bx off
+.in 0mm
+.sp 3
+.tp 5mm 45mm
+Åbningstider:
+.sp
+¤Mandag - Torsdag ¤08:00-16:00
+.sp
+¤Fredag ¤08:00-15:30
+.sp 3
+.tp _/60mm
+Valgt dato: ¤
+.sp 3
+Valgt tidspunkt: ¤
+.sp 3
+.tp 70mm
+Leasingtagers underskrift ¤Dato
+.sp 9
+:FED.
+Blanketten returneres til &AFDBNKNAVN. udfyldt og i underskrevet stand.
+:SKRSLUT.
+.ar off
+.ar UNDERS on
+.hr 0mm 85mm
+.ce &UNDSNAVN.
+.ar off

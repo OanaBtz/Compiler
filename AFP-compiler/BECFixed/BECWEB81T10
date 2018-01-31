@@ -1,0 +1,49 @@
+.******************************************
+.if &L'&WEBHGNS gt 0
+.th .go GNS1
+.el .go UDL
+...GNS1
+.kp 4
+:FED.3.&taeller5 &WEBHGNS.:SKRSLUT.
+.sp 3mm
+3.&taeller5..1 Kunden har adgang til elektronisk at indlægge ordrer om køb
+og salg af værdipapirer noteret på &BØRSNAVN. til afregning til
+&BØRSNAVN.' gennemsnitskurs. &BANKNAVN er berettiget til
+diskretionært at indskrænke kundens adgang til indlæggelse af ordrer om
+køb og salg til gennemsnitskurs for så vidt angår visse værdipapirer.
+.sp 3mm
+.kp on
+3.&taeller5..2 For gennemsnitskursordrer henvises til/gælder afsnittet om
+gennemsnitskursordrer i &BANKNAVN.s forretningsbetingelser for handel med
+finansielle instrumenter, som kunden har fået udleveret.
+.sp 3mm
+.kp off
+.kp on
+3.&taeller5..3 &BANKNAVN er ikke forpligtet til at afregne
+gennemsnitskursordrer, såfremt værdipapiret ikke kan erhverves eller
+afhændes i markedet.
+.sp 3mm
+.kp off
+.kp on
+:FED.3.&taeller5..4 Kontrol:SKRSLUT.
+.sp 3mm
+3.&taeller5..4.1 Kunden opfordres til efter afgivelse af ordrer at
+kontrollere oversigten "Uafviklede handler" med henblik på at sikre, at
+ordren er korrekt registreret. Kunden
+skal kontrollere indholdet af de notaer, &BANKNAVN gør
+tilgængelige for kunden elektronisk eller i papirform. Kunden skal uden
+ophold gøre &BANKNAVN opmærksom på, hvis en
+nota ikke er i overensstemmelse med den afgivne ordre.
+.sp 3mm
+.kp off
+.kp on
+:FED.3.&taeller5..5 Sletning:SKRSLUT.
+.sp 3mm
+3.&taeller5..5.1 Gennemsnitskursordrer kan som udgangspunkt ikke slettes.
+En gennemsnitskursordre kan dog slettes elektronisk af kunden, så længe
+ordren har status "Ikke behandlet". Herudover kan kunden kontakte
+&BANKNAVN (kontoførende filial) med henblik på at undersøge, om
+en given ordre kan slettes.
+.sp 3mm
+.kp off
+...UDL

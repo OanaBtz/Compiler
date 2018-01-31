@@ -1,0 +1,44 @@
+.* Fuldmagt i alle forhold - Tekstpåføring 2
+.**** 3. FULDMAGTSHAVER ***************************
+.ar FULDM3TEG
+.if .&BECPJN3 = .1
+.th alene
+.if .&BECPJN3 = .2
+.th i forening
+.ar off
+.ar FULDM3
+&BECNAVN403
+.br
+&BECCO403
+.br
+&BECGADE403
+.br
+&BECBY403
+.ar FULDM3CPR on
+&BECCPR03
+.ar off
+.**** 4. FULDMAGTSHAVER ***************************
+.ar FULDM4TEG
+.if .&BECPJN4 = .1
+.th alene
+.if .&BECPJN4 = .2
+.th i forening
+.ar off
+.ar FULDM4
+&BECNAVN404
+.br
+&BECCO404
+.br
+&BECGADE404
+.br
+&BECBY404
+.ar FULDM4CPR on
+&BECCPR04
+.ar off
+.**** DATO ****************************************
+.ar DATO on
+&DATO8
+.ar off
+.ar UNDERSKR on
+.ce &NAVN
+.ar off

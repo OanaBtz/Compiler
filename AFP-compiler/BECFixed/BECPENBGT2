@@ -1,0 +1,237 @@
+.**************************************************************************
+.if &U'&PENBEGUN ne A
+.th .go BEGUNSL4
+.**************************************************************************
+.da BEGUN 21mm 76mm width 170mm
+.**************************************************************************
+.**PERSONER (TYPE P) ******************************************************
+.if &U'&PENBGTYPE = P
+.th .go BEG1P1
+.el .go BEG1G1
+...BEG1P1
+.ar BEGUN on
+.**1. linje ***
+I stedet for udbetaling til "nærmeste pårørende" ønskes følgende personer
+begunstiget: (Vælg mellem ægtefælle, én person der har fælles
+bopæl med kontohaver ved indsættelsen (samlever), fraskilt ægtefælle,
+livsarvinger (børn, børnebørn o.s.v.), samlevers livsarvinger,
+stedbørn og disses livsarvinger).
+.sp
+Ved kontohavers død udbetales indestående til følgende personer:
+.ar off
+.**KOLONNER****************************************************************
+.sp 71mm
+.cd 2 5mm 92.5mm
+.cl 85mm
+.if &L'&GENCPRBD1 > 0
+.th CPR-nr. &GENCPRBD1
+.if &L'&GENNAVNBD1 > 0
+.th &GENNAVNBD1
+.th .br
+.if &L'&GENRELABD1 > 0
+.th &GENRELABD1.
+.th .br
+.if &L'&PENPCTBD1 > 0
+.th Fordeling: &PENPCTBD1 %
+.if &U'X&GENUIGBD1 = XJ
+.th Begunstigelsen er uigenkaldelig
+.cb
+.**2. linje ***
+.if &L'&GENCPRBD2 > 0
+.th CPR-nr. &GENCPRBD2
+.if &L'&GENNAVNBD2 > 0
+.th &GENNAVNBD2
+.th .br
+.if &L'&GENRELABD2 > 0
+.th &GENRELABD2.
+.th .br
+.if &L'&PENPCTBD2 > 0
+.th Fordeling: &PENPCTBD2 %
+.if &U'X&GENUIGBD2 = XJ
+.th Begunstigelsen er uigenkaldelig
+.sc
+.if &L'&GENCPRBD1 > 0
+.or &L'&GENCPRBD2 > 0
+.th .sp 3mm
+.**3. linje ***
+.mc
+.if &L'&GENCPRBD3 > 0
+.th CPR-nr. &GENCPRBD3
+.if &L'&GENNAVNBD3 > 0
+.th &GENNAVNBD3
+.th .br
+.if &L'&GENRELABD3 > 0
+.th &GENRELABD3.
+.th .br
+.if &L'&PENPCTBD3 > 0
+.th Fordeling: &PENPCTBD3 %
+.if &U'X&GENUIGBD3 = XJ
+.th Begunstigelsen er uigenkaldelig
+.cb
+.**4. linje ***
+.if &L'&GENCPRBD4 > 0
+.th CPR-nr. &GENCPRBD4
+.if &L'&GENNAVNBD4 > 0
+.th &GENNAVNBD4
+.th .br
+.if &L'&GENRELABD4 > 0
+.th &GENRELABD4.
+.th .br
+.if &L'&PENPCTBD4 > 0
+.th Fordeling: &PENPCTBD4 %
+.if &U'X&GENUIGBD4 = XJ
+.th Begunstigelsen er uigenkaldelig
+.sc
+.if &L'&GENCPRBD3 > 0
+.or &L'&GENCPRBD4 > 0
+.th .sp 3mm
+.**5. linje ***
+.mc
+.if &L'&GENCPRBD5 > 0
+.th CPR-nr. &GENCPRBD5
+.if &L'&GENCPRBD5 > 0
+.th &GENNAVNBD5
+.th .br
+.if &L'&GENRELABD5 > 0
+.th &GENRELABD5.
+.th .br
+.if &L'&PENPCTBD5 > 0
+.th Fordeling: &PENPCTBD5 %
+.if &U'X&GENUIGBD5 = XJ
+.th Begunstigelsen er uigenkaldelig
+.cb
+.**6. linje ***
+.if &L'&GENCPRBD6 > 0
+.th CPR-nr. &GENCPRBD6
+.if &L'&GENNAVNBD6 > 0
+.th &GENNAVNBD6
+.th .br
+.if &L'&GENRELABD6 > 0
+.th &GENRELABD6.
+.th .br
+.if &L'&PENPCTBD6 > 0
+.th Fordeling: &PENPCTBD6 %
+.if &U'X&GENUIGBD6 = XJ
+.th Begunstigelsen er uigenkaldelig
+.sc
+.if &L'&GENCPRBD5 > 0
+.or &L'&GENCPRBD6 > 0
+.th .sp 3mm
+.**7. linje ***
+.mc
+.if &L'&GENCPRBD7 > 0
+.th CPR-nr. &GENCPRBD7
+.if &L'&GENNAVNBD7 > 0
+.th &GENNAVNBD7
+.th .br
+.if &L'&GENRELABD7 > 0
+.th &GENRELABD7.
+.th .br
+.if &L'&PENPCTBD7 > 0
+.th Fordeling: &PENPCTBD7 %
+.if &U'X&GENUIGBD7 = XJ
+.th Begunstigelsen er uigenkaldelig
+.cb
+.**8. linje ***
+.if &L'&GENCPRBD8 > 0
+.th CPR-nr. &GENCPRBD8
+.if &L'&GENNAVNBD8 > 0
+.th &GENNAVNBD8
+.th .br
+.if &L'&GENRELABD8 > 0
+.th &GENRELABD8.
+.th .br
+.if &L'&PENPCTBD8 > 0
+.th Fordeling: &PENPCTBD8 %
+.if &U'X&GENUIGBD8 = XJ
+.th Begunstigelsen er uigenkaldelig
+.sc
+.if &L'&GENCPRBD7 > 0
+.or &L'&GENCPRBD8 > 0
+.th .sp 3mm
+.**9. linje ***
+.mc
+.if &L'&GENCPRBD9 > 0
+.th CPR-nr. &GENCPRBD9
+.if &L'&GENNAVNBD9 > 0
+.th &GENNAVNBD9
+.th .br
+.if &L'&GENRELABD9 > 0
+.th &GENRELABD9.
+.th .br
+.if &L'&PENPCTBD9 > 0
+.th Fordeling: &PENPCTBD9 %
+.if &U'X&GENUIGBD9 = XJ
+.th Begunstigelsen er uigenkaldelig
+.cb
+.**10. linje ***
+.if &L'&GENCPRBD10 > 0
+.th CPR-nr. &GENCPRBD10
+.if &L'&GENNAVNB10 > 0
+.th &GENNAVNB10
+.th .br
+.if &L'&GENRELAB10 > 0
+.th &GENRELAB10.
+.th .br
+.if &L'&PENPCTBD10 > 0
+.th Fordeling: &PENPCTBD10 %
+.if &U'X&GENUIGBD9 = XJ
+.th Begunstigelsen er uigenkaldelig
+.sc
+.if &L'&GENCPRBD9 > 0
+.or &L'&GENCPRBD10 > 0
+.th .sp 3mm
+.cd 1 1mm
+.cl 170mm
+Hvis flere personer er begunstigede udbetales opsparingen
+i henhold til ovenstående fordeling.
+.br
+Hvis en af de
+begunstigede dør, tilfalder dennes andel den/de øvrige begunstigede til
+lige deling, medmindre andet er bestemt.
+.in 0mm
+.go BEGUNSL4
+.**PERSONGRUPPER (TYPE G) *************************************************
+...BEG1G1
+.ar BEGUN on
+Ved kontohavers død udbetales indestående til følgende persongrupper:
+.sp 3mm
+.in 4mm
+&GENRELABD1.
+.sp
+.su off
+.se grup = substr &GENRELABD1 1 4
+.su on
+.br
+.if &grup = Børn
+.th .go BØRN
+.if &grup = Sted
+.th .go STED
+.if &grup = Saml
+.th .go SAML
+...BØRN
+Hvis der er flere børn, udbetales opsparingen til lige deling mellem
+børnene. Hvis et barn dør før kontohaveren, vil afdødes (barnets)
+eventuelle børn få udbetalt afdødes andel til lige deling. Hvis det afdøde
+barn ikke efterlader sig børn, vil afdødes (barnets) andel af udbetalingen
+blive delt lige mellem kontohaverens efterlevende børn på tilsvarende måde.
+.go GRSLUT
+...STED
+Hvis der er flere stedbørn, udbetales opsparingen til lige deling mellem
+stedbørnene. Hvis et stedbarn dør før kontohaveren, vil afdødes
+(stedbarnets) eventuelle børn få udbetalt afdødes andel til lige deling.
+Hvis det afdøde stedbarn ikke efterlader sig børn, vil afdødes
+(stedbarnets) andel af udbetalingen blive delt lige mellem kontohaverens
+efterlevende stedbørn på tilsvarende måde.
+.go GRSLUT
+...SAML
+Hvis samleveren efterlader sig flere livsarvinger, udbetales opsparingen
+til lige deling mellem samlevers livsarvinger. Hvis en af samleverens
+livsarvinger dør før kontohaveren, vil afdødes (samleverens livsarvings)
+eventuelle børn få udbetalt afdødes andel til lige deling. Hvis samleverens
+afdøde livsarving ikke efterlader sig børn, vil afdødes (samleverens
+livsarvings) andel af udbetalingen blive delt lige mellem samleverens
+efterlevende børn på tilsvarende måde.
+...GRSLUT
+.ar off
+...BEGUNSL4

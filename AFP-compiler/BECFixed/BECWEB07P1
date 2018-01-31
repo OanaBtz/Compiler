@@ -1,0 +1,3 @@
+.if &U'&WEBPRIERH = E
+.th .se prierh = '(Erhverv)'
+.el .se prierh = '(Privat)'

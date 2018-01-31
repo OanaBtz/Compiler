@@ -1,0 +1,122 @@
+.tp 5mm
+.**************************************************************************
+.kp on
+:SWISS8.
+:FED
+&HREG
+.br
+&BANKNAVN.
+.br
+&BANKGADE.
+.br
+&BANKBY.
+.sp
+&BANKEMAIL.
+.sp 5mm
+:SKRSLUT.
+:SWISS10.
+:FED.
+Definitions
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+:FED.
+Card types
+.sp 3mm
+Private card
+:SKRSLUT.
+.br
+MasterCard Debit are issued to private individuals for private consumption.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Corporate card
+:SKRSLUT.
+.br
+MasterCard Business Debit are issued to private individuals for corporate
+purchases.
+.sp 3mm
+:FED.
+MasterCard on mobile phone
+:SKRSLUT.
+.br
+Virtual version of a physical private or Corporate card. Can be put into a
+wallet approved by Handelsbanken, on a mobile unit such as a smartphone or
+tablet.
+After this, the virtual payment card on a mobile unit can be used as
+contactless payment by means of a wallet when making physical purchases.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Cardholder
+:SKRSLUT.
+.br
+The person to whom a MasterCard is issued.
+.sp 3mm
+:FED.
+Account holder
+:SKRSLUT.
+.br
+The person for whom a card account has been created.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Card
+:SKRSLUT.
+.br
+Physical cards and virtual versions of physical cards.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+General definitions
+.sp 3mm
+Private card
+.sp 3mm
+Private liability
+:SKRSLUT.
+.sp 3mm
+.kp off
+.kp on
+You are solely and personally responsible for all payments, withdrawals
+and other debits made using the card. Your liability also covers losses
+attributable to unauthorised use of the card by others, although with
+the limitations pursuant to Section 62 of the Danish Act on Payment
+Services. See Article 2.9.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Corporate card - corporate liability
+:SKRSLUT.
+.br
+A MasterCard Business Debit is used by the cardholder
+to pay for expenses on behalf of his/her place of employment or company.
+.sp 3mm
+.kp off
+.kp on
+In principle, the company is liable for all claims concerning the
+issuing and use of the card. In certain situations, the cardholder is
+jointly and severally liable for claims regarding use of the card, see
+Article 2.21.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Payment recipient
+:SKRSLUT.
+.br
+The places of business where MasterCard can be used as a means of payment.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Denmark
+:SKRSLUT.
+.br
+Denmark, the Faeroe Islands and Greenland.
+.sp 3mm
+.kp off

@@ -1,0 +1,48 @@
+.*************** definer siden som et areal *******************************
+.da SIDE 20mm 37mm width 175mm
+.************ PARTER ******************************************************
+.ar SIDE on
+:SWISS12.:FED.
+.*.us on
+.us Ratepensions oprettelse i andet pensionsinstitut efter det fyldte 60 år
+:SKRSLUT.
+:SWISS10.:FED.
+.sp 1mm
+Generelt
+:SKRSLUT.
+.bx left 87.5mm right
+.sp 25mm
+.bx new left 87.5mm right
+.sp 8mm
+.hr 87.5mm right
+.sp 8mm
+.hr 87.5mm right
+.sp 8mm
+.hr left right
+.sp 8mm
+.bx off
+.bx can
+.sp 3mm
+:SWISS10.:FED.
+I. Sendes til oprindeligt pensionsinstitut
+:SKRSLUT.
+.bx left right
+.sp 40mm
+.bx off
+.sp 3mm
+:SWISS10.:FED.
+II. Sendes til afsender pensionsinstitut
+:SKRSLUT.
+.bx left right
+.sp 50mm
+.bx off
+.sp 3mm
+:SWISS10.:FED.
+III. Sendes til oprindeligt pensionsinstitut til interne
+registreringer
+:SKRSLUT.
+.bx left right
+.sp 35mm
+.bx off
+.************ INDHOLD *****************************************************
+.ar off

@@ -1,0 +1,31 @@
+.*************** TEST PÅ OM DER ER NOGEN INTERESSENTER *******************
+.if &L'&DEP01CPR = 0
+.an &L'&DEP02CPR = 0
+.an &L'&DEP03CPR = 0
+.an &L'&DEP04CPR = 0
+.an &L'&DEP05CPR = 0
+.th .go INTSLUT1
+.*************** GENEREL OPSÆTNING ***************************************
+.ti ¤ 05
+:COUR10.
+.fo left
+:tiltale &TILTALE
+.*************** AREAL-DEFINITIONER **************************************
+.da VEND 7mm 270mm width 180mm rotate -90
+.da OVERSKR 20mm 32mm width 175mm
+.*************** ROTERET BREVNAVN ****************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.*************** UDDATA-OVERSKRIFT ***************************************
+.ar OVERSKR on
+:SWISS12.:FED.
+.if x&GENVALG = x1
+.th .us Aftale om værdipapirhandel og depotoprettelse
+.if x&GENVALG = x2
+.th .us Aftale om værdipapirhandel og depotændring
+:SKRSLUT.
+.ar off
+.*************************************************************************
+...INTSLUT1

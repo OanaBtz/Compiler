@@ -1,0 +1,76 @@
+.**Arealet fortsat fra BECSOP07K1****************
+.da STREGA 12mm 236mm width 158mm
+.da STREGB 166.7mm 246.4mm width 20mm
+.************************************************
+.ar STREGA on
+:COUR6.
+.sp 6mm
+.*Tekstlinie 1**KS10
+.se streg1x = '35.7mm 39.9mm 44.1mm 48.3mm 52.5mm 56.7mm 60.9mm 65.1mm'
+.se streg2x = '69.3mm 73.5mm 77.7mm 81.9mm 86.1mm 90.3mm 94.5mm 98.7mm'
+.se streg3x = '102.9mm 107.1mm 111.3mm 115.5mm 119.7mm 123.9mm 128.1mm'
+.se streg4x = '132.3mm 136.5mm 140.7mm 144.9mm 149.1mm 153.3mm 157.5mm'
+.*Tekstlinie 2**KS11
+.bx new 23mm 27.5mm / 31.5mm 182.7mm
+.sp 3mm
+.vr &streg1x &streg2x &streg3x &streg4x
+.sp 0.1mm
+.bx off
+.vr off
+.*Tekstlinie 2**KS12
+.bx new 23mm 27.5mm / 31.5mm 182.7mm
+.sp 3mm
+.vr &streg1x &streg2x &streg3x &streg4x
+.sp 0.1mm
+.bx off
+.vr off
+.*Tekstlinie 3**KS13
+.bx new 23mm 27.5mm / 31.5mm 182.7mm
+.sp 3mm
+.vr &streg1x &streg2x &streg3x &streg4x
+.sp 0.1mm
+.bx off
+.vr off
+.*Tekstlinie 4**KS14
+.bx new 23mm 27.5mm / 31.5mm 182.7mm
+.sp 3mm
+.vr &streg1x &streg2x &streg3x &streg4x
+.sp 0.1mm
+.bx off
+.vr off
+.sp 4mm
+.*Sidste bet.*KS15*****
+.bx new 43mm 52mm
+.SP 3mm
+.vr 47.5mm
+.sp 0.1mm
+.bx off
+.vr off
+.ar off
+.*************************************************
+.ar STREGB on
+.se streg5x = '7mm 11.2mm 15.4mm 19.6mm 23.8mm'
+.*Tekstlinie 2**KS11
+.vr &streg5x
+.sp 1.4mm
+.bx off
+.vr off
+.*Tekstlinie 2**KS12
+.sp 4.4mm
+.vr &streg5x
+.sp 1.4mm
+.bx off
+.vr off
+.*Tekstlinie 3**KS13
+.sp 4.4mm
+.vr &streg5x
+.sp 1.4mm
+.bx off
+.vr off
+.*Tekstlinie 4**KS14
+.sp 4.4mm
+.vr &streg5x
+.sp 1.4mm
+.bx off
+.vr off
+.ar off

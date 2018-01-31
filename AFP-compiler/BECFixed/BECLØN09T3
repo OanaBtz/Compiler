@@ -1,0 +1,190 @@
+:SWISS8.
+.hy on
+.****************************************
+.kp on
+:SWISS10.
+:FED.
+Definitioner
+:SKRSLUT.
+.sp 3mm
+:SWISS8.:FED.
+Aftale
+:SKRSLUT.
+.br
+Aftalen mellem &LOENEJER og serviceleverandøren om tilslutning til
+&LOENSYSTEM., herunder Almindelige regler og vilkår for &LOENSYSTEM.,
+den til enhver tid gældende Vejledning for
+Arbejdsgiver, prislister, samt andre vejledninger og
+bilag til den valgte anvendelse af &LOENSYSTEM..
+.sp 3mm
+.kp off
+.kp on
+:FED.&LOENSYSTEM.:SKRSLUT.
+.br
+Et lønberegnings- og overførselssystem, hvor &LOENEJER
+varetager lønbehandlingen via serviceleverandøren på vegne af
+virksomheden i form
+af beregning og administration af løn, skat, ATP,
+feriepenge, ferietillæg, søgnehelligdagsopsparing,
+feriefridagsopsparing, pensionsbidrag, lønindeholdelse,
+bidrag til fonde, statistik, samt behandling af fast løn
+og variable tillæg/fradrag m.m. ved træk på kundevirksomhedens
+konto i pengeinstitut.
+.sp 3mm
+.kp off
+.kp on
+:FED.Formidler af &LOENSYSTEM.:SKRSLUT.
+.br
+Formidleren der har indgået aftale med &LOENEJER om, at tilbyde
+&LOENSYSTEM til sine erhvervskunder. Formidlerne kan være
+pengeinstitutter, revisionsvirksomheder eller andre
+serviceleverandører.
+.sp 3mm
+.kp off
+.kp on
+:FED.Serviceleverandør:SKRSLUT.
+.br
+En virksomhed, der er registreret efter lov om merværdi (momsloven), og
+som på grundlag af en aftale om service varetager myndighedskontakt for
+en kundevirksomhed gennem udførelse og bistand i forbindelse med
+administrativt arbejde.
+.sp 3mm
+.kp off
+.kp on
+:FED.Kundevirksomhed:SKRSLUT.
+.br
+En virksomhed, der har indgået aftale med en serviceleverandør om levering
+af service.
+.sp 3mm
+.kp off
+.kp on
+:FED.Grundmateriale:SKRSLUT.
+.br
+Har serviceleverandøren valgt &LOENSYSTEM via blanket, skal
+serviceleverandøren benytte de blanketter, der udleveres af
+formidleren af &LOENSYSTEM..
+.sp 3mm
+.kp off
+.kp on
+:FED.OS02 - aftale:SKRSLUT.
+.br
+Er kundevirksomheden ikke kontoførende hos formidleren af &LOENSYSTEM.,
+skal kundevirksomheden udfylde en OS02-aftale, for
+at der kan ske betalingsoverførsler.
+.sp 3mm
+.kp off
+.kp on
+:FED.Vejledning for Arbejdsgiver:SKRSLUT.
+.br
+Det vejledningsmateriale, som serviceleverandøren får udleveret
+ved indgåelse af Aftalen med senere udsendte rettelser,
+som der også er adgang til elektronisk.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+Aftalens omfang:SKRSLUT.
+.sp 3mm
+:SWISS8.
+Aftalen fastlægger vilkårene for serviceleverandørens anvendelse
+af &LOENSYSTEM i forbindelse med
+levering af service til kundevirksomheder.
+.sp 3mm
+&LOENSYSTEM må kun anvendes erhvervsmæssigt.
+.sp
+I forhold til kundevirksomhederne agerer serviceleverandøren som
+selvstændig leverandør af &LOENSYSTEM., og serviceleverandøren hæfter
+således selv over for kundevirksomheden for leverancer baseret på
+&LOENSYSTEM..
+.sp
+Al kontakt til kundevirksomheden forestås af serviceleverandøren.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+Support:SKRSLUT.
+.sp 3mm
+:SWISS8.
+Ved tilslutning og oprettelse af kundevirksomheden, som bruger
+af &LOENSYSTEM samt ved løsning af individuelle
+forhold rettes henvendelsen til den supportfunktion, som
+formidleren af &LOENSYSTEM har oplyst.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+Oprettelse af serviceleverandør:SKRSLUT.
+.sp 3mm
+:SWISS8.
+Serviceleverandøren skal oprettes i &LOENSYSTEM af formidleren af
+&LOENSYSTEM., som tillige kontaktes ved ændring af de registrerede
+oplysninger, herunder ophør.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+&LOENEJER.'s ydelser:SKRSLUT.
+.sp 3mm
+:SWISS8.
+Gennem &LOENSYSTEM foretager &LOENEJER bl.a. lønbehandling
+og leverer uddatamateriale, enten på papir eller
+elektronisk. Ydelsernes nærmere indhold og omfang er
+beskrevet i Vejledning for Arbejdsgiver.
+.sp 3mm
+.kp off
+.kp on
+Formidleren af &LOENSYSTEM og &LOENEJER er ikke forpligtet til
+at gennemføre betalinger, der ikke er dækning for, eller
+som ikke kan gennemføres som følge af kundevirksomhedens
+mangelfulde angivelse af informationer, som er nødvendige
+for lønudbetalingens gennemførelse.
+.sp 3mm
+.kp off
+.kp on
+Endvidere er formidleren af &LOENSYSTEM og &LOENEJER ikke
+forpligtet til at gennemføre betalinger, såfremt
+kundevirksomheden anmelder betalingsstandsning, kommer under
+konkursbehandling, afgår ved døden eller indleder
+gældssanering eller forhandlinger om tvangsakkord.
+.sp 3mm
+.kp off
+.kp on
+I tilfælde af forkerte oplysninger fra serviceleverandørens side
+vil formidleren af &LOENSYSTEM og &LOENEJER gøre sit bedste
+for at foretage korrektion, men serviceleverandøren er da
+forpligtet til at godtgøre formidleren af &LOENSYSTEM og
+&LOENEJER de hermed forbundne udgifter.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+Serviceleverandørens forpligtelser
+.sp 3mm
+.kp off
+.kp on
+Serviceleverandøren skal sikre at der indgås en OS02-aftale, når
+kundevirksomheden
+:FED.
+ikke
+:SKRSLUT.
+er kontoførende hos formidleren af
+&LOENSYSTEM., samt meddele formidleren af &LOENSYSTEM nødvendige
+oplysninger vedrørende egne forhold.
+.sp
+Serviceleverandøren skal meddele formidleren af &LOENSYSTEM
+nødvendige oplysninger om sine kundevirksomheder.
+.sp
+Serviceleverandøren skal sikre at minimumskravene til aftale med
+kundevirksomhederne er opfyldt, som de fremgår af denne aftale.
+.sp
+Serviceleverandøren skal indestå for grundmaterialet, så det med
+hensyn til form, opbygning og indhold m.v. opfylder de nærmere
+regler i Vejledning for Arbejdsgiver og andre vejledninger for
+&LOENSYSTEM..
+.sp
+.kp off

@@ -1,0 +1,76 @@
+.**************************************************************************
+.kp on
+:FED.
+3. &BANKNAVN.s ansvar
+:SKRSLUT.
+.sp 3mm
+3.1 Hverken NASDAQ OMX og/eller dennes underleverandører, &BANKNAVN. eller
+dennes edb-central (BEC) er ansvarlige for, at kursinformationer er
+utilgængelige, er forsinkede, bliver afbrudt, er ufuldstændige, upræcise
+eller på anden måde er forstyrrede, fejlagtige eller mangelfulde,
+og kunden kan derfor ikke gøre noget krav gældende for direkte eller
+indirekte tab og/eller skade, som kunden måtte lide i den forbindelse.
+.sp 3mm
+.kp off
+.kp on
+3.2 Ansvarsfraskrivelsen i pkt. 3.1 gælder ikke, såfremt kundens tab
+skyldes NASDAQ OMX
+.* PRIVAT ****************************
+.if &U'&WEBPRIERH = P
+.th eller dennes underleverandører
+.* PRIVAT + ERHVERV ******************
+.ct , BEC eller &BANKNAVN.s
+forsætlige eller groft uagtsomme handlinger eller undladelser.
+.sp 5mm
+.kp off
+.kp on
+.**************************************************************************
+:FED.
+4. Kundens ansvar
+:SKRSLUT.
+.sp 3mm
+4.1 Kunden er ansvarlig for ethvert tab, som &BANKNAVN. eller tredjemand,
+herunder NASDAQ OMX, måtte lide som
+følge af kundens manglende overholdelse
+af denne aftale samt krav fra tredjemand som følge af kundens modtagelse og
+brug af kursinformationer, herunder brud på tredjemands ophavsrettigheder.
+.sp 5mm
+.kp off
+.kp on
+:FED.
+5. Opsigelse mv.
+:SKRSLUT.
+.sp 3mm
+5.1 Aftalen kan af kunden
+.if &U'&WEBPRIERH = P
+.th opsiges skriftligt til enhver tid.
+.el og &BANKNAVN. opsiges med 30 dages skriftligt varsel.
+.*PKT 5.2 PRIVAT ***********
+.if &U'&WEBPRIERH = P
+.th .sp 3mm
+.th 5.2 Aftalen kan af &BANKNAVN opsiges
+.th med 30 dages skriftligt varsel. &ÅCONT
+.* ERHVERV PKT 5.1 FORTSAT / PRIVAT PKT. 5.2 FORTSAT **********************
+&BANKNAVN. kan ophæve aftalen uden varsel i tilfælde af kundens
+misligholdelse af aftalen, eller i tilfælde af, at NASDAQ OMX
+får pålæg om at ophæve aftalen fra offentlig myndighed.
+.sp 3mm
+.kp off
+.kp on
+.if &U'&WEBPRIERH = P
+.th 5.3
+.el 5.2
+&BANKNAVN. kan ændre denne aftale med 90 dages varsel.
+.sp 5mm
+.kp off
+.kp on
+:FED.
+6. Øvrige vilkår
+:SKRSLUT.
+.sp 3mm
+6.1 I øvrigt gælder de almindelige regler om &WEBSYSNAVN.,
+herunder vedrørende anvendelse af systemet mv.
+.kp off
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.

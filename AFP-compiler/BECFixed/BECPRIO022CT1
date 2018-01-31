@@ -1,0 +1,81 @@
+.da TEKST 20mm 104mm width 170mm
+.**************************************************************************
+.ar TEKST on
+.**********************
+.tp 150mm right
+.dr tynd weight 0.2mm
+.se txt1 = 'Nutidsværdi - Skyldige renter'
+.se txt2 = 'Ekstraordinært afdrag x indfrielseskurs'
+.***********************
+.tp 3mm 28mm 40mm 150mm right 153mm
+.**********************
+Låntype¤¤¤¤&LAANETYPE.
+.br
+Dato for lånets indfrielse¤¤¤¤&INDFDATO.
+.br
+Restgæld¤¤¤¤&LÅNRESTG.¤kr.
+.br
+Udløb fastrenteperiode ¤¤¤¤&RTEBINDAU.
+.br
+Rentesats¤¤¤¤&PRIRENTE.¤% p.a.
+.br
+.if &L'&RTELOFTTIL > 0
+.th .go RTELO
+.el .go RTELX
+...RTELO
+Rentelofts-tillæg¤¤¤¤&RTELOFTTIL.¤% p.a.
+.br
+Udløb renteloft¤¤¤¤&RTELOFTULD.
+...RTELX
+.sp 3mm
+:FED.
+Beregning indfrielseskurs
+:SKRSLUT.
+.br
+Nutidsværdi (tilbagediskonteret værdi) af lånets
+.br
+resterende aftalte ydelser¤¤¤¤&NUTIDVÆR.¤kr.
+.sp 2mm
+Skyldige renter pr.¤¤&RTEFFDATO.¤¤&RTEBELØB.¤kr.
+.sp 2mm
+Kursberegning¤¤¤(&txt1.) * 100 / Restgæld ¤&KURSBEREG.
+.if &L'&KURSTILL > 0
+.th .br
+.th Kurssikring til ¤¤&INDFDATO.¤¤&KURSTILL.
+.th .br
+.th Indfrielseskurs¤¤¤¤&INDFKURST.
+.sp 3mm
+:FED.
+Beregning af indfrielsesbeløb:
+:SKRSLUT.
+.br
+Ekstraordinært afdrag¤¤¤¤&EAAFDRAG.¤kr.
+.sp 2mm
+Indfrielsesbeløbet beregnes således
+.sp 2mm
+.tp 3mm 90mm center 150mm right 153mm
+¤&txt2. ¤&EAAFDRAG. kr. * &INDFKURST.¤&EAKURSAFD.¤kr.
+.hr tynd 3mm 60mm 65mm 115mm
+.br
+.tp 31mm center 90mm center
+¤100¤100
+.tp 3mm 28mm 40mm 150mm right 153mm
+.sp 2mm
+.if &L'&INDFGEB > 0
+.th .br
+.th +¤Indfrielsesgebyr¤¤¤&INDFGEB.¤kr.
+.if &L'&RABATIALT > 0
+.th .br
+.th -¤Rabat på gebyr¤¤¤&RABATIALT.¤kr.
+.br
+.hr tynd 125mm 150mm
+Indfrielsesbeløb¤¤¤¤&INDFBELØB.¤kr.
+.sp 3mm
+Restgæld efter ekstraordinært afdrag¤¤¤¤&EARSTGÆLD.¤kr.
+.sp 3mm
+Nærværende tilbud er udarbejdet med udgangspunkt i dagsaktuelle
+rentesatser, og kan derfor kun gøres gældende dags dato ved henvendelse til
+banken inden kl. 16.00. Tilbuddet forudsætter, at evt. ydelser på lånet
+frem til afdragsdatoen betales i henhold til låneaftalen.
+.sp 2mm
+Der beregnes et gebyr på &TILBUDGEB. kr. for nærværende tilbud.

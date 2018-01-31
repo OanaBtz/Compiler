@@ -1,0 +1,67 @@
+.**************************************************************************
+.tp 10mm right 50mm right 90mm right 130mm right 169mm right
+:FED.
+¤År¤Restgæld¤Ydelse¤Rente¤Afdrag
+.br
+:SKRSLUT.
+.if &L'&ÅR01 = 0
+.th .go SAVK
+¤&ÅR01.¤&ÅRURESTG01.¤&ÅRYDELSE01.¤&ÅRRENTE01.¤&ÅRAFDRAG01.
+.br
+.if &L'&ÅR02 = 0
+.th .go SAVK
+¤&ÅR02.¤&ÅRURESTG02.¤&ÅRYDELSE02.¤&ÅRRENTE02.¤&ÅRAFDRAG02.
+.br
+.if &L'&ÅR03 = 0
+.th .go SAVK
+¤&ÅR03.¤&ÅRURESTG03.¤&ÅRYDELSE03.¤&ÅRRENTE03.¤&ÅRAFDRAG03.
+.br
+.if &L'&ÅR04 = 0
+.th .go SAVK
+¤&ÅR04.¤&ÅRURESTG04.¤&ÅRYDELSE04.¤&ÅRRENTE04.¤&ÅRAFDRAG04.
+.br
+.if &L'&ÅR05 = 0
+.th .go SAVK
+¤&ÅR05.¤&ÅRURESTG05.¤&ÅRYDELSE05.¤&ÅRRENTE05.¤&ÅRAFDRAG05.
+.br
+.if &L'&ÅR06 = 0
+.th .go SAVK
+¤&ÅR06.¤&ÅRURESTG06.¤&ÅRYDELSE06.¤&ÅRRENTE06.¤&ÅRAFDRAG06.
+.br
+.if &L'&ÅR07 = 0
+.th .go SAVK
+¤&ÅR07.¤&ÅRURESTG07.¤&ÅRYDELSE07.¤&ÅRRENTE07.¤&ÅRAFDRAG07.
+.br
+.if &L'&ÅR08 = 0
+.th .go SAVK
+¤&ÅR08.¤&ÅRURESTG08.¤&ÅRYDELSE08.¤&ÅRRENTE08.¤&ÅRAFDRAG08.
+.br
+.if &L'&ÅR09 = 0
+.th .go SAVK
+¤&ÅR09.¤&ÅRURESTG09.¤&ÅRYDELSE09.¤&ÅRRENTE09.¤&ÅRAFDRAG09.
+.br
+.if &L'&ÅR10 = 0
+.th .go SAVK
+¤&ÅR10.¤&ÅRURESTG10.¤&ÅRYDELSE10.¤&ÅRRENTE10.¤&ÅRAFDRAG10.
+.br
+.if &L'&ÅR11 = 0
+.th .go SAVK
+¤&ÅR11.¤&ÅRURESTG11.¤&ÅRYDELSE11.¤&ÅRRENTE11.¤&ÅRAFDRAG11.
+.br
+.if &L'&ÅR12 = 0
+.th .go SAVK
+¤&ÅR12.¤&ÅRURESTG12.¤&ÅRYDELSE12.¤&ÅRRENTE12.¤&ÅRAFDRAG12.
+.br
+.if &L'&ÅR13 = 0
+.th .go SAVK
+¤&ÅR13.¤&ÅRURESTG13.¤&ÅRYDELSE13.¤&ÅRRENTE13.¤&ÅRAFDRAG13.
+.br
+.if &L'&ÅR14 = 0
+.th .go SAVK
+¤&ÅR14.¤&ÅRURESTG14.¤&ÅRYDELSE14.¤&ÅRRENTE14.¤&ÅRAFDRAG14.
+.br
+.if &L'&ÅR15 = 0
+.th .go SAVK
+¤&ÅR15.¤&ÅRURESTG15.¤&ÅRYDELSE15.¤&ÅRRENTE15.¤&ÅRAFDRAG15.
+...SAVK
+.sp

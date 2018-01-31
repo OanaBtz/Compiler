@@ -1,0 +1,182 @@
+:SWISS8.
+.kp on
+4.5.4 Det følger endvidere af lovgivningen, at visse udenlandske
+værdipapirer ikke må købes til individuelle pensionsdepoter.
+.sp 3mm
+.kp off
+.kp on
+4.5.5 Ovenstående regler for placering af pensionsmidler er alene
+gengivet i hovedtræk. Nærmere oplysninger om reglerne for placering af
+pensionsdepotmidler kan fås ved henvendelse i &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+4.5.6 Kunden er ved værdipapirhandel via &WEBSYSNAVN forpligtet til at
+kontrollere, at en ordre ikke vil medføre, at begrænsningerne for
+pensionsmidlernes placering overskrides. Kunden skal i tvivlstilfælde rette
+henvendelse til &BANKNAVN.. &BANKNAVN kan ikke drages til ansvar for tab
+som følge af, at kunden overskrider de ovennævnte begrænsninger for
+pensionsmidlernes placering i forbindelse med værdipapirhandel via
+&WEBSYSNAVN..
+.sp 3mm
+.kp off
+.kp on
+:FED.4.6 Sletning af ordrer i forbindelse med ændring af stamdata mv.
+:SKRSLUT.
+.sp 3mm
+4.6.1 Såfremt &BØRSNAVN. eller andre
+markeder foretager ændringer i stamdata vedrørende værdipapirer, der
+kan handles
+via &WEBSYSNAVN., er &BANKNAVN berettiget til at
+slette kundens endnu ikke effektuerede ordrer i de værdipapirer, som
+ændringen vedrører. Ændringer i stamdata kan blandt andet vedrøre
+fondskode, stykstørrelse, kapitalstruktur, selskabsstruktur,
+noteringsvilkår mv. Sletning af kundens ordrer vil fremgå af oversigten
+"Uafviklede handler" i &WEBSYSNAVN..
+.sp 3mm
+.kp off
+.kp on
+:FED.4.7 Fejlhandler:SKRSLUT.
+.sp 3mm
+4.7.1 &BANKNAVN kan i henhold til branchekutyme være nødsaget til
+at annullere allerede indgåede handler, såfremt der er tale om fejlhandel.
+Ved fejlhandel forstås handler, hvor der i forbindelse med
+tilvejebringelsen, afsætningen eller prisfastsættelsen på &BØRSNAVN.
+eller andre fondsbørser/autoriserede markedspladser
+har været tale om en fejl, og hvor modparten reklamerer straks.
+.sp 3mm
+.kp off
+.kp on
+:FED.4.8 Afbrydelse af kundens adgang:SKRSLUT.
+.sp 3mm
+4.8.1 &BANKNAVN er berettiget til, uden ansvar, at afbryde kundens
+adgang til systemet, såfremt kunden misligholder denne aftale
+som defineret i
+pkt. 1.3 i Aftale om &WEBSYSNAVN værdipapirhandel, i
+tilfælde af systemfejl, ved mistanke om insider trading, såfremt der opstår
+force majeure lignende forhold eller såfremt det af &BANKNAVN
+skønnes, at &BANKNAVN.s samlede eksponering i
+enkelte markeder overskrider,
+hvad der er forsvarligt, når der henses til &BANKNAVN.s
+afviklingsrisiko.
+.sp 3mm
+.kp off
+.kp on
+4.8.2 Afbrydes kundens adgang er &BANKNAVN berettiget, men ikke
+forpligtet, til at slette afgivne ordrer. Ønsker kunden at sikre sig, at
+afgivne ordrer slettes, skal der ske særskilt henvendelse til
+&BANKNAVN herom. Slettede ordrer skal, såfremt dette ønskes, afgives
+på ny når/hvis adgangen retableres. I tilfælde af, at en ordre på
+afbrydelsestidspunktet er delhandlet, er &BANKNAVN berettiget til at
+afregne den handlede del af ordren og slette restordren, såfremt dette er
+muligt.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+4.9 Derivatposition
+:SKRSLUT.
+.sp 3mm
+4.9.1 &BANKNAVN. kan vælge at give kunden adgang til
+at se oversigter over kundens
+positioner i værdipapirbaserede futures og
+optioner. Oplysningerne fremgår af
+oversigter under menupunktet "Derivatposition".
+.sp 3mm
+.kp off
+.kp on
+4.9.2 Oversigterne viser oplysninger om bl.a. antal, kursværdi og
+gevinst/tab på de kontrakter, som kunden har indgået med &BANKNAVN..
+Oplysninger vises til og med udløbsdagen på kontrakterne, alternativt
+indtil tidspunktet for evt. afregning af kontrakter før udløbsdagen.
+Kundens købte kontrakter og gevinster vises uden fortegn - solgte
+kontrakter og tab vises med negativt fortegn.
+.sp 3mm
+.kp off
+.kp on
+4.9.3
+Såfremt kunden har indgået to modsatrettede forretninger med samme
+karakteristika vil oversigten vise nettopositionen og evt. urealiseret
+gevinst/tab på denne. De bagvedliggende forretninger fremgår af
+detailoversigten.
+.sp 3mm
+.kp off
+.kp on
+4.9.4 Alle kurser/præmier, som kunden modtager via &WEBSYSNAVN. er til
+vejledning for kunden, og &BANKNAVN. forpligter sig ikke til at handle
+derivaterne på de pågældende kurser. Hverken &BANKNAVN. eller dets
+edb-central (BEC) er ansvarlig for rigtigheden af informationer om
+kurser/præmier og gevinst/tab, som kunden modtager via &WEBSYSNAVN..
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.5. Brug, opbevaring og videregivelse af
+.hw person-lige
+oplysninger og
+oplysninger om køb og salg:SKRSLUT.
+.sp 3mm
+:SWISS8.
+5.1 Kunden samtykker til, at &BANKNAVN registrerer de
+oplysninger, som er nødvendige for at gennemføre en ordre. Det drejer
+sig om følgende oplysninger:
+.sp 3mm
+CPR-nummer, CVR-nummer, kontonummer, depotnummer, dato og
+tidspunkt, beløb, kurser, fondskode og mængde.
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+5.2 Registerede oplysninger opbevares i &BANKNAVN i 5 år, og
+anvendes til bogføring, kontoudskrifter og fondsnotaer. Oplysningerne
+videregives kun hvor lovgivningen kræver det, eller til brug for
+eventuelle retssager mellem kunden og &BANKNAVN..
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.6. Kundens ansvar:SKRSLUT.
+.sp 3mm
+:SWISS8.
+6.1 Der henvises til Vilkår for &WEBSYSNAVN. pkt. 4.
+.sp 3mm
+.kp off
+.kp on
+6.2 Kunden gøres opmærksom på, at insiderhandel og kursmanipulation er
+ulovligt i henhold til kapitel 10 i lov om handel med værdipapirer,
+herunder at det ikke er tilladt kunden at påvirke strakshandelskursen ved
+selv at lægge modsatrettede ordrer ud på det marked, hvor kunden ønsker at
+købe eller sælge værdipapirer. Det er ved flere domme i landsretten slået
+fast, at en sådan adfærd udgør kursmanipulation, hvilket er en overtrædelse
+af værdipapirhandelsloven. Kursmanipulation straffes med bøde eller
+fængsel.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.7. &BANKNAVN.s ansvar:SKRSLUT.
+.sp 3mm
+:SWISS8.
+7.1 Der henvises til Vilkår for &WEBSYSNAVN. pkt. 5 og 6.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.8. Ændring af vilkår, systemet, handelsomkostninger mv.:SKRSLUT.
+.sp 3mm
+:SWISS8.
+8.1 Denne aftale kan ændres med 1 måneds varsel. Ændringerne kan varsles
+elektronisk.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.9. Ophør:SKRSLUT.
+.sp 3mm
+:SWISS8.
+.kp on
+9.1 Såfremt den mellem kunden og &BANKNAVN. indgåede Aftale
+om &WEBSYSNAVN. ophører, anses denne tillægsaftale for
+bortfaldet.
+.sp 3mm
+.kp off

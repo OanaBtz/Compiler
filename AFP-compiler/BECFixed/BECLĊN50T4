@@ -1,0 +1,50 @@
+.*if &U'&PRIERH = E
+.**************************************************************************
+.*TEST OM LÄNET ER AF TYPEN FAST*******************************************
+.if &U'&RENTETYP = V
+.or &U'&RENTETYP = D
+.th .go ENDLAAN
+.kp on
+:FED.
+FÄrtidig tilbagebetaling
+:SKRSLUT.
+.br
+.if &U'&PRIERH = E
+.th .go ERHVT4
+&BANKNAVN. er berettiget til kompensation for indfrielse fÄr aftalt
+tid pÄ 1 % af det kreditbelÄb, der tilbagebetales fÄr tiden, hvis der er
+mere end et Är mellem den fÄrtidige betaling og kreditaftalens aftalte
+ophÄrstidspunkt. Hvis perioden ikke overstiger et Är kan kompensationen
+ikke overstige 0,5 % af det kreditbelÄb, der tilbagebetales fÄr tiden.
+.sp 3mm
+.kp off
+.kp on
+Hvis &BANKNAVN. kan dokumentere, at de tab, som &BANKNAVN. har
+lidt som fÄlge af den fÄrtidige tilbagebetaling, overstiger de grÄnser der
+her er nÄvnt, kan &BANKNAVN. undtagelsesvis krÄve en hÄjere
+kompensation. Hvis den kompensation, som &BANKNAVN. kan krÄve, overstiger
+&BANKNAVN.s faktiske tab, kan debitor krÄve en tilsvarende
+nedsÄttelse. Ingen kompensation for fÄrtidig tilbagebetaling kan overstige
+det rentebelÄb, som debitor skulle have betalt i perioden mellem den
+fÄrtidige betaling og kreditaftalens ophÄrstidspunkt.
+.kp off
+.go ENDLAAN
+...ERHVT4
+Ved fÄrtidig tilbagebetaling skal indfrielsesbelÄbet kursfastsÄttes. Hvis
+renteniveauet (markedsrenten) er faldet efter aftalens indgÄelse, kan
+indfrielsesbelÄbet vÄre stÄrre end den registrerede restgÄld. Er
+renteniveauet steget efter aftalens indgÄelse, kan indfrielsesbelÄbet vÄre
+mindre end den registrerede restgÄld. Til fastsÄttelse af Ändringer i
+renteniveauet fastsÄttes en referencesats.
+.sp 3mm
+.kp off
+.kp on
+Reglerne gÄlder ved hel eller delvis fÄrtidig tilbagebetaling og uanset, om
+det er &migos., der frivilligt vil betale fÄr tiden, eller om indfrielsen
+skyldes, at det er &BANKNAVN., der krÄver lÄnet indfriet pÄ grund af
+misligholdelse.
+.sp 3mm
+Det er aftalt, at den aftalte referencesats for denne lÄneaftale er den
+gennemsnitlige effektive obligationsrentesats fÄr skat for
+statsobligationer m.v. Den fremgÄr p.t. af KÄbenhavns FondsbÄrs'
+hjemmeside:

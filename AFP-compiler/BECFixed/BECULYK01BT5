@@ -1,0 +1,16 @@
+.***************** AREALER TIL TEKSTEN************************************
+.da PFA1 20mm 273mm width 175mm
+.*********************************************************************
+.ar PFA1 on
+:SWISS8.
+.ce on
+PFA Pension, Sundkrogsgade 4, 2100 København Ø, &ÅCONT
+forsikringsaktieselskab CVR: 13 59 43 76.
+.br
+Telefon 39 17 50 00. Telefax 39 17 59 50. &ÅCONT
+Internet: www.pfa.dk, e-mail: &ÅCONT
+.us pension@pfa.dk
+.ct .
+.ce off
+.ar off
+.pa nostart

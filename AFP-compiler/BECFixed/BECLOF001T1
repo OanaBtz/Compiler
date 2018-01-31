@@ -1,0 +1,114 @@
+.**************************************************************************
+.da AFTALE        25mm    45.5mm width 80mm
+.da KUNDEOPL      25mm      54mm width 80mm
+.da GIVER      112.5mm      54mm width 80mm
+.da KUNCPRCVR     25mm    78.5mm width 80mm
+.da GIVERCVR   112.5mm    78.5mm width 80mm
+.da UDSTYR1       25mm      98mm width 165mm
+.da UDSTYR2       25mm      93mm width 165mm
+.da FORTSÆT       25mm   119.5mm width 169mm
+.da LEVDØR        25mm   118.7mm width 173mm
+.da STEL          25mm   127.5mm width 120mm
+.da REGNR      112.5mm   127.5mm width 35mm
+.da LEVADR        25mm     142mm width 80mm
+.da BRUGER     112.5mm     142mm width 80mm
+.**************************************************************************
+.ar AFTALE on
+&AFTALENR.
+.ar off
+.****LEASINGTAGERS NAVN OG ADRESSE*****************************************
+.ar KUNDEOPL on
+&ADR1
+.br
+&ADR2.
+.br
+&ADR3.
+.br
+&ADR4.
+.br
+&ADR5.
+.ar off
+.****EJER OG LEASINGGIVER NAVN OG ADRESSE**********************************
+.ar GIVER on
+&AFDBNKNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.**************************************************************************
+.ar KUNCPRCVR on
+&KUNDENR.
+.ar off
+.**************************************************************************
+.ar GIVERCVR on
+&AFDSENR.
+.ar off
+.**************************************************************************
+.if &U'X&AKTIVVALG = XK
+.th .go AREAL1
+.el .go AREAL2
+...AREAL1
+.ar UDSTYR1 on
+.go SLUT
+...AREAL2
+.ar UDSTYR2 on
+...SLUT
+.tp 10mm
+&BESKRIV01.,:SWISS8. årgang:SKRSLUT. &ÅRG01.
+.if &L'&TILBEHØR01 = 0
+.th .go TILBSLUT
+.br
+:SWISS8.Tilb.::SKRSLUT.¤&TILBLIN101.
+.br
+¤&TILBLIN201.
+.br
+¤&TILBLIN301.
+.br
+¤&TILBLIN401.
+.br
+¤&TILBLIN501.
+... TILBSLUT
+.ar off
+.**************************************************************************
+.ar LEVDØR on
+.tp 12mm
+¤&LEVDCVR01. &LEVDNAVN01.
+.ar off
+.**************************************************************************
+.ar FORTSÆT on
+:SWISS8.
+.fo right
+.if &U'X&FORTSÆT = XJ
+.th Fortsættes
+.sp 149mm
+.if &L'&FFDATO19 > 0
+.th Fortsættes
+:SKRSLUT.
+.ar off
+.****STELNUMMER************************************************************
+.ar STEL on
+&STELNR01.
+.ar off
+.****REGISTRERINGSNUMMER PÅ KØRETØJ****************************************
+.ar REGNR on
+.if &U'X&AKTIVVALG = XK
+.th &REGISNR01.
+.ar off
+.****LEVERANDØR ADRESSE****************************************************
+.ar LEVADR on
+&LEVERADR1.
+.br
+&LEVERADR2.
+.br
+&LEVERADR3.
+.br
+&LEVERADR4.
+.br
+&LEVERADR5.
+.ar off
+.****TEST OM DER ER EN BRUGER**********************************************
+.ar BRUGER on
+.if &L'&LOFBRUGER > 0
+.th &LOFBRUGER.
+.ar off
+.**************************************************************************

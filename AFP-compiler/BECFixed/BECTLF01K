@@ -1,0 +1,32 @@
+.da SIDE1 20mm 38mm width 175mm
+.ar SIDE1 on
+:SWISS10.
+.in 1mm
+:FED.
+Parter
+:SKRSLUT.
+.***** her laves kassen til kunde og PI ***********
+.bx new left 87.5mm right
+.sp 30mm
+.bx off
+:SWISS10.
+:FED.
+Indhold
+:SKRSLUT.
+.***** her laves kassen til brugernummer ***************
+.bx new left right
+.sp 10mm
+.***** her laves kassen til Konti **********************
+.bx new left right
+.sp 44mm
+.***** her laves kassen til Særlige forhold ************
+.bx new left right
+.sp 16mm
+.***** her laves kassen til betingelser  ***************
+.bx new left right
+.sp 115mm
+.bx off
+.bx can
+.bx can
+.bx can
+.ar off

@@ -1,0 +1,47 @@
+Jeg indgår dags dato aftale med &BANKNAVN. om tilmelding til Det Fælles
+Indbetalingssystem.
+.sp 5mm
+:FED.
+Indbetalingskort
+:SKRSLUT.
+.sp 3mm
+FI-kreditor &KREDITOR. skal anvendes i forbindelse med fremstilling af
+indbetalingskort.
+.sp 3mm
+Alle indbetalingskort skal overholde de generelle
+retningslinjer, for fremstilling af indbetalingskort.
+Jeg kan få en beskrivelse af retningslinjerne i &BANKNAVN..
+Inden nye eller ændrede indbetalingskort tages i
+brug, kan de sendes til godkendelse hos Nets. Indbetalingskort, der
+bestilles gennem &BANKNAVN. er godkendt hos Nets.
+.sp 5mm
+:FED.
+Indbetalinger
+:SKRSLUT.
+.sp 3mm
+Indbetalinger indsættes på kontonummer &KONTO01. og forrentes fra
+bogføringsdagen.
+.sp
+.tp 5mm 25mm 90mm
+:FED.
+¤Kortart ¤Advisering ¤Bogføring
+:SKRSLUT.
+.tp 5mm 25mm 90mm
+¤71 ¤E-Banking/Nets/Kontoudskrifter ¤enkeltposter/samleposter
+¤73 ¤E-Banking/Nets/Kontoudskrifter ¤enkeltposter/samleposter
+¤75 ¤E-Banking/Nets/Kontoudskrifter ¤enkeltposter/samleposter
+.sp 5mm
+Jeg bekræfter, at jeg har modtaget kreditorregler for Det Fælles
+Indbetalingssystem.
+.sp 5
+.***************************
+.dr tynd weight 0.2mm
+.***************************
+.hr tynd 5mm 20mm 30mm 125mm
+.tp 5mm 30mm
+¤Dato ¤&NAVN.
+.sp 20mm
+.hr tynd 5mm 20mm 30mm 125mm
+.tp 5mm 30mm
+¤Dato ¤&BANKNAVN.
+.ar off

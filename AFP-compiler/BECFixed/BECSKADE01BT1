@@ -1,0 +1,41 @@
+.in 0mm
+.************************************************************************
+.da RESPEKT 29mm 31mm width 170mm
+.da SAERLIG 29mm 50mm width 170mm
+.da UNDERS1 32mm 114mm width 75mm
+.da UNDERS2 112mm 114mm width 75mm
+.da UNDERS3 32mm 133mm width 75mm
+.da UNDERS4 112mm 133mm width 75mm
+.************************************************************************
+.ar RESPEKT on
+&SÆRLIGA.&SÆRLIGB
+.br
+&SÆRLIGC.&SÆRLIGD
+.ar off
+.************************************************************************
+.ar SAERLIG on
+&SAERLIG1A.&SAERLIG1B
+.br
+&SAERLIG2A.&SAERLIG2B
+.br
+&SAERLIG3A.&SAERLIG3B
+.br
+&SAERLIG4A.&SAERLIG4B
+.ar off
+.************************************************************************
+.ar UNDERS1 on
+&PANTSÆTT1
+.ar off
+.************************************************************************
+.ar UNDERS2 on
+&MEDPANTS1
+.ar off
+.************************************************************************
+.ar UNDERS3 on
+&PANTSÆTT2
+.ar off
+.************************************************************************
+.ar UNDERS4 on
+&MEDPANTS2
+.ar off
+.************************************************************************

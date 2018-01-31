@@ -1,0 +1,326 @@
+:SWISS8.
+.*KOLONNEDEFINITION********************************************************
+.pm 20mm
+.tm 18mm
+.bm 18mm
+.cd 2 1mm 88mm
+.cl 85mm
+.**************************************************************************
+.kp on
+:SWISS10.:FED.
+1. Definitions
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+.if &U'&WEBPRIERH = E
+.th .go PKT1E
+.el .go PKT1P
+.*UDSKRIVES KUN FOR PRIVATE ***********************************************
+...PKT1P
+:FED.
+1.1 The customer:SKRSLUT.
+.sp 3mm
+The customer is the person who enters into an agreement with &BANKNAVN. on
+the use of &WEBSYSNAVN.. Registration takes place after an individual
+assessment of the customer relationship, and &BANKNAVN. is entitled to
+refuse to enter into an agreement with a customer.
+.sp 3mm
+.kp off
+.go PKT12
+.*UDSKRIVES KUN FOR ERHVERV ***********************************************
+...PKT1E
+:FED.1.1 Customer and user applicants:SKRSLUT.
+.sp 3mm
+1.1.1 The customer is the company that enters into an agreement with
+&BANKNAVN. on the use of &WEBSYSNAVN.. Registration takes place after
+an individual assessment of the customer relationship, and &BANKNAVN. is
+entitled to refuse to enter into an agreement with a customer.
+.sp 3mm
+.kp off
+.kp on
+1.1.2 The user is the person authorised by the customer to
+make inquiries on behalf of the customer in respect of accounts and
+effect payments and other transactions via &WEBSYSNAVN.. The
+customer decides which authorisation the individual user shall have. The
+user may be identical with the customer.
+.sp 3mm
+.kp off
+.kp on
+1.1.3 The customer
+or his or her manager of users
+.th The customer and the customer's users are
+.el The customer is
+connected to &WEBSYSNAVN via the Internet from a computer
+by means of &WEBSYSNAVN.'s security
+solution, NemID,
+see clause 2.1.1. The customer
+.if &U'&WEBPRIERH = E
+.th or the customer's users
+can also connect to &WEBSYSNAVN via &MOBSYSNAVN. when on
+the Internet from a mobile unit (smartphone or the like)
+by means of a security
+solution consisting of a
+.if &U'&WEBPRIERH = P
+.th user number/civil reg. no.
+.el user number
+and a personally selected PIN code,
+see clause 2.1.2.
+.sp 3mm
+.kp off
+.*****
+.kp on
+:FED.
+2.1.1 Access by means of NemID
+:SKRSLUT.
+.br
+2.1.1.1 NemID consists of a user-ID, an access code and a key card or
+another unit, e.g. a telephone, which indicates the code (key) to be
+entered by the
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+together with the
+.if &U'&WEBPRIERH = P
+.th customer's
+.el user's
+user-ID and access code.
+.sp 3mm
+.kp off
+.kp on
+2.1.1.2 When the customer is connected to &WEBSYSNAVN. via NemID, the
+customer's &WEBSYSNAVN. is linked to the customer's NemID.
+.sp 3mm
+.kp off
+.kp on
+2.1.1.3 Whenever a
+.if &U'&WEBPRIERH = E
+.th customer
+.el user
+uses &WEBSYSNAVN., he or she must decide
+whether to use their code card when they log on, or the first time they
+:FED.1.5 Other accounts:SKRSLUT.
+.sp 3mm
+Other accounts are accounts which are not payment accounts, such as
+custody accounts or accounts about which
+.if &U'&WEBPRIERH = E
+.th users
+.el the customer
+may only make inquiries.
+.sp 3mm
+.kp off
+.kp on
+:FED.1.6 Working day:SKRSLUT.
+.sp 3mm
+Working days are all days except Saturdays, Sundays, Danish public
+holidays, 5 June (the Danish constitution day), the Friday following
+Ascension Day, 24 December and 31 December.
+.sp 3mm
+.kp off
+.**************************************************************************
+.kp on
+:FED.
+1.7 Personal security details
+:SKRSLUT.
+.sp 3mm
+Personal security details comprise the
+.if &U'&WEBPRIERH = P
+.th customer's
+.el user's
+user-ID, access code and key codes
+(when using NemID), or the
+.if &U'&WEBPRIERH = P
+.th customer's user number/civil reg. no.,
+.el user's user number,
+personally selected PIN code and key codes from the
+.if &U'&WEBPRIERH = P
+.th customer's
+.el user's
+NemID (when connecting via &MOBSYSNAVN.).
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.:FED.
+2. Use of &WEBSYSNAVN.
+:SKRSLUT.
+.sp 3mm
+:SWISS8.:FED.
+2.1 Access to &WEBSYSNAVN and security solutions
+:SKRSLUT.
+.sp 3mm
+.if &U'&WEBPRIERH = E
+registers any additional
+user with &WEBSYSNAVN.. &BANKNAVN arranges for registration on the
+basis of an individual assessment of such new users and may
+without further explanation refuse to register users. Persons who
+are not employed by the customer may obtain access to &WEBSYSNAVN by
+means of a power of attorney, see below.
+.sp 3mm
+.kp off
+.*UDSKRIVES FOR BÅDE PRIVATE OG ERHVERSKUNDER *****************************
+...PKT12
+.kp on
+:FED.1.2 &WEBSYSNAVN.:SKRSLUT.
+.sp 3mm
+&WEBSYSNAVN. is a payment service subject to the rules
+set out in the Danish Payment Service and Electronic Money Act (lov om
+betalingstjenester og elektroniske penge).
+The Act also applies to payment transactions processed in the
+customer's payment accounts in &WEBSYSNAVN.. &WEBSYSNAVN. also allows the
+customer to electronically conclude and approve other agreements with
+&BANKNAVN. Agreements concluded and approved electronically are not
+considered payment services unless so stipulated in the specific agreement.
+.sp 3mm
+.kp off
+.kp on
+:FED.1.3 Payment transaction:SKRSLUT.
+.sp 3mm
+A payment transaction is an act initiated by a payer or a payee for the
+purpose of making payments or transferring or withdrawing funds with no
+regard being taken to any underlying obligations between the payer and the
+payee. This could, for example, be an order for payment or
+transfer from a payment account placed by
+.if &U'&WEBPRIERH = E
+.th users
+.el the customer
+in &WEBSYSNAVN., or by the payee pursuant to agreement with the customer.
+.sp 3mm
+.kp off
+.kp on
+:FED.1.4 Payment account:SKRSLUT.
+.sp 3mm
+A payment account is an account established for the purpose of completing
+payment transactions. &WEBSYSNAVN. allows the
+.if &U'&WEBPRIERH = E
+.th user
+.el customer
+to manage payment accounts by way of payment or transfer orders.
+Examples of such accounts are the customer's current and budget account.
+.sp 3mm
+.kp off
+.kp on
+fails to learn
+the code by heart of wishes to store the code, the code must be stored
+securely. The code must never be stored together with the
+user number
+.if &U'&WEBPRIERH = P
+.th .ct /civil reg. no. &ÅCONT
+.el .ct . &ÅCONT
+The rules on the use of the
+.if &U'&WEBPRIERH = P
+.th customer's
+.el user's
+NemID key card appear from the rules on
+NemID, see clause 2.1.1.
+.sp 3mm
+.kp off
+.kp on
+2.1.2.6 After three unsuccessful entries of the PIN code, the connection
+will be disconnected, and access to &MOBSYSNAVN. will be blocked
+automatically for security reasons. The
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+can see the
+date and time of such blocking in &WEBSYSNAVN..
+.sp 3mm
+.kp off
+procedure on the use of &MOBSYSNAVN. is available on
+&BANKNAVN.'s website.
+.sp 3mm
+.kp off
+.kp on
+2.1.2.2 Access via smartphone requires that the
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+already has access to
+&WEBSYSNAVN. by means of NemID and has registered the functionality in
+&WEBSYSNAVN..
+.sp 3mm
+.kp off
+.kp on
+2.1.2.3 The
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+will then need to create a personally selected PIN code,
+which ought to be learnt by heart or stored in a secret place. Choose a
+code which is difficult to break. Therefore, do not choose a code which
+contains several identical numbers or other easy codes, such as date of
+birth.
+.sp 3mm
+.kp off
+.kp on
+2.1.2.4 The
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+will gain access to &MOBSYSNAVN. by
+entering the user number
+.if &U'&WEBPRIERH = P
+.th .ct /civil reg. no.
+and the personally selected PIN code.
+.sp 3mm
+.kp off
+.kp on
+2.1.2.5 The user number and the personally selected PIN code are personal
+and must not be assigned to others. The personally selected PIN code ought
+to be learnt by heart. The
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+must not reveal the code to others or in
+any other way allow others to learn the code. If the
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+need to approve a transaction or similar. It
+is also possible for a
+.if &U'&WEBPRIERH = E
+.th customer
+.el user
+to make a general choice in &WEBSYSNAVN. whether he or she
+wishes to use their code card when they log on, or the first time
+they need to approve a transaction or similar.
+.sp 3mm
+.kp off
+.kp on
+2.1.1.4 The
+.if &U'&WEBPRIERH = E
+.th user's
+.el customer's
+use of NemID in &WEBSYSNAVN. is subject to the rules on
+the use of NemID, which the customer has received from DanID A/S, and which
+are available at
+.us www.nemid.nu.
+The customer
+.if &U'&WEBPRIERH = E
+.th and his or her users
+must comply with said rules, including the rules for the storage of
+user-IDs, access code and key card and security with respect to use,
+both when connecting to &WEBSYSNAVN. and when approving transactions
+in &WEBSYSNAVN..
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.1.2 Access via &MOBSYSNAVN.
+:SKRSLUT.
+.sp 3mm
+2.1.2.1 Access via &MOBSYSNAVN. requires that the
+customer
+.if &U'&WEBPRIERH = P
+.th has
+.el or the customer's users have
+a mobile unit
+(smartphone or the like) with Internet access. The operating
+system of the mobile unit
+must support the application required to be
+downloaded by the customer
+.if &U'&WEBPRIERH = E
+.th or the customer's users
+in order to use
+&WEBSYSNAVN. via &MOBSYSNAVN.. The technical
+requirements are available at
+.us www.tjekpc.dk.
+Information on the selected functionalities and the

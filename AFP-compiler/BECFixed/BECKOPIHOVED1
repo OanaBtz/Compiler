@@ -1,0 +1,17 @@
+.fo left
+.*** SÆT SKÆRM/PRINT-FORMAT ***
+.br
+.ti > 05
+.pm 9
+.ll 63
+.tm 4
+.tp 51
+.*** BREVSTART ***
+&B30STILL >&DATO1
+.br
+&B30NAVNOPL
+.br
+&B30GADE
+.br
+&B30BY
+.sp 8

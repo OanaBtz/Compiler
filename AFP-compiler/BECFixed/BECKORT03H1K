@@ -1,0 +1,39 @@
+.ti ^ 05
+:NY.
+.* .pm 17mm
+:ENY.
+:GL.
+.*.pm 8
+.sp 6
+.in 1
+.da AFSENDER 45 7
+:EGL.
+:NY.
+.sp 25mm
+:ENY.
+:NY.
+:COUR10.
+:ENY.
+&GENNAVN
+.br
+&GENGADE
+.br
+&GENBY
+.sp
+&GENATT
+:GL.
+.*************************************************************
+.ar AFSENDER on
+.tp 15
+&BANKNAVN
+.br
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+.da TEXT 35mm 66.2mm width 120mm
+.**** HER LAVES PUNKTUMMER OG KOMMAER ***************************
+.ar TEXT on
+:SWISS14.:FED.
+.tp 58mm 67mm 103mm 116.5mm
+¤.¤.¤.¤,
+.sp 0.7mm
+¤.¤.¤.¤,
+.sp 0.7mm
+¤.¤.¤.¤,
+.sp 0.7mm
+¤.¤.¤.¤,
+.sp 0.8mm
+¤.¤.¤.¤,
+.sp 0.7mm
+¤.¤.¤.¤,
+.sp 0.8mm
+¤.¤.¤.¤,
+.sp 0.8mm
+¤.¤.¤.¤,
+.sp 0.7mm
+¤.¤.¤.¤,
+.sp 0.7mm
+¤.¤.¤.¤,
+.sp 0.7mm
+¤.¤.¤.¤,
+.sp 0.7mm
+¤.¤.¤.¤,
+.sp 0.8mm
+¤.¤.¤.¤,
+.sp 0.8mm
+.tp 89.5mm 103mm 116.5mm
+¤.¤.¤,
+:SKRSLUT.
+.ar off

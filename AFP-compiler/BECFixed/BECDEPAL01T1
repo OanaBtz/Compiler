@@ -1,0 +1,152 @@
+.br
+.hr 5mm 170mm
+...UDEP03
+.******
+.if &L'&DEPALL04A > 0
+.th .go DEP04
+.el .go UDEP04
+...DEP04
+.if &U'&DEPALL04 = J
+.th .sp
+.th :FED.
+.th &DEPALL04A.
+.th :SKRSLUT.
+.el &DEPALL04A. ¤&DEPALL04B. ¤&DEPALL04C. ¤&DEPALL04D.
+.br
+.hr 5mm 170mm
+...UDEP04
+.******
+.if &L'&DEPALL05A > 0
+.th .go DEP05
+.el .go UDEP05
+...DEP05
+.if &U'&DEPALL05 = J
+.th .sp
+.th :FED.
+.th &DEPALL05A.
+.th :SKRSLUT.
+.el &DEPALL05A. ¤&DEPALL05B. ¤&DEPALL05C. ¤&DEPALL05D.
+.br
+.hr 5mm 170mm
+...UDEP05
+.******
+.if &L'&DEPALL06A > 0
+.th .go DEP06
+.el .go UDEP06
+...DEP06
+.if &U'&DEPALL06 = J
+.th .sp
+.th :FED.
+.th &DEPALL06A.
+.th :SKRSLUT.
+.el &DEPALL06A. ¤&DEPALL06B. ¤&DEPALL06C. ¤&DEPALL06D.
+.br
+.hr 5mm 170mm
+...UDEP06
+.******
+.if &L'&DEPALL07A > 0
+.th .go DEP07
+.el .go UDEP07
+...DEP07
+.if &U'&DEPALL07 = J
+.th .sp
+.th :FED.
+.th &DEPALL07A.
+.th :SKRSLUT.
+.el &DEPALL07A. ¤&DEPALL07B. ¤&DEPALL07C. ¤&DEPALL07D.
+.br
+.hr 5mm 170mm
+...UDEP07
+.******
+.if &L'&DEPALL08A > 0
+.th .go DEP08
+.el .go UDEP08
+...DEP08
+.if &U'&DEPALL08 = J
+.th .sp
+.th :FED.
+.th &DEPALL08A.
+.th :SKRSLUT.
+.el &DEPALL08A. ¤&DEPALL08B. ¤&DEPALL08C. ¤&DEPALL08D.
+.br
+.hr 5mm 170mm
+...UDEP08
+.******
+.if &L'&DEPALL09A > 0
+.th .go DEP09
+.el .go UDEP09
+...DEP09
+.if &U'&DEPALL09 = J
+.th .sp
+.th :FED.
+.th &DEPALL09A.
+.th :SKRSLUT.
+.el &DEPALL09A. ¤&DEPALL09B. ¤&DEPALL09C. ¤&DEPALL09D.
+.br
+.hr 5mm 170mm
+...UDEP09
+.******
+.if &L'&DEPALL10A > 0
+.th .go DEP10
+.el .go UDEP10
+...DEP10
+.if &U'&DEPALL10 = J
+.th .sp
+.th :FED.
+.th &DEPALL10A.
+.th :SKRSLUT.
+.el &DEPALL10A. ¤&DEPALL10B. ¤&DEPALL10C. ¤&DEPALL10D.
+.br
+.hr 5mm 170mm
+...UDEP10
+.******
+.**************************************************************************
+:SWISS8.
+.tp 118mm 130mm 150mm
+:FED.
+¤VP ¤Danske ej VP ¤Udenlandske
+.br
+.tp 110mm 130mm 150mm
+¤Værdipapirer ¤Værdipapirer ¤Værdipapirer
+:SKRSLUT.
+.hr left 175mm
+.tp 118mm 138mm 158mm
+.sp
+.*******************************************
+.if &L'&DEPALL01A > 0
+.th .go DEP01
+.el .go UDEP01
+...DEP01
+.if &U'&DEPALL01 = J
+.th :FED.
+.th &DEPALL01A.
+.th :SKRSLUT.
+.el &DEPALL01A. ¤&DEPALL01B. ¤&DEPALL01C. ¤&DEPALL01D.
+.br
+.hr 5mm 170mm
+...UDEP01
+.******
+.if &L'&DEPALL02A > 0
+.th .go DEP02
+.el .go UDEP02
+...DEP02
+.if &U'&DEPALL02 = J
+.th .sp
+.th :FED.
+.th &DEPALL02A.
+.th :SKRSLUT.
+.el &DEPALL02A. ¤&DEPALL02B. ¤&DEPALL02C. ¤&DEPALL02D.
+.br
+.hr 5mm 170mm
+...UDEP02
+.******
+.if &L'&DEPALL03A > 0
+.th .go DEP03
+.el .go UDEP03
+...DEP03
+.if &U'&DEPALL03 = J
+.th .sp
+.th :FED.
+.th &DEPALL03A.
+.th :SKRSLUT.
+.el &DEPALL03A. ¤&DEPALL03B. ¤&DEPALL03C. ¤&DEPALL03D.

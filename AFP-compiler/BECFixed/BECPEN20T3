@@ -1,0 +1,37 @@
+.*************************************************************************
+.**AREAL FORTSAT FRA BECPEN20T2 *******************************************
+.**************************************************************************
+.* BODELINGSKONTRAKT - tekst er afhængig af metode:                       *
+.* Metode 1 - ingen        tekst MEN henvisning til Særlige vilkår        *
+.* Metode 2 - eksisterende tekst PLUS henvisning til Særlige vilkår       *
+.* Metode 3 - eksisterende tekst INGEN henvisning til Særlige vilkår      *
+.**************************************************************************
+.if &L'&PENMETODE > 0
+.an X&PENMETODE = X1
+.th .go PENGSL
+.*************************************************************************
+.** type E og R = ENGANGSINDSKUD
+.*************************************************************************
+.if &U'&PENTYPE = E
+.or &U'&PENTYPE = R
+.th .go PENG
+.el .go PENGSL
+.******
+...PENG
+.if &U'&PENTYPE = E
+.th arbejdsgiver indbetaler et engangsindskud på &PENTOTAL1. &enhed
+.if &U'&PENTYPE = R
+.th arbejdsgiver indbetaler et engangsindskud på &PENSUBTOT. &enhed
+.th .ct  af kontohavers pensionsberettigede løn
+.******
+.if &L'&PENSTDATO1 > 0
+.th .ct , der indbetales den &PENSTDATO1..
+.el .ct .
+.br
+.tp 40mm 81mm char , 86mm
+Af pensionsbidraget betaler: ¤- Arbejdsgiver ¤&PENARB1 ¤&enhed
+.br
+¤- Kontohaver ¤&PENMED1 ¤&enhed.
+.br
+...PENGSL
+.**************************************************************************

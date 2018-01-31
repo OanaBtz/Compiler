@@ -1,0 +1,311 @@
+:SWISS8.
+.kp on
+:FED.
+.if &U'&WEBPRIERH = P
+.th 2.6 Limitations in completion (cover, etc.)
+.el 2.5 Limitations in completion (cover, etc.)
+:SKRSLUT.
+.sp 3mm
+.if &U'&WEBPRIERH = P
+.th 2.6.1
+.el 2.5.1
+Payments and transfers are only completed if sufficient funds are
+available in the account in question.
+.sp 3mm
+.kp off
+.kp on
+.if &U'&WEBPRIERH = P
+.th 2.6.2
+.el 2.5.2
+Payments ordered with payment dates later than the day of the order
+will be effected on the payment date if sufficient funds are available
+for all payments due on the day in question. Where the total amount of
+payments due exceeds the funds available in the account, all payments
+will be refused, and the payment date will be postponed until the
+following banking day when the procedure will be repeated. If one or
+more of the refused payments are to be carried out within the limits of
+the funds available in the account, the refused payment(s) must be
+accepted again.
+.sp 3mm
+.kp off
+.kp on
+.if &U'&WEBPRIERH = P
+.th 2.6.3
+.el 2.5.3
+&BANKNAVN. is under no obligation to complete payments if
+insolvency proceedings are commenced against the
+.if &U'&WEBPRIERH = P
+.th customer or if the customer dies.
+.el user or if the user dies.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+.if &U'&WEBPRIERH = P
+.th 2.7
+.el 2.6
+Maximum time of completion
+:SKRSLUT.
+.sp 3mm
+.if &U'&WEBPRIERH = P
+.th 2.7.1
+.el 2.6.1
+An order for a payment transaction will always result in a withdrawal
+from the customer's account on the payment date indicated by the
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+in the order (see, however, clause
+.if &U'&WEBPRIERH = P
+.th 2.6
+.el 2.5
+above). The amount is credited to the account with the payee's bank
+at the closure of the first working day following the transaction date
+stated by the
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+in the payment order (see, however, clause
+.if &U'&WEBPRIERH = P
+.th 2.6 above).
+.el 2.5 above).
+.sp 3mm
+.kp off
+.kp on
+.if &U'&WEBPRIERH = P
+.th 2.7.2
+.el 2.6.2
+Payment transactions in Denmark denominated in Danish kroner
+.* start 27.10.2014
+in respect of which the order is for a standard transfer
+.* slut 27.10.2014
+are
+completed (credited to the payee's account) no later than at the
+closure of the first working day following the transaction date
+stated by the
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+in the payment order (see, however, clause
+.if &U'&WEBPRIERH = P
+.th 2.6
+.el 2.5
+on cover and clause
+.if &U'&WEBPRIERH = P
+.* start 27.10.2014
+.th 2.5.7
+.el 2.4.7
+.* slut 27.10.2014
+on receipt of orders and cut-off times).
+.* start 27.10.2014
+Orders for payment transactions may be revoked via &WEBSYSNAVN. during
+&WEBSYSNAVN.'s opening hours no later than on the day before the
+selected payment date.
+.sp 3mm
+.kp off
+.kp on
+.if &U'&WEBPRIERH = P
+.th 2.8.2
+.el 2.7.2
+If orders are revoked on the same day as the transaction date, such
+revocation is possible only on application to &BANKNAVN. and only if
+the payment has not yet been remitted to the payee.
+&BANKNAVN. may charge a fee for the revocation.
+.sp 3mm
+.kp off
+.kp on
+.if &U'&WEBPRIERH = P
+.th 2.8.3
+.el 2.7.3
+Unrecorded transactions will, in general, not be completed if the
+.if &U'&WEBPRIERH = P
+.th customer no longer
+.el user no longer
+has access to an account/a custody account via &WEBSYSNAVN. after
+termination of the &WEBSYSNAVN. agreement
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.el 2.7.5 Where a transfer order is changed or cancelledby &BANKNAVN., &BANKNAVN. must inform the customer without undue delayby telephone and electronically or by ordinary mail. If the refusalconcerns a payment transaction, &BANKNAVN. will state the reason for therefusal and the procedure for correcting the error that caused the refusal..sp 3mm.kp off.kp on:FED..if &U'&WEBPRIERH = P.th 2.9 Statement of account and control.el 2.8 Statement of account and control:SKRSLUT..sp 3mm.if &U'&WEBPRIERH = P.th 2.9.1.el 2.8.1Where account movements have occurred in the customer's paymentaccounts and other accounts/custody accounts,.if &U'&WEBPRIERH = P.th the customer will receive information on such movement
+s.el information of such movements will be providedon a daily basis vi
+a lists of account entries, etc., in &WEBSYSNAVN...if &U'&WEBPRIERH
+ = P.th .go 291P.el .go 281E...291P.ct  Information on the customer's pa
+yment accounts is available in&WEBSYSNAVN. for a period of no less than 13 
+months.
+.go 281
+END...
+281E.
+ct  &BANKNAVN. may ch
+arge a fee for providing information in&
+WEBSYSNAVN. on payment account movements
+....281EN
+D.sp 3m
+m.kp off.kp on.if &U'
+&WEBPRIER
+H = P.th 
+2.9.2.th Agreements concluded electronically are available to t
+he customer in.th &WEBSYSNAVN. for a period o
+f five years after th
+e customer has.th approved the agreement. Moreover, the cus
+tomer may at any time have.th electronically concl
+uded agreements mailed to him or her by contacting.th &BANKNAVN...sp 
+3mm.kp off.kp on.if &
+U'&WEBPRIERH
+ = P.th 2.9.
+3.el 2.
+8.2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Payment transactions inDenmark denominated in Danish kroner in respect of whichthe order is for a same-day transfer are completed on the same.if &U'&WEBPRIERH = P.th day (see, however, clause 2.6 on cover, clause 2.5.7 on receipt of.el day (see, however, clause 2.5 on cover, clause 2.4.7 on receipt of.if &U'&WEBPRIERH = P.th orders and clause 2.5.8 on cut-off times above). Payment.el orders and clause 2.4.8 on cut-off times above). Paymenttransactions in Denmark denominated in Danish kroner inrespect of which the order is for a an immediate transferare completed in real time, 24 hours a day, 365 days a year.if &U'&WEBPRIERH = P.th (see, however, clause 2.6 on cover).
+ Further information on.el (see, however, clause 2.5 on 
+cover). Further information on&BANKNAVN.'s expected maximum co
+mpletion time andthe 
+terms of use of same-day transfer and immediatetransfer is available f
+rom &BANKNAVN. on request. However,&BANKNAVN. is not responsible for t
+he transfer being eff
+ectedwithin the expected maximum completion time..* slut 27.
+10.2014.sp 3mm.kp off.kp on.if &U'&WEBPRIERH = P.th 2.7.3.el
+ 2.6.3International payment transactions or transaction
+s denominated in foreigncurrencies are subject to special
+ completion time..sp 3mm.kp off.kp on.if &U'&WEBPRIERH = P.
+th 2.7.4.el 2.6.4Info
+rmation about the completion time for all types of paymenttrans
+actions is available from &BANKNAVN. on request..sp 3mm.kp off.
+kp on:FED..if &U'&WEBPRIERH = P.th 2.8.el 2.7Revo
+cation and refusal of orders:SKRSLUT..sp 3mm.if &U'
+&WEBPRIERH = P.th 2.8.1.el 2.7.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+In addition, statements and other documentation, including tradingconfirmations, etc. may be sent electronically or by ordinary mail inaccordance with the rules for accounts and custody accounts andagreements with &BANKNAVN.. &BANKNAVN. may charge a fee therefore..sp 3mm.kp off.kp on.if &U'&WEBPRIERH = P.th 2.9.4.el 2.8.3It is the responsibility of the customer to retrieve, print and saveelectronic statements, agreements and documents, etc..sp 3mm.kp off.kp on.if &U'&WEBPRIERH = P.th 2.9.5 The customer must regularly check the entries into his or her.el 2.8.4 The customer must regularly check the entries into the customer'saccounts via the lists of account entries in &WEBSYSNAVN. and by controlof the content 
+of any statements of accounts, trading confirmations andother documen
+tation relating to the customer's accounts. The customer mustob
+serve the deadline set out in clause.if &U'&WEBPRIERH = P.th 2.10 
+below..
+el 2.9 
+below.
+.sp 3mm.kp off.kp on.
+if &U'&WE
+BPRIERH =
+ P.th 2.9.6.el 2.8.5If, during such regular checks, the customer det
+ects transactionswhich the customer.if &U'&WEBPRIERH 
+= P.th 
+has.el 
+or the
+ customers users have
+not approved or made, the customer must contact &BANKNAVN. as soon aspo
+ssible..sp 3mm.kp off.kp on.if &U'&WEBPRIERH = P.th .go 297P.el .go 286E...
+286E2.8.6 Lists of account entries in &WEBSYSNAVN. and bank statements, 
+if any,etc., may show amounts.go 286VID...297P2.9.7 Lists of account en
+tries in &WEBSYSNAVN. and statements of account,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if any, etc., may show entries.go 286VID...286VID.ct  that have not yet been paid into the account/custody account in full.The customer may request to receive a copy of documentation from previousperiods against payment of a fee, if any, see the General Terms ofBusiness of &BANKNAVN.. Documentation can be printed in the current yearplus five year..sp 3mm.kp off.*************************************************************************
+
+
+
+
+
+
+
+
+
+

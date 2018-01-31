@@ -1,0 +1,95 @@
+.da BOX01 0mm 174mm
+.sp 13mm
+.sp 05mm
+.bx 0mm  80mm 174mm
+.sp 20mm
+.hr 80mm 174mm
+.sp 05mm
+.bx 0mm 174mm
+.sp 05mm
+.bx 0mm 80mm 174mm
+.sp 06mm
+.************Her starter afkrydsningskasser********************************
+.bx new 2mm 7mm / 81mm 86mm
+.sp 02mm
+.hr 2mm 7mm 81mm 86mm
+.sp 02mm
+.hr 2mm 7mm 81mm 86mm
+.sp 02mm
+.bx off
+.sp 3mm
+.hr 0mm 80mm
+.bx new 45mm 50mm / 81mm 86mm
+.sp 02mm
+.bx 45mm 50mm
+.sp 02mm
+.bx off
+.sp 02mm
+.bx new 81mm 86mm
+.sp 02mm
+.bx 81mm 86mm
+.sp 02mm
+.bx 81mm 86mm
+.sp 02mm
+.bx off
+.bx 0mm 174mm
+.sp 10mm
+.hr 0mm 174mm
+.sp 01mm
+.bx new 25mm 30mm / 84mm 89mm / 155mm 160mm
+.sp 02mm
+.hr 25mm 30mm 84mm 89mm 155mm 160mm
+.sp 2mm
+.bx off
+.sp 1mm
+.hr 0mm 174mm
+.sp 01mm
+.bx new 55mm 60mm  / 145mm 150mm
+.sp 02mm
+.bx 55mm 60mm / 145mm 150mm
+.sp 02mm
+.bx off
+.sp 2mm
+.hr 0mm 174mm
+.sp 4mm
+.bx new 55mm 60mm
+.sp 2mm
+.bx off
+.sp 2mm
+.*********Her starter de sidste afkrydsningsfelter*************************
+.bx 0mm 174mm
+.sp 3mm
+.bx new 2mm 7mm / 93mm 98mm
+.sp 02mm
+.bx 2mm 7mm / 93mm 98mm
+.sp 02mm
+.bx 2mm 7mm / 93mm 98mm
+.sp 02mm
+.bx 2mm 7mm /  93mm 98mm
+.sp 02mm
+.bx off
+.******************Her starter det allersidste****************************
+.sp 10mm
+.bx new 93mm 98mm
+.sp 02mm
+.bx 2mm 7mm / 93mm 98mm
+.sp 02mm
+.bx off
+.sp 5mm
+.sp 04mm
+.hr 91mm 93mm
+.vr 93mm
+.bx new 2mm 7mm
+.sp 2mm
+.hr 2mm 7mm
+.sp 2mm
+.hr 2mm 7mm 93mm 95mm
+.sp 2mm
+.hr 2mm 7mm
+.sp 2mm
+.bx off
+.sp 2mm
+.hr 91mm 93mm
+.vr off
+.bx off
+.pa

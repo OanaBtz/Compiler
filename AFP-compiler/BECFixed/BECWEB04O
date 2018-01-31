@@ -1,0 +1,29 @@
+.**************************************************************************
+.* GRUNDEN TIL AT DER IKKE ER SIDENR. PÅ ALLE SIDER ER AT NÅR BETINGELSERNE
+.* BLIVER LAVET OM, SÅ KAN BANKEN BARE SENDE NYE BETINGELSER UD TIL KUNDEN,
+.* UDEN AT KUNDEN SKAL IND OG UNDERSKRIVE AFTALEN IGEN. *******************
+.**************************************************************************
+:COUR10.
+.ti ¤ 05
+.fo left
+.**************************************************************
+.da OVERSK 20mm 32mm width 120mm
+.da VEND 7mm 270mm width 180mm rotate -90
+.**************************************************************
+.ar OVERSK on
+:SWISS12.
+:FED.
+.if &U'&WEBPRIERH = E
+.th .us Aftale om benyttelse af kursinformationer (Erhverv)
+.el .us Aftale om benyttelse af kursinformationer (Privat)
+:SKRSLUT.
+.ar off
+.**************************************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.tp 20mm
+.br
+¤&DATO
+.ar off
+.***********************************************************************

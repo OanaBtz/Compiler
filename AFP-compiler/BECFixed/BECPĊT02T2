@@ -1,0 +1,50 @@
+.tp 8mm
+.if x&antl = x2
+.th .sp 21mm
+.el .sp 10mm
+.*** AFLYSNING ************************************************************
+.if &U'&GENKRYDS1. = J
+.th
+.el .go FRITXT
+.kp on
+NÄrvÄrende &paatxt. kvitteres herved til aflysning af tingbogen.
+.sp 3mm
+.kp off
+.*** FRI TEKST ************************************************************
+...FRITXT
+.if &L'&GENTEKST1. > 0
+.or &L'&GENTEKST2. > 0
+.th
+.el .go KRSKA
+.kp on
+&GENTEKST1.&GENTEKST2
+.sp 3mm
+.kp off
+...KRSKA
+.if &U'&GENKRYDS3 = J
+.th
+.el .go RESP
+.kp on
+NÄrvÄrende &paatxt. transporterer jeg/vi herved uden ansvar for mig/os til
+&BANKNAVN., der har fyldestgjort mig/os for transporten.
+.br
+&spaatxt.et tjener herefter til sikkerhed for, hvad debitor til enhver tid
+mÄtte skylde &BANKNAVN..
+.br
+&spaatxt.ets Ävrige bestemmelser gentages i alle dets ord og punkter.
+.br
+Der henvises til tinglysningsafgiftslovens Â§5, stk. 5, sidste pkt., jf. Â§7.
+.sp 3mm
+.kp off
+...RESP
+.if &L'&GENTEKST7. > 0
+.or &L'&GENTEKST8. > 0
+.th
+.el .go TRANS
+.kp on
+NÄrvÄrende &paatxt. respekterer fremtidig alene:
+.br
+&GENTEKST7.
+.br
+&GENTEKST8.
+.br

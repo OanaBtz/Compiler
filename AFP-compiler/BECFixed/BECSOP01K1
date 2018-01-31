@@ -1,0 +1,203 @@
+.da OVER 12mm 32mm width 120mm
+.da BOX 12mm 42mm width 210mm
+.da SENR 70mm 79.7mm width 100mm
+.**********************************
+.ar SENR on
+.se sekas = '5.5mm 10mm 14.5mm 19mm 23.5mm 28mm 32.5mm'
+.bx 1mm 37mm
+.SP 2.2mm
+.vr &sekas
+.sp 0.01mm
+.bx off
+.vr off
+.ar off
+.ar OVER ON
+:SWISS12.
+:FED.
+:us.Service Opkrævning - Kreditoroplysninger
+.sp 3mm
+:SWISS10.:FED.
+96011
+:SKRSLUT.
+.AR OFF
+.ar BOX on
+.**** Her laves den store kasse***********
+.bx 0mm 190mm
+.****her starter afsnit med små kasser til banksted************************
+.se streg1 = '37.5mm 42mm 46.5mm'
+.se streg2 = '62.5mm'
+.se streg3 = '93.5mm 98mm'
+.bx new 33mm 51mm / 58mm 67mm / 89mm 102,5mm / 138mm 142,5mm
+.SP 2.5mm
+.vr &streg1 &streg2 &streg3
+.sp 0.1mm
+.bx off
+.vr off
+.bx off
+:swiss10.:FED.
+.TP 13MM
+96012 ¤Stamoplysninger
+.BX 0MM 190MM
+.bx new 58mm 71.5mm
+.SP 2.5mm
+.vr 62.5mm 67mm
+.sp 0.1mm
+.bx off
+.vr off
+.**** Her defineres placeringen af de 'små streger' ***********************
+.se streg1a = '27.5mm 32mm 36.5mm 41mm 45.5mm 50mm 54.5mm 59mm 63.5mm 68mm'
+.se streg2a = '72.5mm 77mm 81.5mm 86mm 90.5mm 95mm 99.5mm 104mm 108.5mm'
+.se streg3a = '113mm 117.5mm 122mm 126.5mm 131mm 135.5mm 140mm 144.5mm'
+.se streg4a = '149mm 153.5mm 158mm 162.5mm'
+.*Her laves kassen til Navn1***********************************************
+.bx new 23mm 167mm
+.SP 2.5mm
+.vr &streg1a &streg2a  &streg3a  &streg4a
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kassen til Navn2***********************************************
+.bx new 23mm 167mm
+.SP 2.5mm
+.vr &streg1a &streg2a  &streg3a  &streg4a
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kassen til Adresse****************************************
+.bx new 23mm 167mm
+.SP 2.5mm
+.vr &streg1a &streg2a  &streg3a  &streg4a
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kassen til postnr.*********************************************
+.bx new 23mm 41mm
+.SP 2.5mm
+.vr 27.5mm 32mm 36.5mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne til Telefon1***********************************
+.**** Her defineres placeringen af de 'små streger' ***********************
+.se streg1b = '27.5mm 32mm 36.5mm 41mm 45.5mm 50mm 54.5mm'
+.se streg2b = '104mm 108.5mm 113mm 117.5mm 122mm 126.5mm 131mm 135.5mm'
+.se streg3b = '140mm 144.5mm 149mm 153.5mm 158mm 162.5mm'
+.*Her laves kasserne til Telefon1***********************************
+.bx new 23mm 59mm / 99.5mm 167mm
+.SP 2.5mm
+.vr &streg1b &streg2b &streg3b
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne til Telefon2***********************************
+.bx new 23mm 59mm / 99.5mm 167mm
+.SP 2.5mm
+.vr &streg1b &streg2b &streg3b
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne til Telefon3***********************************
+.bx new 23mm 59mm / 99.5mm 167mm
+.SP 2.5mm
+.vr &streg1b &streg2b &streg3b
+.sp 0.1mm
+.bx off
+.vr off
+.**** Her defineres placeringen af de 'små streger' ***********************
+.se streg1c = '27.5mm 32mm 36.5mm 41mm 45.5mm 50mm 54.5mm 59mm 63.5mm 68mm'
+.se streg2c = '104mm 108.5mm'
+.*Her laves kasserne til Hovedkonto*********************************
+.bx new 23mm 72.5mm / 99.5mm 113mm
+.SP 2.5mm
+.vr &streg1c &streg2c
+.sp 0.1mm
+.bx off
+.vr off
+.**** Her defineres placeringen af de 'små streger' ***********************
+.se streg1d = '27.5mm 32mm 36.5mm 41mm 45.5mm 50mm 54.5mm 59mm 63.5mm 68mm'
+.se streg2d = '72.5mm 77mm 81.5mm 86mm 90.5mm 95mm 99.5mm 104mm 108.5mm'
+.se streg3d = '113mm 117.5mm 122mm 126.5mm 131mm 135.5mm'
+.*Her laves kassen til Datotekst A*****************************************
+.bx new 23mm 140mm
+.SP 2.5mm
+.vr &streg1d &streg2d &streg3d
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kassen til Datotekst B*****************************************
+.bx new 23mm 140mm
+.SP 2.5mm
+.vr &streg1d &streg2d &streg3d
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kassen til Datotekst C*****************************************
+.bx new 23mm 140mm
+.SP 2.5mm
+.vr &streg1d &streg2d &streg3d
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kassen til Oplysninger 1***************************************
+.bx new 23mm 140mm
+.SP 2.5mm
+.vr &streg1d &streg2d &streg3d
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kassen til Oplysninger 2***************************************
+.bx new 23mm 140mm
+.SP 2.5mm
+.vr &streg1d &streg2d &streg3d
+.sp 0.1mm
+.bx off
+.vr off
+.BX off
+:swiss10.:FED.
+.TP 13MM
+96013 ¤Opkrævningsoplysninger:SKRSLUT.
+.BX 0MM 190MM
+.*Her laves kassen til Regnskabsår/Opsum***********************************
+.se streg1e = '37.5mm 42mm 46,5mm'
+.bx new 33mm 51mm / 135.5mm 140mm
+.SP 2.5mm
+.vr &streg1e
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kassen til Restancegebyr i kr.********************************
+.bx new 33mm 64.5mm
+.SP 2.5mm
+.vr 37.5mm 42mm 46.5mm 51mm 60mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kassen til Restancegebyr i %********************************
+.bx new 33mm 55.5mm / 104mm 140mm
+.SP 2.5mm
+.vr 37.5mm 46.5mm 51mm 108.5mm 113mm 122mm 126.5mm 135.5mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kassenerne til PBS-tilslutning*********************************
+.bx new 33mm 46.5mm / 131mm 140mm
+.SP 2.5mm
+.vr 37.5mm 42mm 135.5mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne til Antal respitdage*********************************
+.bx new 33mm 37.5mm / 135.5mm 140mm
+.SP 2.5mm
+.sp 0.1mm
+.bx off
+.vr off
+.sp 3mm
+.*Her laves kassen til Betalingsfrekvens********************************
+.se streg1f ='42mm 51mm 60mm 69mm 78mm 87mm 96mm 105mm 114mm 123mm 131mm'
+.bx new 33mm &streg1f 140mm
+.SP 2.5mm
+.sp 0.1mm
+.bx off
+.BX off
+.******arealet fortsætter i BECSOP01K2************************************

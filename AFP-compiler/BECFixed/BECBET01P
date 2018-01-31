@@ -1,0 +1,6 @@
+.************************ PARAMETERAFSNIT ***********************
+.**************************************************************************
+.*REGNR og KTONR1 er med i brevet men bruges ikke længere. De er bibeholdet
+.*for at nuv. banker kan fortsætte med at bruge disse.*********************
+.**************************************************************************
+:tiltale &TILTALEF

@@ -1,0 +1,62 @@
+.********************AREAL-DEFINITIONER************************************
+.*Opsigelse
+.da OPSIG 20mm 82mm width 170mm
+.dr thin weight 0.1mm
+.********** RYKKER ***************
+.ar OPSIG ON
+.* -------------------------------
+.if &U'&GENVALGB = J
+.th Manglende betaling på samlefaktureringskontrakter.
+.th .go SAMLSLUT
+.* -------------------------------
+Vedr. kontrakt nr.: &AFTALENR.
+.if &L'&REGISNR01 > 0
+.th  reg.nr.: &REGISNR01.
+...SAMLSLUT
+.* -------------------------------
+.sp
+.if &U'&GENVALGA = Y
+.th Trods &MINE. tidligere rykkere har &JEG. endnu ikke modtaget det
+.th skyldige beløb. &SJEG. ser &MIG. derfor nødsaget til at opsige
+.th aftalen til omgående indfrielse på grund af misligholdelse.
+.if &U'&GENVALGA = F
+.th Til trods for &MINE. tidligere rykkere har &DU. endnu ikke bragt
+.th forsikringsforholdet på ovennævnte leasingkontrakt i orden. &SJEG.
+.th ser &MIG. derfor nødsaget til at opsige aftalen til omgående
+.th indfrielse på grund af misligholdelse.
+.sp
+Dette betyder samtidig, at det leasede omgående skal tilbageleveres
+til &AFDBNKNAVN.. Såfremt dette ikke sker, vil &JEG. rekvirere fogeden
+til at afhente &MINE. aktiver, hvilket vil betyde yderligere
+omkostninger, samt indberetning til RKI-registret.
+.br
+&SJEG. imødeser indbetaling af følgende beløb, i henhold til
+leasingaftalens bestemmelser om misligholdelse.
+.sp
+.tp 110mm 150mm right
+Resterende ikke forfaldne ydelser og scrapværdi,
+.br
+tilbagediskonteret med Nationalbankens Diskonto
+.br
+&DISKONTO. %, ekskl. moms samt restance inkl. moms ¤kr.¤&TILBDISK.
+.br
++ Opsigelsesgebyr¤kr.¤&OPSGEBYR.
+.if &l'&DEPOBEL. > 0
+.th .br
+.th - Depositum¤kr.¤&DEPOBEL.
+.hr thin 110mm 150mm
+.br
+I alt at betale (+ moms af ydelser & scrapværdi)¤kr.¤&LEATOTSUM.
+.br
+.hr thin 110mm 150mm
+.sp
+Såfremt &JEG. ikke har modtaget indbetalingen inden 10 dage fra d.d.,
+vil sagen blive
+.us on
+overgivet til retslig inkasso
+.us off
+med de dermed forbundne omkostninger.
+.br
+For god ordens skyld skal &JEG. bemærke, at &MIT. tilgodehavende
+reduceres med den pris, &JEG. kan få for det leasede i henhold til
+leasingaftalens bestemmelser.

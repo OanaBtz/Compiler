@@ -1,0 +1,64 @@
+.*******************************************************
+.da KUNDEOPL   25mm 49mm width 84mm
+.da KCVR       33mm 66mm width 85mm
+.da PIOPL      116mm 49mm width 84mm
+.da MAIL       25mm 74mm width 170mm
+.da KONTONR    160mm 94mm width 30mm
+.da KRYDS1     25mm 108.5mm width 10mm
+.da KRYDS2     25mm 130mm width 10mm
+.da UNDERSKRKU 20mm 197mm width 87mm
+.da UNDERSKRPI 107mm 197mm width 87mm
+.*******************************************************
+.ar KUNDEOPL on
+&STILL
+.br
+&NAVN
+.br
+&COADR
+.br
+&GADE
+.br
+&BY
+.ar off
+.*******************************************************
+.ar KCVR on
+&KUNDENR
+.ar off
+.*******************************************************
+.ar MAIL on
+&GENEMAIL2
+.ar off
+.*******************************************************
+.ar PIOPL on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.*******************************************************
+.ar KONTONR on
+&GENKONTONR..
+.ar off
+.*******************************************************
+.if X&GENVALG = X1
+.th .ar KRYDS1 on
+.el .ar KRYDS2 on
+.tp 1.5mm center
+¤X
+.ar off
+.*******************************************************
+.ar UNDERSKRKU on
+.ce on
+&NAVN
+.ce off
+.ar off
+.*******************************************************
+.ar UNDERSKRPI on
+.ce on
+&BANKNAVN
+.ce off
+.ar off
+.*******************************************************

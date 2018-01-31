@@ -1,0 +1,81 @@
+.***OBS - OBS - OBS - OBS - OBS - OBS - OBS - OBS - OBS - OBS - OBS - OBS**
+.**************************************************************************
+.* PARAMETEREN WEBUDL ER IKKE EN HANDELSTYPE - HVIS MAN FJERNER
+.* STANDARDVÆRDIEN I TEKSTMODULET TIL PARAMETRE, VIL AFSNITTET STADIG
+.* BLIVE UDSKREVET, MEN IKKE KORREKT. HVIS AFSNITTET
+.* IKKE ØNSKES MEDTAGET, SKAL DETTE TEKSTMODUL OGSÅ FJERNES FRA LTD'EN.
+.* GRUNDEN TIL AT PARAMETEREN WEBUDL ER I TEKSTMODULET TIL PARAMETRE ER,
+.* AT DER TESTES PÅ DEN AF HENSYN TIL NUMMERERINGEN, DA ALLE
+.* HANDELSTYPER KAN FRAVÆLGES VED AT SLETTE STANDARDVÆRDIERNE.
+.**************************************************************************
+.kp 4
+:FED.3.&taeller6 &WEBHUDL.:SKRSLUT.
+.sp 3mm
+3.&taeller6..1 Kunden har mulighed for at
+handle udenlandske værdipapirer i
+&WEBSYSNAVN.. Ved handel med udenlandske værdipapirer kan ordretyperne
+markedsordre eller limiteret ordre
+anvendes, i det omfang de tilbydes. Der
+henvises til beskrivelsen af
+ordretyperne ovenfor, samt &BANKNAVN.s forretningsbetingelser
+for handel med finansielle instrumenter.
+Åbningstider, tidsfrister,
+handelsomkostninger, beløbsbegrænsninger mv. fremgår af bilag vedrørende
+handelsomkostninger, åbningstider, tidsfrister mv.
+.sp 3mm
+.kp on
+3.&taeller6..2 Handlen afregnes i afregningskontoens
+valuta med mindre andet er aftalt.
+.sp 3mm
+.kp off
+.kp on
+3.&taeller6..3 Ordrer søges gennemført samme dag, som
+.**OBS - Pengeinstituttet i nedenstående linie er ikke parameterstyret, ***
+.**da det kan være et andet pengeinstitut end kundens *********************
+pengeinstituttet
+.***************
+er blevet bekendt med
+ordren, hvis dette er sket på et tidspunkt, der gør det muligt at handle
+værdipapiret på det udenlandske marked samme dag - ellers søges ordren
+først handlet på førstkommende børsdag. Ordre om køb og salg af
+udenlandske værdipapirer bortfalder i det omfang, den ikke er handlet ved
+udløbet af ordrens gyldighedsperiode. Gyldighedsperioden fremgår af
+bilag vedrørende handelsomkostninger, åbningstider, tidsfrister mv.
+.sp 3mm
+.kp off
+.kp on
+3.&taeller6..4 I forbindelse med handel med
+udenlandske aktier har både danske og
+udenlandske børsdage, som ikke nødvendigvis er sammenfaldende, betydning
+for gyldighedsperiode, eventuel handelsdato og valørdag. Dette
+kan blandt andet påvirke
+gyldighedsperioden. Oplysninger herom kan fås hos &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+3.&taeller6..5 Såfremt kunden i forbindelse
+med indgåelse af en værdipapirhandel
+i et udenlandsk værdipapir har en afregningskonto, der føres i en
+valuta, der er forskellig fra værdipapirets valuta, fastsættes
+valutakursen ved afregning i overensstemmelse med bilag vedrørende
+handelsomkostninger, åbningstider, tidsfrister mv.
+.sp 3mm
+.kp off
+.kp on
+3.&taeller6..6 I forbindelse med udenlandske
+værdipapirhandler kan der pålægges
+yderligere omkostninger. Det drejer sig eksempelvis om depotomkostninger,
+omkostninger til afvikling af handlen i udlandet, øvrige udenlandske
+omkostninger, eventuel skat i forbindelse med handel af udenlandske
+værdipapirer, gebyrer for indlæggelse af limiterede ordrer med
+videre. Omkostningerne fremgår af bilag vedrørende handelsomkostninger,
+åbningstider, tidsfrister mv. Der kan være yderligere udenlandsk skat
+eller omkostninger, som &BANKNAVN ikke er bekendt med.
+.sp 3mm
+.kp off
+.kp on
+3.&taeller6..7 Handel med udenlandske værdipapirer
+kan være underlagt afvigende frister og regler for afvikling mv.
+end de for danske værdipapirer gældende.
+.sp 5mm
+.kp off

@@ -1,0 +1,52 @@
+:SWISS9.
+.**************************************************************************
+.da KUNDE     25mm 50mm width 80mm
+.da MKUNDE 112.5mm 50mm width 80mm
+.da CPR       34mm 70.5mm width 80mm
+.da MCPR   121.5mm 70.5mm width 80mm
+.da PI        25mm 80mm width 80mm
+.**************************************************************************
+.ar KUNDE on
+&KUNADR1
+.br
+&KUNADR2
+.br
+&KUNADR3
+.br
+&KUNADR4
+.br
+&KUNADR5
+.ar off
+.**************************************************************************
+.ar MKUNDE on
+.if &L'&KUN2TYPE > 0
+.th &KUN2ADR1
+.th .br
+.th &KUN2ADR2
+.th .br
+.th &KUN2ADR3
+.th .br
+.th &KUN2ADR4
+.th .br
+.th &KUN2ADR5
+.ar off
+.**************************************************************************
+.ar CPR on
+&KUNDENR
+.ar off
+.**************************************************************************
+.ar MCPR on
+&KUNDENR2
+.ar off
+.**************************************************************************
+.ar PI on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.**************************************************************************
+:SKRSLUT.

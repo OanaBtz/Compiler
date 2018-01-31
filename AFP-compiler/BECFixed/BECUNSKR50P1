@@ -1,0 +1,22 @@
+.*OMTALEPARAMETRE *********************************************************
+.*ERHVERV *****************************************************************
+.if &U'&PRIERH = E
+.th .se debsomt = 'Vi'
+.th .se deblomt = 'vi'
+.th .se migos = 'os'
+.th .se min = 'vores'
+.th .se mine = 'vores'
+.th .go OMTALEND
+.*PRIVAT *************
+.if &DEBANTAL = 1
+.th .se debsomt = 'Jeg'
+.th .se deblomt = 'jeg'
+.th .se migos = 'mig'
+.th .se min = 'min'
+.th .se mine = 'mine'
+.el .se debsomt = 'Vi'
+.el .se deblomt = 'vi'
+.el .se migos = 'os'
+.el .se min = 'vores'
+.el .se mine = 'vores'
+...OMTALEND

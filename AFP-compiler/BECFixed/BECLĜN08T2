@@ -1,0 +1,24 @@
+.ar off
+.*TEKST TIL KASSE2*********************************************************
+.ar PKT2 on
+:SWISS10.
+Jeg/vi Änsker at indberette til &LOENSYSTEM via blanket (kryds
+af)
+.sp 3mm
+:SWISS8.
+Oprettelse og ajourfÄring af arbejdsgiveroplysninger udfÄres af
+&LOENSYSTEM.. Ävrige oplysninger, der bl.a. omfatter lÄnartsoplysninger,
+medarbejderstamoplysninger og lÄnlister til lÄnberegning
+udfylder virksomheden pÄ de udleverede blanketter og sender
+dem til &LOENSYSTEM.. Materiale skal inden aflevering forsynes
+med stempel og underskrift. Ved underskrift indestÄr virksomheden
+for, at de indsendte oplysninger er korrekte.
+.ar off
+.**************************************************************************
+.ar TXT on
+:SWISS8.:FED.
+&LOENEJER.'s Almindelige regler og vilkÄr for &LOENSYSTEM., inklusiv
+Vejledning for Arbejdsgiver er en integreret del af denne aftale,
+som undertegnede accepterer.
+:SKRSLUT.
+.ar off

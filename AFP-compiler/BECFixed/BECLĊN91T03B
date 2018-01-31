@@ -1,0 +1,38 @@
+...FKMA2B
+.kp on
+LÄnet er et variabelt forrentet lÄn, hvor renten bliver fastsat hvert
+halve Är ud fra 6-mÄneders Cita-renten den fjerde sidste bankdag i
+henholdsvis juni og december. Cita-renten (Copenhagen InterBank
+Tomorrow/Next Average) bliver dagligt noteret af Nationalbanken.
+.br
+Cita-renten tillÄgges et rentetillÄg og multipliceres derefter med
+365/360 som fÄlge af forskelle i rentekonventioner. RentetillÄgget
+fastsÄttes ud fra de markedsmÄssige vilkÄr pÄ auktionstidspunktet for
+obligationerne.
+.sp 3mm
+Hvis den samlede kuponrente (referencerente med tillÄg) bliver negativ ved
+en renteregulering, kan Totalkredit altid vÄlge at sÄtte kuponrenten til
+nul frem til nÄste rentereguleringstidspunkt.
+.sp 3mm
+Obligationerne bag lÄnet har en kortere lÄbetid end lÄnet. LÄnet skal
+derfor refinansieres ved udlÄb af obligationerne. LÄbetiden pÄ
+obligationerne - og dermed ogsÄ tidspunktet frem til nÄste
+refinansieringstidspunkt - fastsÄttes fra gang til gang og kan derfor
+variere fra refinansiering til refinansiering. LÄnets fÄrste
+refinansieringstidspunkt fremgÄr af lÄne- og pantsÄtningsaftalen. I
+forbindelse med udbetalingen af lÄnet kan lÄnets fÄrste
+refinansieringstidspunkt dog fastsÄttes til et andet tidspunkt. Det vil
+i sÄ fald fremgÄ af din udbetalingsspecifikation.
+.sp 3mm
+NÄr lÄnet refinansieres, fastlÄgges der som udgangspunkt et nyt
+rentetillÄg til 6-mÄneders Cita-renten ud fra den aktuelle
+markedssituation.
+.sp 3mm
+Et lÄn med variabel rente koster typisk mindre end et lÄn med fast
+rente. Til gengÄld kan renten og dermed ydelsen pÄ lÄnet bÄde stige og
+falde. Bidraget kan i Ävrigt justeres med forudgÄende varsel.
+.kp off
+.go TXT3BE
+.**********
+...TXT3BE
+.sp 5mm

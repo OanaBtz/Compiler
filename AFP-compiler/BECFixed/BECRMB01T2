@@ -1,0 +1,57 @@
+.da AREAL31 24mm 194mm width 200mm
+.da AREAL32 24mm 227mm width 240mm
+.da AREAL33 24mm 244mm width 250mm
+.da AREAL34 114mm 223mm width 220mm
+.da AREAL35 76mm 182mm width 220mm
+.ar AREAL31 on
+:cour10.
+.if &U'&BECVALG1 eq F
+.th X
+.sp 4,5mm
+.if &U'&BECVALG1 eq U
+.th X
+.sp 4,5mm
+.if &U'&BECVALG1 eq M
+.th X
+.sp 4,5mm
+.if &U'&BECVALG1 eq A
+.th X
+.ar off
+.ar AREAL32 on
+:cour10.
+.if &U'&BECVALG2 eq J
+.th X
+.sp 4,5mm
+.el
+.*
+.ar off
+.ar AREAL33 on
+:cour10.
+.if &U'&BECVALG3 eq P
+.th X
+.sp 4,5mm
+.if &U'&BECVALG3 eq L
+.th X
+.sp 4,5mm
+.if &U'&BECVALG3 eq B
+.th X
+.sp 4,5mm
+.if &U'&BECVALG3 eq S
+.th X
+.ar off
+.ar AREAL34 on
+:cour10.
+.if &U'&BECVALG4 eq P
+.th X
+.sp 4,5mm
+.if &U'&BECVALG4 eq E
+.th X
+.ar off
+.ar AREAL35 on
+:cour10.
+.if &U'X&BECVALG5 eq XJ
+.th X
+.sp 4,5mm
+.el
+.*
+.ar off

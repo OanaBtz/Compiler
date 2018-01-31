@@ -1,0 +1,51 @@
+I &DIN. egenskab som kautionist på ovennævnte konto, har vi pligt til at
+underrette &DIG. om, at kontoens saldo er kr. &SALDO.. Det
+betyder, at kontoen i øjeblikket
+er overtrukket med kr. &OVERTRÆK..
+.sp
+Kontoen tilhører:
+.sp
+.ar off
+.*************************************************************************
+.da KONTO  20mm 138mm width 75mm
+.*************************************************************************
+.ar KONTO on
+&KTONAVN
+.br
+&KTOCO
+.br
+&KTOGADE
+.br
+&KTOBY
+.br
+&KTOLAND
+.ar off
+.*************************************************************************
+.da MKONTO 95mm 138mm width 75mm
+.*************************************************************************
+.ar MKONTO on
+&MEDNAVN
+.br
+&MEDCO
+.br
+&MEDGADE
+.br
+&MEDBY
+.br
+&MEDLAND
+.ar off
+.*************************************************************************
+.da GEBYR  20mm 151mm
+.*************************************************************************
+.ar GEBYR on
+.sp
+.if &RYKGEBYR > 0,00
+.th .sp
+.th Rykkergebyr kr. &RYKGEBYR. er hævet på kontoen, og indeholdt
+.th i ovennævnte restance.
+.sp
+.if &L'&RYKTXTL1A > 0
+.or &L'&RYKTXTL1B > 0
+.or &L'&RYKTXTL2A > 0
+.or &L'&RYKTXTL2B > 0
+.th &RYKTXTL1A.&RYKTXTL1B.&RYKTXTL2A.&RYKTXTL2B.

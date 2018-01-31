@@ -1,0 +1,101 @@
+.**************************************************************************
+.kp on
+:SWISS8.
+.tp 130mm 165mm right
+:FED.
+Omkostninger
+.br
+:SKRSLUT.
+Lånebeløb excl. omkostninger¤kr.
+:SKRSLUT.
+¤&PROVENU1.
+.br
+:SWISS8.
+Stiftelsesprovision¤kr.
+:SKRSLUT.
+¤&STIFTLÅN.
+.br
+:SWISS8.
+Ekspeditionsgebyr¤kr.
+:SKRSLUT.
+¤&EKSGEB.
+.br
+:SWISS8.
+Tinglysningsafgift¤kr.
+:SKRSLUT.
+¤&TINGAFG.
+.br
+.***************************
+.dr thin weight 0.1mm
+.***************************
+:SWISS8.Forsikringsdeklaration¤kr.:SKRSLUT.¤&PANTHGEB.
+.hr thin 130mm 165mm
+.br
+:SWISS8.Lånebeløb i alt¤kr.:SKRSLUT.¤&BELINCLOMK.
+.sp
+:SWISS8.
+.tp 10mm 53mm 130mm
+¤Engagement i:SKRSLUT. &AFDBNKNAVN.:SWISS8. excl. nærværende
+.ct  (evt. relaterende)¤¤kr.
+.hr thin 5mm 9mm
+.br
+¤Engagement i reg.nr.¤:SKRSLUT.&GENBANK.:SWISS8.
+.ct  (evt. relaterende)¤kr.
+.hr thin 5mm 9mm 37mm 52mm 130mm 165mm
+.sp
+Engagement i alt¤¤¤kr.
+.hr thin 130mm 165mm
+.sp
+.kp off
+.kp on
+:SWISS8.
+:FED.
+Bemærkninger (kort)
+.br
+:SKRSLUT.Udbetaling:SKRSLUT. &UDBETPCT.%
+.sp
+.kp off
+.kp on
+:SWISS8.
+:FED.
+Vedlagt
+.br
+.tp 10mm 46mm 130mm
+:SKRSLUT.
+¤Ansøgning om lån samt evt. kontoudtog.
+.hr thin 5mm 9mm
+.br
+¤Anvist af reg.nr.¤:SKRSLUT.&GENBANK.:SWISS8
+.hr thin 5mm 9mm 30mm 45mm
+.br
+¤Indberetning til Bestyrelseskartoteket.
+.hr thin 5mm 9mm
+¤Regnskaber / udskrift fra CD-direct.
+.hr thin 5mm 9mm
+¤Andet:
+.hr thin 5mm 9mm 20mm 165mm
+.sp
+.kp off
+.kp on
+:SWISS8.
+:FED.
+Bevilling
+.br
+:SKRSLUT.
+.tp 10mm 100mm center
+¤Bevilget på anførte vilkår.
+.hr thin 5mm 9mm
+.sp 9.5mm
+¤:SKRSLUT.&DATO.:SWISS8.
+.hr thin 10mm 35mm 40mm 160mm
+.sp 0.5mm
+¤Dato
+.sp
+¤Forannævnte kan bevilges på de anførte vilkår.
+.hr thin 5mm 9mm
+.br
+¤Det er endvidere en forudsætning at bestyrelsen tiltræder indstillingen.
+.sp 13.5mm
+.hr thin 10mm 35mm 40mm 160mm
+¤Dato¤Direktionen :SKRSLUT. &AFDBNKNAVN.
+.kp off

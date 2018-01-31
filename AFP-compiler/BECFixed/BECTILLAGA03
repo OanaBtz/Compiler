@@ -1,0 +1,86 @@
+.bm0
+.sp8
+.in03
+.ti ? 05
+.tp 3 5 12 21 22 29 40 52 60
+.if &L'&VESNAVN gt 0 .or &L'&VESSTILL gt 0
+.th ??&STILL    ?????&VESSTILL
+.th .br
+.th ??&NAVN     ?????&VESNAVN
+.th .br
+.th ??&GADE     ?????&VESGADE
+.th .br
+.th ??&BY       ?????&VESBY
+.th .br
+.th ??  &KTOKUNDENR  ?????  &VESIDKORT
+.el ??&STILL
+.el .br
+.el ??&NAVN
+.el .br
+.el ??&GADE
+.el .br
+.el ??&BY
+.el .br
+.el ??  &KTOKUNDENR  ?????  &VESIDKORT
+.sp2
+??VESTJYSK BANK   ?????&REGNR
+.br
+??&AFDNAVN
+.br
+??&AFDBY    ?????&KTONR  ??&VESKORT
+.sp2
+??????&DATO8
+.sp3
+.if &L'&VESSTILL gt 0 .or &L'&VESNAVN gt 0 .an &L'&VEST1 gt 0
+.th ??   &VEST1
+.th .br
+.th ??   &VEST2
+.th .sp2
+.th ??   &VESSTILL
+.th .br
+.th ??   &VESNAVN
+.th .sp8
+.if &L'&VEST1 = 0 .an &L'&VESNAVN = 0 .an &L'&VESSTILL = 0
+.an &L'&VESDATO7 gt 0
+.th .sp14
+.th .go VIDERE
+.if &L'&VEST1 gt 0 .an &L'&VESDATO9 = 0
+.an &L'&VESNAVN = 0 .an &L'&VESSTILL = 0
+.th .sp6
+.th ??   &VEST1   ?????  X
+.th .br
+.th ??   &VEST2
+.th .sp1
+.th ? X
+.th .sp4
+.el .sp6
+.el ??   &VESSTILL
+.el .br
+.el ??   &VESNAVN  ?????  X
+.el .sp3
+.el ? X
+.el .sp2
+...VIDERE
+???&VESDATO7 ?   &VEST3 ???       &VEST4
+.br
+???&VESDATO8
+.sp4
+???&VESDATO5 ????       &VESDATO6
+.sp5
+.if &L'&VEST1 gt 0
+.th .go NYARB
+.el .go NYPI
+...NYARB
+??&VESSTILL ?????&VEST1 
+
+
+
+
+
+
+
+
+
+
+
+

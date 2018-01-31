@@ -1,0 +1,17 @@
+:COUR10.
+.ti ¤ 05
+.fo left
+.**************************************************************
+.da OVERSK 20mm 32mm width 150mm
+.**************************************************************
+.ar OVERSK on
+.hy off
+:SWISS12.
+:FED.
+.us on
+&BANKNAVN.s forretningsbetingelser for handel med
+finansielle instrumenter
+.us off
+.hy on
+.ar off
+.***********************************************************************

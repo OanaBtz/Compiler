@@ -1,0 +1,115 @@
+øvrige betalinger, vil ske til ovennævnte &koo..
+.sp
+:SWISS10.
+:FED.
+Selskabets underskrift
+:SKRSLUT.
+:SKRSLUT.
+.sp 14mm
+.****************UNDERSKRIFT OG DATO********************
+.dr tynd weight 0.2mm
+.tp 1mm 50mm
+.hr tynd 1mm 45mm 50mm 170mm
+.br
+¤Dato ¤&GENNAVN.
+.ar off
+dennes nærtstående eller selskaber hvori
+&KTONAVN.
+eller dennes nærtstående har bestemmende indflydelse tilsammen ikke ejer
+&GENUNPROC. % eller mere af kapitalen i
+&GENNAVN., efter det ovenfor angivne ønskede køb er gennemført.
+.in 0mm
+.sp
+*¤det
+.in 5mm nobreak
+ikke er selskabets hovedformål eller et af dets formål at give
+brugsrettigheder, rabatter eller lignende i selskabet.
+.in 0mm
+.sp
+*¤selskabet
+.in 5mm nobreak
+ikke har udstedt eller vil udstede fysiske &instru..
+.in 0mm
+.sp
+*¤ovennævnte
+.in 5mm nobreak
+&instru., som
+.if &U'&GENVALG1 = A
+.th &KTONAVN. ønsker at købe
+.el &KTONAVN. har købt
+.ct , kan afstås til tredjemand eller erhverves af
+&KTONAVN. for midler, der ikke er pensionsmidler ved
+pensionering, eller hvis &KTONAVN.s pensionsordningers værdi i
+&BANKNAVN. bortset fra unoterede aktiver kommer under &GENUNOBEL. kr.
+.in 0mm
+.sp
+*¤hvis
+.in 5mm nobreak
+&KTONAVN. dør, før ovennævnte &pen. er udbetalt, kan de
+begunstigede eller dødsboet indtræde i &KTONAVN.s rettigheder og
+forpligtelse til at afhænde &instru. til &GENNAVN. eller tredjemand.
+.in 0mm
+.sp 2
+&KTONAVN.s
+erhvervelse af &instru. vil være underlagt reglerne i bekendtgørelse om
+puljepension og andre skattebegunstigede opsparingsformer m.v. om
+investering i værdipapirer for pensionsmidler. Efter reglerne i
+bekendtgørelsen kan &KTONAVN. således alene disponere over
+værdipapirerne ved afståelse.
+.sp
+Reglerne
+bevirker, at alle fremtidige betalinger vedrørende &instrur. skal ske til
+ovennævnte &koo..
+.ct  &GENNAVN. bekræfter, at alle fremtidige
+betalinger vedrørende ovennævnte
+&instru., såvel løbende udbytte som provenu ved afståelse og alle
+:SWISS9.
+&BANKNAVN. har oplyst til os, at &instrur. vil blive placeret i
+&BANKNAVN. i &ser. &dep. tilknyttet &KTONAVN.s
+.sp
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+.tp 5mm 41mm 60mm 73mm 92mm 117mm 137mm
+.if &L'&DEPOTNR > 0
+.th *¤&pension ¤reg.nr. ¤&reg ¤kontonr. ¤&kto ¤depotnr. ¤&DEPOTNR.
+.el *¤&pension ¤reg.nr. ¤&reg ¤kontonr. ¤&kto
+.br
+.***************
+.if &L'&KONTO10 = 0
+.th .go IKKE4
+.if &L'&GENDEPOT01 > 0
+.th *¤&pension1 ¤reg.nr. ¤&reg1 ¤kontonr. ¤&kto1 ¤depotnr. ¤&GENDEPOT01.
+.th .br
+.el *¤&pension1 ¤reg.nr. ¤&reg1 ¤kontonr. ¤&kto1
+.el .br
+...IKKE4
+.***************
+.if &L'&KONTO11 = 0
+.th .go IKKE5
+.if &L'&GENDEPOT02 > 0
+.th *¤&pension2 ¤reg.nr. ¤&reg2 ¤kontonr. ¤&kto2 ¤depotnr. ¤&GENDEPOT02.
+.th .br
+.el *¤&pension2 ¤reg.nr. ¤&reg2 ¤kontonr. ¤&kto2
+.el .br
+...IKKE5
+.***************
+.if &L'&KONTO12 = 0
+.th .go IKKE6
+.if &L'&GENDEPOT03 > 0
+.th *¤&pension3 ¤reg.nr. ¤&reg3 ¤kontonr. ¤&kto3 ¤depotnr. ¤&GENDEPOT03.
+.th .br
+.el *¤&pension3 ¤reg.nr. ¤&reg3 ¤kontonr. ¤&kto3
+.el .br
+...IKKE6
+.sp
+.**********************************
+.tp 5mm
+:SWISS9.
+&GENNAVN.
+bekræfter, at
+.sp
+*¤så
+.in 5mm nobreak
+vidt selskabet er bekendt vil
+&KTONAVN.,

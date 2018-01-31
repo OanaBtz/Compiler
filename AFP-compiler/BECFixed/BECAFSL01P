@@ -1,0 +1,30 @@
+.if &U'&GENRKI = J
+.or &U'&GENRKI = N
+.th
+.el .mg/T/RKI: Skriv J eller N/
+.**************************************************************************
+.if &U'&GENRKI = N
+.an &L'&GENANDEN = 0
+.th .mg/T/Der skal vælges mindst et register, som kunden er registreret i/
+.**************************************************************************
+.if &L'&GENANDEN > 0
+.an &L'&GENANDADR > 0
+.th .go OKANDEN
+.if &L'&GENANDEN = 0
+.an &L'&GENANDADR = 0
+.th .go OKANDEN
+.mg/T/Udfyld både navn og adresse på andet register/
+...OKANDEN
+.**************************************************************************
+.*TEST PÅ OM KUNDEN ER REGISTRERET I ALLE REGISTRE ************************
+.se tal = 0
+.*.if &U'&GENCHECKM = J
+.*.th .se tal1 = &tal + 1
+.*.el .se tal1 = &tal
+.if &U'&GENRKI = J
+.th .se tal1 = &tal + 1
+.el .se tal1 = &tal
+.if &L'&GENANDEN > 0
+.th .se tal2 = &tal1 + 1
+.el .se tal2 = &tal1
+.**************************************************************************

@@ -1,0 +1,135 @@
+.**************************************************************************
+.kp on
+:FED.
+Særlige bestemmelser, herunder yderligere sikkerhed
+:SKRSLUT.
+.br
+.***TEST PÅ RENTETYPEN FAST/VARIABEL***************************************
+.if &U'X&RENTETYP = XF
+.th .go FAST
+.el .go VARI
+...FAST
+Leasingydelsen er fast i hele leasingperioden.
+.sp
+.go RSLUT
+...VARI
+Leasingydelsen er variabel og reguleres i forhold til udsving i den
+gennemsnitlige rente for
+.if &U'X&CIBNIB = XI
+.th Nationalbankens indskudsbeviser.
+.el CIBOR 3M.
+Gennemsnittet beregnes hver måned ud fra den
+.if &U'X&CIBNIB = XI
+.th ugentlige fastsættelse af indskudsbevisrenten.
+.el daglige fastsættelse af CIBOR 3M.
+Gennemsnittet for :SKRSLUT.&RENTEPERI.:SWISS8.
+udgjorde
+:SKRSLUT.
+&RENTE.
+:SWISS8.
+% ud fra hvilken den under afviklingsvilkår anførte afgift
+reguleres. Leasingydelsen reguleres i takt med ændringer i denne rentesats
+med virkning fra og med den første leasingydelse, der forfalder efter
+renteændringens ikrafttrædelse. Bortfalder basisrenten, er
+:SKRSLUT.
+&AFDBNKNAVN.
+:SWISS8.
+berettiget til at vælge en anden basisrente, der er repræsentativ for
+markedsrenten.
+.sp
+...RSLUT
+.kp off
+.if &U'X&AKTIVVALG = XK
+.th .go KØRS
+.el .go IKØRS
+...KØRS
+.kp on
+:FED.
+Kørsel
+:SKRSLUT.
+.br
+1) Maks. km-stand :SKRSLUT.&ANTALKM.:SWISS8.
+km ved kontraktens udløb
+.br
+2) Overkørte kilometer excl. evt. service afregnes
+med kr.:SKRSLUT. &OVERKM.:SWISS8.
+excl. moms pr. kilometer efter leasingperiodens udløb.
+.sp
+.kp off
+...IKØRS
+.kp on
+:FED.
+Sikkerheder
+:SKRSLUT.
+.br
+Sikkerheder (depositum, pant eller lign.) stillet af leasingtager i
+forbindelse med indgåelsen af nærværende leasingaftale tjener til sikkerhed
+for ethvert mellemværende, leasingtager måtte have med leasinggiver.
+.sp
+.kp off
+.***TEST PÅ SIKKERHED******************************************************
+.if &L'&DEPOBEL > 0
+.th .go SIK
+.el .go USIK
+...SIK
+.kp on
+:FED.
+Sikkerhed v/leasingtager
+:SKRSLUT.
+.br
+Det til enhver tid indestående depositum hos leasinggiver.
+.sp
+.kp off
+...USIK
+.***TEST PÅ KAUTIONISTER***************************************************
+.if &L'&KAUKNDNR01 > 0
+.th .go KAU
+.el .go UKAU
+...KAU
+.tp 77mm 150mm
+.kp on
+:FED.
+Kautionist(er)
+:SKRSLUT.
+.br
+:SKRSLUT.
+&KAUNAVN01 ¤&KAUTYP01 ¤&KAUKNDNR01
+.br
+.if &L'&KAUKNDNR02 > 0
+.th &KAUNAVN02 ¤&KAUTYP02 ¤&KAUKNDNR02
+.th .br
+.if &L'&KAUKNDNR03 > 0
+.th &KAUNAVN03 ¤&KAUTYP03 ¤&KAUKNDNR03
+.th .br
+.if &L'&KAUKNDNR04 > 0
+.th &KAUNAVN04 ¤&KAUTYP04 ¤&KAUKNDNR04
+.th .br
+.if &L'&KAUKNDNR05 > 0
+.th &KAUNAVN05 ¤&KAUTYP05 ¤&KAUKNDNR05
+.sp
+.kp off
+...UKAU
+.kp on
+:SWISS8.
+:FED.
+Forsikring
+:SKRSLUT.
+.br
+Jf. §11 har leasingtager tegnet forsikring i:
+:SKRSLUT.
+&FORS1.
+:SWISS8.
+.sp
+Leasingtager tiltræder ved sin underskrift, at forsikringsselskabet
+anmodes om at notere panthaverdeklaration i overensstemmelse
+med gældende vilkår, og omkostningerne hertil andrager pt.
+kr.:SKRSLUT. &PANTHGEB.:SWISS8.
++ moms, som opkræves på 1. faktura.
+.sp
+Leasingtager meddeler i forbindelse med underskriften af leasingaftalen
+samtykke til, at kreditor og det til enhver tid værende forsikringsselskab
+må udveksle alle typer oplysninger (incl. CPR.nr./CVR.nr.) om
+forsikringsforholdet, herunder bortfald af kaskodækning og eventuelle
+præmierestancer.
+.sp
+.kp off

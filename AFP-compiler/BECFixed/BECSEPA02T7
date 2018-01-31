@@ -1,0 +1,61 @@
+.kp on
+:SWISS10.
+:FED.
+.of 7mm
+17.¤¤Vederlag for &BANKNAVN.s ydelser
+.of
+.sp 3mm
+:SKRSLUT.
+:SWISS8.
+:KURSIV.
+17.1¤¤Priser
+.br
+:SKRSLUT.
+:SWISS8.
+Priserne fremgår af &BANKNAVN.s gældende prisliste.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+18.¤¤Ændring af debitorreglerne
+.sp 3mm
+:SKRSLUT.
+:SWISS8.
+:KURSIV.
+18.1¤¤Varsling af ændringer
+.br
+:SKRSLUT.
+Ændringer i Generelle regler for debitorer i SEPA Direct Debit
+(B2B/Erhverv), som er til ugunst for debitor, kan ske med 2
+måneders varsel. Øvrige ændringer kan ske uden forudgående varsel. Debitor
+vil få besked om ændringer fx via e-mail, &WEBSYSNAVN. eller post.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+18.2¤¤Godkendelse af ændringer
+:SKRSLUT.
+.br
+Debitor anses for at have godkendt varslede ændringer, medmindre debitor
+meddeler &BANKNAVN., at debitor ikke ønsker at være bundet af de nye
+vilkår. I så fald anses debitor for at have opsagt tilslutningsaftalen
+senest med virkning fra det tidspunkt, hvor ændringerne træder i kraft.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+19.¤¤Lovvalg, værneting og tvister
+.sp 3mm
+:SKRSLUT.
+:SWISS8.
+De Generelle regler for SEPA Direct Debit (B2B/Erhverv) er undergivet
+dansk ret.
+.sp 3mm
+.kp off
+.kp on
+Tvister kan indbringes for de ordinære domstole med &BANKNAVN.s
+hjemting som værneting, medmindre debitor har aftalt andet med &BANKNAVN..
+.sp 5mm
+.kp off

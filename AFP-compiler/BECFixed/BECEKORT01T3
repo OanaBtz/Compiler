@@ -1,0 +1,314 @@
+.tp 5mm
+.**************************************************************************
+.kp on
+.hy off
+:SWISS10.
+:FED.
+Debitorregler for Elektronisk indbetalingskort
+:SKRSLUT.
+.sp 5mm
+.hy on
+:SWISS10.
+:FED.
+1. Hvad er Elektronisk indbetalingskort?
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+Elektronisk indbetalingskort er et indbetalingskort fra en
+kreditor, som kunden modtager i &WEBSYSNAVN.. Det indeholder de
+samme oplysninger som et indbetalingskort på papir. Elektronisk
+indbetalingskort kan kun betales i &WEBSYSNAVN..
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+2. Definitioner
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+:FED.
+2.1 Bankdag
+:SKRSLUT.
+.br
+Bankdage er alle dage, undtagen lørdage, søn- og helligdage,
+fredag efter Kristi himmelfartsdag, grundlovsdag, juleaftensdag
+og nytårsaftensdag.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.2 Betalingsdag
+:SKRSLUT.
+.br
+Betalingsdagen er den dag, hvor beløbet hæves på kundens konto. Betalinger
+bliver kun gennemført på bankdage.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.3 Indbetalingskort
+:SKRSLUT.
+.br
+Med indbetalingskort forstås indbetalingskort fra det fælles
+indbetalingssystem samt giroindbetalingskort.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.4 &NETS.
+:SKRSLUT.
+.br
+&NETS. Denmark A/S, CVR-nr. 20 01 61 75, er det selskab, der indgår
+aftale med kreditor om Elektronisk indbetalingskort.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.5 Tilslutningsaftale om Elektronisk indbetalingskort
+:SKRSLUT.
+.br
+Tilslutningsaftalen om Elektronisk indbetalingskort er en aftale
+mellem kunden og &BANKNAVN. om, at kunden kan modtage
+indbetalingskort elektronisk i &WEBSYSNAVN..
+.sp 5mm
+.kp off
+.kp on
+.hy off
+:SWISS10.
+:FED.
+.of 5mm
+3.¤Kundens tilslutning til modtagelse af Elektronisk indbetalingskort
+:SKRSLUT.
+.of
+.hy on
+.sp 3mm
+:SWISS8.
+:FED.
+3.1 Tilslutningsaftale om Elektronisk indbetalingskort
+:SKRSLUT.
+.br
+Hvis kunden ønsker at modtage elektroniske indbetalingskort,
+skal kunden indgå en tilslutningsaftale om Elektronisk indbetalingskort
+med &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+Kunden accepterer ved tilslutningen, at &BANKNAVN. videregiver
+kundens navn, kundens adresse og kundens CPR-nr. (for virksomheder
+CVR-nr.) til &NETS.. &NETS. anvender udelukkende disse informationer
+til identifikation af kunden som den korrekte modtager
+af elektroniske indbetalingskort. &NETS. videregiver ikke kundens
+CPR-nummer til kreditor eller til andre.
+.sp 3mm
+.kp off
+.kp on
+Kunden skal betale indbetalingskort modtaget på papir, indtil kunden
+modtager dem elektronisk.
+.sp 3mm
+.kp off
+.kp on
+Hvis kunden på et senere tidspunkt ønsker at modtage indbetalingskort
+på papir, kan kunden opsige aftalen med &BANKNAVN. jf. pkt. 6.1.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+3.2 Kundens forpligtelser
+:SKRSLUT.
+.br
+Når kunden indgår en tilslutningsaftale om Elektronisk indbetalingskort,
+forpligter kunden sig til at overholde disse regler.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+3.3 Generel tilmelding af kreditorer
+:SKRSLUT.
+.br
+Kunden kan foretage en generel tilmelding til Elektronisk
+indbetalingskort.
+.sp 3mm
+.kp off
+.kp on
+En generel tilmelding betyder, at kunden kan modtage elektroniske
+indbetalingskort fra de kreditorer, der sender elektroniske
+indbetalingskort.
+.sp 3mm
+.kp off
+.kp on
+Kunden skal være opmærksom på, at kunden kun kan modtage
+elektroniske indbetalingskort fra kreditorer, der udsender
+indbetalingskort gennem &NETS..
+.sp 3mm
+.kp off
+.kp on
+Selvom kunden har foretaget en generel tilmelding, kan
+kunden modtage indbetalingskort på papir fra en kreditor, der
+bruger Elektronisk indbetalingskort. Kundens generelle tilmelding
+indebærer, at &BANKNAVN. kan vælge at foretage en specifik
+tilmelding på denne kreditor i forbindelse med, at kunden
+gennemfører betalingen i &WEBSYSNAVN.en.
+.sp 3mm
+Det vil fremgå i kundens &WEBSYSNAVN., hvilke kreditorer, der
+er tilmeldt specifikt.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+3.4 Specifik tilmelding af kreditorer
+:SKRSLUT.
+.br
+Når kunden har indgået en tilslutningsaftale om Elektronisk
+indbetalingskort, kan kunden enkeltvis tilmelde de kreditorer, som
+kunden ønsker at modtage elektroniske indbetalingskort
+fra. Hvis kunden ikke samtidig har oprettet en generel
+tilmelding til Elektronisk indbetalingskort, vil kunden
+kun modtage elektroniske indbetalingskort fra de
+kreditorer, som kunden selv har valgt.
+.sp 3mm
+.kp off
+.kp on
+En specifik  tilmelding kræver oplysning om følgende
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.brHvis det undtagelsesvis ikke er muligt at sende elektroniskeindbetalingskort til kunden, sender &NETS. et indbetalingskort påpapir, hvis kundens kreditor ønsker dette..sp 5mm.kp off.kp on:SWISS10.:FED.4. Modtagelse af Elektronisk indbetalingskort:SKRSLUT..sp 3mm:SWISS8.:FED.4.1 Modtagelse:SKRSLUT..brKunden kan se i &WEBSYSNAVN., når kunden har modtaget et elektroniskindbetalingskort. Kunden vil modtage besked i selve &WEBSYSNAVN.ensamt uden for &WEBSYSNAVN.en i form af e-mail, SMS eller lignendeafhængig af, hvilken adviseringsmåde kunden har af
+talt med &BANKNAVN...sp 3mm.kp off.kp on:FED.4.2 Opbevaring:
+SKRSLUT..brKunden vil som minimum have adgang til Elektronisk ind
+betalingskorti &WEBSYSNAVN. i den måned, h
+vor det
+ elektr
+oniske
+indbetali
+ngsko
+rt har sidste rettidige betalingsdag og deeft
+erfølgend
+e 12 må
+neder..s
+p 3mm
+.kp off.kp onH
+vis kunde
+n h
+ar behov for at opbevare oplysningerne fra elektroniskeindbetalingsk
+ort i en længere periode, end det er muligti &WEBSYSNAVN.en, kan &
+BANKNAVN. oplyse, hvilke mulighederkunden har for at gemme eller 
+udskrive elektroniskeindbetalingskort. Kunden kan også få oplyst, hvor
+dan kun
+den ska
+l forh
+oldes
+ig, hvis kunde
+n opsiger
+ ti
+lslutningen til &WEBSYSNAVN. jf. pkt. 7.1..sp 3mm.kp off.kp on:FED.
+4.3 Papirkopi:SKRSLUT..brKunden kan bestille en p
+apirkopi af et elektroniskindbetalingskort. Det vil frem
+gå af kopien, at indbetal
+ingskor
+tet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+tidligere har været fremsendt elektronisk..sp 3mm.kp off.kp onKopien kan bestilles i det år, der er angivet som sidste rettidigebetalingsdag på indbetalingskortet og de efterfølgende 5 år..sp 3mm.kp off.kp onKunden kan få oplyst prisen for bestilling af en kopi i &BANKNAVN...sp 5mm.kp off.kp on:SWISS10.:FED.5. Gennemførelse af betalinger:SKRSLUT..sp 3mm:SWISS8.:FED.5.1 Kundens godkendelse:SKRSLUT..brBetalingen af Elektronisk indbetalingskort gennemføresførst, når kunden aktivt har godkendt betalingen i &WEBSYSNAVN...sp 3mm.kp off.kp on:FED.5.2 Tidspunkt for gennemførelse af betalinger:
+SKRSLUT
+..brHvi
+s kund
+en godkender et elektronisk indbetalingskort med detindhold, som k
+reditor har angivet, vil betalingen blive gennemførtpå den a
+ngivne 
+betalin
+gsdag 
+og med det anførte beløb..sp 3mm.kp off.kp onUanset kreditors angiv
+else af
+ beløb 
+og bet
+alingsdag
+, kan
+ kundenændre betalingsdag og b
+eløb i &W
+EBSYSNA
+VN., ind
+en ku
+nden godkenderbetalinge
+n..sp 3mm
+.kp
+ off.kp on:FED.5.3 Ansvar for kundens ændringer i beta
+lingsoplysningerne:SKRSLUT..brHvis kunden ændrer i de betalingso
+plysnin
+ger, so
+m kred
+itor 
+harangivet i et elektronisk indbetalingskort 
+eller hel
+t u
+ndlader at
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+betale, er dette alene et mellemværende mellem kunden ogkreditor. Hverken &BANKNAVN. eller &NETS. påtagersig noget ansvar i den forbindelse..sp 3mm.kp off.kp on:FED.5.4 Betaling og kvittering:SKRSLUT..brKunden kan bruge en kontoudskrift, hvoraf betalingen fremgår,som kvittering for gennemført betaling..sp 3mm.kp off
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+.*************** GENEREL OPSÆTNING ****************
+.ti ¤ 05
+:COUR10.
+.fo left
+.**************************************************************************
+.* Adressehovede
+.da ADR 25mm 50mm width 75mm
+.* Reference øverst til højre
+.da REF 126.45mm 61.9mm
+.**************************************************************************
+.ar ADR on
+:COUR10.
+Tinglysningsretten
+.br
+Majsmarken 5
+.br
+9500 Hobro
+.ar off
+.**************************************************************************
+.ar REF on
+:COUR8.
+.tp 24mm
+.if &L'&GENEKSP > 0
+.th Reference:  ¤&GENEKSP
+.if &L'&GENEMAIL > 0
+.th .br
+.th Mail: ¤&GENEMAIL
+.br
+Depotnr.: ¤&DEPOTNR
+.br
+Effektløbenr.: ¤&EFFLBNR
+:SKRSLUT.
+.ar off
+.***********************************************************************

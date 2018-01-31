@@ -1,0 +1,8 @@
+.** Dette P-afsnit skal kun bruges hvis I har rykkerbreve med
+.** påtrykt FI-kort.
+.**
+.** Det indeholder parametre til OCR-linien, som er den maskinlæsbare
+.** linie nederst på FI-Kortet. De skal skrives med fonten OCRB10
+.** For udskrivning af OCR-linien se BEC1810OCR
+.**
+.** Regnestykket er beregnet til datoen på FI-kortet på formen dd.mm.åå.

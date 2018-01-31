@@ -1,0 +1,33 @@
+.***** HER TESTES PÄ OM KONTOHAVER ER ÄLDRE END 21 ÄR *********************
+.su on
+.if x&paar > x&maxaar
+.th .go FEJL1
+.if x&paar < x&maxaar
+.th .go OK
+.***** HER TESTES PÄ ON KONTOHAVER ER YNGRE END 14 ÄR *********************
+...OK
+.if x&paar < x&minaar
+.th .go FEJL1
+.if x&paar > x&minaar
+.th .go OK1
+.***** HER TESTES OM ÄRSTAL ER RIGTIGT MEN AT MÄNEDERNE GÄR AT KONTOHAVER *
+.***** ER FYLDT 14 ÄR *****************************************************
+.if x&pmdr < x&fmdr
+.th .go FEJL1
+.if x&pmdr > x&fmdr
+.th .go OK1
+.if x&pdag < x&fdag
+.th .go FEJL1
+.el .go OK1
+.***** HER AFSLUTTES TESTEN PÄ UDLÄBSDATOEN *******************************
+...FEJL1
+.mg/T/ UdlÄbsdatoen skal vÄre mellem barnets 14 - 21 Är./
+...OK1
+.***** HER TESTES PÄ OM OPRETTELSESÄRET ER INDEN UDLÄBET AF BARNETS 14. ÄR*
+.if x&minaar < x&kaar
+.th .go FEJL2
+.el .go OK2
+.***** HER AFSLUTTES TESTEN PÄ OPRETTELSESÄRET ****************************
+...FEJL2
+.mg/T/ Opr.Är, inden udg. af det kalenderÄr hvori barnet bliver 14 Är./
+...OK2

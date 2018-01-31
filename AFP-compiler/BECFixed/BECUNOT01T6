@@ -1,0 +1,89 @@
+.br
+Handelsbeløbet efter omkostninger bedes indsat på
+.sp 2mm
+.tp 4mm 19mm
+¤Reg. nr.
+:SKRSLUT.
+:COUR10.
+.ct ¤&reg1.
+:SKRSLUT.
+:SWISS8.
+.br
+¤Konto nr.
+:SKRSLUT.
+:COUR10.
+.ct ¤&kto1.
+:SKRSLUT.
+:SWISS8.
+.sp 7mm
+...HAT6E
+.******************
+Der modtages en fondsnota, når beløbet er hævet på pensionskontoen, og
+værdipapirerne/beviset er deponeret i pensionsdepotet.
+.sp 2mm
+Den samlede værdi af kundens kapital- og ratepensioner i &BANKNAVN. er
+opgjort til:
+.tp 4mm
+.sp 2mm
+:SKRSLUT.
+:COUR10.
+¤:VS.&GENBELØB28.
+:SKRSLUT.
+:SWISS8.
+den
+:SKRSLUT.
+:COUR10.
+&DATOTIL..
+:SKRSLUT.
+.ar off
+.**************************
+.***********************************************************************
+.da AFTALE   21mm   93mm width 170mm
+.***********************************************************************
+.ar AFTALE on
+:SWISS8.
+Køb af:
+.sp 3mm
+.tp 4mm
+.******************
+.if &L'&BECNOM > 0
+.th ¤Nominelt:
+.******************
+.if &L'&STKDEC > 0
+.th ¤Stk:
+.******************
+.if &L'&STKHEL > 0
+.th ¤Stk:
+.sp 3mm
+¤Fondskode:
+.sp 3mm
+¤Kurs:
+.sp 3mm
+¤Kursværdi:
+.sp 7mm
+Beløbet plus bankens omkostninger hæves fra
+.sp 2mm
+.tp 4mm
+:SKRSLUT.
+.******************
+.if &U'X&GENVALG7 eq XK
+.th ¤Kapitalpension &LANGKTONR.
+.******************
+.if &U'X&GENVALG7 eq XR
+.th ¤Ratepension &LANGKTONR.
+.******************
+:SKRSLUT.
+.sp 2mm
+:SWISS8.
+¤Fysisk værdipapir/bevis m.v. deponeres i depot nr. &ÅCONT
+:SKRSLUT.
+&DEPOTNR.
+:SKRSLUT.
+:SWISS8.
+.sp 6.5mm
+.******************
+.if &L'&GENKTONR > 0
+.th .go HAT6
+.el .go HAT6E
+.******************
+...HAT6

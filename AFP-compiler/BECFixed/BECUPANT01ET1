@@ -1,0 +1,244 @@
+.**************************************************************************
+.da UNDERP1 25mm 60mm width 85mm
+.**************************************************************************
+.tp 14mm
+.ar UNDERP1 on
+.if &L'&KUN01KNDNR = 0
+.th .go UDOM01
+&KUN01NAVN
+.br
+.if &num01 = 00
+.th CVR-nr. ¤&KUN01KNDNR
+.th .sp 5mm
+.th .go UDOM01
+.if &num01 > 31
+.th Kundenr. ¤&KUN01KNDNR.
+.el CPR-nr. ¤&KUN01KNDNR.
+.sp 5mm
+...UDOM01
+.********
+.if &L'&KUN02KNDNR = 0
+.th .go UDOM02
+&KUN02NAVN
+.br
+.if &num02 = 00
+.th CVR-nr. ¤&KUN02KNDNR
+.th .sp 5mm
+.th .go UDOM02
+.if &num02 > 31
+.th Kundenr. ¤&KUN02KNDNR.
+.el CPR-nr. ¤&KUN02KNDNR.
+.sp 5mm
+...UDOM02
+.********
+.if &L'&KUN03KNDNR = 0
+.th .go UDOM03
+&KUN03NAVN
+.br
+.if &num03 = 00
+.th CVR-nr. ¤&KUN03KNDNR
+.th .sp 5mm
+.th .go UDOM03
+.if &num03 > 31
+.th Kundenr. ¤&KUN03KNDNR.
+.el CPR-nr. ¤&KUN03KNDNR.
+.sp 5mm
+...UDOM03
+.********
+.if &L'&KUN04KNDNR = 0
+.th .go UDOM04
+&KUN04NAVN
+.br
+.if &num04 = 00
+.th CVR-nr. ¤&KUN04KNDNR
+.th .sp 5mm
+.th .go UDOM04
+.if &num04 > 31
+.th Kundenr. ¤&KUN04KNDNR.
+.el CPR-nr. ¤&KUN04KNDNR.
+.sp 5mm
+...UDOM04
+.********
+.if &L'&KUN05KNDNR = 0
+.th .go UDOM05
+&KUN05NAVN
+.br
+.if &num05 = 00
+.th CVR-nr. ¤&KUN05KNDNR
+.th .sp 5mm
+.th .go UDOM05
+.if &num05 > 31
+.th Kundenr. ¤&KUN05KNDNR.
+.el CPR-nr. ¤&KUN05KNDNR.
+.sp 5mm
+...UDOM05
+.********
+.if &L'&KUN06KNDNR = 0
+.th .go UDOM06
+&KUN06NAVN
+.br
+.if &num06 = 00
+.th CVR-nr. ¤&KUN06KNDNR
+.th .sp 5mm
+.th .go UDOM06
+.if &num06 > 31
+.th Kundenr. ¤&KUN06KNDNR.
+.el CPR-nr. ¤&KUN06KNDNR.
+.sp 5mm
+...UDOM06
+.********
+.if &L'&KUN07KNDNR = 0
+.th .go UDOM07
+&KUN07NAVN
+.br
+.if &num07 = 00
+.th CVR-nr. ¤&KUN07KNDNR
+.th .sp 5mm
+.th .go UDOM07
+.if &num07 > 31
+.th Kundenr. ¤&KUN07KNDNR.
+.el CPR-nr. ¤&KUN07KNDNR.
+.sp 5mm
+...UDOM07
+.********
+.if &L'&KUN08KNDNR = 0
+.th .go UDOM08
+&KUN08NAVN
+.br
+.if &num08 = 00
+.th CVR-nr. ¤&KUN08KNDNR
+.th .sp 5mm
+.th .go UDOM08
+.if &num08 > 31
+.th Kundenr. ¤&KUN08KNDNR.
+.el CPR-nr. ¤&KUN08KNDNR.
+.sp 5mm
+...UDOM08
+.**********
+.if &L'&KUN09KNDNR = 0
+.th .go UDOM09
+&KUN09NAVN
+.br
+.if &num09 = 00
+.th CVR-nr. ¤&KUN09KNDNR
+.th .sp 5mm
+.th .go UDOM09
+.if &num09 > 31
+.th Kundenr. ¤&KUN09KNDNR.
+.el CPR-nr. ¤&KUN09KNDNR.
+.sp 5mm
+...UDOM09
+.******
+.if &L'&KUN10KNDNR = 0
+.th .go UDOM10
+&KUN10NAVN
+.br
+.if &num10 = 00
+.th CVR-nr. ¤&KUN10KNDNR
+.th .sp 5mm
+.th .go UDOM10
+.if &num10 > 31
+.th Kundenr. ¤&KUN10KNDNR.
+.el CPR-nr. ¤&KUN10KNDNR.
+.sp 5mm
+...UDOM10
+.********
+.if &L'&KUN11KNDNR = 0
+.th .go UDOM11
+&KUN11NAVN
+.br
+.if &num11 = 00
+.th CVR-nr. ¤&KUN11KNDNR
+.th .sp 5mm
+.th .go UDOM11
+.if &num11 > 31
+.th Kundenr. ¤&KUN11KNDNR.
+.el CPR-nr. ¤&KUN11KNDNR.
+.sp 5mm
+...UDOM11
+.********
+.if &L'&KUN12KNDNR = 0
+.th .go UDOM12
+&KUN12NAVN
+.br
+.if &num12 = 00
+.th CVR-nr. ¤&KUN12KNDNR
+.th .sp 5mm
+.th .go UDOM12
+.if &num12 > 31
+.th Kundenr. ¤&KUN12KNDNR.
+.el CPR-nr. ¤&KUN12KNDNR.
+.sp 5mm
+...UDOM12
+.********
+.if &L'&KUN13KNDNR = 0
+.th .go UDOM13
+&KUN13NAVN
+.br
+.if &num13 = 00
+.th CVR-nr. ¤&KUN13KNDNR
+.th .sp 5mm
+.th .go UDOM13
+.if &num13 > 31
+.th Kundenr. ¤&KUN13KNDNR.
+.el CPR-nr. ¤&KUN13KNDNR.
+.sp 5mm
+...UDOM13
+.********
+.if &L'&KUN14KNDNR = 0
+.th .go UDOM14
+&KUN14NAVN
+.br
+.if &num14 = 00
+.th CVR-nr. ¤&KUN14KNDNR
+.th .sp 5mm
+.th .go UDOM14
+.if &num14 > 31
+.th Kundenr. ¤&KUN14KNDNR.
+.el CPR-nr. ¤&KUN14KNDNR.
+.sp 5mm
+...UDOM14
+.********
+.if &L'&KUN15KNDNR = 0
+.th .go UDOM15
+&KUN15NAVN
+.br
+.if &num15 = 00
+.th CVR-nr. ¤&KUN15KNDNR
+.th .sp 5mm
+.th .go UDOM15
+.if &num15 > 31
+.th Kundenr. ¤&KUN15KNDNR.
+.el CPR-nr. ¤&KUN15KNDNR.
+.sp 5mm
+...UDOM15
+.********
+.if &L'&KUN16KNDNR = 0
+.th .go UDOM16
+&KUN16NAVN
+.br
+.if &num16 = 00
+.th CVR-nr. ¤&KUN16KNDNR
+.th .sp 5mm
+.th .go UDOM16
+.if &num16 > 31
+.th Kundenr. ¤&KUN16KNDNR.
+.el CPR-nr. ¤&KUN16KNDNR.
+.sp 5mm
+...UDOM16
+.********
+.if &L'&KUN17KNDNR = 0
+.th .go UDOM17
+&KUN17NAVN
+.br
+.if &num17 = 00
+.th CVR-nr. ¤&KUN17KNDNR
+.th .sp 5mm
+.th .go UDOM17
+.if &num17 > 31
+.th Kundenr. ¤&KUN17KNDNR.
+.el CPR-nr. ¤&KUN17KNDNR.
+.sp 5mm
+...UDOM17
+.ar off
+.********

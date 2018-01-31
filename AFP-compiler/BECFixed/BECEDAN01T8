@@ -1,0 +1,15 @@
+.*******************************************************
+.da KUNDEUND   25mm 222mm width 80mm
+.da PENGEUND   110mm 222mm width 80mm
+.*******************************************************
+.ar KUNDEUND on
+:SKRSLUT.
+:SKRSLUT.
+.ce &NAVN
+.ar off
+.*******************************************************
+.ar PENGEUND on
+:SKRSLUT.
+:SKRSLUT.
+.ce &BANKNAVN
+.ar off

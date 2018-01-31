@@ -1,0 +1,226 @@
+.**************************************************************************
+.if &KAUANTAL = 0
+.th .go KAUSLUT
+.kp on
+.sp 14mm
+:FED.
+Underskrift(er) som kautionist(er)
+:SKRSLUT.
+.sp 3mm
+Jeg (kautionisten) bekræfter samtidig, at &BANKNAVN har gennemgået
+betingelserne for og konsekvenserne af kautionsforpligtelsen. Jeg er
+herunder gjort bekendt med, at &BANKNAVN kan kræve, at jeg straks indfrier
+den del af lånet/kreditten, jeg har påtaget mig at kautionere for,
+hvis debitor ikke opfylder sine betalingsforpligtelser. Jeg er klar
+over, at det ikke kun er debitors manglende betaling (restancen), som
+&BANKNAVN kan kræve. Jeg er indforstået med, at det er hele
+kautionsforpligtelsen samt renter heraf, der forfalder til betaling, hvis
+debitor ikke betaler en ydelse til tiden.
+.sp 14mm
+.tp 5mm 50mm
+.*1. KAUTIONIST ***
+.hr tynd 5mm 45mm 50mm 170mm
+.br
+¤Dato ¤&KAU01NAVN
+.kp off
+.kp on
+.*2. KAUTIONIST ***
+.if &KAUANTAL ge 2
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU02NAVN
+.kp off
+.kp on
+.*3. KAUTIONIST ***
+.if &KAUANTAL ge 3
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU03NAVN
+.kp off
+.kp on
+.*4. KAUTIONIST ***
+.if &KAUANTAL ge 4
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU04NAVN
+.kp off
+.kp on
+.*5. KAUTIONIST ***
+.if &KAUANTAL ge 5
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU05NAVN
+.kp off
+.kp on
+.*6. KAUTIONIST ***
+.if &KAUANTAL ge 6
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU06NAVN
+.kp off
+.kp on
+.*7. KAUTIONIST ***
+.if &KAUANTAL ge 7
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU07NAVN
+.kp off
+.kp on
+.*8. KAUTIONIST ***
+.if &KAUANTAL ge 8
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU08NAVN
+.kp off
+.kp on
+.*9. KAUTIONIST ***
+.if &KAUANTAL ge 9
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU09NAVN
+.kp off
+.kp on
+.*10. KAUTIONIST ***
+.if &KAUANTAL ge 10
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU10NAVN
+.kp off
+.kp on
+.*11. KAUTIONIST ***
+.if &KAUANTAL ge 11
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU11NAVN
+.kp off
+.kp on
+.*12. KAUTIONIST ***
+.if &KAUANTAL ge 12
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU12NAVN
+.kp off
+.kp on
+.*13. KAUTIONIST ***
+.if &KAUANTAL ge 13
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU13NAVN
+.kp off
+.kp on
+.*14. KAUTIONIST ***
+.if &KAUANTAL ge 14
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU14NAVN
+.kp off
+.kp on
+.*15. KAUTIONIST ***
+.if &KAUANTAL ge 15
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU15NAVN
+.kp off
+.kp on
+.*16. KAUTIONIST ***
+.if &KAUANTAL ge 16
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU16NAVN
+.kp off
+.kp on
+.*17. KAUTIONIST ***
+.if &KAUANTAL ge 17
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU17NAVN
+.kp off
+.kp on
+.*18. KAUTIONIST ***
+.if &KAUANTAL ge 18
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU18NAVN
+.kp off
+.kp on
+.*19. KAUTIONIST ***
+.if &KAUANTAL ge 19
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU19NAVN
+.kp off
+.kp on
+.*20. KAUTIONIST ***
+.if &KAUANTAL ge 20
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU20NAVN
+.kp off
+.kp on
+.*21. KAUTIONIST ***
+.if &KAUANTAL ge 21
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU21NAVN
+.kp off
+.kp on
+.*22. KAUTIONIST ***
+.if &KAUANTAL ge 22
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU22NAVN
+.kp off
+.kp on
+.*23. KAUTIONIST ***
+.if &KAUANTAL ge 23
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU23NAVN
+.kp off
+.kp on
+.*24. KAUTIONIST ***
+.if &KAUANTAL ge 24
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU24NAVN
+.kp off
+.kp on
+.*25. KAUTIONIST ***
+.if &KAUANTAL ge 25
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU25NAVN
+.kp off
+.kp on
+.*26. KAUTIONIST ***
+.if &KAUANTAL ge 26
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU26NAVN
+.kp off
+...KAUSLUT

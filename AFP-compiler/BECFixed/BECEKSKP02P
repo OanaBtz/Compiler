@@ -1,0 +1,63 @@
+.*Lige et par tests
+.*******FØDSELSDATO****
+.if &L'&FØDSELSDT > 0
+.th
+.el .mg/T/Feltet fødselsdato skal udfyldes/
+.*******FØDESTED*******
+.if &L'&FØDESTED > 0
+.th
+.el .mg/T/Feltet fødeland skal udfyldes/
+.*******STATBSKAB1*******
+.if &L'&STATBSKAB1 > 0
+.th
+.el .mg/T/Feltet statsborgerskab 1 skal udfyldes/
+.if &L'&STATBSKAB2 > 0
+.an &L'&STATBSKAB1 = 0
+.th .mg/T/Feltet statsborgerskab 1 skal udfyldes/
+.if &L'&STATBSKAB3 > 0
+.an &L'&STATBSKAB1 = 0
+.th .mg/T/Feltet statsborgerskab 1 skal udfyldes/
+.*******STATBSKAB2*******
+.if &L'&STATBSKAB3 > 0
+.an &L'&STATBSKAB2 = 0
+.th .mg/T/Feltet statsborgerskab 2 skal udfyldes/
+.*******SKATPLA11******* sammenhængsvalidering **********
+.*******SKATIDNR01*******
+.if &L'&SKATIDNR01 > 0
+.an &L'&SKATPLA11 = 0
+.th .mg/T/Feltet skattemæssigt hjemmehørende (1) skal udfyldes/
+.*******SKATPLA12******* sammenhængsvalidering **********
+.*******SKATIDNR02*******
+.if &L'&SKATIDNR02 > 0
+.an &L'&SKATPLA12 = 0
+.th .mg/T/Feltet skattemæssigt hjemmehørende (2) skal udfyldes/
+.*******SKATPLA13******* sammenhængsvalidering **********
+.*******SKATIDNR03*******
+.if &L'&SKATIDNR03 > 0
+.an &L'&SKATPLA13 = 0
+.th .mg/T/Feltet skattemæssigt hjemmehørende (3) skal udfyldes/
+.*******SKATPLA14******* sammenhængsvalidering **********
+.*******SKATIDNR04*******
+.if &L'&SKATIDNR04 > 0
+.an &L'&SKATPLA14 = 0
+.th .mg/T/Feltet skattemæssigt hjemmehørende (4) skal udfyldes/
+.*******SKATPLA15******* sammenhængsvalidering **********
+.*******SKATIDNR05*******
+.if &L'&SKATIDNR05 > 0
+.an &L'&SKATPLA15 = 0
+.th .mg/T/Feltet skattemæssigt hjemmehørende (5) skal udfyldes/
+.*******SKATPLA16******* sammenhængsvalidering **********
+.*******SKATIDNR06*******
+.if &L'&SKATIDNR06 > 0
+.an &L'&SKATPLA16 = 0
+.th .mg/T/Feltet skattemæssigt hjemmehørende (6) skal udfyldes/
+.*******SKATPLA17******* sammenhængsvalidering **********
+.*******SKATIDNR07*******
+.if &L'&SKATIDNR07 > 0
+.an &L'&SKATPLA17 = 0
+.th .mg/T/Feltet skattemæssigt hjemmehørende (7) skal udfyldes/
+.*******SKATPLA18******* sammenhængsvalidering **********
+.*******SKATIDNR08*******
+.if &L'&SKATIDNR08 > 0
+.an &L'&SKATPLA18 = 0
+.th .mg/T/Feltet skattemæssigt hjemmehørende (8) skal udfyldes/

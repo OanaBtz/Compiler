@@ -1,0 +1,263 @@
+.**VILKÅR *****************************************************************
+1. Definitioner
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+:FED.
+1.1 Kunden
+:SKRSLUT.
+.sp 3mm
+Kunden er den person, som indgår aftale med &BANKNAVN. om brug af
+&WEBSYSNAVN.. Tilslutningen sker efter individuel vurdering af
+kundeforholdet, og &BANKNAVN. er berettiget til at afvise at indgå aftale
+med en kunde.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+1.2 &WEBSYSNAVN.
+:SKRSLUT.
+.sp 3mm
+&WEBSYSNAVN. er en betalingstjeneste, der er underlagt reglerne i Lov om
+betalingstjenester og elektroniske penge. Loven finder også
+anvendelse på betalingstransaktioner, der gennemføres
+på kundens betalingskonti i &WEBSYSNAVN.. &WEBSYSNAVN. giver også
+kunden mulighed for elektronisk at indgå og godkende andre
+aftaler med &BANKNAVN.. Elektronisk indgåede og godkendte aftaler
+er ikke betalingstjenester, medmindre dette fremgår af den
+konkrete aftale.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+1.3 Betalingstransaktion
+:SKRSLUT.
+.sp 3mm
+En betalingstransaktion er en handling, der iværksættes af en betaler eller
+en betalingsmodtager med henblik på at indbetale, overføre eller hæve
+midler uden hensyn til eventuelle underliggende forpligtelser mellem
+betaleren og betalingsmodtageren. Dette vil eksempelvis være en ordre om
+indbetaling eller overførsel fra en betalingskonto, som afgives af kunden i
+&WEBSYSNAVN., eller af betalingsmodtager efter aftale med kunden.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+1.4 Betalingskonto
+:SKRSLUT.
+.sp 3mm
+En betalingskonto er en konto oprettet med henblik på at gennemføre
+betalingstransaktioner. Kunden kan i &WEBSYSNAVN. disponere over
+betalingskonti ved betalings- og overførselsordrer. Eksempelvis er kundens
+løn- og budgetkonto omfattet.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+1.5 Øvrige konti
+:SKRSLUT.
+.sp 3mm
+Øvrige konti er de konti, som ikke er betalingskonti, eksempelvis depoter
+eller konti, som kunden alene kan foretage forespørgsler på.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+1.6 Arbejdsdag
+:SKRSLUT.
+.sp 3mm
+Lørdage, søn- og helligdage, grundlovsdag, fredag efter Kristi
+Himmelfartsdag, juleaftensdag og nytårsaftensdag er ikke arbejdsdage.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+1.7 Personlige sikkerhedsoplysninger
+:SKRSLUT.
+.sp 3mm
+De personlige sikkerhedsoplysninger er kundens bruger-ID, adgangskode
+og nøglekoder (ved anvendelse af NemID),
+eller kundens brugernummer/CPR-nummer, selvvalgt pinkode
+og nøglekoder fra kundens NemID (ved tilslutning via &MOBSYSNAVN.).
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+2. Anvendelse af &WEBSYSNAVN.
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+:FED.
+2.1 Adgang til &WEBSYSNAVN. og sikkerhedsløsninger
+:SKRSLUT.
+.sp 3mm
+Kunden tilsluttes &WEBSYSNAVN. ved opkobling via internettet fra en
+computer med &WEBSYSNAVN.s sikkerhedsløsning,
+NemID, jf. pkt. 2.1.1. &ÅCONT
+Kunden kan endvidere tilsluttes &WEBSYSNAVN. via &MOBSYSNAVN.
+ved opkobling via internettet fra en mobil enhed (smartphone
+eller lignende) med en sikkerhedsløsning
+bestående af et brugernummer/CPR-nummer og en selvvalgt pinkode
+jf. pkt. 2.1.2.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.1.1 Adgang med NemID
+:SKRSLUT.
+.sp 3mm
+2.1.1.1 NemID består af et bruger-ID, en adgangskode og et nøglekort eller
+en anden enhed, fx en telefon, som angiver den kode (nøgle), som kunden
+skal indtaste sammen med kundens bruger-ID og adgangskode.
+.sp 3mm
+.kp off
+.kp on
+2.1.1.2 Når kunden tilsluttes &WEBSYSNAVN. via NemID, knyttes kundens
+&WEBSYSNAVN. til kundens NemID.
+.sp 3mm
+.kp off
+.kp on
+2.1.1.3 Hver gang kunden skal anvende
+&WEBSYSNAVN. kan kunden tage stilling
+til, om nøglekortet skal anvendes ved tilkobling/log on til
+&WEBSYSNAVN., eller når kunden første gang skal godkende en transaktion
+eller lignende. Kunden har også mulighed for generelt at vælge, om
+nøglekortet skal anvendes ved tilkobling/log on til &WEBSYSNAVN., eller
+første gang kunden skal godkende en transaktion eller lignende. Kunden
+kan til enhver tid ændre dette valg.
+.sp 3mm
+.kp off
+.kp on
+2.1.1.4 Kundens anvendelse af NemID i &WEBSYSNAVN. fremgår af regler for
+brug af NemID, som kunden har modtaget fra DanID A/S, og som er
+tilgængelige på www.nemid.nu. Kunden skal overholde disse regler, herunder
+reglerne for opbevaring af bruger-ID, adgangskode og nøglekort samt
+sikkerhed ved brug, både ved tilslutning til &WEBSYSNAVN. og ved
+godkendelse af transaktioner i &WEBSYSNAVN..
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.1.2 Adgang via &MOBSYSNAVN.
+:SKRSLUT.
+.sp 3mm
+2.1.2.1 Adgang via &MOBSYSNAVN. kræver, at kunden
+har en mobil enhed (smartphone eller lignende) med
+internetopkobling. Den mobile enhed skal have et
+styresystem, der understøtter den applikation, som kunden skal
+downloade for at anvende &WEBSYSNAVN. via &MOBSYSNAVN..
+De tekniske krav kan findes
+på www.tjekpc.dk. Information om de udvalgte funktioner
+og fremgangsmåden
+ved anvendelse af &MOBSYSNAVN.
+kan findes på &BANKNAVN.s
+hjemmeside.
+.sp 3mm
+.kp off
+.kp on
+2.1.2.2 Kunden skal i forvejen have adgang til &WEBSYSNAVN. ved hjælp af
+NemID og have tilmeldt funktionen i &WEBSYSNAVN..
+.sp 3mm
+.kp off
+.kp on
+2.1.2.3 Kunden skal herefter oprette en selvvalgt pinkode, der bør læres
+udenad eller opbevares utilgængeligt for andre.
+Vælg en kode, der er svær at bryde. Brug derfor ikke koder med mange ens
+tal eller andre nemme koder som fx
+fødselsdato.
+.sp 3mm
+.kp off
+.kp on
+2.1.2.4 Kunden får adgang til &MOBSYSNAVN.
+ved at indtaste brugernummer/CPR-nummer og den selvvalgte
+pinkode.
+.sp 3mm
+.kp off
+.kp on
+2.1.2.5 Brugernummer og den selvvalgte pinkode er personlige og må ikke
+overdrages til andre. Den selvvalgte pinkode bør læres
+udenad. Kunden må ikke oplyse koden til andre eller på anden måde lade
+andre få kendskab til koden. Såfremt kunden ikke lærer
+koden udenad eller ønsker at opbevare koden, skal koden opbevares
+forsvarligt. Koden må aldrig opbevares sammen med
+brugernummeret/CPR-nummeret. Reglerne for brug af kundens NemID nøglekort
+fremgår af reglerne for NemID, jf. pkt. 2.1.1.
+.sp 3mm
+.kp off
+.kp on
+2.1.2.6 Efter 3 fejlagtige indtastninger af pinkoden afbrydes
+forbindelsen, og adgangen til &MOBSYSNAVN. spærres automatisk af
+sikkerhedshensyn. Kunden kan i &WEBSYSNAVN. se dato og tidspunkt for
+spærringen.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.1.3 Generelt om anvendelse af &WEBSYSNAVN.
+:SKRSLUT.
+.sp 3mm
+2.1.3.1  Kunden godkender økonomisk bindende transaktioner i &WEBSYSNAVN.
+ved indtastning af kundens personlige sikkerhedsoplysninger.
+.sp 3mm
+.kp off
+.kp on
+2.1.3.2 Kunden kan indgå og godkende aftaler med
+&BANKNAVN. elektronisk i &WEBSYSNAVN..
+.sp 3mm
+.kp off
+.kp on
+2.1.3.3 Ved visse transaktioner og aftaler i &WEBSYSNAVN. kan
+&BANKNAVN. af sikkerhedsmæssige årsager kræve, at
+kunden ud over anvendelse af kundens personlige sikkerhedsoplysninger
+bekræfter transaktionen og kundens identitet
+via en supplerende funktion i &WEBSYSNAVN. -
+fx ved indtastning af en engangskode, der sendes via SMS til kundens
+mobiltelefon. Sådanne transaktioner vil ikke kunne foretages
+via &MOBSYSNAVN.. Oplysninger om
+begrænsninger ved visse transaktioner
+i &WEBSYSNAVN. kan fås ved henvendelse til &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+2.1.3.4 Såfremt kunden ikke har opfyldt de krav eller tilvejebringer
+den information, som kræves af den eller de supplerende
+funktioner, som &BANKNAVN. kan vælge at anvende ved visse
+transaktioner og aftaler (fx nummeret til kundens mobiltelefon),
+kan &BANKNAVN. begrænse kundens adgang til at foretage disse
+transaktioner og indgå disse aftaler i &WEBSYSNAVN..
+.sp 3mm
+.kp off
+.kp on
+2.1.3.5 Kunden kan ændre sin adgangskode og den selvvalgte pinkode
+eller oplyse nyt mobiltelefonnummer
+i &WEBSYSNAVN. i &WEBSYSNAVN.s åbningstid. Endvidere kan kunden oplyse
+nyt mobiltelefonnummer ved henvendelse til &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+2.1.3.6 Kunden kan anvende &WEBSYSNAVN.
+og dens funktioner i &WEBSYSNAVN.s
+åbningstid. &WEBSYSNAVN. kan ikke anvendes, såfremt &BANKNAVN. eller BEC
+(som er &BANKNAVN.s datacentral) inddrages i en arbejdskonflikt. Ved en
+sådan konflikts begyndelse og ophør, vil kunden hurtigst muligt blive
+orienteret herom. &WEBSYSNAVN. kan heller ikke anvendes, hvis der i øvrigt
+er tekniske driftsforstyrrelser.
+.sp 3mm
+.kp off
+.*PUNKT 2.1.9 FRA BECWEB01 (MOBIL-VERSION) IKKE MEDTAGET I DENNE AFTALE ***
+.kp on
+:FED.
+2.2 Fuldmagt
+:SKRSLUT.
+.sp 3mm
+2.2.1 Kundens adgang til &WEBSYSNAVN. er strengt personlig. Kunden
+må ikke give andre adgang til at anvende
+sin &WEBSYSNAVN.-adgang eller personlige sikkerhedsoplysninger. Kunden
+kan kun give andre
+adgang til konti m.v. omfattet af denne aftale eller af
+tillægsaftaler til denne aftale ved at give en særskilt
+fuldmagt hertil, og kun såfremt den befuldmægtigede er
+kunde i &BANKNAVN..
+.sp 3mm
+.kp off

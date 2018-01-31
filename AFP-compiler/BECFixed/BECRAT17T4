@@ -1,0 +1,150 @@
+:SWISS8.
+.da KONTOH     21mm    44mm   width  85mm
+.da ARBG      108.5mm  44mm   width  85mm
+.da PI         21mm    73mm   width  85mm
+.da CPRNR     108.5mm  73mm   width  85mm
+.da KONTONR   108.5mm  83mm   width  45mm
+.da DEPNR     151mm    83mm   width  45mm
+.da TEKST      21mm    94mm   width 170mm
+.da INDBET     21mm   107mm   width 170mm
+.*************************************
+.ar KONTOH on
+Kontohaver
+.ar off
+.***********************
+.ar PI on
+Pengeinstitut
+.ar off
+.**********************
+.ar CPRNR on
+CPR-nr.
+.ar off
+.*********************
+.ar KONTONR on
+Kontonr.
+.ar off
+.**************************
+.ar DEPNR on
+Depotnr.
+.ar off
+.**************************
+.ar TEKST on
+Undertegnede parter indgår herved aftale om oprettelse
+af ratepension (rateopsparing omfattet af
+pensionsbeskatningslovens § 15B)
+.if &L'&GENIDTO13 gt 0
+.th .ct , som erstatter kontrakt af
+.th :SKRSLUT.
+.th &GENIDTO13..
+.el .ct .
+.ar off
+.**************************
+.ar INDBET on
+Indbetalinger
+.sp
+.*** test hvilken ordning *********
+.if &L'&GENPRIFAST gt 0
+.th .go PRIFAST
+.if &L'&GENPRIENGA gt 0
+.th .go PRIENGA
+.if &L'&GENPRIOPFY gt 0
+.th .go PRIOPFY
+.el .go INDBSLUT
+.**** PRIVATORDNINGER ****
+.**** privat fast beløb ***
+...PRIFAST
+.tp 79mm 150mm
+.if x&GENLØNINDB = x1
+.th Kontohaver indbetaler et fast beløb på ¤kr pr. år.
+.th .go AA1
+Kontohaver indbetaler et fast beløb på ¤kr
+.if x&GENLØNINDB = x2
+.th pr. halvår,
+.if x&GENLØNINDB = x3
+.th pr. kvartal,
+.if x&GENLØNINDB = x4
+.th pr. måned,
+.if x&GENLØNINDB = x5
+.th pr. 14. dag,
+.if x&GENLØNINDB = x6
+.th pr. uge,
+svarende til ¤¤kr. årlig.
+...AA1
+.sp
+.tp 42mm 104mm
+.if &L'&GENKTNR1 gt 0
+.th Beløbet ¤kr. overføres første gang den ¤fra kontonr.
+.el Beløbet ¤kr. indbetales første gang den
+.sp
+...TPRISTAL
+.sp
+.**** test for pristalsregulering ************
+.tp 64mm
+.if &L'&GENPRISTAL gt 0
+.or &L'&GENPRIFRI gt 0
+.th Indbetalingen pristalreguleres årligt på grundlag af
+.el .sp
+.el .go INDBVIDR
+.if x&GENPRISTAL = x1
+.th forbrugerprisindekset.
+.th .go INDBVIDR
+.if x&GENPRISTAL = x2
+.th nettoprisindekset.
+.th .go INDBVIDR
+.if x&GENPRISTAL = x3
+.th timelønsindekset.
+.th .go INDBVIDR
+.if x&GENPRISTAL = x4
+.th lønindekset.
+.th .go INDBVIDR
+.if &L'&GENPRIFRI gt 0
+.th .ct ¤&GENPRIFRI..
+...INDBVIDR
+.sp4
+.se alder = &udaar - &faar1
+.se alder1 = &alder - 1
+Aftalen om indbetaling er gældende indtil udgangen af det
+kalenderår, hvor kontohaver fylder &alder1 år.
+.go INDBSLUT
+.** privat engangsindskud *****
+...PRIENGA
+.tp 86mm
+Kontohaver indbetaler et engangsindskud på ¤kr.
+.sp
+.tp 42mm 109mm
+.if &L'&GENKTNR1 gt 0
+.th Beløbet ¤kr. overføres fra kontonr. ¤den
+.el Beløbet ¤kr. indbetales den
+.sp
+.go INDBSLUT
+.**** privat op til opfyldningsfradraget ****
+...PRIOPFY
+Kontohaver indbetaler et beløb, der højst må udgøre det til enhver tid
+gældende opfyldningsfradrag, der i &GENMAXDATO udgør &GENMAXBEL kr.
+.br
+Beløbet reguleres hvert år.
+.sp 2.39mm
+.tp 60mm 81mm
+Første indbetaling aftales til ¤kr. og overføres
+.if x&GENLØNINDB = x1
+.th .ct ¤pr. år,
+.if x&GENLØNINDB = x2
+.th .ct ¤pr. halvår,
+.if x&GENLØNINDB = x3
+.th .ct ¤pr. kvartal,
+.if x&GENLØNINDB = x4
+.th .ct ¤pr. måned,
+.if x&GENLØNINDB = x5
+.th .ct ¤pr. 14. dag,
+.if x&GENLØNINDB = x6
+.th .ct ¤pr. uge,
+første gang den :SKRSLUT. ¤&GENDATO12
+:SWISS8.
+.if &L'&GENKTNR1 gt 0
+.th .br
+.th fra kontonr. :SKRSLUT. &regnr2 &ktonr2..
+:SWISS8.
+.sp
+...INDBSLUT
+.ar off
+.*************afsnittet fortsætter i t5 ********

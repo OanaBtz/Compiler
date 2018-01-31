@@ -1,0 +1,60 @@
+.********************AREAL-DEFINITIONER************************************
+&SDIN. leasingaftale udløber den &UDATO..
+.sp
+:FED.
+Beholde bilen
+:SKRSLUT.
+.br
+Ønsker &DU. at beholde bilen og forlænge leasingaftalen, skal &DU. kontakte
+&GENEKSP. på telefon &GENTLFNR..
+.sp
+:FED.
+Aflevere bilen
+:SKRSLUT.
+.br
+Vælger &DU. at aflevere bilen, skal det ske hos Bilsalg.dk. &SDU.
+kan finde adressen på vedlagte blanket. På
+blanketten skal &DU. oplyse, hvor og hvornår
+bilen afleveres, og returnere det til &AFDBNKNAVN..
+.sp
+Når bilen afleveres
+:FED.
+skal
+:SKRSLUT.
+den være renvasket og støvsuget.
+.sp
+Bilsalg.dk gennemgår bilen for fejl og mangler. &SDU.
+vil efterfølgende få
+tilsendt en rapport over hvilke fejl og mangler, som skal udbedres evt. via
+&DIT. forsikringsselskab. Ønsker &DU. at deltage i gennemgangen, der varer
+mellem 30-60 min., skal &DU. bestille tid til afleveringen på
+.*INDSÆT 'Bilsalg.dk  WEBADRESSE' I STANDARDVÆRDIEN I PARAMETEREN WEBADR **
+.*I MODULET BECLOFGEN******************************************************
+&WEBADR..
+.**************************************************************************
+.sp
+&SDU. hæfter for skader på bilen ud over den
+almindelige slitage. Hvis &DU. før
+afleveringen kender til skader, der skal udbedres, kan &DU. medbringe en
+skadeanmeldelse ved afleveringen.
+.sp
+Bilen skal afleveres med det udstyr, som den blev leveret med ved
+leasingaftalens begyndelse. Det gælder også eventuelle sommerdæk, vinterdæk
+og navigation mv. Indeholder leasingaftalen serviceaftale med dækordning,
+skal både sommerdæk og vinterdæk afleveres.
+.sp
+Er der mangler ved aflevering af bilen opkræves
+et gebyr på &GEBMANGL. kr. ekskl. moms pr. mangel
+med tillæg af de faktiske omkostninger. Det gælder
+skadesanmeldelse, nøgler, original registreringsattest, servicebog,
+radiokode, startkode, vinter/sommerdæk, radio, andet udstyr, manglende
+rengøring, afmontering af reklamer/dekoration/skilteskrift og manglende
+ajourføring af servicebogen.
+.sp
+Manglende servicering af bilen koster de faktiske omkostninger i det
+enkelte tilfælde samt en eventuel værdiforringelse af
+bilen. Afleveres bilen på et sted, som ikke er anvist
+af &AFDBNKNAVN., opkræves et
+gebyr på &GEBSTED. kr. ekskl. moms med tillæg af de faktiske omkostninger.
+.sp
+&SDU. er velkommen til at kontakte &MIG., hvis &DU. har spørgsmål.

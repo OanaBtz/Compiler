@@ -1,0 +1,26 @@
+.*******************************************
+.se dregnr = substr &PENDEPNR 1 4
+.se depnr = substr &PENDEPNR 5 6
+.se regnr = substr &PENKTONR 1 4
+.se ktonr = substr &PENKTONR 5 10
+.*************************************************************************
+Vi har aftalt, at &DIN &PENTYP. kontonr. &regnr. &ktonr. med
+depotnr. &dregnr. &depnr. skal investeres i &PENPLEJE.&PENPLEJE1..
+.sp
+I prognosen for &DIN pensionsopsparing har vi brugt &DIT valg ved
+beregningen.
+.sp
+Hvis der allerede er etableret en investeringsaftale, der er i
+overensstemmelse med de ovenstående valg, vil denne aftale
+fortsætte uændret, og &DU modtager ikke yderligere materiale i denne
+forbindelse.
+.sp
+Hvis investeringsvalget derimod medfører en ændring af en eksisterende
+aftale, eller der skal etableres en helt ny aftale, modtager &DU
+&DIN aftale om pensionspleje inden for en uge.
+.sp
+Aftalen skal &DU underskrive og sende retur.
+.sp
+Jeg beder &DIG venligst kontakte &DIN rådgiver, hvis &DU ikke, som
+forventet, modtager aftalen.
+.sp

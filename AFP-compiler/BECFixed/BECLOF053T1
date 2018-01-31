@@ -1,0 +1,83 @@
+.**************************************************************************
+.da AFTALE        25mm    45.5mm width 80mm
+.da KUNDEOPL      25mm      54mm width 80mm
+.da GIVER      112,5mm      54mm width 80mm
+.da KUNDCPR       25mm    78.5mm width 80mm
+.da GIVCVR     112.5mm    78.5mm width 80mm
+.da UDSTYR        25mm      95mm width 165mm
+.DA STELNR        25mm     111mm
+.DA REGNR      112.5mm     111mm
+.da LEVDØR        25mm     121mm width 173mm
+.da FORTSÆT       25mm     270mm width 168mm
+.**************************************************************************
+.ar AFTALE on
+&AFTALENR.
+.ar off
+.****LEASINGTAGERS NAVN OG ADRESSE*****************************************
+.ar KUNDEOPL on
+&ADR1
+.br
+&ADR2.
+.br
+&ADR3.
+.br
+&ADR4.
+.br
+&ADR5.
+.ar off
+.****EJER OG LEASINGGIVER NAVN OG ADRESSE**********************************
+.ar GIVER on
+&AFDBNKNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.**************************************************************************
+.ar KUNDCPR on
+&KUNDENR.
+.ar off
+.**************************************************************************
+.ar GIVCVR on
+&AFDSENR.
+.ar off
+.**************************************************************************
+.ar UDSTYR
+&BESKRIV01.,:SWISS8. årgang:SKRSLUT. &ÅRG01.
+:SWISS8.
+.fo right
+.if &U'X&FORTSÆT = XJ
+.th .sp
+.th Fortsættes
+:SKRSLUT.
+.ar off
+.**************************************************************************
+.ar STELNR on
+&STELNR01
+.ar off
+.**************************************************************************
+.ar REGNR on
+&REGISNR01.
+.ar off
+.**************************************************************************
+.ar LEVDØR on
+&LEVDCVR01.
+.br
+&LEVADR1.
+.br
+&LEVADR2.
+.br
+&LEVADR3.
+.br
+&LEVADR4.
+.br
+&LEVADR5.
+.ar off
+.**************************************************************************
+.ar FORTSÆT on
+:SWISS8.
+.fo right
+.if &L'&FFDATO28 > 0
+.th Fortsættes
+:SKRSLUT.
+.ar off
+.**************************************************************************

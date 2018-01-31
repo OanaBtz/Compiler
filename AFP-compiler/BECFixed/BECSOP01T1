@@ -1,0 +1,134 @@
+:SWISS8.
+.da BANKSTED 12mm 47mm WIDTH 190MM
+.da SUPPL1 12mm 60mm WIDTH 190MM
+.da SUPPL2 12mm 65mm WIDTH 190MM
+.da OPKRAEV1 12mm 142mm WIDTH 190MM
+.da OPKRAEV2 12mm 144mm WIDTH 190MM
+.da FIKORT 12mm 188mm width 190mm
+.da BELOEB1 22mm 220mm WIDTH 190MM
+.da KOMMA1 57mm 148mm WIDTH 190MM
+.da KOMMA2 43mm 153mm WIDTH 190MM
+.da KOMMA3 154.5mm 222mm WIDTH 190MM
+.**************************************
+.ar BANKSTED on
+.tp 30mm right 86mm right 135.5mm right 145.5mm
+¤Banksted ¤Aftalenr. ¤Kreditor opr./ændr. ¤O = Opret  Æ = Ændre
+.ar off
+.**Her starter arealet for 96012*******
+.AR SUPPL1 ON
+.TP 5mm 23MM 74.5MM
+¤¤Suppl. oplysninger ¤Ja/Nej
+.ar off
+.*Her starter arealet for 96012/Særlige stamoplysninger**********
+.ar SUPPL2 ON
+.TP 5MM 78MM 136mm center
+¤Navn 1
+.sp 2.5mm
+¤Navn 2
+.sp 2.5mm
+¤Adresse
+.sp 2.5mm
+.tp 5mm 49mm 136mm center
+¤Postnr.¤SE-nr.¤Max. 15 pos.
+.TP 5MM 78MM 136mm center
+.sp 2.5mm
+¤Telefon 1 ¤Tekst telefon 1
+.sp 2.5mm
+¤Telefon 2 ¤Tekst telefon 2
+.sp 2.5mm
+¤Telefon 3 ¤Tekst telefon 3
+.sp 2.5mm
+¤Hovedkonto ¤Kode for CPR
+.sp 2.5mm
+¤Datotekst A
+.sp 2.5mm
+¤Datotekst B
+.sp 2.5mm
+¤Datotekst C
+.sp 2.5mm
+¤Oplysninger 1
+.sp 2.5mm
+¤Oplysninger 2
+.ar off
+.**Her starter arealerne for 96013*************************
+.ar OPKRAEV1 on
+.tp 5MM 54mm 110mm 143mm
+¤¤¤¤I = Kun totaler
+.br
+¤¤¤Opsum. tælleværk ¤T = Kun måned og år
+.br
+¤¤¤¤U = Udvidet
+.ar off
+.*********************
+.ar OPKRAEV2 ON
+.tp 5MM 54mm 110mm 143mm
+¤Regnskabsår slut ¤DDMM
+.sp 2.5mm
+¤Restancegebyr i kr.
+.sp 2.5mm
+.tp 5mm 42mm 59mm
+¤Restancegebyr i % ¤¤af beløb større end kr.
+.sp 2.5mm
+.tp 5mm 49.5mm 128mm right 132mm right
+¤PBS tilslutning ¤Ja/nej ¤Sidste indbetalingsdato
+.sp 2.5mm
+.tp 5mm 49.5mm 128mm right 132mm right
+¤Antal respitdage ¤¤Før/efter helligdag
+.sp 1mm
+.se tab = '33mm 42mm 51mm 60mm 69mm 78mm 87mm 96mm 105mm 114mm 123mm 132mm'
+.tp 5mm &tab
+¤¤Jan ¤Feb ¤Mar ¤Apr ¤Maj ¤Juni ¤Juli ¤Aug ¤Sep ¤Okt ¤Nov ¤Dec
+.br
+.tp 5mm
+¤Betalingsfrekvens
+.br
+¤(sæt X)
+.ar off
+.**Her starter arealet for 96014/FI-Kortoplysninger**********
+.AR FIKORT ON
+.tp 5mm 54mm 129mm
+¤FI-korttype ¤¤Restance FI-kort:
+.sp 2.7mm
+¤Total på FI-kort ¤Incl. forudbetalt ¤Restance FI-kortdato
+.sp 2.7mm
+¤NulFI-kort udsk. ¤FI-kort nyoprettelse ¤Udskrives efter antal dage
+.sp 2.7mm
+¤Incl. restancer ¤Antal FI-kort
+.ar off
+.**Her starter arealet for 96015/Beløbskoder******************
+.ar BELOEB1 on
+.tp 67mm center 147mm center
+Kode ¤Tekst max. 25/39 pos. ¤Beløb
+.sp 6.5mm
+.tp 20mm 74mm 138mm 151mm
+¤Krediteringskonto ¤Regnskabskonto ¤O/M ¤Moms Ja/nej
+.ar off
+.**************
+.ar KOMMA1 on
+.TP 10MM
+:swiss14.:FED.
+¤,
+:skrslut.
+.ar off
+.*************
+.ar KOMMA2 on
+:swiss14.:FED.
+.tp 10.5MM 86mm 99.5mm
+¤, ¤. ¤,
+:skrslut.
+.ar off
+.*************
+.AR KOMMA3 ON
+.tp 9.5mm 23mm
+:swiss14.:FED.
+¤. ¤,
+.sp 11mm
+¤. ¤,
+.sp 4mm
+¤. ¤,
+.sp 4.3MM
+¤. ¤,
+.sp 4.3MM
+¤. ¤,
+:skrslut.
+.ar off

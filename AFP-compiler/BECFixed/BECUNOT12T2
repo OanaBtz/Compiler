@@ -1,0 +1,259 @@
+.*************************************************************************
+.da FIRMAOPL   25mm    47mm     width  84mm
+.da PIOPL      112.5mm 47mm     width  84mm
+.da TEKST      21mm    72mm     width 170mm
+.*************************************************************************
+.ar FIRMAOPL on
+&GENNAVN.
+.br
+&GENCOADR.
+.br
+&GENGADE.
+.br
+&GENBY.
+.br
+&GENLAND.
+.*******************************************************************
+.ar off
+.**************************************************************************
+.*****  Pengeinstituttets oplysninger
+.**************************************************************************
+.ar PIOPL on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.**************************************************************************
+.ar TEKST on
+:SWISS8.
+We have been informed by
+:SKRSLUT.
+&BANKNAVN.
+:SWISS8.
+that:
+:SKRSLUT.
+.sp
+&KTONAVN.
+.br
+&KTOCO.
+.br
+&KTOGADE.
+.br
+&KTOBY.
+.br
+&KTOLAND.
+:SWISS8.
+.sp
+wishes to purchase
+.****Hvis der er valgt nominelt ****
+.if &L'&BECNOM1 > 0
+.th .go T2T1
+.el .go T2T1END
+...T2T1
+.***************
+&instru. of a nominal amount of
+:SKRSLUT.
+&U'&GENMØNTK.
+:SWISS8.
+:VS. &BECNOM1.
+in
+.***************
+...T2T1END
+.****Hvis der er valgt stk. dec ****
+.if &L'&STKDEC > 0
+.th .go T2T2
+.el .go T2T2END
+...T2T2
+.***************
+:SKRSLUT.
+:VS. &STKDEC.
+:SWISS8.
+&instru. denominated in
+:SKRSLUT.
+&U'&GENMØNTK.
+:SWISS8.
+in
+.***************
+...T2T2END
+.****Hvis der er valgt stk. hel ****
+.if &L'&STKHEL > 0
+.th .go T2T3
+.el .go T2T3END
+...T2T3
+.***************
+:SKRSLUT.
+:VS. &STKHEL.
+:SWISS8.
+&instru. denominated in
+:SKRSLUT.
+&U'&GENMØNTK.
+:SWISS8.
+in
+...T2T3END
+.***************
+.sp
+:SKRSLUT.
+&GENNAVN.
+.sp
+&BANKNAVN.
+:SWISS8.
+has informed us that, the &instrur. will be kept in
+:SKRSLUT.
+&BANKNAVN.
+:SWISS8.
+in &ser. &dep attached to
+:SKRSLUT.
+&KTONAVN.'s
+:SWISS8.
+annuity pension plan
+:SKRSLUT.
+.sp
+.tp 5mm 52mm 70mm 83mm 102mm 121mm 150mm
+.if &L'&DEPOTNR > 0
+.th *¤&pension ¤reg.no. ¤&reg ¤acc.no. ¤&kto ¤cust.acc.no. ¤&DEPOTNR.
+.el *¤&pension ¤reg.no. ¤&reg ¤acc.no. ¤&kto
+.br
+.***************
+.if &L'&KONTO10 = 0
+.th .go IKKE4
+.if &L'&GENDEPOT01 > 0
+.th *¤&pension1 ¤reg.no. ¤&reg1 ¤acc.no. ¤&kto1 ¤cust.acc.no. ¤&GENDEPOT01.
+.th .br
+.el *¤&pension1 ¤reg.no. ¤&reg1 ¤acc.no. ¤&kto1
+.el .br
+...IKKE4
+.***************
+.if &L'&KONTO11 = 0
+.th .go IKKE5
+.if &L'&GENDEPOT02 > 0
+.th *¤&pension2 ¤reg.no. ¤&reg2 ¤acc.no. ¤&kto2 ¤cust.acc.no. ¤&GENDEPOT02.
+.th .br
+.el *¤&pension2 ¤reg.no. ¤&reg2 ¤acc.no. ¤&kto2
+.el .br
+...IKKE5
+.***************
+.if &L'&KONTO12 = 0
+.th .go IKKE6
+.if &L'&GENDEPOT03 > 0
+.th *¤&pension3 ¤reg.no. ¤&reg3 ¤acc.no. ¤&kto3 ¤cust.acc.no. ¤&GENDEPOT03.
+.th .br
+.el *¤&pension3 ¤reg.no. ¤&reg3 ¤acc.no. ¤&kto3
+.el .br
+...IKKE6
+.sp
+.**********************************
+.tp 5mm
+&GENNAVN.
+:SWISS8.
+confirms that
+.sp
+*¤to
+.in 5mm nobreak
+the best of its knowledge,
+:SKRSLUT.
+&KTONAVN.,
+:SWISS8.
+related parties or companies in which
+:SKRSLUT.
+&KTONAVN.
+:SWISS8.
+or related parties exercise control will not jointly own
+&GENUNPROC.% or more of the capital in
+:SKRSLUT.
+&GENNAVN.,
+:SWISS8.
+when the purchase set out above has been effected.
+.in 0mm
+.sp
+*¤it
+.in 5mm nobreak
+is not the main objective of the company or one of its objectives to grant
+rights of use, discounts etc in the company.
+.in 0mm
+.sp
+*¤the company
+.in 5mm nobreak
+has not and will not issue physical &instru..
+.in 0mm
+.sp
+*¤the above
+.in 5mm nobreak
+&instru. which
+:SKRSLUT.
+&KTONAVN.
+:SWISS8.
+wishes to buy may be sold to a third party or acquired by
+:SKRSLUT.
+&KTONAVN.
+:SWISS8.
+provided that the funds used are not pension funds released upon retirement
+or provided that the value of
+:SKRSLUT.
+&KTONAVN.'s
+:SWISS8.
+pension plans with
+:SKRSLUT.
+&BANKNAVN.
+:SWISS8.
+with the exception of unlisted shares has fallen to less than
+&GENUNOEBEL. kr.
+.in 0mm
+.sp
+*¤in case of the demise of
+.in 5mm nobreak
+:SKRSLUT.
+&KTONAVN.
+:SWISS8.
+prior to the disbursement of the above &pen., the beneficiaries or
+the estate of the deceased are vested with
+:SKRSLUT.
+&KTONAVN.'s
+:SWISS8.
+rights and duty to sell the &instru. to
+:SKRSLUT.
+&GENNAVN.
+:SWISS8.
+or a third party.
+.in 0mm
+.sp 2
+:SKRSLUT.
+&KTONAVN.'s
+:SWISS8.
+purchase of &instru. is subject to the provisions
+of the Danish Executive Order on pension pools and other
+tax-privileged savings, etc concerning investment of pension funds in
+securities. Under the provisions of the Executive Order, the only
+transaction involving the securities that
+:SKRSLUT.
+&KTONAVN.
+:SWISS8.
+may enter into is to sell them.
+.sp
+As a result of the above rules, all future payments relating to
+the &instrur. must
+be made to the above account.
+:SKRSLUT.
+.ct  &GENNAVN.
+:SWISS8.
+confirms that all future payments relating to the above
+&instru., such as current dividends, sales proceeds and any other payments
+must be made to the above &koo..
+:SKRSLUT.
+.sp
+:SWISS10.
+:FED.
+Signature of the company
+:SKRSLUT.
+:SKRSLUT.
+.sp 14mm
+.****************UNDERSKRIFT OG DATO********************
+.dr tynd weight 0.2mm
+.tp 1mm 50mm
+.hr tynd 1mm 45mm 50mm 170mm
+.br
+¤Date :SKRSLUT.¤&GENNAVN.
+.ar off

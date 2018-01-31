@@ -1,0 +1,116 @@
+.da AREAL30 24mm 87mm width 174mm
+.da AREAL31 102mm 87mm width 174mm
+.da AREALTRANS 102mm 107mm width 30mm
+.da AREAL32 102mm 119,5mm width 174mm
+.da AREAL33 66mm 107mm width 174mm
+.da AREAL34 46mm 149mm width 174mm
+.da AREAL35 105mm 149mm width 174mm
+.da AREAL36 177mm 149mm width 200mm
+.da AREAL37 76mm 163mm width 174mm
+.da AREAL38 166mm 163mm width 174mm
+.ar AREAL30 ON
+:cour10.
+.if &U'&BECTERTYP eq B
+.th X
+.sp 4,5mm
+.if &U'&BECTERTYP eq T
+.th X
+.sp 4,5mm
+.if &U'&BECTERTYP eq K
+.th X
+.el
+.*
+.ar off
+.ar AREAL31 ON
+:cour10.
+.if &U'&BECKARAK1 eq M
+.th X
+.sp 4,5mm
+.if &U'&BECKARAK1 eq U
+.th X
+.sp 4,5mm
+.if &U'&BECKARAK1 eq I
+.th X
+.sp 10mm
+.if &U'&BECKARAK1 eq T
+.th X
+.el
+.*
+.ar off
+.br
+.ar AREALTRANS on
+:COUR10.
+.if &U'&BECKRYDS3 eq J
+.th X
+.el
+.ar off
+.br
+.ar AREAL32 on
+:cour10.
+.if &U'&BECKARAK7 eq A
+.th X
+.sp 4,5mm
+.if &U'&BECKARAK7 eq D
+.th X
+.sp 4,5mm
+.if &U'&BECKARAK7 eq E
+.th X
+.el
+.*
+.ar off
+.br
+.ar AREAL33 on
+:cour10.
+.if &U'&BECKARAK8 eq C
+.th X
+.sp 4,5mm
+.if &U'&BECKARAK8 eq I
+.th X
+.ar off
+.ar AREAL34 on
+:cour10.
+.if &U'&BECDEL eq J
+.th X
+.sp 4,5mm
+.if &U'&BECDEL eq N
+.th X
+.el
+.ar off
+.ar AREAL35 on
+:cour10.
+.if &U'&BECOML eq J
+.th X
+.sp 4,5mm
+.if &U'&BECOML eq N
+.th X
+.el
+.ar off
+.ar AREAL36 on
+:cour10.
+.if &U'&BECKOM eq J
+.th X
+.sp 4,5mm
+.if &U'&BECKOM eq N
+.th X
+.el
+.*
+.ar off
+.ar AREAL37 on
+:cour10.
+.if &U'&BECUDL eq B
+.th X
+.sp 4,5mm
+.if &U'&BECUDL eq M
+.th X
+.*
+.ar off
+.ar AREAL38 on
+:cour10.
+.if &U'&BECDK eq B
+.th X
+.sp 4,5mm
+.if &U'&BECDK eq M
+.th X
+.el
+.*
+.ar off

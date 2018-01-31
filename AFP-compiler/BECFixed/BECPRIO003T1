@@ -1,0 +1,58 @@
+.sp 5mm
+:FED.
+Der gælder særlige vilkår for indfrielse i en rentebindingsperiode. Det
+betyder, at indfrielse af lånet i nogle tilfælde kun kan ske med et beløb,
+som er højere end restgælden. Indfrielsesvilkårene er nærmere beskrevet i
+låneaftalen.
+:SKRSLUT.
+.ar off
+.*************** AREAL-DEFINITIONER **************************************
+.da TEKST 20mm 103mm width 165mm
+.*************** TEKST              **************************************
+.dr tynd weight 0.2mm
+.se rtes = 'Rentebindingsperiodens start'
+.***************
+.ar TEKST on
+.***************
+.tp 52mm
+.***************
+Foreløbig pålydende rente: *) ¤&PRIRENTE. % p.a.
+.sp 2mm
+Rentebindingsperiode: ¤&RTEBINPRD.
+.sp 2mm
+.if &L'&RTEBINDAS. > 0
+.th &rtes.: ¤&RTEBINDAS.
+.el &rtes.: ¤Fra lånets udbetaling
+.sp 2mm
+Rentebindingsperiodens udløb: ¤&RTEBINDAU.
+.sp 2mm
+Rentetilskrivning: ¤&RTEFREKV. - første gang &RTEFFDATO.
+.sp 2mm
+Renteberegning:¤Renten beregnes dagligt iflg. kalenderdage &RTEKONV.
+¤som Saldo * Pålydende rente / &RTEKONVDIV.
+.sp 2mm
+.if &U'X&PRIERH = XP
+.th .go PRIVAT
+.el .go ERHVERV
+...PRIVAT
+Foreløbig referencerente: *) ¤&REFRENTE. % p.a.
+.sp 2mm
+Ovennævnte pålydende rente og referencerente er kun foreløbigt fastsatte,
+idet begge vil blive tilpasset efter långivers aktuelle priser for den
+fastsatte rentebindingsperiode ved rentebindingsperiodens start. Mod
+betaling af et rentetillæg kan renten fastlåses inden
+rentebindingsperiodens start.
+.go PESLUT
+...ERHVERV
+*) Ovennævnte pålydende rente er kun foreløbigt fastsat, idet renten
+vil blive tilpasset efter långivers aktuelle priser for den fastsatte
+rentebindingsperiode ved rentebindingsperiodens start. Mod betaling af
+et rentetillæg kan renten fastlåses inden rentebindingsperiodens start.
+...PESLUT
+.sp 2mm
+Ved rentebindingsperiodens start vil låntager modtage meddelelse om
+lånets endelige rentevilkår.
+.if &L'&RTEVILKGEB. > 0
+.th .sp 2mm
+.th Der beregnes et gebyr på kr. &RTEVILKGEB. for ovenstående ændring
+.th af rentevilkår.

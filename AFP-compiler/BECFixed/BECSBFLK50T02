@@ -1,0 +1,164 @@
+&DINE. økonomiske forhold eller på anmodning undlader at indlevere
+økonomiske oplysninger, herunder bl.a. seneste års- og forskudsopgørelse
+fra SKAT.
+.br
+.of
+.of 3mm
+h.¤Hvis pantsatte effekter sælges uden &BANKNAVN.s
+forudgående samtykke, eller pantsat fast ejendom overgår til en anden
+anvendelse, der medfører lavere værdiansættelse.
+.br
+.of
+.of 3mm
+i.¤Væsentlig forringelse af pantsatte effekter.
+.br
+.of
+.of 3mm
+j.¤Hvis pantsat bil, båd, andet løsøre eller fast ejendom ikke holdes
+behørigt forsikret eller på anmodning undlader at dokumentere dette.
+.br
+.of
+.of 3mm
+k.¤Hvis en eventuel kautionist kommer i en af de i pkt. b-g nævnte
+situationer. Det gælder dog ikke, hvis der inden for en uge stilles
+anden sikkerhed, som &BANKNAVN. kan acceptere.
+.of
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+8. Fortrydelsesret
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+&SDU. har ret til at fortryde lån og kreditter inden for 14 dage fra
+lånet stilles til disposition. Hvis fortrydelsesfristens sidste dag
+falder på en lørdag, søndag, helligdag, grundlovsdag, fredag efter
+Kristi Himmelfartsdag, juleaftensdag eller nytårsaftensdag, udløber
+fristen den følgende hverdag.
+.sp 3mm
+.kp off
+.kp on
+Ønsker &DU. at benytte fortrydelsesretten, kan det ske ved at ringe
+eller skrive til &DIN. afdeling, inden fristen udløber. Desuden skal
+det modtagne beløb tilbagebetales sammen med eventuelle
+omkostninger, som &BANKNAVN. måtte have betalt til offentlige
+myndigheder, og som ikke kan refunderes.
+.sp 3mm
+.kp off
+.kp on
+.tp 3mm
+:SWISS8.
+.**************************************************************************
+.kp on
+.sp 5mm
+:SWISS10.
+:FED.
+7. Misligholdelse og andre forfaldsgrunde
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+I følgende særlige situationer er &BANKNAVN. berettiget til at opsige
+lånet/kreditten uden varsel og forlange hele gælden betalt straks:
+.br
+.of 3mm
+a.¤Hvis ydelser, renter, provision eller afdrag ikke betales
+ved forfaldstidspunktet, og &DU. ikke har betalt otte dage
+efter, at &BANKNAVN. har sendt rykkerbrev til &DIG. på den af
+&BANKNAVN. senest kendte adresse. Ved kreditter gælder dette
+også, hvis &DU. overtrækker kredittens maksimum uden
+&BANKNAVN.s tilladelse.
+.br
+.of
+.of 3mm
+b.¤Hvis &DU. udsættes for individuel retsforfølgning i form af udlæg
+eller arrest.
+.br
+.of
+.of 3mm
+c.¤Hvis &DU. tages under rekonstruktions- eller konkursbehandling eller
+indleder gældssaneringssag.
+.br
+.of
+.of 3mm
+d.¤Hvis &DU. afgår ved døden.
+.br
+.of
+.of 3mm
+e.¤Hvis &DU. tager fast ophold uden for landets grænser, og der ikke
+forinden er truffet aftale om lånets/kredittens (fortsatte) afvikling.
+.br
+.of
+.of 3mm
+f.¤Hvis &DU. har fortiet eller afgivet urigtige oplysninger om
+&DINE. økonomiske forhold, idet det betragtes som en svigtende
+forudsætning for &BANKNAVN.s tilbud om lån/kredit.
+.br
+.of
+.of 3mm
+g.¤Hvis &DU. undlader at holde &BANKNAVN. orienteret om
+32 00, www.datatilsynet.dk.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+10. Tilsyn
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+&BANKNAVN. har tilladelse som &BANKNAVN. FT-nr.&HREG.. &BANKNAVN. er
+undergivet tilsyn af Finanstilsynet, Århusgade 110, 2100
+København Ø. Tlf. 33 55 82 82, www.finanstilsynet.dk
+.kp off
+Derudover skal &DU. betale de renter, der er påløbet fra den dag lånet
+blev stillet til disposition, indtil beløbet tilbagebetales. Det angivne
+rentebeløb, der påløber pr. dag, er beregnet på baggrund af
+renteforholdene på aftaletidspunktet, ligesom der ikke er taget højde
+for renters rente. Det rentebeløb, der skal betales ved udnyttelse af
+fortrydelsesretten, er de påløbne renter, beregnet på grundlag af den
+aftalte rente.
+.sp 3mm
+.kp off
+.kp on
+Det samlede beløb skal tilbagebetales uden unødig forsinkelse, og senest
+30 dage efter &DU. har givet besked om udøvelsen af fortrydelsesretten.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+9. Klageadgang og bilæggelse af tvister
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Hvis &DU. ønsker at klage over &BANKNAVN., skal &DU. i første omgang
+kontakte
+.if &L'&AFDBNKNAVN > 0
+.th &AFDBNKNAVN., &AFDTLF..
+.el &BANKNAVN., &BANKTLF..
+.sp 3mm
+.kp off
+.kp on
+Hvis &DU. herefter fortsat er uenig i &BANKNAVN.s behandling af
+&DIN. henvendelse eller resultatet heraf, kan &DU. kontakte den
+klageansvarlige i &BANKNAVN.. Oplysninger om den klageansvarlige
+fås i &BANKNAVN. eller på &BANKNAVN.s hjemmeside.
+.sp 3mm
+.kp off
+.kp on
+Fører henvendelsen ikke til en tilfredsstillende løsning, kan
+&DU. vælge at indbringe &DIN. klage for
+Pengeinstitutankenævnet, Amaliegade 8B, 2. sal,
+1256 København K, tlf. 35 43 63 33, www.fanke.dk.
+.sp 3mm
+.kp off
+.kp on
+Klager vedrørende &BANKNAVN.s overholdelse af den finansielle lovgivning
+kan indbringes for Finanstilsynet.
+.sp 3mm
+.kp off
+.kp on
+Klager over &BANKNAVN.s behandling af personoplysninger kan indbringes
+for Datatilsynet, Borgergade 28, 5. sal, 1300 København K, tlf. 33 19

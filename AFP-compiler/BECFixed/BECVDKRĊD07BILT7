@@ -1,0 +1,24 @@
+.ir 1mm
+Da det normalt er aftalt, at kortkontoens kreditmaksimum er gÄldende indtil
+videre, er opgÄrelsen i henhold til lovens krav opgjort, som om
+kreditmaksimum er gÄldende for 1 Är. Renten beregnes af gÄlden og
+tilskrives
+.if x&GENPUFREKV = x1
+.th hvert Är.
+.if x&GENPUFREKV = x2
+.th hvert halvÄr.
+.if x&GENPUFREKV = x3
+.th hvert kvartal.
+.if x&GENPUFREKV = x4
+.th hver mÄned.
+.sp 2mm
+Vi gÄr opmÄrksom pÄ, at &BANKNAVN modtager provision
+ved kortets anvendelse i forretninger mv.
+.in
+.ir
+.bx off
+.bx can
+.bx can
+.bx can
+.ar off
+...PRIUTXSL

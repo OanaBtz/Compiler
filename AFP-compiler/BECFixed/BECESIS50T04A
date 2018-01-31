@@ -1,0 +1,178 @@
+.******************************************************************
+.ll 175mm
+.tp 140mm right
+.*.dr tynd weight 0.2mm
+.*********************
+:SWISS9.
+.kp on
+.hr left right
+.****************************
+:SWISS10.
+:FED. 4. Rentesats og andre omkostninger :SKRSLUT.
+:SKRSLUT.
+.****************************
+.hr left right
+:SWISS9.
+.sp 1.5mm
+De årlige omkostninger i procent (ÅOP) er de samlede omkostninger ved
+lånet udtrykt som en årlig procentsats.
+.sp 3mm
+ÅOP anføres for at hjælpe
+.if &U'&GENMEDKTOH = J
+.th jer
+.el dig
+med at sammenligne forskellige tilbud.
+.sp 3mm
+.kp off
+.kp on
+Den gældende ÅOP for
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dit
+lån er på
+:VS. &ÅOPESIS
+.ct %.
+.sp 3mm
+Den omfatter: Rentesats
+:VS. &RENTE
+% p.a.
+.if &L'&PROV > 0
+.th .go PROVI
+.el .go NOPRO
+...PROVI
+.ct , provision
+:VS. &PROV
+% p.a.
+...NOPRO
+.ct , engangsomkostninger og periodiske omkostninger.
+.sp 3mm
+.* Test på om engangsomkostningerne er udfyldt, ellers springes de over!
+.if &L'&ENOMTXT01 > 0
+.or &L'&ENOMTXT02 > 0
+.or &L'&ENOMTXT03 > 0
+.or &L'&ENOMTXT04 > 0
+.or &L'&ENOMTXT05 > 0
+.or &L'&ENOMTXT06 > 0
+.or &L'&ENOMTXT07 > 0
+.or &L'&ENOMTXT08 > 0
+.or &L'&ENOMTXT09 > 0
+.or &L'&ENOMTXT10 > 0
+.or &L'&ENOMTXT11 > 0
+.or &L'&ENOMTXT12 > 0
+.or &L'&ENOMTXT13 > 0
+.or &L'&ENOMTXT14 > 0
+.or &L'&ENOMTXT15 > 0
+.th
+.el .go T04AXX
+.us Engangsomkostninger:
+.br
+.if &L'&ENOMTXT01 > 0
+.or &L'&ENOMBLB01 > 0
+.th &ENOMTXT01. ¤&ENOMBLB01. &GENVAL.
+.th .br
+.th .kp off
+.th .kp on
+.if &L'&ENOMTXT02 > 0
+.or &L'&ENOMBLB02 > 0
+.th &ENOMTXT02. ¤&ENOMBLB02. &GENVAL.
+.th .br
+.th .kp off
+.th .kp on
+.if &L'&ENOMTXT03 > 0
+.or &L'&ENOMBLB03 > 0
+.th &ENOMTXT03. ¤&ENOMBLB03. &GENVAL.
+.th .br
+.th .kp off
+.th .kp on
+.if &L'&ENOMTXT04 > 0
+.or &L'&ENOMBLB04 > 0
+.th &ENOMTXT04. ¤&ENOMBLB04. &GENVAL.
+.th .br
+.if &L'&ENOMTXT05 > 0
+.or &L'&ENOMBLB05 > 0
+.th &ENOMTXT05. ¤&ENOMBLB05. &GENVAL.
+.th .br
+.th .kp off
+.th .kp on
+.if &L'&ENOMTXT06 > 0
+.or &L'&ENOMBLB06 > 0
+.th &ENOMTXT06. ¤&ENOMBLB06. &GENVAL.
+.th .br
+.th .kp off
+.th .kp on
+.if &L'&ENOMTXT07 > 0
+.or &L'&ENOMBLB07 > 0
+.th &ENOMTXT07. ¤&ENOMBLB07. &GENVAL.
+.th .br
+.th .kp off
+.th .kp on
+.if &L'&ENOMTXT08 > 0
+.or &L'&ENOMBLB08 > 0
+.th &ENOMTXT08. ¤&ENOMBLB08. &GENVAL.
+.th .br
+.th .kp off
+.th .kp on
+.if &L'&ENOMTXT09 > 0
+.or &L'&ENOMBLB09 > 0
+.th &ENOMTXT09. ¤&ENOMBLB09. &GENVAL.
+.th .br
+.th .kp off
+.th .kp on
+.if &L'&ENOMTXT10 > 0
+.or &L'&ENOMBLB10 > 0
+.th &ENOMTXT10. ¤&ENOMBLB10. &GENVAL.
+.th .br
+.th .kp off
+.th .kp on
+.if &L'&ENOMTXT11 > 0
+.or &L'&ENOMBLB11 > 0
+.th &ENOMTXT11. ¤&ENOMBLB11. &GENVAL.
+.th .br
+.th .kp off
+.th .kp on
+.if &L'&ENOMTXT13 > 0
+.or &L'&ENOMTXT12 > 0
+.or &L'&ENOMBLB12 > 0
+.th .go TX1213
+.if &L'&ENOMTXT13 = 0
+.an &L'&ENOMTXT12 > 0
+.an &L'&ENOMBLB12 > 0
+.th .go TX12
+.el .go 1213X
+...TX1213
+&ENOMTXT12.
+.br
+&ENOMTXT13.¤&ENOMBLB12. &GENVAL.
+.br
+.kp off
+.kp on
+.go 1213X
+...TX12
+&ENOMTXT12.¤&ENOMBLB12. &GENVAL.
+.br
+.kp off
+.kp on
+...1213X
+.if &L'&ENOMTXT15 > 0
+.an &L'&ENOMTXT14 > 0
+.an &L'&ENOMBLB13 > 0
+.th .go TX1415
+.if &L'&ENOMTXT15 = 0
+.an &L'&ENOMTXT14 > 0
+.an &L'&ENOMBLB13 > 0
+.th .go TX14
+.el .go T04AXX
+...TX14
+&ENOMTXT14.¤&ENOMBLB13. &GENVAL.
+.br
+.kp off
+.kp on
+.go T04AXX
+...TX1415
+&ENOMTXT14.
+.br
+&ENOMTXT15.¤&ENOMBLB13. &GENVAL.
+.br
+.kp off
+.************************************************
+...T04AXX

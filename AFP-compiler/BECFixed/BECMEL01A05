@@ -1,0 +1,122 @@
+.ti ¤ 05
+:COUR10.
+.da DATO3     138mm 126.5mm width 45mm
+.da TEKST3A   12mm 140mm width 6mm
+.da TEKST3B   12mm 143.8mm width 6mm
+.da TEKST3C   12mm 147.8mm width 6m
+.da TEKST3D   12mm 152mm width 6mm
+.da TEKST3E   12mm 156mm width 6mm
+.da TEKST3F   12mm 159.8mm width 6mm
+.da TEKST3G   59mm 140mm width 6mm
+.da TEKST3H   65mm 143.8mm width 6mm
+.da TEKST3I   65mm 147.8mm width 6mm
+.da TEKST3J   65mm 152mm width 6mm
+.da CPR3      85mm 156mm width 50mm
+.da KTONR3    85mm 159mm width 50mm
+.da BEMÆRK3   129mm 135mm width 65mm
+.da TIL3      35mm 168mm width 100mm
+.da UNDERSK3  129mm 165mm width 66mm
+.da REGNR3    14mm 188.5mm width 25mm
+.da LBNR3     30mm 188.5mm width 25mm
+.da TRUKKET3  60mm 188.5mm width 15mm
+.da BELØB3    153mm 188.5mm width 42mm
+.******************************************
+.ar DATO3 on
+&DATO
+.ar off
+.******************************************
+.ar TEKST3A on
+&GENKRYDS1
+.ar off
+.******************************************
+.ar TEKST3B on
+&GENKRYDS2
+.ar off
+.******************************************
+.ar TEKST3C on
+&GENKRYDS3
+.ar off
+.******************************************
+.ar TEKST3D on
+&GENKRYDS4
+.ar off
+.******************************************
+.ar TEKST3E on
+&GENKRYDS5
+.ar off
+.******************************************
+.ar TEKST3F on
+&GENKRYDS6
+.ar off
+.******************************************
+.ar TEKST3G on
+&GENKRYDS7
+.ar off
+.******************************************
+.ar TEKST3H on
+&GENKRYDS8
+.ar off
+.******************************************
+.ar TEKST3I on
+&GENKRYDS9
+.ar off
+.******************************************
+.ar TEKST3J on
+&GENKRYDS10
+.ar off
+.******************************************
+.ar CPR3 on
+&GENCPR
+.ar off
+.******************************************
+.ar KTONR3 on
+&GENREGKTO
+.ar off
+.******************************************
+.ar BEMÆRK3 on
+&GENBEMÆ1
+.br
+&GENBEMÆ2
+.br
+&GENBEMÆ3
+.br
+&GENBEMÆ4
+.br
+&GENBEMÆ5
+.br
+&GENBEMÆ6
+.ar off
+.******************************************
+.ar TIL3 on
+&GENNAVN1
+.br
+&GENNAVN2
+.br
+&GENNAVN3
+.br
+&GENNAVN4
+.ar off
+.******************************************
+.ar UNDERSK3 on
+.ce &BANKNAVN
+.br
+.ce &AFDNAVN
+.ar off
+.******************************************
+.ar REGNR3 on
+.se regnr = substr &EKSPBNKST 1 4
+&regnr
+.ar off
+.******************************************
+.ar LBNR3 on
+&LØBENR
+.ar off
+.******************************************
+.ar TRUKKET3 on
+&GENREGNR
+.ar off
+.******************************************
+.ar BELØB3 on
+&GENBELØB1
+.ar off
+.******************************************

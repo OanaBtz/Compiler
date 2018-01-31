@@ -1,0 +1,46 @@
+.**************************************************************************
+.da OVERSKR 20mm 32mm width 175mm
+.da BOX 20mm 43mm width 175mm
+.da BANKSTED 20mm 47mm width 175mm
+.da VEND 7mm 270mm width 180mm rotate -90
+.**************************************************************************
+.* SIDEHOVEDDEFINITION STARTER ********************************************
+.**************************************************************************
+.rh on
+.ar BOX on
+.bx left right
+.sp 231.5mm
+.bx off
+.ar off
+.**************************************************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.**************************************************************************
+.ar OVERSKR on
+:SWISS12.
+:FED.
+.us Fuldmagt til tinglysning af digital tinglysningsdokument
+:SKRSLUT.
+.ar off
+.**************************************************************************
+.*STARTPOSITION PÄ SIDEN BEREGNES UD FRA FLG:
+.*"".PM"" = PAGEMARGIN = X-KOORDINATEN(ER SOM STANDARD 20M
+M).*"".BM"" = BUNDMARGIN (MIN. 1
+8MM).*"".TM"" = TOPMARGIN (STANDARD 24MM), MEN MAN SKAL VÄRE OPMÄRKSOM 
+PÄ, AT.*RH-KOMMANDOERNE KAN KAN ÄNDRE DET. MAN SKAL DERFOR ALTID UDMÄL
+E DET..*HER ER TOPMARGINEN KUN
+ 13MM..*SIDEHOVED MED TOPMARGIN 48MM: Y = 35mm + 13mm (TOPMARGIN) 
+= 48mm.********************************************************************
+******.s
+p 35mm.
+rh off.********************************************************************
+******.* SIDEHOVEDDEFINITION SLUTTER **************************************
+******.********************************************************************
+******.*MAN KAN SLUTTE SIDEHOVEDET VED AT DEFINERE ET NYT SIDEHOVED -
+ ELLER.*VED AT BENYTTE TEKSTMODULET ""BECRHCANCEL"" ***********************
+********.
+ll 175m
+m.in 5m
+m.ir 1mm"

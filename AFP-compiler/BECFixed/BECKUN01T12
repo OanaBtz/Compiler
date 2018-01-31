@@ -1,0 +1,171 @@
+.* MARKEDSFØRINGSMATERIALE ************************************************
+.**************************************************************************
+.*HVIS MARKEDSFØRINGSOPLYSNINGER EJ FINDES ELLER "INGEN KONTAKT" SÆTTES
+.*SWEJMARKF = N, OG TEKSTEN FREMKOMMER ************************************
+.kp on
+.if &U'&SWEJMARKF = N
+.th .go MARK
+.el .go ENDMARK
+...MARK
+:FED.Markedsføringsmateriale:SKRSLUT.
+.br
+*¤Jeg/vi ønsker indtil videre ikke at modtage markedsføringsmateriale
+fra &BANKNAVN..
+.sp 5mm
+.**************************************************************************
+...ENDMARK
+.kp off
+.* MARKEDSFØRINGSMATERIALE ************************************************
+.**************************************************************************
+.**TEST PÅ OM KUNDEN HAR BETALINGSKONTI ***********************************
+.if &U'&SWKONTI = N
+.or &U'&PRIVERHV = E
+.th .go BETKTOSL
+.**MIDLERTIDIGE PARAMETRE TIL OVERTRÆK PÅ EVT. BETALINGSKONTI ***********
+.se ov1 = 'I tilfælde af overtræk på kontonummer'
+.se ov2 = 'beregner &BANKNAVN. overtræksrente på p.t.'
+.se ov3 = '% p.a., som beregnes dag til dag af det til enhver tid værende'
+.se ov4 = 'overtræk, svarende til en debitorrente på'
+.se ov5 = '% p.a.'
+.************************************************************************
+.**KONTO1****
+.kp on
+.if &L'&KONTO1 > 0
+.an &U'&BETKTO1 = J
+.th &ov1 &KONTO1 &ov2 &OVTRTE1 &ov3 &ov4 &DEBRTE1 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO2****
+.kp on
+.if &L'&KONTO2 > 0
+.an &U'&BETKTO2 = J
+.th &ov1 &KONTO2 &ov2 &OVTRTE2 &ov3 &ov4 &DEBRTE2 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO3****
+.kp on
+.if &L'&KONTO3 > 0
+.an &U'&BETKTO3 = J
+.th &ov1 &KONTO3 &ov2 &OVTRTE3 &ov3 &ov4 &DEBRTE3 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO4****
+.kp on
+.if &L'&KONTO4 > 0
+.an &U'&BETKTO4 = J
+.th &ov1 &KONTO4 &ov2 &OVTRTE4 &ov3 &ov4 &DEBRTE4 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO5****
+.kp on
+.if &L'&KONTO5 > 0
+.an &U'&BETKTO5 = J
+.th &ov1 &KONTO5 &ov2 &OVTRTE5 &ov3 &ov4 &DEBRTE5 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO6****
+.kp on
+.if &L'&KONTO6 > 0
+.an &U'&BETKTO6 = J
+.th &ov1 &KONTO6 &ov2 &OVTRTE6 &ov3 &ov4 &DEBRTE6 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO7****
+.kp on
+.if &L'&KONTO7 > 0
+.an &U'&BETKTO7 = J
+.th &ov1 &KONTO7 &ov2 &OVTRTE7 &ov3 &ov4 &DEBRTE7 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO8****
+.kp on
+.if &L'&KONTO8 > 0
+.an &U'&BETKTO8 = J
+.th &ov1 &KONTO8 &ov2 &OVTRTE8 &ov3 &ov4 &DEBRTE8 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO9****
+.kp on
+.if &L'&KONTO9 > 0
+.an &U'&BETKTO9 = J
+.th &ov1 &KONTO9 &ov2 &OVTRTE9 &ov3 &ov4 &DEBRTE9 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO10***
+.kp on
+.if &L'&KONTO10 > 0
+.an &U'&BETKTO10 = J
+.th &ov1 &KONTO10 &ov2 &OVTRTE10 &ov3 &ov4 &DEBRTE10 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO11***
+.kp on
+.if &L'&KONTO11 > 0
+.an &U'&BETKTO11 = J
+.th &ov1 &KONTO11 &ov2 &OVTRTE11 &ov3 &ov4 &DEBRTE11 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO12***
+.kp on
+.if &L'&KONTO12 > 0
+.an &U'&BETKTO12 = J
+.th &ov1 &KONTO12 &ov2 &OVTRTE12 &ov3 &ov4 &DEBRTE12 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO13***
+.kp on
+.if &L'&KONTO13 > 0
+.an &U'&BETKTO13 = J
+.th &ov1 &KONTO13 &ov2 &OVTRTE13 &ov3 &ov4 &DEBRTE13 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO14***
+.kp on
+.if &L'&KONTO14 > 0
+.an &U'&BETKTO14 = J
+.th &ov1 &KONTO14 &ov2 &OVTRTE14 &ov3 &ov4 &DEBRTE14 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO15***
+.kp on
+.if &L'&KONTO15 > 0
+.an &U'&BETKTO15 = J
+.th &ov1 &KONTO15 &ov2 &OVTRTE15 &ov3 &ov4 &DEBRTE15 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO16***
+.kp on
+.if &L'&KONTO16 > 0
+.an &U'&BETKTO16 = J
+.th &ov1 &KONTO16 &ov2 &OVTRTE16 &ov3 &ov4 &DEBRTE16 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO17***
+.kp on
+.if &L'&KONTO17 > 0
+.an &U'&BETKTO17 = J
+.th &ov1 &KONTO17 &ov2 &OVTRTE17 &ov3 &ov4 &DEBRTE17 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO18***
+.kp on
+.if &L'&KONTO18 > 0
+.an &U'&BETKTO18 = J
+.th &ov1 &KONTO18 &ov2 &OVTRTE18 &ov3 &ov4 &DEBRTE18 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO19***
+.kp on
+.if &L'&KONTO19 > 0
+.an &U'&BETKTO19 = J
+.th &ov1 &KONTO19 &ov2 &OVTRTE19 &ov3 &ov4 &DEBRTE19 &ov5.
+.th .sp 3mm
+.kp off
+.**KONTO20***
+.kp on
+.if &L'&KONTO20 > 0
+.an &U'&BETKTO20 = J
+.th &ov1 &KONTO20 &ov2 &OVTRTE20 &ov3 &ov4 &DEBRTE20 &ov5.
+.th .sp 3mm
+.kp off
+...BETKTOSL

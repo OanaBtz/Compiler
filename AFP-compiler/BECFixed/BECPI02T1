@@ -1,0 +1,148 @@
+.da STOREKS 20mm 40mm width 170mm
+.da AFKMGL 21mm 149.5mm width 10mm
+.da AFKKONK 82mm 149.5mm width 10mm
+.da AFKSPR 141mm 149.5mm width 10mm
+.da AFKKONTR 21mm 158mm width 10mm
+.da AFKOPH 82mm 158mm width 10mm
+.da AFKAND1 141mm 158mm width 10mm
+.da AFKAFG 21mm 166.5mm width 10mm
+.da AFKSTOP 82mm 166.5mm width 10mm
+.da AFKAND2 141mm 166.5mm width 10mm
+.da AFKCHECK 19mm 276mm width 10mm
+.*************************************************
+.ar STOREKS on
+:SWISS10.
+:FED.
+Indløsende pengeinstitut
+:SKRSLUT.
+.bx 0mm 91mm 181mm
+.sp 6mm
+.bx new 93mm 97mm
+.sp 2.5mm
+.bx off
+.sp 6mm
+.bx new 93mm 97mm
+.sp 2.5mm
+.bx off
+.sp 12mm
+.bx off
+:FED.
+Check-/kortoplysninger
+:SKRSLUT.
+.bx 0mm 106mm 181mm
+.sp 17mm
+.hr 0mm 181mm
+.sp 17mm
+.bx off
+:FED.
+Protestmeddelelse/afvisning
+:SKRSLUT.
+.bx 0mm 181mm
+.sp 0.1mm
+.bx new 2mm 6mm
+.sp 2.5mm
+.bx off
+.sp 2.7mm
+.sp 6mm
+.sp 1mm
+.hr 0mm 181mm
+.sp 28mm
+.bx off
+:FED.
+Oplysninger om kontohaver
+:SKRSLUT.
+.bx 0mm 91mm 181mm
+.sp 7mm
+.hr 0mm 181mm
+.sp 7mm
+.bx off
+.tp  1mm 92mm
+:FED.
+¤¤Meddelelse i øvrigt
+:SKRSLUT.
+.bx 0mm 91mm 181mm
+.sp 2mm
+.bx new 93mm 97mm
+.sp 2.5mm
+.bx off
+.sp 3mm
+.bx new 93mm 97mm
+.sp 2.5mm
+.bx off
+.sp 3mm
+.bx new 93mm 97mm
+.sp 2.5mm
+.bx off
+.sp 3mm
+.bx new 93mm 97mm
+.sp 2.5mm
+.bx off
+.sp 2mm
+.bx off
+.sp 4mm
+.bx 0mm 91mm 181mm
+.sp 8mm
+.hr 0mm 91mm
+.sp 20mm
+.bx off
+.ar off
+.************************************************
+.ar AFKMGL on
+.bx 1mm 5mm
+.sp 2mm
+.bx off
+.ar off
+.************************************************
+.ar AFKKONK on
+.bx 1mm 5mm
+.sp 2mm
+.bx off
+.ar off
+.************************************************
+.ar AFKSPR on
+.bx 1mm 5mm
+.sp 2mm
+.bx off
+.ar off
+.************************************************
+.ar AFKKONTR on
+.bx 1mm 5mm
+.sp 2mm
+.bx off
+.ar off
+.************************************************
+.ar AFKOPH on
+.bx 1mm 5mm
+.sp 2mm
+.bx off
+.ar off
+.************************************************
+.ar AFKAND1 on
+.bx 1mm 5mm
+.sp 2mm
+.bx off
+.ar off
+.************************************************
+.ar AFKAFG on
+.bx 1mm 5mm
+.sp 2mm
+.bx off
+.ar off
+.************************************************
+.ar AFKSTOP on
+.bx 1mm 5mm
+.sp 2mm
+.bx off
+.ar off
+.************************************************
+.ar AFKAND2 on
+.bx 1mm 5mm
+.sp 2mm
+.bx off
+.ar off
+.************************************************
+.AR AFKCHECK on
+.bx 1mm 5mm
+.sp 2.5mm
+.bx off
+.ar off

@@ -1,0 +1,201 @@
+.**************************************************************************
+.if &U'&GENJANEJ1. = J
+.th .go SLUT
+.tp 5mm 10mm
+:SWISS8.
+.in 0mm
+.kp on
+:SWISS10.
+:FED.
+§ 1
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+Lånet kan til enhver tid opsiges af debitor. Selskabet kan opsige lånet med
+3 måneders varsel.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+§ 2
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+Den faste ydelse dækker forlods rente og eventuelle omkostninger, medens
+resten er afdrag.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+§ 3
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+Foruden lånebeløbet og renter kan selskabet kræve særskilt betalt af
+debitor:
+.sp
+.of 5mm
+a)¤udgifter i tilfælde af lånets misholdelse, herunder et af selskabet
+fastsat gebyr for rykkerskrivelser samt anden rykning, eventuel
+overtræksrente, provision eller morarente.
+.of
+.kp off
+.kp off
+.of 5mm
+b)¤gebyrer, porto og lignende.
+.of
+.kp off
+.kp on
+.of 5mm
+c)¤selskabets udgifter ved besvarelse af forespørgelser i henhold til
+lovgivningen fra offentlige myndigheder om lånet, herunder et af selskabet
+fastsat gebyr for udfærdigelse af bilag, udskrifter m.v.
+.of
+.of 5mm
+d)¤omkostninger ved varetagelse af selskabets interesser ifølge
+lånedokumentet betales af debitor.
+.of
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+§ 4
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+I følgende tilfælde er hele gælden forfalden til betaling uden hensyn til
+mulig indrømmet uopsigelighed eller opsigelsesfrist:
+.sp
+.of 5mm
+a)¤hvis et skyldigt beløb ikke erlægges rettidigt.
+.of
+.kp off
+.kp on
+.of 5mm
+b)¤hvis debitor dør, eller hans bo kommer under offentlig eller privat
+skifte.
+.of
+.kp off
+.kp on
+.of 5mm
+c)¤hvis debitor standser betalingerne, erklæres konkurs, træder i
+likvidation, eller der åbnes forhandling om tvangsaktion, frivillig akkord
+eller gældsanering, samt hvis der hos debitor foretages arrest eller udlæg.
+.of
+.kp off
+.kp on
+.of 5mm
+d)¤hvis debitor opgiver sin faste bopæl her i landet.
+.of
+.of 5mm
+e)¤hvis debitor har givet selskabet urigtige oplysninger af betydning for
+lånetilsagnet.
+.of
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+§ 5
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+Dette lånedokument kan tjene som grundlag for tvangsfuldbyrdelse, jævnfør
+retsplejelovens §478 stk. 1 nr. 5.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+§ 6
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+Søgsmål der vedrører nærværende lån, kan såfremt selskabet ønsker det,
+anlægges i byretten i den retskreds, hvor debitor har bopæl.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+§ 7
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+Selskabet er ikke ansvarlig for skade, der skyldes lovforskrifter,
+myndighedsforanstaltninger eller lignende, indtruffet eller truende krig,
+oprør, borgerlige uroligheder, naturkatastrofer, strejke, lock-out eller
+blokade, uanset om selskabet selv er part i konflikten, herunder at denne
+kun rammer dele af selskabets funktioner, og uanset årsagen.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+§ 8 - Renter, provision og gebyrer m.m.
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+Renter, efter de af selskabet til enhver tid fastsatte satser, beregnes
+bagud og tilskrives kontoen hver måned. Renten beregnes af den til enhver
+tid værende restgæld. Provision og gebyrer tilskrives efter de af selskabet
+til enhver tid fastsatte satser. Kunden er forpligtet til at betale en af
+selskabet fastsat overtræksrente, -provision eller morarente, såfremt en
+konto kommer i overtræk, restance eller udnyttes i strid med de indgående
+aftaler. Endvidere er selskabet berettiget til at kræve betalt af kunden:
+.sp
+.of 5mm
+a)¤alle udgifter i forbindelse med låneforholdets etablering og fortsatte
+forløb, f.eks. skatter og afgifter, herunder stempelafgifter,
+forsikringspræmier, telefon, telex, telegram og portoudgifter,
+.of
+.kp off
+.kp on
+.of 5mm
+b)¤udgifter i tilfælde af lånets misligholdelse, herunder et af selskabet
+fastsat gebyr for udsendelse af rykkerskrivelser, juridisk bistand m.v.
+.of
+.of 5mm
+c)¤udgifter ved besvarelse af forespørgsler i henhold til lovgivningen fra
+offentlige myndigheder, herunder et af selskabet fastsat gebyr for
+fremfindelse af udskrifter og bilag.
+.of
+.if &U'&GENVALGA = F
+.th .go CONT
+.sp
+Renten er variabel i forhold til Indskudsbevis, der den
+:SKRSLUT.&DATO.:SWISS8. - andrager :SKRSLUT.&RENTE.:SWISS8.%. Et
+udsving vil få virkning fra og med datoen for
+ændringen i Nationalbankens Indskudsbevisrente (NIB),
+der normalt fastsættes sidste bankdag i hver
+kalenderuge. Hvis NIB stiger i
+kreditkøbsaftalens løbetid, vil stigninger kunne indregnes i de enkelte
+ydelser, således at den oprindeligt aftalte løbetid ikke forlænges.
+Bortfalder basisrenten, er &AFDBNKNAVN. berettiget til at vælge en anden
+basisrente, der er repræsentativ for markedsrenten.
+...CONT
+.sp 5mm
+.kp off
+.kp on
+.sp
+.kp off
+.kp on
+:SWISS10.
+:FED.
+§ 9
+:SKRSLUT
+:SKRSLUT
+.sp 3mm
+&AFDBNKNAVN. er et 100% ejet datterselskab af &GENBANK. med fælles
+EDB-leverandør. Lånets oplysninger vil derfor være tilgængelige for/i
+bankens database. Uden &DIN. udtrykkelige tilladelse vil &DU. imidlertid
+ikke på baggrund heraf blive kontaktet direkte af banken for
+markedsmæssige formål.
+.sp 3mm
+.kp off
+:SKRSLUT.
+.*ophæv kolonneudskrivning
+...SLUT

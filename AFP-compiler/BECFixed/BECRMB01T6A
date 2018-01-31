@@ -1,0 +1,85 @@
+.******************* TEKST FORTSAT FRA BECRMB01T6 ******************
+.ar SÆRBESTEM ON
+:swiss10.
+Særlige bemærkninger
+.ar off
+.*********************************
+.ar VALUTAANM ON
+:swiss10.
+Valutaanmeldelse/momsnummer
+.ar off
+.*********************************
+.ar VALUTAANM2 ON
+:swiss8.
+.ti ^ 05
+.tp 90mm
+"Anmeldelse(r) af betaling til udlandet" vedlægges^Momsnr.:   &BECMOMSNR.
+.ar off
+.********************************
+.ar HONBELØB ON
+:swiss8.
+Honoreringsbeløbet bedes debiteret mig/os, når De har fået meddelelse om
+dispositioner under rembursen, henholdsvis ved forfald.
+.ar off
+.*********************************
+.ar PÅTEGNING ON
+:swiss8.
+Til bankens påtegning:
+.sp 02mm
+Underskrifterne i orden
+.br
+Kreditten bevilget
+.br
+Bevillingsnr
+.br
+.ar off
+.***************Her Starter et afkrydsningsfelt****************************
+.ar AFKRYDSNING5 ON
+:cour10.
+.if &U'&BECKRYDS1 eq J
+.th X
+.el
+.*
+.ar off
+.************Her slutter afkrydsningsfeltet********************************
+.ar DATOSTED ON
+:swiss8.
+.ti ^ 05
+.tp 35mm
+Dato:  &DATO8.^Sted.:  &BANKNAVN
+.sp 05,5mm
+______________________________________
+.br
+Ordregivers forpligtende underskrift(er)
+.ar off
+.**********************************
+.ar HENVEND ON
+:swiss8.
+Eventuelle henvendelser angående rembursen rettes til
+.sp
+ Tlf:
+:skrslut.
+.ar off
+.********************************
+.ar TELEFON ON
+:cour10.
+.if &L'&BECTLF eq 8
+.th &BECTLF
+.el
+.sp
+:skrslut.
+.ar off
+.******************************
+.ar HENVNAVN ON
+:swiss8.
+ Navn:
+:skrslut
+.ar off
+.*********************************
+.ar KONTAKTPERSON ON
+:cour10.
+.if &L'&BECNAVN2 gt 0
+.th &BECNAVN2
+.el
+.br
+.ar off

@@ -1,0 +1,9 @@
+.sp 2
+.ce on
+Med venlig hilsen
+.sp
+&BANKNAVN
+.br
+&AFDNAVN
+.ce off
+.ar off

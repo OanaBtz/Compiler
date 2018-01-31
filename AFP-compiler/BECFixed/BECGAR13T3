@@ -1,0 +1,4 @@
+.*TEST PÅ OM REGARANTIEN SKAL UDSKRIVES ***********************************
+.*HVIS DER IKKE STÅR J I FELTET, STOPPER AL UDSKRIVNING *******************
+.if &U'&GENREGARAN ne J
+.th .qu

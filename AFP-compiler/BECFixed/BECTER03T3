@@ -1,0 +1,117 @@
+.*****************************************
+.ar UNDERSKRIFTTXT ON
+.sp
+:swiss8.
+En kunde, der har indgået aftale om kurssikring, er
+forpligtet til at godtgøre pengeinstituttet
+ethvert tab, der måtte opstå som følge af, at aftalen om
+kurssikring ophæves. Hverken kunde eller pengeinstituttet
+kan dog rejse noget krav ved ophævelsen, hvis
+denne skyldes at hæveforbehold, der udtrykkeligt fremgår
+af købsaftale/slutseddel, gøres gældende.
+Det er en betingelse for, at kunden bliver frigjort for sin
+erstatningsforpligtelse, at ophævelsen af købet er gjort gældende
+overfor ejendomsmægler inden 14 dage fra købsaftalens/slutsedlens
+underskrift (fra sælger såvel som køber), og
+at handelen faktisk ophæves.
+En yderligere betingelse er, at køber ikke forsøger
+at købe pågældende ejendom igen inden for 6 måneder.
+.ar off
+.***********************************
+.ar KUNDEUNDERSKR ON
+:swiss8.
+Rekvirentens underskrift                                   Dato:
+.sp9
+.ce on
+&NAVN
+.ce off
+.sp 1mm
+.ar off
+.*********************************
+.ar BANKUNDERSKR
+:swiss8.
+Pengeinstituttets stempel og underskrift      Dato:
+.sp9
+.ce on
+&BANKNAVN
+.ce off
+.sp 1mm
+.ar off
+.*************************
+.ar PARTER ON
+:swiss10.
+:FED.
+Parter
+:SKRSLUT.
+.ar off
+.*************************
+.ar GRUNDLAG ON
+:swiss10.
+:FED.
+Grundlag
+:SKRSLUT.
+.ar off
+.***************************
+.ar UNDERSKR ON
+:swiss10.
+:FED.
+Underskrift
+:SKRSLUT.
+.ar off
+.***********************
+.ar REGNR ON
+:swiss8.
+Reg nr.:
+&REGNR
+.ar off
+.*********************
+.ar OVERSKRIFT ON
+:swiss12.
+:FED.
+:USENKEL.
+Terminskontrakt
+:swiss12.
+- ved ejerskiftelån /
+hjemtagelse
+:SKRSLUT.
+.br
+.ar off
+.***********************
+.ar KONTRAKTPAR ON
+:cour10.
+.sp 9,8mm
+.if &L'&BECTERMA2 > 29
+.th
+.SU OFF
+.SE A = substr &BECTERMA2 1 29
+.SE B = substr &B40TERMA2 30 56
+.SU ON
+.th &A
+.br
+.th &B
+.el &BECTERMA2
+.br
+.ar off
+.************************
+.ar KURSTXT ON
+:swiss8.
+Kontantprovenu kr.
+.sp 08mm
+Nom.obl.beløb kr.
+:SKRSLUT.
+.ar off
+.********************
+.ar KURSPAR ON
+:cour10.
+.if &L'&BECTERKPRV gt 1
+.th &BECTERKPRV
+.el
+.br
+.sp 07,5mm
+.br
+.if &L'&BECTEROBEL gt 1
+.th &BECTEROBEL
+.el
+:SKRSLUT.
+.ar off
+.fo on

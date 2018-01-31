@@ -1,0 +1,168 @@
+.kp off
+.if &DEBANTAL = 1
+.th .se opm = 'opmærksom'
+.el .se opm = 'opmærksomme'
+.kp on
+I forbindelse med rådgivningen er &deblomt. &opm. på, at
+&GENALTLN1. kan udgøre et alternativ til den boligkreditaftale, som
+&deblomt. har indgået.
+.sp 3mm
+.kp off
+.kp on
+&GENLÅN1. har
+:VS.&GENOPTÅOP.
+årlige omkostninger i procent (ÅOP).
+.sp 3mm
+.kp off
+.kp on
+&GENALTLN1. har
+:VS.&GENALTÅOP.
+årlige omkostninger i procent (ÅOP).
+.kp off
+.sp 3mm
+.if &U'&GENJANEJ1 = J
+.th .kp on
+.th I forbindelse med rådgivningen har &deblomt. fået vist
+.th beregningseksempler,
+.th der illustrerer, hvor længe gælden ved den valgte afdragsprofil vil
+.th overstige ejendomsværdien (købesummen) ved et prisfald på 15%.
+.th .sp 3mm
+.th .kp off
+.kp on
+Boligkreditgiver har oplyst &dig. om, at rådgivningen ikke er uafhængig
+og kun omfatter de produkter, som boligkreditgiver udbyder.
+.sp 3mm
+.kp off
+.kp on
+.if &U'&GENJANEJ2 = J
+.th Boligkreditgiver anbefaler det valgte lån.
+.el Boligkreditgiver anbefaler ikke det valgte lån men derimod:
+.el .br
+.el &GENTEKST51.
+.el &GENTEKST52.
+.el &GENTEKST53.
+.el &GENTEKST54.
+.el &GENTEKST55.
+.el &GENTEKST56.
+.el &GENTEKST57.
+.el &GENTEKST58.
+.el &GENTEKST59.
+.el &GENTEKST60.
+.sp 3mm
+.kp off
+.kp on
+Såfremt den valgte boligkreditaftale er i udenlandsk valuta,
+jf. bekendtgørelse om god skik for boligkredit §3 stk. 10,
+skal &du. være &opm. på, at værdien
+af boligkreditten omregnet til &din. nationale valuta kan ændre sig
+og værdien af det beløb, som &du. skal betale i &din. nationale valuta,
+kan ændre sig.
+.sp 3mm
+I det omfang boligkreditgiver tilbyder at konvertere &din. boligkredit
+til en anden valuta, har &du. ret til at konvertere boligkreditten til en
+anden valuta eller efter aftale med boligkreditgiver at etablere en
+anden ordning, som kan begrænse &din. valutarisiko. &sdu. kan til enhver
+tid få oplyst af boligkreditgiver, om denne tilbyder at konvertere
+&din. boligkredit til en anden valuta.
+.sp 3mm
+.kp off
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Omkostninger ved lånomlægning eller indfrielse:
+:SKRSLUT.
+.br
+Der må påregnes gebyrer for indfrielse, omlægning, ændring af sikkerheder
+m.v. Der henvises i øvrigt til pengeinstituttets prisliste.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Begrundelse for valget af boligkreditaftalen
+i lyset af &MIN økonomiske situtation:
+:SKRSLUT.
+.br
+.** Manuelle tekstlinjer ***********
+.if &L'&GENLÅNGR1 > 0
+.or &L'&GENLÅNGR2 > 0
+.or &L'&GENLÅNGR3 > 0
+.or &L'&GENLÅNGR4 > 0
+.or &L'&GENLÅNGR5 > 0
+.or &L'&GENLÅNGR6 > 0
+.or &L'&GENLÅNGR7 > 0
+.or &L'&GENLÅNGR8 > 0
+.or &L'&GENLÅNGR9 > 0
+.or &L'&GENLÅNGR10 > 0
+.th &GENLÅNGR1.&GENLÅNGR2.&GENLÅNGR3.&GENLÅNGR4.&GENLÅNGR5.
+.th &GENLÅNGR6.&GENLÅNGR7.&GENLÅNGR8.&GENLÅNGR9.&GENLÅNGR10.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Øvrige råd:
+:SKRSLUT.
+.br
+.if &L'&GENØVRIG1 > 0
+.or &L'&GENØVRIG2 > 0
+.or &L'&GENØVRIG3 > 0
+.or &L'&GENØVRIG4 > 0
+.or &L'&GENØVRIG5 > 0
+.or &L'&GENØVRIG6 > 0
+.or &L'&GENØVRIG7 > 0
+.or &L'&GENØVRIG8 > 0
+.or &L'&GENØVRIG9 > 0
+.or &L'&GENØVRIG10 > 0
+.th &GENØVRIG1.&GENØVRIG2.&GENØVRIG3.&GENØVRIG4.&GENØVRIG5.
+.th &GENØVRIG6.&GENØVRIG7.&GENØVRIG8.&GENØVRIG9.&GENØVRIG10.
+.sp 3mm
+.**************************************************************************
+.kp on
+:FED.
+Vilkår i forbindelse med optagelse af boligkreditaftalen
+(fastkursaftale og hjemtagelse m.v.):
+:SKRSLUT.
+.br
+Lånet er et kontantlån, som ikke har sammenhæng med obligationer.
+.sp 3mm
+I forbindelse med optagelse af lånet må der påregnes
+etableringsomkostninger til pengetinstituttet samt afgifter til det
+offentlige for tinglysning af pantebrev.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Opsigelses- og indfrielsesvilkår for den valgte boligkreditaftale:
+:SKRSLUT.
+.br
+.if x&GENLÅNTYPE. = x1
+.or x&GENLÅNTYPE. = x2
+.or x&GENLÅNTYPE. = x8
+.th Lånet kan indfries til kurs 100.
+.th .sp 3mm
+.th .kp off
+.if x&GENLÅNTYPE. = x3
+.or x&GENLÅNTYPE. = x4
+.or x&GENLÅNTYPE. = x5
+.or x&GENLÅNTYPE. = x6
+.th Prioritetslån med fast rente eller renteloft kan opsiges eller
+.th helt/delvist indfries, før rentelofts eller rentebindingsperiodens
+.th udløb, idet beregning af indfrielseskurs dog følger særlige regler
+.th fastlagt i lånedokumenterne.
+.th .sp 3mm
+.th Bemærk: Overkurs kan forekomme ved indfrielse.
+.th .sp 3mm
+.th .kp off
+.if x&GENLÅNTYPE. = x7
+.th Lånet kan indfries til kurs 100.
+.th .br
+.th Indfrielsen kan være forbundet med et opsigelsesvarsel på to
+.th måneder til en termin.
+.th .sp 3mm
+.th .kp off
+.kp on
+:FED.
+Er det muligt at foretage låneomlægning:
+:SKRSLUT.
+.br
+Ja

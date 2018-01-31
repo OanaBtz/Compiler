@@ -1,0 +1,178 @@
+.if &L'&GENKRYDS4 > 0
+.th Lastbil
+.if &L'&GENKRYDS5 > 0
+.th Påhængsvogn
+.if &L'&GENKRYDS6 > 0
+.th Sættevogn
+.if &L'&GENKRYDS7 > 0
+.th Motorcykel
+.if &L'&GENKRYDS8 > 0
+.th Traktor med nummerplade
+.if &L'&GENKRYDS9 > 0
+.th Traktorpåhængsvogn
+.if &L'&GENKRYDS10 > 0
+.th Campingvogn
+.if &L'&GENKRYDS11 > 0
+.th Diverse påhængsredskaber
+.if &L'&GENKRYDS12 > 0
+.th Motorredskab/godstransport
+.if &L'&GENKRYDS13 > 0
+.th Knallert
+.ar off
+.**********************
+.ar UNDER on
+.tp 41mm center 130mm center
+.if &L'&MEDNAVN > 0
+.th ¤&KTONAVN ¤&MEDNAVN
+.el ¤&KTONAVN
+.ar off
+.or X&GENTYP > X3
+.th .mg/T/Vælg dækningstype 1-3/
+.ar off
+.*PANTTYPE***********
+.if X&GENPANTTYP = X0
+.or X&GENPANTTYP > X4
+.th .mg/T/Vælg Panttype 1-4/
+.ar PANTTYPE on
+.if X&GENPANTTYP = X1
+.th Salg med ejendomsforbehold
+.if X&GENPANTTYP = X2
+.th Pantsætning
+.if X&GENPANTTYP = X3
+.th Transport i forsikringssummen
+.if X&GENPANTTYP = X4
+.th Leasing
+.ar off
+.*OPRETTELSESDATO*****
+.ar OPRDATO on
+&DATO
+.ar off
+.*FABRIKAT*******
+.ar FABRIKAT on
+&GENFABRIK &GENMODEL
+.ar off
+.*REG.NR.********
+.ar REGNR on
+&U'&GENREGNR3
+.ar off
+.*REG.DATO*******
+.ar REGDATO on
+.su off
+.se dg = substr &GENDATO2 1 2
+.se md = substr &GENDATO2 4 2
+.se aar = substr &GENDATO2 7 4
+.su on
+&dg./&md./&aar
+.ar off
+.*STEL NR.*******
+.ar STEL on
+&U'&GENSTEL
+.ar off
+.*OBJEKT**********
+.ar OBJEKT on
+.if &L'&GENKRYDS1 > 0
+.th Personbil (små)
+.if &L'&GENKRYDS2 > 0
+.th Personbil (store) inkl. Busser
+.if &L'&GENKRYDS3 > 0
+.th Varevogn
+.ar DEBREF on
+.su off
+.se regnr = substr &LANGKTONR 1 4
+.se ktonr = substr &LANGKTONR 5 21
+.su on
+&regnr &ktonr.
+.ar off
+.*KREDITOR/BANK***************
+.ar KREDITOR on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.*KREDITORS/BANKS CVR-NR*************
+.ar CVRNR on
+&BANKSENR
+.ar off
+.*KREDITORS REFERENCE****************
+.ar KREDREF on
+&GENEKSP
+.ar off
+.*FORSIKRINGSSELSKAB*****************
+.ar FORSIK on
+&B11FORSNV
+.br
+&B11FORSAD1
+.br
+&B11FORSAD2
+.br
+&B11FORSAD3
+.br
+&B11FORSAD4
+.ar off
+.*POLICENR.******
+.ar POLNR on
+&GENPOLNR1
+.ar off
+.*POLICETYPE*****
+.ar POLTYPE on
+.if X&GENTYP = X1
+.th Fuld kasko
+.if X&GENTYP = X2
+.th Kasko uden brand
+.if X&GENTYP = X3
+.th Brand
+.if X&GENTYP = X0
+.da DEBITOR       25mm  48mm   width  84mm
+.da MEDDEB     112.5mm  48mm   width  84mm
+.da CPRNR         33mm  67mm   width  84mm
+.da MEDCPRNR   120.5mm  67mm   width  84mm
+.da DEBREF        33mm  76.5mm width  84mm
+.da KREDITOR      25mm  89mm   width  84mm
+.da CVRNR         33mm 107mm   width  84mm
+.da KREDREF       25mm 116mm   width  84mm
+.da FORSIK        25mm 159mm   width 170mm
+.da POLNR      112.5mm 163mm   width  84mm
+.da POLTYPE    112.5mm 176mm   width  84mm
+.da PANTTYPE      25mm 190.5mm width  84mm
+.da OPRDATO    112.5mm 190.5mm width  84mm
+.da FABRIKAT      25mm 205mm   width  84mm
+.da REGNR      112.5mm 205mm   width  84mm
+.da REGDATO       25mm 214.5mm width  84mm
+.da STEL       112.5mm 214.5mm width  84mm
+.da OBJEKT        25mm 223.5mm width  84mm
+.da UNDER         25mm 273,5mm width 170mm
+.*DEBITOR/KONTOHAVER*******************************************************
+.ar DEBITOR on
+&KTONAVN
+.br
+&KTOCO
+.br
+&KTOGADE
+.br
+&KTOBY
+.ar off
+.*MEDKONTOHAVER************************************************************
+.ar MEDDEB on
+.if &L'&MEDNAVN > 0
+.th &MEDNAVN
+.th .br
+.th &MEDCO
+.th .br
+.th &MEDGADE
+.th .br
+.th &MEDBY
+.ar off
+.*DEBITORS/KONTOHAVERS CPR-NR*********
+.ar CPRNR on
+&KTOKNDNR1
+.ar off
+.*MEDDEBITORS/MEDKONTOHAVERS CPR-NR**
+.ar MEDCPRNR on
+.if &L'&MEDNAVN > 0
+.th &MEDKNDNR1
+.ar off
+.*DEBITORS/PANTSÆTTERS REF.***

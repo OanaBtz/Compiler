@@ -1,0 +1,49 @@
+.***** her laves kolonnedefinationnen ***********************
+.tm 35mm
+.pm 20mm
+.bm 20mm
+.cd 2 1mm 88mm
+.cl 85mm
+.************************************************************
+.* .SC = SINGLE COLUMN * STOPPER KOLLONNEDEFINITIONEN********
+.************************************************************
+:SWISS8.
+.kp on
+1. Kunden kan ved anvendelse af elektronisk underskrift forpligte sig
+overfor &BANKNAVN med den samme retsvirkning som ved anvendelse af
+traditionel underskrift på fysiske dokumenter.
+.sp 5mm
+.kp off
+.kp on
+2. Kunden er gjort opmærksom på, at de nærmere vilkår og
+ansvarsbestemmelser for anvendelse af elektronisk underskrift fremgår
+af "Vilkår for &WEBSYSNAVN." og at de
+godkendes ved hjælp af den elektroniske
+underskrift i forbindelse med kundens godkendelse af &BANKNAVN.s
+&WEBSYSNAVN.
+.ct aftale. Nærværende aftale udgør herefter en integreret del af
+&BANKNAVN.s &WEBSYSNAVN.
+.ct aftale.
+.sp 5mm
+.kp off
+.kp on
+3. Hvis kunden er tilmeldt &PRODNAVN., vil betalinger alene blive
+adviseret elektronisk via elektronisk betalingsoversigt. Denne aftale
+er derfor at betragte som tilslutningsaftale jvf.: "Tillæg til Generelle
+regler for debitorer i &PRODNAVN - elektronisk betalingsinformation",
+som vil fremgå af den elektroniske &WEBSYSNAVN.
+.ct aftale.
+.sp 5mm
+.kp off
+.kp on
+4. Nærværende aftale kan opsiges med samme varsler som aftalen om
+anvendelse af &WEBSYSNAVN., hvortil der henvises.
+.sp 5mm
+.kp off
+.kp on
+5. Da anvendelse af elektronisk underskrift er en forudsætning for
+anvendelse af &WEBSYSNAVN., vil en opsigelse af nærværende aftale
+samtidig være en opsigelse af aftalen om anvendelse af &WEBSYSNAVN..
+.sp 5mm
+.kp off
+:SKRSLUT.

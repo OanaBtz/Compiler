@@ -1,0 +1,47 @@
+.**************************************************************************
+.da KUNDEOPL     25mm    48mm width  84mm
+.da PIOPL     112.5mm    48mm width  84mm
+.da KUNDENR      25mm    79mm width  84mm
+.da BRUGERNR     25mm 110.5mm width 170mm
+.da BRUGNAVN     25mm 120.5mm width 170mm
+.da BRUGERNR1 112.5mm 110.5mm width 170mm
+.da BRUGNAVN1 112.5mm 120.5mm width 170mm
+.da FORHOLD      25mm   160mm width 175mm
+.**************************************************************************
+.ar KUNDEOPL on
+&NAVN
+.br
+&COADR
+.br
+&GADE
+.br
+&BY
+.br
+&LAND
+.ar off
+.**************************************************************************
+.ar PIOPL on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.sp 1mm
+&BANKEMAIL
+.ar off
+.**************************************************************************
+.ar KUNDENR on
+&KUNDENR
+.ar off
+.**************************************************************************
+.****I DENNE VERSION SKAL BRUGERNR OG BRUGERNAVN IKKE VISES****************
+.**************************************************************************
+.ar FORHOLD on
+&GENTEKST1
+.br
+&GENTEKST2
+.br
+&GENTEKST3
+.ar off

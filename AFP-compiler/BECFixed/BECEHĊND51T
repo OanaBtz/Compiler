@@ -1,0 +1,46 @@
+.br
+&PANTSAT67A.&PANTSAT67B
+.br
+&PANTSAT68A.&PANTSAT68B
+.br
+&PANTSAT69A.&PANTSAT69B
+.br
+&PANTSAT70A.&PANTSAT70B
+.br
+&PANTSAT71A.&PANTSAT71B
+.br
+&PANTSAT72A.&PANTSAT72B
+.br
+&PANTSAT73A.&PANTSAT73B
+.br
+&PANTSAT74A.&PANTSAT74B
+.br
+&PANTSAT75A.&PANTSAT75B
+.br
+&PANTSAT76A.&PANTSAT76B
+.br
+&PANTSAT77A.&PANTSAT77B
+.br
+&PANTSAT78A.&PANTSAT78B
+.br
+&PANTSAT79A.&PANTSAT79B
+.br
+&PANTSAT80A.&PANTSAT80B
+.br
+&PANTSAT81A.&PANTSAT81B
+.br
+&PANTSAT82A.&PANTSAT82B
+.br
+&PANTSAT83A.&PANTSAT83B
+.br
+&PANTSAT84A.&PANTSAT84B
+.br
+&PANTSAT85A.&PANTSAT85B
+.ar off
+.***********************************************************************
+.ar FORTSÄT on
+.ri on
+&FORTSÄTTES
+.ri off
+.ar off
+.**********************************************************************

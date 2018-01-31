@@ -1,0 +1,43 @@
+:SWISS10.
+.da INDHOLD 21mm 93mm width 170mm
+.da BETAL 21mm 180mm width 165mm
+.*************************************
+.ar INDHOLD on
+I forbindelse med udbetaling af min indekskonto ønsker jeg, at der ved
+beregning af udbetalingerne anvendes:
+.sp 9mm
+.tp 15mm
+.if &U'&GEN1965 eq J
+.th ¤Normal fast grundrente 3,50% om året.
+.el ¤Normal fast grundrente 4,25% om året.
+.sp 14mm
+¤Variabel grundrente som fastsættes én gang årligt af Statens
+administration.
+.sp 15mm
+.tp 5mm 15mm
+Jeg er bekendt med:
+.of 15mm
+¤*¤At udbetalingsperioden kan blive kortere end den aftalte periode på
+mellem 10 og 15 år.
+.of
+.of 15mm
+¤*¤At Statens indekstillæg kun ydes, så længe der kan udbetales en fuld
+månedlig ydelse fra indekskontoen.
+.of
+.of 15mm
+¤*¤At jeg i udbetalingsperioden frit kan skifte mellem fast og variabel
+grundrente.
+.of
+.of 15mm
+¤*¤At &BANKNAVN. skal bruge minimum 1 måned ekspeditionstid.
+.of
+.ar off
+.*******************************
+.ar BETAL on
+.if &L'&GENKTONR > 0
+.th Regnr.
+.th :SKRSLUT.&udregnr
+.th :SWISS10.
+.th .ct   Kontonr.
+.th :SKRSLUT.&udktonr
+.ar off

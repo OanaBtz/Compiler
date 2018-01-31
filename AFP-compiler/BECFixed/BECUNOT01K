@@ -1,0 +1,26 @@
+.*************** definer siden som et areal *******************************
+.da SIDE 20mm 46mm width 175mm
+.************ PARTER ******************************************************
+.ar SIDE on
+:SWISS10.:FED.
+Parter
+:SKRSLUT.
+.bx left 87.5mm right
+:SWISS8.
+.tp 1mm 88.5mm
+¤Kunde ¤Pengeinstitut
+.sp 21mm
+¤CPR-nr/CVR-nr.
+.bx new left 87.5mm right
+¤Kontonummer ¤Depotnummer
+.sp 5mm
+.bx off
+.bx can
+.************ INDHOLD *****************************************************
+:SWISS10.:FED.
+Indhold
+:SKRSLUT.
+.bx left right
+.sp 182.5mm
+.bx off
+.ar off

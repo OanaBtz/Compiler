@@ -1,0 +1,17 @@
+.if &E'&BDCTRANS = 0 .im (BDCTRANSA01)
+.if &U'&BECPRINT = JA .pl 67 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

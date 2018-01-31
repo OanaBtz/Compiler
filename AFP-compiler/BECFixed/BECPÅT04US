@@ -1,0 +1,59 @@
+.dr tynd weight 0.1mm
+.kp on
+Ovennævnte giver hermed &BANKNAVN. fuldmagt til på mine vegne ved brug af
+anmelderordningen at udstede, digitalt signere og anmelde til tinglysning
+et digitalt dokument med et indhold som angivet ovenfor.
+.sp 3mm
+&BANKNAVN. kan overlade udstedelsen, signering og/eller anmeldelse til
+tinglysning til en samarbejdspartner.
+.sp 3mm
+&BANKNAVN. har ret til at afgive de i forbindelse med denne disposition
+nødvendige erklæringer.
+.sp 3mm
+Tinglysningsrettens meddelelser kan med frigørende virkning sendes til
+undertegnede.
+.br
+Undertegnede accepterer, at der kan forekomme mindre afvigelser i
+forbindelse med den digitale tinglysning af dokumentet.
+.sp 10mm
+.*UNDERSKRIFT *************************************************************
+.hr tynd 5mm 50mm
+.br
+Dato
+.sp 15mm
+.hr tynd 5mm 80mm 85mm 170mm
+.sp 10mm
+.hr tynd 5mm 80mm 85mm 170mm
+.sp 10mm
+.kp off
+.if &U'&GENVITT. = J
+.th
+.el .go VITTSLUT
+.kp on
+Til vitterlighed om ægte underskrift/underskrifter, dateringens rigtighed
+og udstederens/udstedernes myndighed:
+.sp 10mm
+.tp 40mm 85mm 130mm
+.hr tynd 5mm 80mm 85mm 170mm
+.br
+Underskrift¤¤Underskrift
+.sp 5mm
+.hr tynd 5mm 80mm 85mm 170mm
+:SWISS8
+.br
+Navn¤(i blokbogstaver)¤Navn¤(i blokbogstaver)
+.sp 5mm
+.hr tynd 5mm 80mm 85mm 170mm
+.br
+Stilling¤(i blokbogstaver)¤Stilling¤(i blokbogstaver)
+.sp 5mm
+.hr tynd 5mm 80mm 85mm 170mm
+.br
+Adresse¤(i blokbogstaver)¤Adresse¤(i blokbogstaver)
+.sp 5mm
+.hr tynd 5mm 80mm 85mm 170mm
+.br
+Postnr./by¤(i blokbogstaver)¤Postnr/by¤(i blokbogstaver)
+.kp off
+...VITTSLUT
+.**************************************************************************

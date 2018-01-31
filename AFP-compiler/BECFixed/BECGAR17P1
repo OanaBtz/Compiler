@@ -1,0 +1,42 @@
+.* Parameterafsnit
+.**************************************************************************
+.*REGNR og KTONR1 er med i brevet men bruges ikke længere. De er bibeholdet
+.*for at nuv. banker kan fortsætte med at bruge disse.*********************
+.**************************************************************************
+.* Valider at mindst 1 af garantimodtager-adresselinjerne er udfyldt
+.if &L'&GARMODADR1 = 0
+.an &L'&GARMODADR2 = 0
+.an &L'&GARMODADR3 = 0
+.an &L'&GARMODADR4 = 0
+.an &L'&GARMODADR5 = 0
+.th .go TSTGAR1
+.el .go TSTOK1
+.***
+...TSTGAR1
+.if &L'&GARMADR1 = 0
+.an &L'&GARMADR2 = 0
+.an &L'&GARMADR3 = 0
+.an &L'&GARMADR4 = 0
+.an &L'&GARMADR5 = 0
+.th .mg/T/Indtast oplysninger om garantimodtager/
+...TSTOK1
+.**************************************************************************
+.if &U'X&GENJANEJ1 = XJ
+.or &U'X&GENJANEJ1 = XN
+.th
+.el .mg/T/Klausul om transport i tilbagesøgningskrav: Tast J eller N/
+.**************************************************************************
+.if &U'X&GENJANEJ2 = XJ
+.or &U'X&GENJANEJ2 = XN
+.th
+.el .mg/T/Klausul om tilbagelevering af garantibrevet: Tast J eller N/
+.**************************************************************************
+.if &U'X&GENREGARAN = XJ
+.or &U'X&GENREGARAN = XN
+.th
+.el .mg/T/Regaranti: Skriv J eller N/
+.**************************************************************************
+.if &U'X&GENJANEJ = XJ
+.or &U'X&GENJANEJ = XN
+.th
+.el .mg/T/Vitterlighedsvidner: Skriv J eller N/

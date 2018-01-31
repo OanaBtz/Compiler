@@ -1,0 +1,66 @@
+:GL.
+.* Definition af brevhoved
+.da MODTAGER 8 11 width 37
+.da AFSENDER 45 7 width 37
+.* Deres reference øverst til højre
+.da DERESA 45 14 width 38
+:EGL.
+.**************************************************************************
+:NY.
+.* Deres reference øverst til højre
+.da DERES 126.45mm 61.9mm
+:ENY.
+.**************************************************************************
+:GL.
+.ar MODTAGER on
+&BKNAVN
+.br
+&BKAFD
+.br
+&BKADR
+.br
+&BKBY
+.br
+.if &L'&GENATT gt 0
+.th Att.: &GENATT
+.ar off
+:EGL.
+.**************************************************************************
+:GL.
+.ar AFSENDER on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.br
+&AFDTLF
+.sp
+&DATO
+.sp
+.if &L'&GENEKSP gt 0
+.th Reference &GENEKSP
+.th .br
+.ar off
+:EGL.
+.**************************************************************************
+:NY.
+.ar DERES on
+:COUR8.
+.tp 33.6mm
+.if &L'&GENDERREF gt 0
+.th DERES REFERENCE ¤&GENDERREF
+.th .br
+:SKRSLUT.
+.ar off
+:ENY.
+.**************************************************************************
+:GL.
+.ar DERESA on
+.if &L'&GENDERREF gt 0
+.th Deres ref. &GENDERREF
+.ar off
+:EGL.
+.**************************************************************************

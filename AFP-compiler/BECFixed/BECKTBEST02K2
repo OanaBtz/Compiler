@@ -1,0 +1,130 @@
+.**AREALER*****************************************************************
+.da SIDE2 20mm 45mm width 175mm
+.da BESKAEF 20mm 51mm width 175mm
+.da AKASSE 20mm 96.5mm width 175mm
+.da ANDREKORT 20mm 108.5mm width 175mm
+.da LEGIT 20mm 126mm width 175mm
+.dr thin weight 0.2mm
+.dr thin1 weight 0.1mm
+.*BESKÆFTIGELSE************************************************************
+.ar SIDE2 on
+.tp 1mm
+:SWISS10.
+:FED.
+Beskæftigelse
+:SKRSLUT.
+.bx left right
+.sp 2.5mm
+:SWISS8.
+.tp 9mm 35mm 59mm 82mm 105mm 126mm _/170mm
+¤Lønmodtager ¤selvstændig ¤studerende ¤arbejdsledig ¤pensionist ¤Andet ¤
+.sp 2mm
+.tp 5mm
+¤Ansat eller selvstændig siden (md./år) ____/____
+.bx new left right
+.tp 1mm
+¤Tidligere beskæftigelse inden for de seneste fem år (fra/til, md./år)
+.sp 2mm
+¤1.
+.hr thin1 left right
+.sp 2mm
+¤2.
+.hr thin1 left right
+.sp 2mm
+¤3.
+.hr thin1 left right
+.sp 2mm
+¤4.
+.hr thin1 left right
+.sp 2mm
+¤5.
+.bx new left right
+.tp 1mm 37mm 48mm
+.sp 2mm
+¤Medlem af A-kasse: ¤ja ¤nej
+.sp 1mm
+.bx off
+.bx can
+.bx can
+.*ANDRE BETALINGSKORT *****************************************************
+:SWISS10.
+:FED.
+Andre betalingskort
+:SKRSLUT.
+.bx left right
+:SWISS8.
+.tp 1mm 19mm 54mm 82mm 121mm
+.sp 1mm
+¤Jeg har ¤Dankort ¤Visa/Dankort ¤MasterCard/Eurocard ¤Diners
+.sp 3mm
+.tp 19mm 54mm 82mm _/160mm
+¤American Express ¤Benzinkort ¤Kontokort ¤ (hvilke)
+.sp 1mm
+.bx off
+.*LEGITIMATION ************************************************************
+:SWISS10.
+:FED.
+Legitimation
+:SKRSLUT.
+.bx left right
+:SWISS8.
+.sp 1mm
+.tp 1mm 54mm 74mm 96mm
+¤Som legitimation vedlægges kopi af ¤ID-kort ¤kørekort ¤pas
+.bx off
+.*ERKLÆRING ***************************************************************
+:SWISS10.
+:FED.
+Erklæring
+:SKRSLUT.
+.bx left right
+.sp 99mm
+.bx off
+.*PENGEINSTITUT ***********************************************************
+:SWISS10.
+:FED.
+Pengeinstitut
+:SKRSLUT.
+:SWISS8.
+.tp  88.5mm
+.bx left 87.5mm right
+¤Tlf.nr.
+.sp 5mm
+.hr 87.5mm right
+¤Faxnr.
+.sp 5mm
+.bx off
+.ar off
+.**************************************************************************
+.*HER LAVES DE SMÅ KASSER TIL RUBRIKKEN "BESKÆFTIGELSE) *******************
+.ar BESKAEF on
+.se ks1 = '5mm 8mm / 31mm 34mm / 55mm 58mm / 78mm 81mm / 101mm 104mm /'
+.se ks2 = '122mm 125mm'
+.bx thin &ks1 &ks2
+.sp 1.5mm
+.bx off
+.ar off
+.**************************************************************************
+.*HER LAVES DE SMÅ KASSER TIL RUBRIKKEN "MEDLEM AF A-KASSE" ***************
+.ar AKASSE on
+.bx thin 33mm 36mm / 44mm 47mm
+.sp 1.5mm
+.bx off
+.ar off
+.*HER LAVES DE SMÅ KASSER TIL RUBRIKKEN "ANDRE BETALINGSKORT" *************
+.ar ANDREKORT on
+.bx thin 15mm 18mm / 50mm 53mm / 78mm 81mm / 117mm 120mm
+.sp 1.5mm
+.bx off
+.sp 1mm
+.bx thin 15mm 18mm / 50mm 53mm / 78mm 81mm
+.sp 1.5mm
+.bx off
+.ar off
+.*HER LAVES DE SMÅ KASSER TIL RUBRIKKEN "LEGITIMATION" ********************
+.ar LEGIT on
+.bx thin 50mm 53mm / 70mm 73mm / 92mm 95mm
+.sp 1.5mm
+.bx off
+.ar off
+.**************************************************************************

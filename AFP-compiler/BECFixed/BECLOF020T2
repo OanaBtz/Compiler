@@ -1,0 +1,22 @@
+.********************AREAL-DEFINITIONER************************************
+.da INDB  12mm 216mm
+.da BELOB 10mm 263mm width 200mm
+.**************************************************************************
+.**** Betalings-ID og Indbetaler ******************************************
+.ar INDB on
+&ADR1.
+.br
+&ADR2.
+.br
+&ADR3.
+.br
+&ADR4.
+.br
+&ADR5.
+...CONT1
+.ar off
+.**** Beløb og betalingsdato ***********************************
+.ar BELOB on
+.tp 40mm right 100mm right 179mm right
+¤&FIBELØB.¤&FORFDATO1.¤&FIBELØB.
+.ar off

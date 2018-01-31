@@ -1,0 +1,11 @@
+.sp2
+.ce on
+Med venlig hilsen
+.sp
+&GENEKSP
+.br
+.if &L'&GENTLFNR > 0
+.th Telefon nr.: &GENTLFNR
+.ce off
+.ar off
+.****************************************************************

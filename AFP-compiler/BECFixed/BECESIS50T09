@@ -1,0 +1,36 @@
+.******************************************************************
+.tp 5mm 10mm
+.*.dr tynd weight 0.2mm
+.****************************
+.kp on
+.hr left right
+:SWISS10.
+:FED. 9. Førtidig tilbagebetaling
+:SKRSLUT.
+:SWISS9.
+.hr left right
+.sp 1.5mm
+.if &U'&GENMEDKTOH = J
+.th I
+.el Du
+har mulighed for at indfri lånet helt eller delvis før tiden.
+.sp 3mm
+Gebyr ved førtidig tilbagebetaling: Fastsættes af långiver.
+.sp 3mm
+:SWISS10.
+Hvis
+.if &U'&GENMEDKTOH = J
+.th I
+.el du
+beslutter
+.if &U'&GENMEDKTOH = J
+.th jer
+.el dig
+for at indfri dette lån før tiden, bedes
+.if &U'&GENMEDKTOH = J
+.th I
+.el du
+kontakte os for at få oplysning om det præcise indfrielsesbeløb.
+.sp 3mm
+:SWISS9.
+.kp off

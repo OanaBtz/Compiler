@@ -1,0 +1,105 @@
+.da AFGIFT   155mm    19.5mm  width  30mm
+.da SENR     115mm      34mm  width  60mm
+.da ANMELDER 115mm      43mm  width  88mm
+.da KONTRANR 153mm    81.5mm  width  88mm
+.da PANTSAT1  29mm     100mm  width 170mm
+.da DEBITOR   29mm   117,7mm  width  80mm
+.da MEDDEB   117mm   117,7mm  width  80mm
+.da RETTEN    29mm   152,5mm  width  80mm
+.da RETSFOR  117mm   152,5mm  width  80mm
+.da SIKKER    33mm   176,5mm  width 165mm
+.da RENTE     33mm   186,2mm  width 135mm
+.************************************************************************
+.ar AFGIFT on
+.ri &TINGAFG. kr.
+.ri off
+.ar off
+.***************************************
+.ar SENR on
+&BANKSENR.
+.ar off
+.***************************************
+.ar ANMELDER on
+&AFDBNKNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.br
+&AFDTLF.
+.ar off
+.************************************************************************
+.ar KONTRANR on
+:SWISS10.Kontrakt nr. :SKRSLUT.&AFTALENR.
+.ar off
+.************************************************************************
+.ar PANTSAT1 on
+.tp 20mm 75mm 90mm 120mm 140mm
+:SWISS8.
+Stelnr.::SKRSLUT.¤&STELNR01. :SWISS8.¤Reg.nr.::SKRSLUT.¤
+&REGISNR01.:SWISS8.¤1. reg.dato: :SKRSLUT.&REGDATO01.:SWISS8.
+.br
+Mærke/Model: :SKRSLUT.¤&BESKRIV01., :SWISS8.årgang:SKRSLUT. &ÅRG01.
+.ar off
+.***********************************************************************
+.ar DEBITOR on
+&KUNDENR.
+.br
+&ADR1.
+.br
+&ADR2.
+.br
+&ADR3.
+.br
+&ADR4.
+.br
+&ADR5.
+.ar off
+.************************************************************************
+.ar MEDDEB on
+&MDEBKNDNR.
+.br
+&MDEBADR1.
+.br
+&MDEBADR2.
+.br
+&MDEBADR3.
+.br
+&MDEBADR4.
+.br
+&MDEBADR5.
+.ar off
+.************************************************************************
+.ar RETTEN on
+&AFDBNKNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.br
+&AFDTLF.
+.ar off
+.************************************************************************
+.ar RETSFOR on
+&AFDBNKNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.************************************************************************
+.ar SIKKER on
+.tp 29mm
+¤&BELLOF1.
+.br
+.tp 12mm
+¤&BELLOF1T1.&BELLOF1T2.
+.ar off
+.************************************************************************
+.ar RENTE on
+.tp 29mm
+¤&PÅRENTE1. :SWISS8.p.a. :SKRSLUT.
+.sp 2,6mm
+¤&LØBETID. :SWISS8.Måneder :SKRSLUT.
+.ar off
+.************************************************************************

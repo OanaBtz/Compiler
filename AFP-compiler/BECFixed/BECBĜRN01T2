@@ -1,0 +1,50 @@
+CPR.nr
+.ar off
+.*************************************************
+.ar BINDPER on
+Bindingsperiodens udlÄb:
+.ar off
+.*************************************************
+.ar INDBETA on
+.tp 71mm
+.if &L'&GENKONTO2 > 0
+.th Som bidrag indbetales (indtil videre): kr. Â¤pr.
+.th .sp 1mm
+.th OverfÄres fra kontonr.: Â¤FÄrste gang den:
+.th .sp 2mm
+.th BelÄbet trÄkkes uden yderligere meddelelse til kontohavere.
+.th OverfÄrselsanmodningen er gyldig indtil den skriftligt tilbagekaldes.
+.th Pengeinstituttet kan uden meddelelse undlade den aftalte overfÄrsel,
+.th sÄfremt overfÄrslen bevirker manglende dÄkning pÄ den konto midlerne
+.th overfÄres fra.
+.el .sp 1mm
+.el Der er ikke aftalt fast indbetaling
+.br
+.ar off
+.*************************************************
+.ar REGLER1 on
+1.
+.is to 5mm
+.in 5mm nobreak
+Indskud sker pÄ en konto lydende pÄ barnets navn. Opsparingen kan placeres
+kontant eller i vÄrdipapirer - enten via pulje eller i sÄrskilt depot.
+.br
+Pengeinstituttet modtager pÄ barnets vegne de pÄ kontoen indbetalte
+belÄb som tilhÄrende barnet.
+.in
+.sp
+2.
+.is to 5mm
+.in 5mm nobreak
+Der kan kun oprettes Ã©n konto for barnet. SÄvel opretteren af kontoen
+som kontohaver og personer, der er beslÄgtet med barnet i ret opstigende
+linie kan foretage indskud pÄ kontoen.
+.in
+.sp
+3.
+.is to 5mm
+.in 5mm nobreak
+Der kan indskydes indtil 3.000 kr. Ärligt pÄ kontoen, og der kan i alt
+indsÄttes hÄjst 36.000 kr.
+.in
+.sp

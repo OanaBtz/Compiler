@@ -1,0 +1,11 @@
+:FED.
+Underskrifter
+:SKRSLUT.
+.***** her laves kassen til Underskrifter**********************************
+.bx left 87.5mm right
+.tp 1mm 57.5mm 88.5mm 145mm
+:SWISS8.
+¤For virksomheden ¤Dato: ¤Formidler af &LOENSYSTEM ¤Dato:
+.sp 30mm
+.bx off
+.ar off

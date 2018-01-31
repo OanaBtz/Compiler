@@ -1,0 +1,16 @@
+Vi fremsender her to checks på henholdsvis
+:vs. &BECHANLBE1
+kr. og
+:vs. &BECHANLBE2
+kr., ialt skriver kr. &RESULTAT1.&RESULTAT2..
+.sp
+.if &L'&RESULTA < 6
+.th For et samlet checkbeløb under 600,00 kr. tager &BANKNAVN et gebyr
+.th på 25,00 kr.
+.if &L'&RESULTA = 6
+.an x&RESULTA < x600,00
+.th For et samlet checkbeløb under 600,00 kr. tager &BANKNAVN et gebyr
+.th på 25,00 kr.
+.if &L'&RESULTB < 6
+.th .sp
+.th For checks under 100,00 kr. tillægges et gebyr.

@@ -1,0 +1,74 @@
+.oc  TelefonService udvidede muligheder
+.sp6
+.in5
+.ti > 05
+.tp 3 39 54
+.fo left
+>&STILL >&BANKNAVN
+.br
+>&NAVN >&AFDNAVN
+.br
+.if &L'&COADR gt 0
+.th >&COADR >&AFDGADE
+.th .br
+.th >&GADE >&AFDBY
+.th .br
+.th >&BY
+.th .sp6
+.el >&GADE >&AFDGADE
+.el .br
+.el >&BY >&AFDBY
+.el .sp7
+>&GENBRUGER >&KUNDENR
+.sk4
+.in -2
+.tp 52
+.se ANTAL=16
+.if &L'&GENANDEN1 gt 0
+.th .se ANTAL=&ANTAL-1
+.th Overførsel til anden kundes konto i banken >&GENANDEN1
+.th .br
+.if &L'&GENT3 gt 0
+.th .se ANTAL=&ANTAL-1
+.th >&GENANDEN2
+.th .br
+.if &L'&GENANDEN3 GT 0
+.th .se ANTAL=&ANTAL-1
+.th >&GENANDEN3
+.th .sk
+.el .sk
+.if &L'&GENPI1 gt 0
+.th .se ANTAL=&ANTAL-1
+.th Overførsel til konto i andet pengeinstitut  >&GENPI1
+.th .br
+.if &L'&GENPI2 gt 0
+.th .se ANTAL=&ANTAL-1
+.th >&GENPI2
+.th .br
+.if &L'&GENPI3 gt 0
+.th .se ANTAL=&ANTAL-1
+.th >&GENPI3
+.th .sk
+.el .sk
+.if &L'&GENGIRO1 gt 0
+.th .se ANTAL=&ANTAL-1
+.th Overførsel fra konto i GiroBank >&GENGIRO1
+.th .br
+.if &L'&GENGIRO2 gt 0
+.th .se ANTAL=&ANTAL-1
+.th >&GENGIRO2
+.th .br
+.if &L'&GENGIRO3 gt 0
+.th .se ANTAL=&ANTAL-1
+.th >&GENGIRO3
+.sp &ANTAL
+.sp2
+.ce
+.tp 3 17
+>&EKSPBY., den >&DATO
+.sp5
+.tp 3
+>&BANKNAVN
+.br
+.tp 3 39
+>&AFDNAVN >&NAVN

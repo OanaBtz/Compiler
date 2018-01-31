@@ -1,0 +1,4 @@
+.*
+.if &U'&GENJANEJ = Æ
+.th .se betegn = 'ægtefælle'
+.el .se betegn = 'samlever'

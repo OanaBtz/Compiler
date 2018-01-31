@@ -1,0 +1,25 @@
+.da SIDE2 20mm 42mm width 175mm
+.tp 1mm 88.5mm
+.**************************************************************************
+.ar SIDE2 on
+:SWISS10.
+.***** her laves kassen Betingelser (fortsat)******************************
+.bx left right
+.sp 187mm
+.bx off
+:FED.
+Bilag
+:SKRSLUT.
+.bx left right
+.sp 15mm
+.bx off
+:FED.
+Underskrift
+:SKRSLUT.
+.bx left 87.5mm right
+:SWISS8.
+.tp 1mm 58mm 88.5mm 145.5mm
+¤Serviceleverandør ¤Dato: ¤Formidlende pengeinstitut ¤Dato:
+.sp 15mm
+.bx off
+.ar off

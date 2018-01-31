@@ -1,0 +1,118 @@
+.kp on
+:SWISS10.
+:FED.
+4. Renteberegning og rentetilskrivning
+:SKRSLUT
+:SWISS8.
+.sp 3mm
+Dette afsnit finder ikke anvendelse for &DINE. betalingskonti -
+se Tillæg om betalingstjenester.
+.sp 3mm
+En betalingskonto, er en konto oprettet med henblik på at gennemføre
+betalingstransaktioner. Eksempelvis vil &DIN. løn og
+budgetkonto være omfattet.
+.sp 3mm
+En arbejdsdag er en dag, hvor betalerens eller betalingsmodtagerens
+relevante udbyder, der er involveret i gennemførelsen af
+en betalingstransaktion, holder åbent som påkrævet for gennemførelsen af en
+betalingstransaktion. Lørdage, søn- og helligdage, grundlovsdag, fredag
+efter Kristi Himmelfartsdag, juleaftensdag og nytårsaftensdag er ikke
+arbejdsdage i &BANKNAVN..
+.sp 3mm
+&BANKNAVN foretager en daglig beregning af rente for hver
+enkelt konto på følgende måde:
+.sp 3mm
+.kp off
+.kp on
+Saldo x den pålydende rente/360.
+.sp 3mm
+Alle måneder beregnes som 30 dage.
+.sp 3mm
+.kp off
+.kp on
+Når den daglige saldo opgøres, tager &BANKNAVN. udgangspunkt i
+rentedatoen for kontobevægelserne.
+.sp 3mm
+.kp off
+.kp on
+Rentedatoen er den dag, hvor en indbetaling, udbetaling eller
+anden kontobevægelse får virkning for beregning af renter på
+en konto.
+.sp 3mm
+.kp off
+.kp on
+Der gælder som udgangspunkt følgende regler:
+.sp 3mm
+Når &DU indbetaler kontant, med check eller med Dankort på en
+konto i &BANKNAVN., er (første
+arbejdsdag/arbejdsdagen) efter indbetalingen
+rentedato.
+.sp 3mm
+.kp off
+.kp on
+Når &DU får udbetalt kontanter på en check udstedt til &DIG.,
+er (arbejdsdagen/første arbejdsdag efter
+udbetalingen) rentedato. Rentedatoen ved indbetalingen af
+denne check på &DIN konto i &BANKNAVN. er (første
+arbejdsdag efter indbetalingen/indbetalingsdagen).
+.sp 3mm
+.kp off
+.kp on
+Når &DU får udbetalt kontant eller med check fra
+&DIN konto i &BANKNAVN., er (arbejdsdagen/første
+arbejdsdag efter udbetalingsdagen) rentedato.
+.sp 3mm
+.kp off
+.kp on
+Når &DU overfører beløb mellem egne konti i &BANKNAVN., er
+(arbejdsdagen/første arbejdsdag efter overførslen)
+rentedato for begge konti.
+.sp 3mm
+.kp off
+.kp on
+Når &DU modtager løn, offentlige ydelser m.v. er (første
+arbejdsdag efter bogføringsdagen/bogføringsdagen/dispositionsdagen)
+rentedato.
+.sp 3mm
+.kp off
+.kp on
+Når &DU modtager andre overførsler fra en konto i et dansk
+pengeinstitut, er rentedatoen (første arbejdsdag efter at
+overførslen er modtaget og bogført/overførselsdagen).
+.sp 3mm
+.kp off
+.kp on
+.us Tilskrivning af renter
+.br
+&BANKNAVN. tilskriver renter én gang årligt for
+.us indlån
+.ct . Det sker ved at lægge de daglige renteberegninger sammen og sætte
+det samlede beløb ind på &DIN konto. (Den dag renterne
+tilskrives/første arbejdsdag efter tilskrivningen) er
+rentedato.
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN. tilskriver renter for
+.us udlån
+enten månedsvis, kvartalsvis eller halvårligt. Renteterminen fremgår af
+lånedokumentet.
+.sp 3mm
+.kp off
+.kp on
+Rentetilskrivningen foregår ved at lægge de daglige
+renteberegninger sammen og hæve det samlede beløb på &DIN
+konto. (Den dag renterne tilskrives/Første arbejdsdag
+efter tilskrivningen) er rentedato.
+.sp 3mm
+.kp off
+.kp on
+Tilskrivningen af renter fremgår af bankbog, kontoudtog eller
+anden opgørelse.
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN kan bestemme, at rentebeløb under en vis størrelse ikke
+tilskrives kontoen.
+.sp 5mm
+.kp off

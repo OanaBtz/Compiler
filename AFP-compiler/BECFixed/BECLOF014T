@@ -1,0 +1,20 @@
+.*** Først skal gebyrstørrelse afgøres.
+.**** Erhverskunde
+.if &U'X&GENVALGA  = XE
+.th .se gebyr = 150,00
+.**** Privatkunde
+.if &U'X&GENVALGA  = XP
+.th .se gebyr = 100,00
+.**** Her startet selve brødteksten
+&SDIT. forsikringsselskab oplyser at der ikke er tegnet kaskoforsikring på
+køretøjet/udstyret. Det er en forudsætning for at finansieringen kan
+fortsætte, at den fornødne kaskoforsikring er tegnet.
+.sp
+Vi beder &DIG. inden 5 dage kontakte os med oplysning om i hvilket
+selskab og under hvilket policenummer køretøjet/udstyret er forsikret.
+.sp
+Modtager vi ikke de nødvendige oplysninger inden fristens udløb, opkræves
+gebyr kr. &gebyr.,  som vil blive opkrævet sammen med næste ordinære
+ydelse.
+.sp
+&SDU. er velkommen til at kontakte os, hvis &DU. har spørgsmål.

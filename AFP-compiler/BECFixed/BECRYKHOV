@@ -1,0 +1,44 @@
+:COUR10
+.*************** AREAL-DEFINITIONER ***************************************
+.da ADR 20mm 47mm width 150mm
+.**************************************************************************
+.ar ADR on
+.if &U'X&PRIMÆR = XJ
+.th .go PRIMÆR
+.el .go MEDKTO
+.*** Adresselinjer primærkontohaver ***************************************
+...PRIMÆR
+.if &L'&KTOCO > 0
+.an &L'&KTOLAND > 0
+.th
+.el &KTOSTILL
+.el .br
+&KTONAVN
+.br
+&KTOCO
+.br
+&KTOGADE
+.br
+&KTOBY
+.br
+&KTOLAND
+.go HOVSL
+.*** Adresselinjer medkontohaver ******************************************
+...MEDKTO
+.if &L'&COADR > 0
+.an &L'&LAND > 0
+.th
+.el &STILL
+.el .br
+&NAVN
+.br
+&COADR
+.br
+&GADE
+.br
+&BY
+.br
+&LAND
+.**************************************************************************
+...HOVSL
+.ar off

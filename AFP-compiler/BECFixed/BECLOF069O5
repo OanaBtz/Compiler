@@ -1,0 +1,34 @@
+.**************************************************************************
+.da VEND 7mm 270mm width 180mm rotate -90
+.da BOX 20mm 40mm width 175mm
+.da OVERSKR 20mm 36mm width 175mm
+.**************************************************************************
+.* SIDEHOVED SIDE 2 (MED Y = 34 + 13MM (TOPMARGIN) = 47MM *****************
+.* SIDEHOVEDDEFINITION STARTER ********************************************
+.rh on
+.**************************************************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+:SKRSLUT.
+.ar off
+.**************************************************************************
+.ar OVERSKR on
+:SWISS10.
+:FED.
+Samtykkeerklæring og underskrifter
+:SKRSLUT.
+:SKRSLUT.
+.ar off
+.**************************************************************************
+.ar BOX on
+.bx left right
+.sp 232mm
+.bx off
+.ar off
+.**************************************************************************
+.sp 33mm
+.rh off
+.* SIDEHOVEDDEFINITION SLUTTER ********************************************
+.rh execute
+.ll 169mm

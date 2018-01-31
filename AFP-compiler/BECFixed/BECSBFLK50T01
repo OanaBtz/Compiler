@@ -1,0 +1,237 @@
+.tp 3mm
+:SWISS8.
+.**************************************************************************
+.kp on
+:SWISS10.
+:FED.
+1. Ændring af renter og priser
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Renter og priser er variable, medmindre andet fremgår udtrykkeligt. Priser
+betegnes også som gebyrer.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+1.1. Ændring af variable rentesatser og priser uden varsel
+:SKRSLUT.
+:SWISS8.
+:FED.
+.sp 3mm
+&BANKNAVN. kan uden varsel sætte rentesatser op på lån og kreditter, samt
+sætte sine priser op og indføre nye priser, på grund af udefrakommende
+forhold som &BANKNAVN. ikke har indflydelse på og som har betydning for
+&BANKNAVN., bl.a. når der sker - ikke udtømmende opremsning:
+.br
+.of 3mm
+*¤inden- eller udenlandske ændringer i penge- eller kreditpolitik, som
+påvirker det almindelige renteniveau,
+.of
+.br
+.of 3mm
+*¤anden udvikling i det almindelige renteniveau, f.eks. på penge- og
+obligationsmarkederne, eller
+.of
+.br
+.of 3mm
+*¤ændringer i skatter og afgifter.
+.of
+.sp 5mm
+.kp off
+:SKRSLUT.
+.kp on
+:SWISS10.
+:FED.
+1.2. Ændring af variable rentesatser og priser med 1 måneds varsel
+:SWISS8.
+:FED.
+.sp 3mm
+&BANKNAVN. kan med 1 måneds varsel sætte rentesatser op på lån og
+kreditter, samt sætte sine priser op, hvis
+.br
+.of 3mm
+*¤der sker ændringer i de forhold, som individuelt blev lagt til grund
+ved fastsættelsen af &DINE. rente- og prisvilkår, eller
+.of
+.br
+.of 3mm
+*¤&BANKNAVN. ændrer sin generelle rente- og prisfastsættelse af
+forretningsmæssige grunde, f.eks. for at øge indtjeningen eller opnå en
+mere hensigtsmæssig anvendelse af &BANKNAVN.s ressourcer eller kapacitet.
+.of
+.sp 3mm
+.kp off
+:FED.
+.kp on
+For etablerede boliglån kan &BANKNAVN. af samme årsager kun sætte
+sine priser op med &GENVARSEL4. måneders varsel.
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN. kan af samme årsager indføre nye priser med et varsel på
+&GENVARSEL. måneder. Nye priser er priser for ydelser, som &BANKNAVN. ikke
+tidligere har taget betaling for.
+.sp 5mm
+.kp off
+:SKRSLUT.
+.kp on
+:SWISS10.
+:FED.
+1.3. Meddelelse om rente- og prisændringer
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+&BANKNAVN. annoncerer i dagspressen eller giver skriftlig eller
+elektronisk besked ved rente- og prisændringer. Væsentlige
+prisændringer eller indførelse af nye priser varsles ved individuel
+kommunikation. Det vil fremgå, hvorfor der sker ændringer.
+.sp 3mm
+.kp off
+.kp on
+Renteændringer vil også fremgå af det første kontoudskrift - eller
+opgørelse efter ændringen.
+.sp 3mm
+.kp off
+.kp on
+&SDU. får under alle omstændigheder skriftlig eller elektronisk besked
+senest dagen forud om
+.br
+.of 3mm
+*¤enhver ændring af renten på lån og
+.of
+.of 3mm
+*¤forhøjelse af renten eller priser på kreditter.
+.of
+.sp 3mm
+.kp off
+.kp on
+Ved ændring af renten på lån indeholder den skriftlige eller elektroniske
+besked også oplysninger om eventuelle ændringer af fremtidige betalingers
+størrelse, antal eller hyppighed.
+.sp 3mm
+.kp off
+.kp on
+Renteændringer på SDO-lån kan meddeles efter ændringen er trådt i
+kraft ved refinansiering af lånet.
+.sp 3mm
+.kp off
+.kp on
+Ændring af renter baseret på referencesatser, f.eks. Nationalbankens
+indskudsbevisrente, fremgår alene af kontoudskrifter eller opgørelser
+fra &BANKNAVN..
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+2. Morarente og overtræksrente og følger af manglende betaling
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Betales en ydelse ikke senest på forfaldsdagen, eller overtrækkes en
+kassekredit, er &BANKNAVN. berettiget til at opkræve
+morarente/overtræksrente. Morarente/ overtræksrente beregnes af det
+forfaldne beløb/overtrækket. Morarenten/overtræksrenten beregnes med
+den i kreditaftalen angivne sats, som er variabel, fra
+forfaldsdagen/overtrækket, indtil betaling sker.
+.br
+:FED.
+Morarenten/overtræksrenten ændres på samme måde som øvrige renteændringer.
+:SKRSLUT.
+.sp 3mm
+.kp off
+.kp on
+Ved overtræk og forsinket betaling kan der påløbe
+rykkergebyrer. Rykkergebyr og andre
+misligholdelsesomkostninger fremgår af &BANKNAVN.s prisbog. Ved
+overdragelse til inkasso vil der påløbe omkostninger til
+advokat, domstole m.v. Overtræk vil kunne medføre, at
+kreditaftalen ophæves, ligesom overtræk og manglende
+indfrielse vil kunne medføre, at det er vanskeligt at opnå
+kredit. Opsigelse af kreditaftalen vil medføre en forhøjelse
+af rente og priser.
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN. kan til enhver tid vælge at standse rentetilskrivningen på
+misligholdte lån og kreditter administrativt og regnskabsmæssigt.
+.sp 3mm
+.kp off
+.kp on
+Hvis rentetilskrivningen standser, og det ikke er efter aftale med
+&DIG., betyder det ikke, at &BANKNAVN. giver afkald på at få
+forrentet sit krav og at kræve dækning for senere påløbne
+omkostninger. Dette gælder, selv om der på et kontoudskrift eller
+lignende står, at rentetilskrivningen er standset.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+3. Regulering af ydelse
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Ved ændring af rente og omkostninger er &BANKNAVN. berettiget til at ændre
+ydelsernes størrelse, antal eller hyppighed eller en kombination heraf.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+4. Ydelsesoversigt
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+&SDU. har ret til på anmodning til enhver tid i løbet af en
+låneaftales varighed uden omkostninger at modtage en opgørelse i form
+af en ydelsesoversigt (amortiseringsplan) med angivelse af skyldige
+betalinger og tidspunkter og betingelser for betaling af sådanne
+beløb og specifikation af den enkelte tilbagebetaling.
+.sp 3mm
+.kp off
+.kp on
+Ydelsesoversigten viser afvikling af kapitalen og renterne
+beregnet på grundlag af &DIN. rente og eventuelle yderligere
+omkostninger. Ydelsesoversigten er kun gyldig indtil næste
+ændring af &DIN. rente eller af de eventuelle yderligere
+omkostninger i henhold til kreditaftalen.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+5. Oplysning om økonomiske forhold
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+&SDU. skal holde &BANKNAVN. orienteret om &DINE. økonomiske forhold
+og på anmodning indlevere økonomiske oplysninger, herunder bl.a. seneste
+års- og forskudsopgørelse fra SKAT.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+6. Opsigelse og indfrielse
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+&BANKNAVN. kan opsige lån og kreditter med 3 måneders varsel og forlange
+betaling af det skyldige beløb, herunder påløbne renter og omkostninger.
+.sp 3mm
+.kp off
+.kp on
+Ved &BANKNAVN.s opsigelse har &DU. krav på en saglig begrundelse på papir
+eller elektronisk.
+.sp 3mm
+.kp off
+.kp on
+&SDU. har til enhver tid ret til helt eller delvist at indfri
+&DINE. forpligtelser i henhold til låne- og kreditaftalen. &SDU. har
+herefter ret til en reduktion af de samlede kreditomkostninger, der
+består af renter og omkostninger i den resterende del af
+lånet og kredittens løbetid.
+.kp off

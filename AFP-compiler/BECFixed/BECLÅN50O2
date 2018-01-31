@@ -1,0 +1,64 @@
+.**************************************************************************
+.da OVERSKR 20mm 32mm width 175mm
+.da BOX 20mm 40mm width 175mm
+.da BANKSTED 20mm 47mm width 175mm
+.da VEND 7mm 270mm width 180mm rotate -90
+.**************************************************************************
+:SWISS9.
+.**************************************************************************
+.* SIDEHOVEDDEFINITION STARTER ********************************************
+.**************************************************************************
+.rh on
+.**************************************************************************
+.ar BOX on
+:SWISS9.
+.tp 1mm 30mm 65mm 140mm
+.bx left right
+¤Banksted¤Kontonummer¤Kredittype¤Dannelsesdato
+.sp 6mm
+.bx off
+.sp 4mm
+.bx left right
+.sp 221.5mm
+.bx off
+.ar off
+.**************************************************************************
+.ar BANKSTED on
+:SWISS9.
+.tp 1mm 30mm 65mm 140mm
+¤&BANKSTED  ¤&LANGKTONR ¤&REGTYPE11 &REGTYPELNG ¤&DATO
+.ar off
+.**************************************************************************
+.ar VEND on
+:SWISS6.
+&BREVNAVN
+.ar off
+.**************************************************************************
+.ar OVERSKR on
+:SWISS12.
+:FED.
+.if &U'&PRIERH = P
+.th .us Låneaftale (gældsbrev) Forbruger
+.if &U'&PRIERH = E
+.th .us Låneaftale (gældsbrev) Erhverv
+:SKRSLUT.
+.ar off
+.**************************************************************************
+.*STARTPOSITION PÅ SIDEN BEREGNES UD FRA FLG:
+.*".PM" = PAGEMARGIN = X-KOORDINATEN(ER SOM STANDARD 20MM)
+.*".BM" = BUNDMARGIN (MIN. 18MM)
+.*".TM" = TOPMARGIN (STANDARD 24MM), MEN MAN SKAL VÆRE OPMÆRKSOM PÅ, AT
+.*RH-KOMMANDOERNE KAN KAN ÆNDRE DET. MAN SKAL DERFOR ALTID UDMÅLE DET.
+.*HER ER TOPMARGINEN KUN 13MM.
+.*SIDEHOVED MED TOPMARGIN 83MM: Y = 50mm + 13mm (TOPMARGIN) = 83mm
+.**************************************************************************
+.sp 50mm
+.rh off
+.**************************************************************************
+.* SIDEHOVEDDEFINITION SLUTTER ********************************************
+.**************************************************************************
+.*MAN KAN SLUTTE SIDEHOVEDET VED AT DEFINERE ET NYT SIDEHOVED - ELLER
+.*VED AT BENYTTE TEKSTMODULET "BECRHCANCEL" *******************************
+.ll 175mm
+.in 5mm
+.ir 5mm

@@ -1,0 +1,59 @@
+.th - &HENVBRV5
+.th .br
+.*******************
+.if &L'&HENVBRV6 > 0
+.th - &HENVBRV6
+.sp 3mm
+...ENDBREVE
+.in 5mm
+.kp off
+.*SAMTYKKE - BREVE ********************************************************
+.kp on
+.if &U'&SWSAMTYK = J
+.an &U'&SWBREVE = J
+.th .go BREVE
+.el .go ENDBREVE
+...BREVE
+*¤Personligt adresserede breve
+.br
+.in 8mm
+Det aftales, at &BANKNAVN kan henvende sig til mig/os ved personligt
+adresserede breve.
+.**************************************************************************
+.if &L'&HENVBRV1 = 0
+.an &L'&HENVBRV2 = 0
+.an &L'&HENVBRV3 = 0
+.an &L'&HENVBRV4 = 0
+.an &L'&HENVBRV5 = 0
+.an &L'&HENVBRV6 = 0
+.th .go ENDBREVE
+.*.if &L'&HENVBRV1 > 0
+.*.an &L'&HENVBRV2 > 0
+.*.an &L'&HENVBRV3 > 0
+.*.an &L'&HENVBRV4 > 0
+.*.an &L'&HENVBRV5 > 0
+.*.an &L'&HENVBRV6 > 0
+.*.th .sp 3mm
+.*.th .go ENDBREVE
+.**************************************************************************
+.br
+Henvendelse via brev gælder inden for områderne:
+.br
+.**************************************************************************
+.if &L'&HENVBRV1 > 0
+.th - &HENVBRV1
+.th .br
+.*******************
+.if &L'&HENVBRV2 > 0
+.th - &HENVBRV2
+.th .br
+.*******************
+.if &L'&HENVBRV3 > 0
+.th - &HENVBRV3
+.th .br
+.*******************
+.if &L'&HENVBRV4 > 0
+.th - &HENVBRV4
+.th .br
+.*******************
+.if &L'&HENVBRV5 > 0

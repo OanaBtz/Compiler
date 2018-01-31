@@ -1,0 +1,20 @@
+.fo left
+.ti ¤ 05
+:COUR10.
+:TILTALE &TILTALEF
+.***********************************************************************
+.* navn på brev, anført i nederste venstre hjørne
+.da VEND 7mm 270mm width 180mm rotate -90
+.* overskrift på brevet
+.da OVERSKR 20mm 110mm width 170mm
+.***********************************************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.***********************************************************************
+.ar OVERSKR on
+.us Meddelelse om spærring af
+.us &B11KTTYPT
+.sp
+.***********************************************************************

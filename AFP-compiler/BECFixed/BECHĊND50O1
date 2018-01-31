@@ -1,0 +1,25 @@
+.**************************************************************************
+.* SIDEHOVEDDEFINITION STARTER ********************************************
+.**************************************************************************
+.rh on
+.**************************************************************************
+.*STARTPOSITION PÄ SIDEN BEREGNES UD FRA FLG:
+.*"".PM"" = PAGEMARGIN = X-KOORDINATEN(ER SOM STANDARD 20M
+M).*"".BM"" = BUNDMARGIN (MIN. 1
+8MM).*"".TM"" = TOPMARGIN (STANDARD 24MM), MEN MAN SKAL VÄRE OPMÄRKSOM 
+PÄ, AT.*RH-KOMMANDOERNE KAN KAN ÄNDRE DET. MAN SKAL DERFOR ALTID UDMÄL
+E DET..*HER ER TOPMARGINEN KUN
+ 13MM..*SIDEHOVED MED TOPMARGIN 83MM: Y = 47mm + 13mm (TOPMARGIN) 
+= 60mm.********************************************************************
+******.s
+p 47mm.
+rh off.rh e
+xecute.********************************************************************
+******.* SIDEHOVEDDEFINITION SLUTTER **************************************
+******.********************************************************************
+******.*MAN KAN SLUTTE SIDEHOVEDET VED AT DEFINERE ET NYT SIDEHOVED -
+ ELLER.*VED AT BENYTTE TEKSTMODULET ""BECRHCANCEL"" ***********************
+********.
+ll 175m
+m.in 5m
+m.ir 5mm"

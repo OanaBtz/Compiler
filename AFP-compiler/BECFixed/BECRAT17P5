@@ -1,0 +1,8 @@
+.*
+.****NYE BEGUNSTIGELSESREGLER FRA 1/1 2008********************
+.if &U'&NYBEGUN = J
+.or &U'&NYBEGUN = N
+.th .go OKBEGUN
+.el .mg/T/Regler for begunstigelse skal være Ja eller Nej/
+...OKBEGUN
+.****

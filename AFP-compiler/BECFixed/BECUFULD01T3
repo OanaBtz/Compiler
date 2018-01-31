@@ -1,0 +1,38 @@
+.* Fuldmagt i alle forhold - Fast tekst
+.da FULD1 21mm 98mm width 85mm
+.da FULD2 111mm 98mm width 83mm
+.da BETK1  21mm 201mm WIDTH 85mm
+.da BETK2 111mm 201mm WIDTH 83mm
+.**** FULDMAGT 1. KOLONNE***********************
+.ar FULD1 on
+:SWISS8.
+I/we, the undersigned, hereby appoint the below person(s)
+as my/our true and lawful attorney(s) with binding effect on me/us:
+.ar off
+.**** FULDMAGT 2. KOLONNE***********************
+.ar FULD2 on
+:SWISS8.
+Specify whether the attorney is authorised to sign ALONE or
+.br
+JOINTLY WITH ANOTHER PERSON.
+.ar off
+.**** BETINGELSER 1. KOLONNE***********************
+.ar BETK1 on
+:SWISS8.
+To give instructions to the bank in ALL AFFAIRS as if I/we gave
+the instructions ourselves.
+.sp 1.5mm
+The bank is not obliged to check whether the signature rules are
+observed in connection with the acceptance of checks, nor is the
+bank liable in the event that a check is paid contrary to the
+signature rules.
+.**** BETINGELSER 2. KOLONNE***********************
+.ar BETK2 on
+:SWISS8.
+The power of attorney is valid until revoked by WRITTEN notice to
+the bank.
+.sp 1.5mm
+I/we hereby declare that the revocation of the power of attorney
+requires my/our simultaneous return of any ID, debit and/or
+payment cards given to the attorney.
+.ar off

@@ -1,0 +1,115 @@
+.**************************************************************************
+.da OVSKR   20mm 58mm width 100mm
+.da DEBITOR 20mm 65mm width  80mm
+.da MEDDEB 100mm 65mm width  80mm
+.da DEBNR   20mm 85mm width  80mm
+.da MEDNR  100mm 85mm width  80mm
+.da TEKST  20mm  95mm width 175mm
+.in 5mm
+.ir 5mm
+.tp 87.5mm 140mm
+.**************************************************************************
+.ar OVSKR on
+.* Overskrift debitor/kreditor ********************************************
+:FED.
+.if &L'&MEDEJERNR > 0
+.th Debitorer og kreditorer
+.el Debitor og kreditor
+:SKRSLUT.
+.ar off
+.ar DEBITOR on
+.* navn-adress debitor *************
+&DEBITOR1
+.br
+&DEBITOR2
+.br
+&DEBITOR3
+.br
+&DEBITOR4
+.br
+&DEBITOR5
+.ar off
+.* Navn-adresse meddebitor *********
+.ar MEDDEB on
+&MEDEJER1
+.br
+&MEDEJER2
+.br
+&MEDEJER3
+.br
+&MEDEJER4
+.br
+&MEDEJER5
+.ar off
+.* Kontohavers kundenr. ***********
+.ar DEBNR on
+.*&KUNDENR.
+&DEPKUNDENR.
+.if &L'&GENCVRCPR = 0
+.th .go UDOM
+.*if &GENCVRCPR ne &KUNDENR.
+.if &GENCVRCPR ne &DEPKUNDENR.
+.th / &GENCVRCPR.
+...UDOM
+.ar of
+.* Medkontohaver kundenr. *********
+.ar MEDNR on
+.if &L'MEDEJERNR > 0
+.th &MEDEJERNR.
+.ar off
+.ar TEKST on
+.*Beløbets størrelse ******************************************************
+:FED.
+Beløbets størrelse
+:SKRSLUT.
+.br
+&MØNTKODE. &GÆLD
+.br
+skriver &MØNTKODE &SKRIVER.&SKRIVER1.
+.sp 5mm
+.* Rente og betalingsvilkår ***********************************************
+:FED.
+Rente og betalingsvilkår
+:SKRSLUT.
+.br
+Ved tvangsauktion over den(de) pantsatte genstand(e)forrentes
+det elektroniske ejerpantebrev fra tvangsauktionstidspunktet til
+betaling finder sted.
+.br
+Renten udgør &RENTE. pct. over Nationalbankens officielle
+indskudsbevisrente på tvangsauktionstidspunktet.
+.*eller
+.*&RTEVTEXT1.&RTEVTEXT2.
+.* Opsigelse **************************************************************
+.sp 5mm
+:FED.
+Opsigelse
+:SKRSLUT.
+.br
+Ejerpantebrevet kan til enhver tid opsiges af kreditor eller debitor
+med 14 dages varsel.
+.sp 5mm
+.* Pantebrevsformular *****************************************************
+:FED.
+Pantebrevsformular
+:SKRSLUT.
+.br
+Justitsministeriets almindelige betingelser VIRKSOMHEDSPANT, der er
+vedlagt denne aftale, gælder for det elektroniske ejerpantebrev.
+.sp 5mm
+.* Bemyndigelse til digital tinglysning ***********************************
+:FED.
+Bemyndigelse til digital tinglysning
+:SKRSLUT.
+.br
+&BANKNAVN bemyndiges til på mine vegne at underskrive påtegninger af
+enhver art på det elektroniske ejerpantebrev. Herunder
+kvitterings-, ryknings-,
+transport-, moderations- og relaksationspåtegninger.
+.sp 3mm
+&BANKNAVN bemyndiges til at udstede, signere og tinglyse et elektronisk
+ejerpantebrev i overensstemmelse med denne aftale. &BANKNAVN kan overlade
+udstedelsen, signering og/eller tinglysning af
+det elektroniske ejerpantebrev til en samarbejdspartner.
+.ar off
+.**************************************************************************

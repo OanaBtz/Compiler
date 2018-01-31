@@ -1,0 +1,142 @@
+.tp 118mm 138mm 158mm
+.*******************************************
+.if &L'&DEPALL41A > 0
+.th .go DEP41
+.el .go UDEP41
+...DEP41
+.if &U'&DEPALL41 = J
+.th .sp
+.th :FED.
+.th &DEPALL41A.
+.th :SKRSLUT.
+.el &DEPALL41A. ¤&DEPALL41B. ¤&DEPALL41C. ¤&DEPALL41D.
+.br
+.hr 5mm 170mm
+...UDEP41
+.******
+.if &L'&DEPALL42A > 0
+.th .go DEP42
+.el .go UDEP42
+...DEP42
+.if &U'&DEPALL42 = J
+.th .sp
+.th :FED.
+.th &DEPALL42A.
+.th :SKRSLUT.
+.el &DEPALL42A. ¤&DEPALL42B. ¤&DEPALL42C. ¤&DEPALL42D.
+.br
+.hr 5mm 170mm
+...UDEP42
+.******
+.if &L'&DEPALL43A > 0
+.th .go DEP43
+.el .go UDEP43
+...DEP43
+.if &U'&DEPALL43 = J
+.th .sp
+.th :FED.
+.th &DEPALL43A.
+.th :SKRSLUT.
+.el &DEPALL43A. ¤&DEPALL43B. ¤&DEPALL43C. ¤&DEPALL43D.
+.br
+.hr 5mm 170mm
+...UDEP43
+.******
+.if &L'&DEPALL44A > 0
+.th .go DEP44
+.el .go UDEP44
+...DEP44
+.if &U'&DEPALL44 = J
+.th .sp
+.th :FED.
+.th &DEPALL44A.
+.th :SKRSLUT.
+.el &DEPALL44A. ¤&DEPALL44B. ¤&DEPALL44C. ¤&DEPALL44D.
+.br
+.hr 5mm 170mm
+...UDEP44
+.******
+.if &L'&DEPALL45A > 0
+.th .go DEP45
+.el .go UDEP45
+...DEP45
+.if &U'&DEPALL45 = J
+.th .sp
+.th :FED.
+.th &DEPALL45A.
+.th :SKRSLUT.
+.el &DEPALL45A. ¤&DEPALL45B. ¤&DEPALL45C. ¤&DEPALL45D.
+.br
+.hr 5mm 170mm
+...UDEP45
+.******
+.if &L'&DEPALL46A > 0
+.th .go DEP46
+.el .go UDEP46
+...DEP46
+.if &U'&DEPALL46 = J
+.th .sp
+.th :FED.
+.th &DEPALL46A.
+.th :SKRSLUT.
+.el &DEPALL46A. ¤&DEPALL46B. ¤&DEPALL46C. ¤&DEPALL46D.
+.br
+.hr 5mm 170mm
+...UDEP46
+.******
+.if &L'&DEPALL47A > 0
+.th .go DEP47
+.el .go UDEP47
+...DEP47
+.if &U'&DEPALL47 = J
+.th .sp
+.th :FED.
+.th &DEPALL47A.
+.th :SKRSLUT.
+.el &DEPALL47A. ¤&DEPALL47B. ¤&DEPALL47C. ¤&DEPALL47D.
+.br
+.hr 5mm 170mm
+...UDEP47
+.******
+.if &L'&DEPALL48A > 0
+.th .go DEP48
+.el .go UDEP48
+...DEP48
+.if &U'&DEPALL48 = J
+.th .sp
+.th :FED.
+.th &DEPALL48A.
+.th :SKRSLUT.
+.el &DEPALL48A. ¤&DEPALL48B. ¤&DEPALL48C. ¤&DEPALL48D.
+.br
+.hr 5mm 170mm
+...UDEP48
+.******
+.if &L'&DEPALL49A > 0
+.th .go DEP49
+.el .go UDEP49
+...DEP49
+.if &U'&DEPALL49 = J
+.th .sp
+.th :FED.
+.th &DEPALL49A.
+.th :SKRSLUT.
+.el &DEPALL49A. ¤&DEPALL49B. ¤&DEPALL49C. ¤&DEPALL49D.
+.br
+.hr 5mm 170mm
+...UDEP49
+.******
+.if &L'&DEPALL50A > 0
+.th .go DEP50
+.el .go UDEP50
+...DEP50
+.if &U'&DEPALL50 = J
+.th .sp
+.th :FED.
+.th &DEPALL50A.
+.th :SKRSLUT.
+.el &DEPALL50A. ¤&DEPALL50B. ¤&DEPALL50C. ¤&DEPALL50D.
+.br
+.hr 5mm 170mm
+...UDEP50
+.******

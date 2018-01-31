@@ -1,0 +1,75 @@
+:SWISS8.
+.******************************************
+.da SIDE1 24mm 6mm width 175mm
+.da KASSE 24mm 27mm width 175mm
+.da TEKST 24mm 145mm width 175mm
+.********************* SIDE 1 ********************************************
+.ar SIDE1 on
+.tp 88mm
+¤Afgift: kr.
+.ar off
+.****************************************************************
+.ar KASSE on
+.bx 86mm right
+.tp 87mm
+¤Anmelder
+.sp 25mm
+.bx off
+.sp 25mm
+:SWISS14.:FED.
+Skadesløsbrev (Virksomhedspant) :SKRSLUT.
+.br
+:SWISS10.
+Debitor(er)s CVR-nr., og/eller CPR-nr., navn(e)og bopæl(e)
+.br
+(Hvis debitor er en enkeltmandsvirksomhed, oplyses CVR-nr. og CPR-nr.)
+.bx left right
+.in 1mm
+.sp 25mm
+:SWISS8.
+giver herved
+.bx off
+.in 0mm
+:SWISS10.
+Kreditors CVR-nr. og/eller CPR-nr., navn, bopæl og tlf.nr.
+.br
+(Hvis kreditor er en enkeltmandsvirksomhed oplyses CVR-nr. og CPR-nr.):
+.bx left right
+.sp 23mm
+.in 1mm
+.ir 1mm
+:SWISS8.
+panteret i alt, hvad debitor ejer og fremtidig erhverver inden for en eller
+flere af de nedenfor nævnte aktivtyper, jf. tinglysningslovens
+.br
+§ 47 c, stk. 3 nr. 1 - 7, til sikkerhed for skadesløs betaling af,
+hvad jeg/vi til enhver tid måtte være kreditor skyldig, dog ikke ud over:
+.in 0mm
+.ir 0mm
+.bx off
+:SWISS10.
+Beløbets størrelse
+.bx left right
+:SWISS8.
+.sp 9mm
+.bx off
+:SWISS10.
+Opsigelse
+.bx left right
+.sp 1mm
+:SWISS8.
+.in 1mm
+Skadesløsbrevet kan til enhver tid opsiges af kreditor eller debitor med
+14 dages varsel.
+.in 0mm
+.sp 1mm
+.bx off
+:SWISS10.
+Panteretten omfatter de nedenfor afkrydsede aktivtyper
+.bx left right
+.sp 75mm
+.bx off
+:SWISS8.
+:FED.NB!:SKRSLUT. Bopælsforandring skal meddeles kreditor.
+.ar off
+.************************************************************************

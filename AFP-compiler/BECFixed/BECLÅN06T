@@ -1,0 +1,22 @@
+.se regnr = substr &BECKONTO01 1 4
+.se ktonr = substr &BECKONTO01 5 10
+.if &BECTEST01 gt 1
+.th .go hop1
+&BECTEKST30 har nu tilbagebetalt sit lån nr. &regnr &ktonr.. Den deponerede
+sikkerhed er herefter frigivet og
+...hop1
+.if &BECTEST01 eq 1
+.th .go hop2
+&BECTEKST30 har nu tilbagebetalt sin kassekredit nr. &regnr &ktonr.. Den
+deponerede sikkerhed er herefter frigivet og
+...hop2
+.if &BECTEST02 eq 2
+.th vedlægges dette brev.
+.th .go skip1
+vil blive opbevaret i åbent depot. Vi vedlægger depotudskrift til &DIN
+orientering.
+...skip1
+.sp
+Har &DU spørgsmål i den forbindelse, er &DU velkommen til at kontakte
+&EKSPNAVN. på ovenstående telefonnummer.
+.*************************************************************************

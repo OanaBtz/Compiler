@@ -1,0 +1,59 @@
+.* Transport - På tilgodehavende - 2. Kasser og ledetekster
+.ti ¤ 05
+.da BETK1  21mm 171.1mm WIDTH 85mm
+.da BETK2 108mm 171.1mm WIDTH 85mm
+.da ANMK1  21mm 229mm WIDTH 85mm
+.da ANMK2 108mm 229mm WIDTH 85mm
+.da VIT1  108mm 190mm WIDTH 85mm
+.da VIT2  108mm 240.5mm WIDTH 85mm
+.**** FASTE ANML. BETING **********
+.ar BETK1 on
+:SWISS8.
+Som følge af denne transport er pengeinstituttet eneberettiget til
+at modtage og kvittere for nævnte tilgodehavende, uden at pengeinstituttet
+er forpligtet til at dokumentere sit krav. I det hele er
+pengeinstituttet berettiget til at udøve samtlige mine/vore beføjelser
+som kreditor med hensyn til det foran nævnte tilgodehavende.
+.ar off
+.**********************************
+.ar BETK2 on
+:SWISS8.
+Det bemærkes, at der imod den pengeinstituttet tiltransporterede fordring
+ikke haves modfordringer eller indsigelser af nogen art, og at der ikke
+er givet nogen transport til anden side. Der er ikke udstedt gældsbrev
+for den af nærværende transport omhandlede skyld.
+.sp 2mm
+Denne transport anmeldes overfor fordringens debitor.
+.ar off
+.**********************************
+.ar VIT1 on
+:SWISS8.
+Til vitterlighed om ægte underskrift/underskrifter, dateringens rigtighed
+og udstederens/udstedernes myndighed.
+:SKRSLUT.
+.ar off
+.*****************************************
+.ar ANMK1 on
+:SWISS8.
+Undertegnede erkender herved, at ovenstående transport, af hvilken jeg/vi
+har modtaget genpart, er anmeldt over for mig/os, at min/vor i erklæringen
+angivne skyld er rigtigt angivet, at skylden forfalder som
+:SKRSLUT.
+.ar off
+.**********************************
+.ar ANMK2 on
+:SWISS8.
+i transporten
+angivet, og at der mig/os bekendt ikke er noget, som kan forringe
+pengeinstituttets ret.
+:SKRSLUT.
+.ar off
+.**********************************
+.ar VIT2 on
+:SWISS8.
+Til vitterlighed om ægte underskrift/underskrifter, dateringens rigtighed
+og udstederens/udstedernes myndighed.
+:SKRSLUT.
+.ar off
+.**********************************
+:COUR10.

@@ -1,0 +1,25 @@
+.*************** GENEREL OPSÆTNING ***************************************
+.ti ¤ 05
+:SWISS9.
+.fo left
+.*************** AREAL-DEFINITIONER **************************************
+.* Brevnavn, roteret i venstre hjørne
+.da VEND     7mm 270mm width 180mm rotate -90
+.da OVERSKR 20mm  32mm width 175mm
+.********************ROTERET BREVNAVN**************************************
+.ar VEND on
+:SWISS6.
+&BREVNAVN
+.br
+&DATO
+.br
+Kl. &TID
+.ar off
+.*************** UDDATA-OVERSKRIFT ***************************************
+.ar OVERSKR on
+:SWISS12.:FED.
+.us Erklæring (privat tredjemandspant)
+:SKRSLUT.
+.ar off
+.sp 53mm
+.*************************************************************************

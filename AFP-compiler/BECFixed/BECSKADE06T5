@@ -1,0 +1,64 @@
+.da SIDE2 24mm 32mm width 175mm
+.da VITTER1 24mm 78mm width 84mm
+.da VITTER2 112mm 78mm width 84mm
+.**************************************************************************
+.ar SIDE2 on
+:SWISS10.
+Underskrifter
+.bx left right
+:SWISS8.
+.tp 88mm
+.in 1mm
+.ir 1mm
+.sp 5mm
+.tp 20mm _/83mm 92mm _/155mm
+¤¤, den ¤¤
+.sp 12mm
+.in 5mm
+.tp _/85mm 90mm _/170mm
+¤ ¤¤
+.in 0mm
+.ir 0mm
+.sp 3mm
+.bx off
+:SWISS10.
+Vitterlighedspåtegning
+.bx left right
+:SWISS8.
+.in 1mm
+Til vitterlighed om ægte underskrift/underskrifter, dateringens rigtighed
+og udstederens/udstedernes myndighed:
+.sp 37mm
+.in 0mm
+.bx off
+.************************
+.ar VITTER1 on
+.in 1mm
+:SWISS8.
+.tp _/84mm
+Navn ¤
+.sp 4mm
+Stilling ¤
+.sp 4mm
+Adresse ¤
+.sp 4mm
+Postnr./by ¤
+.sp 4mm
+Underskrift ¤
+.in 0mm
+.ar off
+.**************************************************************************
+.ar VITTER2 on
+:SWISS8.
+.tp _/84mm
+Navn ¤
+.sp 4mm
+Stilling ¤
+.sp 4mm
+Adresse ¤
+.sp 4mm
+Postnr./by ¤
+.sp 4mm
+Underskrift ¤
+.ar off
+.**************************************************************************

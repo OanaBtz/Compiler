@@ -1,0 +1,261 @@
+.***************
+.*Afsnit med garantier - skal kun med hvis udfyldt
+.***************
+.if &L'&GENEOPGA01 gt 0
+.or &L'&GENEOPGA02 gt 0
+.or &L'&GENEOPGA03 gt 0
+.or &L'&GENEOPGA04 gt 0
+.or &L'&GENEOPGA05 gt 0
+.or &L'&GENEOPGA06 gt 0
+.or &L'&GENEOPGA07 gt 0
+.or &L'&GENEOPGA08 gt 0
+.or &L'&GENEOPGA09 gt 0
+.or &L'&GENEOPGA10 gt 0
+.or &L'&GENEOPGA11 gt 0
+.or &L'&GENEOPGA12 gt 0
+.or &L'&GENEOPGA13 gt 0
+.or &L'&GENEOPGA14 gt 0
+.or &L'&GENEOPGA15 gt 0
+.th .go GTTXT
+.el .go GTEXIT
+...GTTXT
+.sp 5mm
+.tp 38mm
+:FED.
+Følgende garantiforpligtigelser anmodes overtaget snarest muligt.
+:SKRSLUT.
+.sp
+:SWISS9.
+.dr thin weight 0.1mm
+.hr left right
+Garantibeløb kr. ¤Garantimodtager
+.hr left right
+.if &L'&GENEOPGA01 gt 0
+.th &GENEOPGA01. ¤&GENEOPGA21.
+.th .br
+.if &L'&GENEOPGA22 gt 0
+.th ¤&GENEOPGA22.
+.th .br
+.if &L'&GENEOPGA23 gt 0
+.th ¤&GENEOPGA23.
+.th .br
+.if &L'&GENEOPGA24 gt 0
+.th ¤&GENEOPGA24.
+.th .br
+.if &L'&GENEOPGA25 gt 0
+.th ¤&GENEOPGA25.
+.th .br
+.if &L'&GENEOPGA02 gt 0
+.th &GENEOPGA02. ¤&GENEOPGA26.
+.th .br
+.if &L'&GENEOPGA27 gt 0
+.th ¤&GENEOPGA27.
+.th .br
+.if &L'&GENEOPGA28 gt 0
+.th ¤&GENEOPGA28.
+.th .br
+.if &L'&GENEOPGA29 gt 0
+.th ¤&GENEOPGA29.
+.th .br
+.if &L'&GENEOPGA30 gt 0
+.th ¤&GENEOPGA30.
+.th .br
+.*******************
+.if &L'&GENEOPGA03 gt 0
+.th &GENEOPGA03. ¤&GENEOPGA31.
+.th .br
+.if &L'&GENEOPGA32 gt 0
+.th ¤&GENEOPGA32.
+.th .br
+.if &L'&GENEOPGA33 gt 0
+.th ¤&GENEOPGA33.
+.th .br
+.if &L'&GENEOPGA34 gt 0
+.th ¤&GENEOPGA34.
+.th .br
+.if &L'&GENEOPGA35 gt 0
+.th ¤&GENEOPGA35.
+.th .br
+.if &L'&GENEOPGA04 gt 0
+.th &GENEOPGA04. ¤&GENEOPGA36.
+.th .br
+.if &L'&GENEOPGA37 gt 0
+.th ¤&GENEOPGA37.
+.th .br
+.if &L'&GENEOPGA38 gt 0
+.th ¤&GENEOPGA38.
+.th .br
+.if &L'&GENEOPGA39 gt 0
+.th ¤&GENEOPGA39.
+.th .br
+.if &L'&GENEOPGA40 gt 0
+.th ¤&GENEOPGA40.
+.th .br
+.if &L'&GENEOPGA05 gt 0
+.th &GENEOPGA05. ¤&GENEOPGA41.
+.th .br
+.if &L'&GENEOPGA42 gt 0
+.th ¤&GENEOPGA42.
+.th .br
+.if &L'&GENEOPGA43 gt 0
+.th ¤&GENEOPGA43.
+.th .br
+.if &L'&GENEOPGA44 gt 0
+.th ¤&GENEOPGA44.
+.th .br
+.if &L'&GENEOPGA45 gt 0
+.th ¤&GENEOPGA45.
+.th .br
+.if &L'&GENEOPGA06 gt 0
+.th &GENEOPGA06. ¤&GENEOPGA46.
+.th .br
+.if &L'&GENEOPGA47 gt 0
+.th ¤&GENEOPGA47.
+.th .br
+.if &L'&GENEOPGA48 gt 0
+.th ¤&GENEOPGA48.
+.th .br
+.if &L'&GENEOPGA49 gt 0
+.th ¤&GENEOPGA49.
+.th .br
+.if &L'&GENEOPGA50 gt 0
+.th ¤&GENEOPGA50.
+.th .br
+.if &L'&GENEOPGA07 gt 0
+.th &GENEOPGA07. ¤&GENEOPGA51.
+.th .br
+.if &L'&GENEOPGA52 gt 0
+.th ¤&GENEOPGA52.
+.th .br
+.if &L'&GENEOPGA53 gt 0
+.th ¤&GENEOPGA53.
+.th .br
+.if &L'&GENEOPGA54 gt 0
+.th ¤&GENEOPGA54.
+.th .br
+.if &L'&GENEOPGA55 gt 0
+.th ¤&GENEOPGA55.
+.th .br
+.if &L'&GENEOPGA08 gt 0
+.th &GENEOPGA08. ¤&GENEOPGA56.
+.th .br
+.if &L'&GENEOPGA57 gt 0
+.th ¤&GENEOPGA57.
+.th .br
+.if &L'&GENEOPGA58 gt 0
+.th ¤&GENEOPGA58.
+.th .br
+.if &L'&GENEOPGA59 gt 0
+.th ¤&GENEOPGA59.
+.th .br
+.if &L'&GENEOPGA60 gt 0
+.th ¤&GENEOPGA60.
+.th .br
+.if &L'&GENEOPGA09 gt 0
+.th &GENEOPGA09. ¤&GENEOPGA61.
+.th .br
+.if &L'&GENEOPGA62 gt 0
+.th ¤&GENEOPGA62.
+.th .br
+.if &L'&GENEOPGA63 gt 0
+.th ¤&GENEOPGA63.
+.th .br
+.if &L'&GENEOPGA64 gt 0
+.th ¤&GENEOPGA64.
+.th .br
+.if &L'&GENEOPGA65 gt 0
+.th ¤&GENEOPGA65.
+.th .br
+.if &L'&GENEOPGA10 gt 0
+.th &GENEOPGA10. ¤&GENEOPGA66.
+.th .br
+.if &L'&GENEOPGA67 gt 0
+.th ¤&GENEOPGA67.
+.th .br
+.if &L'&GENEOPGA68 gt 0
+.th ¤&GENEOPGA68.
+.th .br
+.if &L'&GENEOPGA69 gt 0
+.th ¤&GENEOPGA69.
+.th .br
+.if &L'&GENEOPGA70 gt 0
+.th ¤&GENEOPGA70.
+.th .br
+.if &L'&GENEOPGA11 gt 0
+.th &GENEOPGA11. ¤&GENEOPGA71.
+.th .br
+.if &L'&GENEOPGA72 gt 0
+.th ¤&GENEOPGA72.
+.th .br
+.if &L'&GENEOPGA73 gt 0
+.th ¤&GENEOPGA73.
+.th .br
+.if &L'&GENEOPGA74 gt 0
+.th ¤&GENEOPGA74.
+.th .br
+.if &L'&GENEOPGA75 gt 0
+.th ¤&GENEOPGA75.
+.th .br
+.if &L'&GENEOPGA12 gt 0
+.th &GENEOPGA12. ¤&GENEOPGA76.
+.th .br
+.if &L'&GENEOPGA77 gt 0
+.th ¤&GENEOPGA77.
+.th .br
+.if &L'&GENEOPGA78 gt 0
+.th ¤&GENEOPGA78.
+.th .br
+.if &L'&GENEOPGA79 gt 0
+.th ¤&GENEOPGA79.
+.th .br
+.if &L'&GENEOPGA80 gt 0
+.th ¤&GENEOPGA80.
+.th .br
+.if &L'&GENEOPGA13 gt 0
+.th &GENEOPGA13. ¤&GENEOPGA81.
+.th .br
+.if &L'&GENEOPGA82 gt 0
+.th ¤&GENEOPGA82.
+.th .br
+.if &L'&GENEOPGA83 gt 0
+.th ¤&GENEOPGA83.
+.th .br
+.if &L'&GENEOPGA84 gt 0
+.th ¤&GENEOPGA84.
+.th .br
+.if &L'&GENEOPGA85 gt 0
+.th ¤&GENEOPGA85.
+.th .br
+.if &L'&GENEOPGA14 gt 0
+.th &GENEOPGA14. ¤&GENEOPGA86.
+.th .br
+.if &L'&GENEOPGA87 gt 0
+.th ¤&GENEOPGA87.
+.th .br
+.if &L'&GENEOPGA88 gt 0
+.th ¤&GENEOPGA88.
+.th .br
+.if &L'&GENEOPGA89 gt 0
+.th ¤&GENEOPGA89.
+.th .br
+.if &L'&GENEOPGA90 gt 0
+.th ¤&GENEOPGA90.
+.th .br
+.if &L'&GENEOPGA15 gt 0
+.th &GENEOPGA15. ¤&GENEOPGA91.
+.th .br
+.if &L'&GENEOPGA92 gt 0
+.th ¤&GENEOPGA92.
+.th .br
+.if &L'&GENEOPGA93 gt 0
+.th ¤&GENEOPGA93.
+.th .br
+.if &L'&GENEOPGA94 gt 0
+.th ¤&GENEOPGA94.
+.th .br
+.if &L'&GENEOPGA95 gt 0
+.th ¤&GENEOPGA95.
+.th .br
+.sp 5mm
+:SKRSLUT.
+...GTEXIT

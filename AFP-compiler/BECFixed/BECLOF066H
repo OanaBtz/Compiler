@@ -1,0 +1,55 @@
+.********************GENEREL OPSÆTNING*************************************
+:COUR10.
+.fo left
+.ti ¤ 05
+.**************************************************************************
+.da LOFADR   23mm 48mm
+.da FORFALD 126.5mm 64.51mm
+.**** Adressefelter *Hvis ingen formidler, da "venstrestil" kunde**********
+.ar LOFADR on
+.if &L'&FORMIDADR1. > 0
+.th .go to FORMID
+.el .go to KUNDE
+.******************************************************
+...FORMID
+&FORMIDADR1.
+.br
+&FORMIDADR2.
+.br
+&FORMIDADR3.
+.br
+&FORMIDADR4.
+.br
+&FORMIDADR5.
+.sp 3
+Debitor
+.sp
+&ADR1.
+.br
+&ADR2.
+.br
+&ADR3.
+.br
+&ADR4.
+.br
+&ADR5.
+.br
+.sp 3
+.ar off
+.go to HVDEND
+.***********************************************************************
+.******************************************************
+...KUNDE
+&ADR1.
+.br
+&ADR2.
+.br
+&ADR3.
+.br
+&ADR4.
+.br
+&ADR5.
+.sp 3
+.ar off
+.******************************************************
+...HVDEND

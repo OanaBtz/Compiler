@@ -1,0 +1,49 @@
+.*************** definer siden som et areal *******************************
+.da SIDE 20mm 40mm width 175mm
+.************ PARTER ******************************************************
+.ar SIDE on
+.tp 1mm 88.5mm
+.bx left right
+:SWISS8.
+¤Kontrakt nr.
+.sp 4mm
+.bx left 87.5mm right
+¤Undertegnede leasingtager ¤Ejer og leasinggiver
+.sp 20mm
+.bx new
+¤Kundenummer¤CVR.nr.
+.sp 5mm
+.bx off
+.bx can
+.**************************************************************************
+:SWISS10.:FED.
+.tp 1mm 88.5mm
+Aftalen omfatter følgende genstande
+:SKRSLUT.
+:SKRSLUT.
+.bx left right
+.sp 30mm
+¤Leverandør:
+.bx new left 87.5mm right
+¤Stel/serienr. ¤Evt. reg.nr.
+.sp 5mm
+.bx off
+.bx can
+.**************************************************************************
+:SWISS10.:FED.
+Levering
+:SKRSLUT.
+:SKRSLUT.
+.tp 1mm 88.5mm
+.bx left 87.5mm right
+¤Leveringsadresse  ¤Evt. bruger
+.sp 20mm
+.bx off
+.sp 4mm
+.bx left right
+.sp 106mm
+:SKRSLUT.
+.bx off
+.**************************************************************************
+.ar off
+.**************************************************************************

@@ -1,0 +1,28 @@
+.tp 5mm
+:SWISS8.
+.**************************************************************************
+.**Det er bankens eget ansvar at tilrette denne side.
+.**I BECSEPA01 er der flere henvisninger til
+.**bankens almindelige forretningsbetingelser - forbruger
+.**************************************************************************
+.***AL TEKST UNDER DENNE STREG SKAL IKKE MEDTAGES I BREVET*******
+.kp on
+Det er bankens eget ansvar at tilrette denne side.
+.sp 5mm
+:FED.
+Skal indeholde tekst fra:
+:SKRSLUT.
+.sp 3mm
+.of 5mm
+*¤Almindelige Forretningsbetingelser - forbruger
+.sp 3mm
+.of
+.of 5mm
+*¤Tillæg om betalingstjenester
+.sp 3mm
+.of
+.of 5mm
+*¤Tillæg vedr. fortrydelsesret
+.sp 10mm
+.of
+.kp off

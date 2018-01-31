@@ -1,0 +1,93 @@
+:SWISS8.
+.da AFGR 12mm 46mm WIDTH 190MM
+.da KOMMA1 12MM 57.5MM WIDTH 190MM
+.da KOMMA2 12MM 97.5MM WIDTH 190MM
+.da KOMMA3 12MM 117.5MM WIDTH 190MM
+.**************************************
+.**Arealet for 96056/96057/96058********
+.AR AFGR ON
+.tp 10mm 55.5MM 105MM
+¤Afgrænsning på: ¤Fra: ¤Til:
+.sp 2mm
+¤Medlemsnummer
+.sp 3.7mm
+¤Tilmeldt dato
+.sp 3.7mm
+¤Frameldt dato
+.sp 3.7mm
+¤CPR-nr.
+.sp 3.7mm
+¤Beløbskode
+.sp 3.7mm
+¤Medlemskode
+.sp 3.7mm
+¤Indiv.betalfrekv
+.sp 3.7mm
+¤Indiv.beløb
+.sp 3.7mm
+¤Beløb forudbetalt
+.sp 3.7mm
+¤Beløb restance
+.sp 3.7mm
+¤Dato A
+.sp 3.7mm
+¤Dato B
+.sp 3.7mm
+¤Dato C
+.sp 3.7mm
+¤Oplysningsfelt-1
+.sp 3.7mm
+¤Oplysningsfelt-2
+.sp 3.7mm
+.tp 10mm 52.5mm right 75mm right
+¤Mænd ¤Kvinder ¤PBS-kode
+.sp 1.7mm
+¤Opremsning
+.br
+¤medlemsnr.
+.sp 14mm
+¤Opremsning
+.br
+¤beløbskode
+.sp 0.5mm
+¤Opremsning
+.br
+¤medlemskode
+.sp 0.5mm
+¤Opremsning
+.br
+¤Indivbetalfrekv
+.ar off
+.**KOMMAER I AREAL 96056/96057/96058**TIL-/FRAMELDT DATO
+.AR KOMMA1 ON
+.TP 41.5MM 50.5MM 91MM 100MM
+:SWISS14.:FED.
+¤. ¤. ¤. ¤.
+.SP 1.4mm
+¤. ¤. ¤. ¤.
+:SKRSLUT.
+.AR OFF
+.**KOMMAER I AREAL 96056/96057/96058***INDIV.BELØB/BELØB RESTANCE***
+.AR KOMMA2 ON
+.se tab1 = '41.5MM 55MM 68.5MM 91MM'
+.se tab2 = '104.5MM 118MM'
+.tp &tab1 &tab2
+:SWISS14.:FED.
+¤. ¤. ¤, ¤. ¤. ¤,
+.SP 1.4MM
+¤. ¤. ¤, ¤. ¤. ¤,
+.SP 1.4mm
+¤. ¤. ¤, ¤. ¤. ¤,
+:SKRSLUT.
+.AR OFF
+.**KOMMAER I AREAL 96056/96057/96058***DATO A/B/C
+.AR KOMMA3 ON
+.TP 41.5MM 50.5MM 91mm 100mm
+:SWISS14.:FED.
+¤. ¤. ¤. ¤.
+.SP 1.4MM
+¤. ¤. ¤. ¤.
+.SP 1.4MM
+¤. ¤. ¤. ¤.
+:SKRSLUT.
+.AR OFF

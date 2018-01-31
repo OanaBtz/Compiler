@@ -1,0 +1,325 @@
+:FED.
+Amount
+:SKRSLUT.
+.br
+.*** test på revolverende kredit *******
+.if &U'&REVOLV = J
+.th .go REVOL
+.el .go NOREVOL
+...REVOL
+&BANKNAVN. opens a current credit on DKK &LÅNBEL. for &migos..
+.*&BANKNAVN opens an ongoing credit of DKK &LÅNBEL to &migos..
+.go AFVIKL
+...NOREVOL
+&debsomt have agreed with &BANKNAVN. that &deblomt can draw up to
+DKK &LÅNTOT. on this credit, including interest and commission.
+...AFVIKL
+.****
+.if &U'&REVOLV = J
+.th .go REVOLAFV
+.el .go AFVIKL1
+.***
+...REVOLAFV
+.sp 5mm
+:FED.
+Settlement
+:SKRSLUT.
+.br
+Within the credit line we settle the drawn amounts, with an
+additional interest, when payments on &REVOLPCT % of the loan
+balance is made
+.if &REVOLPCT ne 100
+.th .go UND100
+.el .ct . &ÅCONT
+.el .go UND100SL
+...UND100
+.if &L'&REVOLMINB = 0
+.th .ct . &ÅCONT
+.th .go UND100SL
+.*** denne tekst skal kun udskrives hvis der findes et revolv minbeløb.
+.ct , however minimum
+:VS. &REVOLMINB.
+kr. &ÅCONT
+...UND100SL
+.if &L'&REVOLSALST > 0
+.th .br
+.th &debsomt start pay off when the loan balance is larger than
+.th or equal to
+.th :VS. &REVOLSALST
+.th kr.
+.* SLUTDATO **********
+.if &L'&REVOLSALSL > 0
+.th .br
+.th Pay off ceases when the loan balance is less or equal to
+.th :VS. &REVOLSALSL
+.th kr.
+.th .br
+The month before payments are due, the bank charge payments as on 15. or
+next banking day.
+.sp 5mm
+.go SLUTAFV
+...AFVIKL1
+.sp 5mm
+.if &L'&OPFØLGDATO = 0
+.an &L'&AFDYDL01 = 0
+.th .go INGDATO
+:FED.
+Settlement
+:SKRSLUT.
+.br
+.*1. AFVIKLING ***********
+.*** Er afviklingsrækken overhovedet udfyldt?
+.if &L'&AFDYDL01 = 0
+.th .go SLUTAFV
+.if &U'&AFDYDL01 = F
+.th .go AFDFRI1
+.el .go UDENOM1
+...AFDFRI1
+The credit remains exempt from repayment till &AFVTDATO01.. In the
+exemption period accrued interest is paid
+.if &AFVFREK01 = 1
+.th every month
+.if &AFVFREK01 = 3
+.th every quarter
+.if &AFVFREK01 = 4
+.th every second month
+.if &AFVFREK01 = 6
+.th every six months
+.if &AFVFREK01 = 7
+.th every week
+.if &AFVFREK01 = 9
+.th every year
+.if &AFVFREK01 = 14
+.th half monthly
+.if &AFVFREK01 = 15
+.th as on 15. and last day in the month
+initially &AFVDATO01..
+.go 2AFVIKL
+...UDENOM1
+.if &U'&AFDYDL01 = A
+.th The credit is written down with DKK
+.if &U'&AFDYDL01 = Y
+.th The payment is
+.if &U'&AFDYDL01 = X
+.th The credit is extraordinarily written down with DKK
+.if &U'&AFDYDL01 = Z
+.th Extraordinarily payment on DKK
+:VS. &AFVBEL01.
+.if &AFVFREK01 = 1
+.th every month
+.if &AFVFREK01 = 3
+.th every quarter
+.if &AFVFREK01 = 4
+.th every second month
+.if &AFVFREK01 = 6
+.th every six months
+.if &AFVFREK01 = 7
+.th every week
+.if &AFVFREK01 = 9
+.th every year
+.if &AFVFREK01 = 14
+.th half monthly
+.if &AFVFREK01 = 15
+.th as on 15. and last day in the month
+initially &AFVDATO01.. &ÅCONT
+.if x&AFVANT01 = x99
+.th .go 2AFVIKL
+.if &U'&AFDYDL01 = A
+.or &U'&AFDYDL01 = X
+.th .go AFV01AX
+.el .go AFV01YZ
+...AFV01AX
+.if &AFVANT01 > 1
+.th The down writing is effected &AFVANT01. times.
+.el The down writing is effected &AFVANT01. time.
+.go 2AFVIKL
+...AFV01YZ
+.if &AFVANT01 > 1
+.th The payment is made &AFVANT01. times..
+.el The payment is made &AFVANT01. time.
+.go 2AFVIKL
+...2AFVIKL
+.*2. AFVIKLING ***********
+.*** Er afviklingsrækken overhovedet udfyldt?
+.if &L'&AFDYDL02 = 0
+.th .sp 5mm
+.th .go SLUTAFV
+.br
+.if &U'&AFDYDL02 = F
+.th .go AFDFRI2
+.el .go UDENOM2
+...AFDFRI2
+The credit remains exempt from repayment from &AFVFDATO02. till
+&AFVTDATO02.. In the exemption period accrued interest is paid
+.if &AFVFREK02 = 1
+.th every month
+.if &AFVFREK02 = 3
+.th every quarter
+.if &AFVFREK02 = 4
+.th every second month
+.if &AFVFREK02 = 6
+.th every six months
+.if &AFVFREK02 = 7
+.th every week
+.if &AFVFREK02 = 9
+.th every year
+.if &AFVFREK02 = 14
+.th half monthly
+.if &AFVFREK02 = 15
+.th as on 15. and last day in the month
+initially &AFVDATO02..
+.go 3AFVIKL
+...UDENOM2
+.if &U'&AFDYDL02 = A
+.th The credit is written down with DKK
+.if &U'&AFDYDL02 = Y
+.th The payment is
+.if &U'&AFDYDL02 = X
+.th The credit is extraordinarily written down with DKK
+.if &U'&AFDYDL02 = Z
+.th Extraordinarily payment on DKK
+:VS. &AFVBEL02
+.if &AFVFREK02 = 1
+.th every month
+.if &AFVFREK02 = 3
+.th every quarter
+.if &AFVFREK02 = 4
+.th every second month
+.if &AFVFREK02 = 6
+.th every six months
+.if &AFVFREK02 = 7
+.th every week
+.if &AFVFREK02 = 9
+.th every year
+.if &AFVFREK02 = 14
+.th half monthly
+.if &AFVFREK02 = 15
+.th as on 15. and last day in the month
+initially &AFVDATO02.. &ÅCONT
+.if x&AFVANT02 = x99
+.th .go 3AFVIKL
+.if &U'&AFDYDL02 = A
+.or &U'&AFDYDL02 = X
+.th .go AFV02AX
+.el .go AFV02YZ
+...AFV02AX
+.if &AFVANT02 > 1
+.th The down writing is effected &AFVANT02. times.
+.el The down writing is effected &AFVANT02. time.
+.go 3AFVIKL
+...AFV02YZ
+.if &AFVANT02 > 1
+.th The payment is made &AFVANT02. times..
+.el The payment is made &AFVANT02. time.
+.go 3AFVIKL
+...3AFVIKL
+.*3. AFVIKLING ***********
+.*** Er afviklingsrækken overhovedet udfyldt?
+.if &L'&AFDYDL03 = 0
+.th .sp 5mm
+.th .go SLUTAFV
+.br
+.if &U'&AFDYDL03 = F
+.th .go AFDFRI3
+.el .go UDENOM3
+...AFDFRI3
+The credit remains exempt from repayment from &AFVFDATO03. till
+&AFVTDATO03.. In the exemption period accrued interest is paid
+.if &AFVFREK03 = 1
+.th every month
+.if &AFVFREK03 = 3
+.th every quarter
+.if &AFVFREK03 = 4
+.th every second month
+.if &AFVFREK03 = 6
+.th every six months
+.if &AFVFREK03 = 7
+.th every week
+.if &AFVFREK03 = 9
+.th every year
+.if &AFVFREK03 = 14
+.th half monthly
+.if &AFVFREK03 = 15
+.th as on 15. and last day in the month
+initially &AFVDATO03..
+.go 4AFVIKL
+...UDENOM3
+.if &U'&AFDYDL03 = A
+.th The credit is written down with DKK
+.if &U'&AFDYDL03 = Y
+.th The payment is
+.if &U'&AFDYDL03 = X
+.th The credit is extraordinarily written down with DKK
+.if &U'&AFDYDL03 = Z
+.th Extraordinarily payment on DKK
+:VS. &AFVBEL03
+.if &AFVFREK03 = 1
+.th every month
+.if &AFVFREK03 = 3
+.th every quarter
+.if &AFVFREK03 = 4
+.th every second month
+.if &AFVFREK03 = 6
+.th every six months
+.if &AFVFREK03 = 7
+.th every week
+.if &AFVFREK03 = 9
+.th every year
+.if &AFVFREK03 = 14
+.th half monthly
+.if &AFVFREK03 = 15
+.th kr. as on 15. and last day in the month
+initially &AFVDATO03.. &ÅCONT
+.if x&AFVANT03 = x99
+.th .go 4AFVIKL
+.if &U'&AFDYDL03 = A
+.or &U'&AFDYDL03 = X
+.th .go AFV03AX
+.el .go AFV03YZ
+...AFV03AX
+.if &AFVANT03 > 1
+.th The down writing is effected &AFVANT03. times.
+.el The down writing is effected &AFVANT03. time.
+.go 4AFVIKL
+...AFV03YZ
+.if &AFVANT03 > 1
+.th The payment is made &AFVANT03. times..
+.el The payment is made &AFVANT03. time.
+.go 4AFVIKL
+...4AFVIKL
+.*4. AFVIKLING *********
+.if &L'AFDYDL04 = 0
+.th .sp 5mm
+.th .go SLUTAFV
+.br
+.if &U'&AFDYDL04 = T
+.th For further details see the settlement table.
+.sp 5mm
+...SLUTAFV
+.********************
+.if &L'&OPFØLGDATO = 0
+.an &L'&OPFØLGFREK = 0
+.th .go INGDATO
+The credit contract is reviewed
+.if &OPFØLGFREK = 0
+.th the &OPFØLGDATO. with regard to agreement on further
+.th payment/prolonging.
+.th .sp 5mm
+.th .go INGDATO
+.if &OPFØLGFREK. = 1
+.th monthly
+.if &OPFØLGFREK. = 3
+.th quarterly
+.if &OPFØLGFREK. = 6
+.th every six months
+.if &OPFØLGFREK. = 9
+.th annually
+.if &OPFØLGFREK. = 19
+.th every two years
+.if &OPFØLGFREK. = 49
+.th every fifth year
+with regard to agreement on further payment/prolonging initially
+&OPFØLGDATO..
+.sp 5mm
+...INGDATO
+.***********************************************************************

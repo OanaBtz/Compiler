@@ -1,0 +1,83 @@
+.da KONTOH1 25mm 184mm width 170mm
+.da MELLEMR 114mm 205.2mm width 85mm
+.da BETRUKNE 25mm 211.7mm width 90mm
+.da ORIGINAL 114mm 213.9mm width 85mm
+.da FOTOKOPI 114mm 222.4mm width 85mm
+.da MEDANDET 114mm 230.5mm width 85mm
+.da DATOREF 25mm 247.5mm width 90mm
+.da BETPI 116mm 252.5mm width 85mm
+.**************************************************************************
+.ar KONTOH1 on
+.tp 91mm
+.*TLFNR BENYTTES IKKE I OKRPI02, DA DER ER REGISTRERET MANGE TLF.NUMRE I **
+.*OKR, MEN DET KUN ER MULIGT AT FÅ HENTET ÉT TLF.NUMMER. ******************
+.*TLFNR ER I OKRPI02 IKKE RETURNERET, OG DEN ER SKYGGET *******************
+.if &L'&TLFNR gt 0
+.th &NAVN ¤&TLFNR
+.el &NAVN
+.sp 4.5mm
+&GADE ¤&BY
+.ar off
+.************************************************
+.ar BETRUKNE on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.************************************************
+.ar MELLEMR on
+.if &L'&GENTRÆK gt 0
+.th X
+.el
+.ar off
+.************************************************
+.ar ORIGINAL on
+.if &L'&GENORIG gt 0
+.th X
+.el
+.ar off
+.************************************************
+.ar FOTOKOPI on
+.if &L'&GENMEDD gt 0
+.th X
+.el
+.ar off
+.************************************************
+.ar MEDANDET on
+.tp 4mm
+.if &L'&GENAMED gt 0
+.th X¤&GENAMED
+.el
+.ar off
+.************************************************
+.ar DATOREF on
+.tp 8mm
+&DATO
+.sp 8mm
+.if &L'&GENKORTREF > 0
+.th &GENKORTREF
+.el &GENEKSP
+.sp 3mm
+.if &L'&GENTLFNR > 0
+.th ¤&GENTLFNR
+.el ¤&AFDTLF
+.br
+¤&AFDFAX
+.ar off
+.************************************************
+.ar BETPI on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.sp 3mm
+&GENEKSP
+.ar off
+.************************************************

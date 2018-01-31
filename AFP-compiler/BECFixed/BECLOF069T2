@@ -1,0 +1,194 @@
+.**************************************************************************
+:SWISS8.
+:FED.
+Alle beløb angivet i denne aftale er inkl. moms.
+:SKRSLUT.
+.sp
+:FED.
+A - Den leasede bil
+:SKRSLUT.
+.tp 30mm
+.sp
+Mærke/Model::SKRSLUT.¤&BESKRIV01.:SWISS8.
+.br
+Energiklasse::SKRSLUT.¤&ENERGIKL01.:SWISS8.
+.br
+Årgang::SKRSLUT.¤&ÅRG01.:SWISS8.
+.br
+Stelnr.::SKRSLUT. ¤&STELNR01.:SWISS8.
+.br
+Reg.nr.::SKRSLUT.¤&REGISNR01.:SWISS8.
+.br
+Kilometertæller::SKRSLUT.¤&KMSTAND.:SWISS8.
+.sp
+Ekstraudstyr::SKRSLUT.¤&TILBLIN101.
+¤&TILBLIN201.
+¤&TILBLIN301.
+¤&TILBLIN401.
+¤&TILBLIN501.
+:SWISS8.
+.sp
+Leverandør::SKRSLUT.¤&LEVADR1.
+.br
+¤&LEVADR2.
+.br
+¤&LEVADR3.
+.br
+¤&LEVADR4.
+.br
+¤&LEVADR5.
+.sp
+:SWISS8.
+:FED.
+B - Leasingperiode
+:SKRSLUT.
+.sp
+Leasingperioden er aftalt til:SKRSLUT. &LØBETID.:SWISS8.
+måneder beregnet fra den 1. i måneden efter bilens forventede levering
+og med forventet forfald første gang den:SKRSLUT. &FFDATO01..:SWISS8.
+.sp
+Ved ophør af kontrakten (såfremt forventet leveringsdato overholdes)
+den:SKRSLUT. &UDATO. :SWISS8.har leasingtager hverken ret eller pligt til
+at købe bilen.
+.sp
+.kp on
+:FED.
+C - Leasingydelserne
+:SKRSLUT.
+.sp
+Den ordinære leasingydelse inklusiv service- og vedligeholdelsesaftale
+samt kontogebyr er aftalt til kr. :SKRSLUT.&BELINCLYSK.:SWISS8. og
+betales forud hver den 1. i måneden, første gang for den måned, der
+starter efter bilens levering til leasingtager.
+Samtidig med betaling af første ordinære
+leasingydelse betales en forholdsmæssig ydelse beregnet for perioden fra
+bilens levering til udløbet af den pågældende måned. Første leasingydelse
+kan således være større end den ordinære leasingydelse.
+.sp
+Ud over den månedlige leasingydelse betaler leasingtager ved denne
+aftales indgåelse en ekstraordinær leasingydelse på
+.br
+kr. :SKRSLUT. &UDBETAL. :SWISS8. der indbetales direkte til leverandør
+ved modtagelse af bilen.
+.sp
+.kp off
+.kp on
+.*************************************************************************
+.if &U'X&RENTETYP = XF
+.th .go FAST
+.el .go VARI
+...FAST
+Leasingydelsen er fast i hele leasingperioden.
+.sp
+.go RSLUT
+...VARI
+Leasingydelsen er variabel og reguleres i forhold til udsving i den
+gennemsnitlige rente for
+.if &U'X&CIBNIB = XI
+.th Nationalbankens indskudsbeviser.
+.el CIBOR 3M.
+Gennemsnittet beregnes hver måned ud fra den
+.if &U'X&CIBNIB = XI
+.th ugentlige fastsættelse af indskudsbevisrenten.
+.el daglige fastsættelse af CIBOR 3M.
+Gennemsnittet for :SKRSLUT.&RENTEPERI.:SWISS8.
+udgjorde:SKRSLUT. &RENTE.:SWISS8. %, udfra hvilken den under
+afviklingsvilkår anførte afgift
+reguleres. Leasingydelsen reguleres i takt med ændringer i denne rentesats
+med virkning fra og med den første leasingydelse, der forfalder efter
+renteændringens ikrafttrædelse. Bortfalder basisrenten, er
+:SKRSLUT.
+&AFDBNKNAVN.
+:SWISS8.
+berettiget til at vælge en anden basisrente, der er repræsentativ for
+markedsrenten.
+.sp
+...RSLUT
+.kp off
+.kp on
+.if &L'&PANTHEKSP = 0
+.th .go GEBSLUT
+Gebyrer:
+.sp
+.tp 10mm 100mm 155mm right
+¤Stiftelsesomkostninger m.v.:
+.sp
+.if &L'&EKSGEB > 0
+.th
+.el .go CONT1
+¤ - stiftelsesprovision ¤kr.:SKRSLUT.¤&EKSGEB.:SWISS8.
+.br
+...CONT1
+.if &L'&PANTHGEB > 0
+.th
+.el .go CONT2
+¤ - forsikringsdeklaration - incl. adminstrationsgebyr for notering¤kr.
+:SKRSLUT.¤&PANTHGEB.:SWISS8.
+...CONT2
+.hr 100mm 155mm
+.sp
+¤Stiftelsesomkostninger i alt ¤kr.
+:SKRSLUT.¤&PANTHEKSP.:SWISS8.
+.hr 100mm 155mm
+.sp
+Disse stiftelsesomkostninger betales af leasingtager efter opkrævning fra
+leasinggiver.
+.sp
+...GEBSLUT
+.kp off
+.kp on
+I den aftalte løbetid betales der således samlet set kr. &YDELSESSUM.
+til leasinggiver jf. dog § 4, nr. 2, hvortil kan komme ekstra variable
+udgifter fx ved overkørte kilometer,
+.if &U'X&RENTETYP = XV
+.th ændringer i den variable leasingydelse,
+manglende tilmelding til
+&PRODUKT2.
+og fremsendelse af del 1 af den originale
+registreringsattest. Øvrige udgifter fx grøn ejerafgift og forsikring er
+ikke indeholdt i leasingydelsen og skal betales af leasingtager ved siden
+af.
+.sp
+.kp off
+.kp on
+:FED.
+Herudover er leasinggiver berettiget til at kræve betaling af følgende
+gebyrer, hvis omstændighederne giver anledning hertil:
+:SKRSLUT.
+.sp
+.tp 10mm 100mm 125mm right 126mm
+¤- andet arbejde (pr. påbegyndt arbejdstime)¤kr.¤625,00
+.br
+¤- afvisning/tilbageførsel/afmelding af betalinger via
+&PRODUKT2.¤kr.¤243,75
+.br
+¤- modtagelse af dækningsløs check¤kr.¤243,75
+.br
+¤- arkivforespørgsel (pr. påbegyndt arbejdstime)¤kr.¤625,00
+.br
+¤- gebyr for opkrævning af depositum efter punkt E¤kr.¤125,00
+.br
+¤- gebyr for opsigelse p.g.a. manglende forsikring¤kr.¤625,00
+.br
+¤- gebyr for forsikrings-afmelding¤kr.¤375,00
+.br
+¤- forsikringsskift og andre forsikringsmæssige ekspeditioner¤kr.¤437,50
+.br
+¤- gebyr for ydelseshenstand¤kr.¤625,00
+.br
+¤- gebyr for rykning af præmierestance/forsikring¤kr.¤250,00
+.br
+¤- gebyr for undersøgelse af forsikring eller
+registreringsforhold¤kr.¤250,00
+.br
+¤- gebyr for telefonrykning, brevrykning og opsigelse¤kr.¤100,00¤momsfri
+.br
+¤- gebyr for inkassokonsulent (a conto)¤kr.¤1.500,00
+.br
+¤- manglende oplysninger om adresseskift¤kr.¤250,00
+.br
+¤- kontoudtog¤kr.¤62,50
+.br
+¤- morarente ved for sen betaling¤I henhold til gældende lovgivning.
+.sp
+.kp off

@@ -1,0 +1,32 @@
+.******************************************************************
+.da KUNDEOPL  24mm   50mm width 80mm
+.da PI        24mm   77mm width 80mm
+.da CVR       150mm  66mm width 80mm
+.******************************************************************
+.ar KUNDEOPL on
+.tp 2mm
+.br
+&STILL.
+.br
+&NAVN.
+.br
+&COADR.
+.br
+&GADE.
+.br
+&BY.
+&LAND
+.ar off
+.ar CVR on
+CVR-nr.: &KUNDENR.
+.ar off
+.*************************************
+.ar PI on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off

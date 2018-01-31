@@ -1,0 +1,9 @@
+.*************** definer siden som et areal *******************************
+.da SIDE1 20mm 40mm width 175mm
+.****************** KAUTIONSERKLÆRING *************************************
+.ar SIDE1 on
+:SWISS9.
+.bx left right
+.sp 204mm
+.bx off
+.ar off

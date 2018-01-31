@@ -1,0 +1,96 @@
+samt de hidtil respekterede servitutter og andre byrder med eller
+uden pant.
+.if &U'&GENKRYDS2. = J
+.th .br
+.th Der henvises til tinglysningsafgiftslovens § 5 b, stk. 1.
+.sp 3mm
+.kp off
+...TRANS
+.** Test på om et er en transport (GENKRYDS5)
+.if &U'&GENKRYDS5. = N
+.th .go FORH
+.kp on
+Nærværende &paatxt. transporteres herved til
+&KTONAVN., &KTOGADE., &KTOBY.
+.if &L'&MEDNAVN > 0
+.th og
+.th &MEDNAVN., &MEDGADE., &MEDBY.
+der har erhvervet den pantsatte andel, og som
+ved sin underskrift på nærværende påtegning overtager &paatxt.et som
+debitor og kreditor.
+.sp 3mm
+&spaatxt.ets øvrige bestemmelser forbliver uændret gældende, dog uden
+personligt ansvar for køber for pantegælden.
+.sp 3mm
+.kp off
+...ENDSKEM1
+.*** FORHØJELSE ***********************************************************
+...FORH
+.if &U'&GENKRYDS4. = J
+.th
+.el .go ENDSKEM2
+.kp on
+Nærværende &paatxt., kr.
+:VS. &GENBELØB10.,
+forhøjes herved med kr.
+:VS. &GENBELØB11.
+til i alt kr. &RESULTA.
+.br
+Skriver kroner &RESULTAT1.&RESULTAT2.
+.br
+&spaatxt.ets øvrige bestemmelser gentages i alle dets ord og punkter, idet
+dog bemærkes, at der for så vidt angår forhøjelsesbeløbet meddeles afkald
+på renteopskrivningsbestemmelsen.
+.sp 3mm
+.kp off
+...ENDSKEM2
+.tp 8mm
+.if x&antl = x2
+.th .sp 21mm
+.el .sp 10mm
+.*** AFLYSNING ************************************************************
+.if &U'&GENKRYDS1. = J
+.th
+.el .go FRITXT
+.kp on
+Nærværende &paatxt. kvitteres herved til aflysning af tingbogen.
+.sp 3mm
+.kp off
+.*** FRI TEKST ************************************************************
+...FRITXT
+.if &L'&GENTEKST1. > 0
+.or &L'&GENTEKST2. > 0
+.th
+.el .go KRSKA
+.kp on
+&GENTEKST1.&GENTEKST2
+.sp 3mm
+.kp off
+...KRSKA
+.if &U'&GENKRYDS3 = J
+.th
+.el .go RESP
+.kp on
+Nærværende &paatxt. transporterer jeg/vi herved uden ansvar for mig/os til
+&BANKNAVN., der har fyldestgjort mig/os for transporten.
+.br
+&spaatxt.et tjener herefter til sikkerhed for, hvad debitor til enhver tid
+måtte skylde &BANKNAVN..
+.br
+&spaatxt.ets øvrige bestemmelser gentages i alle dets ord og punkter.
+.br
+Der henvises til tinglysningsafgiftslovens §5, stk. 5, sidste pkt., jf. §7.
+.sp 3mm
+.kp off
+...RESP
+.if &L'&GENTEKST7. > 0
+.or &L'&GENTEKST8. > 0
+.th
+.el .go TRANS
+.kp on
+Nærværende &paatxt. respekterer fremtidig alene:
+.br
+&GENTEKST7.
+.br
+&GENTEKST8.
+.br

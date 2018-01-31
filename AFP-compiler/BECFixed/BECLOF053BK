@@ -1,0 +1,34 @@
+.*************** definer siden som et areal *******************************
+.da SIDE 20mm 40mm width 175mm
+.************ PARTER ******************************************************
+.ar SIDE on
+.tp 1mm 88.5mm
+.bx left right
+:SWISS8.
+¤Kontrakt nr.:
+.sp 4mm
+.bx new left 87.5mm right
+¤Undertegnede leasingtager¤Ejer og leasinggiver
+.sp 20mm
+.bx new left 87.5mm right
+¤Kundenummer¤CVR.nr.
+.sp 5mm
+.bx off
+.bx can
+.bx can
+.**************************************************************************
+:SWISS10.:FED.
+Underskrifter
+:SKRSLUT.
+:SKRSLUT.
+.bx left right
+.in 1mm
+Underskrift på nærværende allonge tjener tillige som leveringsgodkendelse
+for modtagelsen af ovennævnte effekter, og bemyndiger leasinggiver til at
+betale leverandøren.
+.sp
+Ovennævnte tiltrædes herved.
+.sp 65mm
+.bx off
+.ar off
+.**************************************************************************

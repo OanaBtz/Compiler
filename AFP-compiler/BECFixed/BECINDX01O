@@ -1,0 +1,22 @@
+:COUR10.
+.fo left
+.ti ¤ 05
+.* Brevstart, incl. overskrift
+.da START 20mm 110mm width 150mm
+.* Brevnavn, roteret i nederste venstre hjørne
+.da VEND 7mm 270mm width 180mm rotate -90
+:tiltale &TILTALEF
+.**************************************************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.**************************************************************************
+.ar START on
+:FED.
+:COUR12.
+.us Indeksopsparing
+:SKRSLUT.
+:SKRSLUT.
+.sp
+.**************************************************************************

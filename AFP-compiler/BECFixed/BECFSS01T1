@@ -1,0 +1,73 @@
+.da MODT 20mm 40mm width 100mm
+.da TYPE 20mm 40mm width 170mm
+.da SUM  20mm 80mm width 170mm
+.*************MODTAGERS NAVN OG ADRESSE *****************************
+.*************ALTID DEN SAMME MODTAGER ******************************
+.ar MODT on
+:SWISS10.
+nærpension A/S
+.br
+Østbanegade 135, 2. sal
+.br
+2100 København Ø
+:SKRSLUT.
+.ar off
+.*************TYPE PÅ BREVET - VISES ØVERST TIL HØJRE *****************
+.ar TYPE on
+.tp 160mm right
+:SWISS12.
+:FED.
+.if X&FSSTYPE = X1
+.th ¤Oprettelse
+.if X&FSSTYPE = X2
+.th ¤Forhøjelse af dækning
+.if X&FSSTYPE = X3
+.th ¤Nedsættelse af dækning
+.if X&FSSTYPE = X4
+.th ¤Overførsel fra
+.th .br
+.th ¤andet nærpension pengeinstitut
+.if X&FSSTYPE = X5
+.th ¤Sletning/Opsigelse
+.if X&FSSTYPE = X6
+.th ¤Ændring af skattekode
+.*th .br
+.*th ¤på pensionsgrp-liv
+.if X&FSSTYPE = X7
+.th ¤Ændring af skattekode
+.th .br
+.th ¤på SKAT 1 ordning
+.if X&FSSTYPE = X8
+.th ¤Ændring fra krydsliv
+.if X&FSSTYPE = X9
+.th ¤Ændring til krydsliv
+.if X&FSSTYPE = X10
+.th ¤Sletning af begunstigelse
+:SKRSLUT.
+.ar off
+.**********FORSIKRINGSTYPE OVERSKRIFT OG FORSIKRINGSSUM ****************
+.ar SUM on
+.tp 100mm right
+:FED.
+&type1.
+:SKRSLUT.
+.sp 2
+.************************
+.if X&FSSTYPE = X4
+.th :FED.
+.th Ovenstående forsikring er overført fra
+.th :SKRSLUT.
+.th .br
+.th Reg.nr. &REGNR2.
+.th .br
+.th Pengeinstitut: &GENNAVNBD1.
+.th .go SLUT
+.************************
+.if X&FSSTYPE = X5
+.th :FED.
+.th Forsikringen slettes/opsiges til ophør pr. &B11DATO.
+.th :SKRSLUT.
+.************************
+...SLUT
+.ar off
+.*******************************

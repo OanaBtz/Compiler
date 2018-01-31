@@ -1,0 +1,133 @@
+.* Box/teskt (MODGARANTI)
+.tp 1mm
+.ll 180mm
+.da MODGA 20mm 40mm WIDTH 175mm
+.da MODK1 21mm 45mm WIDTH 85mm
+.da MODK2 108mm 45mm WIDTH 85mm
+.da VITTV 108mm 125.5mm WIDTH 85mm
+.**********************************
+.ar MODGA on
+:SWISS10.:FED.
+¤Kundeerklæring
+:SKRSLUT.
+:SWISS8.
+.bx left right
+.sp 70mm
+.bx off
+.if &U'&GENJANEJ = J
+.th .go MED
+.el .go UDEN
+...MED
+.bx set left 87mm right
+.tp 1mm 88mm
+¤Dato og kundens underskrift. ¤Til vitterlighed om ægte
+underskrift/underskrifter, dateringens rigtig-
+.br
+¤¤hed og udstederens/udstedernes myndighed.
+.sp 36mm
+.go SSS
+...UDEN
+.bx set left right
+.tp 1mm
+¤Dato og kundens underskrift.
+.sp 36mm
+...SSS
+.bx off
+.ar off
+.**********************************
+.ar MODK1 on
+:SWISS8.
+Undertegnede anmoder herved pengeinstituttet om for min/vor regning
+at udfærdige en garanti af ovenstående ordlyd, og jeg/vi dækker på
+anfordring pengeinstituttet for ethvert beløb, som pengeinstituttet
+måtte komme til at udrede som følge af denne garanti. Så længe
+garantien er i kraft, debiterer pengeinstituttet mig/os provision
+efter pengeinstituttets til
+enhver tid gældende
+betingelser. Beløb udbetalt under garantien forrentes i
+forhold til pengeinstituttets gældende betingelser.
+.br
+Yderligere tiltransporterer undertegnede hermed pengeinstituttet  alle
+eventuelle tilbagebetalingskrav.
+.sp 3mm
+I øvrigt er pengeinstituttets almindelige forretningsbetingelser gældende.
+.sp
+Pengeinstituttet er erstatningsansvarlig, hvis den på grund af fejl eller
+forsømmelser opfylder aftalte forpligtelser for sent eller mangelfuldt.
+Selv på de områder, hvor der gælder et strengere ansvar, er banken ikke
+ansvarlig for tab, som skyldes:
+.sp 3mm
+.tp 5mm
+*¤nedbrud i/manglende
+.in 5mm nobreak
+adgang til it-systemer eller beskadigelse af data i disse systemer, der
+kan henføres til nedennævnte
+.br
+.in 0mm
+.ar off
+.******************************
+.ar MODK2 on
+:SWISS8.
+.in 5mm
+begivenheder, uanset om det er
+pengeinstituttet selv eller en ekstern leverandør, der står for driften
+af systemerne
+.br
+.in 0mm
+.tp 5mm
+*¤svigt
+.in 5mm nobreak
+i pengeinstituttets strømforsyning eller telekommunikation, lovindgreb
+eller forvaltningsakter, naturkatastrofer, krig, oprør, borgerlige
+uroligheder, sabotage, terror eller hærværk (herunder computervirus og
+hacking)
+.br
+.in 0mm
+*¤strejke, lockout, boykot
+.in 5mm nobreak
+eller blokade, uanset om konflikten er rettet mod eller iværksat af
+pengeinstituttet selv eller dens organisation, og uanset konfliktens
+årsag. Det gælder også, når konflikten kun rammer en del af
+pengeinstituttet
+.br
+.in 0mm
+*¤andre
+.in 5mm nobreak
+omstændigheder, som er uden for pengeinstituttets kontrol.
+.sp
+.in 0mm
+Pengeinstituttets ansvarsfrihed gælder ikke hvis:
+.sp 3mm
+*¤pengeinstituttet
+.in 5mm nobreak
+burde have forudset det forhold, som er årsag til tabet, da aftalen blev
+indgået eller burde have undgået eller overvundet årsagen til tabet
+.br
+.in 0mm
+*¤lovgivningen
+.in 5mm nobreak
+under alle omstændigheder gør pengeinstituttet ansvarlig for det
+forhold, som er årsag til tabet.
+.ar off
+.**********************************
+.ar VITTV on
+.if &U'&GENJANEJ = J
+.th .go SKRIV
+.el .go NEJ
+...SKRIV
+.tp _/83mm
+:SWISS8.
+Navn ¤
+.sp 4mm
+Stilling ¤
+.sp 4mm
+Adresse ¤
+.sp 4mm
+Postnr./by ¤
+.sp 4mm
+Underskrift ¤
+...NEJ
+.ar off
+.**********************************
+...slut
+:COUR10.

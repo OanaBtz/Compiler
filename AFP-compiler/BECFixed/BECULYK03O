@@ -1,0 +1,24 @@
+.********************GENEREL OPSÆTNING*************************************
+:COUR10.
+.fo left
+.ti ¤ 05
+.********************AREAL-DEFINITIONER************************************
+.* Brevstart, incl. overskrift
+.da START 20mm 100mm
+.* Brevnavn, roteret i venstre hjørne
+.da VEND 7mm 270mm width 180mm rotate -90
+.********************ROTERET BREVNAVN**************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.********************START-POSITION AF BREVET, INCL. OVERSKRIFT************
+.ar START on
+.hy off
+.us on
+Familiesikring Ulykke i PFA Pension ophører -
+mulighed for ny ulykkesforsikring i Privatsikring
+.us off
+.sp
+.hy on
+.**************************************************************************

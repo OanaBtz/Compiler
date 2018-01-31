@@ -1,0 +1,27 @@
+.AR TEKST ON
+&BANKNAVN. kvitterer hermed for at have modtaget:
+.sp 3MM
+.IN 5MM
+&BECP1
+.BR
+&BECP2
+.BR
+&BECP3
+.BR
+&BECP4
+.BR
+&BECP5
+.in -5mm
+.SP 6MM
+fra
+.sp 3mm
+.in 5mm
+&NAVN
+.BR
+&GADE
+.BR
+&BY
+.SP 6MM
+Cpr.nr: &KUNDENR
+.SP 10MM
+.IN -5MM

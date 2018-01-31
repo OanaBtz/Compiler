@@ -1,0 +1,77 @@
+virksomhedens engagement.
+.sp
+Jeg kan som underskriftsberettiget hos &BANKNAVN. eller &GENOVFBANK. få
+oplyst, hvilke oplysninger der er givet videre ved denne
+overførselsanmodning. Jeg kan også tilbagekalde mit samtykke ved at
+kontakte &BANKNAVN., så længe anmodningen om overførsel ikke er sendt
+endnu. Samtykket opbevares af &BANKNAVN..
+.sp
+Samtykket gælder, når samtlige underskriftsberettigede har underskrevet
+anmodning om overførsel af engagementet og samtykkeerklæring med
+digital(e) /fysisk(e) underskrift(er), og anmodning og samtykke
+er afgivet til &BANKNAVN..
+...ENDT7
+.sp 5mm
+.*****************************
+.*Afsnit med underskrift
+.*****************************
+.dr thin weight 0.5
+.tp 82mm center
+:SWISS9.
+Dato
+.hr left right
+.br
+¤&EOPCPR.  &EOPNAVN.
+:SKRSLUT.
+.kp off
+.**********************************
+.kp on
+:FED.
+Samtykkeerklæring
+.sp
+:SKRSLUT.
+.if &U'&EOPKNDTYP = P
+.th .go PTXT
+.el .go ETXT
+...PTXT
+Jeg, som underskriftsberettiget, giver
+samtykke til, at &GENOVFBANK. til &BANKNAVN. må
+videregive alle oplysninger og vilkår om ovennævnte
+specifikke engagement (anførte konti, depoter, sikkerheder
+mv.) f.eks. lånebeløb, renter, indestående på konti, spærring af
+kort mv., til brug for overførslen af ovennævnte engagement
+fra &GENOVFBANK. til &BANKNAVN.. Det gælder også oplysninger
+om min og andres rolle i forhold til de enkelte dele af
+engagementet, f.eks. hvem er kontohaver, depothaver og
+indskyder, forudsat at de også har afgivet samtykke. Der
+må også videregives informationer om betalingsoverførsler
+til tredjemand, Betalingsserviceaftaler og lignende
+oplysninger til brug for overførslen af mit engagement.
+.sp
+Jeg kan hos &BANKNAVN. eller &GENOVFBANK. få oplyst, hvilke oplysninger
+der er givet videre ved denne overførselsanmodning. Jeg kan også
+tilbagekalde mit samtykke ved at kontakte &BANKNAVN., så længe
+anmodningen om overførsel ikke er sendt endnu. Mit samtykke opbevares af
+&BANKNAVN..
+.sp
+Mit samtykke gælder, når jeg som underskriftberettiget
+har underskrevet anmodningen om
+overførsel af engagementet og denne samtykkeerklæring med
+digital/fysisk underskrift, og den er afgivet til &BANKNAVN..
+.go ENDT7
+...ETXT
+Jeg giver som underskriftberettiget samtykke til, at
+&GENOVFBANK. til &BANKNAVN. må videregive alle oplysninger
+og vilkår om ovennævnte specifikke engagement (anførte
+konti, depoter, sikkerheder mv.) f.eks. lånebeløb, renter, indestående
+på konti, spærring af kort mv., til brug for
+overførslen af ovennævnte engagement fra &GENOVFBANK. til
+&BANKNAVN.. Det gælder også oplysninger om virksomhedens
+og andres rolle i forhold til de enkelte dele af
+engagementet, f.eks. hvem er kontohaver, depothaver, forudsat
+at de også har afgivet samtykke. Der
+må også videregives informationer om
+betalingsoverførsler til
+tredjemand, Betalingsserviceaftaler/Leverandørserviceaftaler/
+.ct OverførselsServiceaftaler og
+lignende oplysninger til brug for overførslen af

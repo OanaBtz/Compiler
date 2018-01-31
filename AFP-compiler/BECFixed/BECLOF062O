@@ -1,0 +1,21 @@
+.********************AREAL-DEFINITIONER************************************
+.* Brevstart, incl. overskrift
+.****LOFVALG1 = K=kunde L=Leverandør F=formidler************
+.if &U'X&LOFVALG1 = XL
+.*th .da OVERSKR 20mm 90mm width 160mm
+.th .da OVERSKR 20mm 105mm width 160mm
+.*el .da OVERSKR 20mm 100mm width 160mm
+.el .da OVERSKR 20mm 115mm width 160mm
+.* Brevnavn, roteret i venstre hjørne
+.da VEND 7mm 270mm width 180mm rotate -90
+.********************ROTERET BREVNAVN**************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.********************START-POSITION AF BREVET, INCL. OVERSKRIFT************
+.ar OVERSKR on
+:FED.
+.us Kontrakt nr.: &AFTALENR.
+:SKRSLUT.
+.sp

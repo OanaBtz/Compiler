@@ -1,0 +1,208 @@
+.*PUNKT 3 (1) *****
+:FED.
+3. Costs of the credit
+:SKRSLUT.
+.ta table SEFO2 on
+.ta row SEFO2 on
+.ta cell 1
+.in 5mm
+.ir 1mm
+The effective interest rate or, where appropriate, the various effective
+interest rates applicable to the credit agreement.
+.ta cell 2
+&DEBRTETX1.
+&DEBRTETX2.
+&DEBRTETX3.
+&DEBRTETX4.
+&DEBRTETX5.
+&DEBRTETX6.
+.sp 3mm
+:COUR9.
+&DEBRTETX7.
+.br
+&DEBRTETX8.
+.br
+&DEBRTETX9.
+.br
+&DEBRTETX10.
+:SWISS9.
+.sp 3mm
+.us Changes to interest rates
+.br
+&BANKNAVN may lower its interest rates without notice.
+.sp 3mm
+&BANKNAVN. may increase its interest rates subject to prior notice if
+domestic or foreign monetary or credit policy
+changes affect &BANKNAVN. because
+general interest rate levels are impacted. Likewise, &BANKNAVN. may
+increase its interest rates if any other trends in general interest
+rate levels, e.g. in monetary and bond markets, affect &BANKNAVN., or if
+changes in direct or indirect taxes affect &BANKNAVN..
+.sp 3mm
+&BANKNAVN. may increase its interest rates at
+.us one month's notice
+if the individual conditions on which the debtor's interest terms were
+based change. Likewise, &BANKNAVN may increase its interest rates if
+&BANKNAVN. changes its general interest rates and pricing structure for
+commercial reasons, without this being connected to trends in general
+interest rate levels. Commercial reasons may include ensuring a more
+expedient use of Amagerbanken's resources or capacity or increasing
+earnings.
+.sp 3mm
+Information about interest rate increases will be provided to the debtor in
+hard copy or another durable format prior to such change becoming
+effective.
+.ta row SEFO2 off
+.*PUNKT 3 (2) *****
+.ta row SEFO2 on
+.ta cell 1
+.in 5mm
+.ir 1mm
+Annual percentage rate of charge (APR)
+.br
+:KURSIV.
+This is the total cost expressed as an annual percentage of the total
+amount of credit.
+.br
+The APR is there to help you compare different offers.
+:SKRSLUT.
+.ta cell 2
+&ÅOP. %.
+.sp 3mm
+:KURSIV.
+Below you can see an example of the factors included in the calculation of
+an APR of 13.6%.
+.sp 3mm
+.tp 70mm right
+Credit limit: ¤DKK 100.000,00
+.br
+Effective interest rate: ¤10,921 %
+.br
+Initial expenses: ¤DKK 5.700,00
+.br
+Duration of the credit: ¤60 months
+:SKRSLUT.
+.ta row SEFO2 off
+.*PUNKT 3 (3) *****
+.ta row SEFO2 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 1mm
+Is it compulsory, in order to obtain the credit or to obtain the credit on
+the terms and conditions advertised, to take out
+.br
+- an insurance policy securing the credit
+
+
+
+
+
+
+.if &U'&VILKÅRJN = J.th &VILKÅR1. &VILKÅR2. &VILKÅR3. &VILKÅR4. &VILKÅR5. &VILKÅR6..el No..ta row SEFO2 off.***.ta row SEFO on SPLIT.ta cell 1.in 5mm:FED.Related costs:SKR
+SLUT..ta row SEFO off.*PUNKT 3 (4) ******.**UDSKRIVES, HVIS REL
+EVANT *
+********.if &L'&F
+ORVA
+LTN1 = 0.an &L'&FORVA
+LTN2 = 0.a
+n &L'&F
+ORVAL
+TN3 = 0.an &L
+'&FORVALT
+N4 = 0.an &L'&FO
+RVALTN5 = 0.an &L'&F
+ORVALTN6 = 0.th .go OMKOST.ta row SEF
+O2 on.ta cell 1.in 5m
+m.ir 1mmAdministratio
+n of one or more acco
+unts for registering 
+both paymenttransacti
+ons and utilisation o
+f the credit o
+ption is require
+d..ta cell
+ 2&FORV
+ALTN1. 
+&FORVALTN2. &FORVALTN3. &FORVALTN4. &FORVALTN5. &FORVALTN6..ta row 
+SEFO2 off...OMKOST.*PUNKT 3 (5) *******.**UDSKRIVES, HVIS RELE
+VANT *****
+****.if &L'&OMKOSTN1 = 0.an &L'&OMKOSTN2 = 0.an &L'&OMKOSTN3 = 0.an &L'
+&OMKOSTN4 = 0.th 
+.go EVTOM
+K.ta row SEFO2 on SPL
+IT.ta cell 1.in 5mm.ir 1mmCosts for t
+he use of a specific
+ means of payment (e
+.g. a credit card).t
+a cell 2&OMKOSTN1. &
+OMKOSTN2. &OMK
+OSTN3. &OMKOSTN4..ta r
+ow SEFO2 o
+ff...EV
+TOMK.*P
+UNKT 3 (6) *****.**UDSKRIVES, HVIS RELEVANT *********.if &L'&AOMKOSTN
+1 = 0
+
+
+
+
+
+
+.an &L'&AOMKOSTN2 = 0.th .go BETOMK.ta row SEFO2 on SPLIT.ta cell 1.in 5mm.ir 1mmAny other costs in connection with the credit agreement..ta cell 2&AOMKOSTN1. &AOMKOSTN2..t
+a row SEFO2 of
+f...BETOMK.*PUNKT 3 (7
+) *****.**
+UDSKRIV
+ES KUN,
+ HVIS DER ER OMKOSTNINGER **********.if &L'&FORVALTN1 = 
+0.an &L'&F
+ORVALTN2 = 0.an &L'&FOR
+VALTN3 = 0.an &L'
+&FORVALTN
+4 = 0.an &L'&FORVAL
+TN5 = 0.an &L'&FORVALTN6 = 0.an &L'&OMKOSTN1 = 0.an &
+L'&OMKOSTN2 = 0.an &L
+'&OMKOSTN3 = 0.an &L'
+&OMKOSTN4 = 0.an &L'&
+AOMKOSTN1 = 0.an &L'&
+AOMKOSTN2 = 0.th .go 
+BETGEBYR.**UDSKRIVES,
+ HVIS RELEVANT *****
+****.if &L'&OMKÆNDR1
+ = 0.an &L'&OMKÆNDR2
+ = 0.an &L'&OMKÆNDR3
+ = 0.an &L'&OMKÆNDR4 
+= 0.th .go BETGEBYR.t
+a row SEFO2 on S
+PLIT.ta cell 1.in 5mm.ir 1mmTerms and
+ conditions for chan
+ging the aforementio
+ned costs in connect
+ionwith the credit a
+greement..ta cel
+l 2&OMKÆNDR1. &OMKÆNDR
+2. &OMKÆND
+R3. &OM
+KÆNDR4.
+.ta row SEFO2 off...BETGEBYR.*PUNKT 3 (8) ****.**UDSKRIVES, HVIS RELEVAN
+T *********.if &L'&NOTARGE
+B1 = 0.an 
+&L'&NOTARGEB2 = 0.an &L'&NOTARGEB3 = 0.an &
+L'&NOTARGEB4 = 0.
+th .go MORA
+RTE.ta row SEFO2 o
+n SPLIT
+
+
+
+
+
+
+.ta cell 1.in 5mm.ir 1mmTerms and conditions concerning payment of notarial fees..ta cell 2&NOTARGEB1. &NOTARGEB2. &NOTARGEB3. &NOTARGEB4..ta row SEFO2 off...MOR
+ARTE
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+.su off
+.se num1 = substr &DEB1KNDNR 1 2
+.se num2 = substr &DEB2KNDNR 1 2
+.se num3 = substr &PANTSÆT6 1 2
+.se num4 = substr &MEDPANT6 1 2
+.if x&num1 > x00
+.an x&num1 < x32
+.th .se kndnr1 = substr &DEB1KNDNR 1 6
+.th .se kndnr2 = substr &DEB1KNDNR 7 4
+.if x&num2 > x00
+.an x&num2 < x32
+.th .se kndnr3 = substr &DEB2KNDNR 1 6
+.th .se kndnr4 = substr &DEB2KNDNR 7 4
+.if x&num3 > x00
+.an x&num3 < x32
+.th .se kndnr5 = substr &PANTSÆT6 1 6
+.th .se kndnr6 = substr &PANTSÆT6 7 4
+.if x&num4 > x00
+.an x&num4 < x32
+.th .se kndnr7 = substr &MEDPANT6 1 6
+.th .se kndnr8 = substr &MEDPANT6 7 4
+.************** OPDELING AF DEPOTNUMMER ***********************************
+.se reg = substr &DEPOTNR 1 4
+.se dep = substr &DEPOTNR 5 7
+.su on
+.************** TJEK OM MERE END 2 UNDERPANTSÆTTERE ER UDFYLDT ************
+.if &U'&GENJANEJ = J
+.or &U'&GENJANEJ = N
+.th
+.el .mg/T/Der må kun tastes J eller N til mere end 2 underpantsættere./
+.**************************************************************************

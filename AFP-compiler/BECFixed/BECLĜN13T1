@@ -1,0 +1,37 @@
+.ar BRUGERNR on
+.tp 87.5mm
+.if &L'&GENBRUGNR = 0
+.an &L'&GENBRUGNVN = 0
+.th &GENBRUGNR1
+.el &GENBRUGNR ¤&GENBRUGNR1
+.ar off
+.**************
+.ar BRUGNAVN on
+.tp 87.5mm
+.if &L'&GENBRUGNR = 0
+.an &L'&GENBRUGNVN = 0
+.th &GENBRUGNV1
+.el &GENBRUGNVN ¤&GENBRUGNV1
+.ar off
+.**************************************************************************
+.ar FORHOLD on
+&GENTEKST1.
+.br
+&GENTEKST2.
+.br
+&GENTEKST3.
+.ar off
+.**************************************************************************
+.ar UNDERVIRK on
+:COUR10.
+.ce on
+&NAVN
+.ce off
+.ar off
+.*******************************************************
+.ar UNDERFORM on
+:COUR10.
+.ce on
+&BANKNAVN
+.ce off
+.ar off

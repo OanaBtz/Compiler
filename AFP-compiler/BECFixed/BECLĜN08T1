@@ -1,0 +1,29 @@
+.ar PIOPL on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.*******************************************************
+.if X&GENVALG = X1
+.th .ar KRYDS1 on
+.el .ar KRYDS2 on
+.tp 1.5mm center
+¤X
+.ar off
+.*******************************************************
+.ar UNDERSKRKU on
+.ce on
+&NAVN
+.ce off
+.ar off
+.*******************************************************
+.ar UNDERSKRPI on
+.ce on
+&BANKNAVN
+.ce off
+.ar off
+.*******************************************************

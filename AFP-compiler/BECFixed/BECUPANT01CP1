@@ -1,0 +1,26 @@
+.*
+.su off
+.se num03 = substr &DEB03KNDNR 1 2
+.se num04 = substr &DEB04KNDNR 1 2
+.se num05 = substr &DEB05KNDNR 1 2
+.se num06 = substr &DEB06KNDNR 1 2
+.se num07 = substr &DEB07KNDNR 1 2
+.se num08 = substr &DEB08KNDNR 1 2
+.se num09 = substr &DEB09KNDNR 1 2
+.se num10 = substr &DEB10KNDNR 1 2
+.se num11 = substr &DEB11KNDNR 1 2
+.se num12 = substr &DEB12KNDNR 1 2
+.se num13 = substr &DEB13KNDNR 1 2
+.se num14 = substr &DEB14KNDNR 1 2
+.se num15 = substr &DEB15KNDNR 1 2
+.se num16 = substr &DEB16KNDNR 1 2
+.se num17 = substr &DEB17KNDNR 1 2
+.se num18 = substr &DEB18KNDNR 1 2
+.se num19 = substr &DEB19KNDNR 1 2
+.se num20 = substr &DEB20KNDNR 1 2
+.***
+.se reg = substr &DEPOTNR 1 4
+.se dep = substr &DEPOTNR 5 7
+.***
+.su on
+.***

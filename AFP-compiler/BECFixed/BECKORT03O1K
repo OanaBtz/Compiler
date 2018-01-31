@@ -1,0 +1,27 @@
+.HY on
+:GL.
+.da UDDATA 5 19
+.***********************************************************************
+.ar UDDATA on
+.br
+.us Internationalt kort inddraget i ATM
+:SKRSLUT.
+.ar off
+:EGL.
+:NY.
+.da UDDATA 20mm 88mm
+.***********************************************************************
+.ar UDDATA on
+:COUR10.
+.br
+.us Internationalt kort inddraget i ATM
+:SKRSLUT.
+.ar off
+.da VEND 7mm 270mm width 180mm rotate -90
+.ar VEND on
+:COUR6.
+BECKORT03
+.ar off
+:ENY.
+.***********************************************************************
+.fo left

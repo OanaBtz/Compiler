@@ -1,0 +1,83 @@
+:COUR10.
+.da FORDH    25mm  54mm
+.da PINAVN   25mm  84mm
+.da DEBITOR  25mm 108mm
+.da BELOB    42mm 133mm
+.da ENTDATO  81mm 150mm
+.da SIKKER   23mm 157mm
+.da FORDATO  85mm 194mm
+.da FORUSK   20mm 223.5mm WIDTH 87mm
+.da DEBUSK   20mm 270mm WIDTH 87mm
+.ti ¤ 05
+.******************************
+.ar FORDH on
+&STILL
+.br
+&NAVN
+.br
+&COADR
+.br
+&GADE
+.br
+&BY
+.ar off
+.******************************
+.ar PINAVN on
+&BANKNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.******************************
+.ar DEBITOR on
+&GENSTIL
+.br
+&GENNAVN
+.br
+&GENGADE
+.br
+&GENBY
+.br
+&GENLAND
+.ar off
+.******************************
+.ar BELOB on
+.tp 6mm
+¤&RESULTA
+.sp 0.5mm
+&RESULTAT1.&RESULTAT2
+.ar off
+.******************************
+.ar ENTDATO on
+&BECDATO
+.ar off
+.******************************
+.ar SIKKER on
+ &BECTEKST10
+.br
+ &BECTEKST11
+.br
+ &BECTEKST12
+.br
+ &BECTEKST03
+.br
+ &BECTEKST04
+.br
+ &BECTEKST05
+.br
+ &BECTEKST06
+.ar off
+.******************************
+.ar FORDATO on
+&DATO8.
+.ar off
+.******************************
+.ar FORUSK on
+.ce &NAVN.
+.ar off
+.******************************
+.ar DEBUSK on
+.ce &GENNAVN.
+.ar off
+.******************************

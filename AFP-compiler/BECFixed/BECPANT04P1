@@ -1,0 +1,8 @@
+.* følgende test ligger i systemet ********
+.***************************************
+.*Fejl ved sammensætning af bilag
+.*.if &GENAAR gt 10
+.*Gyldighedsperioden kan max. være 10 år
+.*if &DEBANTAL eq 0
+.*th .mg /T/ DEBANTAL SKAL UDFYLDES/
+

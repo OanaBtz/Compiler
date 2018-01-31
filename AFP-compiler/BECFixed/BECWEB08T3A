@@ -1,0 +1,372 @@
+.******************************************************************
+.if X&GENVALG = X1
+.th
+.el .go T3ASLUT
+:SWISS9.
+.tp 2mm
+Brugeradministratorer(er) med fuldmagt til &NAVN2.s konti og depoter:
+:SKRSLUT.
+.sp 5mm
+.tp 1mm 60mm 119mm 145mm
+.bx left 59mm 118mm 144mm 175mm
+.*tp 1mm 50mm 110mm 137mm
+.*bx left 50mm 109mm 136mm 175mm
+.ll 175mm
+.hy off
+:FED.
+¤Navn: ¤Identifikation: ¤Brugernr: ¤Autorisation:
+:SKRSLUT.
+:SWISS8.
+.*hy on
+.sp 2mm
+.******* 1. administrator ******************
+.if &L'&ADMIN01 = 0
+.th .bx off
+.th .go T3ASLUT
+.if x&AUTOAL2F01 = x1
+.th .se autxt1 = 'Alene'
+.if x&AUTOAL2F01 = x2
+.th .se autxt1 = '2 i forening'
+.bx set
+¤¤&IDTYPE01.
+.br
+¤&ADMIN01. ¤&IDENT01. ¤&WEBBRUG01. ¤&autxt1
+.if &L'&ADMIN02 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 2. administrator ******************
+.if x&AUTOAL2F02 = x1
+.th .se autxt2  = 'Alene'
+.if x&AUTOAL2F02 = x2
+.th .se autxt2  = '2 i forening'
+.if &L'&AUTOAL2F02 = 0
+.th .se autxt2 = ' '
+.bx set
+¤¤&IDTYPE02.
+.br
+¤&ADMIN02. ¤&IDENT02. ¤&WEBBRUG02. ¤&autxt2
+.if &L'&ADMIN03 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 3. administrator ******************
+.if x&AUTOAL2F03 = x1
+.th .se autxt3 = 'Alene'
+.if x&AUTOAL2F03 = x2
+.th .se autxt3 = '2 i forening'
+.if &L'&AUTOAL2F03 = 0
+.th .se autxt3 = ' '
+.bx set
+¤¤&IDTYPE03.
+.br
+¤&ADMIN03. ¤&IDENT03. ¤&WEBBRUG03. ¤&autxt3
+.if &L'&ADMIN04 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 4. administrator ******************
+.if x&AUTOAL2F04 = x1
+.th .se autxt4 = 'Alene'
+.if x&AUTOAL2F04 = x2
+.th .se autxt4 = '2 i forening'
+.if &L'&AUTOAL2F04 = 0
+.th .se autxt4 = ' '
+.bx set
+¤¤&IDTYPE04.
+.br
+¤&ADMIN04. ¤&IDENT04. ¤&WEBBRUG04. ¤&autxt4
+.if &L'&ADMIN05 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 5. administrator ******************
+.if x&AUTOAL2F05 = x1
+.th .se autxt5 = 'Alene'
+.if x&AUTOAL2F05 = x2
+.th .se autxt5 = '2 i forening'
+.if &L'&AUTOAL2F05 = 0
+.th .se autxt5 = ' '
+.bx set
+¤¤&IDTYPE05.
+.br
+¤&ADMIN05. ¤&IDENT05. ¤&WEBBRUG05. ¤&autxt5
+.if &L'&ADMIN06 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 6. administrator ******************
+.if x&AUTOAL2F06 = x1
+.th .se autxt6 = 'Alene'
+.if x&AUTOAL2F06 = x2
+.th .se autxt6 = '2 i forening'
+.if &L'&AUTOAL2F06 = 0
+.th .se autxt6 = ' '
+.bx set
+¤¤&IDTYPE06.
+.br
+¤&ADMIN06. ¤&IDENT06. ¤&WEBBRUG06. ¤&autxt6
+.if &L'&ADMIN07 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 7. administrator ******************
+.if x&AUTOAL2F07 = x1
+.th .se autxt7 = 'Alene'
+.if x&AUTOAL2F07 = x2
+.th .se autxt7 = '2 i forening'
+.if &L'&AUTOAL2F07 = 0
+.th .se autxt7 = ' '
+.bx set
+¤¤&IDTYPE07.
+.br
+¤&ADMIN07. ¤&IDENT07. ¤&WEBBRUG07. ¤&autxt7
+.if &L'&ADMIN08 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 8. administrator ******************
+.if x&AUTOAL2F08 = x1
+.th .se autxt8 = 'Alene'
+.if x&AUTOAL2F08 = x2
+.th .se autxt8 = '2 i forening'
+.if &L'&AUTOAL2F08 = 0
+.th .se autxt8 = ' '
+.bx set
+¤¤&IDTYPE08.
+.br
+¤&ADMIN08. ¤&IDENT08. ¤&WEBBRUG08. ¤&autxt8
+.if &L'&ADMIN09 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 9. administrator ******************
+.if x&AUTOAL2F09 = x1
+.th .se autxt9 = 'Alene'
+.if x&AUTOAL2F09 = x2
+.th .se autxt9 = '2 i forening'
+.if &L'&AUTOAL2F09 = 0
+.th .se autxt9 = ' '
+.bx set
+¤¤&IDTYPE09.
+.br
+¤&ADMIN09. ¤&IDENT09. ¤&WEBBRUG09. ¤&autxt9
+.if &L'&ADMIN10 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 10. administrator ******************
+.if x&AUTOAL2F10 = x1
+.th .se autxt10 = 'Alene'
+.if x&AUTOAL2F10 = x2
+.th .se autxt10 = '2 i forening'
+.if &L'&AUTOAL2F10 = 0
+.th .se autxt10 = ' '
+.bx set
+¤¤&IDTYPE10.
+.br
+¤&ADMIN10. ¤&IDENT10. ¤&WEBBRUG10. ¤&autxt10
+.if &L'&ADMIN11 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 11. administrator ******************
+.if x&AUTOAL2F11 = x1
+.th .se autxt11 = 'Alene'
+.if x&AUTOAL2F11 = x2
+.th .se autxt11 = '2 i forening'
+.if &L'&AUTOAL2F11 = 0
+.th .se autxt11 = ' '
+.bx set
+¤¤&IDTYPE11.
+.br
+¤&ADMIN11. ¤&IDENT11. ¤&WEBBRUG11. ¤&autxt11
+.if &L'&ADMIN10 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 12. administrator ******************
+.if x&AUTOAL2F12 = x1
+.th .se autxt12 = 'Alene'
+.if x&AUTOAL2F12 = x2
+.th .se autxt12 = '2 i forening'
+.if &L'&AUTOAL2F12 = 0
+.th .se autxt12 = ' '
+.bx set
+¤¤&IDTYPE12.
+.br
+¤&ADMIN12. ¤&IDENT12. ¤&WEBBRUG12. ¤&autxt12
+.if &L'&ADMIN13 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 13. administrator ******************
+.if x&AUTOAL2F13 = x1
+.th .se autxt13 = 'Alene'
+.if x&AUTOAL2F13 = x2
+.th .se autxt13 = '2 i forening'
+.if &L'&AUTOAL2F13 = 0
+.th .se autxt13 = ' '
+.bx set
+¤¤&IDTYPE13.
+.br
+¤&ADMIN13. ¤&IDENT13. ¤&WEBBRUG13. ¤&autxt13
+.if &L'&ADMIN14 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 14. administrator ******************
+.if x&AUTOAL2F14 = x1
+.th .se autxt14 = 'Alene'
+.if x&AUTOAL2F14 = x2
+.th .se autxt14 = '2 i forening'
+.if &L'&AUTOAL2F14 = 0
+.th .se autxt14 = ' '
+.bx set
+¤¤&IDTYPE14.
+.br
+¤&ADMIN14. ¤&IDENT14. ¤&WEBBRUG14. ¤&autxt14
+.if &L'&ADMIN15 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 15. administrator ******************
+.if x&AUTOAL2F15 = x1
+.th .se autxt15 = 'Alene'
+.if x&AUTOAL2F15 = x2
+.th .se autxt15 = '2 i forening'
+.if &L'&AUTOAL2F15 = 0
+.th .se autxt15 = ' '
+.bx set
+¤¤&IDTYPE15.
+.br
+¤&ADMIN15. ¤&IDENT15. ¤&WEBBRUG15. ¤&autxt15
+.if &L'&ADMIN16 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 16. administrator ******************
+.if x&AUTOAL2F16 = x1
+.th .se autxt16 = 'Alene'
+.if x&AUTOAL2F16 = x2
+.th .se autxt16 = '2 i forening'
+.if &L'&AUTOAL2F16 = 0
+.th .se autxt16 = ' '
+.bx set
+¤¤&IDTYPE16.
+.br
+¤&ADMIN16. ¤&IDENT16. ¤&WEBBRUG16. ¤&autxt16
+.if &L'&ADMIN17 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 17. administrator ******************
+.if x&AUTOAL2F17 = x1
+.th .se autxt17 = 'Alene'
+.if x&AUTOAL2F17 = x2
+.th .se autxt17 = '2 i forening'
+.if &L'&AUTOAL2F17 = 0
+.th .se autxt17 = ' '
+.bx set
+¤¤&IDTYPE17.
+.br
+¤&ADMIN17. ¤&IDENT17. ¤&WEBBRUG17. ¤&autxt17
+.if &L'&ADMIN18 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 18. administrator ******************
+.if x&AUTOAL2F18 = x1
+.th .se autxt18 = 'Alene'
+.if x&AUTOAL2F18 = x2
+.th .se autxt18 = '2 i forening'
+.if &L'&AUTOAL2F18 = 0
+.th .se autxt18 = ' '
+.bx set
+¤¤&IDTYPE18.
+.br
+¤&ADMIN18. ¤&IDENT18. ¤&WEBBRUG18. ¤&autxt18
+.if &L'&ADMIN19 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 19. administrator ******************
+.if x&AUTOAL2F19 = x1
+.th .se autxt19 = 'Alene'
+.if x&AUTOAL2F19 = x2
+.th .se autxt19 = '2 i forening'
+.if &L'&AUTOAL2F19 = 0
+.th .se autxt19 = ' '
+.bx set
+¤¤&IDTYPE19.
+.br
+¤&ADMIN19. ¤&IDENT19. ¤&WEBBRUG19. ¤&autxt19
+.if &L'&ADMIN20 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 20. administrator ******************
+.if x&AUTOAL2F20 = x1
+.th .se autxt20 = 'Alene'
+.if x&AUTOAL2F20 = x2
+.th .se autxt20 = '2 i forening'
+.if &L'&AUTOAL2F20 = 0
+.th .se autxt20 = ' '
+.bx set
+¤¤&IDTYPE20.
+.br
+¤&ADMIN20. ¤&IDENT20. ¤&WEBBRUG20. ¤&autxt20
+.if &L'&ADMIN21 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 21. administrator ******************
+.if x&AUTOAL2F21 = x1
+.th .se autxt21 = 'Alene'
+.if x&AUTOAL2F21 = x2
+.th .se autxt21 = '2 i forening'
+.if &L'&AUTOAL2F21 = 0
+.th .se autxt21 = ' '
+.bx set
+¤¤&IDTYPE21.
+.br
+¤&ADMIN21. ¤&IDENT21. ¤&WEBBRUG21. ¤&autxt21
+.if &L'&ADMIN22 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 22. administrator ******************
+.if x&AUTOAL2F22 = x1
+.th .se autxt22 = 'Alene'
+.if x&AUTOAL2F22 = x2
+.th .se autxt22 = '2 i forening'
+.if &L'&AUTOAL2F22 = 0
+.th .se autxt22 = ' '
+.bx set
+¤¤&IDTYPE22.
+.br
+¤&ADMIN22. ¤&IDENT22. ¤&WEBBRUG22. ¤&autxt22
+.if &L'&ADMIN23 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 23. administrator ******************
+.if x&AUTOAL2F23 = x1
+.th .se autxt23 = 'Alene'
+.if x&AUTOAL2F23 = x2
+.th .se autxt23 = '2 i forening'
+.if &L'&AUTOAL2F23 = 0
+.th .se autxt23 = ' '
+.bx set
+¤¤&IDTYPE23.
+.br
+¤&ADMIN23. ¤&IDENT23. ¤&WEBBRUG23. ¤&autxt23
+.if &L'&ADMIN24 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 24. administrator ******************
+.if x&AUTOAL2F24 = x1
+.th .se autxt24 = 'Alene'
+.if x&AUTOAL2F24 = x2
+.th .se autxt24 = '2 i forening'
+.if &L'&AUTOAL2F24 = 0
+.th .se autxt24 = ' '
+.bx set
+¤¤&IDTYPE24.
+.br
+¤&ADMIN24. ¤&IDENT24. ¤&WEBBRUG24. ¤&autxt24
+.if &L'&ADMIN25 = 0
+.th .bx off
+.th .go T3ASLUT
+.******* 25. administrator ******************
+.if x&AUTOAL2F25 = x1
+.th .se autxt25 = 'Alene'
+.if x&AUTOAL2F25 = x2
+.th .se autxt25 = '2 i forening'
+.if &L'&AUTOAL2F25 = 0
+.th .se autxt25 = ' '
+.bx set
+¤¤&IDTYPE25.
+.br
+¤&ADMIN25. ¤&IDENT25. ¤&WEBBRUG25. ¤&autxt25
+.bx off
+...T3ASLUT
+.**************************************************************************

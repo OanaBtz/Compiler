@@ -1,0 +1,53 @@
+.* Garanti - incl. anfordring - Kasser og ledetekst
+.da BOX   20mm 40mm WIDTH 175mm
+.ll 174mm
+.tp 1mm 88mm 145mm 76mm
+.**********************************
+.ar BOX on
+:SWISS10.:FED.
+¤Garantinummer
+:SKRSLUT.
+.**********************************
+.bx left right
+:SWISS8.
+¤Kontonr. for garanti
+:SKRSLUT.
+.sp 6mm
+.bx off
+.**********************************
+:SWISS10.:FED.
+¤Garantianmoder
+:SWISS8.
+.bx left right
+.if X&L'&MEDNAVN gt X0
+.th ¤På foranledning af¤og
+.el ¤På foranledning af
+:SKRSLUT.
+.sp 19mm
+.bx off
+.**********************************
+:SWISS10.:FED.
+¤Betingelser
+:SWISS8.
+.bx left right
+¤indestår &BANKNAVN herved
+.sp 25mm
+¤med et beløb af indtil &GENMØNTK.
+.sp 1mm
+¤Beløb i tekst:
+:SKRSLUT.
+.bx off
+.**********************************
+.bx set left right
+:SWISS8.
+¤som garantistiller til sikkerhed for:
+.sp 49.5mm
+.bx off
+.**********************************
+.bx set left right
+:SWISS8.
+¤supplerende oplysninger
+:SKRSLUT.
+.sp 21mm
+.bx off
+.ar off

@@ -1,0 +1,50 @@
+.go TXT5E
+.****** PantebrevslÄn *****************************************************
+...PLÄNT4
+.kp on
+PantebrevslÄnet kan til enhver tid og uden varsel indfries til kurs
+100 med tillÄg af pÄlÄbne endnu ikke tilskrevne renter frem til
+indfrielsesdagen. For pantebrevskreditor er lÄnet uopsigeligt, medmindre
+der foreligger misligholdelse.
+.kp off
+.go TXT5E
+.****** F-kort uden afdrag ************************************************
+...FKUA4A
+.kp on
+LÄnet er inkonverterbart og kan indfries ved opkÄb af de bagvedliggende
+obligationer til markedskurs undtagen de sidste to mÄneder fÄr
+refinansiering.
+.sp 3mm
+LÄnet kan dog ogsÄ opsiges til kurs 100 med to mÄneders varsel til et
+refinansieringstidspunkt. LÄnet kan straksindfries i
+halvÄret op til refinansiering mod betaling af opsigelsesrenter under
+forudsÄtning af, at det er opsagt to mÄneder fÄr
+refinansieringen.
+.sp 3mm
+Kursen pÄ lÄnets bagvedliggende obligationer vil Ändre sig, nÄr
+markedsrenten Ändrer sig. Jo lÄngere lÄbetid, des stÄrre vil udsvingene i
+obligationskursen vÄre.
+.sp 3mm
+Opsigelsesvarslet kan flyttes op til 7 mÄneder fÄr et
+refinansieringstidspunkt. Hvis Totalkredit Ändrer opsigelsesvarslet, skal
+lÄnet vÄre opsagt inden periodens begyndelse. Der henvises i Ävrigt
+til lÄnesagsdokumenterne.
+.sp 3mm
+AfhÄngig af indfrielsesmetode tillÄgges der forskellige
+omkostninger, hvis stÄrrelse og/eller beregning fremgÄr af
+Totalkredits og &BANKNAVN. prisblad.
+.kp off
+.go TXT5E
+.****** F-kort med afdrag *************************************************
+...FKMA4B
+.kp on
+LÄnet er inkonverterbart og kan indfries ved opkÄb af de bagvedliggende
+obligationer til markedskurs undtagen de sidste to mÄneder fÄr
+refinansiering.
+.sp 3mm
+LÄnet kan dog ogsÄ opsiges til kurs 100 med to mÄneders varsel til et
+refinansieringstidspunkt. LÄnet kan straksindfries i
+halvÄret op til refinansiering mod betaling af opsigelsesrenter under
+forudsÄtning af, at det er opsagt to mÄneder fÄr
+refinansieringen.
+.sp 3mm

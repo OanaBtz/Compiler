@@ -1,0 +1,16 @@
+.**PARAMETEREN: ***********************************************************
+.*
+.* WEBHUDL = Handel med udl. værdipapirer
+.*
+.* ER IKKE EN HANDELSTYPE - HVIS MAN FJERNER STANDARDVÆRDIEN,
+.* VIL AFSNITTET STADIG BLIVE UDSKREVET, MEN IKKE KORREKT. HVIS AFSNITTET
+.* IKKE ØNSKES MEDTAGET, SKAL TILSVARENDE TEKSTMODUL OGSÅ FJERNESFRA LTD.
+.**************************************************************************
+.** PARAMETRENE VEDR. HANDELSTYPER: ***************************************
+.* WEBHSTRAKS= Mark.ordre-straks
+.* WEBHBORS=Limit.ordre-børs.
+.* WEBHMARKED=Markedsordre.....
+.* WEBHLIMIT=Limiteret ordre..
+.* WEBHGNS=Gnsn. kursordre..
+.* HVIS MAN FJERNER STANDARDVÆRDIEN FOR EN ELLER FLERE AF HANDELSTYPERNE
+.* VIL DET TILSVARENDE AFSNIT IKKE BLIVE UDSKREVET************************

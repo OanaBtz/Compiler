@@ -1,0 +1,29 @@
+.**************************************************************************
+.da TEKST1        25mm     206mm width 165mm
+.da UNDUDLEJ   107,5mm     270mm width 87.5mm
+.da UNDLEJER     20mm      270mm width 87.5mm
+.**************************************************************************
+.ar TEKST1 on
+:SWISS8.
+:FED.
+3. Ved aftaleperiodens udløb
+:SKRSLUT.
+.br
+Der er betalt registreringsafgift for leasingaftalens afgiftsperiode. Hvis
+køretøjets nummerplader ikke afleveres rettidigt, vil SKAT kræve disse
+indleveret ved Politiets foranstaltning.
+.sp
+Månedsvist forudberegnet registreringsafgift samt SKAT's rentetillægskrav
+efter afgiftsperiodens udløb vil blive opkrævet af leasinggiver hos
+leasingtager (uden efterfølgende refusionsmulighed), indtil leasingtager
+har tilbageleveret køretøjet på det aftalte sted.
+.**************************************************************************
+.**UDLEJERS UNDERSKRIFT****************************************************
+.ar UNDUDLEJ on
+.ce &AFDBNKNAVN.
+.ar off
+.**LEJERS UNDERSKFIT*******************************************************
+.ar UNDLEJER on
+.ce &UNDSNAVN.
+.ar off
+.**************************************************************************

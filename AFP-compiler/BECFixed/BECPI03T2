@@ -1,0 +1,121 @@
+.* Forespørgsel m.v., øverste højre hjørne
+.da FOAMEB 112mm 36mm width 85mm
+.* Afkrydsning om rekv. af kort, eller tilbageførsel
+.da FOXMEX 27mm 77.5mm width 173mm
+.* Oplysninger om indbetalingskortet
+.da OPLIND 21mm 103.9mm width 90mm
+.* Oplysninger om giroindbetalingskortet
+.da OPLGIRO 21mm 122.3mm width 90mm
+.* Oplysninger om arkivnøgle
+.da ARKIV 130mm 103.9mm width 70mm
+.* Oplysninger om betalingsident mangler, indbetalers navneopl. indtastes
+.da BETID 21mm 146mm width 90mm
+.* Mellemregning trukket
+.da MELTR 119mm 149mm width 80mm
+.* Fra pengeinstitut
+.da FRAPI 21mm 183.4mm width 90mm
+.* Forespørgsel/medd. fra kreditors PI/tilbageførselsmedd. fremsendes
+.da FOKAMEIB 112mm 183.4mm width 85mm
+.* Underskriftens dato - afsendende PI
+.da DATO1 21mm 226.2mm width 90mm
+.* Underskriftens dato - modtagende PI
+.da DATO2 112mm 226.2mm width 85mm
+.* Stempel og underskrift - afsendende PI
+.da AFSPI 21mm 235.5mm width 90mm
+.* Stempel og underskrift - modtagende PI
+.da MODPI 112mm 235.5mm width 85mm
+.**************************************************************
+.ar FOAMEB on
+:SWISS8.
+.sp 9mm
+Hvis forespørgsel om rekvirering (A) skal denne sendes til
+indbetalingspengeinstituttet (arkivadresse).
+.sp
+Hvis meddelelse om tilbageførsel (B) skal denne sendes til kreditors
+pengeinstitut (jævnfør kreditorregister for indbetalingskort/til BG-
+.br
+Bank for Giroindbetalingskort).
+.ar off
+.**************************************************************
+.ar FOXMEX on
+:SWISS8.
+Forespørgsel om rekvirering af Indbetalingskort/Giroindbetalingskort
+datafanget i indbetalingspengeinstituttet (A).
+.sp 5mm
+Meddelelse om tilbageførsel af Indbetalingskort/Giroindbetalingskort som
+følge af manglende honorering af betalingsmiddel anvendt ved indbetaling
+jævnfør vedlagte kopi af meddelelse fra indbetalende kundes kontoførende
+pengeinstitut (B).
+.ar off
+.**************************************************************
+.ar OPLIND on
+:SWISS8.
+.tp 16mm 54mm 77mm
+Oplysninger om indbetalingskortet
+.sp
+Kortart ¤Bet.ID ¤Kreditornr. ¤Beløb
+.ar off
+.**************************************************************
+.ar OPLGIRO on
+:SWISS8.
+.tp 16mm 54mm 77mm
+Oplysninger om giroindbetalingskortet
+.sp
+Kortart ¤Bet.ID ¤Kreditornr. ¤Beløb
+.ar off
+.**************************************************************
+.ar ARKIV on
+:SWISS8.
+.tp 15mm 43mm
+Arkivnøgle
+.sp
+Reg.nr. ¤Dato ¤Reference
+.ar off
+.**************************************************************
+.ar BETID on
+:SWISS8.
+Hvis bet.ID ikke er udfyldt, skrives her
+.hw indbeta-lers
+navn og adresse
+.ar off
+.**************************************************************
+.ar MELTR on
+:SWISS8.
+Mellemregning trukket - kopi vedlagt
+.ar off
+.**************************************************************
+.ar FRAPI on
+:SWISS8.
+Fra pengeinstitut
+.ar off
+.**************************************************************
+.ar FOKAMEIB on
+:SWISS8.
+Hvis forespørgsel om rekvirering (A) sendes denne fra kreditors
+pengeinstitut.
+.sp
+Hvis meddelelse om tilbageførsel (B) sendes denne fra indbetalings-
+.br
+pengeinstitut.
+.ar off
+.**************************************************************
+.ar DATO1 on
+:SWISS8.
+Dato
+.ar off
+.**************************************************************
+.ar DATO2 on
+:SWISS8.
+Dato
+.ar off
+.**************************************************************
+.ar AFSPI on
+:SWISS8.
+Afsendende pengeinstituts stempel og underskrifter
+.ar off
+.**************************************************************
+.ar MODPI on
+:SWISS8.
+Modtagende pengeinstituts stempel og underskrifter
+.ar off
+.**************************************************************

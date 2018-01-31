@@ -1,0 +1,21 @@
+&SDIN. konto nr. &LANGKTONR. har været i overtræk i over en måned. Saldoen
+udgør dags dato kr. &SALDO., hvoraf overtrækket udgør kr. &OVERTRÆK..
+.sp
+Vi skal derfor gøre &DIG opmærksom på, at &DU betaler &OVTRTE01 % i
+overtræksrente - det svarer til en debitorrente på
+&DEBRTE01 % pr. år.
+.if &L'&OVTOMK = 0
+.th .go TXT
+.****************
+.sp
+Derudover har &DU betalt
+&OVTOMK
+kr. i omkostninger.
+.************
+...TXT
+.if &L'&RYKTXTL1A > 0
+.or &L'&RYKTXTL1B > 0
+.or &L'&RYKTXTL2A > 0
+.or &L'&RYKTXTL2B > 0
+.th .sp
+.th &RYKTXTL1A.&RYKTXTL1B.&RYKTXTL2A.&RYKTXTL2B.

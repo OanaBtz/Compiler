@@ -1,0 +1,90 @@
+:NY.
+.hy on
+:SWISS8.
+.*.da box1 21mm 36mm width 90mm
+.da box2 112mm 36mm width 85mm
+.da box3 27mm 83.9mm width 173mm
+.da box4 21mm 109.9mm width 90mm
+.da box5 21mm 128.3mm width 90mm
+.da box6 130mm 109.9mm width 70mm
+.da box7 21mm 152mm width 90mm
+.da box8 119mm 154mm width 80mm
+.da box9 21mm 189.4mm width 90mm
+.da box10 112mm 189.4mm width 85mm
+.da box11 21mm 232.2mm width 90mm
+.da box12 112mm 232.2mm width 85mm
+.da box13 21mm 241.5mm width 90mm
+.da box14 112mm 241.5mm width 85mm
+.*.ar box1 on
+.*.sp 9mm
+.*Til pengeinstitut 1)
+.*.ar off
+.ar box2 on
+.sp 9mm
+Hvis forespørgsel om rekvirering (A) skal denne sendes til
+indbetalingspengeinstituttet (arkivadresse).
+.sp
+Hvis meddelelse om tilbageførsel (B) skal denne sendes til kreditors
+pengeinstitut (jævnfør kreditorregister for indbetalingskort/til BG-
+.br
+Bank for Giroindbetalingskort).
+.ar off
+.ar box3 on
+Forespørgsel om rekvirering af Indbetalingskort/Giroindbetalingskort
+datafanget i indbetalingspengeinstituttet (A).
+.sp 5mm
+Meddelelse om tilbageførsel af Indbetalingskort/Giroindbetalingskort som
+følge af manglende honorering af betalingsmiddel anvendt ved indbetaling
+jævnfør vedlagte kopi af meddelelse fra indbetalende kundes kontoførende
+pengeinstitut (B).
+.ar off
+.ar box4 on
+.tp 16mm 54mm 77mm
+Oplysninger om indbetalingskortet
+.sp
+Kortart^Bet.ID^Kreditornr.^Beløb
+.ar off
+.ar box5 on
+.tp 16mm 54mm 77mm
+Oplysninger om giroindbetalingskortet
+.sp
+Kortart^Bet.ID^Kreditornr.^Beløb
+.ar off
+.ar box6 on
+.tp 15mm 38mm
+Arkivnøgle
+.sp
+Reg.nr.^Dato^Reference
+.ar off
+.ar box7 on
+Hvis bet.ID ikke er udfyldt, skrives her
+.hw indbeta-lers
+navn og adresse
+.ar off
+.ar box8 on
+Mellemregning trukket - kopi vedlagt
+.ar off
+.ar box9 on
+Fra pengeinstitut
+.ar off
+.ar box10 on
+Hvis forespørgsel om rekvirering (A) sendes denne fra kreditors
+pengeinstitut.
+.sp
+Hvis meddelelse om tilbageførsel (B) sendes denne fra indbetalings-
+.br
+pengeinstitut.
+.ar off
+.ar box11 on
+Dato
+.ar off
+.ar box12 on
+Dato
+.ar off
+.ar box13 on
+Afsendende pengeinstituts stempel og underskrifter
+.ar off
+.ar box14 on
+Modtagende pengeinstituts stempel og underskrifter
+.ar off
+:ENY.

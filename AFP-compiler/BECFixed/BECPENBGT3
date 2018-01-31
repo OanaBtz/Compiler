@@ -1,0 +1,208 @@
+.if &U'&PENBEGUN ne A
+.th .go BEGUNSL5
+.**************************************************************************
+.da SUBBEGUN  21mm 178mm width 170mm
+.da SUBPER1   26mm 183mm width  85mm
+.da SUBPER2  112mm 183mm width  85mm
+.**PERSONER (TYPE P) ******************************************************
+.if &U'&PENSBTYPE = P
+.th .go SUBPENSP
+.el .go SUBPENSG
+...SUBPENSP
+.*NAVNGIVNE PERSONER **
+.ar SUBBEGUN on
+Er alle de ovenstående begunstigede
+døde, udbetales indestående til følgende personer:
+.ar off
+.ar SUBPER1 on
+.if &L'&GENCPRSB1 > 0
+.th CPR-nr. &GENCPRSB1
+.if &L'&GENNAVNSB1 > 0
+.th &GENNAVNSB1
+.br
+.if &L'&GENRELASB1 > 0
+.th &GENRELASB1.
+.th .br
+.if &L'&PENPCTSB1 > 0
+.th Fordeling: &PENPCTSB1 %
+.sp
+.**3. linje **********
+.if &L'&GENCPRSB3 > 0
+.th CPR-nr. &GENCPRSB3
+.if &L'&GENNAVNSB3 > 0
+.th &GENNAVNSB3
+.br
+.if &L'&GENRELASB3 > 0
+.th &GENRELASB3.
+.th .br
+.if &L'&PENPCTSB3 > 0
+.th Fordeling: &PENPCTSB3 %
+.sp
+.**5. linje **********
+.if &L'&GENCPRSB5 > 0
+.th CPR-nr. &GENCPRSB5
+.if &L'&GENNAVNSB5 > 0
+.th &GENNAVNSB5
+.br
+.if &L'&GENRELASB5 > 0
+.th &GENRELASB5.
+.th .br
+.if &L'&PENPCTSB5 > 0
+.th Fordeling: &PENPCTSB5 %
+.sp
+.**7. linje **********
+.if &L'&GENCPRSB7 > 0
+.th CPR-nr. &GENCPRSB7
+.if &L'&GENNAVNSB7 > 0
+.th &GENNAVNSB7
+.br
+.if &L'&GENRELASB7 > 0
+.th &GENRELASB7.
+.th .br
+.if &L'&PENPCTSB7 > 0
+.th Fordeling: &PENPCTSB7 %
+.sp
+.**9. linje **********
+.if &L'&GENCPRSB9 > 0
+.th CPR-nr. &GENCPRSB9
+.if &L'&GENNAVNSB9 > 0
+.th &GENNAVNSB9
+.br
+.if &L'&GENRELASB9 > 0
+.th &GENRELASB9.
+.th .br
+.if &L'&PENPCTSB9 > 0
+.th Fordeling: &PENPCTSB9 %
+.ar off
+.ar SUBPER2 on
+.**2. linje **********
+.if &L'&GENCPRSB2 > 0
+.th CPR-nr. &GENCPRSB2
+.if &L'&GENNAVNSB2 > 0
+.th &GENNAVNSB2
+.br
+.if &L'&GENRELASB2 > 0
+.th &GENRELASB2.
+.th .br
+.if &L'&PENPCTSB2 > 0
+.th Fordeling: &PENPCTSB2 %
+.sp
+.**4. linje **********
+.if &L'&GENCPRSB4 > 0
+.th CPR-nr. &GENCPRSB4
+.if &L'&GENNAVNSB4 > 0
+.th &GENNAVNSB4
+.br
+.if &L'&GENRELASB4 > 0
+.th &GENRELASB4.
+.th .br
+.if &L'&PENPCTSB4 > 0
+.th Fordeling: &PENPCTSB4 %
+.sp
+.**6. linje **********
+.if &L'&GENCPRSB6 > 0
+.th CPR-nr. &GENCPRSB6
+.if &L'&GENNAVNSB6 > 0
+.th &GENNAVNSB6
+.br
+.if &L'&GENRELASB6 > 0
+.th &GENRELASB6.
+.th .br
+.if &L'&PENPCTSB6 > 0
+.th Fordeling: &PENPCTSB6 %
+.sp
+.**8. linje **********
+.if &L'&GENCPRSB8 > 0
+.th CPR-nr. &GENCPRSB8
+.if &L'&GENNAVNSB8 > 0
+.th &GENNAVNSB8
+.br
+.if &L'&GENRELASB8 > 0
+.th &GENRELASB8.
+.th .br
+.if &L'&PENPCTSB8 > 0
+.th Fordeling: &PENPCTSB8 %
+.sp
+.**10. linje **********
+.if &L'&GENCPRS10 > 0
+.th CPR-nr. &GENCPRS10
+.if &L'&GENNAVNS10 > 0
+.th &GENNAVNS10
+.br
+.if &L'&GENRELAS10 > 0
+.th &GENRELAS10.
+.th .br
+.if &L'&PENPCTS10 > 0
+.th Fordeling: &PENPCTS10 %
+.ar off
+.go BEGUNSL5
+.**PERSONGRUPPER (TYPE G) *************************************************
+...SUBPENSG
+.ar SUBBEGUN on
+.if &U'&PENSBTYPE = G
+.th .go SUBGRP1
+.el .go SUBNAER
+...SUBGRP1
+.**PERSONGRUPPER **********************************************************
+Er alle de ovenstående begunstigede
+døde, udbetales indestående til følgende
+persongrupper:
+.sp 3mm
+.in 4mm
+&GENRELASB1.
+.sp
+.su off
+.se grup1 = substr &GENRELASB1 1 4
+.su on
+.br
+.if &grup1 = Børn
+.th .go BØRN1
+.if &grup1 = Sted
+.th .go STED1
+.if &grup1 = Saml
+.th .go SAML1
+...BØRN1
+Hvis der er flere børn, udbetales opsparingen til lige deling mellem
+børnene. Hvis et barn dør før kontohaveren, vil afdødes (barnets)
+eventuelle børn få udbetalt afdødes andel til lige deling. Hvis det afdøde
+barn ikke efterlader sig børn, vil afdødes (barnets) andel af udbetalingen
+blive delt lige mellem kontohaverens efterlevende børn på tilsvarende måde.
+.go GRSLUT1
+...STED1
+Hvis der er flere stedbørn, udbetales opsparingen til lige deling mellem
+stedbørnene. Hvis et stedbarn dør før kontohaveren, vil afdødes
+(stedbarnets) eventuelle børn få udbetalt afdødes andel til lige deling.
+Hvis det afdøde stedbarn ikke efterlader sig børn, vil afdødes
+(stedbarnets) andel af udbetalingen blive delt lige mellem kontohaverens
+efterlevende stedbørn på tilsvarende måde.
+.go GRSLUT1
+...SAML1
+Hvis samleveren efterlader sig flere livsarvinger, udbetales opsparingen
+til lige deling mellem samlevers livsarvinger. Hvis en af samleverens
+livsarvinger dør før kontohaveren, vil afdødes (samleverens livsarvings)
+eventuelle børn få udbetalt afdødes andel til lige deling. Hvis samleverens
+afdøde livsarving ikke efterlader sig børn, vil afdødes (samleverens
+livsarvings) andel af udbetalingen blive delt lige mellem samleverens
+efterlevende børn på tilsvarende måde.
+...GRSLUT1
+.in
+...SUBNAER
+.**NÆRMESTE (TYPE N) ******************************************************
+.if &U'&PENSBTYPE = N
+.th .go SUBN1
+.el .go SUBINGEN
+...SUBN1
+Er alle de ovenstående begunstigede
+døde, udbetales
+indestående til kontohavers
+"nærmeste pårørende" jf. generelle vilkår for pkt. 5.
+.go BEGSBSL
+.**INGEN (TYPE I) *********************************************************
+...SUBINGEN
+.if &U'&PENSBTYPE = I
+.th Ingen subsidiær begunstiget indsat.
+...BEGSBSL
+.in
+.ar off
+.**************************************************************************
+...BEGUNSL5

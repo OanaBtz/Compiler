@@ -1,0 +1,188 @@
+.******************************************************************
+.kp on
+.se SOMK = '0,00'
+.if &L'&SAMLOMK > 0
+.th .go SOMKT1
+.el .go SOMKX
+...SOMKT1
+Samlede engangsomkostninger til pengeinstituttet og/eller SKAT
+.ct ¤&SAMLOMK. &GENVAL.
+.if X&SAMLOMK = X&SOMK
+.th .sp 3mm
+.th .go SOMKX
+.el .sp 3mm
+.el Omkostninger hæves på lånet.
+.el .sp 3mm
+...SOMKX
+.************************************************
+.if &L'&DIVOMKT01 > 0
+.or &L'&DIVOMKT02 > 0
+.or &L'&DIVOMKT03 > 0
+.or &L'&DIVOMKT04 > 0
+.or &L'&DIVOMKT05 > 0
+.or &L'&DIVOMKB01 > 0
+.or &L'&DIVOMKB02 > 0
+.or &L'&DIVOMKB03 > 0
+.or &L'&DIVOMKB04 > 0
+.th .go DVOMKT
+.el .go DVOMX
+...DVOMKT
+.us Periodiske omkostninger:
+.br
+.if &L'&DIVOMKT01 > 0
+.or &L'&DIVOMKB01 > 0
+.th &DIVOMKT01. ¤&DIVOMKB01. &GENVAL.
+.th .br
+.th .kp off
+.th .kp on
+.************************************
+.if &L'&DIVOMKT02 > 0
+.or &L'&DIVOMKB02 > 0
+.th &DIVOMKT02. ¤&DIVOMKB02. &GENVAL.
+.th .br
+.th .kp off
+.th .kp on
+.************************************
+.if &L'&DIVOMKB03 > 0
+.th
+.el .go DIOM05
+.************************************
+.if &L'&DIVOMKT04 = 0
+.an &L'&DIVOMKT03 = 0
+.th ¤&DIVOMKB03. &GENVAL.
+.th .br
+.th .kp off
+.th .kp on
+.th .go DIOM05
+.************************************
+.if &L'&DIVOMKT04 = 0
+.an &L'&DIVOMKT03 > 0
+.th .go DIOM03
+.el
+.************************************
+.if &L'&DIVOMKT04 > 0
+.an &L'&DIVOMKT03 > 0
+.th .go DIOM04
+.el .go DIOM05
+.************************************
+...DIOM03
+&DIVOMKT03.¤&DIVOMKB03. &GENVAL.
+.br
+.kp off
+.kp on
+.go DIOM05
+.************************************
+...DIOM04
+&DIVOMKT03.
+.br
+&DIVOMKT04.¤&DIVOMKB03. &GENVAL.
+.br
+.kp off
+.kp on
+.go DIOM05
+.************************************
+...DIOM05
+.if &L'&DIVOMKB04 > 0
+.th
+.el .go DVOMX
+.************************************
+.if &L'&DIVOMKT07 = 0
+.an &L'&DIVOMKT06 = 0
+.an &L'&DIVOMKT05 = 0
+.th ¤&DIVOMKB04. &GENVAL.
+.th .br
+.th .kp off
+.th .kp on
+.th .go DVOMX
+.************************************
+.if &L'&DIVOMKT07 > 0
+.an &L'&DIVOMKT06 > 0
+.an &L'&DIVOMKT05 > 0
+.th .go DIOM07
+.if &L'&DIVOMKT07 = 0
+.an &L'&DIVOMKT06 > 0
+.an &L'&DIVOMKT05 > 0
+.th .go DIOM06
+.if &L'&DIVOMKT07 = 0
+.an &L'&DIVOMKT06 = 0
+.an &L'&DIVOMKT05 > 0
+.th .go DIOT05
+.el .go DVOMX
+...DIOM07
+&DIVOMKT05.
+.br
+&DIVOMKT06.
+.br
+&DIVOMKT07.¤&DIVOMKB04. &GENVAL.
+.br
+.kp off
+.kp on
+.go DVOMX
+...DIOM06
+&DIVOMKT05.
+.br
+&DIVOMKT06.¤&DIVOMKB04. &GENVAL.
+.br
+.kp off
+.kp on
+.go DVOMX
+...DIOT05
+&DIVOMKT05.¤&DIVOMKB04. &GENVAL.
+.br
+.kp off
+.kp on
+...DVOMX
+.sp 3mm
+ÅOP beregnes på grundlag af antagelser vedrørende rentesatsen.
+.sp 3mm
+.kp off
+.kp on
+.if &U'&FASTRENTE = J
+.th .go ÅOPX
+.el .go ÅOP
+...ÅOP
+:SWISS10.
+Eftersom
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dit
+lån er med variabel rente, kan den reelle ÅOP
+være forskellig fra denne ÅOP, hvis rentesatsen på
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dit
+lån ændrer sig. Hvis rentesatsen f.eks. stiger til
+:VS. &TILLRTE
+% p.a. kan
+ÅOP stige til
+:VS. &TILLRTEÅOP
+%.
+:SWISS9.
+.sp 3mm
+.kp off
+.kp on
+...ÅOPX
+.tp 120mm
+:FED.
+Følgende omkostninger kendes ikke af långiver og medregnes
+derfor ikke i ÅOP: Præmie til brandforsikring
+.if &U'&PANTIBIL = J
+.th .go BIL
+.el .go BILX
+...BIL
+.ct , Præmie til bil-/kaskoforsikring
+...BILX
+.ct . Oplysninger om præmiens størrelse må derfor indhentes hos
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dit
+forsikringsselskab.
+:SKRSLUT.
+.sp 3mm
+.kp off
+.kp on
+Vær venligst opmærksom på alle andre afgifter og omkostninger i
+forbindelse med lånet.
+.sp 5mm
+.kp off
+.****************************

@@ -1,0 +1,47 @@
+.**************************************************************************
+.da BOX 20mm 40mm width 175mm
+.**************************************************************************
+.ar BOX on
+:SWISS9.
+.tp 1mm 30mm 65mm 140mm
+.bx left right
+¤Branch¤Account no.¤Credit type¤Date generated
+.sp 6mm
+.bx off
+.sp 4mm
+.bx left right
+.** TEST OM DET ER EN KREDIT ELLER LÅN ***
+.if &U'&LKAFT = K
+.th .sp 220mm
+.th .go SLUT
+.**TEST, NÅR BREVET UDSKRIVES ALENE ******
+.if &U'&KTOLÅN = K
+.th .sp 220mm
+.th .go SLUT
+.*****************************************
+.sp 197.5mm
+.hr left right
+.in 1mm
+.ir 1mm
+:SWISS9.
+.**UDSKRIVES IKKE AFDRAGSTYPE "H" = GÆLDENDE INDTIL VIDERE ****************
+.if &U'&AFDYDL01 = H
+.th .go SLUTTXT
+Payment and term are calculated on the basis of the prices, interest rates
+and fees applicable when the agreement is concluded. The term may be
+extended if these change, for example if the interest rate is raised.
+.sp 5mm
+...SLUTTXT
+If you prefer the loan to be fully repaid at the time specified, please
+contact
+.hy off
+&BANKNAVN.,
+.hy on
+with a view to checking that the term can be observed. If this is not
+the case, we may offer to adjust the payment so that the
+agreed term can be observed.
+.in 0mm
+.ir 0mm
+...SLUT
+.bx off
+.ar off

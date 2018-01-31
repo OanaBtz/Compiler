@@ -1,0 +1,50 @@
+:COUR10.
+.da KONTOHAV 25mm 51mm width 80mm
+.da KONTOCPR 32mm 71,5mm width 80mm
+.da OPRETTER 113mm 51mm width 70mm
+.da CPRNR 120mm 71,5mm width 70mm
+.da PENGEINS 25mm 83mm width 80mm
+.da OPRDATO 113mm 83mm width 70mm
+.da KONTONR 113mm 94.5mm width 70mm
+.da BINDPER 58mm 100,5mm width 90mm
+.da INDHOLD 128mm 118,5mm width 170mm
+.da UNDSKR 25mm 167mm width 170mm
+.**************************************
+.ar KONTOHAV on
+&KTOSTILL
+.br
+&KTONAVN
+.br
+&KTOCO
+.br
+&KTOGADE
+.br
+&KTOBY
+.ar off
+.************************************************
+.ar KONTOCPR on
+&KTOKNDNR1
+.ar off
+.************************************************
+.ar OPRETTER on
+&INDSTIL
+.br
+&INDNAVN
+.br
+&INDCO
+.br
+&INDGADE
+.br
+&INDBY
+.br
+&INDLAND
+.ar off
+.*************************************************
+.ar CPRNR on
+&INDKUNDENR
+.ar off
+.*************************************************
+.ar PENGEINS on
+&BANKNAVN
+.br
+&AFDNAVN

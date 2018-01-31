@@ -1,0 +1,20 @@
+.*********************GENEREL OPSÆTNING************************************
+:COUR10.
+.fo left
+.ti ¤ 05
+:tiltale &TILTALEM
+.*********************AREAL-DEFINITIONER***********************************
+.* Brevstart, incl. overskrift
+.da START 20mm 95mm width 175mm
+.* Brevnavn, roteret i venstre hjørne
+.da VEND 7mm 270mm width 180mm rotate -90
+.*********************ROTERET BREVNAVN*************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.*********************STARTPOSITION FOR BREVET, INCL OVERSKRIFT************
+.ar START on
+.us Årsoplysning - Videregivelse af kundeoplysninger
+.sp
+.**************************************************************************

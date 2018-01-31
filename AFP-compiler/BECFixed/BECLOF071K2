@@ -1,0 +1,27 @@
+.*************** definer siden som et areal *******************************
+.da SIDE  20mm  40mm width 175mm
+.dr thin weight 0.1mm
+.if &U'&GENJANEJ1 = N
+.th .go SLUT
+.*Udskrives kun hvis der er stillet sikkerhed *****************************
+.ar SIDE on
+.tp 1mm 88.5mm
+.************ Kontrakt ****************************************************
+.bx left right
+:SWISS8.
+¤Kontrakt nr.
+.sp 4mm
+.************ PARTER ******************************************************
+.bx new left 87.5mm right
+¤Kundenummer låntager¤Kundenummer låntager
+.sp 5mm
+.bx off
+.bx can
+.**************************************************************************
+.sp
+.bx left right
+.sp 208mm
+.bx off
+.ar off
+.**************************************************************************
+...SLUT

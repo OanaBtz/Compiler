@@ -1,0 +1,45 @@
+.***************************************************************
+:COUR10.
+.* Kolonne 2 af regelsættet
+.da KOLONNE2 108mm 97.8mm width 78mm
+.*****************************************************************
+.ar KOLONNE2 on
+:COUR8.
+Begynder kontohaver på en uddannelse, der er af kortere varighed end 2
+måneder, kan udbetalingen fra "opsparing til egen uddannelse" højst andrage
+kr. 3.000 pr. uge. Er kontoen en "opsparing til børns uddannelse" er kun
+uddannelser af mindst 1 års normeret varighed præmieberettiget.
+.sp
+Kontohaver er forpligtet til straks at meddele, hvis
+studieaktiviteten/deltagelsen i kurset ophører.
+.sp
+Hvis kontohaveren i uddannelsesåret ophører med at være studieaktiv
+eller deltage i det pågældende kursus, tilskrives der ikke kontoen præmie
+for perioden. Kontoen ophører med at være en uddannelseskonto, medmindre
+kontohaveren tilbagefører det udbetalte beløb.
+.sp 2
+Udbetaling uden præmie kan til enhver tid ske mod opsigelse eller
+dekortberegning i følgende tilfælde:
+.sp
+.in 10mm
+- Kontohavers død
+.br
+- Kontohavers konkurs
+.br
+- Skifte af ægtefællers fællesbo,
+.br
+.in 14mm
+separation, skilsmisse eller bodeling
+.br
+.in 10mm
+- Kontohavers emigration.
+.in 0mm
+.sp
+Endvidere kan opsparingen hæves uden præmie - og uden opsigelse - 3 år
+efter første
+.hw ind-be-ta-ling.
+.sp
+En konto, hvorfra der foretages deludbetaling uden præmie, betragtes ikke
+mere som en uddannelseskonto. Herefter kan der ikke tilskrives præmie,
+og der kan ikke foretages yderligere indskud.
+.ar off

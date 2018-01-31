@@ -1,0 +1,41 @@
+Vedlagt er kopi af et brev, vi har sendt til &BECTEKST30., som har
+misligholdt sine forpligtelser i en sÄdan grad, at vi nu krÄver
+.if &BECTEST02 eq 1
+.th det pÄgÄldende lÄn indfriet.
+.if &BECTEST02 eq 2
+.th den pÄgÄldende kassekredit indfriet.
+.sp
+Som &DU kan lÄse i brevet, er dette sidste varsel, inden sagen overgives
+til inkasso.
+.sp
+.if &BECTEST01 eq 2
+.th .go hop1
+Da &DU er
+.if &BECTEST02 eq 1
+.th selvskyldnerkautionist for lÄnet,
+.if &BECTEST02 eq 2
+.th selvskyldnerkautionist,
+gÄr vi opmÄrksom pÄ, at hvis lÄntager ikke indfrier
+.if &BECTEST02 eq 1
+.th lÄnet indenfor den nÄvnte frist, vil vi krÄve lÄnet
+.if &BECTEST02 eq 2
+.th kassekreditten indenfor den nÄvnte frist, vil vi krÄve kassekreditten
+indfriet af &DIG inkl. renter og omkostninger.
+...hop1
+.if &BECTEST01 eq 1
+.th .go hop2
+Da &DU har deponeret sikkerhed for
+.if &BECTEST02 eq 1
+.th lÄnet,
+.if &BECTEST02 eq 2
+.th kassekreditten,
+gÄr vi opmÄrksom pÄ, at hvis lÄntager ikke indfrier
+.if &BECTEST02 eq 1
+.th lÄnet indenfor den nÄvnte frist,
+.if &BECTEST02 eq 2
+.th kassekreditten indenfor den nÄvnte frist,
+vil vi krÄve de deponerede effekter realiseret.
+...hop2
+.sp
+Har &DU spÄrgsmÄl til dette, er &DU velkommen til at kontakte os.
+.*************************************************************************

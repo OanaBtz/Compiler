@@ -1,0 +1,25 @@
+.******************************************************************
+.da ANSOEG 20mm 40mm width 175mm
+.da AFREGN1 21mm 185mm width 175mm
+.******************************************************************
+.ar ANSOEG on
+.tp 5mm
+:SWISS8.
+:FED.
+Jeg ønsker at ansøge om:
+:SKRSLUT.
+.sp 2.5mm
+¤&KTTYPTLNG., forbrugsgrænse &KTBELOBGR. kr.
+.sp 2mm
+.if x&U'&KTFORSIK = xJ
+.th ¤Kortet er udstedt med forsikring
+.el ¤Kortet er udstedt uden forsikring
+.**************************************************************************
+.ar AFREGN1 on
+:SWISS8.
+.tp 9mm
+¤Via Betalingsservice (udfyld kontonr.)
+.sp 2mm
+¤Via konto (udfyld kontonr.)
+.ar off
+.**************************************************************************

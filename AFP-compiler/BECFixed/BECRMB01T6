@@ -1,0 +1,118 @@
+.******************* AREALDEFINITIONER ********
+.da VAREBESKR 23mm 40mm width 168mm
+.da ALMBESTEM 23mm 73mm width 168mm
+.da SÆRBESTEM 23mm 203mm width 230mm
+.da VALUTAANM 23mm 234mm width 240mm
+.da VALUTAANM2 29mm 239mm width 240mm
+.da HONBELØB 23mm 247mm width 250mm
+.da PÅTEGNING 114mm 251mm width 255mm
+.da AFKRYDSNING5 24mm 238mm width 240mm
+.da DATOSTED 23mm 251,5mm width 255mm
+.da HENVEND 114mm 218mm width 220mm
+.da TELEFON 132mm 223,5mm width 220mm
+.da HENVNAVN 114mm 229mm width 220mm
+.da KONTAKTPERSON 132mm 229mm width 220mm
+.**************************************
+.ar VAREBESKR ON
+:swiss8.
+(Varebeskrivelse anføres på det pågældende sprog med så få detaljer som
+muligt, evt. forkortet med henvisning til ordrebekræftelse,
+proformafaktura ect.)
+:skrslut
+.ar off
+.************************************
+.ar ALMBESTEM ON
+:swiss10.
+Almindelige bestemmelser
+:skrslut.
+.sp 2mm
+:swiss8.
+1.
+.br
+Denne remburs er underkastet "Ensartede regler og sædvaner vedrørende
+remburser" i henhold til Det Internationale Handelskammers publikationer
+(seneste udgave), almindeligvis benævnt "Internationale Rembursregler"
+(Dansk oversættelse af disse regler udleveres af pengeinstituttet på
+forlangende), for så vidt og i det omfang disse kommer til anvendelse
+på den plads, hvor
+rembursen er disponibel.
+.sp 1mm
+2.
+.br
+Dækkes assurancen i følge omstående tekst af ordregiveren, forpligter denne
+sig til på anfordring at aflevere police(r)/certifikat(er) til
+pengeinstituttet.
+.sp 1mm
+3.
+.br
+Alle inddækkede valutabeløb eller beløb overført til dækning af rembursen,
+optagne rembursdokumenter samt de varer, som rembursen angår, disses
+forsikringssummer,
+og hvad der i øvrigt ved salg eller på anden måde træder i
+stedet for de nævnte, varer, tjener
+pengeinstituttet som håndpant for ethvert mellemværende, som
+pengeinstituttet
+måtte have eller få med ordregiveren, og pengeinstituttet er befuldmægtiget
+til med bindende virkning for ordregiveren at forsyne dokumenterne
+med endossement eller kvittering. Realisation af varerne kan fornødent
+ske ved offentlig auktion eller ved salg underhånden for ordregiverens
+regning uden iagttagelse af reglerne om håndpant.
+.sp 1mm
+4.
+.br
+Ordregiveren forpligter sig til at undersøge optagne dokumenter straks
+efter modtagelsen. I tilfælde af, at dokumenterne måtte udvise afvigelse
+eller mangler, som ordregiveren ikke mener at kunne godkende, forpligter
+denne sig til omgående at underrette pengeinstituttet herom og ikke uden
+dennes samtykke at disponere over dokumenterne eller over de pågældende
+varer.
+.sp 1mm
+5.
+.br
+Ordregiveren er forpligtet til at dække
+pengeinstituttet i henhold til dets afregning efter opgave
+fra pengeinstituttets korrespondent, også selv om rembursdokumenterne
+ikke er kommet
+pengeinstituttet i hænde, hvadenten dette skyldes forsinkelse eller
+andre forhold, herunder at rembursdokumenterne er gået tabt. Ordregiver er
+forpligtet til på anfordring at dække
+pengeinstituttet for rembursbeløbet, hvis pengeinstituttets
+korrespondent kræver dækning overført i forbindelse med rembursens
+åbning eller på et evt. senere tidspunkt.
+.sp 1mm
+6.
+.br
+Enhver overførsel af rembursbeløbet - herunder overførsel gennem Danmarks
+Nationalbank sker for ordregiverens regning og risiko, og
+pengeinstituttet har intet
+ansvar for beløbets fremkomst i udlandet eller for eventuelt opståede
+kursdifferencer i forbindelse med overførslen. Dersom rembursen
+ikke udnyttes, eller kun udnyttes delvis, har
+pengeinstituttet intet ansvar for tilbageførsel af
+ikke udnyttede beløb eller for eventuelle kursdifferencer i forbindelse med
+tilbageførsel heraf.
+.sp 1mm
+7.
+.br
+Tilgodehavender på konti i fremmed valuta indestår i
+pengeinstituttets navn hos
+dettes korrespondenter i de pågældende lande for ordregivers risiko i
+enhver henseende, og ordregiveren er med hensyn til dispositioner over
+disse konti undergivet samme begrænsning, som til enhver tid er gældende
+for pengeinstituttet.
+.sp 1mm
+8.
+.br
+Udløber eller annulleres rembursen helt eller delvis ubenyttet, er
+pengeinstituttet
+berettiget til at foranledige inddækkede eller overførte beløb solgt eller
+tilbageført, men
+pengeinstituttet påtager sig ikke nogen pligt hertil, før
+instruktioner herom  er modtaget fra ordregiveren.
+.sp 1mm
+9.
+.br
+I tilfælde af ikke udnyttelse af rembursen frigør
+pengeinstituttet ikke ordregiveren, før pengeinstituttet er
+frigjort af sin korrespondent.
+.ar off

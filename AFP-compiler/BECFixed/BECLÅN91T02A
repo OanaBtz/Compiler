@@ -1,0 +1,158 @@
+.tp 8mm
+.**************************************************************************
+.*KUNDEN ØNSKER IKKE: RÅDGIVNING / AT AFGIVE ØKONOMISKE OPLYSNINGER *******
+.if &DEBANTAL > 1
+.th .go TXT2A
+.el .go TXT1A
+...TXT2A
+.if &L'&GENKRYDS1 > 0
+.or &L'&GENKRYDS2 > 0
+.th &debsomt., &NAVN. og &MEDEJER6., har fravalgt at modtage
+.th rådgivning fra &BANKNAVN. i
+.th .go VID1A
+...TXT1A
+.if &L'&GENKRYDS1 > 0
+.or &L'&GENKRYDS2 > 0
+.th &debsomt., &NAVN., har fravalgt at modtage rådgivning fra &BANKNAVN. i
+...VID1A
+.th forbindelse med &min indgåelse af en boligkreditaftale.
+.if &L'&GENKRYDS1 > 0
+.th .ct .
+.if &L'&GENKRYDS2 > 0
+.th .ct , idet &deblomt ikke ønsker at afgive de nødvendige økonomiske
+.th oplysninger.
+.if &L'&GENKRYDS1 > 0
+.or &L'&GENKRYDS2 > 0
+.th .sp 25mm
+.th .go UNDERSKR
+.el .go SPRING
+...UNDERSKR
+.kp on
+.*UNDERSKRIFT ************************************************************
+.tp _/50mm
+:FED.
+Underskrift
+:SKRSLUT.
+.sp 5mm
+:FED.
+Kunden
+:SKRSLUT.
+.sp 5mm
+Den ¤
+.sp 14mm
+.hr tynd 5mm 80mm
+.br
+&NAVN
+.sp 5mm
+.if &L'&MEDEJER6 > 0
+.th .sp 10mm
+.th .hr tynd 5mm 80mm
+.th .br
+.th &MEDEJER6.
+.th .sp 10mm
+.**************************************************************************
+.kp off
+.*** AFSLUT BREV ********
+.QUIT
+...SPRING
+.**************************************************************************
+.if &DEBANTAL > 1
+.th &debsomt., &NAVN. og &MEDEJER6. har
+.el &debsomt., &NAVN., har
+modtaget rådgivning af &BANKNAVN. i forbindelse med &min indgåelse af en
+boligkreditaftale.
+.sp 5mm
+:FED.
+.us on
+Til brug for rådgivningen har &deblomt på
+&BANKNAVN.s foranledning oplyst følgende:
+.us off
+:SKRSLUT.
+.sp 3mm
+.*OM MIN/VORES ERFARING MED AT OPTAGE LÅN *********************************
+:SWISS9.
+:FED.
+Om &min erfaring med at optage lån
+:SKRSLUT.
+.br
+.if x&GENERFAR = x1
+.th Ingen erfaring, det er første gang, &deblomt optager et lån med pant i
+.th fast ejendom inden for de sidste 10 år.
+.th .sp 3mm
+.th .go ERFX
+.************************
+.if x&GENERFAR = x2
+.th Nogen erfaring, har optaget lån med pant i fast ejendom op til 3 gange
+.th inden for de sidste 10 år.
+.th .sp 3mm
+.th .go ERFX
+.************************
+.if x&GENERFAR = x3
+.th Megen erfaring, har optaget lån med pant i fast ejendom mere end
+.th 3 gange i løbet af de sidste 10 år.
+.th .sp 3mm
+.th .go ERFX
+.************************
+...ERFX
+.************************
+.if &L'&GENTEKST1 > 0
+.or &L'&GENTEKST2 > 0
+.or &L'&GENTEKST3 > 0
+.or &L'&GENTEKST4 > 0
+.or &L'&GENTEKST5 > 0
+.or &L'&GENTEKST6 > 0
+.or &L'&GENTEKST7 > 0
+.or &L'&GENTEKST8 > 0
+.or &L'&GENTEKST9 > 0
+.or &L'&GENTEKST10 > 0
+.th &GENTEKST1.&GENTEKST2.&GENTEKST3.&GENTEKST4.&GENTEKST5.&ÅCONT.
+.th &GENTEKST6.&GENTEKST7.&GENTEKST8.&GENTEKST9.&GENTEKST10.
+.th .sp 3mm
+.*OM MINE/VORES ØKONOMISKE FORHOLD ****************************************
+:FED.
+Om &mine økonomiske forhold
+:SKRSLUT.
+.br
+.if &U'&GENØKOFORA = J
+.th &debsomt har indleveret dokumentation for indtægter og formueforhold.
+.th .sp 3mm
+.************************************************
+.if &U'&GENØKOFORB = J
+.th &debsomt har fået gennemgået &mit. budget i forbindelse med
+.th denne låneoptagelse.
+.th .sp 3mm
+.************************************************
+.if &U'&GENØKOFORC = J
+.th Denne låneoptagelse skønnes ikke at ændre i &MIN formue og
+.th rådighedsbeløb væsentligt.
+.th .sp 3mm
+.************************************************
+.if &U'&GENØKOFORD = J
+.th Forventninger til fremtiden (pension, orlov, nedsparing mv.):
+.*th .sp 3mm
+.************************************************
+.tp 8mm 160mm right
+.if &L'&GENTEKST11 > 0
+.or &L'&GENTEKST12 > 0
+.or &L'&GENTEKST13 > 0
+.or &L'&GENTEKST14 > 0
+.or &L'&GENTEKST15 > 0
+.or &L'&GENTEKST16 > 0
+.or &L'&GENTEKST17 > 0
+.or &L'&GENTEKST18 > 0
+.or &L'&GENTEKST19 > 0
+.or &L'&GENTEKST20 > 0
+.*th *¤Forventninger til fremtiden (pension/orlov)
+.th .br
+.*th .in 8mm
+.th &GENTEKST11.&GENTEKST12.&GENTEKST13.&GENTEKST14.&GENTEKST15.&ÅCONT.
+.th &GENTEKST16.&GENTEKST17.&GENTEKST18.&GENTEKST19.&GENTEKST20.
+.th .in 5mm
+.th .sp 3mm
+.*OM MIN/VORES RISIKOVILLIGHED **************fortsættes i T02B ***********
+...RISIKO
+:FED.
+Om &min risikovillighed
+:SKRSLUT.
+.br
+...ENDSKEM1

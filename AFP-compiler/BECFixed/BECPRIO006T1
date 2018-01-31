@@ -1,0 +1,42 @@
+.da TEKST 20mm 117mm width 175mm
+.**************************************************************************
+.ar TEKST on
+Endelige rentevilkår for lånets aftalte rentebindingsperiode er fastsat
+som vist herunder:
+.sp 5mm
+.tp 45mm
+Kontonr.:¤&reg.-&kto. i
+.if &kndtilh = 088400
+.th &BANKNAVN. Kredit
+.el &BANKNAVN.
+.br
+Låntype:¤&LAANETYPE.
+.br
+Rentebindingsperiode: ¤&RTEBINPRD.
+.br
+Rentebindingsperiodens udløb:¤&RTEBINDAU.
+.br
+Rentesats:¤&PRIRENTE. % p.a.
+.if &U'X&PRIERH = XP
+.th .br
+.th Referencerente:¤&REFRENTE. % p.a.
+.sp 5mm
+Frem til Rentebindingsperiodens udløb ligger lånets rentesats og afvikling
+fast.
+.if &U'X&PRIERH = XP
+.th .sp 3mm
+.th Den anførte referencerence anvendes kun til beregning af
+.th indfrielseskursen ved eventuelle ekstraordinære afdrag eller
+.th indfrielse af lånet i rentebindingsperioden.
+.if &L'&RTEVILKGEB > 0
+.th .sp 3mm
+.th Gebyret &RTEVILKGEB. kr. for fastsættelse af nye rentevilkår er
+.th hævet på konto &DEBKONTO18.
+.sp 3mm
+:FED.
+Der gælder særlige vilkår for indfrielse i en rentebindingsperiode. Det
+betyder, at indfrielse af lånet i nogle tilfælde
+kun kan ske med et beløb, som
+er højere end restgælden. Indfrielsesvilkårene er nærmere beskrevet i
+låneaftalen.
+:SKRSLUT.

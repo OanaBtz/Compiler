@@ -1,0 +1,23 @@
+.**AREALER*****************************************************************
+.da SIDE    20mm  40mm width 175mm
+.*KUNDEOPLYSNINGER********************************************************
+.ar SIDE on
+.tp 1mm
+.bx left right
+:SWISS8.
+¤Kunde: &NAVN
+:SKRSLUT.
+.sp 5mm
+:SWISS8.
+¤CVR-nr.: &KUNDENR
+.sp 5mm
+¤Adresse:
+.if &L'&COADR > 0
+.th &COADR., &GADE
+.el &GADE
+.sp 3mm
+¤Postnr.og by: &BY
+.sp 3mm
+.bx off
+.ar off
+.**************************************************************************

@@ -1,0 +1,43 @@
+.**************************************************************************
+.in
+.ir
+.hr left right
+.in 1mm
+.ir 1mm
+Til vitterlighed om ægte underskrift/underskrifter, dateringens rigtighed
+og udstederens/udstedernes myndighed.
+.sp 5mm
+.**************************************************************************
+.tp _/80mm
+Navn ¤
+.sp 4mm
+Stilling ¤
+.sp 4mm
+Adresse ¤
+.sp 4mm
+Postnr./by ¤
+.sp 4mm
+Underskrift ¤
+.**************************************************************************
+.in
+.ir
+.bx new left 87.5mm right
+.in 1mm
+.sp 1mm
+.**************************************************************************
+.tp 88.5mm
+Forevist legitimation ¤Initialer
+.sp 5mm
+.bx new 32mm 42mm / 72mm 82mm / 121mm 131mm / 163mm 173mm
+.sp 1mm
+.tp 48mm 88.5mm 132mm
+Kendt¤Kørekort¤EDB-registrering¤Afsluttende kontrol
+.sp 1mm
+.bx new 32mm 42mm / 72mm 82mm / 121mm 131mm / 163mm 173mm
+.sp 1mm
+Dankort, ID-kort ¤Andet: ¤Kontrol før underskrift ¤Afsender
+.bx off
+.bx can
+.in
+.bx off
+.ar off

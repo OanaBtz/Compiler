@@ -1,0 +1,172 @@
+.tp 5mm 8mm
+.kp on
+:SWISS10.
+:FED.
+3. Overførsler fra udlandet
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Overførsler fra udlandet kan overføres direkte til &DIN. konto fra det
+udenlandske pengeinstitut via SWIFT.
+.kp off
+.sp 3mm
+.us Informationer, som &DU. bør forsyne beløbsafsender med
+.br
+For at fremme ekspeditionen og undgå misforståelser bør &DU. forsyne
+beløbsafsender med følgende oplysninger om &BANKNAVN.:
+.br
+.of 8mm
+¤*¤&BANKNAVN.
+.of
+.of 8mm
+¤*¤&BANKGADE.
+.of
+.of 8mm
+¤*¤&BANKBY.
+.of
+.of 8mm
+¤*¤SWIFT: &BANKSWIFT.
+.of
+.of 8mm
+¤*¤&DIT. IBAN (International Bank Account Number) eller
+.of
+.of 8mm
+¤*¤&DIT. kontonr. hos os inkl. registreringsnr.
+.of
+.sp 3mm
+.kp on
+.us Omkostninger
+.br
+&BANKNAVN.s priser ved modtagelse af overførsler fra udlandet fremgår
+fremgår af &BANKNAVN. prisliste.
+.sp 3mm
+.kp off
+.kp on
+Såfremt beløbsafsender har påtaget sig at afholde alle omkostninger,
+modtager &DU. naturligvis det frem-sendte beløb uden fradrag af gebyr.
+.sp 3mm
+Har afsenderen derimod anmodet om, at &DU. også afholder det udenlandske
+pengeinstituts omkostninger, vil disse være fratrukket, inden vi modtager
+beløbet. Dog kan dette ikke vælges for betalinger i EU-valutaer inden for
+EU.
+.sp 3mm
+.kp off
+.kp on
+.us Valutakurs
+.br
+Overførsler modtaget inden kl. &MDDEADLINE. afregnes til kursen på
+modtagelsesdagen, mens overførsler modtaget efter dette
+tidspunkt afregnes til næste arbejdsdags kurs.
+.sp 3mm
+.kp off
+Ved modtagelse af overførsler, der kræver omveksling, vil afregning ske til
+dagens valutakurs. Grund-laget for dagens valutakurs vil, medmindre andet
+er aftalt med &DIG., være Nationalbankens informationskurs med et
+fradrag, der oplyses på forespørgsel.
+.sp 3mm
+.kp on
+.us Hvornår er beløbet til &DIN. disposition
+.br
+For overførsler modtaget fra EU-lande i EU-valutaer til konti i samme
+valutaer samt overførsler modtaget i DKK eller EUR til indsættelse på EUR
+eller DKK konti gælder, at beløbet indsættes på &DIN. konto med valør samme
+arbejdsdag, som beløbet er stillet til &BANKNAVN.s rådighed, hvis
+beløbet er modtaget inden kl. &MDDEADLINE..
+.sp 3mm
+.kp off
+Øvrige overførsler fra udlandet vil normalt blive indsat på &DIN. konto
+med valør en arbejdsdag efter, at beløbet er til vor disposition.
+.sp 3mm
+.kp on
+.us Afregningsnota
+.br
+Anvendt valutakurs, valør, &BANKNAVN.s omkostninger samt evt.
+omkostninger fratrukket af afsendende og/eller formidlende pengeinstitut
+fremgår af afregningsnotaen.
+.sp 3mm
+.kp off
+.kp on
+.us Særligt om checks fra udlandet
+.br
+Udenlandske checks modtaget inden kl. &MDDEADLINE. bliver afregnet
+samme dag.
+.sp 3mm
+.kp off
+Udenlandske checks modtaget efter kl. &MDDEADLINE. afregnes efterfølgende
+arbejdsdag, medmindre andet aftales.
+.sp 3mm
+Hvis det betrukne pengeinstitut i udlandet beregner sig gebyr eller
+provision ved afregning af private checks, vil disse omkostninger
+efterfølgende blive hævet på &DIN. konto.
+.sp 3mm
+Betalinger via checks fra udlandet vil normalt blive indsat på &DIN. konto
+med rentemæssig virkning 1 arbejdsdag efter, at beløbet er til vor
+disposition.
+.sp 3mm
+Udenlandske checks afregnes under forbehold af, at det udenlandske
+pengeinstitut honorerer disse, i modsat fald returneres checkene.
+.sp 3mm
+&BANKNAVN. forbeholder sig ret til at afvente afregning af checks,
+indtil beløb er modtaget fra trassatbank og at opkræve eventuelle
+stempelomkostninger, uforudsete omkostninger samt renter ved forsinket
+honorering.
+.sp 3mm
+.kp on
+:SWISS10.
+:FED.
+4. Yderligere informationer
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+.us Ændringer
+.br
+&BANKNAVN. kan ændre disse betingelser samt tilhørende prisliste med
+to måneders varsel, hvis ændringen er til ugunst for &DIG.. Øvrige
+ændringer kan ske uden varsel. &DU. vil modtage en besked om ændringer
+enten skriftligt eller elektronisk. &DU. er selv forpligtet til at
+meddele eventuelle ændringer i &DIN. adresse eller e-mailadresse til
+&BANKNAVN., og &DU. bærer selv ansvaret for, at &DU. modtager meddelelse
+om ændringer, hvis &DU. ikke har meddelt e-mail- eller adresseændring.
+.sp 3mm
+.kp off
+Ved ændring af reglerne vil disse anses som accepteret, medmindre &DU.
+inden datoen for ikrafttræden har meddelt pengeinstituttet, at
+&DU. ikke ønsker at være bundet af de nye regler.
+.sp 3mm
+Hvis &DU. meddeler, at &DU. ikke ønsker at være bundet af de nye
+regler, vil forholdet anses som ophørt på tidspunktet for ikrafttræden
+af de nye regler.
+.sp 3mm
+.keep on
+.us Nyt eksemplar af betingelserne
+.br
+Hvis &DU. mister disse betingelser eller af anden grund har behov for et
+nytksemplar, kan &DU. finde dem på &BANKNAVN.s hjemmeside
+eller henvende &DIG. til &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+.us Prisliste og gennemførelsestider
+.br
+&SDU. kan hente yderligere information om priser og gennemførelsestider
+for de enkelte valutaer i vores prisliste, som &DU. kan få hos os.
+.sp 3mm
+.kp off
+Ønsker &DU. information om de daglige valutakurser eller andre
+oplysninger i forbindelse med udenlandske overførsler, er
+&DU. naturligvis velkommen til at kontakte os.
+.sp 3mm
+Vi gør opmærksom på, at &DU. som forbruger har mulighed for at klage til
+Pengeinstitutankenævnet, såfremt et problem mellem &BANKNAVN. og &DIG.
+ikke bliver løst til &DIN. tilfredshed.
+.sp 3mm
+.kp on
+.us Kontrol af pengeoverførsler
+.br
+&BANKNAVN. og vores korrespondentbankforbindelser og andre
+pengeinstitutter i betalingskæden, kontrollerer indgående og udgående
+overførsler mod diverse terrorlister, herunder EU's database. Kontrollen
+kan medføre, at en overførsel bliver stoppet og eventuelt indefrosset.
+&BANKNAVN. er ikke ansvarligt for eventuelle tab, som måtte opstå i
+den forbindelse.
+.kp off

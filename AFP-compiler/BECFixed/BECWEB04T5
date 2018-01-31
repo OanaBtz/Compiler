@@ -1,0 +1,17 @@
+.*******************************************************
+.da UNDERSKRKU 20mm 140.5mm width 165mm
+.da UNDERBK    20mm 171mm width 165mm
+.*******************************************************
+.ar UNDERSKRKU on
+:COUR10.
+.ce on
+&NAVN
+.ce off
+.ar off
+.*******************************************************
+.ar UNDERBK on
+:COUR10.
+.ce on
+&BANKNAVN
+.ce off
+.ar off

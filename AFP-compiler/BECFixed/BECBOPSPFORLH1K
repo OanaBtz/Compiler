@@ -1,0 +1,141 @@
+.hy on
+:GL.
+:BECFST.B00S70
+:EGL.
+.ti ¤ 05
+.******************************************************
+:GL.
+.tm 0
+.ll 66
+.pm 8
+.in 1
+.*Areal definition for kontohaver
+.da KTOHAVER 8 13 width 35
+.*Areal definition for opretter/værge
+.da OPRET 40 13 width 40
+.*Areal definition for kunde/ktonr.
+.da KUNDENR 8 21 width 35
+.*Areal definition for opretters kundenr.
+.da OPRETKNDNR 40 21 width 40
+.*Areal definition for Bindingsperiode
+.da BINDING 8 24 width 35
+.*Areal definition for Værge
+.da VERGE 40 24 width 40
+:EGL.
+.*****************************************************
+:NY.
+.ll 168mm
+.pm 17mm
+.*Areal definition for kontohaver
+.da KTOHAVER 20mm 57mm width 84mm
+.*Areal definition for opretter/værge
+.da OPRET 110mm 57mm width 84mm
+.*Areal definition for kunde/ktonr. og Bindingsperiodes udløb
+.da KUNDENR 20mm 85mm width 84mm
+.*Areal definition for opretters kundenr. og værge
+.da OPRETKNDNR 110mm 85mm width 84mm
+.*Areal definition for Bindingsperiode
+.da BINDING 20mm 97mm width 84mm
+.*Areal definition for Værge
+.da VERGE 110mm 97mm width 84mm
+:ENY.
+.*****************************************************************
+:GL.
+:FED.
+.br
+.sp 2
+TILLÆG TIL BØRNEOPSPARINGSKONTO
+.br
+FORLÆNG BINDINGSPERIODEN
+.br
+:SKRSLUT.
+:EGL.
+:NY.
+.sp 25mm
+:COUR10.
+:ENY.
+.sp
+.us PARTER
+.sp
+.*************************************************************
+.ar KTOHAVER on
+.us Kontohaver
+:GL.
+.tp 30 right
+:EGL.
+:NY.
+.tp 71mm right
+:ENY.
+.sp
+&KTOSTILL
+.br
+&KTONAVN
+.br
+.if &L'&KTOCO gt 0
+.th &KTOCO
+.br
+&KTOGADE
+.br
+&KTOBY
+.br
+.ar off
+.******************************************************************
+.ar KUNDENR on
+Kundenr.¤&KTOKNDNR1
+.br
+Kontonr.¤&REGNR &KTONR
+.br
+.ar off
+.************************************************************
+.ar BINDING on
+.us Bindingsperiodens udløb
+.sp
+&FRIDATO
+.ar off
+.*************************************************************
+.ar OPRET on
+:GL.
+.tp 30 right
+:EGL.
+:NY.
+.tp 71mm right
+:ENY.
+.us Opretter
+.sp
+&STILL
+.br
+&NAVN
+.br
+.if &L'&COADR gt 0
+.th &COADR
+.br
+&GADE
+.br
+&BY
+.br
+.ar off
+.*************************************************************
+.ar OPRETKNDNR on
+Kundenr.¤&KUNDENR
+.br
+.ar off
+.*************************************************************
+.ar VERGE on
+.if &L'&GENNAVN1 eq 0
+.th .go END
+.us Værge
+.sp
+&GENSTILL1
+.br
+&GENNAVN1
+.br
+.if &L'&GENCOADR1 gt 0
+.th &GENCOADR1
+.th .br
+&GENGADE1
+.br
+&GENBY1
+.sp
+.*******************
+...END
+.ar off

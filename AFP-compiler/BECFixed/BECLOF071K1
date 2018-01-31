@@ -1,0 +1,43 @@
+.*************** definer siden som et areal *******************************
+.da SIDE  20mm  20mm width 175mm
+.dr thin weight 0.1mm
+.**************************************************************************
+.*KASSER MED TEKST FOR INTERN BEHANDLING***********************************
+.ar SIDE on
+.bx new left 17mm 34mm 51mm 68mm
+.tp 1mm 18mm 35mm 52mm 69mm
+:SWISS6.
+¤Udfærdiget af¤Bevilget af¤Gennemgang¤Revideret
+.br
+:SKRSLUT.
+.sp 6mm
+.bx off
+.**************************************************************************
+.sp 10mm
+.************ PARTER ******************************************************
+.tp 1mm 88.5mm
+.sp 6mm
+.bx left right
+:SWISS8.
+¤Kontrakt nr.
+.sp 4mm
+.bx new left 87.5mm right
+¤Låntager¤Låntager
+.sp 20mm
+.bx new left 87.5mm right
+¤Kundenummer¤Kundenummer
+.sp 5mm
+.bx new left right
+¤erkender at skylde finansieringsselskabet
+.sp 15mm
+.bx off
+.bx can
+.bx can
+.bx can
+.**************************************************************************
+.sp
+.**************************************************************************
+.bx left right
+.sp 156mm
+.bx off
+.ar off

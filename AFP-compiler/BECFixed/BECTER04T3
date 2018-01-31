@@ -1,0 +1,120 @@
+.***************************************
+.ar BANKUNDERSKR ON
+:swiss8.
+Pengeinstituttets stempel og underskrift          Dato:
+.sp 23mm
+.ce on
+&BANKNAVN
+.ce off
+.br
+.ar off
+.***************************************
+.ar PARTER ON
+:swiss10.
+:FED.
+Parter
+.ar off
+.************************************
+.ar GRUNDLAG ON
+:swiss10.
+:FED.
+Grundlag
+.ar off
+.************************************
+.ar UNDERSKRIFT ON
+:swiss10.
+:FED.
+Underskrift
+:SKRSLUT.
+.ar off
+.***********************************
+.ar REGNR ON
+:swiss8.
+Reg nr.:
+&REGNR
+.ar off
+.****************************************
+.ar OVERSKRIFT ON
+:swiss12.
+:FED.
+:USENKEL.
+Terminskontrakt
+:swiss12.
+- ved ejerskifte / indfrielse
+:SKRSLUT.
+.br
+.ar off
+.**************************************
+.ar MATRIKELNR ON
+:cour10.
+.sp
+.sp 5,8mm
+.if &L'&BECTERMA2 > 29
+.th
+.SU OFF
+.SE A = substr &BECTERMA2 1 29
+.SE B = substr &BECTERMA2 30 56
+.SU ON
+.th &A
+.br
+.th &B
+.el &BECTERMA2
+.br
+.ar off
+.******************************************
+.ar PROVENUE ON
+:cour10.
+.if &L'&BECTERKPRV gt 1
+.th &BECTERKPRV
+.el
+.br
+.sp 15mm
+.br
+.if &L'&BECTEROBEL gt 1
+.th &BECTEROBEL
+.el
+:SKRSLUT.
+.ar off
+.*******************************************
+.ar INDFRIELSE ON
+.ti ^ 05
+.tp 50mm
+:swiss8.
+Vedr. indfrielse
+:skrslut.
+.sp 2mm
+:swiss8.
+.in 1mm
+Kreditforeningsdepotnr. ved indfrielse^
+:skrslut.
+:cour10.
+&BECTERKRDP
+.in 0mm
+.sp 05mm
+:skrslut.
+.ar off
+.****************************************
+.ar KONTRAKTPAR2
+.sp 3mm
+.ti ^ 05
+.tp 15mm
+:swiss8.
+Pantnr.^
+:skrslut.
+:cour10.
+&BECTERPANR
+:skrslut
+.sp 05mm
+:swiss8.
+Matr.nr.^
+:skrslut.
+.sp 05mm
+.ti ^ 05
+.tp 15mm
+:swiss8.
+Beliggende^
+:skrslut.
+:cour10.
+&BECTERBELI
+:skrslut.
+.ar off

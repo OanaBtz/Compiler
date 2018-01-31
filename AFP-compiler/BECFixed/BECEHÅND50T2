@@ -1,0 +1,155 @@
+.**************************************************************************
+.in 5mm
+.ir 5mm
+.**************************************************************************
+As security for the performance of the obligations assumed by
+.sp 3mm
+.tp 92.5mm 134mm
+:FED.
+.if &DEBANTAL = 1
+.th Borrower
+.th .sp 3mm
+.th .go DEB1
+.if &DEBANTAL = 2
+.th Borrower ¤Several borrowers
+.th .sp 3mm
+.th .go DEB2
+.if &DEBANTAL > 2
+.th Borrower ¤Borrower ¤Several borrowers
+.th .sp 3mm
+.th .go DEB2
+...DEB2
+.cd 2 0mm 87.5mm
+.cl 80mm
+...DEB1
+.**INGEN KOLONNEDEFINITION - HVIS DER KUN ER 1 DEBITOR ********************
+:SKRSLUT.
+&DEB1ADR1
+.br
+&DEB1ADR2
+.br
+&DEB1ADR3
+.br
+&DEB1ADR4
+.br
+&DEB1ADR5
+.**************************************************************************
+.if &DEBANTAL > 1
+.th .go MED1
+.el .go MED1SL
+...MED1
+.cb
+&DEB2ADR1
+.br
+&DEB2ADR2
+.br
+&DEB2ADR3
+.br
+&DEB2ADR4
+.br
+&DEB2ADR5
+.sc
+...MED1SL
+.sp 3mm
+.**************************************************************************
+Customer no. &DEB1KNDNR
+.if &DEBANTAL > 1
+.th .ct ¤Customer no. &DEB2KNDNR
+.sp 3mm
+.if &DEBANTAL > 1
+.th and as security for the debt that each of them
+owes or may come to owe to
+.sp 3mm
+.*PENGEINSTITUTTET*********************************************************
+&BANK1
+.br
+&BANK2
+.br
+&BANK3
+.sp 3mm
+including any of the bank's branches and departments
+.sp 5mm
+.*I HENHOLD TIL ***********************************************************
+:FED.
+The assets pledged serve as security for
+:SKRSLUT.
+.br
+&HÅPANT1A.&HÅPANT1B
+.br
+&HÅPANT2A.&HÅPANT2B
+.br
+&HÅPANT3A.&HÅPANT3B
+.if &HÅPNTANTAL > 6
+.th .br
+.th continued on the page entitled "More for security for"
+.sp 5mm
+.*STILLES HERVED AF UNDERTEGNED HÅNDPANTSÆTTER(E) *************************
+:FED.
+The undersigned pledgor(s) hereby pledge(s)
+:SKRSLUT.
+.br
+&PANTSÆT1 ¤&MEDPANT1
+.br
+&PANTSÆT2 ¤&MEDPANT2
+.br
+&PANTSÆT3 ¤&MEDPANT3
+.br
+&PANTSÆT4 ¤&MEDPANT4
+.br
+&PANTSÆT5 ¤&MEDPANT5
+.sp 5mm
+.*FØLGENDE EFFEKTER I HÅNDPANT *******************************************
+:FED.
+the following asset(s) as security
+:SKRSLUT.
+:SKRSLUT.
+.br
+:COUR10.
+&PANTSAT01A.&PANTSAT01B
+.br
+&PANTSAT02A.&PANTSAT02B
+.br
+&PANTSAT03A.&PANTSAT03B
+.br
+&PANTSAT04A.&PANTSAT04B
+.br
+&PANTSAT05A.&PANTSAT05B
+.br
+&PANTSAT06A.&PANTSAT06B
+.br
+&PANTSAT07A.&PANTSAT07B
+.br
+&PANTSAT08A.&PANTSAT08B
+.br
+&PANTSAT09A.&PANTSAT09B
+.br
+&PANTSAT10A.&PANTSAT10B
+.br
+&PANTSAT11A.&PANTSAT11B
+.br
+&PANTSAT12A.&PANTSAT12B
+.br
+&PANTSAT13A.&PANTSAT13B
+.br
+&PANTSAT14A.&PANTSAT14B
+.br
+&PANTSAT15A.&PANTSAT15B
+.br
+&PANTSAT16A.&PANTSAT16B
+.br
+&PANTSAT17A.&PANTSAT17B
+.br
+&PANTSAT18A.&PANTSAT18B
+.br
+&PANTSAT19A.&PANTSAT19B
+.br
+&PANTSAT20A.&PANTSAT20B
+.br
+&PANTSAT21A.&PANTSAT21B
+.br
+&PANTSAT22A.&PANTSAT22B
+.br
+&PANTSAT23A.&PANTSAT23B
+.br
+&PANTSAT24A.&PANTSAT24B
+.**************************************************************************

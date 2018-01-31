@@ -1,0 +1,108 @@
+.**************************************************************************
+.da AFTALE        25mm  45.5mm width   80mm
+.da KUNDEOPL      25mm    54mm width   80mm
+.da KUNCPRCVR     25mm  78.5mm width   80mm
+.da UDSTYR1       25mm    96mm width  165mm
+.da LEVDØR        25mm   104mm width  165mm
+.da FORTSÆT       25mm 104.5mm width  169mm
+.da STEL          25mm   112mm width  120mm
+.da REGNR      112.5mm   112mm width   35mm
+.da LEVADR        25mm   127mm width   80mm
+.da BRUGER     112.5mm   127mm width   80mm
+.da LTAGER        21mm   192mm width  169mm
+.da UNDUDLEJ      20mm   243mm width 87.5mm
+.da UNDLEJER   107.5mm   243mm width 87.5mm
+.**************************************************************************
+.ar AFTALE on
+&AFTALENR.
+.ar off
+.**************************************************************************
+.ar KUNDEOPL on
+&ADR1.
+.br
+&ADR2.
+.br
+&ADR3.
+.br
+&ADR4.
+.br
+&ADR5.
+.ar off
+.**************************************************************************
+.ar KUNCPRCVR on
+&KUNDENR.
+.ar off
+.**************************************************************************
+.ar UDSTYR1 on
+.tp 35mm 68mm
+&BESKRIV01.,:SWISS8. årgang:SKRSLUT. &ÅRG01.
+.ar off
+.**************************************************************************
+.ar LEVDØR on
+.tp 12mm
+¤&LEVDCVR01.:SWISS8.,:SKRSLUT. &LEVDNAVN01.
+.ar off
+.**************************************************************************
+.ar FORTSÆT on
+:SWISS8.
+.fo right
+.if &U'X&FORTSÆT = XJ
+.th Fortsættes
+:SKRSLUT.
+.ar off
+.**************************************************************************
+.ar STEL on
+&STELNR01.
+.ar off
+.**************************************************************************
+.ar REGNR on
+&REGISNR01.
+.ar off
+.**************************************************************************
+.ar LEVADR on
+&LEVERADR1.
+.br
+&LEVERADR2.
+.br
+&LEVERADR3.
+.br
+&LEVERADR4.
+.br
+&LEVERADR5.
+.ar off
+.**************************************************************************
+.ar BRUGER on
+.if &L'&LOFBRUGER > 0
+.th &LOFBRUGER.
+.ar off
+.**************************************************************************
+.ar LTAGER on
+.tp 4mm
+¤&ADR1.
+.br
+¤&ADR2.
+.br
+¤&ADR3.
+.br
+¤&ADR4.
+.br
+¤&ADR5.
+.br
+:SWISS8.
+Kundenummer: :SKRSLUT.&KUNDENR.
+.ar off
+.**************************************************************************
+.* HVIS DER SKAL SKRIVES FLERE AKTIVER, SÅ SKAL UNDERSKRIFTSFELTET FLYTTES*
+.if &U'X&FORTSÆT = XJ
+.th .go FOREND1
+.**LEASINGGIVERS UNDERSKRIFT***********************************************
+.ar UNDUDLEJ on
+.ce &AFDBNKNAVN.
+.ar off
+.**LEASINGTAGERS UNDERSKRIFT***********************************************
+.ar UNDLEJER on
+.ce &UNDSNAVN.
+.ar off
+.**************************************************************************
+...FOREND1
+.**************************************************************************

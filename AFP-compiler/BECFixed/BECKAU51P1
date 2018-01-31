@@ -1,0 +1,7 @@
+.* følgende test ligger i systemet ********
+.***************************************
+.*Fejl ved sammensætning af bilag
+.*.if &GENAAR gt 10
+.*Gyldighedsperioden kan max. være 10 år
+.*.if &GENAAR eq 0
+.*.th .mg /T/ Gyldighedsperioden skal mindst være 1 år

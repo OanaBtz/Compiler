@@ -1,0 +1,285 @@
+:SWISS8.
+.kp on
+:FED.
+2.1.3 Information on the general use of &WEBSYSNAVN.
+:SKRSLUT.
+.br
+2.1.3.1 The
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+accepts legally binding financial transactions in &WEBSYSNAVN. when
+entering his or her personal security details.
+.sp 3mm
+.kp off
+.kp on
+2.1.3.2 The customer may conclude and approve agreements with &BANKNAVN.
+electronically in &WEBSYSNAVN..
+.sp 3mm
+.kp off
+.kp on
+2.1.3.3 For certain transactions and agreements in &WEBSYSNAVN.,
+&BANKNAVN. may for security reasons request
+.if &U'&WEBPRIERH = P
+.th the customer
+.el the user
+to confirm the transaction and his or her identity by way not only of the
+.if &U'&WEBPRIERH = P
+.th customer's
+.el user's
+personal security details, but also of an additional functionality
+in &WEBSYSNAVN., such as entry of an one-off access code sent via SMS to
+.if &U'&WEBPRIERH = P
+.th the customer's
+.el the user's
+mobile phone. Such transactions cannot be completed when connecting
+via &MOBSYSNAVN.. Information on limitations on
+certain transactions in &WEBSYSNAVN. is
+available upon request to &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+2.1.3.4
+Where a
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+has not met the requirements or
+fails to provide the information required for the
+additional functionality/functionalit(ies) which may be employed by
+&BANKNAVN. for certain transactions and agreements (e.g. the
+.of 3mm
+*¤others have obtained knowledge of the
+.if &U'&WEBPRIERH = P
+.th customer's
+.el user's
+personal security details
+.of
+.of 3mm
+.if &U'&WEBPRIERH = P
+.th*¤the customer
+.el*¤the user
+finds out or suspects that his or her access to &WEBSYSNAVN. is being
+misused
+.of
+.of 3mm
+.if &U'&WEBPRIERH = P
+.th*¤the customer
+.el*¤the user
+in any other way suspects that his or her access to &WEBSYSNAVN. may
+be misused
+.of
+.sp 3mm
+.kp off
+.kp on
+2.3.1.2 Outside &BANKNAVN.'s opening hours or &WEBSYSNAVN.'s opening
+hours,
+.if &U'&WEBPRIERH = P
+.th the customer
+.el the user
+may block access to &WEBSYSNAVN. by contacting
+&NETS. on telephone &PBSTLF., which is manned 24/7. &ÅCONT
+.if &U'&WEBPRIERH = P
+.th .go 2312P
+.el .go 2312E
+...2312P
+The customer must state his or her name, address, name of the bank to which
+the customer's &WEBSYSNAVN. agreement is linked and, if possible,
+the civil registration number and key card number or user-ID.
+.go 2312END
+...2312E
+The user must state the name of the bank and, if possible,
+the CVR number/civil registration number as well as key card number or
+user-ID.
+...2312END
+.sp 3mm
+.kp off
+.kp on
+2.3.1.3 &BANKNAVN will send a written confirmation to the
+.if &U'&WEBPRIERH = P
+.th customer
+2.2 Power of attorney
+:SKRSLUT.
+.sp 3mm
+2.2.1 The
+.if &U'&WEBPRIERH = P
+.th customer's
+.el user's
+access to &WEBSYSNAVN. is strictly personal. The
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+may not allow any other person to use his or her
+&WEBSYSNAVN. access or personal security details. The customer may
+only give others
+.if &U'&WEBPRIERH = E
+.th than his or her employees
+access to accounts, etc. covered by this agreement by granting a
+separate power of attorney, and only if the attorney is a customer with
+&BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+2.2.2 The power of attorney must be in writing and unambiguous, and
+the content of the power of attorney must be identical with that of
+Power of Attorney - self-service systems. In addition, the power of
+attorney is subject to approval by BEC-Banken. The attorney must
+enter into a separate Netbank agreement in order to gain electronic
+access to the accounts etc. covered by the power of attorney.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.3 Blocking
+:SKRSLUT.
+.sp 3mm
+2.3.1 &ÅCONT.
+.if &U'&WEBPRIERH = P
+.th The customer's
+.el The user's
+obligation to block access to &WEBSYSNAVN.
+.sp 3mm
+.kp off
+.kp on
+2.3.1.1 The &ÅCONT.
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+is obliged to contact &BANKNAVN. as soon as possible on tel. &BANKTLF.
+or block access to &WEBSYSNAVN. via &WEBSYSNAVN., if:
+.tp 3mm
+.if &U'&WEBPRIERH = P
+.th customer's
+.el the user's
+mobile number)
+&BANKNAVN. may choose to limit the customer's access to perform such
+transactions and agreements in &WEBSYSNAVN..
+.sp 3mm
+.kp off
+.kp on
+2.1.3.5 The
+.if &U'&WEBPRIERH = E
+.th user
+.el customer
+may change his or her access code
+and the personally selected PIN code
+or report his or her new mobile number in
+&WEBSYSNAVN. during &WEBSYSNAVN.'s opening hours. Furthermore, the
+.if &U'&WEBPRIERH = E
+.th user
+.el customer
+may report his or her new mobile number by contacting &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+2.1.3.6 The
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+is entitled to use &WEBSYSNAVN. and its functionalities
+during &WEBSYSNAVN.'s opening hours. The
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+cannot use &WEBSYSNAVN. in the event that &BANKNAVN. or &ITCENTRAL.,
+which is the data processing centre of &BANKNAVN., becomes a
+party to an industrial dispute. The
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+will be informed as soon
+as possible when such a dispute commences or ends. Furthermore, the
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+cannot use &WEBSYSNAVN. in the event of any other technical
+interruptions of operations.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+of the blocking are not longer present.
+.sp 3mm
+.kp off
+.kp on
+2.3.2.3 &WEBSYSNAVN. may otherwise be reopened by contacting
+&BANKNAVN.. If the
+.if &U'&WEBPRIERH = P
+.th customer's
+.el user's
+personally selected PIN code to be used for
+access via &MOBSYSNAVN. has been blocked, the
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+must remove such blocking in &WEBSYSNAVN. himself or herself.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.3.3 Consequences of blocking:SKRSLUT.
+.sp 3mm
+2.3.3.1 Blocking will cut off access to &WEBSYSNAVN.. Already booked
+transactions are not comprised by the blocking. &BANKNAVN. will to the
+extent possible prompt a discontinuation of transactions ordered, but not
+yet booked. It is, however, not always possible to discontinue an order,
+no matter if the transaction has been booked or not. Payments of loan
+proceeds or other transactions resulting from agreements
+concluded and approved electronically by the
+.if &U'&WEBPRIERH = P
+.th customer
+.el user
+in &WEBSYSNAVN. and which have not yet been processed are to the extent
+possible suspended.
+.sp 3mm
+.kp off
+.el user
+specifying the time when the blocking was received and the reason for the
+blocking.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+.if &U'&WEBPRIERH = P
+.th 2.3.2 &BANKNAVN.'s right to block the customer's access to &WEBSYSNAVN.
+.el 2.3.2 &BANKNAVN.'s right to block the user's access to &WEBSYSNAVN.
+:SKRSLUT.
+.tp 3mm
+.sp 3mm
+2.3.2.1 &BANKNAVN. is entitled to block access to &WEBSYSNAVN., if:
+.of 3mm
+*¤&BANKNAVN. blocks the accounts linked to &WEBSYSNAVN..
+.of
+.of 3mm
+*¤there is reasonable suspicion that the customer's accounts are being
+misused, including where the customer
+.if &U'&WEBPRIERH = P
+.th is
+.el or the customer's users are
+in breach of the Terms and Conditions of this agreement or any agreed
+limitations in the use of the customer's accounts. This also applies
+if, with respect to payment accounts with a credit facility
+attached, there is a significantly increased risk that the customer cannot
+meet his or her obligations.
+.of
+.of 3mm
+*¤there is reasonable suspicion of misuse of the
+.if &U'&WEBPRIERH = P
+.th customer's
+.el user's
+personal security  details in connection with an electronic
+conclusion of agreement.
+.of
+.of 3mm
+*¤there is reasonable suspicion of virus or computer hacker attack or
+similar security related causes,
+including three unsuccessful entries of the personally selected PIN code.
+.of
+.sp 3mm
+.kp off
+.kp on
+2.3.2.2 &BANKNAVN. will inform the customer in writing before the blocking,
+if possible, or immediately after the blocking, stating the time of the
+blocking and, if possible, the cause of the blocking, unless
+information on the cause of the blocking may harm security in
+&WEBSYSNAVN.. &BANKNAVN. may cancel the blocking when the causes

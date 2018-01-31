@@ -1,0 +1,40 @@
+.*
+.su off
+.se num01 = substr &KUN01KNDNR 1 2
+.se num02 = substr &KUN02KNDNR 1 2
+.se num03 = substr &KUN03KNDNR 1 2
+.se num04 = substr &KUN04KNDNR 1 2
+.se num05 = substr &KUN05KNDNR 1 2
+.se num06 = substr &KUN06KNDNR 1 2
+.se num07 = substr &KUN07KNDNR 1 2
+.se num08 = substr &KUN08KNDNR 1 2
+.se num09 = substr &KUN09KNDNR 1 2
+.se num10 = substr &KUN10KNDNR 1 2
+.se num11 = substr &KUN11KNDNR 1 2
+.se num12 = substr &KUN12KNDNR 1 2
+.se num13 = substr &KUN13KNDNR 1 2
+.se num14 = substr &KUN14KNDNR 1 2
+.se num15 = substr &KUN15KNDNR 1 2
+.se num16 = substr &KUN16KNDNR 1 2
+.se num17 = substr &KUN17KNDNR 1 2
+.se num18 = substr &KUN18KNDNR 1 2
+.se num19 = substr &KUN19KNDNR 1 2
+.se num20 = substr &KUN20KNDNR 1 2
+.se num21 = substr &KUN21KNDNR 1 2
+.se num22 = substr &KUN22KNDNR 1 2
+.se num23 = substr &KUN23KNDNR 1 2
+.se num24 = substr &KUN24KNDNR 1 2
+.se num25 = substr &KUN25KNDNR 1 2
+.se num26 = substr &KUN26KNDNR 1 2
+.se num27 = substr &KUN27KNDNR 1 2
+.se num28 = substr &KUN28KNDNR 1 2
+.se num29 = substr &KUN29KNDNR 1 2
+.se num30 = substr &KUN30KNDNR 1 2
+.se num31 = substr &KUN31KNDNR 1 2
+.se num32 = substr &KUN32KNDNR 1 2
+.se num33 = substr &KUN33KNDNR 1 2
+.se num34 = substr &KUN34KNDNR 1 2
+.se reg = substr &DEPOTNR 1 4
+.se dep = substr &DEPOTNR 5 7
+.su on
+.***

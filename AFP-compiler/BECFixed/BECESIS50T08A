@@ -1,0 +1,279 @@
+.if &U'X&LINJSKIP54 = XJ
+.th .br
+.if &L'&YDLFOR55A > 0
+.th .ct &YDLFOR55A.
+.if &U'X&LINJSKIP55 = XJ
+.th .br
+.if &L'&YDLFOR56A > 0
+.th .ct &YDLFOR56A.
+.if &U'X&LINJSKIP56 = XJ
+.th .br
+.if &L'&YDLFOR57A > 0
+.th .ct &YDLFOR57A.
+.if &U'X&LINJSKIP57 = XJ
+.th .br
+.if &L'&YDLFOR58A > 0
+.th .ct &YDLFOR58A.
+.if &U'X&LINJSKIP58 = XJ
+.th .br
+.if &L'&YDLFOR59A > 0
+.th .ct &YDLFOR59A.
+.if &U'X&LINJSKIP59 = XJ
+.th .br
+.if &L'&YDLFOR60A > 0
+.th .ct &YDLFOR60A.
+.th .kp off
+.th .kp on
+.if &U'X&LINJSKIP60 = XJ
+.th .br
+.*************************
+.th .br
+.if &L'&YDLFOR43A > 0
+.th .ct &YDLFOR43A.
+.if &U'X&LINJSKIP43 = XJ
+.th .br
+.if &L'&YDLFOR44A > 0
+.th .ct &YDLFOR44A.
+.if &U'X&LINJSKIP44 = XJ
+.th .br
+.if &L'&YDLFOR45A > 0
+.th .ct &YDLFOR45A.
+.if &U'X&LINJSKIP45 = XJ
+.th .br
+.if &L'&YDLFOR46A > 0
+.th .ct &YDLFOR46A.
+.if &U'X&LINJSKIP46 = XJ
+.th .br
+.if &L'&YDLFOR47A > 0
+.th .ct &YDLFOR47A.
+.if &U'X&LINJSKIP47 = XJ
+.th .br
+.if &L'&YDLFOR48A > 0
+.th .ct &YDLFOR48A.
+.if &U'X&LINJSKIP48 = XJ
+.th .br
+.if &L'&YDLFOR49A > 0
+.th .ct &YDLFOR49A.
+.if &U'X&LINJSKIP49 = XJ
+.th .br
+.if &L'&YDLFOR50A > 0
+.th .ct &YDLFOR50A.
+.th .kp off
+.th .kp on
+.if &U'X&LINJSKIP50 = XJ
+.th .br
+.**************************
+.if &L'&YDLFOR51A > 0
+.th .ct &YDLFOR51A.
+.if &U'X&LINJSKIP51 = XJ
+.th .br
+.if &L'&YDLFOR52A > 0
+.th .ct &YDLFOR52A.
+.if &U'X&LINJSKIP52 = XJ
+.th .br
+.if &L'&YDLFOR53A > 0
+.th .ct &YDLFOR53A.
+.if &U'X&LINJSKIP53 = XJ
+.th .br
+.if &L'&YDLFOR54A > 0
+.th .ct &YDLFOR54A.
+.******************************************************************
+.tp 5mm 10mm
+.*.dr tynd weight 0.2mm
+.****************************
+.kp on
+.hr left right
+:SWISS10.
+:FED. 8. Yderligere forpligtelser:SKRSLUT.
+:SKRSLUT.
+:SWISS9.
+.hr left right
+.sp 1.5mm
+.if &U'&GENMEDKTOH = J
+.th I
+.el Du
+skal opfylde følgende forpligtelser for at kunne drage fordel
+af de lånebetingelser, der er anført i dette dokument:
+.sp 3mm
+.kp off
+.ll 178mm
+.kp on
+.if &L'&YDLFOR01A > 0
+.th .ct &YDLFOR01A.
+.if &U'X&LINJSKIP01 = XJ
+.th .br
+.if &L'&YDLFOR02A > 0
+.th .ct &YDLFOR02A.
+.if &U'X&LINJSKIP02 = XJ
+.th .br
+.if &L'&YDLFOR03A > 0
+.th .ct &YDLFOR03A.
+.if &U'X&LINJSKIP03 = XJ
+.th .br
+.if &L'&YDLFOR04A > 0
+.th .ct &YDLFOR04A.
+.if &U'X&LINJSKIP04 = XJ
+.th .br
+.if &L'&YDLFOR05A > 0
+.th .ct &YDLFOR05A.
+.if &U'X&LINJSKIP05 = XJ
+.th .br
+.if &L'&YDLFOR06A > 0
+.th .ct &YDLFOR06A.
+.if &U'X&LINJSKIP06 = XJ
+.th .br
+.if &L'&YDLFOR07A > 0
+.th .ct &YDLFOR07A.
+.if &U'X&LINJSKIP07 = XJ
+.th .br
+.if &L'&YDLFOR08A > 0
+.th .ct &YDLFOR08A.
+.if &U'X&LINJSKIP08 = XJ
+.th .br
+.if &L'&YDLFOR09A > 0
+.th .ct &YDLFOR09A.
+.if &U'X&LINJSKIP09 = XJ
+.th .br
+.if &L'&YDLFOR10A > 0
+.th .ct &YDLFOR10A.
+.th .kp off
+.th .kp on
+.if &U'X&LINJSKIP10 = XJ
+.th .br
+.**************************
+.if &L'&YDLFOR11A > 0
+.th .ct &YDLFOR11A.
+.if &U'X&LINJSKIP11 = XJ
+.th .br
+.if &L'&YDLFOR12A > 0
+.th .ct &YDLFOR12A.
+.if &U'X&LINJSKIP12 = XJ
+.th .br
+.if &L'&YDLFOR13A > 0
+.th .ct &YDLFOR13A.
+.if &U'X&LINJSKIP13 = XJ
+.th .br
+.if &L'&YDLFOR14A > 0
+.th .ct &YDLFOR14A.
+.if &U'X&LINJSKIP14 = XJ
+.th .br
+.if &L'&YDLFOR15A > 0
+.th .ct &YDLFOR15A.
+.if &U'X&LINJSKIP15 = XJ
+.th .br
+.if &L'&YDLFOR16A > 0
+.th .ct &YDLFOR16A.
+.if &U'X&LINJSKIP16 = XJ
+.th .br
+.if &L'&YDLFOR17A > 0
+.th .ct &YDLFOR17A.
+.if &U'X&LINJSKIP17 = XJ
+.th .br
+.if &L'&YDLFOR18A > 0
+.th .ct &YDLFOR18A.
+.if &U'X&LINJSKIP18 = XJ
+.th .br
+.if &L'&YDLFOR19A > 0
+.th .ct &YDLFOR19A.
+.if &U'X&LINJSKIP19 = XJ
+.th .br
+.if &L'&YDLFOR20A > 0
+.th .ct &YDLFOR20A.
+.th .kp off
+.th .kp on
+.if &U'X&LINJSKIP20 = XJ
+.th .br
+.*************************
+.if &L'&YDLFOR21A > 0
+.th .ct &YDLFOR21A.
+.if &U'X&LINJSKIP21 = XJ
+.th .br
+.if &L'&YDLFOR22A > 0
+.th .ct &YDLFOR22A.
+.if &U'X&LINJSKIP22 = XJ
+.th .br
+.if &L'&YDLFOR23A > 0
+.th .ct &YDLFOR23A.
+.if &U'X&LINJSKIP23 = XJ
+.th .br
+.if &L'&YDLFOR24A > 0
+.th .ct &YDLFOR24A.
+.if &U'X&LINJSKIP24 = XJ
+.th .br
+.if &L'&YDLFOR25A > 0
+.th .ct &YDLFOR25A.
+.if &U'X&LINJSKIP25 = XJ
+.th .br
+.if &L'&YDLFOR26A > 0
+.th .ct &YDLFOR26A.
+.if &U'X&LINJSKIP26 = XJ
+.th .br
+.if &L'&YDLFOR27A > 0
+.th .ct &YDLFOR27A.
+.if &U'X&LINJSKIP27 = XJ
+.th .br
+.if &L'&YDLFOR28A > 0
+.th .ct &YDLFOR28A.
+.if &U'X&LINJSKIP28 = XJ
+.th .br
+.if &L'&YDLFOR29A > 0
+.th .ct &YDLFOR29A.
+.if &U'X&LINJSKIP29 = XJ
+.th .br
+.if &L'&YDLFOR30A > 0
+.th .ct &YDLFOR30A.
+.th .kp off
+.th .kp on
+.if &U'X&LINJSKIP30 = XJ
+.th .br
+.**************************
+.if &L'&YDLFOR31A > 0
+.th .ct &YDLFOR31A.
+.if &U'X&LINJSKIP31 = XJ
+.th .br
+.if &L'&YDLFOR32A > 0
+.th .ct &YDLFOR32A.
+.if &U'X&LINJSKIP32 = XJ
+.th .br
+.if &L'&YDLFOR33A > 0
+.th .ct &YDLFOR33A.
+.if &U'X&LINJSKIP33 = XJ
+.th .br
+.if &L'&YDLFOR34A > 0
+.th .ct &YDLFOR34A.
+.if &U'X&LINJSKIP34 = XJ
+.th .br
+.if &L'&YDLFOR35A > 0
+.th .ct &YDLFOR35A.
+.if &U'X&LINJSKIP35 = XJ
+.th .br
+.if &L'&YDLFOR36A > 0
+.th .ct &YDLFOR36A.
+.if &U'X&LINJSKIP36 = XJ
+.th .br
+.if &L'&YDLFOR37A > 0
+.th .ct &YDLFOR37A.
+.if &U'X&LINJSKIP37 = XJ
+.th .br
+.if &L'&YDLFOR38A > 0
+.th .ct &YDLFOR38A.
+.if &U'X&LINJSKIP38 = XJ
+.th .br
+.if &L'&YDLFOR39A > 0
+.th .ct &YDLFOR39A.
+.if &U'X&LINJSKIP39 = XJ
+.th .br
+.if &L'&YDLFOR40A > 0
+.th .ct &YDLFOR40A.
+.th .kp off
+.th .kp on
+.if &U'X&LINJSKIP40 = XJ
+.th .br
+.*************************
+.if &L'&YDLFOR41A > 0
+.th .ct &YDLFOR41A.
+.if &U'X&LINJSKIP41 = XJ
+.th .br
+.if &L'&YDLFOR42A > 0
+.th .ct &YDLFOR42A.
+.if &U'X&LINJSKIP42 = XJ

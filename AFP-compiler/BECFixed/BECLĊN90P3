@@ -1,0 +1,30 @@
+.an &L'&GENLÄN9 = 0
+.an &L'&GENLÄN10 = 0
+.th .mg/T/Indtast beskrivelse for optagne lÄn/
+.**************************************************************************
+.if &L'&GENALTÄOP = 0
+.th .mg/T/Indtast ÄOP for det alternative lÄn/
+.**************************************************************************
+.if &L'&GENOPTÄOP = 0
+.th .mg/T/Indtast ÄOP for det optagne lÄn/
+.**************************************************************************
+.if &L'&GENJANEJ1 = 0
+.th .mg/T/Du skal vÄlge Ja eller Nej til afvigelse for unge kunder/
+.**************************************************************************
+.if &L'&GENJANEJ2 = 0
+.th .mg/T/Du skal vÄlge Ja eller Nej til om det valgte lÄn anbefales/
+.**************************************************************************
+.if &U'&GENJANEJ2 = N
+.an &L'&GENTEKST51 = 0
+.an &L'&GENTEKST52 = 0
+.an &L'&GENTEKST53 = 0
+.an &L'&GENTEKST54 = 0
+.an &L'&GENTEKST55 = 0
+.an &L'&GENTEKST56 = 0
+.an &L'&GENTEKST57 = 0
+.an &L'&GENTEKST58 = 0
+.an &L'&GENTEKST59 = 0
+.an &L'&GENTEKST60 = 0
+.th .mg/T/Indtast beskrivelse for, hvorfor lÄnet ikke anbefales/
+.**************************************************************************
+...ENDTEST

@@ -1,0 +1,81 @@
+.**************************************************************************
+.da KUNDEOPL   25mm   48mm width  84mm
+.da PIOPL      25mm 73.6mm width  84mm
+.da KUNDENR   112.5mm   52mm width  84mm
+.if &U'&WEBPRIERH = E
+.th .da BRUGERNR  25mm  120.5mm width 170mm
+.el .da BRUGERNR  25mm  117.5mm width 170mm
+.da BRUGNAVN  25mm  130.5mm width 170mm
+.da BRUGERNR1 112.5mm 120.5mm width 170mm
+.da BRUGNAVN1 112.5mm 130.5mm width 170mm
+.if &U'&WEBPRIERH = E
+.th .da FORHOLD  25mm 168mm width 175mm
+.el .da FORHOLD  25mm 131mm width 175mm
+.**************************************************************************
+.ar KUNDEOPL on
+.if &L'&LAND = 0
+.th &STILL
+.th .br
+&NAVN
+.br
+&COADR
+.br
+&GADE
+.br
+&BY
+.br
+.if &L'&LAND > 0
+.th &LAND
+.ar off
+.**************************************************************************
+.ar PIOPL on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.br
+&BANKEMAIL
+.ar off
+.**************************************************************************
+.ar KUNDENR on
+&KUNDENR
+.ar off
+.*BRUGERNUMMER ERHVERV 1 **************************************************
+.ar BRUGERNR on
+.if &U'&WEBPRIERH = P
+.th .go PBRUG
+&GENBRUGNR
+.ar off
+.**************
+.ar BRUGNAVN on
+&GENBRUGNVN
+.ar off
+.*BRUGERNUMMER ERHVERV 2 **************************************************
+.ar BRUGERNR1 on
+.if &L'&GENBRUGNR1 > 0
+.th &GENBRUGNR1
+.ar off
+.***************
+.ar BRUGNAVN1 on
+.if &L'&GENBRUGNV1 > 0
+.th &GENBRUGNV1
+.ar off
+.go BRUGSLUT
+.*BRUGERNUMMER PRIVAT******************************************************
+...PBRUG
+.ar BRUGERNR on
+&GENBRUGNR
+.ar off
+.**************
+...BRUGSLUT
+.**************************************************************************
+.ar FORHOLD on
+&GENTEKST1
+.br
+&GENTEKST2
+.br
+&GENTEKST3
+.ar off

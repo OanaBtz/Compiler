@@ -1,0 +1,140 @@
+.da AFGIFT   124mm 5.5mm width 60mm
+.da SENR     115mm 23.5mm width 60mm
+.da ANMELDER 115mm 35mm width 88mm
+.da DEBITOR 29mm 100mm width 80mm
+.da MEDDEB 115mm 100mm width 80mm
+.da KRYDS1 29mm 136mm width 160mm
+.da KRYDS2 29mm 144.5mm width 160mm
+.da KRYDS3 29mm 157.5mm width 160mm
+.da KRYDS4 29mm 165.5mm width 160mm
+.da KRYDS5 29mm 173.5mm width 160mm
+.da KRYDS6 29mm 181.5mm width 160mm
+.da KRYDS7 29mm 189.5mm width 160mm
+.da KRYDS8 29mm 197.5mm width 160mm
+.da KRYDS9 29mm 205.5mm width 160mm
+.da KRYDS10 29mm 218.5mm width 160mm
+.da KRYDS11 29mm 227.5mm width 160mm
+.da PÅTALE 29mm 248mm width 170mm
+.**************************************************************************
+.ar AFGIFT on
+:VS. &AFGIFT
+.ar off
+.**************************************************************************
+.ar SENR on
+&ANMELDER50
+.ar off
+.**************************************************************************
+.ar ANMELDER on
+&ANMELDER10
+.br
+&ANMELDER20
+.br
+&ANMELDER30
+.br
+&ANMELDER40
+.ar off
+.************************************************************************
+.ar DEBITOR on
+&DEPKUNDENR
+.if &L'&GENCVRCPR > 0
+.th .go TSTCPR
+.el .go TSTCPRSL
+...TSTCPR
+.if &GENCVRCPR ne &DEPKUNDENR
+.th / &GENCVRCPR
+...TSTCPRSL
+.br
+&DEBITOR1
+.br
+&DEBITOR2
+.br
+&DEBITOR3
+.br
+&DEBITOR4
+.br
+&DEBITOR5
+.ar off
+.************************************************************************
+.ar MEDDEB on
+&MEDEJERNR
+.br
+&MEDEJER1
+.br
+&MEDEJER2
+.br
+&MEDEJER3
+.br
+&MEDEJER4
+.br
+&MEDEJER5
+.ar off
+.************************************************************************
+.tp 2.5mm center
+.*************************************************************************
+.ar KRYDS1 on
+.if &L'&GENKRYDS1 > 0
+.th ¤X
+.ar off
+.**************************************************************************
+.ar KRYDS2 on
+.if &L'&GENKRYDS2 > 0
+.th ¤X
+.ar off
+.**************************************************************************
+.ar KRYDS3 on
+.if &L'&GENKRYDS3 > 0
+.th ¤X
+.ar off
+.**************************************************************************
+.ar KRYDS4 on
+.if &L'&GENKRYDS4 > 0
+.th ¤X
+.ar off
+.**************************************************************************
+.ar KRYDS5 on
+.if &L'&GENKRYDS5 > 0
+.th ¤X
+.ar off
+.**************************************************************************
+.ar KRYDS6 on
+.if &L'&GENKRYDS6 > 0
+.th ¤X
+.ar off
+.**************************************************************************
+.ar KRYDS7 on
+.if &L'&GENKRYDS7 > 0
+.th ¤X
+.ar off
+.**************************************************************************
+.ar KRYDS8 on
+.if &L'&GENKRYDS8 > 0
+.th ¤X
+.ar off
+.**************************************************************************
+.ar KRYDS9 on
+.if &L'&GENKRYDS9 > 0
+.th ¤X
+.ar off
+.**************************************************************************
+.ar KRYDS10 on
+.if &L'&GENKRYDS10 > 0
+.th ¤X
+.ar off
+.**************************************************************************
+.ar KRYDS11 on
+.if &L'&GENKRYDS11 > 0
+.th ¤X
+.ar off
+.**************************************************************************
+.ar PÅTALE on
+&PÅTALE1
+.br
+&PÅTALE2
+.br
+&PÅTALE3
+.br
+&PÅTALE4
+.br
+&PÅTALE5
+.ar off
+.**************************************************************************

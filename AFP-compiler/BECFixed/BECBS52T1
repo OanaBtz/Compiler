@@ -1,0 +1,52 @@
+.*******************************************************
+.da KUNDEOPL   25mm 48mm width 84mm
+.da PIOPL      112.5mm 48mm width 84mm
+.da KUNDENR    25mm 72.5mm width 35mm
+.da PIMAIL   112.5mm 72.5mm width 80mm
+.da UNDERSKRKU 20mm 274mm width 87mm
+.da UNDERSKRPI 107mm 274mm width 87mm
+.*******************************************************
+.ar KUNDEOPL on
+&STILL
+.br
+&NAVN
+.br
+&COADR
+.br
+&GADE
+.br
+&BY
+.br
+&LAND
+.ar off
+.*******************************************************
+.ar PIOPL on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.*******************************************************
+.ar KUNDENR on
+&KUNDENR
+.ar off
+.*******************************************************
+.ar PIMAIL on
+&BANKEMAIL
+.ar off
+.*******************************************************
+.ar UNDERSKRKU on
+.ce on
+&NAVN
+.ce off
+.ar off
+.*******************************************************
+.ar UNDERSKRPI on
+.ce on
+&BANKNAVN
+.ce off
+.ar off
+.*******************************************************

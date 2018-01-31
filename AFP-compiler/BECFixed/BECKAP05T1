@@ -1,0 +1,41 @@
+:COUR10.
+.******************************************************************
+.da KUNDEOPL        25mm  50mm width 84mm
+.da CPR             32mm  70.8mm width 170mm
+.da KUNDEUN         116mm 78mm width 76mm
+.da PIOPL           25mm  215mm width 84mm
+.******************************************************************
+.ti ^ 05
+.ar KUNDEOPL on
+&STILL
+.br
+&NAVN
+.br
+&COADR
+.br
+&GADE
+.br
+&BY
+.br
+.ar off
+.*************************************
+.ar CPR on
+&KTOKNDNR1
+.ar off
+.*************************************
+.*ar KUNDEUN on
+.*&NAVN
+.*ar off
+.************************************************
+.ar PIOPL on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.br
+&AFDTLF
+.ar off
+.*************************************

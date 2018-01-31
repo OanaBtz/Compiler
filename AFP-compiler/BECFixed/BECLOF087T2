@@ -1,0 +1,178 @@
+.**************************************************************************
+.** § 2.B og § 2.C ********************************************************
+.dr thin weight 0.1mm
+.in 5mm
+.tp 15mm
+:SWISS8.
+:FED.
+§ 2.B¤ÅOP, samlede kreditomkostninger, det samlede beløb der skal betales
+.sp
+:SKRSLUT.
+.tp 120mm 160mm right
+Årlige omkostninger i procent (ÅOP):SKRSLUT.¤¤&LOFÅOP. %:SWISS8.
+.sp
+Stiftelsesomkostninger¤kr.¤:SKRSLUT.&FINOMK.:SWISS8.
+.br
+Samlede renter m.v. i løbetiden¤kr.¤:SKRSLUT.&TOTRTEBEL.:SWISS8.
+.br
+Terminsgebyrer i lånets løbetid¤kr.¤:SKRSLUT.&TOTKTOGEB.:SWISS8.
+.sp
+Samlede kreditomkostninger¤kr.¤:SKRSLUT.&TOTKREOMK.:SWISS8.
+.hr thin 120mm 160mm
+.br
+Det samlede beløb der skal betales
+.br
+(Samlede kreditbeløb + samlede kreditomk.)¤kr.¤:SKRSLUT.&KREDKØBPR.:SWISS8.
+.hr thin 120mm 160mm
+.sp
+Ved beregningen af kreditomkostningerne er forudsat, at
+leveringstidspunktet er den &DATO.. Fra denne dato og frem til
+førstkommende 1. udgør den beregnede rente kr. :SKRSLUT.&SKÆVRNTBEL.
+:SWISS8. der tillægges restkøbesummen.
+.sp
+:FED.
+.tp 15mm
+§ 2.C¤Forrentning og afvikling:SKRSLUT.
+.sp
+Restkøbesummen forrentes og betales af køber med i alt :SKRSLUT.&LØBETIDM1.
+:SWISS8.månedlige ydelser, hver den 1. på kr. :SKRSLUT.&SUMYDKTOG.,
+:SWISS8.første gang den :SKRSLUT.&FFDATO..:SWISS8. Sidste ydelse er på kr.
+:SKRSLUT.&YDSIDSTE.:SWISS8. og betales den :SKRSLUT.&SGDATO..:SWISS8.
+Det samlede antal ydelser udgør således :SKRSLUT.&LØBETID..:SWISS8.
+.br
+Afviklingen er beregnet ud fra,
+.us at
+kontrakten afvikles normalt, det vil
+sige rettidigt og uden gebyrberegning,
+.us at
+renten er uændret i hele
+kontraktperioden, og
+.us at
+det forudsatte leveringstidspunkt er identisk
+med datoen for finansieringens start.
+.sp
+.tp 15mm
+.if &U'&GENVALGA = V
+.th .go VARRTE
+.of 10mm
+FAST¤Renten i nærværende kontrakt er fast. Den i aftalen gældende rente er
+beregnet ud fra Nationalbankens Indskudsbevisrente (NIB) pr. den :SKRSLUT.
+&DATO.:SWISS8. Såfremt Nationalbankens Indskudsbevisrente ændres inden
+aftalens endelige underskrift, forbeholder sælger/overdrager sig ret til
+at ændre rente tilsvarende for nærværende aftale. Ændringen kan medføre,
+at stigninger indregnes i de enkelte ydelser, således at den oprindeligt
+aftalte løbetid ikke forlænges.
+.of
+.sp
+.go SLUTRTE
+...VARRTE
+.of 10mm
+VAR¤Hvis renten ændres i kontraktperioden, kan det medføre, at løbetiden
+ændres. Sælger kan forlange, at ydelsen ændres, så løbetiden ikke ændres.
+.sp
+Debitorrenten er variabel og refererer til en rente (referencesatsen), der
+er identisk med den til enhver tid af Nationalbanken fastsatte rente for
+Indskudsbevisrente (NIB) der den &DATO., andrager &RENTE. %. Indtræder
+der ændringer i referencesatsen i
+op- eller nedadgående retning, ændres debitorrenten i købekontrakten
+tilsvarende.
+.sp
+Regulering foretages med virkning fra og med samme dato som Nationalbankens
+Indskudsbevisrente ændres.
+.sp
+Ændringen vil blive meddelt køber efterfølgende i førstkommende
+betalingsadvis, kontomeddelelse eller lignende meddelelse. Bortfalder
+referencesatsen, eller kan kreditgiver påvise, at referencesatsen har
+mistet sin betydning, kan kreditgiver anvende en anden referencesats,
+forudsat at denne i det væsentlige stiller parterne uændret.
+.of
+.sp
+...SLUTRTE
+Køber er berettiget til på anmodning til enhver tid i købekontraktens
+løbetid at modtage en opgørelse i form af en amortiseringsplan.
+.sp
+Den årlige pålydende rente er for tiden :SKRSLUT.&PÅRENTE1. %,:SWISS8. og
+den årlige debitorrente udgør for tiden :SKRSLUT.&NOMRENTE. %.:SWISS8.
+.sp
+Renten beregnes dagligt og tilskrives månedligt bagud. renten beregnes på
+basis af kalenderåret (hhv. 365/366 dage). Renteberegningsmetoden kan
+ændres. Ændringen vil blive meddelt køber ved brev (særskilt underretning),
+betalingsadvis, kontomeddelelese eller lignende meddelelse.
+.sp
+Ved betaling efter forfaldsdag, betaler køber rykkergebyr(er) og morarenter
+efter samme rentesats som aftalt i kontrakten. Er den aftalte rentesats
+lavere end højeste rentesats i henhold til renteloven, forbeholder
+kreditgiver sig ret til at opkræve renter i henhold til rentelovens
+bestemmelser om rente ved forsinket betaling.
+.sp
+.kp on
+:FED.
+Afvikling
+:SKRSLUT.
+.tp 15mm right 55mm right 94mm right 132mm right 169mm right
+¤År¤Restgæld¤Ydelse¤Rente¤Afdrag
+:SKRSLUT.
+.if &L'&ÅR01 = 0
+.th .go SAVK
+.br
+¤&ÅR01.¤&ÅRURESTG01.¤&ÅRYDELSE01.¤&ÅRRENTE01.¤&ÅRAFDRAG01.
+.if &L'&ÅR02 = 0
+.th .go SAVK
+.br
+¤&ÅR02.¤&ÅRURESTG02.¤&ÅRYDELSE02.¤&ÅRRENTE02.¤&ÅRAFDRAG02.
+.if &L'&ÅR03 = 0
+.th .go SAVK
+.br
+¤&ÅR03.¤&ÅRURESTG03.¤&ÅRYDELSE03.¤&ÅRRENTE03.¤&ÅRAFDRAG03.
+.if &L'&ÅR04 = 0
+.th .go SAVK
+.br
+¤&ÅR04.¤&ÅRURESTG04.¤&ÅRYDELSE04.¤&ÅRRENTE04.¤&ÅRAFDRAG04.
+.if &L'&ÅR05 = 0
+.th .go SAVK
+.br
+¤&ÅR05.¤&ÅRURESTG05.¤&ÅRYDELSE05.¤&ÅRRENTE05.¤&ÅRAFDRAG05.
+.if &L'&ÅR06 = 0
+.th .go SAVK
+.br
+¤&ÅR06.¤&ÅRURESTG06.¤&ÅRYDELSE06.¤&ÅRRENTE06.¤&ÅRAFDRAG06.
+.if &L'&ÅR07 = 0
+.th .go SAVK
+.br
+¤&ÅR07.¤&ÅRURESTG07.¤&ÅRYDELSE07.¤&ÅRRENTE07.¤&ÅRAFDRAG07.
+.if &L'&ÅR08 = 0
+.th .go SAVK
+.br
+¤&ÅR08.¤&ÅRURESTG08.¤&ÅRYDELSE08.¤&ÅRRENTE08.¤&ÅRAFDRAG08.
+.if &L'&ÅR09 = 0
+.th .go SAVK
+.br
+¤&ÅR09.¤&ÅRURESTG09.¤&ÅRYDELSE09.¤&ÅRRENTE09.¤&ÅRAFDRAG09.
+.if &L'&ÅR10 = 0
+.th .go SAVK
+.br
+¤&ÅR10.¤&ÅRURESTG10.¤&ÅRYDELSE10.¤&ÅRRENTE10.¤&ÅRAFDRAG10.
+.if &L'&ÅR11 = 0
+.th .go SAVK
+.br
+¤&ÅR11.¤&ÅRURESTG11.¤&ÅRYDELSE11.¤&ÅRRENTE11.¤&ÅRAFDRAG11.
+.if &L'&ÅR12 = 0
+.th .go SAVK
+.br
+¤&ÅR12.¤&ÅRURESTG12.¤&ÅRYDELSE12.¤&ÅRRENTE12.¤&ÅRAFDRAG12.
+.if &L'&ÅR13 = 0
+.th .go SAVK
+.br
+¤&ÅR13.¤&ÅRURESTG13.¤&ÅRYDELSE13.¤&ÅRRENTE13.¤&ÅRAFDRAG13.
+.if &L'&ÅR14 = 0
+.th .go SAVK
+.br
+¤&ÅR14.¤&ÅRURESTG14.¤&ÅRYDELSE14.¤&ÅRRENTE14.¤&ÅRAFDRAG14.
+.if &L'&ÅR15 = 0
+.th .go SAVK
+.br
+¤&ÅR15.¤&ÅRURESTG15.¤&ÅRYDELSE15.¤&ÅRRENTE15.¤&ÅRAFDRAG15.
+...SAVK
+.sp
+:SWISS8.
+.kp off

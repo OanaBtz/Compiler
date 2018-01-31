@@ -1,0 +1,71 @@
+:SWISS8.
+.hy off
+.**************************************************************************
+.da INDHOLD 21mm 88mm width 170mm
+.da KS1 20mm 108mm width 5mm
+.da PKT1 30mm 108mm width 160mm
+.da KS2 20mm 130mm width 5mm
+.da PKT2 30mm 130mm width 160mm
+.da TXT 21mm 154mm width 170mm
+.**************************************************************************
+.ar INDHOLD on
+Alt materiale fra &LOENSYSTEM skal altid kontrolleres straks efter
+modtagelsen.
+.sp 3mm
+Hvis fakturering for brugen af &LOENSYSTEM skal ske
+hos serviceleverandøren skal følgende konto anvendes
+.sp
+Hvis ikke kontonr. er oplyst her, sker faktureringen hos den enkelte
+kundevirksomhed.
+.ar off
+.*KASSE1*******************************************************************
+.ar KS1 on
+.bx 5mm 8mm
+.sp 1.5mm
+.bx off
+.ar off
+.*TEKST TIL KASSE1*********************************************************
+.ar PKT1 on
+:SWISS10.
+Jeg/vi ønsker at indberette til &LOENSYSTEM via internet
+(kryds af)
+.sp 3mm
+:SWISS8.
+Oprettelse og ajourføring af arbejdsgiveroplysninger udføres af
+&LOENSYSTEM.. Øvrige oplysninger, der bl.a. omfatter lønartsoplysninger,
+medarbejderstamoplysninger og lønlister til lønberegning
+foretager serviceleverandøren. For at kunne anvende denne
+facilitet skal serviceleverandøren
+tillige underskrive Aftale om &LOENSYSTEM
+via internet for serviceleverandør.
+.ar off
+.*KASSE2*******************************************************************
+.ar KS2 on
+.bx 5mm 8mm
+.sp 1.5mm
+.bx off
+.ar off
+.*TEKST TIL KASSE2*********************************************************
+.ar PKT2 on
+:SWISS10.
+Jeg/vi ønsker at indberette til &LOENSYSTEM via blanket (kryds
+af)
+.sp 3mm
+:SWISS8.
+Oprettelse og ajourføring af arbejdsgiveroplysninger udføres af
+&LOENSYSTEM.. Øvrige oplysninger, der bl.a. omfatter lønartsoplysninger,
+medarbejderstamoplysninger og lønlister til lønberegning
+udfylder serviceleverandøren
+på de udleverede blanketter og sender
+dem til &LOENSYSTEM.. Materiale skal inden aflevering forsynes
+med stempel og underskrift. Ved underskrift indestår serviceleverandør
+for, at de indsendte oplysninger er korrekte.
+.ar off
+.**************************************************************************
+.ar TXT on
+:SWISS8.:FED.
+&LOENEJER.'s Almindelige regler og vilkår for &LOENSYSTEM., inklusiv
+Vejledning for Arbejdsgiver er en integreret del af denne aftale,
+som undertegnede accepterer.
+:SKRSLUT.
+.ar off

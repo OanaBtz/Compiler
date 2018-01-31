@@ -1,0 +1,78 @@
+:NY.
+.*.ti ^ 05
+.da box 20mm 33.5mm width 185mm
+.ar box on
+.*.sd a shade light
+.**************************************************************************
+.*.bx shade a 113mm 184mm
+.*.in 118mm
+:SWISS12.
+:FED.
+.US Forespørgsel/meddelelse vedr. indbetalingskort
+:SKRSLUT.
+.*.bx off
+:SWISS10.
+.sp 2mm
+.**************************************************************************
+.*.in 4mm
+.*.bx 0mm 181mm
+:FED.
+Til Pengeinstitut
+:SKRSLUT.
+.bx new 0mm 91mm 181mm
+.sp 36mm
+.bx new 0mm 181mm
+.sp 0.1mm
+.bx new 1mm 5mm
+.sp 2.5mm
+.bx off
+.sp 4mm
+.bx new 1mm 5mm
+.sp 2.5mm
+.bx off
+.sp 5.9mm
+.bx off
+.bx can
+:SWISS10.
+:FED.
+Kortoplysninger/arkivnøgle
+:SKRSLUT.
+:COUR10.
+.bx new 0mm 109mm 181mm
+.sp 17mm
+.hr 0mm 109mm
+.sp 17mm
+.bx off
+.*:SWISS10.
+:FED.
+Yderligere oplysninger
+:SKRSLUT.
+.*:COUR10.
+.bx new 0mm 91mm 181mm
+.sp 1mm
+.bx new 93mm 97mm
+.sp 2.5mm
+.bx off
+.sp 7mm
+.bx new 93mm 97mm
+.sp 2.5mm
+.bx off
+.sp 17mm
+.bx new 0mm 91mm 181mm
+.sp 36mm
+.bx can
+.bx off
+:SWISS10.
+:FED.
+Underskrift
+:SKRSLUT.
+:COUR10.
+.bx new 0mm 91mm 181mm
+.sp 8mm
+.bx new 0mm 91mm 181mm
+.sp 28mm
+.*.bx can
+.bx off
+.*.bx can
+.ar off
+:ENY.

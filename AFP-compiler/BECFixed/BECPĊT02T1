@@ -1,0 +1,36 @@
+.th .br
+.th &MEDBY.
+...ADRSLUT
+.ar off
+.*************************************
+.ar PI on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.*************************************
+.ar PÄTEGN on
+&spaatxt.
+.**************************************************************************
+.ar off
+.*************************************
+.ar BELQB on
+.tp 40mm right
+Â¤&GENBELÄB10
+.ar off
+.*************************************
+.ar ANDEL on
+&GENGADE. &GENHUS., &GENETAGE. &GENSIDE
+.br
+&GENPOSTBY.
+.br
+Kommunekode: &GENKOMMUNE.   Vejkode: &GENVEJKODE.
+.*************************************
+.ar AFGIFT on
+.tp 40mm right
+Â¤&GENAFGIFT
+.ar off

@@ -1,0 +1,44 @@
+I henhold til aftale fremsendes hermed følgende dokument(er) vedrørende:
+.ct  &UNDSNAVN..
+.sp
+.tp 6mm
+...BILAG1
+.if &U'X&LOFJANEJ01 = XJ
+.th
+.el .go BILAG2
+-¤Tilbagekøbserklæring 3. mand
+.br
+...BILAG2
+.if &U'X&LOFJANEJ02 = XJ
+.th
+.el .go BILAG3
+-¤Tilbagekøbserklæring - Løbende 100%
+.br
+...BILAG3
+.if &U'X&LOFJANEJ03 = XJ
+.th
+.el .go BILAG4
+-¤Kautionserklæring
+.br
+...BILAG4
+.if &U'X&LOFJANEJ04 = XJ
+.th
+.el .go MAX
+-¤Kautionserklæring
+.br
+...MAX
+.sp
+Vi beder &DIG. venligst sørge for, at dokument(er) bliver udfyldt og
+underskrevet på de afmærkede steder i henhold til firmaets tegningsregler.
+.sp
+Efter underskrift bedes ovnnævnte dokument(er) returneret til undertegnede.
+.sp
+:KURSIV.
+Husk, at medsende kopi af billedlegitimation (pas eller kørekort)
+jf. vedlagte indstik.
+Er pas- eller kørekortnummeret utydeligt, bedes det påført med
+maskinskrift/håndskrift.
+:SKRSLUT.
+.sp
+Skulle &DU. have spørgsmål til det fremsendte, er &DU. velkommen til at
+kontakte undertegnede.

@@ -1,0 +1,109 @@
+.***************** AREALDEFINITIONER *******************************
+.da KONNOS 30mm 229mm width 174mm
+.da ASSURANCE 83mm 181mm width 174mm
+.da AFKRYDSNING3 120mm 223mm width 225mm
+.da BENEFICIANT 101mm 48mm width 174mm
+.da AFKRYDSNING4 114mm 194mm width 174mm
+.da STEDTXT 130mm 177mm width 176mm
+.da STEDPAR 138mm 177mm width 176mm
+.da MODTAGER 117mm 250mm width 260mm
+.********************************************************************
+.ar KONNOS ON
+:swiss8.
+Fuldt sæt ombordskonnossementer udstedt til ordre.
+.br
+(Er intet anført, foreskriver banken "og endosseret in blance")
+.ar off
+.***********************************
+.AR ASSURANCE ON
+:swiss8.
+Jeg/vi dækker fornøden assurance.
+.ar off
+.***********************************
+.ar AFKRYDSNING3 ON
+:swiss8.
+Pakkeliste
+.sp 1mm
+Eksportlicens
+.ar off
+.***********************************
+.ar BENEFICIANT ON
+.ti ^ 05
+.tp 13mm
+:swiss8.
+Navn:
+:skrslut.
+:cour10.
+^&BECNAVN
+:skrslut.
+.br
+:swiss8.
+Adresse:
+:skrslut.
+:cour10.
+^&BECADR
+:skrslut.
+.br
+:swiss8.
+By:
+:skrslut.
+:cour10.
+^&BECBYNAVN
+:skrslut.
+.br
+:swiss8.
+Land:
+:skrslut.
+:cour10.
+^&BECLAND
+:skrslut.
+.ar off
+.************************************
+.ar AFKRYDSNING4 ON
+.ti ^ 05
+.tp 5mm
+:cour10.
+.if &L'&BECVARA21 gt 0
+.th X^&BECVARA21
+.el^
+.sp 01mm
+.if &L'&BECVARA22 gt 0
+.th X^&BECVARA22
+.el^
+.sp 01mm
+.if &L'&BECVARA23 gt 0
+.th X^&BECVARA23
+.el^
+.sp 01mm
+.if &L'&BECVARA24 gt 0
+.th X^&BECVARA24
+.el^
+:skrslut.
+.ar off
+.**************************************
+.ar STEDTXT ON
+:swiss8
+Sted.:
+:skrslut.
+.ar off
+.**********************************
+.ar STEDPAR ON
+:cour10.
+.if &L'&BECVARA30 gt 1
+.th &BECVARA30
+.el
+.br
+.if &L'&BECVARA31 gt 1
+.th &BECVARA31
+.el
+.br
+.if &L'&BECVARA32 gt 1
+.th &BECVARA32
+.el
+.ar off
+.******************************
+.ar MODTAGER ON
+:swiss8.
+Modtager:
+&BECVARA35
+.ar off

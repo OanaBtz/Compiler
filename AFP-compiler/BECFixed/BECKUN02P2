@@ -1,0 +1,54 @@
+.****** MEDKTO1
+.se mkunt1 = substr &MEDKUNDNR1 1 2
+.if x&mkunt1 > x00
+.an x&mkunt1 < x32
+.th .se mkun1 = 'CPR-nr.:'
+.if x&mkunt1 = x00
+.th .se mkun1 = 'CVR-nr.:'
+.if x&mkunt1 > x31
+.th .se mkun1 = 'Kunde-nr.:'
+.****** MEDKTO2
+.se mkunt2 = substr &MEDKUNDNR2 1 2
+.if x&mkunt2 > x00
+.an x&mkunt2 < x32
+.th .se mkun2 = 'CPR-nr.:'
+.if x&mkunt2 = x00
+.th .se mkun2 = 'CVR-nr.:'
+.if x&mkunt2 > x31
+.th .se mkun2 = 'Kunde-nr.:'
+.****** MEDKTO3
+.se mkunt3 = substr &MEDKUNDNR3 1 2
+.if x&mkunt3 > x00
+.an x&mkunt3 < x32
+.th .se mkun3 = 'CPR-nr.:'
+.if x&mkunt3 = x00
+.th .se mkun3 = 'CVR-nr.:'
+.if x&mkunt3 > x31
+.th .se mkun3 = 'Kunde-nr.:'
+.****** MEDKTO4
+.se mkunt4 = substr &MEDKUNDNR4 1 2
+.if x&mkunt4 > x00
+.an x&mkunt4 < x32
+.th .se mkun4 = 'CPR-nr.:'
+.if x&mkunt4 = x00
+.th .se mkun4 = 'CVR-nr.:'
+.if x&mkunt4 > x31
+.th .se mkun4 = 'Kunde-nr.:'
+.****** MEDKTO5
+.se mkunt5 = substr &MEDKUNDNR5 1 2
+.if x&mkunt5 > x00
+.an x&mkunt5 < x32
+.th .se mkun5 = 'CPR-nr.:'
+.if x&mkunt5 = x00
+.th .se mkun5 = 'CVR-nr.:'
+.if x&mkunt5 > x31
+.th .se mkun5 = 'Kunde-nr.:'
+.****** MEDKTO6
+.se mkunt6 = substr &MEDKUNDNR6 1 2
+.if x&mkunt6 > x00
+.an x&mkunt6 < x32
+.th .se mkun6 = 'CPR-nr.:'
+.if x&mkunt6 = x00
+.th .se mkun6 = 'CVR-nr.:'
+.if x&mkunt6 > x31
+.th .se mkun6 = 'Kunde-nr.:'

@@ -1,0 +1,207 @@
+.th .br
+.if &L'&SIKHED48A > 0
+.th .ct &SIKHED48A.
+.if &U'X&LINSKIP48 = XJ
+.th .br
+.if &L'&SIKHED49A > 0
+.th .ct &SIKHED49A.
+.if &U'X&LINSKIP49 = XJ
+.th .br
+.if &L'&SIKHED50A > 0
+.th .ct &SIKHED50A.
+.if &U'X&LINSKIP50 = XJ
+.th .br
+.if &L'&SIKHED51A > 0
+.th .ct &SIKHED51A.
+.if &U'X&LINSKIP51 = XJ
+.th .br
+.if &L'&SIKHED52A > 0
+.th .ct &SIKHED52A.
+.if &U'X&LINSKIP52 = XJ
+.th .br
+.if &L'&SIKHED53A > 0
+.th .ct &SIKHED53A.
+.if &U'X&LINSKIP53 = XJ
+.th .br
+.if &L'&SIKHED54A > 0
+.th .ct &SIKHED54A.
+.if &U'X&LINSKIP54 = XJ
+.th .br
+.if &L'&SIKHED55A > 0
+.th .ct &SIKHED55A.
+.if &U'X&LINSKIP55 = XJ
+.th .br
+.if &L'&SIKHED56A > 0
+.th .ct &SIKHED56A.
+.if &U'X&LINSKIP56 = XJ
+.th .br
+.if &L'&SIKHED57A > 0
+.th .ct &SIKHED57A.
+.if &U'X&LINSKIP57 = XJ
+.th .br
+.if &L'&SIKHED58A > 0
+.th .ct &SIKHED58A.
+.if &U'X&LINSKIP58 = XJ
+.th .br
+.if &L'&SIKHED59A > 0
+.th .ct &SIKHED59A.
+.if &U'X&LINSKIP59 = XJ
+.th .br
+.if &L'&SIKHED60A > 0
+.*****Fortsat fra BECESIS50T03A   ********************************
+.if &sikkerhed = 'NEJ'
+.th .go T03BX
+.if &L'&SIKHED11A > 0
+.th .ct &SIKHED11A.
+.if &U'X&LINSKIP11 = XJ
+.th .br
+.if &L'&SIKHED12A > 0
+.th .ct &SIKHED12A.
+.if &U'X&LINSKIP12 = XJ
+.th .br
+.if &L'&SIKHED13A > 0
+.th &SIKHED13A.
+.if &U'X&LINSKIP13 = XJ
+.th .br
+.if &L'&SIKHED14A > 0
+.th .ct &SIKHED14A.
+.if &U'X&LINSKIP14 = XJ
+.th .br
+.if &L'&SIKHED15A > 0
+.th .ct &SIKHED15A.
+.if &U'X&LINSKIP15 = XJ
+.th .br
+.if &L'&SIKHED16A > 0
+.th .ct &SIKHED16A.
+.if &U'X&LINSKIP16 = XJ
+.th .br
+.if &L'&SIKHED17A > 0
+.th .ct &SIKHED17A.
+.if &U'X&LINSKIP17 = XJ
+.th .br
+.if &L'&SIKHED18A > 0
+.th .ct &SIKHED18A.
+.if &U'X&LINSKIP18 = XJ
+.th .br
+.if &L'&SIKHED19A > 0
+.th .ct &SIKHED19A.
+.if &U'X&LINSKIP19 = XJ
+.th .br
+.if &L'&SIKHED20A > 0
+.th .ct &SIKHED20A.
+.if &U'X&LINSKIP20 = XJ
+.th .br
+.if &L'&SIKHED21A > 0
+.th .ct &SIKHED21A.
+.if &U'X&LINSKIP21 = XJ
+.th .br
+.if &L'&SIKHED22A > 0
+.th .ct &SIKHED22A.
+.if &U'X&LINSKIP22 = XJ
+.th .br
+.if &L'&SIKHED23A > 0
+.th .ct &SIKHED23A.
+.if &U'X&LINSKIP23 = XJ
+.th .br
+.if &L'&SIKHED24A > 0
+.th .ct &SIKHED24A.
+.if &U'X&LINSKIP24 = XJ
+.th .br
+.if &L'&SIKHED25A > 0
+.th .ct &SIKHED25A.
+.if &U'X&LINSKIP25 = XJ
+.th .br
+.if &L'&SIKHED26A > 0
+.th .ct &SIKHED26A.
+.if &U'X&LINSKIP26 = XJ
+.th .br
+.if &L'&SIKHED27A > 0
+.th .ct &SIKHED27A.
+.if &U'X&LINSKIP27 = XJ
+.th .br
+.if &L'&SIKHED28A > 0
+.th .ct &SIKHED28A.
+.if &U'X&LINSKIP28 = XJ
+.th .br
+.if &L'&SIKHED29A > 0
+.th .ct &SIKHED29A.
+.if &U'X&LINSKIP29 = XJ
+.th .br
+.if &L'&SIKHED30A > 0
+.th .ct &SIKHED30A.
+.if &U'X&LINSKIP30 = XJ
+.th .br
+.if &L'&SIKHED31A > 0
+.th .ct &SIKHED31A.
+.if &U'X&LINSKIP31 = XJ
+.th .br
+.if &L'&SIKHED32A > 0
+.th .ct &SIKHED32A.
+.if &U'X&LINSKIP32 = XJ
+.th .br
+.if &L'&SIKHED33A > 0
+.th .ct &SIKHED33A.
+.if &U'X&LINSKIP33 = XJ
+.th .br
+.if &L'&SIKHED34A > 0
+.th .ct &SIKHED34A.
+.if &U'X&LINSKIP34 = XJ
+.th .br
+.if &L'&SIKHED35A > 0
+.th .ct &SIKHED35A.
+.if &U'X&LINSKIP35 = XJ
+.th .br
+.if &L'&SIKHED36A > 0
+.th .ct &SIKHED36A.
+.if &U'X&LINSKIP36 = XJ
+.th .br
+.if &L'&SIKHED37A > 0
+.th .ct &SIKHED37A.
+.if &U'X&LINSKIP37 = XJ
+.th .br
+.if &L'&SIKHED38A > 0
+.th .ct &SIKHED38A.
+.if &U'X&LINSKIP38 = XJ
+.th .br
+.if &L'&SIKHED39A > 0
+.th .ct &SIKHED39A.
+.if &U'X&LINSKIP39 = XJ
+.th .br
+.if &L'&SIKHED40A > 0
+.th .ct &SIKHED40A.
+.if &U'X&LINSKIP40 = XJ
+.th .br
+.if &L'&SIKHED41A > 0
+.th .ct &SIKHED41A.
+.if &U'X&LINSKIP41 = XJ
+.th .br
+.if &L'&SIKHED42A > 0
+.th .ct &SIKHED42A.
+.if &U'X&LINSKIP42 = XJ
+.th .br
+.if &L'&SIKHED43A > 0
+.th .ct &SIKHED43A.
+.if &U'X&LINSKIP43 = XJ
+.th .br
+.if &L'&SIKHED44A > 0
+.th .ct &SIKHED44A.
+.if &U'X&LINSKIP44 = XJ
+.th .br
+.if &L'&SIKHED45A > 0
+.th .ct &SIKHED45A.
+.if &U'X&LINSKIP45 = XJ
+.th .br
+.if &L'&SIKHED46A > 0
+.th .ct &SIKHED46A.
+.if &U'X&LINSKIP46 = XJ
+.th .br
+.if &L'&SIKHED47A > 0
+.th .ct &SIKHED47A.
+.if &U'X&LINSKIP47 = XJ
+.th .ct &SIKHED60A.
+.if &U'X&LINSKIP60 = XJ
+.th .br
+.kp off
+...T03BX
+.sp 5mm
+.********************************

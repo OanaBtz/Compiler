@@ -1,0 +1,55 @@
+:SWISS8.
+.******************************************
+.da SIDE1 24mm 6mm width 175mm
+.da KASSE 24mm 27mm width 175mm
+.da TEKST 24mm 145mm width 175mm
+.********************* SIDE 1 ********************************************
+.ar SIDE1 on
+.tp 88mm
+¤Afgift: kr.
+.ar off
+.****************************************************************
+.ar KASSE on
+.bx 86mm right
+.tp 87mm
+¤Anmelder
+.sp 25mm
+.bx off
+.sp 25mm
+:SWISS14.:FED.
+Pantsætningsforbud (Personbogen)
+:SKRSLUT.
+.br
+:SWISS10.
+Ejer(e)s CVR-nr., og/eller CPR-nr., navn(e)og bopæl(e)
+.br
+(Hvis ejer er en enkeltmandsvirksomhed, oplyses CPR-nr. og CVR-nr.)
+.bx left right
+.in 1mm
+.ir 1mm
+.sp 25mm
+:SWISS8.
+forpligter sig herved til ikke at underpantsætte sine aktiver i medfør af
+de nedenfor afkrydsede bestemmelser uden samtykke fra den eller de
+påtaleberettigede (sæt kryds):
+.in 0mm
+.ir 0mm
+.bx off
+.bx off
+:SWISS10.
+Pantsætningsforbuddet omfatter de nedenfor afkrydsede aktivtyper
+.bx left right
+.sp 104mm
+.bx off
+:SWISS10.
+Påtaleberettigets navn, bopæl og tlf.nr.
+.bx left right
+.sp 29mm
+.in 1mm
+.ir 1mm
+:SWISS8.
+Pantsætningsforbuddet respekterer de forud tinglyste hæftelser.
+.in 0mm
+.ir 0mm
+.bx off
+.ar off

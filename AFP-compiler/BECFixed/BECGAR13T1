@@ -1,0 +1,180 @@
+.of 3mm
+*¤beløb, som ifølge handlens vilkår skal betales af sælger eller
+modregnes i købesummen,
+.of
+.of 3mm
+*¤sælgers andel af handlens omkostninger,
+.of
+.of 3mm
+*¤salgsvederlag og udlæg mv. til ejendomsmægler, hvis det hos
+ejendomsformidleren deponerede beløb ikke er tilstrækkeligt til
+dækning heraf.
+.of
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+Disse betalinger må dog først ske, når købers adkomst er fri for
+præjudicerende retsanmærkninger, eller hvis depositar garanterer
+for, at retsanmærkningerne kan slettes.
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+Den, der berigtiger handlen, eller depositar har pligt til at
+frigive købesummen til sælger alene med fradrag af de anførte
+udgifter/indfrielser, når endeligt skøde er tinglyst uden
+præjudicerende retsanmærkninger, dog tidligst på
+overtagelsesdagen.
+.sp 5mm
+.kp off
+mellem sælger og køber indgåede købsaftale af
+:SKRSLUT.
+.ct  &GENDATO
+:SWISS8.
+vedrørende ejendommen matr.nr.:
+:SKRSLUT.
+.ct  &GENMATRNR
+.sp 3mm
+:SWISS8.
+beliggende:
+:SKRSLUT.
+.ct  &GENADRESSE
+.sp 5mm
+.kp off
+.kp on
+:SWISS8.
+:FED.
+Deponering og udbetaling
+:SKRSLUT.
+.br
+Garantien erstattes på overtagelsesdagen den
+:SKRSLUT.
+.ct  &GARUDLDATO
+:SWISS8.
+af en deponering hos
+:SKRSLUT.
+.ct  &BKNAVN
+:SWISS8.
+eller af udbetaling, såfremt betingelserne for frigivelse
+er opfyldt, jf. nedenfor. Er overtagelsesdagen ikke en bankdag skal
+deponering ske senest bankdagen inden overtagelsesdagen.
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+Den, der berigtiger handlen, eller depositar har pligt til af midlerne
+fra købesummen at foranledige betaling af følgende:
+.sp 3mm
+.of 3mm
+*¤pantegæld, der ikke skal overtages,
+.of
+.of 3mm
+*¤ejerskiftegebyr og ejerskifteafdrag med rente til betalingsdagen,
+.of
+.of 3mm
+*¤restancer,
+.of
+.of 3mm
+*¤forfalden refusionssaldo i købers favør,
+.of
+.***
+.if &L'&MEDSTILL > 0
+.th &MEDSTILL
+.th .br
+.***
+...EJSTILL3
+&MEDNAVN
+.br
+.if &L'&MEDCO > 0
+.th &MEDCO
+.th .br
+&MEDGADE
+.br
+&MEDBY
+.if &L'&MEDLAND > 0
+.th .br
+.th &MEDLAND
+.sc
+...MEDNVNSL
+.***
+.sp 3mm
+.kp on
+:SWISS8.
+Pengeinstituttet
+.sp 3mm
+:SKRSLUT.
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.sp 3mm
+:SWISS8.
+indestår sælger uigenkaldeligt for betaling af
+.sp 3mm
+kr.
+:SKRSLUT.
+.ct  &RESULTA
+.br
+:SWISS8.
+skriver
+:SKRSLUT.
+.ct  &RESULTAT1.&RESULTAT2.
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+Beløbet tjener sælger til sikkerhed for ethvert krav, som følger af den
+.**************************************************************************
+.tp 3mm
+.se regnr = substr &LANGKTONR 1 4
+.se ktonr = substr &LANGKTONR 5 21
+.**************************************************************************
+:SWISS8.
+Kontonr. for garanti:
+:SKRSLUT.
+.ct  &regnr. &ktonr.
+.sp 3mm
+:SWISS8.
+Garantien er udstedt på foranledning af
+.if &L'&MEDNAVN > 0
+.th (købere)
+.el (køber)
+.sp 3mm
+:SKRSLUT.
+.***
+.if &L'&MEDNAVN > 0
+.th .cd 2 0mm 87mm
+.th .cl 85mm
+.***
+.if &L'&KTOLAND > 0
+.th .go EJSTILL2
+.***
+.if &L'&KTOSTILL > 0
+.th &KTOSTILL
+.th .br
+.***
+...EJSTILL2
+&KTONAVN
+.br
+.if &L'&KTOCO > 0
+.th &KTOCO
+.th .br
+&KTOGADE
+.br
+&KTOBY
+.if &L'&KTOLAND > 0
+.th .br
+.th &KTOLAND
+.***
+.if &L'&MEDNAVN > 0
+.th .go MEDNVN
+.el .go MEDNVNSL
+.***
+...MEDNVN
+.cb
+.if &L'&MEDLAND > 0
+.th .go EJSTILL3

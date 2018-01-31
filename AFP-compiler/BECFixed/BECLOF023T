@@ -1,0 +1,41 @@
+.tp 8mm
+Tak fordi &DU. valgte &AFDBNKNAVN., da der skulle indgåes ny leasingaftale.
+.sp
+Vi vedlægger følgende:
+.sp
+-¤kopi af kontrakten
+.br
+.if &U'X&LOFJANEJ01 = XJ
+.th .of 8mm
+.th -¤faktura på 1. leasingydelse inkl. eventuel ekstraordinær ydelse og
+.th eventuel kontante omkostninger
+.th .br
+.th .of
+.if &L'&LOFTEKST01 > 0
+.th
+.el .go CONT
+.of 8mm
+-¤&LOFTEKST01.
+.br
+&LOFTEKST02.
+.br
+&LOFTEKST03.
+.br
+&LOFTEKST04.
+.br
+&LOFTEKST05.
+.of
+.br
+...CONT
+.sp
+Evt. tilmelding til &PRODUKT2.
+via PBS/&NETS. er gratis og er der ikke givet
+tilladelse til denne tilmelding på kontrakten kan dette stadigvæk
+foretages, eventuelt ved at kontakte os med oplysning af
+&DIT. pengeinstituts registreringsnr. samt kontonr., hvorefter
+vi vil forestå tilmeldingen. Så længe der modtages
+fakturaer fra os, skal disse dog betales, idet PBS/&NETS.
+har omkring 1 måneds oprettelse.
+.sp
+Såfremt der måtte være yderligere spørgsmål eller andet, står vi
+naturligvis til rådighed.

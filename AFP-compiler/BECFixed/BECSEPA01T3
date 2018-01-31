@@ -1,0 +1,188 @@
+.tp 3mm 7mm
+:SWISS8.
+.**************************************************************************
+.kp on
+Disse generelle regler regulerer privates betalinger af mellemværender
+med SEPA Direct Debit.
+.sp 3mm
+:SWISS10.
+:FED.
+1.¤¤Hvad er SEPA Direct Debit?
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+:KURSIV.
+1.1¤¤Direct Debit
+.br
+:SKRSLUT.
+SEPA Direct Debit er en betalingstjeneste, som kreditorer kan bruge til at
+iværksætte nationale eller grænseoverskridende betalinger i euro mellem
+debitors konto og kreditors konto.
+.sp 3mm
+.kp off
+.kp on
+SEPA Direct Debit er beregnet til opkrævning af periodisk tilbagevendende
+betalinger fra debitorer, men kreditor kan også iværksætte
+engangsbetalinger fra en debitors konto.
+.sp 3mm
+.kp off
+.kp on
+SEPA er en forkortelse for Single Euro Payments Area - et geografisk
+område, hvor betalinger foregår i euro.
+.sp 3mm
+.kp off
+.kp on
+SEPA Direct Debit indeholder et regelsæt for sådanne betalinger, der er
+fastsat af European Payments Council - EPC. Det overordnede regelsæt for
+SEPA Direct Debit er opdelt i to dele - et regelsæt beregnet på betalinger
+fra private (Core) og et regelsæt beregnet på erhvervsbetalinger (Business
+to business). På dansk benyttes betegnelsen "privat" for Core-delen.
+.sp 3mm
+.kp off
+.kp on
+Når &DU indgår SEPA betalingsaftaler med kreditor, skal &DU oplyse, om
+&DU har tilsluttet &DIG SEPA Direct Debit til private betalinger, jf.
+pkt. 3.4.
+.sp 3mm
+Kreditor har ansvaret for advisering af &DIG om kommende betalinger.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+2.¤¤Definitioner
+.sp 3mm
+:SKRSLUT.
+:SWISS8.
+Enkelte definitioner er suppleret med betegnelsen på engelsk i parentes.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+2.1¤¤Afvisning (rejection)
+.br
+:SKRSLUT.
+&SDU eller &BANKNAVN. kan afvise en kommende betaling. Afvisning
+af en betaling medfører, at den ikke gennemføres.
+.sp 3mm
+.kp off
+.kp on
+Der er forskel på at afvise en betaling og på at afmelde en SEPA
+betalingsaftale.
+.sp 3mm
+Afviser &DU en betaling, opretholdes SEPA betalingsaftalen, og kreditor
+kan fortsat iværksætte betalinger på baggrund af SEPA betalingsaftalen på
+et senere tidspunkt, jf. pkt. 9.1.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+2.2¤¤Bankdag (banking business day)
+.br
+:SKRSLUT.
+Ved bankdag forstås alle dage, hvor danske pengeinstitutter er åbne, dvs.
+alle dage undtagen lørdag, søn- og helligdage, fredag efter Kristi
+himmelfartsdag og grundlovsdag, juleaftensdag, nytårsaftensdag.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+2.3¤¤Betalingsdag (due date)
+.br
+:SKRSLUT.
+Betalingsdagen er den dag, som kreditor har angivet som betalingsdag.
+Betalingsdagen skal være en Targetdag.
+.sp 3mm
+Hvis kreditor har angivet en betalingsdag, der ikke er en bankdag, vil
+betalingen først blive debiteret på &DIN konto den følgende bankdag, der
+samtidig er en Targetdag.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+2.4¤¤Betalingstjeneste
+.br
+:SKRSLUT.
+:SWISS8.
+Ved betalingstjeneste forstås SEPA Direct Debit og de funktioner, som
+kreditor kan vælge at knytte til sin brug af SEPA Direct Debit.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+2.5¤¤Betalingstjenesteudbyder
+.br
+:SKRSLUT.
+:SWISS8.
+En betalingstjenesteudbyder er den virksomhed, der tilbyder kreditorer
+eller debitorer, at de kan benytte SEPA Direct Debit til betalinger af
+indbyrdes skyldforhold. Det vil typisk være et pengeinstitut eller et
+betalingsinstitut.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+2.6¤¤Gennemførelsestid
+:SKRSLUT.
+:SWISS8.
+.br
+Gennemførelsestid er det tidsrum, der går fra debiteringen af &DIN
+konto til kreditering på kreditors konto.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+2.7¤¤SEPA betalingsaftale (mandate)
+:SKRSLUT.
+.br
+En SEPA betalingsaftale er en aftale mellem &DIG og kreditor om, at
+kreditor via SEPA Direct Debit kan iværksætte betalinger af &DINE
+skyldforhold ved debitering af &DIN konto.
+.sp 3mm
+.kp off
+.kp on
+Uden for Danmark har SEPA betalingsaftalen en anden betegnelse, som
+alle dækker over begrebet mandat.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+2.8¤¤SEPA Direct Debit tilslutningsaftale
+.br
+:SKRSLUT.
+En SEPA Direct Debit tilslutningsaftale er en aftale mellem &DIG og
+&BANKNAVN. om, at &DU kan bruge SEPA Direct Debit.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+2.9¤¤Targetdag
+.br
+:SKRSLUT.
+Ved Targetdage eller interbankdage forstås de dage, der er fastsat af
+Den europæiske Centralbank, hvor behandling af transaktioner kan finde
+sted. Targetdage kan falde på dage, der er helligdage i Danmark, men
+ikke på lør- eller søndage. Targetdage kan også falde på dage, der ikke
+er bankdage i Danmark.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+2.10¤¤Tilbageførsel (return, refund eller reversat)
+.br
+:SKRSLUT.
+Tilbageførsel af en betaling medfører, at beløbet tilbageføres fra
+kreditors til &DIN konto. &SDU., &BANKNAVN. eller kreditor kan
+iværksætte tilbageførsel af en allerede gennemført betaling, som nærmere
+beskrevet i afsnit 9.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+2.11¤¤Tilbagekaldelse (cancellation)
+.br
+:SKRSLUT.
+Inden betalingsdagen kan kreditors bank anmode om tilbagekaldelse med den
+virkning, at indsendte betalingsdata ikke effektueres.
+.sp 5mm
+.kp off

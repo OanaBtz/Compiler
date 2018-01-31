@@ -1,0 +1,199 @@
+:SWISS8.
+.kp on
+:SWISS10.:FED.
+5. &BANKNAVN.'s liability
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+.if &U'&WEBPRIERH = P
+.th .go PKT51P
+.el .go PKT51E
+.*PRIVATE***********
+...PKT51P
+5.1 The provisions set out in this clause 5 only apply when the customer
+uses &WEBSYSNAVN.'s payment services. The provisions do not apply to
+agreements concluded electronically unless they, according to their
+content, constitute a payment service.
+.sp 3mm
+5.2 &BANKNAVN is liable for any loss suffered by the customer
+caused by unauthorised use of &WEBSYSNAVN., unless otherwise is
+provided for in clause 4 or below.
+.go PKT53
+...PKT51E
+.*ERHVERV***********
+5.1 &BANKNAVN must take the measures necessary to prevent
+unauthorised access to the system by others.
+...PKT53
+.sp 3mm
+.kp off
+.tp 2mm 4mm
+.*******************
+:SWISS8.
+.kp on
+.if &U'&WEBPRIERH = P
+.th 5.3
+.el 5.2
+&BANKNAVN is liable in damages if it fulfils the agreed
+obligations too late or in an inadequate manner due to errors or
+omissions.
+.sp 3mm
+.kp off
+.kp on
+.if &U'&WEBPRIERH = P
+.th 5.4
+.el 5.3
+Even under circumstances where &BANKNAVN is subject to
+stricter liability, &BANKNAVN is not liable for any losses due to:
+.sp 3mm
+.kp off
+.kp on
+.if &U'&WEBPRIERH = P
+interest, loss of time, loss of goodwill or for damage to the
+customer's property, including loss of data or programmes, not
+even if such damage is due to a defect in &BANKNAVN.'s product.
+This applies irrespective of whether &BANKNAVN has been informed
+of the risk of such loss, or whether &BANKNAVN has acted
+negligently.
+.sp 5mm
+.kp off
+.if &U'&WEBPRIERH = E
+.th .go ENDPKT6
+.kp on
+:SWISS10.:FED.
+6. Liability rules regarding electronic conclusion of agreements
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+6.1 The customer is liable for losses incurred by &BANKNAVN.' due to
+unauthorised use of &WEBSYSNAVN. for electronically concluding and
+approving agreements if the customer has acted in a negligent manner giving
+rise to liability under the general rules of Danish law, including in
+particular where the customer, contrary to the rules on use of NemID
+applicable from time to time, has disclosed his or her personal security
+details to the person who has performed or enabled the unauthorised use.
+.sp 3mm
+.kp off
+.kp on
+6.2 &BANKNAVN. is only liable for the customer's loss due to the
+unauthorised use of &WEBSYSNAVN. for electronically concluding and
+approving agreements if &BANKNAVN. has acted in a negligently manner
+giving rise to liability under the general rules of Danish law.
+.sp 3mm
+.kp off
+.kp on
+6.3 Even in situations subject to stricter liability, &BANKNAVN. is not
+liable for any loss caused by the circumstances set out in clauses 5.4 to
+5.6.
+.sp 3mm
+.kp off
+.kp on
+6.4 Furthermore, &BANKNAVN. is in no event liable for indirect losses
+suffered by the customer, including operating loss, loss of interest, loss
+of time, loss of goodwill or for damage to the customer s property,
+including loss of data or programs, not even if such damage is due to a
+defect in &BANKNAVN. s product. This applies irrespective of whether
+&BANKNAVN. has been informed of the risk of such loss, or whether
+&BANKNAVN. has acted negligently.
+.sp 5mm
+.kp off
+...ENDPKT6
+.kp on
+.if &U'&WEBPRIERH = P
+.th 5.5.2
+.el 5.4.2
+Current legislation in any event makes &BANKNAVN liable for
+the circumstances causing the loss.
+.sp 3mm
+.kp off
+.kp on
+.if &U'&WEBPRIERH = P
+.th 5.6
+.el 5.5
+&BANKNAVN is not liable for losses due to:
+.sp 3mm
+.if &U'&WEBPRIERH = P
+.th 5.6.1
+.el 5.5.1
+Interruptions of operations preventing the use of &WEBSYSNAVN.,
+including denied access to &WEBSYSNAVN. or to &BANKNAVN.'s computer
+systems or the disruption of the connection irrespective of
+whether such interruption has been caused by &BANKNAVN itself or
+is due to external circumstances
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.th 5.4.1.el 5.3.1breakdowns of/inability to access IT systems or damage to data in suchsystems as a result of the below events, irrespective of whether theoperation of such systems is the responsibility of &BANKNAVN. itself or anexternal supplier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

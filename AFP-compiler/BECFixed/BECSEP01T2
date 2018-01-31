@@ -1,0 +1,390 @@
+:SKRSLUT.
+&ALDARBKTO..
+.****
+.if &L'&ALDARBAND = 0
+.an &L'&ALDARBDAT = 0
+.th .go SLT
+.****
+.if &L'&ALDARBAND > 0
+.th :SWISS8.
+.th Andelen udgør
+.th :SKRSLUT.
+.th &ALDARBAND
+.th :SWISS8.
+.th kr.
+.th :SKRSLUT.
+.****
+.if &L'&ALDARBDAT > 0
+.an &L'&ALDARBAND > 0
+.th :SWISS8.
+.th opgjort pr.
+.th :SKRSLUT.
+.th &ALDARBDAT..
+.****
+...SLT
+.ar off
+.***********************************************************************
+.ar ERKLÆR on
+Vi erklærer samtidig overfor &BANKNAVN., at betingelserne for at yde
+kompensation efter § § 16 d og e, betaling efter § 16 b henholdsvis den
+valgte delingsmetode efter § 16 f er opfyldt. Ligeledes erklærer
+vi, at vi er indforstået med, at samtlige omkostninger i forbindelse
+med ovenstående deling afholdes af os, således at &BANKNAVN kan kræve
+omkostningerne betalt af os til sammmen eller hver for sig.
+.ar off
+.***********************************************************************
+.ar SAMTYK on
+&BANKNAVN samtykker til, at ovenstående deling kan foretages i
+overensstemmelse med erklæringen som angivet af ægtefællerne.
+.ar off
+:SKRSLUT.
+.****
+...ALDPRI
+.if &L'&ALDPRIKTO > 0
+.th .go ALDPRI1
+.el .go ALDARB
+.*****************************************
+...ALDPRI1
+:SWISS8.
+Ægtefælle 2 modtager en andel af ægtefælle 1's
+:SKRSLUT.
+private aldersopsparing,
+:SWISS8.
+kontonr.
+:SKRSLUT.
+&ALDPRIKTO..
+.****
+.if &L'&ALDPRIAND = 0
+.an &L'&ALDPRIDAT = 0
+.th .sp 3mm
+.th .go ALDARB
+.****
+.if &L'&ALDPRIAND > 0
+.th :SWISS8.
+.th Andelen udgør
+.th :SKRSLUT.
+.th &ALDPRIAND
+.th :SWISS8.
+.th kr.
+.th :SKRSLUT.
+.****
+.if &L'&ALDPRIDAT > 0
+.an &L'&ALDPRIAND > 0
+.th :SWISS8.
+.th opgjort pr.
+.th :SKRSLUT.
+.th &ALDPRIDAT..
+.sp 3mm
+.*****************************************
+...ALDARB
+.if &L'&ALDARBKTO > 0
+.th .go ALDARB1
+.el .go SLT
+.*****************************************
+...ALDARB1
+:SWISS8.
+Ægtefælle 2 modtager en andel af ægtefælle 1's
+:SKRSLUT.
+arbejdsgiveradministrerede aldersopsparing,
+:SWISS8.
+kontonr.
+.th :SKRSLUT.
+.th &RAT15BAAND
+.th :SWISS8.
+.th kr.
+.th :SKRSLUT.
+.****
+.if &L'&RAT15BADAT > 0
+.an &L'&RAT15BAAND > 0
+.th :SWISS8.
+.th opgjort pr.
+.th :SKRSLUT.
+.th &RAT15BADAT..
+.sp 3mm
+.****
+...PRI15B
+.if &L'&RAT15BPKTO > 0
+.th .go PRI15B1
+.el .go ALDPRI
+.*****************************************
+...PRI15B1
+:SWISS8.
+Ægtefælle 2 modtager en andel af ægtefælle 1's
+:SKRSLUT.
+private ratepension (§ 15 B),
+:SWISS8.
+kontonr.
+:SKRSLUT.
+&RAT15BPKTO..
+.****
+.if &L'&RAT15BPAND = 0
+.an &L'&RAT15BPDAT = 0
+.th .sp 3mm
+.th .go ALDPRI
+.****
+.if &L'&RAT15BPAND > 0
+.th :SWISS8.
+.th Andelen udgør
+.th :SKRSLUT.
+.th &RAT15BPAND
+.th :SWISS8.
+.th kr.
+.th :SKRSLUT.
+.****
+.if &L'&RAT15BPDAT > 0
+.an &L'&RAT15BPAND > 0
+.th :SWISS8.
+.th opgjort pr.
+.th :SKRSLUT.
+.th &RAT15BPDAT..
+.sp 3mm
+:SWISS8.
+kontonr.
+:SKRSLUT.
+&RAT15AKTO..
+.****
+.if &L'&RAT15AAND = 0
+.an &L'&RAT15ADAT = 0
+.th .sp 3mm
+.th .go RAT15B
+.****
+.if &L'&RAT15AAND > 0
+.th :SWISS8.
+.th Andelen udgør
+.th :SKRSLUT.
+.th &RAT15AAND
+.th :SWISS8.
+.th kr.
+:SKRSLUT.
+.****
+.if &L'&RAT15ADAT > 0
+.an &L'&RAT15AAND > 0
+.th :SWISS8.
+.th opgjort pr.
+.th :SKRSLUT.
+.th &RAT15ADAT..
+.sp 3mm
+.****
+...RAT15B
+.if &L'&RAT15BAKTO > 0
+.th .go ARB15B
+.el .go PRI15B
+.*****************************************
+...ARB15B
+:SWISS8.
+Ægtefælle 2 modtager en andel af ægtefælle 1's
+:SKRSLUT.
+arbejdsgiveradministrerede ratepension (§ 15 B),
+:SWISS8.
+kontonr.
+:SKRSLUT.
+&RAT15BAKTO..
+.****
+.if &L'&RAT15BAAND = 0
+.an &L'&RAT15BADAT = 0
+.th .sp 3mm
+.th .go PRI15B
+.****
+.if &L'&RAT15BAAND > 0
+.th :SWISS8.
+.th Andelen udgør
+.th &RATPRIDAT..
+.sp 3mm
+.****
+...ARBRAT
+.if &L'&RATARBKTO > 0
+.th .go ARBRAT1
+.el .go RAT15A
+.******************************************
+...ARBRAT1
+:SWISS8.
+Ægtefælle 2 modtager en andel af ægtefælle 1's
+:SKRSLUT.
+private arbejdsgiveradministrerede ratepension,
+:SWISS8.
+kontonr.
+:SKRSLUT.
+&RATARBKTO..
+.****
+.if &L'&RATARBAND = 0
+.an &L'&RATARBDAT = 0
+.th .sp 3mm
+.th .go RAT15A
+.****
+.if &L'&RATARBAND > 0
+.th :SWISS8.
+.th Andelen udgør
+.th :SKRSLUT.
+.th &RATARBAND
+.th :SWISS8.
+.th kr.
+:SKRSLUT.
+.****
+.if &L'&RATARBDAT > 0
+.an &L'&RATARBAND > 0
+.th :SWISS8.
+.th opgjort pr.
+.th :SKRSLUT.
+.th &RATARBDAT..
+.sp 3mm
+.****
+...RAT15A
+.if &L'&RAT15AKTO > 0
+.th .go RAT15A1
+.el .go RAT15B
+.*****************************************
+...RAT15A1
+:SWISS8.
+Ægtefælle 2 modtager en andel af ægtefælle 1's
+:SKRSLUT.
+ratepension (§ 15 A),
+.th :SWISS8.
+.th Andelen udgør
+.th :SKRSLUT.
+.th &KAPARBAND
+.th :SWISS8.
+.th kr.
+.th :SKRSLUT.
+.****
+.if &L'&KAPARBDAT > 0
+.an &L'&KAPARBAND > 0
+.th :SWISS8.
+.th opgjort pr.
+.th :SKRSLUT.
+.th &KAPARBDAT..
+.sp 3mm
+.****
+...PRIRAT
+.if &L'&RATPRIKTO > 0
+.th .go PRIRAT1
+.el .go ARBRAT
+.*****************************************
+...PRIRAT1
+:SWISS8.
+Ægtefælle 2 modtager en andel af ægtefælle 1's
+:SKRSLUT.
+private ratepension,
+:SWISS8.
+kontonr.
+:SKRSLUT.
+&RATPRIKTO..
+.****
+.if &L'&RATPRIAND = 0
+.an &L'&RATPRIDAT = 0
+.th .sp 3mm
+.th .go ARBRAT
+.****
+.if &L'&RATPRIAND > 0
+.th :SWISS8.
+.th Andelen udgør
+.th :SKRSLUT.
+.th &RATPRIAND
+.th :SWISS8.
+.th kr.
+.th :SKRSLUT.
+.****
+.if &L'&RATPRIDAT > 0
+.an &L'&RATPRIAND > 0
+.th :SWISS8.
+.th opgjort pr.
+.th :SKRSLUT.
+:SKRSLUT.
+private kapitalpension,
+:SWISS8.
+kontonr.
+:SKRSLUT.
+&KAPPRIKTO..
+.****
+.if &L'&KAPPRIAND = 0
+.an &L'&KAPPRIDAT = 0
+.th .sp 3mm
+.th .go ARBKAP
+.****
+.if &L'&KAPPRIAND > 0
+.th :SWISS8.
+.th Andelen udgør
+.th :SKRSLUT.
+.th &KAPPRIAND
+.th :SWISS8.
+.th kr.
+.th :SKRSLUT.
+.****
+.if &L'&KAPPRIDAT > 0
+.an &L'&KAPPRIAND > 0
+.th :SWISS8.
+.th opgjort pr.
+.th :SKRSLUT.
+.th &KAPPRIDAT..
+.sp 3mm
+.****
+...ARBKAP
+.if &L'&KAPARBKTO > 0
+.th .go ARBKAP1
+.el .go PRIRAT
+.*****************************************
+...ARBKAP1
+:SWISS8.
+Ægtefælle 2 modtager en andel af ægtefælle 1's
+:SKRSLUT.
+arbejdsgiveradministrerede kapitalpension,
+:SWISS8.
+kontonr.
+:SKRSLUT.
+&KAPARBKTO..
+.****
+.if &L'&KAPARBAND = 0
+.an &L'&KAPARBDAT = 0
+.th .sp 3mm
+.th .go PRIRAT
+.****
+.if &L'&KAPARBAND > 0
+:SWISS8.
+.***********************************************************************
+.da KUNDE1     21mm     43mm   width 85mm
+.da KUNDE2     108.5mm  43mm   width 85mm
+.da PI         21mm     73mm   width 85mm
+.da CPRNR1     21mm     68.5mm width 85mm
+.da CPRNR2     108.5mm  68.5mm width 85mm
+.da INDHOLD    21mm     99mm   width 170mm
+.da ERKLÆR     21mm     195mm  width 170mm
+.da SAMTYK     21mm     240mm  width 170mm
+.***********************************************************************
+.ar KUNDE1 on
+Ægtefælle 1
+.ar off
+.***********************************************************************
+.ar KUNDE2 on
+Ægtefælle 2
+.ar off
+.**********************************************************************
+.ar CPRNR1 on
+CPR-nr.
+.ar off
+.**********************************************************************
+.ar CPRNR2 on
+CPR-nr.
+.ar off
+.**********************************************************************
+.ar PI on
+Pengeinstitut
+.ar off
+.**********************************************************************
+.ar INDHOLD on
+I forbindelse med skifte af vores fælles bo i anledning af vores
+seperation/skilsmisse, erklærer undertegnede parter, at vi efter
+indbyrdes aftale ønsker at fravige den i lov om ægteskabets
+retsvirkningers § 16 f stk. 2 og 3 fastsatte delingsordning i forbindelse
+med, at ægtefælle 1 skal udrede et beløb til ægtefælle 2 efter reglerne
+i retsvirkningslovens § 16 d (fællesskabskompensation), § 16 e
+(rimelighedskompensation) eller § 16 b (pensionsrettigheder, der
+overstiger det rimelige). Vi ønsker at ægtefælle 1 skal udrede beløbet
+på følgende måde:
+.sp 5mm
+:SKRSLUT.
+.if &L'&KAPPRIKTO > 0
+.th .go PRIKAP
+.el .go ARBKAP
+.*****************************************
+...PRIKAP
+:SWISS8.
+Ægtefælle 2 modtager en andel af ægtefælle 1's

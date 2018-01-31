@@ -1,0 +1,150 @@
+.******************************************
+.da SIDE1 24mm 20mm width 177mm
+.********************* SIDE 1 ********************************************
+.ar SIDE1 on
+.ti ¤ 05
+.tp 88mm 111mm 137mm 162mm
+:SWISS8.
+¤Tinglysningsafgift ialt
+.sp 15mm
+.bx 86mm right
+.tp 87mm
+¤Anmelder
+.sp 20mm
+.bx off
+.sp 1mm
+:SWISS14.:FED.
+Ejerpantebrev (bil) :SKRSLUT.
+.br
+:SWISS10.
+.tp 126mm
+Det pantsatte køretøj¤Kontrakt nr.:
+.bx left right
+.sp 7.5mm
+.bx off
+.sp 0.5mm
+.bx left right
+.sp 2mm
+.bx off
+Debitors(es) navn(e), bopæl(e) og CPR-/CVR-nummer(re)
+.bx left right
+.sp 22mm
+.bx off
+.in 0mm
+.bx off
+:SWISS10.
+Beløb
+.bx left right
+:SWISS8.
+.in 5mm
+Kr.
+.br
+Kr.
+.sp 3mm
+.in 0mm
+.sp 1mm
+.bx off
+:SWISS10.
+Rente og betalingsvilkår
+.bx left right
+:SWISS8.
+.in 1mm
+:SWISS8.
+Pantebrevet forrentes med :SKRSLUT.&PCTPA.%:SWISS8. fra overdragelsen at
+regne.
+.br
+Renten erlægges kvartalsvis, første gang i den første efter overdragelsen
+kommende termin for det da forløbne tidsrum.
+.bx off
+.in 0mm
+:SWISS10.
+Opsigelse
+.bx left right
+:SWISS8.
+.in 1mm
+Uden varsel
+.hr left right
+:SWISS8.
+.in 1mm
+NB! Bopælsforandring skal meddeles til kreditor.
+.br
+.tp 162mm
+Ved forsinket betaling af renter og afdrag kan kreditor forlange
+kapitalen indfriet, se vedlagte pantebrevsformular BIL, punkt 7 a.
+.bx off
+.in 0mm
+:SWISS10.
+Foranstående hæftelser
+.bx left right
+:SWISS8.
+.in 1mm
+Ingen
+.bx off
+.in 0mm
+:SWISS10.
+Øvrige kreditoplysninger
+.bx left right
+.sp 2mm
+:SWISS8.
+.bx new 85mm 90mm / 120mm 125mm
+.tp 80mm 114mm
+.in 1mm
+Er ejerpantebrevet omfattet af lov om kreditaftaler ¤Ja ¤Nej
+.bx off
+.sp 1mm
+.bx off
+.in 0mm
+:SWISS10.
+Fuldmagtshaver og meddelelser til pantekreditor
+.bx left right
+:SWISS8.
+.in 1mm
+Meddelelser iht. retsplejelovens kapitel 50 og øvrige meddelelser, der
+efter loven skal sendes til pantekreditor, bedes sendt til
+.sp 22mm
+&AFDBNKNAVN. bemyndiges til på mine/vores vegne at underskrive påtegninger
+af enhver art på dette pantebrev, herunder kvitterings-, transport-,
+moderations- og relaksationspåtegninger, samt at foretage digital
+tinglysning af nærværende pantebrev, ved brug af &AFDBNKNAVN.s
+medarbejderes digitale signaturer.
+.sp
+:FED.
+Fuldmagten giver endvidere &AFDBNKNAVN. ret til
+selvindtrædelse/selvkontrahering, således at &AFDBNKNAVN. kan tinglyse
+dette pantebrev til fordel for sig selv.
+:SKRSLUT.
+.sp
+For pant i køretøjer indregistreret i Danmark gælder følgende:
+.sp
+.tp 10mm
+.in 6mm
+*¤&AFDBNKNAVN.
+.in 10mm nobreak
+kan på mine/vores vegne udstede, digitalt signere og anmelde til
+tinglysning et digitalt dokument med indhold som angivet i nærværende
+dokument.
+.br
+.in 6mm
+*¤&AFDBNKNAVN.
+.in 10mm nobreak
+kan overlade udstedelse, signering og/eller anmeldelse til tinglysning til
+en samarbejdspartner.
+.br
+.in 6mm
+*¤&AFDBNKNAVN.
+.in 10mm nobreak
+har ret til at afgive de i forbindelse med denne disposition nødvendige
+erklæringer.
+.br
+.in 6mm
+*¤Undertegnede
+.in 10mm nobreak
+accepterer, at der kan forekomme mindre ikke-indholdsmæssige afvigelser
+i det digitale pantebrev til det underskrevne papirpantebrev.
+.sp
+.in 1mm
+Undertegnede forpligter sig til i nødvendigt omfang at medvirke til, at
+det digitale pantebrev kan tinglyses.
+.bx off
+.in 0mm
+.ar off

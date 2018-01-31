@@ -1,0 +1,51 @@
+.*************** definer siden som et areal *******************************
+.da SIDE  20mm  44mm width 175mm
+.dr thin weight 0.1mm
+.************ PARTER ******************************************************
+.ar SIDE on
+.tp 1mm 88.5mm
+.bx left 87.5mm right
+:SWISS8.
+¤Kontrakt nr.¤Dato
+.sp 4mm
+.bx off
+:SWISS10.:FED.
+Aftalens parter
+:SKRSLUT.:SKRSLUT.
+.bx left right
+¤Mellem underskrevne sælger
+.sp 19mm
+.bx new left right
+¤CVR.nr.
+.sp 4mm
+.bx new left 87.5mm right
+.if &L'&MDEBKNDNR > 0
+.th ¤og købere¤og
+.el ¤og køber
+.sp 19mm
+.bx new left 87.5mm right
+.if &L'&MDEBKNDNR > 0
+.th ¤Kundenummer¤Kundenummer
+.el ¤Kundenummer
+.sp 4mm
+.bx new left right
+.in 5mm
+er indgået købekontrakt på følgende vilkår:
+.in
+.sp 138mm
+.bx off
+.bx can
+.bx can
+.bx can
+.bx can
+.sp
+.bx new left 17mm 34mm 51mm 68mm
+.tp 1mm 18mm 35mm 52mm 69mm
+:SWISS6.
+¤Udfærdiget af¤Bevilget af¤Gennemgang¤Revideret
+.br
+:SKRSLUT.
+.sp 6mm
+.bx off
+.ar off
+.**************************************************************************

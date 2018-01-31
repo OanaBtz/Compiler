@@ -1,0 +1,73 @@
+.*TESTBREV*************************************************************
+.* Calibri tegn - Opgave stillet af Lægernes Bank - efterår 2016 ******
+.**********************************************************************
+.dr tynd weight 0.2mm
+.***************************
+Klokken: &KLOKKESLET.
+.sp 65mm
+.hr tynd 20mm 105mm
+:CALIB14.
+:FED.
+CALIBRI-8. (Skrevet i calibri 14, Fed skrift)
+:SKRSLUT.
+:SKRSLUT.
+.br
+:CALIB8.
+abcdefgh ABCDEFGH 1234567
+:SKRSLUT.
+.sp
+.hr tynd 20mm 105mm
+:CALIB14.
+:FED.
+CALIBRI-9. (Skrevet i calibri 14, Fed skrift)
+:SKRSLUT.
+:SKRSLUT.
+.br
+:CALIB9.
+abcdefgh ABCDEFGH 1234567
+:SKRSLUT.
+.sp
+.hr tynd 20mm 105mm
+:CALIB14.
+:FED.
+CALIBRI-10. (Skrevet i calibri 14, Fed skrift)
+:SKRSLUT.
+:SKRSLUT.
+.br
+:CALIB10.
+abcdefgh ABCDEFGH 1234567
+:SKRSLUT.
+.sp
+.hr tynd 20mm 105mm
+:CALIB14.
+:FED.
+CALIBRI-11. (Skrevet i calibri 14, Fed skrift)
+:SKRSLUT.
+:SKRSLUT.
+.br
+:CALIB11.
+abcdefgh ABCDEFGH 1234567
+:SKRSLUT.
+.sp
+.hr tynd 20mm 105mm
+:CALIB14.
+:FED.
+CALIBRI-12. (Skrevet i calibri 14, Fed skrift)
+:SKRSLUT.
+:SKRSLUT.
+.br
+:CALIB12.
+abcdefgh ABCDEFGH 1234567
+:SKRSLUT.
+.sp
+.hr tynd 20mm 105mm
+:CALIB12.
+:FED.
+CALIBRI-14. (Skrevet i calibri 12, Fed skrift)
+:SKRSLUT.
+:SKRSLUT.
+.br
+:CALIB14.
+abcdefgh ABCDEFGH 1234567
+:SKRSLUT.
+.sp

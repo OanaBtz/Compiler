@@ -1,0 +1,50 @@
+.th Extraordinary instalments DKK
+.if &U'&AFDYDL03 = Z
+.th Extraordinary payments DKK
+:VS. &AFVBEL03
+.ct, which is payable
+.if &AFVFREK03 = 1
+.th monthly
+.if &AFVFREK03 = 3
+.th quarterly
+.if &AFVFREK03 = 4
+.th every two months
+.if &AFVFREK03 = 6
+.th half-yearly
+.if &AFVFREK03 = 7
+.th weekly
+.if &AFVFREK03 = 9
+.th yearly
+.if &AFVFREK03 = 14
+.th every fortnight
+.if &AFVFREK03 = 15
+.th on the 15th and last day of each month
+the first time on &AFVDATO03.. &ÄCONT
+.if x&AFVANT03 = x99
+.th .go 4AFVIKL
+.if &U'&AFDYDL03 = A
+.OR &U'&AFDYDL03 = X
+.th .go AFV03AX
+.el .go AFV03YZ
+...AFV03AX
+.if &AFVANT03 > 1
+.th The total number of instalments is &AFVANT03..
+.el The total number of instalments is &AFVANT03..
+.go 4AFVIKL
+...AFV03YZ
+.if &AFVANT03 > 1
+.th The total number of payments is &AFVANT03..
+.el The total number of payments is &AFVANT03..
+.go 4AFVIKL
+.*4. AFVIKLING ***********
+...4AFVIKL
+.if &L'&AFDYDL04 = 0
+.th .sp 5mm
+.th .go SLUTAFV
+.br
+.if &U'&AFDYDL04 = T
+.th Please refer to the repayment schedule.
+.sp 5mm
+...SLUTAFV
+.********************
+.if &L'&OPFÄLGDATO = 0

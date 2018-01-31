@@ -1,0 +1,62 @@
+.* Overskrift
+.da OVER1 20mm 65mm width 170mm
+.* Del-overskrift
+.da OVER2 20mm 79mm width 170mm
+.* Kolonne 1 af regelsættet
+.da KOLONNE1 20mm 90mm width 78mm
+.*****************************************************************
+.ar OVER1 on
+.us Tillæg til uddannelseserklæring - uddrag af regler
+.ar off
+.*****************************************************************
+.ar OVER2 on
+Uddrag af regler for uddannelsesopsparing oprettet i henhold til lov
+nr. 727 af 29. oktober 1986 samt senere ændringer og bekendtgørelser.
+.ar off
+.*****************************************************************
+.ar KOLONNE1 on
+:COUR10.
+Statens præmie
+.sp
+:COUR8.
+Staten yder en præmie på 4% p.a. af den til enhver tid foretagne
+opsparing (incl. tilskrevne renter, men excl. statens præmie). Det
+er en betingelse, at udbetaling finder sted i overensstemmelse med
+undervisningsministeriets regler i bekendtgørelse om
+.hw ud-dan-nel-ses-op-spa-ring.
+Præmiebeløbet, der afholdes af
+.hw stats-kas-sen,
+er fritaget for indkomstskat.
+.sp
+Præmien beregnes ved opsparingsperiodens
+.hw af-slut-ning
+i forbindelse med
+udbetaling fra kontoen til en præmieberettiget uddannelse.
+Uddannelseskontoen tilskrives ved hvert
+.hw ud-be-ta-lings-års
+udløb eller ved en
+.hw præ-mie-be-ret-ti-gen-de
+uddannelses afslutning en forholdsmæssig andel af det samlede
+.hw præ-mie-be-løb.
+:COUR10.
+.sp 5mm
+Udbetaling
+:COUR8.
+.sp
+Udbetaling med præmie kan påbegyndes ved kontohavers fyldte 16. år, dog
+tidligst 3 år efter første indbetaling på kontoen. Udbetaling sker uden
+opsigelse. Udbetaling med præmie kan kun ske i forbindelse med kontohavers
+påbegyndelse af en præmieberettigende uddannelse. Kontohaver skal over for
+pengeinstituttet dokumentere påbegyndelsen af en sådan uddannelse ved
+forevisning af indskrivningsbevis eller lignende.
+.sp
+Udbetaling kan højst udgøre kr. 24.000 incl. præmien årligt, og
+udbetalingen finder sted i 12 månedlige lige store rater. Det årlige
+maksimumbeløb reguleres efter
+.hw un-der-vis-nings-mi-ni-ste-riets
+nærmere bestemmelse.
+.sp
+Udbetalingsåret starter ved første udbetaling fra kontoen, og udbetaling
+kan tidligst finde sted ved uddannelsens påbegyndelse.
+.ar off
+.*****************************************************************

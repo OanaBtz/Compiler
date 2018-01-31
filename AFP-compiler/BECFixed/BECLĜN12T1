@@ -1,0 +1,24 @@
+.el &GENBRUGNVN ¤&GENBRUGNV1
+.ar off
+.**************************************************************************
+.ar FORHOLD on
+&GENTEKST1.
+.br
+&GENTEKST2.
+.br
+&GENTEKST3.
+.ar off
+.**************************************************************************
+.ar UNDERVIRK on
+:COUR10.
+.ce on
+&NAVN
+.ce off
+.ar off
+.*******************************************************
+.ar UNDERFORM on
+:COUR10.
+.ce on
+&BANKNAVN
+.ce off
+.ar off

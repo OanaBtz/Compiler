@@ -1,0 +1,32 @@
+:SWISS8.
+.kp on
+:SWISS10.:FED.
+5. Produktansvar
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+5.1 Formidleren af LØN|SERVICE og BEC er ikke ansvarlig for
+tab, der opstår som en følge af serviceleverandørens installering og
+brug af underskriftsfiler og opkobling til og anvendelse af LØN|SERVICE,
+med mindre et sådant ansvar følger af ufravigelige
+regler i produktansvarsloven.
+.sp 3mm
+.kp off
+.kp on
+5.2 Serviceleverandøren er ansvarlig for, at denne er behørigt
+forsikret mod direkte og indirekte tab, der kan opstå som følge
+af installering og brug af underskriftsfiler og opkobling og
+anvendelse af serviceleverandørens edb-system til LØN|SERVICE via
+internet. Serviceleverandøren er endvidere forpligtet til at foretage
+backupkopier af data, der såfremt disse gik tabt kunne medføre
+tab for serviceleverandøren.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.:FED.
+6. Andre vilkår
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+Der henvises til Almindelige regler og vilkår for LØN|SERVICE.
+.kp off

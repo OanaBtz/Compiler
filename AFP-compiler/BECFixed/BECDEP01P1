@@ -1,0 +1,26 @@
+.* Parametre og substrings ************************************************
+.***** her deles kontonummer for obligationsrenter ************************
+.su off
+.se oblregnr = substr &GENOBLKTO 1 4
+.se oblktonr = substr &GENOBLKTO 5 10
+.***** her deles kontonummer for udtrukne obligationer ********************
+.se uoblregnr = substr &GENUOBLKTO 1 4
+.se uoblktonr = substr &GENUOBLKTO 5 10
+.***** her deles kontonummer for aktieudbytte *****************************
+.se aktregnr = substr &GENAKTKTO 1 4
+.se aktktonr = substr &GENAKTKTO 5 10
+.***** her deles kontonummer for pantebrevsafkast *************************
+.se panregnr = substr &GENPANKTO 1 4
+.se panktonr = substr &GENPANKTO 5 10
+.***** her deles kontonummer for depotgebyr  ******************************
+.se depgregnr = substr &GENDEPGKTO 1 4
+.se depgktonr = substr &GENDEPGKTO 5 10
+.***** her deles kontonummer for sikkerhedsdepot **************************
+.se sikregnr = substr &GENSIKDEP 1 4
+.se sikktonr = substr &GENSIKDEP 5 10
+.su on
+.**************************************************************************
+.if x&GENVALG < x1
+.or x&GENVALG > x2
+.th .mg/T/Type: Vælg Depotoprettelse = 1 eller Depotændring = 2/
+.**************************************************************************

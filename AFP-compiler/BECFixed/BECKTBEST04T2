@@ -1,0 +1,60 @@
+.**AREALER*****************************************************************
+.da KORTHLD1 21mm 87mm width 173mm
+.da KORTHLD2 21mm 111mm width 173mm
+.da INDESTERKL 21mm 121mm width 173mm
+.da NAVN 21mm 167mm width 171mm
+.*KORTHOLDER-OPLYSNINGER***************************************************
+.ar KORTHLD1 on
+:SWISS8.
+Jeg har læst og accepteret kortbestemmelserne. Ved ansøgning om familiekort
+er jeg bekendt med, at der ikke er knyttet en særskilt rejseforsikring til
+familiekortet. Det aftalte forbrugsmaksimum omfatter det samlede forbrug
+for begge kort.
+.sp 3mm
+Hæftelsen kan kun ophøre med virkning fra det tidspunkt, hvor det udstedte
+.*
+.*   Skal muligvis være ubetinget igen
+.*
+.if &L'&KTTYPT2LNG. > 0
+.th &KTTYPT2LNG.
+.el kort
+er leveret tilbage til &BANKNAVN., og samtlige tilgodehavender er betalt.
+.ar off
+.*KORTHOLDER UNDERSKRIFT***************************************************
+.ar KORTHLD2 on
+:SWISS8.
+.tp _/35mm _/170mm
+Dato ¤ Familiekortholders underskrift ¤
+.ar off
+.*INDESTÅELSESERKLÆRING ***************************************************
+.ar INDESTERKL on
+:SWISS8.
+Ovennævnte, som er min ægtefælle, samlever eller mit hjemmeboende barn over
+18 år, gives fuldmagt til at disponere på min kortkonto ved familiekort.
+.sp 3mm
+Jeg er indforstået med, at ovennævnte familiekort udstedes, og at jeg som
+meddebitor hæfter for enhver forpligtelse, der måtte opstå som følge heraf.
+Hæftelsen gælder indtil det tidspunkt, hvor det udstedte kort er leveret
+tilbage til &BANKNAVN., og samtlige tilgodehavender er indfriet.
+.sp 3mm
+Som kortholder er jeg ansvarlig for alt forbrug på kortkontoen, uanset om
+betalingerne er foretaget med familiekort eller mit eget kort, ifølge
+kortbestemmelserne.
+.sp 3mm
+Fuldmagten gælder, indtil &BANKNAVN modtager en skriftlig
+tilbagekaldelse. Familiekortet skal hurtigst muligt efter tilbagekaldelsen
+klippes over og sendes til &BANKNAVN..
+.ar off
+.**************************************************************************
+.ar NAVN on
+:SWISS8.
+.tp _/120mm
+Kontohavers navn ¤
+.sp 10mm
+.tp 80mm
+Kontohavers kortnummer ¤(16 cifre. Nummeret står på forsiden af kontohavers
+kort).
+.sp 10mm
+.tp _/120mm
+Kontohavers underskrift ¤
+.ar off

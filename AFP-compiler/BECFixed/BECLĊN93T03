@@ -1,0 +1,50 @@
+.******************
+.kp on
+:FED.
+.us Boligkreditgiver har i den forbindelse oplyst &migos. om fÄlgende:
+.sp 3mm
+De vÄsentligste egenskaber ved den valgte boligkreditaftale:
+:SKRSLUT.
+.br
+.if x&GENLÄNTYPE. = x1
+.th LÄnet er et variabelt forrentet prioritetslÄn i &piudvid.. Renten er
+.th angivet i lÄnedokumentet og kan Ändres af pengeinstituttet i
+.th overensstemmelse med pengeinstituttets 'Almindelige
+.th forretningsbetingelser for privatkunder'.
+.th .sp 3mm
+.th .kp off
+.if x&GENLÄNTYPE. = x2
+.th LÄnet er et variabelt forrentet prioritetslÄn med en periode uden
+.th afdrag i &piudvid.. Rente er angivet i lÄnedokumentet og kan Ändres af
+.th pengeinstittutet i overensstemmelse med 'Almindelige
+.th forretningsbetingelser for privatkunder'.
+.th .sp 3mm
+.th .kp off
+.if x&GENLÄNTYPE. = x3
+.or x&GENLÄNTYPE. = x5
+.th LÄnet er et variablet forrentet prioritetslÄn i &piudvid.. For lÄnet
+.th er dog valgt fast rente i en periode pÄ &GENFREKV1. &GENÄRMD., som
+.th sikrer &migos en stabil renteudgift i perioden.
+.th .sp 3mm
+.th .kp off
+.if x&GENLÄNTYPE. = x4
+.th LÄnet er et variabelt forrentet prioritetslÄn i &piudvid.. LÄnet har
+.th dog fast rente i en periode pÄ &GENFREKV1. &GENÄRMD., som sikrer
+.th &migos en stabil renteudgift i perioden. Rentesatsen kan ikke
+.th overstige &GENRENTE1.% i en periode pÄ &GENLOFT1. Är.
+.th .sp 3mm
+.th .kp off
+.if x&GENLÄNTYPE. = x6
+.th LÄnet er et variabelt forrentet prioritetslÄn i &piudvid.. For lÄnet er
+.th dog valgt fast rente i en periode pÄ &GENFREKV1. &GENÄRMD., som
+.th sikrer &migos en stabil renteudgift i perioden. LÄnets rente kan
+.th ikke overstige &GENRENTE1.% i en periode pÄ &GENLOFT1. Är.
+.th .sp 3mm
+.th .kp off
+.if x&GENLÄNTYPE. = x7
+.th LÄnet er et PrioritetslÄn med variabel rente og en periode uden
+.th betaling af afdrag.
+.th .sp 3mm
+.th .kp off
+.if x&GENLÄNTYPE. = x8
+.th LÄnet er en variabelt forrentet prioritetskredit i &piudvid.. Renten

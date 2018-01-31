@@ -1,0 +1,8 @@
+.*******************************
+.su off
+.se dag = substr &DATO 1 2
+.se mdr = substr &DATO 4 2
+.se aar = substr &DATO 7 4
+.su on
+.* &dag.-&mdr.-&aar.
+.*******************************

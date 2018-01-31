@@ -1,0 +1,32 @@
+.************************************************************************
+.da MEDDKRE 29mm 63mm width 170mm
+.da KREDOPL 110mm 47mm width 90mm
+.da SAERLIG 29mm 165mm width 170mm
+.************************************************************************
+.ar MEDDKRE on
+&ANMELDER10
+.br
+&ANMELDER20
+.br
+&ANMELDER30
+.br
+&ANMELDER40
+.br
+&ANMELDER50
+.ar off
+.************************************************************************
+.ar KREDOPL on
+.tp 36mm
+&JA ¤&NEJ
+.ar off
+.************************************************************************
+.ar SAERLIG on
+&SAERLIG1A.&SAERLIG1B
+.br
+&SAERLIG2A.&SAERLIG2B
+.br
+&SAERLIG3A.&SAERLIG3B
+.br
+&SAERLIG4A.&SAERLIG4B
+.ar off
+.************************************************************************

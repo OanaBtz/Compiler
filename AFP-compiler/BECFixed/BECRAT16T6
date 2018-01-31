@@ -1,0 +1,166 @@
+:SWISS8.
+.da KONTOH     21mm    44mm   width  85mm
+.da ARBG      108.5mm  44mm   width  85mm
+.da PI         21mm    73mm   width  85mm
+.da CPRNR     108.5mm  73mm   width  85mm
+.da KONTONR   108.5mm  83mm   width  45mm
+.da DEPNR     151mm    83mm   width  45mm
+.da TEKST      21mm    94mm   width 170mm
+.da INDBET     21mm   107mm   width 170mm
+.*************************************
+.ar KONTOH on
+Kontohaver
+.ar off
+.***********************
+.ar ARBG on
+.if &L'&GENARBFAST gt 0
+.or &L'&GENARBPCT gt 0
+.or &L'&GENARBENGA gt 0
+.th Arbejdsgiver
+.th .sp 22mm
+.th CVR-nr.
+.ar off
+.**********************
+.ar PI on
+Pengeinstitut
+.ar off
+.**********************
+.ar CPRNR on
+CPR-nr.
+.ar off
+.*********************
+.ar KONTONR on
+Kontonr.
+.ar off
+.**************************
+.ar DEPNR on
+Depotnr.
+.ar off
+.**************************
+.ar TEKST on
+Undertegnede parter indgår herved aftale om oprettelse
+af ratepension (rateopsparing omfattet af
+pensionsbeskatningslovens § 15B)
+.if &L'&GENIDTO13 gt 0
+.th .ct , som erstatter kontrakt af
+.th :SKRSLUT.
+.th &GENIDTO13..
+.el .ct .
+.ar off
+.**************************
+.ar INDBET on
+Indbetalinger
+.sp
+.*** test hvilken ordning **************************
+.if &L'&GENARBFAST gt 0
+.th .go ARBFAST
+.if &L'&GENARBPCT gt 0
+.th .go ARBPCT
+.if &L'&GENARBENGA gt 0
+.th .go ARBENGA
+.el .go INDBSLUT
+.**** ARBEJDSGIVERORDNINGER ****
+.****arbejdsgiver fast beløb   ***************
+...ARBFAST
+.tp 82mm 145mm
+.if x&GENLØNINDB = x1
+.th Arbejdsgiver indbetaler et fast beløb på ¤kr pr. år.
+.th .go AA1
+Arbejdsgiver indbetaler et fast beløb på ¤kr
+.if x&GENLØNINDB = x2
+.th pr. halvår,
+.if x&GENLØNINDB = x3
+.th pr. kvartal,
+.if x&GENLØNINDB = x4
+.th pr. måned,
+.if x&GENLØNINDB = x5
+.th pr. 14. dag,
+.if x&GENLØNINDB = x6
+.th pr. uge,
+svarende til ¤kr. årlig.
+...AA1
+.**** kun arb fast beløb ******
+.tp 46mm
+Beløbet ¤kr. indbetales første gang den
+.sp
+.sp
+.tp 47mm
+Af pensionsbidraget betaler:
+.sp 3mm
+- Arbejdsgiver ¤kr og
+.br
+- Kontohaver   ¤kr
+.sp
+.**** test for pristalsregulering ************
+.tp 64mm
+.if &L'&GENPRISTAL gt 0
+.or &L'&GENPRIFRI gt 0
+.th Indbetalingen pristalreguleres årligt på grundlag af
+.el .sp
+.el .go INDBVIDR
+.if x&GENPRISTAL = x1
+.th forbrugerprisindekset.
+.th .go INDBVIDR
+.if x&GENPRISTAL = x2
+.th nettoprisindekset.
+.th .go INDBVIDR
+.if x&GENPRISTAL = x3
+.th timelønsindekset.
+.th .go INDBVIDR
+.if x&GENPRISTAL = x4
+.th lønindekset.
+.th .go INDBVIDR
+.if &L'&GENPRIFRI gt 0
+.th .ct ¤&GENPRIFRI..
+.go INDBVIDR
+.****arbejdsgiver procentindbetaling  *****
+...ARBPCT
+.*tp 40mm 73mm 156mm 166mm
+.tp 24mm 59mm 73mm
+Arbejdsgiver indbetaler et pensionsbidrag på ¤¤¤%
+.if x&GENLØNINDB = x1
+.th pr. år
+.if x&GENLØNINDB = x2
+.th pr. halvår
+.if x&GENLØNINDB = x3
+.th pr. kvartal
+.if x&GENLØNINDB = x4
+.th pr. måned
+.if x&GENLØNINDB = x5
+.th pr. 14. dag
+.if x&GENLØNINDB = x6
+.th pr. uge
+.ct  af kontohavers pensionsberettigede løn, første gang den
+.sp 8mm
+Af pensionsbidraget betaler:
+.sp
+- Arbejdsgiver
+.br
+- Kontohaver
+.sp 6mm
+.****slutlinie fælles for fast og pct *****
+...INDBVIDR
+.br
+.tp 79mm
+Aftalen om indbetaling er gældende indtil kontohaver fylder ¤år,
+dog kun så længe kontohaver er ansat i virksomheden.
+.go INDBSLUT
+.****arbejdsgiver engangsindskud **********
+...ARBENGA
+.tp 90mm
+Arbejdsgiver indbetaler et engangsindskud på ¤kr.
+.br
+.tp 43mm
+Beløbet ¤kr. indbetales den
+.sp
+.tp 49mm
+Af pensionsbidraget betaler:
+.sp
+- Arbejdsgiver ¤kr og
+.br
+- Kontohaver   ¤kr
+.go INDBSLUT
+.**********************************************************
+...INDBSLUT
+.ar off
+.*************afsnittet fortsætter i t7 ********

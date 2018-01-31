@@ -1,0 +1,69 @@
+.oc  TelefonService udvidede muligheder VBS730
+.sp6
+.in5
+.ti > 05
+.tp 3 39 54
+.fo left
+>&STILL >&BANKNAVN
+.br
+>&NAVN >&AFDNAVN
+.br
+.if &L'&COADR gt 0
+.th >&COADR >&AFDGADE
+.th .br
+.th >&GADE >&AFDBY
+.th .br
+.th >&BY
+.th .sp6
+.el >&GADE >&AFDGADE
+.el .br
+.el >&BY >&AFDBY
+.el .sp7
+>&GENT1K >&KUNDENR
+.sk4
+.se ANTAL=16
+.if &L'&GENT2 gt 0
+.th .se ANTAL=&ANTAL-1
+.th Overførsel til anden kundes konto i banken >&GENT2
+.th .br
+.if &L'&GENT3 gt 0
+.th .se ANTAL=&ANTAL-1
+.th >&GENT3
+.th .br
+.if &L'&GENT4 gt 0
+.th .se ANTAL=&ANTAL-1
+.th >&GENT4
+.th .sk
+.el .sk
+.if &L'&GENT5 gt 0
+.th .se ANTAL=&ANTAL-1
+.th Overførsel til konto i andet pengeinstitut  >&GENT5
+.th .br
+.if &L'&GENT6 gt 0
+.th .se ANTAL=&ANTAL-1
+.th >&GENT6
+.th .br
+.if &L'&GENT7 gt 0
+.th .se ANTAL=&ANTAL-1
+.th >&GENT7
+.th .sk
+.el .sk
+.if &L'&GENT14 gt 0
+.th .se ANTAL=&ANTAL-1
+.th Overførsel fra konto i GiroBank >&GENT14
+.th .br
+.if &L'&GENT15 gt 0
+.th .se ANTAL=&ANTAL-1
+.th >&GENT15
+.th .br
+.if &L'&GENT16 gt 0
+.th .se ANTAL=&ANTAL-1
+.th >&GENT16
+.sp &ANTAL
+.sp2
+.ce
+>&EKSPBY., den >&DATO
+.sp4
+>&BANKNAVN
+.br
+>&AFDNAVN >&NAVN

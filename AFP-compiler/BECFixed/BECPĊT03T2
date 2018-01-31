@@ -1,0 +1,45 @@
+.tp 8mm
+.dr tynd weight 0.1mm
+.sp 10mm
+.**************************************************************************
+.kp on
+NÄrvÄrende pantebrev, stort til rest kr.
+:VS. &GENBELÄB11
+transporterer jeg/vi herved med vedhÄngende renter til:
+.sp 3mm
+&KUNDENR., &NAVN., &COADR., &GADE., &BY.
+.sp 3mm
+For transporten, der sker uden ansvar for mig/os, er jeg/vi fyldestgjort.
+.sp 3mm
+OvennÄvnte tiltrÄdes af &GENADR1., &GENADR2., &GENADR3., &GENADR4. som
+kreditor.
+.sp 10mm
+.hr tynd 5mm 85mm
+.if &U'&GENKRYDS1. = J
+.th .br
+.th Kreditorskifte foretaget digitalt
+.sp 3mm
+Afdragsbestemmelserne i nÄrvÄrende pantebrev, der fremtidigt skal vÄre et
+ejerpantebrev, bortfalder hermed, idet ejerpantebrevet samtidig sÄvel fra
+kreditors som fra debitors side skal kunne opsiges med 14 dages varsel.
+.sp 3mm
+Det personlige gÄldsansvar bortfalder.
+.sp 3mm
+De tidligere erlagte afdrag, kr. &RESULTA. kvitteres samtidig til
+aflysning.
+.sp 3mm
+I tilfÄlde af tvangsauktion over den/de pantsatte ejendom/me forrentes
+ejerpantebrevet fra tidspunktet for tvangsauktion til betaling finder sted
+med 20% pa.
+.sp 3mm
+NÄrvÄrende ejerpantebrev mÄ fremtidig i alt respektere:
+.if &L'&GENTEKST7. > 0
+.th .br
+.th &GENTEKST7.
+.if &L'&GENTEKST8. > 0
+.th .br
+.th &GENTEKST8.
+.sp 3mm
+Pantebrevet respekterer herudover de fÄr dags dato tinglyste servitutter og
+andre byrder med eller uden pant.
+.kp off

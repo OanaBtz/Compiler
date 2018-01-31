@@ -1,0 +1,70 @@
+.* AB 92 - Kasser og ledetekster
+.da BOX   20mm 40mm WIDTH 175mm
+.ll 180mm
+.tp 1mm 88mm 145mm 76mm
+.**********************************
+.ar BOX on
+:SWISS10.:FED.
+¤Garantinummer
+:SKRSLUT.
+.**********************************
+.bx left right
+:SWISS8.
+¤Kontonr. for garanti
+:SKRSLUT.
+.sp 4mm
+.bx off
+.**********************************
+:SWISS10.:FED.
+¤Parter
+:SWISS8.
+.bx left right
+¤På foranledning af (entreprenøren)
+.sp 19mm
+.bx off
+.**********************************
+.bx set left right
+¤indestår vi herved over for (bygherren)
+:SKRSLUT.
+.sp 19mm
+.bx off
+.**********************************
+:SWISS10.:FED.
+¤Betingelser
+:SWISS8.
+.bx left right
+¤som garant for betaling af indtil ialt kr.
+.sp 1mm
+¤Beløb i tekst:
+:SKRSLUT.
+.bx off
+.**********************************
+.bx set left right
+:SWISS8.
+¤som sikkerhed for opfyldelse af alle entreprenørens forpligtelser i
+henhold til
+.sp 1mm
+¤entreprisekontrakt/accept/tilbud af:
+.ct ¤¤¤omfattende udførelse af:
+:SKRSLUT.
+.sp 11.5mm
+.bx off
+.**********************************
+.bx set left right
+:SWISS8.
+¤Supplerende oplysninger:
+:SKRSLUT.
+.sp 11mm
+.**********************************
+.hr left right
+.sp 89mm
+.bx off
+.**********************************
+.bx set left right
+:SWISS8.
+¤Pengeinstituttets underskrift ¤¤Dato:
+:SKRSLUT.
+.sp 11.5mm
+.bx off
+.**********************************
+.ar off

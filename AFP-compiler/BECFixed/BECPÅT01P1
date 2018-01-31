@@ -1,0 +1,39 @@
+.*
+.**************************************************************************
+.if x&GENVALG < x1
+.or x&GENVALG > x3
+.th .mg/T/Valg for 'Påtegning på' skal være 1, 2 eller 3/
+.if x&GENVALG. = x1
+.th .se paatxt  = 'ejerpantebrev'
+.th .se spaatxt = 'Ejerpantebrev'
+.if x&GENVALG. = x2
+.th .se paatxt = 'pantebrev'
+.th .se spaatxt = 'Pantebrev'
+.if x&GENVALG. = x3
+.th .se paatxt = 'skadesløsbrev'
+.th .se spaatxt = 'Skadesløsbrev'
+.**************************************************************************
+.if &L'&GENVALG1. > 0
+.th
+.el .go FORTS1
+.if x&GENVALG1 < x1
+.or x&GENVALG1 > x2
+.th .mg/T/Valg for 'Effekttype skal være 1 eller 2/
+.if x&GENVALG1. = x1
+.th .se efftxt  = 'løsøreejerpantebrev'
+.th .se sefftxt = 'Løsøreejerpantebrev'
+.if x&GENVALG1. = x2
+.th .se efftxt  = 'skadesløsbrev'
+.th .se sefftxt = 'Skadesløsbrev'
+...FORTS1
+.**************************************************************************
+.* TEST PÅ UNDERSKRIVERNE
+.if &L'&GENUNDSKR2 > 0
+.an &L'&GENUNDSKR1 = 0
+.th .mg/T/Underskriver 1 skal udfyldes før underskriver 2/
+.if &L'&GENUNDSKR3 > 0
+.an &L'&GENUNDSKR2 = 0
+.th .mg/T/Underskriver 2 skal udfyldes før underskriver 3/
+.if &L'&GENUNDSKR4 > 0
+.an &L'&GENUNDSKR3 = 0
+.th .mg/T/Underskriver 3 skal udfyldes før underskriver 4/

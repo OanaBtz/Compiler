@@ -1,0 +1,52 @@
+.********************************
+.da PANT2 114mm 40mm width 80mm
+.da STREGER 24mm 130mm width 175mm
+.********************************
+.ar PANT2 on
+:SWISS8.
+3.
+.in 4mm nobreak
+Debitor forpligter sig til at holde pantet behørigt brandforsikret, således
+at betingelserne i Finanstilsynets bekendtgørelse om minimumsbetingelser
+for forsikringsselskabers tegning af bygningsbrandforsikring er
+opfyldt.
+.sp 10mm
+.in 0mm
+4.
+.in 4mm nobreak
+Uanset uopsigelighed eller opsigelsesfrist kan kreditor forlange kapitalen
+indfriet i følgende tilfælde:
+.sp 5mm
+a)
+.in 7mm nobreak
+Hvis bygninger af væsentlig betydning for pantets værdi nedrives, uden at
+der er stillet betryggende sikkerhed.
+.sp 5mm
+.in 4mm
+b)
+.in 7mm nobreak
+Hvis pantet i øvrigt væsentligt forringes eller vanrøgtes, uden at der
+efter påkrav stilles betryggende sikkerhed.
+.sp 5mm
+.in 4mm
+c)
+.in 7mm nobreak
+Hvis debitor nægter kreditor eller dennes fuldmægtig adgang  til at efterse
+pantet.
+.sp 5mm
+.in 4mm
+d)
+.in 7mm nobreak
+Hvis debitor ikke på opfordring godtgør, at pantet er behørigt
+brandforsikret.
+.ar off
+.**************************************************************************
+.ar STREGER on
+.** her laves 2 lodrette linier, så man kan se at der ikke kommer ****
+.** mere tekst på siden   ********************
+.sp 5mm
+.vr 40mm 130mm
+.sp 150mm
+.vr off
+.ar off
+.**************************************************************************

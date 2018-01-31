@@ -1,0 +1,66 @@
+.**************************************************************************
+.da AFTALE      25mm    45.5mm width 80mm
+.da LEVOPL      25mm    54mm   width 80mm
+.da AKTIV       25mm    84mm   width 165mm
+.da FORTSÆT     25mm    90mm   width 169mm
+.da STEL        25mm    98mm   width 120mm
+.da REGNR      112.5mm  98mm   width 35mm
+.da LEVADR      25mm   112mm   width 80mm
+.da UNDLEV      20mm   174mm   width 165mm
+.**************************************************************************
+.ar AFTALE on
+&AFTALENR.
+.ar off
+.**************************************************************************
+.ar LEVOPL on
+&LEVADR1.
+.br
+&LEVADR2.
+.br
+&LEVADR3.
+.br
+&LEVADR4.
+.br
+&LEVADR5.
+.ar off
+.**************************************************************************
+.ar AKTIV on
+.tp 35mm 68mm
+&BESKRIV01.,:SWISS8. årgang:SKRSLUT. &ÅRG01.
+.ar off
+.**************************************************************************
+.ar FORTSÆT on
+:SWISS8.
+.fo right
+.if &U'&FORTSÆT = J
+.th Fortsættes
+:SKRSLUT.
+.ar off
+.**************************************************************************
+.ar STEL on
+&STELNR01.
+.ar off
+.**************************************************************************
+.ar REGNR on
+.if &L'&REGISNR01 > 0
+.th &REGISNR01.
+.ar off
+.**************************************************************************
+.ar LEVADR on
+&LEVERADR1.
+.br
+&LEVERADR2.
+.br
+&LEVERADR3.
+.br
+&LEVERADR4.
+.br
+&LEVERADR5.
+.ar off
+.if &U'&FORTSÆT = J
+.th .go SLUT
+.ar UNDLEV on
+.ce &LEVDNAVN01.
+.ar off
+...SLUT
+.*********************************************************************

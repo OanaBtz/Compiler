@@ -1,0 +1,18 @@
+.if &antal > 7
+.th .go MAXKS
+.el .go MAXSL
+...MAXKS
+.*FORTSAT FRA BECINFO01K ************************************************
+.*KASSE TIL AFTALETYPER, LANGT KASSEAFSNIT, DER BENYTTES, HVIS DER ER ****
+.*BENYTTES MERE END 14 SPECIFIKKE TELEFONNR. ELLER EMAIL-ADRESSER ********
+.*SÅ BLIVER BREVET UDSKREVET PÅ 2 SIDER **********************************
+.*ELLERS BENYTTES BECINFO01K1 ********************************************
+:SWISS10.
+:FED.
+Valgte aftaletyper
+:SKRSLUT.
+.bx left 135mm 175mm
+.sp 167mm
+.bx off
+.ar off
+...MAXSL

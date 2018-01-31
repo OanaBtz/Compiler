@@ -1,0 +1,67 @@
+.da oversk 20mm 32mm width 150mm
+.da side1  20mm 35mm width 175mm
+.***********************************
+.ar oversk on
+:SWISS12.
+:FED.
+.if &L'&GENPRIFAST gt 0
+.th .us Aftale om ratepension - Privat (§ 15B, fast beløb)
+.th .go OVSSLUT
+.if &L'&GENPRIENGA gt 0
+.th .us Aftale om ratepension - Privat (§ 15B, engangsindskud)
+.th .go OVSSLUT
+.if &L'&GENPRIOPFY gt 0
+.th .us Aftale om ratepension - Privat (§ 15B, op til opfyldningsfradrag)
+.th .go OVSSLUT
+...OVSSLUT
+:SKRSLUT.
+.ar off
+.***********************************
+.ar side1 on
+.sp
+:SWISS10.
+.in 1mm
+:FED.
+Parter
+:SKRSLUT.
+.***** her laves kassen til kontohaver og evt.arbejdsgiver *****
+.bx new left 87.5mm right
+.sp 28mm
+.***** her laves kassen til pengeinstitut og regnr *****
+.bx new left 87.5mm right
+.sp 8.5mm
+.***** her laves kassen til kontonr og depotnr *****
+.hr 87.5mm right
+.vr 130.5mm
+.sp 8.5mm
+.***** her laves kassen til formål *****
+.bx new left right
+.vr off
+.sp 8mm
+.bx off
+.bx can
+.bx can
+:SWISS10.
+:FED.
+Indhold
+:SKRSLUT.
+.***** her laves kassen til indbetalinger   ************
+.bx new left right
+.sp 40mm
+.***** her laves kassen til placering af opsparing******
+.bx new left right
+.sp 10mm
+.***** her laves kassen til udbetalinger    ************
+.bx new left right
+.sp 24mm
+.***** her laves kassen til begunstigede   ************
+.bx new left right
+.sp 90mm
+.*  .sp 50mm
+.bx off
+.bx can
+.bx can
+.bx can
+.bx off
+.*****************
+.ar off

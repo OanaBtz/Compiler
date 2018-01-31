@@ -1,0 +1,15 @@
+.******************************************************************
+.da SIDE2 20mm 38mm width 175mm
+.dr thin weight 0.2mm
+.******************************************************************
+.ar SIDE2 on
+.tp 4mm
+:SWISS10.
+:FED.
+Erklæring
+:SKRSLUT.
+:SWISS8.
+.bx left right
+.sp 234mm
+.bx off
+.ar off

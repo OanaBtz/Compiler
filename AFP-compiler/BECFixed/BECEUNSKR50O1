@@ -1,0 +1,53 @@
+.**************************************************************************
+.ti ¤ 05
+.fo left
+:SWISS9.
+.**************************************************************************
+.da OVERSKR 20mm 32mm width 175mm
+.da BOX 20mm 40mm width 175mm
+.da VEND 7mm 270mm width 180mm rotate -90
+.dr tynd weight 0.1mm
+.**************************************************************************
+.* SIDEHOVEDDEFINITION STARTER ********************************************
+.**************************************************************************
+.rh on
+.**************************************************************************
+.ar OVERSKR on
+:SWISS12.
+:FED.
+.us Signatures
+:SKRSLUT.
+.ar off
+.**************************************************************************
+.ar BOX on
+.bx left right
+.sp 235mm
+.bx off
+.ar off
+.**************************************************************************
+.ar VEND on
+:SWISS6.
+&BREVNAVN
+.br
+Time &TID
+.ar off
+.**************************************************************************
+.*STARTPOSITION PÅ SIDEN BEREGNES UD FRA FLG:
+.*".PM" = PAGEMARGIN = X-KOORDINATEN(ER SOM STANDARD 20MM)
+.*".BM" = BUNDMARGIN (MIN. 18MM)
+.*".TM" = TOPMARGIN (STANDARD 24MM), MEN MAN SKAL VÆRE OPMÆRKSOM PÅ, AT
+.*RH-KOMMANDOERNE KAN KAN ÆNDRE DET. MAN SKAL DERFOR ALTID UDMÅLE DET.
+.*HER ER TOPMARGINEN KUN 13MM.
+.*SIDEHOVED MED TOPMARGIN 43MM: Y = 30mm + 13mm (TOPMARGIN) = 43mm
+.**************************************************************************
+.sp 30mm
+.rh off
+.rh execute
+.**************************************************************************
+.* SIDEHOVEDDEFINITION SLUTTER ********************************************
+.**************************************************************************
+.*MAN KAN SLUTTE SIDEHOVEDET VED AT DEFINERE ET NYT SIDEHOVED - ELLER
+.*VED AT BENYTTE TEKSTMODULET "BECRHCANCEL" *******************************
+.ll 175mm
+.in 1mm
+.ir 1mm

@@ -1,0 +1,57 @@
+.if &U'&GENKAUTION eq N
+.an &U'&GENPANTSAT eq N
+.th .go KAUPANNO
+.kp on
+.******* Afsnit som udskrives, hvis der enten stilles pant eller
+.*kaution for lånet/kreditten **************************************
+:SWISS10.
+:FED.
+Særlige fælles bestemmelser for kaution og pant
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+.us Henstand
+.br
+&BANKNAVN. kan uden tilladelse fra kautionist eller
+tredjemand, der har stillet sikkerhed, give &DIG henstand med
+betaling af afdrag, renter, provision og eventuelle
+omkostninger, dog med respekt af Lov om finansiel virksomhed §
+47 og § 48.
+.sp 3mm
+.kp off
+.kp on
+.us Sikkerhedsstillelsens omfang
+.br
+Pant samt kaution tjener til sikkerhed for betaling af
+kapital, renter, provision, sagsomkostninger og andre
+udgifter, som er afholdt i forbindelse med inddrivelse af
+skylden i henhold til nærværende aftale.
+.sp 3mm
+.kp off
+.kp on
+.us Omstødelse
+.br
+Hvis der i forbindelse med &DIN konkurs m.v., jævnfør
+konkurslovens kapitel 8, sker omstødelse af supplerende
+sikkerhedsstillelse, der er anvendt til hel eller delvis
+indfrielse af den kautionssikrede fordring, opretholdes
+kautionsforpligtelsen. Det samme er gældende, hvis en betaling
+fra &DIG omstødes.
+.sp 3mm
+.kp off
+.kp on
+Ved pantsætning er pantsætter forpligtet til at genetablere
+&BANKNAVN.s panteret, uanset om &BANKNAVN. har frigivet pantet
+i forbindelse med omstødelige indbetalinger.
+.sp 3mm
+.kp off
+.kp on
+.us Værneting og lovvalg
+.br
+Enhver tvist mellem &DIG. og &BANKNAVN. skal afgøres efter dansk ret og
+med værneting ved byretten i den kreds, hvor &BANKNAVN. eller dets
+kontoførende filial er beliggende, medmindre andet fremgår af ufravigelige
+regler.
+.sp 3mm
+.kp off
+...KAUPANNO

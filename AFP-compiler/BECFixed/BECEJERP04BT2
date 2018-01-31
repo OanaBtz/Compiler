@@ -1,0 +1,194 @@
+.th .sp 58mm
+.el .sp 48mm
+.bx off
+:SWISS10.
+.in 0mm
+Vitterlighedspåtegning
+.bx left right
+:SWISS8.
+.in 1mm
+Til vitterlighed om ægte underskrift/underskrifter, dateringens rigtighed
+og udstederens/udstedernes myndighed.
+.sp 42mm
+.bx off
+.ar off
+.***********************************************************************
+.* Her kommer venstre side af underskriftsfeltet.
+.ar UNDERSK1 on
+:SWISS8.
+.if &U'&ÆGTFTXT = J
+.th .go TXT1
+.el .go UTXT1
+...TXT1
+For så vidt pantebrevet alene underskrives af debitor, erklærer denne
+samtidig at være ugift, eller at andelen er omfattet af debitors særeje.
+...UTXT1
+.if &U'&ÆGTFTXT = J
+.th .sp 8mm
+.el .sp 12mm
+.tp _/79mm
+¤
+.sp 15mm
+¤
+.sp 10mm
+.ar off
+.***********************************************************************
+.* Her kommer højre side af underskriftsfeltet.
+.ar UNDERSK2 on
+:SWISS8.
+.if &U'&ÆGTFTXT = J
+.th .go TXT2
+.el .go UTXT2
+...TXT2
+For så vidt debitor er gift, giver medunderskrevne ægtefælle samtykke til
+pantsætningen. Er ægtefællen medejer, underskrives som debitor og
+pantsætter.
+...UTXT2
+.if &U'&ÆGTFTXT = J
+.th .sp 8mm
+.el .sp 12mm
+.tp _/79mm
+.bx off
+.ar off
+.***** Areal til kassen med underskrifter*******************
+.ar UNDER on
+:SWISS10.
+Underskrifter
+.bx left right
+:SWISS8.
+.tp 90mm
+.in 1mm
+.ir 1mm
+For pant i andel i Danmark gælder følgende:
+.sp
+.tp 5mm
+* ¤&BANKNAVN. kan
+.in 5mm nobreak
+på mine/vores vegne udstede, digitalt signere og
+anmelde til tinglysning et digitalt dokument med indhold som angivet i
+nærværende dokument.
+.in 1mm
+* ¤&BANKNAVN. kan
+.in 5mm nobreak
+overlade udstedelse, signering og/eller anmeldelse til
+tinglysning til en samarbejdspartner.
+.in 1mm
+.br
+* ¤&BANKNAVN. har
+.in 5mm nobreak
+ret til at afgive de i forbindelsen med denne disposition
+nødvendige erklæringer.
+.in 1mm
+.br
+* ¤Undertegnede
+.in 5mm nobreak
+accepterer, at der kan forekomme mindre
+ikke-indholdsmæssige afvigelser i det digitale pantebrev i forhold
+til det underskrevne papirpantebrev.
+.in 1mm
+.br
+* ¤Undertegnede
+.in 5mm nobreak
+forpligter sig til i nødvendigt omfang at medvirke
+til, at det digitale pantebrev kan tinglyses.
+.in 0mm
+.*** SLUT FOR TEKST TIL DIGITAL TINGLYSNING******************************
+.in 1mm
+.sp 10mm
+.tp 20mm _/83mm 92mm _/155mm
+¤¤  , den ¤¤
+.if &U'&ÆGTFTXT = J
+.da SIDE2 24mm 38mm width 175mm
+.da UNDER 24mm 119.5mm width 175mm
+.da UNDERSK1 29mm 170.5mm width 80mm
+.da UNDERSK2 116mm 170.5mm width 80mm
+.if &U'&ÆGTFTXT = J
+.th .da VITTER1 24mm 238mm width 85mm
+.th .da VITTER2 111mm 238mm width 85mm
+.th .da STREGER 24mm 275mm width 175mm
+.el .da VITTER1 24mm 228mm width 85mm
+.el .da VITTER2 111mm 228mm width 85mm
+.el .da STREGER 24mm 264mm width 175mm
+.***************** SIDE 2 *************************************************
+.ar SIDE2 on
+:SWISS10.
+Fuldmagtshaver og adressat for eventuel meddelelse om retsforfølgning mv.
+.bx left right
+.in 1mm
+.ir 1mm
+:SWISS8.
+Meddelelser ifølge retsplejelovens kapitel 50 og andre meddelelser, der
+efter loven skal sendes til pantekreditor, bedes sendt til:
+.sp 21mm
+der i øvrigt bemyndiges til på mine vegne at underskrive påtegninger
+af enhver art på nærværende pantebrev, herunder kvitterings-, transport-,
+moderations- og relaksationspåtegninger.
+.in 0mm
+.ir 0mm
+.bx off
+:SWISS10.
+Øvrige kreditoplysninger
+.bx left right
+.in 1mm
+.sp 2mm
+:SWISS8.
+.bx new 85mm 90mm / 120mm 125mm
+.tp 80mm 110mm
+Er ejerpantebrevet omfattet af lov om kreditaftaler ¤Ja ¤Nej
+.bx off
+.sp 1mm
+.bx off
+:SWISS10.
+.in 0mm
+Særlige bestemmelser
+.bx left right
+:SWISS8.
+.sp 20mm
+.in 1mm
+I øvrigt gælder Justitsministeriets Almindelige
+betingelser (ANDEL), sidste side.
+.in 0mm
+¤
+.sp 15mm
+¤
+.sp 10mm
+.ar off
+.***********************************************************************
+.ar VITTER1 on
+.in 1mm
+:SWISS8.
+.tp _/84mm
+Navn ¤
+.sp 4mm
+Stilling ¤
+.sp 4mm
+Adresse ¤
+.sp 4mm
+Postnr./by ¤
+.sp 4mm
+Underskrift ¤
+.ar off
+.**************************************************************************
+.ar VITTER2 on
+:SWISS8.
+.tp _/84mm
+Navn ¤
+.sp 4mm
+Stilling ¤
+.sp 4mm
+Adresse ¤
+.sp 4mm
+Postnr./by ¤
+.sp 4mm
+Underskrift ¤
+.ar off
+.**************************************************************************
+.ar STREGER on
+.** her laves 2 lodrette linier, så man kan se at der ikke kommer ****
+.** mere tekst på siden   ********************
+.sp 5mm
+.vr 40mm 130mm
+.sp 10mm
+.vr off
+.ar off
+.**************************************************************************

@@ -1,0 +1,17 @@
+:COUR10.
+.da PIDATO 173mm 242mm
+.da PIUSKR 25mm 248mm
+.tp 154mm
+.*******************************
+.ar PIDATO on
+&DATO8
+.ar off
+.*******************************
+.ar PIUSKR on
+&BANKNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.*******************************

@@ -1,0 +1,199 @@
+.**test på, om Særlige vilkår kommer på side 2 eller 3 afhængigt af  ******
+.**om der udskrives side med begunstigede *dvs. kun for PENBEGUN = A ******
+.if &U'&PENBEGUN = A
+.th .sp
+.th Se desuden Udbetaling i Særlige vilkår på side 3.
+.th .go UDBEND1
+.el .sp
+.el Se desuden Udbetaling i Særlige vilkår på side 2.
+.el .go UDBEND1
+...UDBEND
+Kontoens indestående kan desuden udbetales til kontohaver ved varigt nedsat
+arbejdsevne, som efter reglerne i lov om social pension berettiger
+kontohaver til førtidspension, hvis kontoen er
+oprettet før kontohaver bliver berettiget til førtidspension.
+Desuden kan kontoens indestående udbetales i tilfælde af visse livstruende
+sygdomme hos kontohaver.
+...UDBEND1
+.ar off
+.**********************************
+.ar BEGUNSTIG on
+.if &U'&PENBEGUN = A
+.th Se kontraktens side 2.
+.th .br
+.if &U'&PENBEGUN = N
+.th Ved kontohavers død udbetales indestående til kontohavers "nærmeste
+.th pårørende" jf. generelle vilkår pkt. 5.
+.th .br
+.if &U'&PENBEGUN = H
+.th Henvisning til særskilt begunstigelseserklæring af
+.th &PENHENDATO..
+.th .br
+.if &U'&PENBEGUN = V
+.th Se nærmere under væsentlige aftaler, side 2.
+.th .br
+.if &U'&PENBEGUN = I
+.th Ingen begunstigelse - opsparingen vil blive udbetalt til kontohavers
+.th dødsbo og vil dermed ikke være kreditorbeskyttet.
+.th .br
+.if &U'&PENNYBEGUN = N
+.th .sp
+.th Der er ikke aftalt ændringer til begunstigelsesbestemmelsen, der derfor
+.th fortsat er omfattet af reglerne fra før den 1. januar 2008.
+.ar off
+.*************************************************************************
+.ar VAESENT on
+.if &U'&PENVÆSAFT = N
+.th Ingen
+.th .go VAESSL
+.el .go VAESJA
+...VAESJA
+.el .go UDBSTA
+.if X&PENMETODE = X3
+.th .se ktohav = 'kontohaver'
+.th .go UDBSTA
+.if X&PENMETODE = X1
+.or X&PENMETODE = X2
+.th .se ktoh1 = 'kontohaveren på den konto, hvorfra denne pensionsordning'
+.th .se ktoh2 = 'er udloddet,'
+.th .se ktohav = '&ktoh1 &ktoh2.'
+.*************************************************************************
+...UDBSTA
+.if &L'&PENMETODE > 0
+.th
+.el .go UDBTXT
+.if X&PENMETODE = X3
+.th .go UDBTXT
+.if X&PENMETODE = X1
+.or X&PENMETODE = X2
+.th Det er alder, livstruende sygdom, varigt nedsatte arbejdsevne eller
+.th død for kontohaveren, på den konto hvorfra denne pensionsordning er
+.th udloddet, der er bestemmende for, hvornår udbetaling kan finde sted.
+.th .br
+.**************************************************************************
+...UDBTXT
+Kontoens indestående kan
+.if &L'&PENMETODE > 0
+.th
+.el .go UDBTXT1
+.if X&PENMETODE = X1
+.or X&PENMETODE = X2
+.th derfor
+...UDBTXT1
+tidligst udbetales, når &ktohav
+...UDBTXT2
+.if &U'&PEN1MAJ07 = J
+.th er fyldt 60 år og skal senest udbetales 15 år efter, at &ktohav
+.th når pensionsudbetalingsalderen,
+.el når pensionsudbetalingsalderen og senest 15 år efter, at &ktohav når
+.el pensionsudbetalingsalderen,
+jf. generelle vilkår pkt. 3.
+.sp 1mm
+.if &L'&PENMETODE > 0
+.th
+.el .go UDBEND
+.if X&PENMETODE = X1
+.or X&PENMETODE = X2
+.th
+.if X&PENMETODE = X3
+.th .go UDBEND
+.*************************************************************************
+.**************************************************************************
+.if &L'&PENMETODE > 0
+.th
+.el .da PLACERING  21mm  147mm    width 170mm
+.el .da UDBETAL    21mm  162mm    width 170mm
+.el .go T3VID1
+.if X&PENMETODE = X3
+.th .da PLACERING  21mm  147mm    width 170mm
+.th .da UDBETAL    21mm  162mm    width 170mm
+.th .go T3VID1
+.if X&PENMETODE = X1
+.or X&PENMETODE = X2
+.th .da PLACERING  21mm  138mm    width 170mm
+.th .da UDBETAL    21mm  153mm    width 170mm
+...T3VID1
+.da BEGUNSTIG  21mm 186mm   width 170mm
+.da VAESENT    21mm 204.5mm width 170mm
+.da BEGUNSAML  21mm 214mm   width 170mm
+.da UNDTEKST1  21mm 214.5mm width 170mm
+.da UNDTEKST2  21mm 248.2mm width 170mm
+.da NAVN       25mm 239.5mm width 170mm
+.da AFSL1      25mm 229mm   width 170mm
+.da AFSL2      25mm 263mm   width 170mm
+.**************************************************************************
+.ar PLACERING on
+Opsparingen kan efter kontohavers valg placeres efter de i lovgivningen
+og &BANKNAVN.s til enhver tid gældende regler
+.********Bodelingskontrakt*************************************************
+.if &L'&PENMETODE > 0
+.th
+.el .ct .
+.el .go OPSEND
+.if X&PENMETODE = X1
+.or X&PENMETODE = X2
+.th .ct , uafhængigt af den fraskilte ægtefælles bestemmelser.
+.if X&PENMETODE = X3
+.th .ct .
+...OPSEND
+.ar off
+.**************************************************************************
+.ar UDBETAL on
+.********Bodelingskontrakt - Udbetalingskassen*****************************
+.* BODELINGSKONTRAKT - tekst er afhængig af metode:                       *
+.* Metode 1 - ingen        tekst MEN henvisning til Særlige vilkår        *
+.* Metode 2 - eksisterende tekst PLUS henvisning til Særlige vilkår       *
+.* Metode 3 - eksisterende tekst INGEN henvisning til Særlige vilkår      *
+.**************************************************************************
+.if &L'&PENMETODE > 0
+.th
+.el .se ktohav = 'kontohaver'
+.**Ja til væsentlige aftaler**********************************************
+.**test på, om væsentlige aftaler kommer på side 2 eller 3 afhængigtaf ***
+.**om der udskrives side med begunstigede *dvs. kun for PENBEGUN = A ******
+.if &U'&PENBEGUN = A
+.th Se kontraktens side 3.
+.el Se kontraktens side 2.
+...VAESSL
+.ar off
+.**************************************************************************
+.if &U'&PENSAMLVR ne J
+.th .go NEJSAM
+.*********************
+.ar BEGUNSAML on
+Ved begunstigelse af "samlever" og/eller "samlevers livsarvinger":
+.sp 3mm
+Jeg erklærer hermed, at min samlever, som jeg har begunstiget, har fælles
+folkeregisteradresse med mig. Jeg har fået oplyst, at manglende fælles
+folkeregisteradresse på begunstigelsestidspunktet medfører, at
+pensionsordningen skal ophæves med 52 pct.'s afgift til
+staten, samt at jeg ikke har fradragsret for indbetalinger efter
+begunstigelsestidspunktet, ligesom eventuel pensionsafkastskat mv. skal
+reguleres.
+.ar off
+.**********************
+...NEJSAM
+.**************************************************************************
+.if &U'&PENSAMLVR ne J
+.th .ar UNDTEKST1 on
+.el .ar UNDTEKST2 on
+Vedlagte "Generelle vilkår for kapitalpension", dateret &PENVERKAP. er
+gældende for denne aftale. Jeg erklærer hermed at have modtaget
+vilkårene, og at &BANKNAVN har gennemgået vilkårene med mig.
+.ar off
+.**************************************************************************
+.if &U'&PENSAMLVR ne J
+.th .go AFSL
+.ar NAVN on
+.ce &PENKNAVN
+.ar off
+...AFSL
+.**************************************************************************
+.if &U'&PENSAMLVR ne J
+.th .ar AFSL1 on
+.el .ar AFSL2 on
+.tp 39mm center
+¤&PENKNAVN
+.sp 8mm
+.ce &BANKNAVN
+.ar off

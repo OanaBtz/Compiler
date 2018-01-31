@@ -1,0 +1,6 @@
+.*************************************************************************
+.*.if &U'X&GENVALG1 = XJ
+.*.or &U'X&GENVALG2 = XN
+.*.th
+.*.el .mg/T/Over 2 begunstigede: Tast J eller N/
+.*

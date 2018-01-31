@@ -1,0 +1,25 @@
+.da SIDE2 20mm 47mm width 175mm
+.tp 1mm 149mm
+.ar SIDE2 on
+:SWISS10.
+.***** her laves kassen til Betingelser **************
+.bx new left right
+.sp 192mm
+.bx off
+:SWISS10.
+:FED.
+Underskrift
+:SKRSLUT.
+.***** her laves kassen til kundens underskrift ******
+.bx left right
+:SWISS8.
+.sp 15mm
+¤Kundens underskrift ¤Dato:
+.***** her laves kassen til bankens underskrift ******
+.bx left right
+:SWISS8.
+.sp 8mm
+¤Pengeinstituttets underskrift ¤Dato:
+.bx off
+.bx can
+.ar off

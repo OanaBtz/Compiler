@@ -1,0 +1,83 @@
+.**************************************************************************
+.da SIDE1  20mm 38mm width 175mm
+.**************************************************************************
+.ar SIDE1 on
+.tp 1mm 88.5mm 131.5mm
+:SWISS10.
+:FED.
+Parter
+:SKRSLUT.
+:SKRSLUT.
+.***** her laves kassen til kontohaver og evt.arbejdsgiver ****************
+.if &U'&PENVALG = J
+.th .bx left 87.5mm right
+.th ¤Kontohaver ¤Arbejdsgiver
+.el .bx left right
+.el ¤Kontohaver
+.sp 17.5mm
+.***** her laves kassen til pengeinstitut og regnr ************************
+.if &U'&PENVALG = J
+.th .bx new left 87.5mm 130.5mm right
+.th ¤Pengeinstitut ¤Kontohavers CPR-nr.¤Arbejdsgivers CVR-nr.
+.el .bx new left 87.5mm right
+.el ¤Pengeinstitut ¤Kontohavers CPR-nr.
+.sp 4.5mm
+.***** her laves kassen til kontonr og depotnr ****************************
+.bx new 87.5mm 130.5mm right
+¤¤Kontonr. ¤Depotnr.
+.sp 4.5mm
+.***** her laves kassen til formål ****************************************
+.bx new left right
+.sp 9.5mm
+.bx off
+.bx can
+.bx can
+.bx can
+:SWISS10.
+:FED.
+Indhold
+:SKRSLUT.
+:SKRSLUT.
+.***** her laves kassen til Afregning af afgift  **************************
+.bx left right
+¤Afregning af afgift
+.sp 30mm
+.***** her laves kassen til placering af opsparing*************************
+.bx new left right
+¤Pensionsudbetalingsalder
+.sp 30mm
+.***** her laves kassen til Begunstigelse *********************************
+.bx new left right
+¤Begunstigelse
+.sp 14mm
+.bx off
+.bx can
+.bx can
+.bx can
+.**************************************************************************
+:SWISS10.
+:FED.
+Underskrift
+:SKRSLUT.
+:SKRSLUT.
+.***** her laves kassen til generelle vilkår  *****************************
+.bx left right
+.sp 12mm
+.***** her laves kassen til kontohaver/arbejdsg. underskrift **************
+.if &U'&PENVALG = J
+.th .bx new left 87.5mm right
+.th .tp 1mm 61mm 89mm 145mm
+.th ¤Kontohavers underskift ¤Dato: ¤Arbejdsgivers underskrift ¤Dato:
+.el .bx new left right
+.el .tp 1mm 145mm
+.el ¤Kontohavers underskift ¤Dato:
+.sp 6.5mm
+.***** her laves kassen til pi- underskrift *******************************
+.tp 1mm 61mm 89mm 145mm
+.bx new left right
+¤Pengeinstituttets underskrift ¤¤¤Dato:
+.sp 6.5mm
+.bx off
+.bx can
+.bx can
+.ar off

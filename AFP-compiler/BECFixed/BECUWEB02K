@@ -1,0 +1,49 @@
+.da SIDE1 20mm 38mm width 175mm
+.ar SIDE1 on
+:SWISS10.
+.in 1mm
+:FED.
+Parties
+:SKRSLUT.
+.***** her laves kassen til fuldmagtsgiver *********
+.bx new left right
+.sp 28mm
+.***** her laves kassen til pengeinstitut ****
+.bx new left right
+.sp 18mm
+.bx off
+.bx can
+:SWISS10.
+:FED.
+Contents
+:SKRSLUT.
+.***** her laves kassen til aftale tekst    ************
+.bx new left right
+.sp 10mm
+.***** her laves kassen til fuldmagtshaver og underskrift *****
+.bx new left 87.5mm right
+.sp 28mm
+.***** her laves kassen til brugernummer og navn *******
+.bx new left right
+.sp 15mm
+.***** her laves kassen til særlige forhold ************
+.bx new left right
+.sp 15mm
+.***** her laves kassen til betingelser     ************
+.bx new left right
+.sp 70mm
+.bx off
+.bx can
+.bx can
+.bx can
+.bx can
+:SWISS10.
+:FED.
+Signatures
+:SKRSLUT.
+.***** her laves kassen til kontohaver/pi. underskrift ******
+.bx new left 87.5mm right
+.sp 30mm
+.bx off
+.bx can
+.ar off

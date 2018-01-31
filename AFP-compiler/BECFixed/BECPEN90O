@@ -1,0 +1,41 @@
+.*************** GENEREL OPSÆTNING ***************************************
+.ti ¤ 05
+:SWISS8.
+.fo left
+.*************** AREAL-DEFINITIONER **************************************
+.da VEND 7mm 270mm width 180mm rotate -90
+.da OVERSKR 20mm 32mm width 175mm
+.*************** ROTERET BREVNAVN ****************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.br
+&DATO. Kl. &KLOKKESLET.
+:SKRSLUT.
+.ar off
+.*************** UDDATA-OVERSKRIFT ***************************************
+.ar OVERSKR on
+:SWISS12.:FED.
+.if &U'&PENEJARB = J
+.an &U'&PENKAPRAT = R
+.th .us Tillæg til aftale om ratepension (arbejdsgiver udtræder)
+.th .go SLUTOVS
+.if &U'&PENEJARB = J
+.an &U'&PENKAPRAT = A
+.th .us Tillæg til aftale om aldersopsparing (arbejdsgiver udtræder)
+.th .go SLUTOVS
+.if &U'&PENEJARB = J
+.an &U'&PENKAPRAT = K
+.th .us Tillæg til aftale om kapitalpension (arbejdsgiver udtræder)
+.th .go SLUTOVS
+.if &U'&PENKAPRAT = K
+.th .us Tillæg til aftale om kapitalpension (skift af arbejdsgiver)
+.if &U'&PENKAPRAT = A
+.th .us Tillæg til aftale om aldersopsparing (skift af arbejdsgiver)
+.if &U'&PENKAPRAT = R
+.th .us Tillæg til aftale om ratepension (skift af arbejdsgiver)
+...SLUTOVS
+:SKRSLUT.
+:SKRSLUT.
+.ar off
+.*************************************************************************

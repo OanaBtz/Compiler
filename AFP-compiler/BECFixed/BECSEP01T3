@@ -1,0 +1,44 @@
+.da UNDERÆGTF1  21mm    210.5mm width 85mm
+.da UNDERÆGTF2  109mm   210.5mm width 85mm
+.da UNDERSKRPI  21mm    247mm   width 175mm
+.da UNDERÆGTF1A 20mm    230mm   width 87mm
+.da UNDERÆGTF2A 107mm   230mm   width 87mm
+.da UNDERSKRPI1 21mm    260mm   width 175mm
+.**********************************************************
+.ar UNDERÆGTF1A on
+.ce on
+&KTONAVN
+.ce off
+.ar off
+.*******************************************************
+.ar UNDERÆGTF2A on
+.ce on
+.if &MEDKNDNR1 = 0000000000
+.th &GENNAVN
+.el &MEDNAVN
+.ce off
+.ar off
+.*******************************************************
+.ar UNDERSKRPI1 on
+.ce on
+&BANKNAVN
+.ce off
+.ar off
+.*******************************************************
+.ar UNDERÆGTF1 on
+:SWISS8.
+.tp 57mm
+ Ægtefælle 1's underskrift ¤Dato:
+.ar off
+.*******************************************************
+.ar UNDERÆGTF2 on
+:SWISS8.
+.tp 57.5mm
+Ægtefælle 2's underskrift ¤Dato:
+.ar off
+.*******************************************************
+.ar UNDERSKRPI on
+:SWISS8.
+.tp 145mm
+Pengeinstituttets underskrift ¤Dato:
+.ar off

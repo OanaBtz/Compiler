@@ -1,0 +1,54 @@
+.*** definition af arealer *****************************'
+.da SYT1 15mm 58mm width 30mm
+.da KOMMA1 71.8mm 74mm width 30mm
+.da ATT1 15mm 82mm width 30mm
+.da KOMMA1A 71.8mm 90.5mm width 175mm
+.da NIT1 15mm 138mm width 30mm
+.da SYT2 15mm 166mm width 30mm
+.da KOMMA2 71.8mm 181.5mm width 30mm
+.da ATT2 15mm 189mm width 30mm
+.da KOMMA2A 71.8mm 198mm width 175mm
+.da NIT2 15mm 249mm width 30mm
+:SWISS12.:FED.
+.************************************************
+.ar SYT1 on
+17
+.ar off
+.*******************************
+.ar KOMMA1 on
+,
+.ar off
+.*******************************
+.ar ATT1 on
+18
+.ar off
+.*******************************
+.ar KOMMA1A on
+.tp 90mm
+,¤,
+.ar off
+.*******************************
+.ar NIT1 on
+19
+.ar off
+.*******************************
+.ar SYT2 on
+17
+.ar off
+.*******************************
+.ar KOMMA2 on
+,
+.ar off
+.*******************************
+.ar ATT2 on
+18
+.ar off
+.*******************************
+.ar KOMMA2A on
+.tp 90mm
+,¤,
+.ar off
+.*******************************
+.ar NIT2 on
+19
+.ar off

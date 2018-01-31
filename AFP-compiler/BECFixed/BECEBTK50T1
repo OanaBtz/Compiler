@@ -1,0 +1,235 @@
+.tp 3mm
+:SWISS8.
+.**************************************************************************
+.kp on
+:SWISS12.
+:FED.
+Vilkår for betalingskonti - Erhvervskunder
+:SKRSLUT.
+.sp 5mm
+:SWISS10.
+Gældende fra den &DATO.
+.sp 5mm
+:FED.
+1. Indledning
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Disse vilkår gælder for betalingstjenester tilknyttet betalingskonti
+oprettet med henblik på at gennemføre betalingstjenester.
+.sp 3mm
+En betalingskonto er f.eks. en driftskonto, men ikke en opsparingskonto.
+.sp 3mm
+Bortset fra kontante ind- og udbetalinger i &BANKNAVN.s afdelinger og
+overførsler til &DINE. konti, forudsætter anvendelse af betalingstjenester
+en særskilt aftale om brug af betalingsinstrumenter f.eks. kortvilkår.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+2. Lov om betalingstjenester
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Lov om betalingstjenester finder anvendelse på ind- og udbetalinger på
+betalingskonti.
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN. har dog fraveget lov om betalingstjenester i det omfang loven
+åbner mulighed herfor, medmindre andet er aftalt med &BANKNAVN.. Det
+betyder bl.a., at § 68 i lov om betalingstjenester ikke gælder.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+3. Betalingstjenestens væsentligste karakteristika
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Betalingstjenester er tjenester, der muliggør ind- og udbetalinger på en
+betalingskonto, f.eks. Netbank og Visa/Dankort.
+.sp 3mm
+.kp off
+.kp on
+Indbetalinger på en betalingskonto kan ske kontant af &DIG. eller
+andre, ved checks, ved overførsel fra en konto i &BANKNAVN. og
+overførsel fra et andet pengeinstitut.
+.sp 3mm
+.kp off
+.kp on
+Udbetalinger fra en betalingskonto kan ske kontant af &DIG., ved
+overførsel til konti i &BANKNAVN., til konti i andre
+pengeinstitutter, ved brug af betalingsinstrumenter og ved betaling
+af regninger.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+4. Oplysninger til brug for gennemførelse af en betalingstjeneste
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Ved udbetalinger skal &DU. oplyse registreringsnr. og kontonr. tilhørende
+kontoen, hvor beløbet skal udbetales fra.
+.sp 3mm
+.kp off
+.kp on
+Ved indenlandske overførsler skal &DU. desuden oplyse registreringsnr. og
+kontonr. tilhørende den konto, hvor beløbet skal overføres til.
+.sp 3mm
+.kp off
+.kp on
+Ved grænseoverskridende betalingstransaktioner skal &DU. endvidere oplyse
+IBAN-nr. og SWIFT-kode på modtager.
+.sp 3mm
+.kp off
+.kp on
+SWIFT skal udlevere oplysninger om overførslen til de amerikanske
+myndigheder, hvis der er mistanke om hvidvask af penge eller finansiering
+af terrorisme.
+.sp 3mm
+.kp off
+.kp on
+Ved betaling af fælles indbetalingskort skal FI-kreditornummer oplyses.
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN. betragter en betalingsordre, der gennemføres i
+overensstemmelse med den entydige identifikationskode, som er angivet i
+betalingsordren, som korrekt gennemført.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+5. Form og procedure for samtykke til at udføre en
+betalingstransaktion og tilbagekaldelse af samtykke
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+&SDU. kan eksempelvis afgive betalingsordrer på følgende måder:
+.sp 3mm
+.of 3mm
+*¤Ved personlig henvendelse i &BANKNAVN.
+.sp 3mm
+.of
+.of 3mm
+*¤Via netbank
+.sp 3mm
+.of
+.of 3mm
+*¤Via fremsendelse af brev til &BANKNAVN..
+.sp 3mm
+.of
+.kp off
+.kp on
+En udbetaling skal bekræftes ved &DIN. underskrift, ved brug af
+NemID i netbank eller på anden aftalt måde.
+.sp 3mm
+.kp off
+.kp on
+En forudsætning for, at &BANKNAVN. kan gennemføre en betalingsordre er, at
+der er dækning for beløbet på den pågældende konto.
+.sp 3mm
+.kp off
+.kp on
+Når &BANKNAVN. har modtaget en betalingsordre, kan den ikke tilbagekaldes.
+.sp 3mm
+.kp off
+.kp on
+En betalingsordre, der først skal gennemføres på et senere tidspunkt, kan
+dog tilbagekaldes senest ved slutningen af arbejdsdagen før den aftalte
+dato.
+.sp 3mm
+.kp off
+.kp on
+Hvis &DU. ønsker at tilbagekalde en betalingsordre, kan det ske via
+&DIN. netbank eller ved henvendelse til &BANKNAVN.. &BANKNAVN.
+forbeholder sig ret til at opkræve et gebyr for tilbagekaldelsen.
+.sp 3mm
+.kp off
+.kp on
+Hvis en betalingsordre afvises på grund af faktuelle fejl, vil
+&BANKNAVN. underrette &DIG. herom, om begrundelsen for afvisningen og
+om proceduren for at rette den fejl, som har ført til afvisningen.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+6. Beskrivelse af tidspunkt, hvor en betalingsordre er modtaget
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+En betalingsordre anses for modtaget på den bankdag, hvor
+&BANKNAVN. modtager betalingsordren.
+.sp 3mm
+.kp off
+.kp on
+Lørdage, søn- og helligdage, juleaftensdag, nytårsaftensdag, grundlovsdag
+og fredag efter Kr. himmelfartsdag er ikke bankdage.
+.sp 3mm
+.kp off
+.kp on
+Betalingsordrer, der modtages tæt på slutningen af en bankdag eller mellem
+to bankdage, anses for at være modtaget den følgende bankdag og vil først
+blive ekspederet den kommende arbejdsdag. &SDU. kan få yderligere
+oplysninger om sidste frist for modtagelse af betalingsordrer, der skal
+ekspederes samme bankdag, ved henvendelse i &BANKNAVN..
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+7. Maksimal gennemførelsestid
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Gennemførelsestiden er den tid, det tager, inden betalingstransaktionen
+krediteres modtagerens konto.
+.sp 3mm
+.kp off
+.kp on
+Den maksimale gennemførelsestid for ind- og udbetalinger i Danmark og
+til og fra EØS-lande i EØS-valutaer er normalt 1 bankdag, men er i
+øvrigt afhængig af overførselstype og valuta.
+.sp 3mm
+.kp off
+.kp on
+For betalingsordrer der modtages på papir, herunder
+indbetalingskort, blanketter eller elektronisk meddelelse, kan
+gennemførelsestiden være op til 2 bankdage.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+8. Særligt om check og gennemførelsestid
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Når &BANKNAVN. modtager en check fra udlandet, sættes beløbet ind på
+&DIN. konto med forbehold for, at &BANKNAVN. modtager pengene fra den
+udenlandske bank. &SDU. skal derfor være opmærksom på, at hvis
+&BANKNAVN. ikke modtager pengene, eller hvis afregningen fra den
+udenlandske bank er forsinket, så hæves beløbet, eventuelle
+renter, udenlandske omkostninger og returgebyr på &DIN. konto.
+.sp 3mm
+.kp off
+.kp on
+&SDU. skal være opmærksom på, at en check, der er indløst, kan blive
+returneret langt frem i tiden, f.eks. hvis den er forfalsket. Det gælder
+også en check, der er indløst via indkassering i den udenlandske bank.
+.sp 3mm
+.kp off
+.kp on
+&SDU. får besked, hvis checken først skal indløses via indkassering. I
+disse tilfælde stilles pengene først til rådighed, når &BANKNAVN. er
+sikker på, at checken er gyldig, og at &BANKNAVN. har fået pengene
+stillet til rådighed. Der er desuden forhøjet gebyr forbundet med
+indløsning via indkassering.
+.kp off

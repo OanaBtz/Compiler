@@ -1,0 +1,19 @@
+.ar VERGE on
+.if &L'&GENNAVN1 eq 0
+.or &L'&GENGADE1 eq 0
+.or &L'&GENBY1 eq 0
+.th .go END
+.us VÄrge
+.sp
+&GENSTILL1
+.br
+&GENNAVN1
+.br
+&GENCOADR1
+.br
+&GENGADE1
+.br
+&GENBY1
+.*******************
+...END
+.ar off

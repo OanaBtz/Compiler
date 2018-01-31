@@ -1,0 +1,33 @@
+.da side2 20mm 38mm width 175mm
+.da VEND 7mm 270mm width 180mm rotate -90
+.**************************************************************************
+.rh on
+.ar side2 on
+:SWISS10.
+:FED.
+Vilkår for eDankort - fortsat
+:SKRSLUT.
+.bx left right
+.sp 232mm
+.bx off
+.ar off
+.**************************************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.rh off
+.***** her laves kolonnedefinitionen ***********************
+.tm 45mm
+.pm 20mm
+.bm 20mm
+.cd 2 1mm 88mm
+.cl 85mm
+.**************************************************************************
+.*.RH CANCEL STOPPER RUNNING HEADING I O-AFSNITTET FOR SIDEHOVED **********
+.*.SC = SINGLE COLUMN * STOPPER KOLONNEDEFINITIONEN************************
+.*.PA NOSTART INDSÆTTER SIDESKIFT, HVIS DER TILFØJES MERE TEKST************
+.*.RH CANCEL BENYTTES SOM FLG. FOR AT VÆRE SLÅET FRA PÅ FLG. SIDE:
+.* .RH CANCEL
+.* .PA
+.**************************************************************************

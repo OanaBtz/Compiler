@@ -1,0 +1,20 @@
+.************************************************************************
+.da SAERLIG 29mm 63mm width 170mm
+.da UNDERS 24mm 141mm width 175mm
+.************************************************************************
+.ar SAERLIG on
+&SAERLIG1A.&SAERLIG1B
+.br
+&SAERLIG2A.&SAERLIG2B
+.br
+&SAERLIG3A.&SAERLIG3B
+.br
+&SAERLIG4A.&SAERLIG4B
+.ar off
+.**************************************************************
+.ar UNDERS on
+.tp 45mm center 130mm center
+¤&PANTSÆTT1 ¤&MEDPANTS1
+.sp 11,5mm
+¤&PANTSÆTT2 ¤&MEDPANTS2
+.ar off

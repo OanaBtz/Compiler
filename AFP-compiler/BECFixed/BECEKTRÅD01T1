@@ -1,0 +1,139 @@
+.da TEKST1 21mm 44mm width 175mm
+.**************************************************************************
+.ar TEKST1 on
+.tp 5mm 10mm
+:SWISS8.
+You can make purchases using your Dankort and Visa/Dankort cards
+on the Internet as you can in physical shops.
+.sp 3mm
+If you wish to use your Dankort or Visa/Dankort to make purchases from
+an Internet business, you need to enter your card number, the
+card expiry date and the three control digits. When making eDankort
+payments, you need to enter the user name and password you normally
+use when accessing your netbanking program.
+.br
+The sections below present:
+.sp 3mm
+¤1.¤General advice about making purchases over the Internet
+.br
+¤2.¤Special advice regarding the use of Dankort and Visa/Dankort cards
+on the Internet
+.br
+¤3.¤Where can I find out more?
+.sp 5mm
+:SWISS10.:FED.
+1.¤General advice about making purchases over the Internet
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+:FED.
+Read the terms and conditions
+:SKRSLUT.
+.br
+If you wish to purchase something, you should read the purchase terms and
+conditions carefully. Make sure that by making this purchase you are not
+taking out a subscription or committing to making additional payments if
+this is not your intention.
+.sp 5mm
+:FED.
+Save the documentation
+:SKRSLUT.
+.br
+When you have ordered an item, you should save the documentation from the
+purchase either in hard-copy format or by making an electronic copy of the
+screenshot.
+.br
+Remember to save both the Web address of the business and the address of
+the page that you can use to cancel the purchase or the subscription if
+need be.
+.sp 3mm
+The Internet shop is obliged to issue a receipt for the purchase - in an
+email, for example. You must also save this receipt.
+.sp 5mm
+:FED.
+Check the movements on your account statement
+:SKRSLUT.
+.br
+If you have a netbanking agreement, it is easy to check the movements
+on your account on an ongoing basis. If you do not have such an
+agreement, check your hard-copy account statements carefully. If there
+are movements that you do not recognise, contact your bank immediately.
+.sp 5mm
+:SWISS10.:FED.
+2.¤Special advice regarding the use of Dankort and Visa/Dankort cards on
+the Internet
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+:FED.
+Be careful with your card number
+:SKRSLUT.
+.br
+Never enter your card number unless you are in an actual purchase
+situation where you wish to pay for something. Never enter your card
+number in other situations, even though the website may ask you to do
+so. Never enter your card number as an ID, a part of your 'member
+information' or to progress to another site.
+.sp 3mm
+:FED.
+Protection of data in Denmark
+:SKRSLUT.
+.br
+All Danish Internet shops use what is known as SSL encryption to
+protect their payment information. It is simple to check whether the
+link between your computer and the webshop is secure. If the
+connection is secure, you should see a padlock icon in the bottom
+right-hand corner of your Internet browser or in front of the URL in green.
+Never enter your card
+number etc. unless you can see that the connection is secure.
+.sp 3mm
+:FED.
+Protection of data abroad
+:SKRSLUT.
+.br
+You can use your Visa/Dankort card to make purchases from foreign
+Internet shops. Some foreign Internet shops still do not use
+.us SSL
+.ct -encryption
+to protect payment information. It is simple to check
+whether the link between your computer and the foreign webshop is
+secure. If the connection is secure, you should see a padlock icon
+in the bottom right-hand corner of your Internet browser
+or in front of the URL in green. Never
+enter your card number etc. unless you can see that the connection
+is secure.
+.sp 3mm
+:FED.
+Subscription arrangements with webshops
+:SKRSLUT.
+.br
+When you enter into a subscription arrangement, you allow the webshop
+to transfer sums to the business without you having to perform a
+specific action every time. You should therefore review the
+criteria for payment under the subscription arrangement very
+carefully before entering your card number etc.
+.sp 3mm
+:FED.
+New Dankort or Visa/Dankort card
+:SKRSLUT.
+.br
+When you renew your Dankort or Visa/Dankort card, your card number will
+change. If you have entered into any subscription agreements, you must
+therefore inform the business in question about your new card number to
+allow your subscription to continue without interruption.
+.sp 5mm
+:SWISS10.:FED.
+3.¤Where can I find out more?
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+You can read more about Internet purchases at:
+.br
+.us www.pbs.dk/sikkernethandel
+.br
+.us www.forbrugersikkerhed.dk
+.br
+.us www.pbs-international.dk
+.br
+.us www.net-tjek.dk
+.ar off

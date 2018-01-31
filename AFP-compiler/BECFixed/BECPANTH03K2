@@ -1,0 +1,7 @@
+.da side 20mm 35mm width 175mm
+.**************************************************************************
+.ar side on
+.bx left right
+.sp 241mm
+.bx off
+.ar off

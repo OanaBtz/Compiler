@@ -1,0 +1,19 @@
+.*************** GENEREL OPSÆTNING ***************************************
+.ti ¤ 05
+:COUR10.
+.fo left
+.*************** AREAL-DEFINITIONER **************************************
+.da VEND 7mm 270mm width 180mm rotate -90
+.da OVERSKR 20mm 32mm width 175mm
+.*************** ROTERET BREVNAVN ****************************************
+.ar VEND on
+:COUR6.
+BECGAR21
+.ar off
+.*************** OVERSKRIFT **********************************************
+.ar OVERSKR on
+:SWISS12.:FED.
+.us Bygherregaranti i medfør af ABT 93 § 7
+:SKRSLUT.
+.ar off
+.*************************************************************************

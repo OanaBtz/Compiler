@@ -1,0 +1,110 @@
+.da PENGEIN 21mm 48.5mm width 90mm
+.da REKV 22mm 77.7mm width 90mm
+.da MEDD 22mm 87mm width 173mm
+.da INDBK 21mm 113.4mm width 105mm
+.da GIROK 21mm 132.4mm width 105mm
+.da NGL 130mm 113.4mm width 70mm
+.da INDBOPL 21mm 154.4mm width 90mm
+.da KOPI 114mm 148mm width 80mm
+.da ANDET 114mm 160.5mm width 80mm
+.da FRAPI1 21mm 190.4mm width 90mm
+.da PIDATO 21mm 229.4mm width 90mm
+.da STEMPEL 21mm 256.4mm width 90mm
+.da MODPI 112mm 256.4mm width 85mm
+.*************************************************************
+.ar PENGEIN on
+&BKNAVN
+.br
+&BKAFD
+.br
+&BKADR
+.br
+&BKBY
+.ar off
+.*************************************************************
+.ar REKV on
+.if &GENREKV1 eq 1
+.th X
+.ar off
+.*************************************************************
+.ar MEDD on
+.if &GENREKV1 eq 2
+.th X
+.el
+.ar off
+.*************************************************************
+.ar INDBK on
+.tp 16mm 54mm 75mm
+.if &U'&GENINDB1 eq G
+.th .go GKORT
+.el &GENKORT2. ¤&GENBETID1. ¤&GENKRED1. ¤
+.el :VS.&GENBELQB1
+.el .go ARK
+.ar off
+.*************************************************************
+...GKORT
+.ar GIROK on
+.tp 16mm 54mm 75mm
+&GENKORT2. ¤&GENBETID1. ¤&GENKRED1. ¤
+:VS.&GENBELQB1
+.ar off
+.*************************************************************
+...ARK
+.ar NGL on
+.tp 15mm 43mm
+&BANKREGNR. ¤&GENDATOI2. ¤&GENREF2
+.ar off
+.*************************************************************
+.ar INDBOPL on
+.if &L'&GENBETID1 eq 0
+.th &STILL
+.th .br
+.th &NAVN
+.th .br
+.th &COADR
+.th .br
+.th &GADE
+.th .br
+.th &BY
+.ar off
+.*************************************************************
+.ar KOPI on
+&U'&GENKOPI1
+.ar off
+.*************************************************************
+.ar ANDET on
+.if &L'&GENANDEN13 gt 0
+.th .tp 5mm
+.th X ¤&GENANDEN13
+.th .ar off
+.*************************************************************
+.ar FRAPI1 on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.*************************************************************
+.ar PIDATO on
+&DATO
+.ar off
+.*************************************************************
+.ar STEMPEL on
+.ce on
+&BANKNAVN
+.br
+&AFDNAVN
+.ce off
+.ar off
+.*************************************************************
+.ar MODPI on
+.ce on
+&BKNAVN
+.br
+&BKAFD
+.ce off
+.ar off
+.*************************************************************

@@ -1,0 +1,17 @@
+.da SIDE1 20mm 38mm width 175mm
+.ar SIDE1 on
+.sp 3mm
+.in 1mm
+.***** her laves kassen til betingelser  ***************
+.bx new left right
+.sp 35mm
+.bx off
+:SWISS10.
+:FED.
+Underskrift
+:SKRSLUT.
+.***** her laves kassen til kontohaver/pi. underskrift ******
+.bx new left 87.5mm right
+.sp 23mm
+.bx off
+.ar off

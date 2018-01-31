@@ -1,0 +1,120 @@
+:SWISS8.
+.*******************************************************
+.da KOLONNE1   21mm     84mm width 78mm
+.da KOLONNE2  108mm     84mm width 78mm
+.da FØLGETXT   21mm    239mm width 165mm
+.*******************************************************
+.ar KOLONNE1 on
+:SWISS10.
+Regler for kunden
+:SWISS8.
+.sp 3mm
+Kunden skal ved indlevering eller fremsendelse af indbetalingskort benytte
+&BANKNAVN.s konvolutter.
+.sp 3mm
+Før fremsendelse af indbetalingskortene skal kunden afrive
+indbetalingskortets kvitteringsdel og beholde den.
+.sp 3mm
+På forsiden af hvert enkelt indbetalingskort skal anføres:
+.sp 3mm
+-
+.in 2mm nobreak
+Reg.nr og kontonummer, hvorfra pengene trækkes
+.in 0mm
+.br
+-
+.in 2mm nobreak
+Betalingsdato
+.in 0mm
+.br
+-
+.in 2mm nobreak
+Underskrift.
+.in 0mm
+.sp 3mm
+Indbetalingskortet skal være &BANKNAVN i hænde mindst 3
+ekspeditionsdage inden betalingsdagen. Er der ikke på indbetalingskortet
+angivet sidste betalingsdato, vil betaling ske snarest muligt.
+.sp 3mm
+Kunden forpligter sig til at have tilstrækkelige midler til rådighed på
+kontoen på den angivne betalingsdato. &BANKNAVN er berettiget til
+at undlade betaling, hvis der ikke er dækning for det fulde beløb på
+kontoen.
+.sp 3mm
+Konvolutter med indbetalingskort kan sendes med posten, indleveres i alle
+&BANKNAVN.s filialer inden for åbningstiden eller i
+&BANKNAVN.s postkasse efter åbningstid.
+.sp 3mm
+De gennemførte betalinger vil fremgå af den sædvanlige kontoudskrift.
+Kunden modtager normalt ikke særskilt kvittering. Ønskes kvittering, skal
+kunden blot indsende betalingskortet med kvitteringsdelen. Særskilt
+kvittering fremsendes mod gebyr.
+.sp 3mm
+Tilbagekaldelse af betalinger kan finde sted. &BANKNAVN skal da fra
+kunden inden for normal åbningstid modtage skriftlig underretning herom
+senest 1 ekspeditionsdag før betalingsdato.
+.sp 5mm
+:SWISS10.
+Ansvarsregler
+:SWISS8.
+.sp 3mm
+&BANKNAVN er ikke ansvarlig for følger af forsinkelser hos
+andre pengeinstitutter og Post Danmark
+eller for ikke-rettidige betalinger, hvis
+dette skyldes, at kunden ikke har overholdt betingelserne i denne aftale.
+.sp 3mm
+.ar off
+.*******************************************************
+.ar KOLONNE2 on
+:SWISS8.
+&BANKNAVN er ikke ansvarlig for eventuelle følger af, at
+&BANKNAVN ikke har fået meddelelse om ændringer i kundens retlige
+forhold, såsom konkurs, død, umyndiggørelse m.v.
+.sp 3mm
+Hvis indbetalingskortet er fejlagtigt fremsendt eller ikke er korrekt
+udfyldt, påtager &BANKNAVN sig intet ansvar for rettidig
+indbetaling.
+.sp 3mm
+I øvrigt gælder &BANKNAVN.s almindelige forretningsbetingelser, som
+kunden har modtaget et eksemplar af.
+.sp 5mm
+:SWISS10.
+Opsigelse
+:SWISS8.
+.sp 3mm
+Denne aftale kan opsiges og ændres i overensstemmelse med &BANKNAVN.s
+almindelige forretningsbetingelser samt "Generelle regler
+for debitorer i Betalingsservice" nedenfor.
+.sp 5mm
+:SWISS10.
+Gebyrer
+:SWISS8.
+.sp 3mm
+For ordningen beregner &BANKNAVN gebyr i henhold til den aktuelle
+prisliste. Særskilt kvittering koster et gebyr. Omkostninger for
+&BANKNAVN.s ydelse af Betalingsservice, herunder
+gebyrer, porto m.v., oplyses af &BANKNAVN..
+.sp 5mm
+:SWISS10.
+Betalinger via Betalingsservice
+:SWISS8.
+.sp 3mm
+For de betalinger, som fremtidig kan ske via Betalingsservice, er
+&BANKNAVN bemyndiget til at foretage tilmelding til den konto,
+kunden har anført. Herefter vil de pågældende betalinger ske via
+Betalingsservice.
+.sp 3mm
+"Generelle regler for debitorer i Betalingsservice" er vedlagt
+denne aftale som bilag og gælder for de betalinger, der gennemføres via
+Betalingsservice.
+.ar off
+.**************************************************************************
+.ar FØLGETXT on
+.if &U'&GENFØLGE = J
+.th Følgesedlen, der sidder på den af
+.th &BANKNAVN modtagne specialkuvert, skal
+.th udfyldes med antal indleverede indbetalingskort samt underskrift, før
+.th den afrives og lægges i kuverten sammen med indbetalingskortene.
+.ar off
+.**************************************************************************
+.pa

@@ -1,0 +1,50 @@
+.dr tynd weight 0.1mm
+.kp on
+OvennÄvnte giver hermed &BANKNAVN. fuldmagt til pÄ
+.if &L'&MEDNAVN. > 0
+.th vores
+.el mine
+vegne ved brug af
+anmelderordningen at udstede, digitalt signere og anmelde til tinglysning
+et digitalt dokument med et indhold som angivet ovenfor.
+.sp 3mm
+&BANKNAVN. kan overlade udstedelsen, signering og/eller anmeldelse til
+tinglysning til en samarbejdspartner.
+.sp 3mm
+&BANKNAVN. har ret til at afgive de i forbindelse med denne disposition
+nÄdvendige erklÄringer.
+.sp 3mm
+Tinglysningsrettens meddelelser kan med frigÄrende virkning sendes til
+undertegnede.
+.br
+Undertegnede accepterer, at der kan forekomme mindre afvigelser i
+forbindelse med den digitale tinglysning af dokumentet.
+.sp 10mm
+.*UNDERSKRIFT *************************************************************
+.hr tynd 5mm 50mm
+.br
+Dato
+.sp 15mm
+.tp 6mm 86mm
+.if &L'&MEDNAVN. > 0
+.th .hr tynd 5mm 80mm 85mm 170mm
+.th .br
+.th Â¤&KTONAVN.Â¤&MEDNAVN.
+.el .hr tynd 5mm 80mm
+.el .br
+.el Â¤&KTONAVN.
+.sp 10mm
+.*hr tynd 5mm 80mm 85mm 170mm
+.*sp 10mm
+.kp off
+.if &U'&GENVITT. = J
+.th
+.el .go VITTSLUT
+.kp on
+Til vitterlighed om Ägte underskrift/underskrifter, dateringens rigtighed
+og udstederens/udstedernes myndighed:
+.sp 10mm
+.tp 40mm 85mm 130mm
+.hr tynd 5mm 80mm 85mm 170mm
+.br
+UnderskriftÂ¤Â¤Underskrift

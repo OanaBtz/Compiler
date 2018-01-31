@@ -1,0 +1,23 @@
+.*
+.if &L'&MEDKUNNR1 > 0
+.or &L'&MEDKUNNR2 > 0
+.or &L'&MEDKUNNR3 > 0
+.or &L'&MEDKUNNR4 > 0
+.or &L'&MEDKUNNR5 > 0
+.or &L'&MEDKUNNR6 > 0
+.or &L'&MEDKUNNR7 > 0
+.or &L'&MEDKUNNR8 > 0
+.or &L'&MEDKUNNR9 > 0
+.or &L'&MEDKUNNR10 > 0
+.or &L'&MEDKUNNR11 > 0
+.or &L'&MEDKUNNR12 > 0
+.or &L'&MEDKUNNR13 > 0
+.or &L'&MEDKUNNR14 > 0
+.or &L'&MEDKUNNR15 > 0
+.or &L'&MEDKUNNR16 > 0
+.or &L'&MEDKUNNR17 > 0
+.or &L'&MEDKUNNR18 > 0
+.or &L'&MEDKUNNR19 > 0
+.or &L'&MEDKUNNR20 > 0
+.th .se medkun = 1
+.el .se medkun = 0

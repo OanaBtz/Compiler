@@ -1,0 +1,36 @@
+:tiltale &TILTALEF
+.if &U'&BECTEST01 = J
+.th .go svar
+.el .qu
+...svar
+.pa
+.da AFSENDER 130mm 40mm width 60mm
+.ti ¤ 05
+.sp 8mm
+:COUR10.
+.if &L'&STILL > 0
+.th &STILL
+.th .br
+&NAVN
+.br
+.if &L'&COADR > 0
+.th &COADR
+.th .br
+&GADE
+.br
+&BY
+.br
+.*************************************************************
+.ar AFSENDER on
+.tp 15
+&BANKNAVN
+.br
+
+
+
+
+
+
+
+
+

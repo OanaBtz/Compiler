@@ -1,0 +1,7 @@
+.sp 2
+Med venlig hilsen
+.sp 3
+.if &L'&GENMEKSP gt 0
+.th &GENMEKSP          &GENEKSP
+.el &GENEKSP
+.ar off

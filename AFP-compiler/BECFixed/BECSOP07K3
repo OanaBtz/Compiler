@@ -1,0 +1,195 @@
+.da OVER 12mm 32mm width 120mm
+.da BOX 12mm 43mm width 210mm
+:SWISS12.
+.**********************************
+.ar OVER ON
+:SWISS12.
+:FED.
+:us.Service Opkrævning - Rekvisitioner
+:SKRSLUT.
+.sp 3mm
+:swiss10.:FED.
+Afgrænsning til rekvisitionerne 96051/96052:SKRSLUT.
+.AR OFF
+.AR BOX ON
+.BX 0MM 190MM
+.*Her laves den store kasse**
+.sp 5mm
+.*Her laves kasserne Medlemsnr**KS1
+.se streg1f = '37.5mm 42mm 46.5mm 51mm 55.5mm 60mm 64.5mm 69mm 73.5mm'
+.se streg2f = '87mm 91.5mm 96mm 100.5mm 105mm 109.5mm 114mm 118.5mm'
+.se streg3f = '123mm'
+.bx new 33mm 78mm / 82.5mm 127.5mm
+.SP 3mm
+.vr &streg1f &streg2f &streg3f
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Tilmeldt dato**KS2
+.se streg1g = '37.5mm 46.5mm 55.5mm 60mm 64.5mm'
+.se streg2g = '87mm 96mm 105mm 109.5mm 114mm'
+.bx new 33mm 69mm / 82.5mm 118.5mm
+.SP 3mm
+.vr &streg1g &streg2g
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Frameldt dato**KS3
+.bx new 33mm 69mm / 82.5mm 118.5mm
+.SP 3mm
+.vr &streg1g &streg2g
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Cprnr**KS4
+.se streg1h = '37.5mm 42mm 46.5mm 51mm 55.5mm 60mm 64.5mm'
+.se streg2h = '87mm 91.5mm 96mm 100.5mm 105mm 109.5mm 114mm'
+.bx new 33mm 69mm / 82.5mm 118.5mm
+.SP 3mm
+.vr &streg1h &streg2h
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Beløbskode**KS5
+.bx new 33mm 42mm / 82.5mm 91.5mm
+.SP 3mm
+.vr 37.5mm 87mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Medlemskode**KS6
+.bx new 33mm 42mm / 82.5mm 91.5mm
+.SP 3mm
+.vr 37.5mm 87mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Indiv.betalfrek**KS7
+.bx new 33mm 42mm / 82.5mm 91.5mm
+.SP 3mm
+.vr 37.5mm 87mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Indiv.beløb**KS8
+.se streg1i = '37.5mm 46.5mm 51mm 60mm 64.5mm 73.5mm'
+.se streg2i = '87mm 96mm 100.5mm 109.5mm 114mm 123mm'
+.bx new 33mm 78mm / 82.5mm 127.5mm
+.SP 3mm
+.vr &streg1i &streg2i
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Beløb forudbetalt**KS9
+.bx new 33mm 78mm / 82.5mm 127.5mm
+.SP 3mm
+.vr &streg1i &streg2i
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Beløb restance**KS10
+.bx new 33mm 78mm / 82.5mm 127.5mm
+.SP 3mm
+.vr &streg1i &streg2i
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Dato A**KS11
+.se streg1g = '37.5mm 46.5mm 55.5mm 60mm 64.5mm'
+.se streg2g = '87mm 96mm 105mm 109.5mm 114mm'
+.bx new 33mm 69mm / 82.5mm 118.5mm
+.SP 3mm
+.vr &streg1g &streg2g
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Dato B**KS12
+.bx new 33mm 69mm / 82.5mm 118.5mm
+.SP 3mm
+.vr &streg1g &streg2g
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Dato C**KS13
+.bx new 33mm 69mm / 82.5mm 118.5mm
+.SP 3mm
+.vr &streg1g &streg2g
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Oplysninsfelt-1**KS14*
+.bx new 33mm 69mm / 82.5mm 118.5mm
+.SP 3mm
+.vr &streg1h &streg2h
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Oplysninsfelt-2**KS15*
+.bx new 33mm 69mm / 82.5mm 118.5mm
+.SP 3mm
+.vr &streg1h &streg2h
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne M/K/PBS-kode**KS16
+.bx new 33mm 37.5mm / 55.5mm 60mm / 78mm 82.5mm
+.SP 3mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Medlemsnr l.1*KS17*
+.se streg1f = '37.5mm 42mm 46.5mm 51mm 55.5mm 60mm 64.5mm 69mm 73.5mm'
+.se streg2f = '87mm 91.5mm 96mm 100.5mm 105mm 109.5mm 114mm 118.5mm'
+.se streg3f = '123mm'
+.se streg4f = '136.5mm 141mm 145.5mm 150mm 154.5mm 159mm 163.5mm 168mm'
+.se streg5f = '172.5mm'
+.bx new 33mm 78mm / 82.5mm 127.5mm / 132mm 177mm
+.SP 3mm
+.vr &streg1f &streg2f &streg3f &streg4f &streg5f
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Medlemsnr l.2*KS18*
+.bx new 33mm 78mm / 82.5mm 127.5mm / 132mm 177mm
+.SP 3mm
+.vr &streg1f &streg2f &streg3f &streg4f &streg5f
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Medlemsnr l.3*KS19*
+.bx new 33mm 78mm / 82.5mm 127.5mm / 132mm 177mm
+.SP 3mm
+.vr &streg1f &streg2f &streg3f &streg4f &streg5f
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Opremsning beløbskode l.1*KS20
+.se ks1 = '33mm 42mm / 46.5mm 55.5mm / 60mm 69mm / 73.5mm 82.5mm'
+.se ks2 = '87mm 96mm / 100.5mm 109.5mm / 114mm 123mm / 127.5mm 136.5mm'
+.se ks3 = '141mm 150mm / 154.5mm 163.5mm'
+.*Her laves stregerne til Opremsning beløbskode l.1*KS20
+.se streg1j = '37.5mm 51mm 64.5mm 78mm 91.5mm 105mm 118.5mm 132mm 145.5mm'
+.se streg2j = '159mm'
+.bx new &ks1 / &ks2 / &ks3
+.SP 3mm
+.vr &streg1j &streg2j
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Opremsning beløbskode l.2*KS21
+.bx new &ks1 / &ks2 / &ks3
+.SP 3mm
+.vr &streg1j &streg2j
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Opremsning beløbskode l.3*KS22
+.bx new &ks1 / &ks2 / &ks3
+.SP 3mm
+.vr &streg1j &streg2j
+.sp 0.1mm
+.bx off
+.vr off
+.SP 80mm
+.BX off
+.AR OF

@@ -1,0 +1,184 @@
+.*OM MIN/VORES FORVENTNINGER TIL LÅNETS REELE LØBETID ********************
+.kp on
+:FED.
+Om &mine forventninger til boligkreditaftalens reelle løbetid:
+:SKRSLUT.
+.br
+.if x&GENLØBETID = x1
+.th &debsomt forventer at indfri/ekstraordinært afvikle lånet indenfor de
+.th næste 3 år og har fået oplyst, at de årlige omkostinger i procent
+.th stiger, hvis &deblomt. indfrier lånet før tid.
+.**********************************
+.if x&GENLØBETID = x2
+.th &debsomt forventer at indfri/ekstraordinært afvikle lånet inden for de
+.th næste 3 - 10 år og har fået oplyst, at de årlige omkostninger i
+.th procent stiger, hvis &deblomt. indfrier lånet før tid.
+.**********************************
+.if x&GENLØBETID = x3
+.th &debsomt har ingen planer om at indfri/ekstraordinært afvikle lånet.
+.sp 3mm
+.**********************************
+.if &L'&GENTEKST31 > 0
+.or &L'&GENTEKST32 > 0
+.or &L'&GENTEKST33 > 0
+.or &L'&GENTEKST34 > 0
+.or &L'&GENTEKST35 > 0
+.or &L'&GENTEKST36 > 0
+.or &L'&GENTEKST37 > 0
+.or &L'&GENTEKST38 > 0
+.or &L'&GENTEKST39 > 0
+.or &L'&GENTEKST40 > 0
+.th &GENTEKST31.&GENTEKST32.&GENTEKST33.&GENTEKST34.&GENTEKST35.
+.th &GENTEKST36.&GENTEKST37.&GENTEKST38.&GENTEKST39.&GENTEKST40.
+.th .sp 3mm
+.kp off
+.kp on
+:FED.
+Om &min risikovillighed:
+:SKRSLUT.
+.br
+.if x&GENVALG = x1
+.th &debsomt ønsker fast rente på dette lån og/eller høj sikkerhed for
+.th lånets ydelser samt en stor sikkerhed for beskyttelse af boligens
+.th friværdi ved rentestigninger. &debsomt accepterer samtidigt, at den
+.th lave risiko på lånet typisk afspejles i en højere rente.
+.if x&GENVALG = x2
+.th &debsomt ønsker som udgangspunkt et lån med variabel rente, der
+.th typisk er lavere end på et fastforrentet lån. Men ønsker samtidigt en
+.th begrænsning i hvor meget renten på lånet kan stige. &debsomt
+.th accepterer en middel risiko på lånet, hvad angår rente og beskyttelse
+.th af boligens friværdi.
+.if x&GENVALG = x3
+.th &debsomt ønsker lav rente og accepterer risikoen for, at renten kan
+.th variere ubegrænset samt lånets manglende beskyttelse af
+.th boligens friværdi.
+.sp 3mm
+.kp off
+.*** Manuelle supplerende tekstlinjer ***********
+.kp on
+.if &L'&GENTEKST21 > 0
+.or &L'&GENTEKST22 > 0
+.or &L'&GENTEKST23 > 0
+.or &L'&GENTEKST24 > 0
+.or &L'&GENTEKST25 > 0
+.or &L'&GENTEKST26 > 0
+.or &L'&GENTEKST27 > 0
+.or &L'&GENTEKST28 > 0
+.or &L'&GENTEKST29 > 0
+.or &L'&GENTEKST30 > 0
+.th &GENTEKST21.&GENTEKST22.&GENTEKST23.&GENTEKST24.&GENTEKST25.
+.th &GENTEKST26.&GENTEKST27.&GENTEKST28.&GENTEKST29.&GENTEKST30.
+.th .sp 3mm
+.kp off
+.kp on
+Det valgte lån &GENLÅN1. klassificeres som et
+.if x&GENLÅNRISK. = x1
+.th grønt
+.if x&GENLÅNRISK. = x2
+.th gult
+.if x&GENLÅNRISK. = x3
+.th rødt
+lån i henhold til bekendtgørelsen om risikoklassificering af lån.
+.sp 3mm
+.kp off
+.******************
+.*OM MINE/VORES ØKONOMISKE FORHOLD ****************************************
+.kp on
+:FED.
+Om &mine økonomiske forhold:
+:SKRSLUT.
+.br
+.if &U'&GENØKOFORA = J
+.th &debsomt har indleveret dokumentation for indtægter og formueforhold.
+.*th .sp 3mm
+.th .kp off
+.th .kp on
+.************************************************
+.if &U'&GENØKOFORB = J
+.th &debsomt har fået gennemgået &mit budget i forbindelse med
+.th denne lånoptagelse.
+.*th .sp 3mm
+.th .kp off
+.th .kp on
+.************************************************
+.if &U'&GENØKOFORC = J
+.th Denne lånoptagelse skønnes ikke at ændre i &MIN formue og
+.th rådighedsbeløb væsentligt.
+.th .sp 3mm
+.*th .kp off
+.th .kp on
+.************************************************
+.if &U'&GENØKOFORD = J
+.th Forventninger til fremtiden (pension, orlov, nedsparing mv.):
+.th .br
+.th .kp off
+.th .kp on
+.*** Manuelle supplerende tekstlinjer ***********
+.if &L'&GENTEKST11 > 0
+.or &L'&GENTEKST12 > 0
+.or &L'&GENTEKST13 > 0
+.or &L'&GENTEKST14 > 0
+.or &L'&GENTEKST15 > 0
+.or &L'&GENTEKST16 > 0
+.or &L'&GENTEKST17 > 0
+.or &L'&GENTEKST18 > 0
+.or &L'&GENTEKST19 > 0
+.or &L'&GENTEKST20 > 0
+.*th .in 8mm
+.th &GENTEKST11.&GENTEKST12.&GENTEKST13.&GENTEKST14.&GENTEKST15.
+.th &GENTEKST16.&GENTEKST17.&GENTEKST18.&GENTEKST19.&GENTEKST20.
+.*th .in 5mm
+.*th .sp 3mm
+.kp off
+.*** OM MIN/VORES RISIKOVILLIGHED
+.sp 3mm
+.tp 8mm
+.**************************************************************************
+.**************************************************************************
+.if &DEBANTAL > 1
+.th &debsomt., &NAVN. og &MEDEJER6.,
+.el &debsomt., &NAVN.,
+har modtaget rådgivning af &BANKNAVN. i forbindelse med &MIN. indgåelse
+af en boligkreditaftale.
+.sp 5mm
+:FED.
+.us on
+Til brug for rådgivningen har &deblomt på
+&BANKNAVN.s foranledning oplyst følgende:
+.us off
+:SKRSLUT.
+.sp 3mm
+.*OM MIN/VORES ERFARING MED AT OPTAGE LÅN *********************************
+.*:SWISS9.
+:FED.
+Om &min erfaring med at optage lån:
+:SKRSLUT.
+.br
+.if x&GENERFAR. = x1
+.th Ingen erfaring - Det er første gang, &deblomt. optager et lån med
+.th sikkerhed i fast ejendom.
+.th .sp 3mm
+.************************
+.if x&GENERFAR = x2
+.th Nogen erfaring - &debsomt. har optaget lån med sikkerhed i fast ejendom
+.th 1-3 gange inden for de sidste 10 år.
+.th .sp 3mm
+.************************
+.if x&GENERFAR = x3
+.th Stor erfaring - &debsomt. har optaget lån med sikkerhed i fast ejendom
+.th mere end 3 gange indenfor de sidste 10 år.
+.th .sp 3mm
+.** Manuelle supplerende tekstlinjer ***********
+.if &L'&GENTEKST1 > 0
+.or &L'&GENTEKST2 > 0
+.or &L'&GENTEKST3 > 0
+.or &L'&GENTEKST4 > 0
+.or &L'&GENTEKST5 > 0
+.or &L'&GENTEKST6 > 0
+.or &L'&GENTEKST7 > 0
+.or &L'&GENTEKST8 > 0
+.or &L'&GENTEKST9 > 0
+.or &L'&GENTEKST10 > 0
+.th &GENTEKST1.&GENTEKST2.&GENTEKST3.&GENTEKST4.&GENTEKST5.
+.th &GENTEKST6.&GENTEKST7.&GENTEKST8.&GENTEKST9.&GENTEKST10.
+.th .sp 3mm

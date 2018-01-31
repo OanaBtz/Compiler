@@ -1,0 +1,25 @@
+.AR TEKST ON
+Jeg kvitterer hermed for at have modtaget:
+.sp 3MM
+.IN 5MM
+&BECP1
+.BR
+&BECP2
+.BR
+&BECP3
+.BR
+&BECP4
+.BR
+&BECP5
+.in -5mm
+.SP 10MM
+Den ________________
+.sp 15MM
+______________________________
+.br
+&NAVN
+.BR
+Cpr.nr: &KUNDENR
+.SP 40MM
+Ekspederet af: &GENEKSP./&AFDNAVN
+.AR OFF

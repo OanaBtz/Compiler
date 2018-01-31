@@ -1,0 +1,92 @@
+.da HØJRE 177mm 48mm width 50mm
+.da TEKST 17mm 50mm width 210mm
+.da MIDT  96mm 124.5mm width 210mm
+.ti ¤ 05
+.**********************************
+.ar HØJRE on
+:SWISS8.
+.tp 4mm
+O¤= Opret.
+.br
+Æ¤= Ændre
+:SKRSLUT.
+.ar off
+.ar TEKST on
+.**** Her laves teksten i øverste kasse *************************
+:SWISS8.
+.tp 5mm 56mm 87mm
+¤Banksted¤Aftalenr.¤Medlemsnr.
+.br
+.****her laves teksten i den midterste kasse ********************
+.sp 12mm
+.tp 70mm 80mm 90mm
+Stilling
+.sp 3mm
+Fornavn
+.sp 3mm
+Efternavn
+.sp 3mm
+Adresse
+.sp 3mm
+Supl.adr.
+.sp 3mm
+Postnr.
+.sp 3mm
+Opkræv.adr.
+.sp 3mm
+Supl.adr.
+.sp 3mm
+Postnr.
+.sp 3mm
+Telefonnr.
+.sp 3mm
+CPR-nr.
+.sp 3mm
+Tilmeldt dato¤Frameldt dato
+.sp 3mm
+Oplysning 1¤Oplysning 2
+.sp 3mm
+Dato A¤Dato B
+.sp 3mm
+Dato C
+.sp 3mm
+Tekst 1
+.sp 9mm
+Tekst 2
+.sp 9mm
+.*Her laves teksten til den nederste kasse***********************
+.tp 55mm
+.sp 6mm
+Kode¤Alt. tekst max. 25 / 39 pos.
+.sp 7mm
+.tp 43mm 94mm 128mm
+¤Alt. beløb¤Faktor¤Stop saldo
+.sp 45mm
+.tp 31mm 40mm 49mm 58mm 67mm 76mm 85mm 94mm 103mm 112mm 121mm 130mm
+Alternativ¤Jan¤Feb¤Mar¤Apr¤Maj¤Juni¤Juli¤Aug¤Sept¤Okt¤Nov¤Dec
+.br
+betalingsfrekvens
+.br
+(sæt X)
+.sp 2mm
+Førstegangsbetaling:
+.tp 48mm
+.sp 2mm
+Beløbskode¤Beløb
+.sp 3mm
+Beløbskode¤Beløb
+.sp 3mm
+Beløbskode¤Beløb
+:SKRSLUT.
+.ar off
+.ar MIDT on
+.tp 11mm
+:SWISS8.
+¤Alle datoer anføres som
+.br
+.tp 13mm
+¤D   D   M   M   Å   Å   Å   Å
+.sp 20mm
+Max. 62 pos.
+:SKRSLUT.
+.ar off

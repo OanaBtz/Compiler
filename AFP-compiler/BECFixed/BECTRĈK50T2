@@ -1,0 +1,47 @@
+.tp 114mm 144mm
+Det samlede belÄb, som stilles til disposition:Â¤BelÄb i kroner
+.ct Â¤BelÄb i kroner
+.sp 3mm
+.tp 8mm 130mm char , 160mm char ,
+.dr tynd weight 0.1mm
+Â¤KreditrammenÂ¤Â¤&MIDLTRÄK.
+.br
+Â¤EkspeditionsgebyrÂ¤&GENEKSPGEB.
+.sp 3mm
+Â¤I alt hÄves pÄ kredittenÂ¤Â¤&GENEKSPGEB.
+.br
+Â¤Til dispositionÂ¤Â¤&RESULTA.
+.sp 5mm
+:FED.
+De samlede omkostninger, som skal betales
+:SKRSLUT.
+.br
+.tp 114mm
+.*Â¤BelÄb i kroner
+.tp 8mm 130mm char , 160mm char ,
+Â¤Renter i hele kreditaftalens lÄbetidÂ¤&RTNLBTID.
+.br
+Â¤Stiftelsesomkostninger:
+.br
+Â¤  EkspeditionsgebyrÂ¤&GENEKSPGEB.
+.*hr tynd 136mm 166mm
+.br
+Â¤Samlede omkostningerÂ¤Â¤&TOTKREOMK.
+.*hr tynd 136mm 166mm
+.sp 3mm
+De samlede omkostninger, som skal betales, er beregnet ud fra 100 %
+udnyttelse af kreditaftalen, gÄldende rente og omkostninger pÄ tidspunktet
+for indgÄelsen af kreditaftalen. BelÄbet vil variere ved Ändringer heri.
+.sp 3mm
+De Ärlige omkostninger i procent (ÄOP) udgÄr p.t. &ÄOP. % under fÄlgende
+antagelser:
+.br
+At det samlede kreditbelÄb udnyttes i sin helhed og for kreditaftalens
+fulde lÄbetid. NutidsvÄrdien af alle fremtidige og eksisterende
+forpligtelser, tilbagebetaling af kreditbelÄbet og de samlede omkostninger
+i forbindelse med kreditaftalen som fastsat i kreditaftalen, at
+kreditaftalen forbliver gyldig i det aftalte tidsrum, og at alle parter
+opfylder deres forpligtelser pÄ de vilkÄr og datoer, der er angivet i
+kreditaftalen. De Ärlige omkostninger i procent er beregnet ud fra den
+antagelse, at renten er konstant i forhold til udgangspunktet og finder
+anvendelse, indtil kreditaftalen udlÄber.

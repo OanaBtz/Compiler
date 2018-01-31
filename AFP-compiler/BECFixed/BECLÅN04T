@@ -1,0 +1,42 @@
+.se regnr = substr &BECKONTO01 1 4
+.se ktonr = substr &BECKONTO01 5 7
+I brev pr. den &BECDATO1 meddelte vi &DIG., at vi har opsagt
+.if &BECTEST02 eq 1
+.th lån nr. &regnr &ktonr
+.if &BECTEST02 eq 2
+.th kassekredit nr. &regnr &ktonr
+til fuld indfrielse. &BECTEKST30 har ikke indfriet
+.if &BECTEST02 eq 1
+.th lånet
+.if &BECTEST02 eq 2
+.th kassekreditten
+indenfor den anførte tidsfrist, og vi beder &DIG derfor som
+.if &BECTEST01 eq 1
+.th kautionist indfri
+.if &BECTEST01 eq 2
+.th deponent indfri
+.if &BECTEST02 eq 1
+.th lånet.
+.if &BECTEST02 eq 2
+.th kassekreditten.
+.sp
+.if &BECTEST02 eq 1
+.th Såfremt lånet, kr. &BECBELOB4
+.if &BECTEST02 eq 2
+.th Såfremt kassekreditten, kr. &BECBELOB4
+med tillæg af renter til indfrielsesdagen, ikke er indbetalt senest den
+&BECDATO2., ser vi os nødsaget til, uden yderligere varsel at overgive
+sagen til retslig inkasso. Hvis &DU ikke kan indfri
+.if &BECTEST02 eq 1
+.th lånet
+.if &BECTEST02 eq 2
+.th kassekreditten
+indenfor tidsfristen og eventuelt ønsker en afviklingsaftale, bedes &DU
+kontakte &EKSPNAVN..
+.if &L'&BECTEKST1 > 0
+.th .sp
+&BECTEKST1
+&BECTEKST2
+&BECTEKST3
+&BECTEKST4
+.*************************************************************************

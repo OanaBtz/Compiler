@@ -1,0 +1,18 @@
+.*TEST PÅ OM DER ER LEVERET 1 ELLER 2 I ÅRSAGSKODE ***********************
+.if &L'&LOFÅRSAG1 > 0
+.th
+.el .mg/T/Årsagskode skal være udfyldt/
+.if &LOFÅRSAG1 > 0
+.an &LOFÅRSAG1 < 3
+.th
+.el .mg/T/Årsagskode skal være udfyldt med enten 1 eller 2/
+.**************************************************************************
+.* Test om der er leveret (K)autionist eller (M)edktohaver i LOFVALG1 *****
+.* ------------------------------------
+.if &L'&LOFVALG1 eq 0
+.th .mg/T/Kode for kautionist eller medkontohaver skal være udfyldt
+.* ------------------------------------
+.if &U'&LOFVALG1 ne K
+.an &U'&LOFVALG1 ne M
+.th .mg/T/Tast kode for (K)autionist eller (M)edkontohaver
+.**************************************************************************

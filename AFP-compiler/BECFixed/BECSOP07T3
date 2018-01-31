@@ -1,0 +1,80 @@
+:SWISS8.
+.da SORTER1 12MM 46MM WIDTH 190MM
+.da SORTER2 12MM 51MM WIDTH 190MM
+.da SIDESK1 12MM 54MM WIDTH 190MM
+.da SIDESK2 12MM 59MM WIDTH 190MM
+.da TEKST1 115MM 53MM WIDTH 50MM
+.da TEKST2 115MM 58MM WIDTH 50MM
+.da KODE 12MM 90MM WIDTH 190MM
+.**Arealet for Sortering af rekvisitioner 96051/52***
+.AR SORTER1 ON
+.tp 3MM 27MM 45MM 63MM
+¤Sortering på ¤Sorter ¤Sideskift ¤Kolonne vedr.
+.br
+¤¤¤¤Individuelle lister
+.ar off
+.AR SORTER2 ON
+.tp 3MM 27MM 45MM 63MM
+¤Efter-/fornavn
+.sp 3.5MM
+¤Gadenavn
+.sp 3.5MM
+¤Postnr.
+.sp 3.5MM
+¤Tilmeldt dato
+.sp 3.5MM
+¤Frameldt dato
+.sp 3.5MM
+¤CPR-nr. ddmmåå
+.sp 3.5MM
+¤CPR-nr. ååmmdd
+.sp 3.5MM
+¤Beløbskode
+.sp 3.5MM
+¤Medlemskode
+.sp 3.5MM
+¤Dato A
+.sp 3.5MM
+¤Dato B
+.sp 3.5MM
+¤Dato C
+.sp 3.5MM
+¤Oplysningsfelt 1
+.sp 3.5MM
+¤Oplysningsfelt 2
+.sp 3.5MM
+¤Telefonnummer 1
+.sp 3.5MM
+¤Telefonnummer 2
+.sp 3.5MM
+¤Mænd
+.sp 4MM
+¤Kvinder
+.ar off
+.**LINIER VEDR. FØRSTE SIDESKIFT********
+.AR SIDESK1 ON
+.HR 47.5MM 100MM
+.VR 47.5MM
+.SP 8MM
+.VR OFF
+.AR OFF
+.**LINIER VEDR. ANDET SIDESKIFT********
+.AR SIDESK2 ON
+.HR 65.5MM 100MM
+.VR 65.5MM
+.SP 3MM
+.VR OFF
+.AR OFF
+.*TEKST VEDR. FØRSTE SIDESKIFT*****
+.ar TEKST1 ON
+Her kan kun vælges 1 sideskift
+.ar off
+.*TEKST VEDR. ANDET SIDESKIFT*****
+.ar TEKST2 ON
+Her kan angives 1, 2, 3, 4 og 5
+.ar off
+.***Tekst vedr. kode*********
+.ar KODE ON
+.tp 71mm
+¤Kode og faktor (j/n/u)
+.ar off

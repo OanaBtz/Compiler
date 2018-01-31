@@ -1,0 +1,61 @@
+.da oversk 20mm 32mm width 80mm
+.da side1a 20mm 39mm width 175mm
+.**************************************************************************
+.ar oversk on
+:SWISS12.
+:FED.
+.us Aftale om ratepension - fortsat
+:SKRSLUT.
+.ar off
+.**************************************************************************
+.ar side1a on
+.***** her laves kassen begunstigelse *************************************
+.bx left right
+.sp 42mm
+.***** her laves kassen til ny/gl. begunstigelsesregler***
+.if &U'&NYBEGUN = N
+.th .bx new left right
+.th .sp 6.5mm
+.el .sp 8.2mm
+.***** her laves kassen til væsentlige aftaler ****************************
+.bx new left right
+.sp 100mm
+.bx off
+.bx can
+.if &U'&NYBEGUN = N
+.th .bx can
+:SWISS10.
+:FED.
+Underskrift
+:SKRSLUT.
+.if &U'&GENSAMLVR ne J
+.th .go UDENSAM
+.***** her laves kassen begunstigelse *************************************
+.bx left right
+.sp 20mm
+.***** her laves kassen til kontohaver. underskrift ***********************
+.bx new left right
+.sp 12mm
+.bx off
+.bx can
+.sp 4mm
+.*UDEN SAMLEVER************************************************************
+...UDENSAM
+.***** her laves kassen til generelle vilkår  *****************************
+.if &U'&GENSAMLVR ne J
+.th .bx left right
+.el .bx new left right
+.sp 10mm
+.***** her laves kassen til kontohaver/arbejdsg. underskrift **************
+.bx new left 87.5mm right
+.sp 12mm
+.***** her laves kassen til pi- underskrift *******************************
+.bx new left right
+.sp 12mm
+.bx off
+.if &U'&GENSAMLVR ne J
+.th .bx can
+.th .bx can
+.bx can
+.ar off
+.**************************************************************************

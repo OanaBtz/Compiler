@@ -1,0 +1,98 @@
+:SWISS8.
+.kp on
+5.3.4 Andre omstændigheder, som er uden for formidler af &LOENSYSTEM.'s
+eller &LOENEJER.'s kontrol.
+.sp 3mm
+.kp off
+.kp on
+.tp 4.5mm
+.of 4.5mm
+:FED.
+5.4¤Formidler af &LOENSYSTEM.'s eller &LOENEJER.'s ansvarsfrihed
+gælder ikke hvis:
+:SKRSLUT.
+.of
+.sp 3mm
+5.4.1 Formidleren af &LOENSYSTEM eller &LOENEJER burde have forudset det
+forhold, som er årsag til tabet, da aftalen blev indgået
+eller burde have undgået eller overvundet årsagen til tabet.
+.sp 3mm
+.kp off
+.kp on
+5.4.2 Lovgivningen under alle omstændigheder gør formidleren af &LOENSYSTEM
+eller &LOENEJER ansvarlig for det forhold, som er årsag
+til tabet.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+.hy off
+.tp 4.5mm
+.of 4.5mm
+5.5¤Formidler af &LOENSYSTEM eller &LOENEJER er ikke ansvarlig
+for tab, der følger af:
+.hy on
+.of
+:SKRSLUT.
+.sp 3mm
+5.5.1 Driftsforstyrrelser, der forhindrer anvendelsen af &LOENSYSTEM.,
+herunder at der ikke kan etableres adgang til &LOENSYSTEM
+eller forbindelse til formidler af &LOENSYSTEM.'s
+eller &LOENEJER.'s edb-anlæg, eller at forbindelsen
+bliver afbrudt, uanset om det skyldes formidler af &LOENSYSTEM.'s
+eller &LOENEJER.'s fejl eller ydre omstændigheder
+.sp 3mm
+.kp off
+.kp on
+5.5.2 Spærring af virksomhedens konti ved begrundet mistanke om
+misbrug af virksomhedens konti, eller af virksomhedens adgang
+til &LOENSYSTEM..
+.sp 3mm
+.kp off
+.kp on
+5.6 Et eventuelt ansvar for formidler af &LOENSYSTEM og
+&LOENEJER kan aldrig overstige 250.000 kr.
+.sp 3mm
+.kp off
+.kp on
+5.7 Formidleren af &LOENSYSTEM og &LOENEJER er desuden i intet
+tilfælde ansvarlig for indirekte tab hos virksomheden, herunder
+driftstab, rentetab, tidstab, tab af goodwill eller for skade på
+ting hos virksomheden, herunder tab af data eller programmer, ej
+heller såfremt skaden skyldes en defekt ved &LOENEJER.'s produkt. Dette
+gælder, uanset om formidleren af &LOENSYSTEM eller &LOENEJER har
+været underrettet om mulighed for sådanne tab, og uanset om
+formidleren af &LOENSYSTEM eller &LOENEJER har udvist uagtsomhed.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.:FED.
+6. Produktansvar
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+6.1 Formidleren af &LOENSYSTEM og &LOENEJER er ikke ansvarlig for
+tab, der opstår som en følge af virksomhedens installering og
+brug af underskriftsfiler og opkobling til og anvendelse af &LOENSYSTEM.,
+med mindre et sådant ansvar følger af ufravigelige
+regler i produktansvarsloven.
+.sp 3mm
+.kp off
+.kp on
+6.2 Virksomheden er ansvarlig for, at denne er behørigt
+forsikret mod direkte og indirekte tab, der kan opstå som følge
+af installering og brug af underskriftsfiler og opkobling og
+anvendelse af virksomhedens edb-system til &LOENSYSTEM via
+internet. Virksomheden er endvidere forpligtet til at foretage
+backupkopier af data, der såfremt disse gik tabt kunne medføre
+tab for virksomheden.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.:FED.
+7. Andre vilkår
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+Der henvises til Almindelige regler og vilkår for &LOENSYSTEM..
+.kp off

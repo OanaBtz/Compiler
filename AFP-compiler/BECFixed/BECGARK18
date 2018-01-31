@@ -1,0 +1,133 @@
+.ti ¤ 05
+.dr tynd weight 0.25mm
+.tp 1mm
+.if &U'&GENREGARAN = J
+.th .go REGARAN
+.el .go SLUT
+.********************************************************************
+.sp 30mm
+...REGARAN
+:SWISS12.
+:FED.
+Erklæring regaranti
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+Undertegnede anmoder herved pengeinstituttet om for min/vor regning
+at udfærdige en garanti af ovenstående ordlyd, og jeg/vi dækker på
+anfordring pengeinstituttet for ethvert beløb, som pengeinstituttet
+måtte komme til at udrede som følge af denne garanti. Så længe
+garantien er i kraft, debiterer pengeinstituttet mig/os provision
+efter pengeinstituttets til
+enhver tid gældende
+betingelser. Beløb udbetalt under garantien forrentes i
+forhold til pengeinstituttets gældende betingelser.
+.br
+Yderligere tiltransporterer undertegnede hermed pengeinstituttet  alle
+eventuelle tilbagebetalingskrav.
+.sp 3mm
+I øvrigt er pengeinstituttets almindelige forretningsbetingelser gældende.
+.sp 3mm
+Pengeinstituttet er erstatningsansvarlig, hvis den på grund af fejl eller
+forsømmelser opfylder aftalte forpligtelser for sent eller mangelfuldt.
+Selv på de områder, hvor der gælder et strengere ansvar, er
+pengeinstituttet ikke
+ansvarlig for tab, som skyldes:
+.sp 3mm
+.tp 5mm
+*¤nedbrud i/manglende
+.in 5mm nobreak
+adgang til it-systemer eller beskadigelse af data i disse systemer, der
+kan henføres til nedennævnte
+begivenheder, uanset om det er
+pengeinstituttet selv eller en ekstern leverandør, der står for driften
+af systemerne
+.in 0mm
+.br
+.tp 5mm
+*¤svigt
+.in 5mm nobreak
+i pengeinstituttets strømforsyning eller telekommunikation, lovindgreb
+eller forvaltningsakter, naturkatastrofer, krig, oprør, borgerlige
+uroligheder, sabotage, terror eller hærværk (herunder computervirus og
+hacking)
+.br
+*¤strejke, lockout, boykot
+.in 5mm nobreak
+eller blokade, uanset om konflikten er rettet mod eller iværksat af
+pengeinstituttet selv eller dens organisation, og uanset konfliktens
+årsag. Det gælder også, når konflikten kun rammer en del af
+pengeinstituttet
+.in 0mm
+.br
+*¤andre
+.in 5mm nobreak
+omstændigheder, som er uden for pengeinstituttets kontrol.
+.sp
+Pengeinstituttets ansvarsfrihed gælder ikke hvis:
+.in 0mm
+.sp 3mm
+*¤pengeinstituttet
+.in 5mm nobreak
+burde have forudset det forhold, som er årsag til tabet, da aftalen blev
+indgået eller burde have undgået eller overvundet årsagen til tabet
+.in 0mm
+.br
+*¤lovgivningen
+.in 5mm nobreak
+under alle omstændigheder gør pengeinstituttet ansvarlig for det
+forhold, som er årsag til tabet.
+.kp on
+.in 0mm
+.sp 6mm
+:SWISS8.
+:FED.
+Dato og kundens underskrift.
+:SKRSLUT.
+:SKRSLUT.
+.tp 82.5mm
+.sp 6mm
+.hr tynd left 80mm 82.5mm 165mm
+¤den
+.sp 10mm
+.hr tynd left 165mm
+:SKRSLUT.
+.ce on
+.if &L'&MEDNAVN > 0
+.th &KTONAVN ¤&MEDNAVN
+.el &KTONAVN
+.ce off
+.kp off
+.*************************************************************************
+.if &U'&GENJANEJ = J
+.th .go VITTER
+.el .go SLUT
+.*************************************************************************
+...VITTER
+.kp on
+.in 0mm
+.sp 6mm
+:SWISS8.
+:FED.
+Til vitterlighed om ægte underskrift/underskrifter, dateringens
+rigtighed og udstederens/udstedernes myndighed.
+:SKRSLUT.
+:SKRSLUT.
+.sp 6mm
+.tp _/80mm
+Navn ¤
+.sp 4mm
+Stilling ¤
+.sp 4mm
+Adresse ¤
+.sp 4mm
+Postnr./by ¤
+.sp 4mm
+Underskrift ¤
+.in 0mm
+.kp off
+.*************************************************************************
+...SLUT
+.*************************************************************************
+:SKRSLUT.

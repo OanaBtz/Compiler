@@ -1,0 +1,80 @@
+.*****************************************************************
+.tp 1mm
+.sp 12mm
+:SWISS9.
+:FED.
+Indhold
+:SKRSLUT.
+.sp 2mm
+.bx left right
+.ir 2mm
+Denne aftale er et tillæg til begge parters aftaler med &BANKNAVN.
+om &WEBSYSNAVN. &prierh., og et tillæg til &NAVN.s aftale om Selvbetjent
+brugeradministration. Aftalen giver &NAVN.s autoriserede
+Brugeradministrator(er) fuldmagt og adgang til via
+&BANKNAVN.s &WEBSYSNAVN. &prierh. at administrere tilknyttede brugere, som
+hermed også får fuldmagt til at disponere over konti og depoter tilhørende
+&NAVN2., i det omfang Brugeradministrator er tildelt rettigheder
+hertil. Hvis &NAVN2. ikke forud for denne aftales indgåelse har aftale med
+&BANKNAVN. og &WEBSYSNAVN. &prierh., indgås sådan aftale samtidig hermed.
+.sp 3mm
+.if &GENVALG = 1
+.th Parterne anmoder om, at nedenstående person(er) registreres og
+.th autoriseres som Brugeradministrator(er).
+.th .sp 3mm
+&NAVN2. autoriserer og giver fuldmagt til at brugeradministratorer hos
+&NAVN., har rettigheder til at administrere brugere hos &NAVN., og at
+bruger(e) hos &NAVN. således kan få fuldmagt og ret til at disponere
+over konti og depoter tilhørende &NAVN2. &KUNDENR2..
+.sp 3mm
+En Brugeradministrator kan:
+.tp 5mm 9mm
+¤*¤Benytte alle tjenester i &BANKNAVN.s &WEBSYSNAVN. &prierh.,
+¤*¤ændre på egen adgang og dispositionsret i &WEBSYSNAVN. &prierh.,
+¤*¤oprette
+.in 9mm nobreak
+, ændre, spærre og slette brugere i &WEBSYSNAVN. &prierh., i &NAVN.,
+.in
+¤*¤indhente information om allerede registrerede brugere i &NAVN.,
+¤*¤tildele
+.in 9mm nobreak
+og ændre brugeres (herunder egen) adgang og dispositionsret i
+&WEBSYSNAVN. &prierh. til at se og disponere alene og/eller i forening med
+andre brugere over &NAVN2.s konti og depoter.
+.in 1mm
+.sp 3mm
+En bruger kan:
+¤*¤Se
+.in 9mm nobreak
+og disponere over &NAVN.s og &NAVN2.s konti og depoter i det omfang
+Brugeradministrator har tildelt rettigheder.
+.in 1mm
+.tp 1mm
+.sp 4mm
+En Brugeradministrators autorisation i henhold til denne aftale omfatter
+både nuværende samt kommende konti, depoter og funktionaliteter, der
+indgår i &WEBSYSNAVN. &prierh., og hvor der kan administreres
+brugeradgang til.
+.sp 4mm
+Autorisationen af Brugeradministrator kan begrænses således, at det kræver
+to Brugeradministratorer i forening, for at varetage administrationen
+i henhold til denne aftale.
+.sp 4mm
+For at &BANKNAVN. kan sikre en entydig identifikation af Fuldmagtshavers
+Brugeradministrator(er), kræves det, at følgende er oplyst om
+.hw Bru-ger-admini-strator(erne):
+.br
+.of 5mm
+.tp 5mm 9mm
+¤*¤CPR-nummer (eller pas nr. for personer som ikke er bosat i Danmark)
+¤*¤navn,
+¤*¤brugernummer.
+.tp
+.of
+.br
+&BANKNAVN. kan til enhver tid kræve yderligere identifikation samt
+legitimation for Brugeradministrator(erne), såfremt dette findes
+.hw påkrævet.
+.sp 2mm
+.bx off
+.**************************************************************************

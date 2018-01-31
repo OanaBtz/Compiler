@@ -1,0 +1,32 @@
+.*************** definer siden som et areal *******************************
+.da SIDE 20mm 40mm width 175mm
+.** PARTER ****************************************************************
+.ar SIDE on
+.tp 1mm 88.5mm
+:SWISS10.
+:FED.
+Parter
+:SKRSLUT.
+:SWISS8.
+.bx left right
+.tp 1mm
+¤Kunden
+.sp 23mm
+.bx new left right
+¤Pengeinstitut
+.sp 20mm
+.bx off
+.bx can
+:SWISS10.
+:FED.
+Indhold
+:SKRSLUT.
+.bx left right
+.sp 25mm
+.bx new left right
+.sp 33mm
+.bx new left right
+.sp 112mm
+.bx off
+.bx can
+.ar off

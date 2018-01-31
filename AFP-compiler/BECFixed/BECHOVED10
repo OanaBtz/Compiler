@@ -1,0 +1,16 @@
+.oc   *** Denne linje fjernes
+.fo left
+.SP 5
+.ti > 05
+.tp 8 48
+&STILL >>&DATO
+.br
+&NAVN
+.br
+&COADR
+.br
+&GADE
+.br
+&BY
+.sp &blanklin
+.sp

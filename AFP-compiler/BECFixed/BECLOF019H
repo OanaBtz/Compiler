@@ -1,0 +1,42 @@
+.********************GENEREL OPSÆTNING*************************************
+:COUR10.
+.fo left
+.ti ¤ 05
+.**************************************************************************
+.da LOFADR   23mm 48mm
+.da FORFALD 126.5mm 64.51mm
+.**************************************************************************
+.**** Adressefelter *******************************************************
+.ar LOFADR on
+&EAN.
+.br
+&ADR1.
+.br
+&ADR2.
+.br
+&ADR3.
+.br
+&ADR4.
+.br
+&ADR5.
+.if &L'&MDEBADR1 = 0
+.an &L'&MDEBADR2 = 0
+.an &L'&MDEBADR3 = 0
+.an &L'&MDEBADR4 = 0
+.an &L'&MDEBADR5 = 0
+.th .go MDEBSLUT
+.sp 15mm
+Meddebitor:
+.sp
+&MDEBADR1.
+.br
+&MDEBADR2.
+.br
+&MDEBADR3.
+.br
+&MDEBADR4.
+.br
+&MDEBADR5.
+...MDEBSLUT
+.ar off
+.***********************************************************************

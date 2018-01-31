@@ -1,0 +1,44 @@
+.dr tynd weight 0.1mm
+.da SIDE 20mm 40mm width 175mm
+.**************************************************************************
+.ar SIDE on
+.bx left right
+.in 1mm
+.ir 1mm
+It is the Danish version of the applicable regulations/provisions that
+apply at any and all times.
+.sp 3mm
+&BANKNAVN.'s Terms and Conditions applies additional to the legal
+relationship between &BANKNAVN. and me/us.
+.sp 5mm
+I/we accept the above terms and conditions. I/we have received and read a
+copy of the credit agreement as well as I/we have familiarised
+myself/ourselves with &BANKNAVN.'s General Terms and Conditions. The
+General Terms and Conditions applicable at any time are available on
+&BANKNAVN.'s website.
+.sp 5mm
+.*1. PANTSÄTTER**
+:FED.
+Signature of pledgor
+:SKRSLUT.
+.sp 10mm
+.tp 5mm 60mm
+.hr tynd 5mm 55mm 60mm 170mm
+.br
+Â¤Date Â¤&PANTSÄTNVN
+.*2. PANTSÄTTER (MEDPANTSÄTTER)
+.if &L'&MEDPANTNVN > 0
+.th .go PANT2
+.el .go PANTSL
+...PANT2
+.sp 5mm
+:FED.
+Signature of co-pledgor
+:SKRSLUT.
+.sp 10mm
+.th .hr tynd 5mm 55mm 60mm 170mm
+.th .br
+.th Â¤Date Â¤&MEDPANTNVN
+...PANTSL
+.sp 5mm
+.**FORTSÄTTER I T4 ********************************************************

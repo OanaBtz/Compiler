@@ -1,0 +1,6 @@
+Kommunekode: &GENKOMMUNE.   Vejkode: &GENVEJKODE.
+.*************************************
+.ar AFGIFT on
+.tp 40mm right
+¤&GENAFGIFT
+.ar off

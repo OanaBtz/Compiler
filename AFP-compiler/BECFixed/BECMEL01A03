@@ -1,0 +1,107 @@
+.da side1 10mm 117mm width 187.3mm
+.ti ¤ 05
+.ar side1 on
+:SWISS10.
+.tp 1mm -/187.3mm right
+-¤-¤-
+.sp 5mm
+.in 1mm
+:FED.
+Registerblad til *
+:SKRSLUT.
+.bx new left 117mm right
+.sp 8mm
+.hr left 117mm
+.vr 5mm 45mm
+.vr 47mm 52mm
+.sp 2.5mm
+.hr left 5mm 47mm 52mm 53mm 58.3mm
+.vr off
+.vr 5mm 45mm
+.vr 53mm 58mm
+.sp 2.5mm
+.hr left 5mm 53mm 58mm
+.sp 2.5mm
+.hr left 5mm 53mm 58mm
+.sp 2.5mm
+.hr left 5mm 53mm 58mm
+.vr off
+.vr 5mm 45mm
+.sp 2.5mm
+.hr left 5mm
+.sp 2.5mm
+.hr left 117mm
+.vr off
+.vr 14mm
+.sp 20mm
+.bx new left 34mm 125mm 141mm right
+.vr off
+.sp 3mm
+.vr 17mm
+.sp 1mm
+.vr off
+.sp 1mm
+.vr 17mm
+.sp 1mm
+.vr off
+.sp 1mm
+.vr 17mm
+.sp 1mm
+.vr off
+.bx off
+.bx can
+.sp 11mm
+.tp 1mm -/187.3mm right
+-¤-¤-
+.sp 5mm
+:SWISS10.
+.in 1mm
+:FED.
+Meddelelse om mellemregningspostering
+:SKRSLUT.
+.bx new left 117mm right
+.sp 8mm
+.hr left 117mm
+.vr 5mm 45mm
+.vr 47mm 52mm
+.sp 2.5mm
+.hr left 5mm 47mm 52mm 53mm 58.3mm
+.vr off
+.vr 5mm 45mm
+.vr 53mm 58mm
+.sp 2.5mm
+.hr left 5mm 53mm 58mm
+.sp 2.5mm
+.hr left 5mm 53mm 58mm
+.sp 2.5mm
+.hr left 5mm 53mm 58mm
+.vr off
+.vr 5mm 45mm
+.sp 2.5mm
+.hr left 5mm
+.sp 2.5mm
+.hr left 117mm
+.vr off
+.vr 14mm
+.sp 20mm
+.bx new left 34mm 48mm 70mm 80mm 125mm 141mm right
+.vr off
+.sp 3mm
+.vr 17mm
+.sp 1mm
+.vr off
+.sp 1mm
+.vr 17mm
+.sp 1mm
+.vr off
+.sp 1mm
+.vr 17mm
+.sp 1mm
+.vr off
+.bx off
+.bx can
+.vr 70mm  125mm
+.sp 5mm
+.hr 70mm 125mm
+.vr off
+.ar off

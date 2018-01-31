@@ -1,0 +1,55 @@
+.**************************************************************************
+.* For institutter, som ikke endnu er overgået til elektronisk            *
+.* kommunikation, men ønsker at medtage bestemmelser herom i              *
+.* betingelserne kan dette afsnit anvendes                                *
+.* Se fra linie 26                                                        *
+.**************************************************************************
+.tp 5mm
+.kp on
+:SWISS10.
+:FED.
+10. Sprog og kommunikation
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+.kp off
+.kp on
+.us Sprog
+.br
+&BANKNAVN. indgår aftaler og kommunikerer på dansk, medmindre andet
+fremgår af den konkrete aftale.
+.sp 3mm
+.kp off
+.kp on
+.us Elektronisk kommunikation
+.br
+&BANKNAVN. kan beslutte at overgå til elektronisk
+kommunikation. Meddelelse herom vil ske med samme varsel
+og på samme måde, som ændring af disse Almindelige
+Forretningsbetingelser.
+.sp 3mm
+.kp off
+.kp on
+Træffer &BANKNAVN. beslutning herom, modtager &DU. som
+udgangspunkt alle udskrifter, meddelelser, aftaler og
+vilkår m.v. fra &BANKNAVN. elektronisk i e-Boks, uanset om der i aftaler
+.* [indsæt medium, f.eks. e-boks] der er valgt e-Boks
+og vilkår m.v. anvendes udtryk som skriftligt, brev m.v.
+.sp 3mm
+.kp off
+.kp on
+&SDU. kan indgå aftale med &BANKNAVN. om, at meddelelser og aftaler
+m.v. tilsendes på papir, men det kan være forbundet med gebyr.
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN. kan altid beslutte at sende meddelelser, aftaler, vilkår
+m.v. på papir. &SDU. betaler ikke gebyr, hvis &BANKNAVN. på eget
+initiativ fremsender meddelelser eller aftaler m.v. på papir.
+.sp 3mm
+.kp off
+.kp on
+Elektroniske breve og dokumenter har samme retsvirkning, som var de
+modtaget med almindelig post.
+.sp 5mm
+.kp off

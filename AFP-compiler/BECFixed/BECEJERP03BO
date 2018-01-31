@@ -1,0 +1,18 @@
+.*************** GENEREL OPSÆTNING ***************************************
+.**UNDERSKRIVERNES NAVNE ER FJERNET, FORDI TYPOGRAFIEN PÅ ALLE
+.**UNDERSKRIFTER SKAL VÆRE ENS********************************************
+.**DE TO LODRETTE LINIER NEDERST PÅ SIDEN ER PLACERET FOR AT UNDGÅ
+.**UTILSIGTEDE TILFØJELSER TIL BREVET*************************************
+.ti ¤ 05
+:COUR10.
+.fo left
+.*************** AREAL-DEFINITIONER **************************************
+.da VEND 7mm 270mm width 180mm rotate -90
+.*************** ROTERET BREVNAVN ****************************************
+.ar VEND on
+:COUR6.
+BECEJERP03B
+.br
+Kl. &TID
+.ar off
+.*************************************************************************

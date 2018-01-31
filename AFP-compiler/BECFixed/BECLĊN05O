@@ -1,0 +1,18 @@
+.*************GENEREL OPSÄTNING********************************************
+:TILTALE &TILTALEF
+:COUR10.
+.fo left
+.ti Â¤ 05
+.*************AREAL-DEFINITIONER*******************************************
+.da START 20mm 110mm
+.da VEND 7mm 270mm width 180mm rotate -90
+.*************ROTERET BREVNAVN*********************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.*************STARTPOSITION AF BREVET, INCL. OVERSKRIFT********************
+.ar START on
+.us &SDIN kautionsforpligtelse er nu ophÄrt
+.sp
+.***********************************************************************

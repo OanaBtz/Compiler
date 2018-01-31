@@ -1,0 +1,14 @@
+.*************** definer siden som et areal *******************************
+.da SIDE2 20mm 40mm width 175mm
+.************ Side 2 til pantehæftelser ***********************************
+.ar SIDE2 on
+.tp 1mm 140mm
+.bx left right
+¤Custody account no.¤Date of printing
+.sp 6mm
+.bx off
+.sp 4mm
+.bx left right
+.sp 220mm
+.bx off
+.ar off

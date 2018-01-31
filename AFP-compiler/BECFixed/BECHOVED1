@@ -1,0 +1,20 @@
+.oc  Denne linie benyttes ikke
+.fo left
+.*** SÆT SKÆRM/PRINT-FORMAT ***
+.br
+.ti > 05
+.pm 9
+.ll 63
+.sp 4
+.tp 51
+.*** BREVSTART ***
+&&??#
+.br
+&B30STILL >&DATO1
+.br
+&B30NAVNOPL
+.br
+&B30GADE
+.br
+&B30BY
+.sp 10

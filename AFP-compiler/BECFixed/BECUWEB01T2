@@ -1,0 +1,32 @@
+.******************************************************
+.da INDHOLD   21mm     99.5mm width 170mm
+.da BRUGER    21mm    151mm width 170mm
+.da GEBYR     21mm    167mm width 170mm
+.*******************************************************
+.ar INDHOLD on
+.hy off
+:SWISS8.
+The above parties have this day entered into an agreement on the
+customer's registration with and use of &WEBSYSNAVN..
+.ar off
+.*******************************************************
+.ar BRUGER on
+:SWISS8.
+.if &U'&WEBPRIERH = E
+.th .go ERH1
+.el .go KOLON1
+...ERH1
+.if &L'&GENBRUGNVN > 0
+.or &L'&GENBRUGNV1 > 0
+.th The manager(s) of users is/are entitled and authorised with
+.th binding effect for the customer (in case of two managers of users,
+.th jointly) to request and receive user-IDs and enter into
+.th agreements with &BANKNAVN on the authorisations for such
+.th user-IDs. The authority of the manager(s)
+.th of users to enter into
+.th agreements on user authorisations includes entitlement to
+.th authorise users to conclude transactions in securities in the
+.th system on behalf of the customer and to deal with securities in
+.th the customer's custody account.
+...KOLON1
+.ar off

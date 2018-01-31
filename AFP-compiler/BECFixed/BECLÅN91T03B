@@ -1,0 +1,88 @@
+.*DE VÆSENTLIGSTE EGENSKABER:
+.*FORTSAT T03A
+.**************************************************************************
+.if &L'&GENFKUA2A > 0
+.or &L'&GENFKMA2B > 0
+.th .go TXT3BF
+.el .go TXT3BE
+...TXT3BF
+.if &L'&GENFKUA2A > 0
+.th .go FKUA2A
+.if &L'&GENFKMA2B > 0
+.th .go FKMA2B
+.go TXT3BE
+.****** F-kort uden afdrag ************************************************
+...FKUA2A
+.kp on
+Lånet er et variabelt forrentet lån, hvor renten bliver fastsat hvert
+halve år ud fra 6-måneders Cita-renten den fjerde sidste bankdag i
+henholdsvis juni og december. Cita-renten (Copenhagen InterBank
+Tomorrow/Next Average) bliver dagligt noteret af Nationalbanken.
+.br
+Cita-renten tillægges et rentetillæg og multipliceres derefter
+med 365/360 som følge af forskelle i rentekonventioner. Rentetillægget
+fastsættes ud fra de markedsmæssige vilkår på auktionstidspunktet for
+obligationerne. Hvis den samlede kuponrente (referencerente med tillæg)
+bliver negativ ved en renteregulering, kan Totalkredit altid vælge at
+sætte kuponrenten til nul frem til næste rentereguleringstidspunkt.
+.sp 3mm
+Obligationerne bag lånet har en kortere løbetid end lånet. Lånet skal
+derfor refinansieres ved udløb af obligationerne. Løbetiden på
+obligationerne - og dermed også tidspunktet frem til næste
+refinansieringstidspunkt - fastsættes fra gang til gang - og kan
+derfor variere fra refinansiering til refinansiering. Lånets første
+refinansieringstidspunkt fremgår af låne- og pantsætningsaftalen. I
+forbindelse med udbetalingen af lånet kan lånets første
+refinansieringstidspunkt dog fastsættes til et andet tidspunkt. Det
+vil i så fald fremgå af din udbetalingsspecifikation.
+.sp 3mm
+Når lånet refinansieres, fastlægges der som udgangspunkt et nyt
+rentetillæg til 6-måneders Cita-renten ud fra den aktuelle
+markedssituation.
+.sp 3mm
+Et lån med variabel rente koster typisk mindre end et lån med fast
+rente. Til gengæld kan renten og dermed ydelsen på lånet både stige
+og falde.
+.sp 3mm
+Bidraget kan i øvrigt justeres med forudgående varsel.
+.kp off
+.go TXT3BE
+.****** F-kort med afdrag *************************************************
+...FKMA2B
+.kp on
+Lånet er et variabelt forrentet lån, hvor renten bliver fastsat hvert
+halve år ud fra 6-måneders Cita-renten den fjerde sidste bankdag i
+henholdsvis juni og december. Cita-renten (Copenhagen InterBank
+Tomorrow/Next Average) bliver dagligt noteret af Nationalbanken.
+.br
+Cita-renten tillægges et rentetillæg og multipliceres derefter med
+365/360 som følge af forskelle i rentekonventioner. Rentetillægget
+fastsættes ud fra de markedsmæssige vilkår på auktionstidspunktet for
+obligationerne.
+.sp 3mm
+Hvis den samlede kuponrente (referencerente med tillæg) bliver negativ ved
+en renteregulering, kan Totalkredit altid vælge at sætte kuponrenten til
+nul frem til næste rentereguleringstidspunkt.
+.sp 3mm
+Obligationerne bag lånet har en kortere løbetid end lånet. Lånet skal
+derfor refinansieres ved udløb af obligationerne. Løbetiden på
+obligationerne - og dermed også tidspunktet frem til næste
+refinansieringstidspunkt - fastsættes fra gang til gang og kan derfor
+variere fra refinansiering til refinansiering. Lånets første
+refinansieringstidspunkt fremgår af låne- og pantsætningsaftalen. I
+forbindelse med udbetalingen af lånet kan lånets første
+refinansieringstidspunkt dog fastsættes til et andet tidspunkt. Det vil
+i så fald fremgå af din udbetalingsspecifikation.
+.sp 3mm
+Når lånet refinansieres, fastlægges der som udgangspunkt et nyt
+rentetillæg til 6-måneders Cita-renten ud fra den aktuelle
+markedssituation.
+.sp 3mm
+Et lån med variabel rente koster typisk mindre end et lån med fast
+rente. Til gengæld kan renten og dermed ydelsen på lånet både stige og
+falde. Bidraget kan i øvrigt justeres med forudgående varsel.
+.kp off
+.go TXT3BE
+.**********
+...TXT3BE
+.sp 5mm

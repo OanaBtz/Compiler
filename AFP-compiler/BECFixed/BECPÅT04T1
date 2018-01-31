@@ -1,0 +1,54 @@
+.*******************************************************************
+.da KUNDEOPL    25mm  48mm width 80mm
+.da PI         112.5mm 48mm width 80mm
+.da CPRSENR     43mm 70.5mm width 80mm
+.da PÅTEGN       40mm  75mm width 80mm
+.da BELQB      122.5mm 75mm width 80mm
+.da ANDEL       25mm  85mm width 80mm
+.da AFGIFT      122.5mm 82mm width 80mm
+.******************************************************************
+.ar KUNDEOPL on
+&STILL
+.br
+&NAVN
+.br
+&COADR
+.br
+&GADE
+.br
+&BY
+.ar off
+.*************************************
+.ar PI on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.*************************************
+.ar CPRSENR on
+&KUNDENR
+.ar off
+.*************************************
+.ar PÅTEGN on
+Ejerpantebrev
+.**************************************************************************
+.ar off
+.*************************************
+.ar BELQB on
+.tp 40mm right
+¤&GENBELØB10
+.ar off
+.*************************************
+.ar ANDEL on
+&GENMÆRKE10.
+.br
+&GENBILRGNR., &GENÅRGANG., &GENSTEL.
+.*************************************
+.ar AFGIFT on
+.tp 40mm right
+¤&GENAFGIFT
+.ar off

@@ -1,0 +1,188 @@
+.tp 3mm 7mm
+.**************************************************************************
+.kp on
+:SWISS10.
+:FED.
+3.¤¤&SDIN tilslutning til SEPA Direct Debit
+.sp 3mm
+:SKRSLUT.
+:SWISS8.
+:KURSIV.
+.of 7mm
+3.1¤¤En SEPA Direct Debit tilslutningsaftale med &BANKNAVN
+:SKRSLUT.
+.of
+.sp 3mm
+&SDU skal indgå en SEPA Direct Debit tilslutningsaftale om brug af SEPA
+Direct Debit med &BANKNAVN.. Tilslutningsaftalen med tilhørende
+bilag er en forudsætning for at bruge SEPA Direct Debit som debitor.
+.sp 3mm
+Det beror på &BANKNAVN.s vurdering, om &DU kan opnå en SEPA Direct
+Debit tilslutningsaftale. &BANKNAVN er ikke forpligtet til at
+indgå en tilslutningsaftale med &DIG..
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+3.2¤¤Oprettelse af SEPA betalingsaftaler
+.br
+:SKRSLUT.
+Når &DU har indgået en SEPA Direct Debit tilslutningsaftale med &BANKNAVN.,
+kan &DU indgå SEPA betalingsaftaler med kreditorer.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+3.3¤¤Virkningen af en SEPA betalingsaftale
+.br
+:SKRSLUT.
+:SWISS8.
+Når &DU indgår en SEPA betalingsaftale med kreditor, giver &DU
+tilladelse til, at der på kreditors anmodning kan overføres beløb fra
+&DIN konto til kreditors konto.
+.sp 3mm
+&SDU kan aftale med kreditor, at en SEPA betalingsaftale skal dække flere
+skyldforhold, såfremt &DU har flere skyldforhold med kreditor, fx
+præmiebetaling i tilknytning til flere forsikringer tegnet i samme
+forsikringsselskab.
+.sp 3mm
+SEPA betalingsaftaler knyttes til den konto eller de konti, som &DU har
+aftalt med &BANKNAVN..
+.sp 3mm
+&SDU har pligt til at sørge for, at der er dækning på &DIN konto for de
+betalinger, som &DU har truffet aftale med kreditorer om, at de kan
+iværksætte.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+.of 7mm
+3.4¤¤Betaling af mellemværende omfattet af SEPA
+betalingsaftalen
+.of
+.br
+:SKRSLUT.
+:SWISS8.
+Som privat må &DU kun acceptere SEPA betalingsaftaler, hvor &DU betaler på
+vilkår for private.
+.sp 3mm
+&SDU kan af den enkelte SEPA betalingsaftale se, om betalingen er
+reguleret af reglerne for private betalinger eller erhvervsbetalinger.
+.sp 3mm
+Disse generelle regler regulerer, når der foretages en privat betaling
+med SEPA Direct Debit.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+4.¤¤Kreditors aftale om Direct Debit
+.sp 3mm
+:SWISS8.
+:KURSIV.
+4.1¤¤Kreditors pligter
+.br
+:SKRSLUT.
+:SWISS8.
+Når kreditor indgår aftale om at benytte SEPA Direct Debit, bliver
+kreditor forpligtet til at overholde de gældende regler, der gælder for
+kreditorer i SEPA Direct Debit.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+4.2¤¤Dokumentation for SEPA betalingsaftaler
+.br
+:SKRSLUT.
+Kreditors pengeinstitut skal på anmodning fra &BANKNAVN. kunne
+dokumentere, at der er indgået en SEPA betalingsaftale med &DIG..
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+4.3¤¤Brug af modtagne oplysninger
+.br
+:SKRSLUT.
+Kreditor må alene anvende de oplysninger, som &DU måtte have givet kreditor
+i forbindelse med indgåelse af en SEPA betalingsaftale, til at gennemføre
+betalinger i overensstemmelse med SEPA betalingsaftalen. Hvis det
+bagvedliggende aftaleforhold ophører, skal kreditor slette oplysningerne
+vedr. SEPA betalingsaftalen, når &DU ikke længere har mulighed for at
+gøre indsigelser overfor en gennemført transaktion.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+5.¤¤Aftalen om betalinger mellem kreditor og &DIG
+.sp 3mm
+:SWISS8.
+:KURSIV.
+5.1¤¤Hvordan og hvornår gennemføres en betaling
+.br
+:SKRSLUT.
+Betaling af beløb mellem &DIN konto og kreditors konto sker på grundlag
+af betalingsdata fra kreditor, som kreditor indsender til sin
+betalingstjenesteudbyder.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+5.2¤¤Virkning af en betaling
+.br
+:SKRSLUT.
+Betaling fra &DIN konto over SEPA Direct Debit anses som betaling med
+frigørende virkning for &DIG.. Dette gælder dog ikke, hvis betalingen
+efterfølgende tilbageføres.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+6.¤¤Advisering om kommende betalinger
+.sp 3mm
+:SWISS8.
+:KURSIV.
+6.1¤¤Advisering - frist
+.br
+:SKRSLUT.
+:SWISS8.
+Kreditor skal advisere &DIG om en kommende betaling senest 14 kalenderdage
+inden betalingsdagen, medmindre &DU har aftalt andet med kreditor.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+6.2¤¤Adviseringens indhold
+.br
+:SKRSLUT.
+Oplysninger om betalingen, herunder beløbet, kontonummeret
+(betalingsreference/-id), betalingsdagen og &DIT navn skal fremgå af
+adviseringen, således at &DU entydigt kan identificere betalingen.
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+:KURSIV.
+6.3¤¤&SDIN pligt til kontrol af adviserede betalinger
+.br
+:SKRSLUT.
+:SWISS8.
+&SDU har en pligt til løbende at holde &DIG orienteret om adviserede
+betalinger og kontrollere deres rigtighed og overensstemmelse med den
+SEPA betalingsaftale, som &DU har med kreditor om at iværksætte
+betalinger fra &DIN konto.
+.sp 3mm
+.kp off
+.kp on
+&SDU skal reagere straks, hvis &DU modtager advisering om betaling til
+kreditorer, som &DU ikke har aftale med.
+.sp 3mm
+Vil &DU afvise betalingen, skal &DU henvende &DIG i &BANKNAVN
+straks og senest på betalingsdagen, inden kl. 10.30, som beskrevet i pkt.
+13.1 og 13.2.
+.sp 3mm
+&SDU skal henvende &DIG til kreditor, hvis &DU er blevet adviseret om
+betalinger, der afviger fra, hvad &DU har aftalt med kreditor.
+.sp 5mm
+.kp off

@@ -1,0 +1,30 @@
+.if &antal > 7
+.th .go SI2
+.el .go SI2SL
+...SI2
+.pa
+.da VILKAR 20mm 38mm width 175mm
+.**************************************************************************
+.*KASSE TIL VILKÅR OG UNDERSKRIFT, DER BENYTTES PÅ SIDE 2, HVIS DER *******
+.*BENYTTES MERE END 16 FORSKELLIGE TELEFONNR. ELLER EMAIL-ADRESSER ********
+.**************************************************************************
+.ar VILKAR on
+:SWISS10.
+:FED.
+Vilkår for Info Service
+:SKRSLUT.
+.bx left 175mm
+.sp 42mm
+.bx off
+:SWISS10.
+:FED.
+Underskrift
+:SKRSLUT.
+.bx left 87.5mm 175mm
+:SWISS8.
+.tp 1mm 54mm 88.5mm 142.5mm
+¤Kundens underskrift ¤Dato: ¤Penginstituttets underskrift ¤Dato:
+.sp 15mm
+.bx off
+.ar off
+...SI2SL

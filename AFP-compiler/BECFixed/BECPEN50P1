@@ -1,0 +1,9 @@
+.* DENNE ER EN KOPI AF BECPENP1 TILRETTET FOR BENYTTELSE I BECPEN55 ******
+.*************************************************************************
+.*Fælles parametermodul der bruges i følgende ny penbreve:
+.*Brev BECPEN01, BECPEN20, BECPEN40, BECPEN60 og BECPEN02(§15a).
+.*Samt BECPEN45, BECPEN55, BECPEN56 OG BECPEN65.
+.*
+.*Alle brevene benytter kundenr som nøgle
+.*
+.*Alle beregninger, test og valideringer foretages af Pension I*net.

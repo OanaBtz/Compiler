@@ -1,0 +1,28 @@
+.***** TEST PÅ OM KOPISIDEN SKAL UDSKRIVES ***************************
+.if &U'X&KOPI = XN
+.th .go EJMED2
+.*********************************************************************
+.*************** GENEREL OPSÆTNING ***************************************
+.dr tynd1 WEIGHT 0.15mm
+.ti ¤ 05
+:COUR10.
+.fo left
+.*************** AREAL-DEFINITIONER **************************************
+.da VEND 7mm 270mm width 180mm rotate -90
+.da START 20mm 32mm width 175mm
+.*************** ROTERET BREVNAVN ****************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.br
+Versionsdato 03.02.2010
+.ar off
+.*************** UDDATA-OVERSKRIFT ***************************************
+.ar START on
+:SWISS12.
+:FED.
+.US Bestilling af &TYPE.
+:SKRSLUT.
+.ar off
+.*************************************************************************
+...EJMED2

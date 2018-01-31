@@ -1,0 +1,161 @@
+.**************************************************************************
+.in 5mm
+.ir 5mm
+.tp 87.5mm 140mm
+.**************************************************************************
+.* Overskrift debitor/kreditor ********************************************
+:FED.
+.if &L'&MEDEJER1 > 0
+.an &U'X&FLEREDEB = XJ
+.th Debitorer og kreditorer ¤¤m.fl.
+.th .go DEBEND
+.if &L'&MEDEJER1 > 0
+.an &U'X&FLEREDEB = XN
+.th Debitorer og kreditorer
+.el Debitor og kreditor
+...DEBEND
+:SKRSLUT.
+.br
+.*Adresselinjer *******************
+.if &L'&MEDEJER1 > 0
+.th &DEB1ADR1 ¤&MEDEJER1.
+.el &DEB1ADR1
+.br
+&DEB1ADR2 ¤&MEDEJER2.
+.br
+&DEB1ADR3 ¤&MEDEJER3.
+.br
+&DEB1ADR4 ¤&MEDEJER4.
+.br
+&DEB1ADR5 ¤&MEDEJER5.
+.sp 3mm
+.* Kontohavers kundenr. ***********
+.if &cpr1 = 00
+.th CVR-nr. &KUNDENR.
+.th .go UDOM1
+.if &cpr1 > 31
+.th Kundenr. &KUNDENR
+.el CPR-nr. &KUNDENR.
+...UDOM1
+.* Medkontohaver kundenr. *********
+.if &L'&MEDEJERNR > 0
+.an &cpr2 = 00
+.th .ct ¤CVR-nr. &MEDEJERNR.
+.th .go UDOM2
+.if &L'&DEB02KUN > 0
+.an &cpr2 > 31
+.th .ct ¤Kundenr. &MEDEJERNR.
+.th .go UDOM2
+.if &L'&DEB02KUN > 0
+.an &cpr2 < 32
+.th .ct ¤CPR-nr. &MEDEJERNR.
+...UDOM2
+.sp 5mm
+.* Pantsatte ejendomme ****************************************************
+:FED.
+De(n) pantsatte genstand(e)
+:SKRSLUT.
+:SKRSLUT.
+:COUR10.
+.***
+.if &L'&PANTSAT01A > 0
+.or &L'&PANTSAT01B > 0
+.th .br
+.th &PANTSAT01A.&PANTSAT01B.
+.***
+.if &L'&PANTSAT02A > 0
+.or &L'&PANTSAT02B > 0
+.th .br
+.th &PANTSAT02A.&PANTSAT02B.
+.***
+.if &L'&PANTSAT03A > 0
+.or &L'&PANTSAT03B > 0
+.th .br
+.th &PANTSAT03A.&PANTSAT03B.
+.***
+.if &L'&PANTSAT04A > 0
+.or &L'&PANTSAT04B > 0
+.th .br
+.th &PANTSAT04A.&PANTSAT04B.
+.***
+.if &L'&PANTSAT05A > 0
+.or &L'&PANTSAT05B > 0
+.th .br
+.th &PANTSAT05A.&PANTSAT05B.
+.***
+.if &L'&PANTSAT06A > 0
+.or &L'&PANTSAT06B > 0
+.th .br
+.th &PANTSAT06A.&PANTSAT06B.
+.***
+.if &L'&PANTSAT07A > 0
+.or &L'&PANTSAT07B > 0
+.th .br
+.th &PANTSAT07A.&PANTSAT07B.
+.***
+.if &L'&PANTSAT08A > 0
+.or &L'&PANTSAT08B > 0
+.th .br
+.th &PANTSAT08A.&PANTSAT08B.
+.***
+.if &L'&PANTSAT09A > 0
+.or &L'&PANTSAT09B > 0
+.th .br
+.th &PANTSAT09A.&PANTSAT09B.
+.***
+.if &L'&PANTSAT10A > 0
+.or &L'&PANTSAT10B > 0
+.th .br
+.th &PANTSAT10A.&PANTSAT10B.
+.th .br
+.***
+.tp 148mm
+.if &L'&FORTSÆTTES gt 0
+.th ¤&FORTSÆTTES
+:SKRSLUT.
+:SWISS9.
+.sp 3mm
+Debitor og kreditor giver hermed sig selv eller den det elektroniske
+ejerpantebrev er underpantsat til uden personligt gældsansvar, panteret
+i ovenstående løsøre for
+.sp 5mm
+.*Beløbets størrelse ******************************************************
+:FED.
+Beløbets størrelse
+:SKRSLUT.
+.br
+&MØNTKODE. &GÆLD
+.br
+skriver &MØNTKODE &SKRIVER.&SKRIVER1.
+.sp 5mm
+.* Rente og betalingsvilkår ***********************************************
+:FED.
+Rente og betalingsvilkår
+:SKRSLUT.
+.br
+Ved tvangsauktion over den(de) pantsatte genstand(e) forrentes
+det elektroniske ejerpantebrev fra tvangsauktionstidspunktet til
+betaling finder sted.
+.br
+.***************************************************************
+.* Parametrene udfyldes af aktiver og ejerpant med 2 tekster afhængig
+.* af om rentetypen er fast eller variabel/differentieret
+.* Fast
+
+
+
+
+
+
+
+.brRenten udgør &PCTPA. pct. over Nationalbankens indskudsbevisrente påtvangsauktionstidspunktet..* Opsigelse **************************************************************.sp 5mm:FED.Opsigelse:SKRSLUT..brEjerpantebrevet kan til enhver tid opsiges af kreditor eller debitormed 14 dages varsel.
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+Vedlagt fÄlger kopi af et brev, vi har sendt til &BECTEKST30., som ikke
+overholder forpligtelserne for tilbagebetaling af
+.if &BECTEST02 eq 1
+.th sit lÄn.
+.if &BECTEST02 eq 2
+.th sin kassekredit.
+.sp
+.if &BECTEST01 eq 2
+.th .go hop1
+Da &DU er selvskyldnerkautionist for
+.if &BECTEST02 eq 1
+.th lÄnet, kan konsekvensen blive, at &DU mÄ indfri dette.
+.if &BECTEST02 eq 2
+.th kassekreditten, kan konsekvensen blive, at &DU mÄ indfri denne.
+...hop1
+.if &BECTEST01 eq 1
+.th .go hop2
+Da &DU har deponeret sikkerhed for
+.if &BECTEST02 eq 1
+.th lÄnet,
+.if &BECTEST02 eq 2
+.th kassekreditten,
+kan konsekvensen blive, at de deponerede effekter mÄ realiseres.
+...hop2
+.sp
+Vi skal derfor bede &DIG tage kontakt til &BECTEKST30 og foranledige, at
+restancen straks indbetales.
+.sp
+Har &DU spÄrgsmÄl til dette, er &DU velkommen til at kontakte os.
+.*************************************************************************

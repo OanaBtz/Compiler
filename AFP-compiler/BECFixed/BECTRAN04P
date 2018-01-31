@@ -1,0 +1,67 @@
+.* Parameterafsnit
+.*Valider anmeldelse til køber
+.if &U'&GENJANEJ = J
+.or &U'&GENJANEJ = N
+.th .go JNOK
+.el .mg/T/Anmeld over køber er hverken J eller N/
+...JNOK
+.*Valider evt. medkøber
+.if &L'&GENSTILL2 = 0
+.an &L'&GENNAVN4  = 0
+.an &L'&GENCO4    = 0
+.an &L'&GENADR4   = 0
+.an &L'&GENBY4    = 0
+.an &L'&GENLAND4  = 0
+.th .go EJMEDKQB
+.if &L'&GENNAVN4  = 0
+.or &L'&GENADR4   = 0
+.or &L'&GENBY4    = 0
+.or &L'&GENCPR1   = 0
+.th .mg/T/Minimumsopl. mangler vdr. medkøbers navn & adresse/
+...EJMEDKQB
+.*Valider anmeldelse til købers advokat
+.if &L'&GENNAVN1  = 0
+.an &L'&GENCOADR1 = 0
+.an &L'&GENGADE1  = 0
+.an &L'&GENBY1    = 0
+.an &L'&GENLAND1  = 0
+.th .go EJUDF1
+.if &L'&GENNAVN1  = 0
+.or &L'&GENGADE1  = 0
+.or &L'&GENBY1    = 0
+.th .mg/T/Minimumsopl. mangler ved anmeld over for Købers Advokat/
+...EJUDF1
+.*Valider anmeldelse til sælgers advokat
+.if &L'&GENNAVN3  = 0
+.an &L'&GENCO3    = 0
+.an &L'&GENGADE3  = 0
+.an &L'&GENBY3    = 0
+.an &L'&GENLAND3  = 0
+.th .go EJUDF3
+.if &L'&GENNAVN3  = 0
+.or &L'&GENGADE3  = 0
+.or &L'&GENBY3    = 0
+.th .mg/T/Minimumsopl. mangler ved anmeld over for Sælgers Advokat/
+...EJUDF3
+.*Valider anmeldelse til købers Pengeinstitut
+.if &L'&BKNAVN  = 0
+.an &L'&BKAFD   = 0
+.an &L'&BKADR   = 0
+.th .go EJUDF4
+.if &L'&BKNAVN    = 0
+.or &L'&BKADR     = 0
+.or &L'&BKBY      = 0
+.th .mg/T/Minimumsopl. mangler ved anmeld over for Købers pengeinst./
+...EJUDF4
+.*Valider anmeldelse til ejendomsmægler
+.if &L'&GENNAVN5  = 0
+.an &L'&GENCO5    = 0
+.an &L'&GENGADE5  = 0
+.an &L'&GENBY5    = 0
+.an &L'&GENLAND5  = 0
+.th .go EJUDF5
+.if &L'&GENNAVN5  = 0
+.or &L'&GENGADE5  = 0
+.or &L'&GENBY5    = 0
+.th .mg/T/Minimumsopl. mangler ved anmeld over for ejendomsmægler/
+...EJUDF5

@@ -1,0 +1,86 @@
+.*******************************************************************
+.*******************************************************************
+.da KUNDEOPL    25mm  48mm width 80mm
+.da PI         112.5mm 48mm width 80mm
+.if x&antl = x2
+.th .da PÅTEGN       40mm  86mm width 80mm
+.th .da BELQB      122.5mm 86mm width 80mm
+.th .da ANDEL       25mm  95mm width 80mm
+.th .da AFGIFT      122.5mm 95mm width 80mm
+.el .da PÅTEGN       40mm  74mm width 80mm
+.el .da BELQB      122.5mm 74mm width 80mm
+.el .da ANDEL       25mm  82mm width 80mm
+.el .da AFGIFT      122.5mm 82mm width 80mm
+.******************************************************************
+.ar KUNDEOPL on
+.if &U'&GENKRYDS5 = J
+.th
+.el .go KTOADR
+&GENADR1.
+.br
+&GENADR2.
+.br
+&GENADR3.
+.br
+&GENADR4.
+.if &L'&GENADR5. > 0
+.th .sp 3mm
+.th &GENADR5.
+.th .br
+.th &GENADR6.
+.th .br
+.th &GENADR7.
+.th .br
+.th &GENADR8.
+.go ADRSLUT
+...KTOADR
+&KTONAVN.
+.br
+&KTOCO.
+.br
+&KTOGADE.
+.br
+&KTOBY.
+.if &L'&MEDNAVN. > 0
+.th .sp 3mm
+.th &MEDNAVN.
+.th .br
+.th &MEDCO.
+.th .br
+.th &MEDGADE.
+.th .br
+.th &MEDBY.
+...ADRSLUT
+.ar off
+.*************************************
+.ar PI on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.*************************************
+.ar PÅTEGN on
+&spaatxt.
+.**************************************************************************
+.ar off
+.*************************************
+.ar BELQB on
+.tp 40mm right
+¤&GENBELØB10
+.ar off
+.*************************************
+.ar ANDEL on
+&GENGADE. &GENHUS., &GENETAGE. &GENSIDE
+.br
+&GENPOSTBY.
+.br
+Kommunekode: &GENKOMMUNE.   Vejkode: &GENVEJKODE.
+.*************************************
+.ar AFGIFT on
+.tp 40mm right
+¤&GENAFGIFT
+.ar off

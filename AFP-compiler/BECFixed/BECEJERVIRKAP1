@@ -1,0 +1,9 @@
+.**************************************************************************
+.* Parameter PCTPA anvendes ikke, men ligger i samme program, som Nykredits
+.* version anvender.
+.**************************************************************************
+.su off
+.se cpr1 = substr &KUNDENR 1 2
+.se cpr2 = substr &DEB02KUN 1 2
+.su on
+.***

@@ -1,0 +1,11 @@
+.****** her starter brevteksten ***********************
+&SDIN konto er overtrukket med &OVERTRÆK. kr.
+.sp
+Overtrækket bedes inddækket snarest muligt.
+.sp
+.if x&RYKGEBYR. gt x0,00
+.th Vi har hævet &RYKGEBYR. kr. for denne meddelelse.
+.sp 5mm
+.****** her kommer tekst, der er udfyldt manuelt ******
+&RYKTXTL1A.&RYKTXTL1B.&RYKTXTL2A.&RYKTXTL2B
+.***** FORTSÆTTES I BECSKA06T2 - med posteringer ******

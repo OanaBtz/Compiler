@@ -1,0 +1,92 @@
+:NY.
+:COUR10.
+.da tbox1 21mm 48.5mm width 90mm
+.da tbox2 22mm 83.7mm width 90mm
+.da tbox3 22mm 93mm width 173mm
+.da tbox4 21mm 121.4mm width 105mm
+.da tbox5 21mm 140.4mm width 105mm
+.da tbox6 130mm 121.4mm width 70mm
+.da tbox7 21mm 162.4mm width 90mm
+.da tbox8 114mm 154mm width 80mm
+.da tbox9 114mm 166.5mm width 80mm
+.da tbox10 21mm 200.4mm width 90mm
+.da tbox11 21mm 236.4mm width 90mm
+.da tbox12 21mm 262.4mm width 90mm
+.da tbox13 112mm 262.4mm width 85mm
+.ti ^ 05
+.ar tbox1 on
+&BKNAVN
+.br
+.if &L'&BKAFD gt 0
+.th &BKAFD
+.th .br
+&BKADR
+.br
+&BKBY
+.ar off
+.if &GENREKV1 eq 1
+.th .ar tbox2 on
+.el .ar tbox3 on
+X
+.ar off
+.if &GENINDB1 eq 1
+.th .ar tbox4 on
+.el .ar tbox5 on
+.tp 16mm 54mm 75mm
+.* &GENKORT2.^&GENBETID1.^&GENKRED1.^&GENBELQB1
+&GENKORT2.^&GENBETID1.^&GENKRED1.^
+:VS.&GENBELQB1
+.ar off
+.ar tbox6 on
+.tp 15mm 38mm
+&REGNR.^&GENDATOI2.^&GENREF2
+.ar off
+.ar tbox7 on
+.if &L'&GENBETID1 eq 0
+.th &STILL
+.th .br
+.th &NAVN
+.th .br
+.el
+.if &L'&GENBETID1 eq 0
+.an &L'&COADR gt 0
+.th &COADR
+.th .br
+.el
+.if &L'&GENBETID1 eq 0
+.th &GADE
+.th .br
+.th &BY
+.el
+.ar off
+.ar tbox8 on
+&U'&GENKOPI1
+.ar off
+.if &L'&GENANDEN13 gt 0
+.th .ar tbox9 on
+.th .tp 5mm
+.th X^&GENANDEN13
+.th .ar off
+.ar tbox10 on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.ar tbox11 on
+&DATO
+.ar off
+.ar tbox12 on
+&BANKNAVN
+.br
+&AFDNAVN
+.ar off
+.ar tbox13 on
+&BKNAVN
+.br
+&BKAFD
+.ar off
+:ENY.

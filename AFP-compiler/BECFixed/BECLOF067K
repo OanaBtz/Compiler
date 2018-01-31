@@ -1,0 +1,48 @@
+.*************** definer siden som et areal *******************************
+.da SIDE 20mm 40mm width 175mm
+.************ PARTER ******************************************************
+.ar SIDE on
+.tp 1mm 130mm
+.bx left right
+:SWISS8.
+¤Privatleasingkontrakt nr.:¤Dato
+.sp 4mm
+.bx off
+:SWISS10.:FED.
+Parter
+:SKRSLUT.
+:SKRSLUT.
+.tp 1mm 88.5mm
+.bx left 87.5mm right
+¤Leasingtager ¤Leasinggiver
+.sp 20mm
+.bx left right
+.sp 16mm
+.bx off
+.bx can
+.**************************************************************************
+.sp 4mm
+.bx left right
+.sp 64mm
+.bx off
+.bx can
+.**************************************************************************
+:SWISS10.:FED.
+Underskrift
+:SKRSLUT.
+:SKRSLUT.
+.bx left 87.5mm right
+:SWISS8.
+.tp 1mm 58mm 88.5mm 145.5mm
+¤(Påfør med blokbogstaver navn og titel på
+tegningsberettigede ¤¤Som leasinggiver ¤Dato:
+.br
+¤underskrivere)
+.br
+¤Leasingtagers stempel og underskrift ¤Dato:
+:SKRSLUT.
+.sp 17mm
+.bx off
+.bx can
+.ar off
+.**************************************************************************

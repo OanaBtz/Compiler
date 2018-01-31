@@ -1,0 +1,15 @@
+:SKRSLUT.
+.**** Her laves kassen til erklÄring *************
+.bx left right
+.sp 13mm
+.**** Her laves kassen til kundes underskrift ****
+.bx new left right
+.sp 26mm
+.**** Her laves kassen til pi underskrift ********
+.bx new left right
+.sp 26mm
+.bx off
+.bx can
+.bx can
+.*************************************************
+.ar off

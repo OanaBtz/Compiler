@@ -1,0 +1,34 @@
+.* Overskrift side 6, underskrifter, running heading **********************
+:COUR10.
+.da VEND 7mm 270mm width 180mm rotate -90
+.da BOX 20mm 40mm width 175mm
+.da OVERSKR 20mm 36mm width 175mm
+.*ophæv kolonneudskrivning ************************************************
+.sc
+.rh on
+.* Sidedefinition starter *************************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+:SKRSLUT.
+.ar off
+.**************************************************************************
+.ar OVERSKR on
+:SWISS10.
+:FED.
+Underskrifter
+:SKRSLUT.
+:SKRSLUT.
+.ar off
+.**************************************************************************
+.ar BOX on
+.bx left right
+.sp 232mm
+.bx off
+.ar off
+.sp 31mm
+.rh off
+.* Sidedefinition slut ****************************************************
+.rh execute
+.**************************************************************************
+.ll 169mm

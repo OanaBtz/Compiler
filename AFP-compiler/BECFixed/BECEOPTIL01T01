@@ -1,0 +1,8 @@
+.da TEKST   20mm 72mm width 160mm
+.*********************************
+.ar TEKST on
+Nedenfor er de af mig oplyste betalere, som foretager faste indbetalinger
+på min konto, og som skal have besked om min nye konto:
+.ar off
+.sp 3mm
+.*****************************

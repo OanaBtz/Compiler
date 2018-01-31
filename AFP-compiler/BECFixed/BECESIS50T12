@@ -1,0 +1,56 @@
+.if &U'&GENMEDKTOH = J
+.th I
+.el du
+kan kontakte FIN-NET http://ec.europa.eu/internal_market/fin-net/.
+.sp 3mm
+.kp off
+.******************************************************************
+.kp on
+.hr left right
+:SWISS10.
+:FED. 12. Klager :SKRSLUT.
+:SKRSLUT.
+:SWISS9.
+.hr left right
+.sp 1.5mm
+Hvis
+.if &U'&GENMEDKTOH = J
+.th I
+.el du
+ønsker at klage bedes
+.if &U'&GENMEDKTOH = J
+.th I
+.el du
+kontakte &AFDBNKNAVN., &AFDGADE., &AFDBY., &AFDTLF.. Hvis
+.if &U'&GENMEDKTOH = J
+.th I
+.el du
+fortsat er uenig i behandlingen af
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el din
+henvendelse eller resultatet heraf, kan
+.if &U'&GENMEDKTOH = J
+.th I
+.el du
+kontakte den klageansvarlige. Oplysning om den klageansvarlige
+fås hos &BANKNAVN. eller på vores hjemmeside.
+.sp 3mm
+.kp off
+.kp on
+Hvis
+.if &U'&GENMEDKTOH = J
+.th I
+.el du
+ikke er tilfreds med vores interne afgørelse på
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el din
+klagesag, kan
+.if &U'&GENMEDKTOH = J
+.th I
+.el du
+også kontakte:
+.br
+Pengeinstitutankenævnet, Amaliegade 8 B, 2. sal, 1256 København K,
+tlf. 35 43 63 33, www.fanke.dk, eller

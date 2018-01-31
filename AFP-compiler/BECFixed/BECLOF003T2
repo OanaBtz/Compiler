@@ -1,0 +1,101 @@
+.da LEVDØR   21mm 102.0mm width 173mm
+.da LEVTXT   21mm 149.5mm width 171mm
+.da LEVTXT2  21mm   166mm width 171mm
+.da VILKAR1  21mm   177mm width 171mm
+.da VILKAR2 108mm   177mm width 85mm
+.**************************************************************************
+:SWISS8.
+.**************************************************************************
+.ar LEVDØR on
+Leverandør:
+.ar off
+.**************************************************************************
+.ar LEVTXT on
+erklærer vi herved, at vi senest ved leasingaftalens ophør den
+:SKRSLUT.
+&UDATO.
+:SWISS8.
+.ct , er forpligtet til efter påkrav fra leasingselskabet, dog senest 2
+måneder efter udløb, at tilbagekøbe ovenstående udstyr til:
+.sp
+.us on
+.ce on
+kr.
+:SKRSLUT.
+.ct  &RESTVEXT.
+:SWISS8.
+.ct  excl. moms
+.if &U'X&GENVALGA = XN
+.th .ct  og afgift
+.ce off
+.us off
+.ar off
+.**************************************************************************
+.ar LEVTXT2 on
+Købesummen tillægges moms, og øvrige på købstidspunktet gældende afgifter.
+.sp
+For tilbagekøbserklæringen gælder i øvrigt følgende supplerende forhold,
+der er pålagt leasingtager:
+:SKRSLUT.
+.ar off
+.**************************************************************************
+.ar VILKAR1 on
+.ir 87mm
+.tp 3mm
+.of 3mm
+1.¤Udstyret skal serviceres efter servicekontrakt/anvisning hos
+autoriseret forhandler eller efter fabrikkens foreskrifter.
+.of
+.of 3mm
+2.¤Alt, hvad der kan henføres til udstyrets kaskoforsikring, der skal være
+tegnet i et anerkendt forsikringsselskab, skal anmeldes eller udbedres
+før tilbagelevering finder sted til undertegnede.
+.of
+.of 3mm
+3.¤Kaskoskader på udstyret i leasingperioden skal omgående udbedres på
+værksted hos den oprindelige leverandør eller hos en af denne udpeget
+trediemand.
+.of
+.of 3mm
+4.¤I tilfælde af afgiftsfald, herunder på registreringsafgift og/eller
+moms, reguleres den i leasingaftalen indkalkulerede restværdi ved udløb
+med samme procentsats som afgiftsfaldet måtte have været i
+leasingperioden. Leasingtager hæfter for differencen mellem den
+oprindelige indkalkulerede restværdi og den regulerede restværdi.
+.of
+.ir 1mm
+.sp
+Vi erklærer endvidere, at tilbagekøbserklæringen består, såfremt
+leasinggiver måtte lade en ny leasingtager indtræde i leasingaftalen, dog
+forudsat, at ovennævnte forbehold forbliver uændret gældende over for den
+nye leasingtager.
+.ar off
+.**************************************************************************
+.ar VILKAR2 on
+.tp 3mm
+.of 3mm
+5.¤Ved firmalogo og andet på genstanden(e) må udelukkende anvendes
+aftageligt materiale, som ikke kræver særlige foranstaltninger ved
+fjernelse.
+.of
+.of 3mm
+6.¤Overkørte/underkørte kilometer i forhold til maks. km-stand
+:SKRSLUT.
+&ANTALKM.
+:SWISS8.
+kilometer (puljeordning) ved udløb af perioden vil henholdsvis reducere
+tilbagekøbsprisen med kr.
+:SKRSLUT.
+&OVERKM.
+:SWISS8.
+excl. moms pr. overkørt kilometer eller forhøje tilbagekøbsprisen med
+kr. &ÅCONT.
+:SKRSLUT.
+&UNDERKM.
+:SWISS8.
+excl. moms pr. underkørt kilometer. Den fulde tilbagekøbssum vil blive
+opkrævet tilbagekøber og efterfølgende vil en evt. reducering i forhold
+til nævnte overkørte kilometer blive godtgjort ved beløbets opkrævning
+og indbetaling til leasinggiver fra brugeren/leasingtageren.
+.of
+.ar off

@@ -1,0 +1,59 @@
+.if &U'&WEBPRIERH = E
+.th .go NEJ29
+.kp on
+.******
+.* PUNKT 2.7 - 2.8 UDSKRIVES FOR PRIVATE
+.******
+:SWISS8.
+2.7 The customer may conclude agreements with &BANKNAVN. via &WEBSYSNAVN.,
+including agreements for additional functionalities and products
+in &WEBSYSNAVN.. The customer will
+in that connection receive information as to whether
+&BANKNAVN or the specific circumstances involved entitle
+the customer to a right of cancellation with respect to
+the specific transaction, etc. In the event of
+transactions and payments which the customer wants to have
+processed immediately, on a certain date or within a
+certain deadline, any right of cancellation granted to the
+customer under applicable consumer law or by &BANKNAVN. must only apply
+until such time at which the customer's order must be processed by
+&BANKNAVN..
+.sp 3mm
+.kp off
+...NEJ29
+.**UDSKRIVES FOR BÅDE PRIVATE OG ERHVERVSKUNDER ***************************
+.kp on
+:SWISS8.
+.if &U'&WEBPRIERH = E
+.th 2.7
+.el 2.8
+&WEBSYSNAVN allows the customer to specify his/her "NemKonto" which will be
+disclosed to public authorities as the customer's NemKonto pursuant to
+the Danish Act on public payments. It is the customer's own
+responsibility to specify another account number or change his/her NemKonto
+should the customer so wish. It is also the customer's own responsibility
+to inform certain public authorities if payments are to be transferred to
+a different account. &WEBSYSNAVN allows the customer to change his/her
+NemKonto, but it is not possible to cancel or delete it as this must be
+effected by a public authority or at
+.us www.nemkonto.dk.
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+.if &U'&WEBPRIERH = E
+.th 2.8
+.el 2.9
+&WEBSYSNAVN. provides a budget functionality allowing the customer
+.if &U'&WEBPRIERH = E
+.th .ct  or the customer's users
+.ct  to prepare a budget. All calculations included in the
+budget functionality are indicative only, and &BANKNAVN. makes
+reservations for any errors in the calculations. Consequently,
+&BANKNAVN. recommends that the customer
+.if &U'&WEBPRIERH = E
+.th .ct  or the customer's users
+.ct  contact &BANKNAVN. before making any major financial decisions
+in reliance on the calculations.
+.sp 5mm
+.kp off

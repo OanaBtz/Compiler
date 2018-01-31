@@ -1,0 +1,66 @@
+.* Box/teskt (MODGARANTI)
+.tp 1mm
+.ll 180mm
+.da MODGA 20mm 225mm WIDTH 175mm
+.da MODK1 21mm 230mm WIDTH 85mm
+.da MODK2 108mm 230mm WIDTH 85mm
+.da VITTV 108mm 266mm WIDTH 85mm
+.**********************************
+.ar MODGA on
+:SWISS10.:FED.
+¤Kundeerklæring
+:SKRSLUT.
+:SWISS8.
+.bx left right
+.sp 27.5mm
+.bx off
+.bx set left 87mm right
+.tp 1mm 88mm
+¤For modtagelsen af ovennævnte garanti kvitteres. ¤Til vitterlighed om ægte
+underskrift/underskrifter, dateringens rigtig-
+.br
+¤(Dato og kundens underskrift) ¤hed og udstederens/udstedernes myndighed.
+.sp 12mm
+.bx off
+.ar off
+.**********************************
+.ar MODK1 on
+:SWISS8.
+Undertegnede anmoder herved pengeinstituttet om for min/vor regning
+at udfærdige en garanti af ovenstående ordlyd, og jeg/vi dækker på
+anfordring pengeinstituttet for ethvert beløb, som pengeinstituttet
+måtte komme til at udrede som følge af denne garanti. Så længe
+garantien er i kraft, debiterer pengeinstituttet mig/os provision
+efter pengeinstituttets til
+enhver tid gældende
+betingelser. Beløb udbetalt under garantien forrentes i
+forhold til pengeinstituttets gældende betingelser.
+.br
+Yderligere tiltransporterer undertegnede hermed pengeinstituttet alle
+.ar off
+.******************************
+.ar MODK2 on
+:SWISS8.
+eventuelle tilbagebetalingskrav.
+.br
+Pengeinstituttet er ikke ansvarlig for skade eller tab, der skyldes
+lovforskrifter, myndighedsforanstaltninger eller lignende, indtruffet
+eller truende krig, oprør, borgerlige uroligheder, terror, sabotage,
+naturkatastrofer, strejke, lockout, boykot og blokade, uanset om
+pengeinstituttet eller pengeinstituttets EDB-central er part i konflikten,
+herunder at konflikten kun rammer dele af pengeinstituttets eller
+EDB-centralens funktioner, forudsat at der ikke foreligger selvstændigt
+ansvar for pengeinstituttet.
+.ar off
+.**********************************
+.ar VITTV on
+:SWISS8.
+Stilling:
+.sp 1mm
+Navn:
+.sp 1mm
+Bopæl:
+.ar off
+.**********************************
+...slut
+:COUR10.

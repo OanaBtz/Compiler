@@ -1,0 +1,21 @@
+:COUR10.
+.fo left
+.ti ¤ 05
+.* Brevnavn roteret i venstre hjørne
+.da VEND 7mm 270mm width 180mm rotate -90
+.****************************************
+.* Overskrift
+.da START 20mm 75mm width 170mm
+.****************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.ar START on
+.sp
+.ce on
+O P H Æ V E L S E   A F   S P Æ R R I N G
+.sp
+P Å   K O R T
+.ce off
+.sp 3

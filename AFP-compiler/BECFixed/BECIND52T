@@ -1,0 +1,42 @@
+.*** Adskil kontonr i hhv. Regnr. og Kontonr
+.su off
+.se wregnr = substr &KONTO1 1 4
+.se wktonr = substr &KONTO1 5 11
+.su on
+Det meddeles herved, at følgende konto er oprettet med henblik på
+udbetaling af
+.if &BECTEST01 = 1
+.th løn
+.if &BECTEST01 = 2
+.th pension
+.if &BECTEST01 = 3
+.th dagpenge
+til:
+.sp 2
+Kontonr.: ¤&wregnr. &wktonr.
+.fo off
+.sp 2
+CPR-nr.: ¤&KUNDENR
+.sp
+&STILL
+.br
+&NAVN
+.br
+&COADR
+.br
+&GADE
+.br
+&BY
+.br
+&LAND
+.sp
+.if &L'&MEDARBNR > 0
+.th Medarbnr.: ¤&MEDARBNR.
+.sp 7
+Underskrift
+.sp 16mm
+.hr 0mm 25mm 30mm for 68mm
+.br
+.tp 30mm
+Dato ¤&NAVN
+.ar off

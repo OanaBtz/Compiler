@@ -1,0 +1,15 @@
+.***************** AREALDEFINITION ******************************
+.da KONTAKTPERSON2 114mm 202mm width 220mm
+.br
+.*****************************************************************
+.ar KONTAKTPERSON2 ON
+:swiss8.
+Filial/kontaktperson.:
+:skrslut.
+.sp
+:cour10
+.if &L'&BECKARAK2 gt 0
+.th  &BECKARAK2
+.el
+.ar off
+.br

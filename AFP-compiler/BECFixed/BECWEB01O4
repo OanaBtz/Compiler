@@ -1,0 +1,82 @@
+:SWISS10.
+:FED.
+Generelle vilkår
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+Kontohaver har mulighed for at fortryde indgåelse af aftalen om Mobilpenge
+inden for en frist på 14 dage, jf. forbrugeraftalelovens
+§ 17. Fristen regnes
+som udgangspunkt, fra den dag kontohaver opretter og
+aktiverer det mobilnummer, der skal benyttes til betaling
+med Mobilpenge. Falder fortrydelsesfristens sidste dag ikke på en
+bankdag, udløber fristen den efterfølgende bankdag. I henhold til
+Forbrugeraftaleloven § 22, vil kontohaver blive opkrævet gebyr for den del
+af ydelsen der allerede er leveret.
+.sp
+Kontohaver kan oprette og administrere Mobilpengeaftaler via
+&WEBSYSNAVN., indenfor
+&WEBSYSNAVN.s åbningstid. Kontohaver
+kan tilmelde aftaler på både eget mobilnummer og en anden
+persons (herefter nævnt bruger) mobilnummer til
+Mobilpenge. Det er dog en forudsætning at brugeren ligeledes er kunde i
+&BANKNAVN. og at der findes en relation (forældre/barn/ægtefælle) til
+kontohaver. Personen behøver ikke at have fuldmagt til
+kontohavers konto. Brugers køb via Mobilpenge sker
+med samme retsvirkning, som hvis det var
+kontohaver selv og efter disse regler for Mobilpenge.
+.sp
+Gældende forbrugsmaksimum fremgår af billedet "Se detaljer" i
+&WEBSYSNAVN..
+.sp
+.kp off
+:COUR10.
+.ti ¤ 05
+.fo left
+.**************************************************************************
+.da BOX 20mm 41mm width 175mm
+.da OVERSKR 20mm 38mm width 170mm
+.da VEND 7mm 270mm width 85mm rotate -90
+.**************************************************************************
+.rh on
+.*SIDEHOVEDDEFINITION******************************************************
+.ar BOX on
+.bx left right
+.sp 235mm
+.bx off
+.ar off
+.**************************************************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.br
+.tp 20mm
+¤&DATO.
+.ar off
+.**************************************************************************
+.ar OVERSKR on
+:SWISS10.
+:FED.
+Regler for Mobilpenge
+.ar off
+.**************************************************************************
+.sp 28mm
+.rh off
+.rh execute
+.*.sp 5mm
+.**************************************************************************
+.*.RH CANCEL STOPPER RUNNING HEADING I O-AFSNITTET FOR VILKÅR**************
+.*.SC = SINGLE COLUMN * STOPPER KOLONNEDEFINITIONEN************************
+.*.PA NOSTART INDSÆTTER SIDESKIFT, HVIS DER TILFØJES MERE TEKST************
+.*.RH CANCEL BENYTTES SOM FLG. FOR AT VÆRE SLÅET FRA PÅ FLG. SIDE:
+.* .RH CANCEL
+.* .PA
+.*KOLONNEDEFINITION********************************************************
+.cd 2 1mm 88mm
+.cl 85mm
+.**************************************************************************
+.pm 20mm
+.tm 18mm
+.bm 18mm
+.*******************
+.kp on

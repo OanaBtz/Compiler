@@ -1,0 +1,339 @@
+i forbindelse med refinansiering.
+.br
+Et lån med variabel rente koster typisk mindre end et lån med fast
+rente. Til gengæld kan renten og dermed ydelsen på
+lånet både stige og falde. Bidraget kan justeres med forudgående varsel.
+.br
+Kursen på et rentilpasningslån ændrer sig, i takt med at renteniveauet
+ændrer sig. Kursudsvingene vil typisk være større, jo længere
+rentetilpasningsperioden er.
+.br
+Lånet har ikke en friværdibeskyttende egenskab, da kursen på lånets
+bagvedliggende obligationer ikke kan forventes at falde i nær
+samme grad som boligens værdi ved stigninger i renteniveauet.
+.kp off
+.go TXT3E
+.****** Tekst 4 ***********************************************************
+...TEXT4
+.kp on
+Lånet er et Tilpasningslån med variabel rente og en periode uden betaling
+af afdrag.
+.br
+Et lån med variabel rente koster typisk mindre end et lån med fast
+rente. Til gengæld kan renten og dermed ydelsen på
+lånet både stige og falde. I perioden, hvor der ikke betales
+afdrag, vil ændringer i renteniveauet give større variation i
+ydelsen end på lån med afdrag. Herudover er &deblomt. også
+indstillet på, at ydelsen forhøjes, når den afdragsfrie periode
+udløber, eller at lånet forfalder til fuld indfrielse, når lånet
+udløber. Bidraget kan justeres med forudgående varsel.
+.br
+Obligationerne bag lånet har oftest en kortere løbetid end lånet. Lånet
+refinansieres og rentetilpasses derfor med aftalte
+intervaller (fra 1 til 10 år). I forbindelse med refinansiering
+fastsættes den variable rente for den kommende
+rentetilpasningsperiode. Der er desuden mulighed for at ændre
+lånet, herunder hvor mange år der skal være mellem hver
+refinansiering og dermed rentetilpasning.
+.br
+Kursen på et rentilpasningslån ændrer sig, i takt med at renteniveauet
+ændrer sig. Kursudsvingene vil typisk være større, jo længere
+rentetilpasningsperioden er.
+.br
+Lånet har ikke en friværdibeskyttende egenskab, da kursen på lånets
+bagvedliggende obligationer ikke kan forventes at
+falde i nær samme grad som boligens værdi ved stigninger i renteniveauet.
+.kp off
+.go TXT3E
+.****** Tekst 5 ***********************************************************
+...TEXT5
+.kp on
+.if &L'&GENBKVR2A > 0
+.th .go BKVRA
+.if &L'&GENBLVR2B > 0
+.th .go BLVRB
+.if &L'&GENPLÅNT2 > 0
+.th .go PLÅN2
+.****** Tekst 1 ***********************************************************
+...TEXT1
+.kp on
+Lånet er et obligationslån med fast rente og afdrag.
+.br
+Et lån med fast rente koster typisk mere end et lån med variabel
+rente. Til gengæld er rente og afdrag kendt i hele lånets
+løbetid. Bidraget kan justeres med forudgående varsel.
+.br
+Stigninger i renteniveauet medfører fald i kursen på lånets
+bagvedliggende obligation, hvorfor lånet kan indfries til en lavere
+kurs. Fald i renteniveauet medfører stigninger i kursen på lånets
+bagvedliggende obligation, og betyder, at lånet skal indfries til en
+højere kurs. Dog kan lånet altid opsiges til maksimalt kurs 100 til
+termin som beskrevet under 'Opsigelses- og indfrielsesvilkår'.
+.kp off
+.go TXT3E
+.****** Tekst 2 ***********************************************************
+...TEXT2
+.kp on
+Lånet er et obligationslån med fast rente og en indledende periode uden
+afdrag. Når perioden uden afdrag udløber, forhøjes ydelsen i resten af
+lånets løbetid.
+.kp off
+.go TXT3E
+.****** Tekst 3 ***********************************************************
+...TEXT3
+.kp on
+Lånet er et Tilpasningslån med variabel rente.
+.br
+Hvis der på et senere tidspunkt aftales en periode uden betaling af
+afdrag, vil det betyde, at ændringer i renteniveauet i den
+afdragsfrie periode vil give større variation i ydelsen end på lån
+med afdrag. Herudover er &deblomt. også indstillet på, at ydelsen
+forhøjes, når periode uden afdrag udløber, eller at lånet forfalder
+til fuld indfrielse, når lånet udløber.
+.br
+Obligationerne bag lånet har oftest en kortere løbetid end lånet. Lånet
+refinansieres og rentetilpasses derfor med aftalte
+intervaller (fra 1 til 10 år). I forbindelse med refinansiering
+fastsættes den variable rente for den kommende
+rentetilpasningsperiode. Der er desuden mulighed for at ændre
+lånet, herunder hvor mange år der skal være mellem hver refinansiering og
+dermed rentetilpasning. Afdragene på et Tilpasningslån bliver justeret
+.*DE VÆSENTLIGSTE EGENSKABER:
+.**************************************************************************
+.kp on
+:FED.
+.us Boligkreditgiver har i den forbindelse oplyst &MIG. om følgende:
+:SKRSLUT.
+.sp 3mm
+.kp off
+.kp on
+.**************************************************************************
+:SWISS9.
+:FED.
+De væsentligste egenskaber ved den valgte boligkreditaftale
+:SKRSLUT.
+:SKRSLUT.
+.br
+.kp off
+.if &L'&GENTXTNR01 > 0
+.or &L'&GENTXTNR02 > 0
+.or &L'&GENTXTNR03 > 0
+.or &L'&GENTXTNR04 > 0
+.or &L'&GENTXTNR05 > 0
+.or &L'&GENTXTNR06 > 0
+.or &L'&GENTXTNR07 > 0
+.or &L'&GENTXTNR08 > 0
+.or &L'&GENTXTNR09 > 0
+.or &L'&GENBKVR2A > 0
+.or &L'&GENBLVR2B > 0
+.or &L'&GENPLÅNT2 > 0
+.th .go TXT3F
+.el .go TXT3E
+...TXT3F
+.if &L'&GENTXTNR01 > 0
+.th .go TEXT1
+.if &L'&GENTXTNR02 > 0
+.th .go TEXT2
+.if &L'&GENTXTNR03 > 0
+.th .go TEXT3
+.if &L'&GENTXTNR04 > 0
+.th .go TEXT4
+.if &L'&GENTXTNR05 > 0
+.th .go TEXT5
+.if &L'&GENTXTNR06 > 0
+.th .go TEXT6
+.if &L'&GENTXTNR07 > 0
+.th .go TEXT7
+.if &L'&GENTXTNR08 > 0
+.th .go TEXT8
+.if &L'&GENTXTNR09 > 0
+.th .go TEXT9
+Lånet er et variabelt forrentet lån med renteloft, hvor renten bliver
+fastsat hvert halve år ud fra CIBOR 6-renten plus et tillæg.
+.br
+Hvis den samlede kuponrente (referencerente med tillæg) bliver negativ ved
+en renteregulering, fastsættes lånets rente til 0 % frem til næste
+rentereguleringstidspunkt.
+.br
+Et lån med variabel rente koster typisk mindre end et lån med fast rente.
+Til gengæld kan renten og dermed ydelsen på lånet både stige og
+falde. Renteloftet begrænser i en periode, hvor meget renten kan
+stige. Bidraget kan justeres med forudgående varsel.
+.br
+Obligationerne bag lånet har oftest en kortere løbetid end lånet. Lånet
+refinansieres derfor som udgangspunkt hvert 10. år, men perioden fra
+lånets udbetaling til første refinansieringstidspunkt kan være væsentlig
+kortere end 10 år. Lånets første refinansieringstidspunkt fremgår af
+låne- og pantsætningsaftalen.
+.br
+Når lånet refinansieres, fastlægges som udgangspunkt et nyt renteloft og
+et nyt rentetillæg ud fra den aktuelle markedssituation.
+.br
+Kursen på lånets bagvedliggende obligationer vil ændre sig, når
+markedsrenten ændrer sig. Jo længere renteloft og løbetid, jo større vil
+udsvingene i obligationskursen være.
+.kp off
+.go TXT3E
+.****** Tekst 6 ***********************************************************
+...TEXT6
+.kp on
+Lånet er et variabelt forrentet lån med renteloft med en indledende
+periode uden betaling af afdrag, hvor renten bliver fastsat hvert halve
+år ud fra CIBOR 6-renten plus et tillæg.
+.br
+Hvis den samlede kuponrente (referencerente med tillæg) bliver negativ ved
+en renteregulering, fastsættes lånets rente til 0 % frem til næste
+rentereguleringstidspunkt.
+.br
+Et lån med variabel rente koster typisk mindre end et lån med fast
+rente. Til gengæld kan renten og dermed ydelsen på lånet både stige
+og falde. Renteloftet begrænser i en periode, hvor meget renten kan
+stige. I perioden, hvor der ikke betales afdrag, vil ændringer i
+renteniveauet give større variation i ydelsen end på lån med
+afdrag. Herudover er &deblomt. også indstillet på, at ydelsen forhøjes, når
+den afdragsfrie periode udløber, eller at lånet forfalder til fuld
+indfrielse, når lånet udløber.
+.br
+Bidraget kan justeres med forudgående varsel.
+.br
+Obligationerne bag lånet har oftest en kortere løbetid end lånet.
+Lånet refinansieres derfor som udgangspunkt hvert 10. år, men perioden
+som boligens værdi ved stigninger i renteniveauet.
+.kp off
+.go TXT3E
+.****** Boligkredit variabel rente ****************************************
+...BKVRA
+.kp on
+&debsomt har valgt en boligkredit med variabel rente. Renten og dermed
+renteudgiften kan derfor både stige og falde. Der er mulighed for
+variabelt træk på kreditten og der betales kun rente af det faktiske træk.
+.br
+Da kreditten ikke har bagvedliggende obligationer, er der ingen beskyttelse
+af boligens friværdi.
+.kp off
+.go TXT3E
+.****** Boliglån variabel rente *******************************************
+...BLVRB
+.kp on
+&debsomt har valgt et boliglån med variabel rente. Et lån med variabel
+rente koster typisk mindre end et lån med fast rente. Til gengæld kan
+renten og dermed ydelsen på lånet både stige og falde.
+.br
+Da lånet ikke har bagvedliggende obligationer, er der ingen beskyttelse af
+boligens friværdi.
+.kp off
+.go TXT3E
+.****** Pantebrevslån *****************************************************
+...PLÅN2
+.kp on
+&debsomt har valgt et pantebrevslån med fast rente.
+.br
+Et lån med fast rente koster typisk mere end et lån med variabel rente. Til
+gengæld er ydelsens størrelse kendt i hele lånets løbetid.
+.br
+Da lånet ikke har bagvedliggende obligationer, er der ingen beskyttelse af
+boligens friværdi.
+.kp off
+.**********
+...TXT3E
+.*sp 3mm
+Hvis den samlede kuponrente (referencerente med tillæg) bliver negativ ved
+en renteregulering, fastsættes lånets rente til 0 % frem til næste
+rentereguleringstidspunkt.
+.br
+Et lån med variabel rente koster typisk mindre end et lån med fast
+rente. Til gengæld kan renten og dermed ydelsen på
+lånet både stige og falde. Renteloftet begrænser i en periode, hvor
+meget renten kan stige. I perioden, hvor der ikke betales afdrag, vil
+ændringer i renteniveauet give større variation i ydelsen end på lån
+med afdrag. Herudover er &deblomt. også indstillet på, at ydelsen
+forhøjes, når den afdragsfrie periode udløber, eller at lånet
+forfalder til fuld indfrielse, når lånet udløber.
+.br
+Bidraget kan justeres med forudgående varsel.
+.br
+Obligationerne bag lånet har oftest en kortere løbetid end lånet. Lånet
+refinansieres derfor som udgangspunkt hvert 5. år, men perioden fra
+lånets udbetaling til første refinansieringstidspunkt kan være væsentlig
+kortere end 5 år. Lånets første refinansieringstidspunkt fremgår
+af låne- og pantsætningsaftalen.
+.br
+Når lånet refinansieres, fastlægges som udgangspunkt et nyt renteloft og
+et nyt rentetillæg ud fra den aktuelle markedssituation.
+.br
+Kursen på lånets bagvedliggende obligationer vil ændre sig, når
+markedsrenten ændrer sig. Jo længere renteloft og løbetid, jo større vil
+udsvingene i obligationskursen være.
+.kp off
+.go TXT3E
+.****** Tekst 9 ***********************************************************
+...TEXT9
+.kp on
+Lånet er et Tilpasningslån med variabel rente.
+.br
+Obligationerne bag lånet har oftest en kortere løbetid end lånet. Lånet
+refinansieres og rentetilpasses som udgangspunkt hvert 5. år. I
+forbindelse med refinansiering fastsættes den variable rente
+for den kommende rentetilpasningsperiode. Afdragene på et
+Tilpasningslån bliver justeret i forbindelse med refinansiering.
+.br
+Et lån med variabel rente koster typisk mindre end et lån med fast rente.
+Til gengæld kan renten og dermed ydelsen på lånet både stige og
+falde. Bidraget kan justeres med forudgående varsel.
+.br
+Kursen på et rentilpasningslån ændrer sig, i takt med at renteniveauet
+ændrer sig. Kursudsvingene vil typisk være større, jo længere
+rentetilpasningsperioden er.
+.br
+Lånet har ikke en friværdibeskyttende egenskab, da kursen på lånets
+bagvedliggende obligationer ikke kan forventes at falde i nær samme grad
+fra lånets udbetaling til første refinansieringstidspunkt kan være
+væsentlig kortere end 10 år. Lånets første refinansieringstidspunkt
+fremgår af låne- og pantsætningsaftalen.
+.br
+Når lånet refinansieres, fastlægges som udgangspunkt et nyt renteloft og
+et nyt rentetillæg ud fra den aktuelle markedssituation.
+.br
+Kursen på lånets bagvedliggende obligationer vil ændre sig, når
+markedsrenten ændrer sig. Jo længere renteloft og løbetid, jo større vil
+udsvingene i obligationskursen være.
+.kp off
+.go TXT3E
+.****** Tekst 7 ***********************************************************
+...TEXT7
+.kp on
+Lånet er et variabelt forrentet lån med renteloft, hvor renten bliver
+fastsat hvert halve år ud fra CIBOR 6-renten plus et tillæg.
+.br
+Hvis den samlede kuponrente (referencerente med tillæg) bliver negativ ved
+en renteregulering, fastsættes lånets rente til 0 % frem til næste
+rentereguleringstidspunkt.
+.br
+Et lån med variabel rente koster typisk mindre end et lån med fast
+rente. Til gengæld kan renten og dermed ydelsen på lånet både stige og
+falde. Renteloftet begrænser i en periode, hvor meget renten kan
+stige.
+.br
+Bidraget kan justeres med forudgående varsel.
+.br
+Obligationerne bag lånet har oftest en kortere løbetid end lånet. Lånet
+refinansieres derfor som udgangspunkt hvert 5. år, men perioden fra
+lånets udbetaling til første refinansieringstidspunkt kan være
+væsentlig kortere end 5 år. Lånets første refinansieringstidspunkt
+fremgår af låne- og pantsætningsaftalen.
+.br
+Når lånet refinansieres, fastlægges som udgangspunkt et nyt renteloft og
+et nyt rentetillæg ud fra den aktuelle markedssituation.
+.br
+Kursen på lånets bagvedliggende obligationer vil ændre sig, når
+markedsrenten ændrer sig. Jo længere renteloft og løbetid, jo større
+vil udsvingene i obligationskursen være.
+.kp off
+.go TXT3E
+.****** Tekst 8 ***********************************************************
+...TEXT8
+.kp on
+Lånet er et variabelt forrentet lån med renteloft med en indledende
+periode uden betaling af afdrag, hvor renten bliver fastsat hvert halve
+år ud fra CIBOR 6-renten plus et tillæg.
+.br

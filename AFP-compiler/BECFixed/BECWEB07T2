@@ -1,0 +1,70 @@
+til denne aftale.
+.sp 4mm
+For at &BANKNAVN. kan sikre en entydig identifikation af Fuldmagtshavers
+Brugeradministrator(er), kræves det, at følgende er oplyst om
+.hw Bru-ger-admini-strator(erne):
+.br
+.of 5mm
+.tp 14mm 21mm
+¤-¤CPR-nummer (eller pas nr. for personer som ikke er bosat i Danmark),
+¤-¤navn,
+¤-¤brugernummer.
+.tp
+.of
+.br
+&BANKNAVN. kan til enhver tid kræve yderligere identifikation samt
+legitimation for Brugeradministrator(erne), såfremt dette findes
+.hw påkrævet.
+.sp 2mm
+.ar off
+.**************************************************************************
+.*****************************************************************
+.da BOX      20mm  78mm width 175mm
+.da INDHOLD  21mm  74mm width 173mm
+.******************************************************************
+.ar BOX on
+.bx left right
+.sp 90mm
+.bx off
+.ar off
+.***************************
+.ar INDHOLD on
+.tp 1mm
+:SWISS8.
+:FED.
+Indhold
+:SKRSLUT.
+.sp 4mm
+Denne aftale er et tillæg til Aftale med &BANKNAVN.
+om &WEBSYSNAVN. &prierh..
+Aftalen giver Kunden og Kundens autoriserede Brugeradministrator(er) adgang
+til via &BANKNAVN.s &WEBSYSNAVN. &prierh. at administrere tilknyttede
+brugere.
+.sp 4mm
+Kunden anmoder om, at nedenstående person(er) oprettes og autoriseres som
+Brugeradministrator(er) for Kunden.
+.sp 4mm
+En Brugeradministrator kan:
+.tp 5mm 9mm
+¤*¤Benytte alle tjenester i &BANKNAVN.s &WEBSYSNAVN.  &prierh.,
+¤*¤ændre på egen adgang og dispositionsret i
+&BANKNAVN.s &WEBSYSNAVN. &prierh.,
+¤*¤oprette, ændre, spærre og slette brugere i
+&BANKNAVN.s &WEBSYSNAVN. &prierh.,
+¤*¤indhente information om allerede registrerede brugere,
+¤*¤tildele
+.in 9mm nobreak
+og ændre brugeres (herunder egen) adgang til at se Kundens konti,
+depoter og posteringer, oprette betalingsforslag og
+.hw disponere
+over Kundens konti og depoter, alene og/eller i forening med andre
+brugere i &WEBSYSNAVN. &prierh..
+.in
+.tp 1mm
+.sp 4mm
+En Brugeradministrators autorisation i henhold til denne aftale omfatter
+både nuværende samt kommende funktionaliteter, der indgår i Kundens
+&WEBSYSNAVN. &prierh., og til hvilke der kan administreres brugeradgang.
+.sp 4mm
+Autorisationen af Brugeradministrator kan begrænses således, at kun to
+Brugeradministratorer i forening kan varetage administrationen i henhold

@@ -1,0 +1,48 @@
+.******************
+.if &L'&GENTEKST21 > 0
+.or &L'&GENTEKST22 > 0
+.or &L'&GENTEKST23 > 0
+.or &L'&GENTEKST24 > 0
+.or &L'&GENTEKST25 > 0
+.or &L'&GENTEKST26 > 0
+.or &L'&GENTEKST27 > 0
+.or &L'&GENTEKST28 > 0
+.or &L'&GENTEKST29 > 0
+.or &L'&GENTEKST30 > 0
+.th &GENTEKST21. &GENTEKST22. &GENTEKST23. &GENTEKST24. &GENTEKST25.
+.th &GENTEKST26. &GENTEKST27. &GENTEKST28. &GENTEKST29. &GENTEKST30.
+.th .sp 3mm
+.*OM MIN/VORES FORVENTNINGER TIL LÄNETS REEELE LÄBETID ********************
+:FED.
+Om &MINE. forventninger til boligkredittens reelle lÄbetid
+:SKRSLUT.
+.br
+.if x&GENLÄBETID = x1
+.th &SJEG forventer at indfri lÄnet ekstraordinÄrt inden for de nÄste 3 Är
+.th og er vidende om at dette vil medfÄre, at de Ärlige omkostninger i
+.th procent stiger som fÄlge heraf
+.**********************************
+.if x&GENLÄBETID = x2
+.th &SJEG forventer at indfri ekstraordinÄrt/afvikle lÄnet inden for de
+.th nÄste 3 - 10 Är, og er vidende om, at dette vil medfÄre en stigning i
+.th de Ärlige omkostninger i procent.
+.**********************************
+.if x&GENLÄBETID = x3
+.th &SJEG har ingen forventninger om at indfri lÄnet fÄr tid.
+.**********************************
+.if &L'&GENTEKST31 = 0
+.an &L'&GENTEKST32 = 0
+.an &L'&GENTEKST33 = 0
+.an &L'&GENTEKST34 = 0
+.an &L'&GENTEKST35 = 0
+.an &L'&GENTEKST36 = 0
+.an &L'&GENTEKST37 = 0
+.an &L'&GENTEKST38 = 0
+.an &L'&GENTEKST39 = 0
+.an &L'&GENTEKST40 = 0
+.th .sp 5mm
+.el .sp 3mm
+.el &GENTEKST31. &GENTEKST32. &GENTEKST33. &GENTEKST34. &GENTEKST35.
+.el &GENTEKST36. &GENTEKST37. &GENTEKST38. &GENTEKST39. &GENTEKST40.
+.el .sp 5mm
+...ENDSKEM1

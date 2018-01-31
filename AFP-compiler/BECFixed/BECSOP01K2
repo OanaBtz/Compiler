@@ -1,0 +1,120 @@
+:swiss10.:FED.
+.TP 13MM
+96014 ¤FI-Kortoplysninger:SKRSLUT.
+.BX 0MM 190MM
+.sp 1mm
+.bx new 33mm 37.5mm
+.SP 2.5mm
+.sp 01.mm
+.bx off
+.*Her starter kasserne til Total på FI-kort*******************************
+.bx new 33mm 46.5mm / 83mm 96.5mm / 165mm 174mm
+.SP 2.5mm
+.vr 37.5mm 42mm 87.5mm 92mm 169.5mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Her starter kasserne til Total på NulFI-kort*****************************
+.bx new 33mm 46.5mm / 83mm 96.5mm / 165mm 174mm
+.SP 2.5mm
+.vr 37.5mm 42mm 87.5mm 92mm 169.5mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Her starter kasserne til Incl. restancer*****************************
+.bx new 33mm 46.5mm / 83mm 92mm
+.SP 2.5mm
+.vr 37.5mm 42mm 87.5mm
+.sp 0.1mm
+.bx off
+.vr off
+.SP 2.5mm
+.BX off
+.***********Beløbskoder
+:SWISS10.:FED.
+.TP 13MM
+96015 ¤Beløbskoder:SKRSLUT.
+.bx 0mm 190mm
+.sp 4mm
+.*Her starter kasserne til kode*****************************************
+.se streg1g = '14.5mm 25.5mm 30mm 34.5mm 39mm 43.5mm 48mm 52.5mm 57mm'
+.se streg2g = '61.5mm 66mm 70.5mm 75mm 79.5mm 84mm 88.5mm 93mm 97.5mm'
+.se streg3g = '102mm 106.5mm 111mm 115.5mm 120mm 124.5mm 129mm'
+.se streg4g = '143.5mm 148mm 157mm 161.5mm 170.5mm'
+.bx new 10mm 19mm / 21mm 133.5mm / 139mm 175mm
+.SP 2.5mm
+.vr &streg1g &streg2g &streg3g &streg4g
+.sp 0.1mm
+.bx off
+.vr off
+.sp 4mm
+.*******Her starter kasser til Krediteringskode/regnskabskon******
+.se streg1h = '34.5mm 39mm 43.5mm 48mm 52.5mm 57mm 61.5mm'
+.se streg2h = '66mm 70.5mm 75mm 88.5mm 93mm 97.5mm 102mm'
+.se streg3h = '106.5mm 111mm 115.5mm 120mm 124.5mm 129mm'
+.se streg4h = '166mm 170.5mm'
+.bx new 30mm 79.5mm / 84mm 133.5mm / 148mm 152.5mm / 161.5mm 175mm
+.SP 2.5mm
+.vr &streg1h &streg2h &streg3h &streg4h
+.sp 0.1mm
+.bx off
+.vr off
+.sp 1mm
+.***********************************************1
+.se streg1x = '34.5mm 39mm 43.5mm 48mm 52.5mm 57mm 61.5mm'
+.se streg2x = '66mm 70.5mm 75mm 88.5mm 93mm 97.5mm 102mm'
+.se streg3x = '106.5mm 111mm 115.5mm 120mm 124.5mm 129mm'
+.se streg4x = '166mm 170.5mm'
+.bx new 10mm 19mm / 21mm 133.5mm / 139mm 175mm
+.SP 2.5mm
+.vr &streg1g &streg2g &streg3g &streg4g
+.sp 0.1mm
+.bx off
+.vr off
+.bx set 30mm 79.6mm / 84mm 133.5mm / 148.1mm 152.5mm / 161.6mm 175mm
+.SP 2.5mm
+.vr &streg1h &streg2h &streg3h &streg4h
+.sp 0.1mm
+.bx off
+.vr off
+.************************************************2
+.bx new 10mm 19mm / 21mm 133.5mm / 139mm 175mm
+.SP 2.5mm
+.vr &streg1g &streg2g &streg3g &streg4g
+.sp 0.1mm
+.bx off
+.vr off
+.bx set 30mm 79.6mm / 84mm 133.5mm / 148.1mm 152.5mm / 161.6mm 175mm
+.SP 2.5mm
+.vr &streg1h &streg2h &streg3h &streg4h
+.sp 0.1mm
+.bx off
+.vr off
+.************************************************3
+.bx new 10mm 19mm / 21mm 133.5mm / 139mm 175mm
+.SP 2.5mm
+.vr &streg1g &streg2g &streg3g &streg4g
+.sp 0.1mm
+.bx off
+.vr off
+.bx set 30mm 79.6mm / 84mm 133.5mm / 148.1mm 152.5mm / 161.6mm 175mm
+.SP 2.5mm
+.vr &streg1h &streg2h &streg3h &streg4h
+.sp 0.1mm
+.bx off
+.vr off
+.************************************************4
+.bx new 10mm 19mm / 21mm 133.5mm / 139mm 175mm
+.SP 2.5mm
+.vr &streg1g &streg2g &streg3g &streg4g
+.sp 0.1mm
+.bx off
+.vr off
+.bx set 30mm 79.6mm / 84mm 133.5mm / 148.1mm 152.5mm / 161.6mm 175mm
+.SP 2.5mm
+.vr &streg1h &streg2h &streg3h &streg4h
+.sp 0.1mm
+.bx off
+.vr off
+.BX off
+.ar off

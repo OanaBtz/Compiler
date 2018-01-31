@@ -1,0 +1,134 @@
+.*PUNKT 3 (1)**************************************************************
+:FED.
+3. Costs of the credit
+:SKRSLUT.
+.**************************************************************************
+.ta table SEFO3 on
+.ta row SEFO3 on
+.ta cell 1
+.in 5mm
+.ir 1mm
+The effective interest rate or, where appropriate, the various effective
+interest rates applicable to the credit agreement.
+.ta cell 2
+&DEBRTETX1.
+&DEBRTETX2.
+&DEBRTETX3.
+&DEBRTETX4.
+&DEBRTETX5.
+&DEBRTETX6.
+.br
+:COUR9.
+&DEBRTETX7.
+.br
+&DEBRTETX8.
+.br
+&DEBRTETX9.
+.br
+&DEBRTETX10.
+:SWISS9.
+.sp 3mm
+.us Changes to interest rates
+.br
+&BANKNAVN lower its interest rates without notice.
+.sp 3mm
+&BANKNAVN may increase its interest rates subject to prior
+notice if domestic or foreign monetary or credit policy changes affect
+&BANKNAVN because general interest rate levels are impacted.
+Likewise, &BANKNAVN. may increase its interest rates if any
+other trends in general interest rate levels, e.g. in monetary and bond
+markets, affect &BANKNAVN., or if changes in direct or indirect
+taxes affect &BANKNAVN..
+.sp 3mm
+&BANKNAVN. may increase its interest rates at
+.us one month's notice
+if the individual conditions on which the debtor's interest terms were
+based change. Likewise, &BANKNAVN may increase its interest
+rates if &BANKNAVN changes its general interest rates and
+pricing structure for commercial reasons, without this being connected to
+trends in general interest rate levels. Commercial reasons may include
+ensuring a more expedient use of &BANKNAVN.s resources or
+capacity or increasing earnings.
+.sp 3mm
+Information about interest rate increases will be provided to the debtor in
+hard copy or another durable format prior to such change becoming
+effective.
+.ta row SEFO3 off
+.*PUNKT 3 (2)**************************************************************
+.ta row SEFO3 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 1mm
+Annual percentage rate of charge (APR)
+.br
+:KURSIV.
+This is the total cost expressed as an annual percentage of the total
+amount of credit.
+.br
+The APR is there to help you compare different offers.
+:SKRSLUT.
+.ta cell 2
+&ÅOP. %.
+.sp 3mm
+:KURSIV.
+Below you can see an example of the factors included in the calculation of
+an APR of 13.6%.
+.sp 3mm
+.tp 70mm right
+Credit limit: ¤DKK 100.000,00
+.br
+Effective interest rate:¤10.921 %
+.br
+Initial expenses: ¤DKK 5.700,00
+.br
+Duration of the credit:¤60 months
+.ta row SEFO3 off
+.*PUNKT 3 (3)**************************************************************
+.ta row SEFO3 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 1mm
+Costs
+.br
+Conditions under which the above costs can be changed
+.ta cell 2
+&BETÆNDOMK1. &BETÆNDOMK2. &BETÆNDOMK3. &BETÆNDOMK4. &BETÆNDOMK5.
+.ta row SEFO3 off
+.*PUNKT 3 (4)**************************************************************
+.ta row SEFO3 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 1mm
+Default interest
+.ta cell 2
+You will be charged default interest of &MORARTE. % on late payments.
+.sp 3mm
+.**LÅN ***
+.if &U'&LÅNKRED = L
+.th The debtor will receive information about any changes in the default
+.th interest rate in the same way as on the ffective interest rate.
+.th .sp 3mm
+.th Late payment may result in the payment of reminder fees.&ÅCONT
+x**KREDIT***
+.el If the credit limit is exceeded or if the credit is not repaid on
+.el or before the due date, &BANKNAME. is entitled to charge
+.el overdraft/default interest. The overdraft/default interest is
+.el calculated on the amount overdrawn/due. Overdraft and late payment
+.el may result in the payment of reminder fees. &ÅCONT
+.**BÅDE LÅN OG KREDIT ***
+Reminder fees and other default costs are stated in &BANKNAVN.s
+price list. If the customer's debt is placed for collection, legal costs
+and court fees etc. will be incurred. &ÅCONT
+.**LÅN *****
+.if &U'&LÅNKRED = L
+.th Missing payments may result in the credit agreement being terminated
+.th and will make it difficult to obtain credit. Termination of the credit
+.th agreement will result in an increase in interest rates and fees.
+.**KREDIT***
+.el Overdraft may result in termination of the credit and in the same
+.el way, overdraft and failure to make timely repayments will make it
+.el difficult to qualify for credit.
+.**BÅDE LÅN OG KREDIT ***
+.sp 3mm
+&BANKNAVN. may change its default interest rate without notice.
+.ta table off

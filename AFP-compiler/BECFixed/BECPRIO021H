@@ -1,0 +1,38 @@
+.********************GENEREL OPSÆTNING*************************************
+:SWISS10.
+.fo left
+.ti ¤ 05
+.**************************************************************************
+.* Påsat adressefelter
+.da PRIOADR1 20mm     48mm width 80mm
+.da PRIOADR2 20mm     78mm width 80mm
+.da MFLOPL   126.5mm  78mm width 15mm
+.**************************************************************************
+.ar PRIOADR1 on
+&MOD01NAVN.
+.br
+&MOD1ADR1.
+.br
+&MOD1ADR2.
+.br
+&MOD1ADR3.
+.br
+&MOD1ADR4.
+.ar off
+.***********************************************************************
+.ar PRIOADR2 on
+&DEB2ADR1.
+.br
+&DEB2ADR2.
+.br
+&DEB2ADR3.
+.br
+&DEB2ADR4.
+.br
+&DEB2ADR5.
+.ar off
+.***********************************************************************
+.ar MFLOPL on
+.if x&DEBANTAL > x2
+.th m.fl.
+.ar off

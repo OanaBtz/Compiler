@@ -1,0 +1,40 @@
+.*************** definer siden som et areal *******************************
+.da SIDE 20mm 38mm width 175mm
+.************ PARTER ******************************************************
+.ar SIDE on
+:SWISS10.:FED.
+Parter
+:SKRSLUT.
+.bx left 87.5mm right
+:SWISS8.
+.tp 1mm 88.5mm
+¤Kunde ¤Pengeinstitut
+.sp 23mm
+.hr left 87.5mm
+¤CPR-/CVR-nr.
+.sp 5mm
+.bx off
+.bx can
+.************ INDHOLD *****************************************************
+:SWISS10.:FED.
+Indhold
+.br
+:SKRSLUT.
+:SWISS8.
+.bx left right
+.sp 142mm
+.bx off
+.************ UNDERSKRIFT *************************************************
+:SWISS10.:FED.
+Underskrift
+:SKRSLUT.
+:SWISS8.
+.bx left 87.5mm right
+:SWISS8.
+.tp 1mm 60mm 88.5mm 149mm
+¤Kundens underskrift ¤Dato: ¤Pengeinstituttets underskrift ¤Dato:
+.sp 15mm
+.hr left 87.5mm
+.sp 24mm
+.bx off
+.ar off

@@ -1,0 +1,92 @@
+.*************** AREAL-DEFINITIONER **************************************
+.da TEKST 20mm 100mm width 165mm
+.*************** TEKST              **************************************
+.dr tynd weight 0.2mm
+.***************
+.ar TEKST on
+.***************
+.tp 52mm 115mm
+.***************
+Pålydende rente: ¤&PRIRENTE. % p.a. Renten justeres på lånets
+udbetalingsdag jf. afsnittet
+.br
+¤'Rentetilpasning' herunder.
+.sp 3mm
+Løbetidstillæg: ¤&LBTIDSATS. % som er en del af ovenstående 'Pålydende
+rente'.
+.sp 3mm
+Lånets aftalte udløb: ¤&LÅNEUDLØB.
+.sp 3mm
+Referencerente (&REFRTETYPE.): ¤&REFRENTE. % p.a.
+.sp 3mm
+Rentetilpasning ¤Pålydende
+.in 52mm nobreak
+rente ved indgåelse justeret med forskellen mellem ovenstående
+Referencerente og &REFRTETYPE. (afrundet til 2 decimaler)
+offentliggjort på respektive Rentejusteringsdage.
+.in 0mm
+.sp 3mm
+Ekstraordinær rentejustering: ¤Pålydende
+.in 52mm nobreak
+rente kan ændres af Långiver i henhold til Långivers
+almindelige forretningsbestemmelser for erhverv, som er udleveret ved
+kundeforholdets etablering.
+.in 0mm
+.sp 3mm
+Rentejusteringsdage: ¤Bankdagen før
+.in 52mm nobreak
+udbetalingsdagen (med virkning fra udbetalingsdagen)
+og derefter 2 bankdage før hver den 3. mandag i månederne marts, juni,
+september og december (med virkning 2 dage efter rentejusteringsdagen)
+frem til lånets udløbsdato.
+.in 0mm
+.sp 3mm
+Rentetilskrivning: ¤&RTEFREKV. - første gang &RTEFFDATO..
+.sp 3mm
+Renteberegning: ¤Renten
+beregnes dagligt iflg. kalenderdage &RTEKONV.
+.br
+¤som Saldo * Pålydende rente / &RTEKONVDIV..
+.sp 3mm
+Indfrielsesvilkår: ¤Lånet
+.in 52mm nobreak
+kan ekstraordinært afdrages eller indfries helt i lånets aftalte løbetid
+.in 0mm
+.sp 3mm
+.***************
+.tp 52mm 56mm
+.***************
+¤a ¤Ved
+.in 56mm nobreak
+betaling af den tilbagediskonterede værdi af lånets ekstraordinære afdrag
+og skyldige renter fra udløb af indeværende rentebindingsperiode. Som
+diskonteringsrente anvendes en pengemarkedsrente svarende til
+restløbetiden af indeværende rentebindingsperiode. Denne betaling kan ikke
+blive mindre end lånets restgæld + skyldige renter på
+indfrielsestidspunktet.
+.in 0mm
+.sp 3mm
+¤b¤samt
+.in 56mm nobreak
+ved betaling af kompensation for løbetidstillægget aftalt for hele lånets
+løbetid. Kompensationen beregnes ved en tilbagediskontering af værdien af
+det ved lånets indgåelse aftale løbetidstidstillæg frem til lånets udløb
+fratrukket en tilsvarende tilbagediskonteret værdi af bankens
+løbetidstillæg for et tilsvarende nyt lån med samme restløbetid. Som
+diskonteringsrente anvendes en rente (plain vanilla) svarende til lånets
+restløbetid.
+.in 0mm
+.sp 3mm
+¤Herudover betales et indfrielsesgebyr på pt. &INDFGEB. kr.
+.sp 3mm
+¤Indfrielsesvilkårene gælder også, selv om lånet endnu ikke er udbetalt
+eller
+¤aftalen misligholdes.
+.sp 3mm
+.if &L'&RTEVILKGEB = 0
+.th .go 25END
+¤Der beregnes et gebyr for fastsættelse af nye rentevilkår på
+&RTEVILKGEB. kr.
+.sp 3mm
+...25END
+.ar off

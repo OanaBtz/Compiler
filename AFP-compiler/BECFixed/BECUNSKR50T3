@@ -1,0 +1,196 @@
+.*39. KAUTIONIST ***
+.if &KAUANTAL ge 39
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU39NAVN
+.kp off
+.kp on
+.*40. KAUTIONIST ***
+.if &KAUANTAL ge 40
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU40NAVN
+.kp off
+.kp on
+.*41. KAUTIONIST ***
+.if &KAUANTAL ge 41
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU41NAVN
+.kp off
+.kp on
+.*42. KAUTIONIST ***
+.if &KAUANTAL ge 42
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU42NAVN
+.kp off
+.kp on
+.*43. KAUTIONIST ***
+.if &KAUANTAL ge 43
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU43NAVN
+.kp off
+.kp on
+.*44. KAUTIONIST ***
+.if &KAUANTAL ge 44
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU44NAVN
+.kp off
+.kp on
+.*45. KAUTIONIST ***
+.if &KAUANTAL ge 45
+.kp off
+.kp on
+.*33. KAUTIONIST ***
+.if &KAUANTAL ge 33
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU33NAVN
+.kp off
+.kp on
+.*34. KAUTIONIST ***
+.if &KAUANTAL ge 34
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU34NAVN
+.kp off
+.kp on
+.*35. KAUTIONIST ***
+.if &KAUANTAL ge 35
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU35NAVN
+.kp off
+.kp on
+.*36. KAUTIONIST ***
+.if &KAUANTAL ge 36
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU36NAVN
+.kp off
+.kp on
+.*37. KAUTIONIST ***
+.if &KAUANTAL ge 37
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU37NAVN
+.kp off
+.kp on
+.*38. KAUTIONIST ***
+.if &KAUANTAL ge 38
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU38NAVN
+.kp off
+.kp on
+.***************fortsat fra BECUNSKR50T2 *************************
+.if &KAUANTAL = 0
+.th .go KAUSLUT1
+.kp on
+.*27. KAUTIONIST ***
+.if &KAUANTAL ge 27
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU27NAVN
+.kp off
+.kp on
+.*28. KAUTIONIST ***
+.if &KAUANTAL ge 28
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU28NAVN
+.kp off
+.kp on
+.*29. KAUTIONIST ***
+.if &KAUANTAL ge 29
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU29NAVN
+.kp off
+.kp on
+.*30. KAUTIONIST ***
+.if &KAUANTAL ge 30
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU30NAVN
+.kp off
+.kp on
+.*31. KAUTIONIST ***
+.if &KAUANTAL ge 31
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU31NAVN
+.kp off
+.kp on
+.*32. KAUTIONIST ***
+.if &KAUANTAL ge 32
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU32NAVN
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU45NAVN
+.kp off
+.kp on
+.*46. KAUTIONIST ***
+.if &KAUANTAL ge 46
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU46NAVN
+.kp off
+.kp on
+.*47. KAUTIONIST ***
+.if &KAUANTAL ge 47
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU47NAVN
+.kp off
+.kp on
+.*48. KAUTIONIST ***
+.if &KAUANTAL ge 48
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU48NAVN
+.kp off
+.kp on
+.*49. KAUTIONIST ***
+.if &KAUANTAL ge 49
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU49NAVN
+.kp off
+.kp on
+.*50. KAUTIONIST ***
+.if &KAUANTAL eq 50
+.th .sp 14mm
+.th .hr tynd 5mm 45mm 50mm 170mm
+.th .br
+.th ¤Dato ¤&KAU50NAVN
+.kp off
+...KAUSLUT1

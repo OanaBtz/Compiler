@@ -1,0 +1,89 @@
+.da SIDE1 20mm 38mm width 175mm
+.tp 1mm 88.5mm
+.**************************************************************************
+.ar SIDE1 on
+:SWISS10.
+:FED.
+Parter
+:SKRSLUT.
+.***** her laves kassen til kunde og CVR-nr.*******************************
+:SWISS8.
+.bx left 87.5mm right
+¤Serviceleverandør ¤Formidler af &LOENSYSTEM
+.sp 22mm
+¤CVR-nr.
+.bx off
+.************
+:SWISS10.
+:FED.
+Indhold
+:SKRSLUT.
+:SWISS8.
+.***** her laves kassen til Indhold  ****
+.bx left right
+.sp 9mm
+.*****her laves kassen til Brugernavn og -nummer *******
+.bx new left 87.5mm right
+.if &L'&GENBRUGNR = 0
+.an &L'&GENBRUGNVN = 0
+.an &L'&GENBRUGNR1 = 0
+.an &L'&GENBRUGNV1 = 0
+.th ¤Evt. brugeransvarlig:
+.th .sp 50mm
+.th .go FORHOLD1
+.if &L'&GENBRUGNR > 0
+.or &L'&GENBRUGNVN > 0
+.th ¤Virksomheden udpeger og bemyndiger som brugeransvarlig:
+.if &L'&GENBRUGNR1 > 0
+.or &L'&GENBRUGNV1 > 0
+.th .ct ¤Virksomheden udpeger og bemyndiger som brugeransvarlig:
+.sp 1mm
+.if &L'&GENBRUGNR = 0
+.an &L'&GENBRUGNR1 = 0
+.th &ÅRB
+.if &L'&GENBRUGNR > 0
+.th ¤Brugernummer:
+.if &L'&GENBRUGNR1 > 0
+.th .ct ¤Brugernummer:
+.sp 7mm
+.if &L'&GENBRUGNVN > 0
+.th ¤Brugernavn:
+.if &L'&GENBRUGNV1 > 0
+.th .ct ¤Brugernavn:
+.sp 7mm
+.if &L'&GENBRUGNVN > 0
+.th ¤Underskrift:
+.if &L'&GENBRUGNV1 > 0
+.th .ct ¤Underskrift:
+.sp 15mm
+.bx new left right
+.sp 10mm
+.*************************************************
+...FORHOLD1
+.*****her laves kassen til Særlige forhold *************
+.bx new left right
+¤Særlige forhold
+.sp 13mm
+.***** her laves kassen til betingelser  ***************
+.bx new left right
+¤Betingelser
+.sp 74mm
+.bx off
+.bx can
+.bx can
+.bx can
+.bx can
+.***** her laves kassen til underskrifter *********************************
+:SWISS10.
+:FED.
+Underskrifter
+:SKRSLUT.
+:SWISS8.
+.tp 1mm 58mm 88.5mm 145.5mm
+.bx left 87.5mm right
+:SWISS8.
+¤Serviceleverandørens underskrift ¤Dato: &ÅCONT
+¤Formidler af &LOENSYSTEM.'s underskrift ¤Dato:
+.sp 20mm
+.bx off
+.ar off

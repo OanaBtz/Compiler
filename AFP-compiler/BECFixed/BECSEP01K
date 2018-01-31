@@ -1,0 +1,45 @@
+.da SIDE1 20mm 38mm width 175mm
+.ar SIDE1 on
+:SWISS10.
+:FED.
+Parter
+:SKRSLUT.
+.***** her laves kassen til ægtefælle1 og ægtefælle2 ************
+.bx left 87.5mm right
+.sp 28mm
+.***** her laves kassen til pengeinstitut ***********************
+.bx new left right
+.sp 19mm
+.bx off
+.bx can
+:SWISS10.
+:FED.
+Indhold
+:SKRSLUT.
+.***** her laves kassen til indhold ******************************
+.bx new left right
+.sp 90mm
+.bx off
+.bx can
+:SWISS10.
+:FED.
+Underskrift
+:SKRSLUT.
+.**** her laves kassen til erklæring ******************************
+.bx new left right
+.sp 14mm
+.***** her laves kassen til ægtefælle1/ægtefælle2 underskrift *****
+.bx new left 87.5mm right
+.sp 23mm
+.bx off
+.bx can
+:SWISS10.
+:FED.
+Samtykke
+:SKRSLUT.
+.***** her laves kassen til pi underskrift ***********************
+.bx new left right
+.sp 23mm
+.bx off
+.bx can
+.ar off

@@ -1,0 +1,9 @@
+.sp 2
+.ce on
+Med venlig hilsen
+.sp
+&BANKNAVN
+.sp 3
+&GENEKSP
+.ce off
+.ar off

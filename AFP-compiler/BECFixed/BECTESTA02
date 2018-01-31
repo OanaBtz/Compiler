@@ -1,0 +1,31 @@
+.SE BOXST = B20050
+.SE BOXSL = B20051
+.SE FORM = 'B20TEST02'
+.IMB20BOX2
+:B20BOX2
+.fo on
+.sp 6
+HER STÅR KONTONR &KTONR1., her står kundenr &KTOKNDNR1.,
+her står medkontohavers kundenr &MEDKNDNR1..
+.sp
+Så er vi nået til kontonumre, først rentekonto &KTORENTE 1., bagefter
+konto til inddæk af overtræk &KTOOVTRK1., sidst debitering &DEBKTONR1..
+.sp
+Det glæder os at kunne byde Dem velkommen som kunde hos os.
+Vi håber, at Deres valg af os som bankforbindelse må blive
+til gavn for Dem.
+.sp
+De er altid velkommen til at kontakte os med ethvert spørgsmål
+om økonomi, og vi er altid til tjeneste med råd og vejledning.
+.sp
+Vi sætter en ære i, at vor kundebetjening og rådgivning altid
+er af højeste standard. Derfor håber vi straks at høre fra Dem,
+hvis De på noget tidspunkt føler, at vi ikke lever op til
+Deres forventning og ikke holder, hvad vi lover.
+.sp
+Deres tilfredshed som kunde er den bedste garanti for, at vor
+service altid er i orden.
+.sp
+Som Deres økonomipartner ønsker vi Dem endnu engang velkommen
+i Arbejdernes Landsbank.
+.fo off

@@ -1,0 +1,163 @@
+:SWISS8.
+.tp 5mm
+.**************************************************************************
+.*BANKENS HOVED-REGNR., NAVN, ADRESSE OG E-POSTADRESSE ********************
+.kp on
+:FED.
+&HREG.
+.br
+&BANKNAVN.
+.br
+&BANKGADE.
+.br
+&BANKBY.
+.sp 3mm
+&BANKEMAIL.
+.sp 5mm
+:SKRSLUT.
+.kp off
+.*BRUGERREGLER*************************************************************
+.kp on
+:SWISS10.
+:FED.
+1¤Rules for using your Dankort
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+These rules apply to the use of your Dankort. Unless otherwise
+stated, these rules apply to the use as physical card and Dankort card
+on mobile phone. The words and expressions used here are explained
+at the end of this document.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+2¤What can you use Dankort card for?
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+:FED.
+2.1¤Cash withdrawal
+:SKRSLUT.
+.br
+You can use your Dankort card to withdraw cash from Danish cash
+dispensers. You can also use your Dankort card to withdraw cash from
+your own bank and most other Danish banks.
+.sp 3mm
+.kp off
+.kp on
+Charges in connection with the use of the card are stated in the
+You may only withdraw cash or make purchases for the balance on your
+account, unless you have a different agreement with &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+Contactless function or Dankort card on mobile phone
+:SKRSLUT.
+.br
+When using non-contact payment or Dankort card on mobile phone, please
+be aware of the maximum limit per transaction without PIN-code
+authorisation. You will always be able to find the effective maximum
+amount on &BANKNAVN. homepage. &BANKNAVN. is entitled to change the
+amount. Adjustments will not be notified in advance unless the amount is
+increased or decreased by more than 50 per cent.
+.sp 3mm
+.kp off
+.kp on
+In case the purchase exceeds the effective payment limit, you will
+automatically be asked to confirm the payment by entering the PIN
+code. At intervals, you may be asked to enter the PIN code, even
+though the amount is within the effective payment limit.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+Gaming and lottery
+:SKRSLUT.
+.br
+Using your Dankort card with businesses, mainly offering gaming and
+betting solutions, including casinos, lottery ticket providers, racing
+tracks, etc., a maximum limit for every 24 hours may be specified. The
+maximum will appear from the pricelist of the bank in question.
+.sp 3mm
+.kp off
+.kp on
+:KURSIV.
+Withdrawal
+:SKRSLUT.
+.br
+A maximum daily withdrawal limit applies to your Dankort card. This
+sum is stated on the &BANKNAVN. price list.
+.sp 3mm
+.kp off
+.kp on
+In addition, individual businesses can set limits for use of the card.
+.sp 3mm
+Moreover, your bank may have set a limit on the size of the sums you
+may withdraw. You may be charged a fee every time you make a cash
+withdrawal - irrespective of the sum you withdraw.
+&BANKNAVN. price list.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.2¤Purchases in shops
+:SKRSLUT.
+.br
+You can use your Dankort card to pay for goods and services in shops
+that accept Dankort.
+.sp 3mm
+.kp off
+.kp on
+The business or website will display a sign to indicate that it accepts
+Dankort cards as a form of payment.
+.sp 3mm
+.kp off
+.kp on
+You can use your card to make purchases over the Internet and for
+mail order and telephone order purchases. You can also use your Dankort
+card to make payments in self-service machines.
+.sp 3mm
+.kp off
+.kp on
+If you have an account owing in your favour from a shop, the shop can
+use your Dankort card to deposit the money on your account.
+.sp 3mm
+.kp off
+.kp on
+You may not use your Dankort card for unlawful purposes, including the
+purchase of goods or services that are illegal according to local
+legislation.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.3¤Withdrawal of sums from your account
+:SKRSLUT.
+.br
+In principle, purchases and cash withdrawals will be debited from your
+account on the same day that you make the purchase or withdrawal. The
+time of debiting from your account will, however, depend on when
+&BANKNAVN. receives the transaction.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.4¤Maximum consumption
+:SKRSLUT.
+.br
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.5 Loyalty programmes
+:SKRSLUT.
+.br
+You can connect your Dankort card to loyalty programmes, e.g. with the
+purpose of earning personal bonus/discount or for charitable/supporting
+purposes. You can see the approved loyalty programmes here
+.us http://dankort.dk/Pages/Loyalitetskort.aspx
+.sp 5mm
+.kp off

@@ -1,0 +1,21 @@
+.* Dette brev er en kopi af SPÆRREMEDDELELSEN 8.4.06
+.* på www.dankortnet.dk
+.*
+.* de få forskelle er: at ordet "Dankort" er erstattet af "betalingskort"
+.* i sætningen der begynder med "Kortet er registreret i".
+.*
+.* For Dankort og Visa/Dankort er det Dankort a/s der er dataansvarlig og
+.* som der kan rettes henvendelse til, men for Debetkort og Mastercard
+.* samt hævekort er det banken der er dataansvarlig og der kan rettes
+.* henvendelse til Pengeinstitutankenævnet.
+.*
+.* Det er kun Dankort og Visa/Dankort, der kan indberettes til check og
+.* kortmisbrugerregisteret.
+.*******************************
+.su off
+.se knr1 = substr &B11KTNR 1 4
+.se knr2 = substr &B11KTNR 6 4
+.se knr3 = substr &B11KTNR 11 4
+.se knr4 = substr &B11KTNR 16 4
+.su on
+.*******************************

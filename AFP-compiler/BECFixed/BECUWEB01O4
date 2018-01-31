@@ -1,0 +1,82 @@
+:SWISS10.
+:FED.
+Generel terms and conditions
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+The account holder may withdraw from the agreement on Mobile Money within
+a period of 14 days, see s. 17 of the Danish Consumer Contracts Act
+(forbrugeraftaleloven). The period for exercise of this right of
+withdrawal will in general be calculated from the day on which the account
+holder establishes and activates the mobile number which is to be used for
+making payments with Mobile Money. If the last day of the period for
+exercise of the right of withdrawal does not fall on a banking day, the
+period will be extended to the following banking day. Under s. 22 of the
+Consumer Contracts Act, the account holder will have to pay for that part
+of the service that has already been supplied. The account holder may
+establish and manage Mobile Money agreements via &WEBSYSNAVN. during
+&WEBSYSNAVN.'s opening hours.
+.sp
+The account holder may register for agreements on his own mobile number or
+another person's ("user") mobile number for Mobile Money. It is, however, a
+condition that the user is also a customer at &BANKNAVN. and that there
+is a relation (parent/child/spouse) to the account holder. The person in
+question does not need to have a power of attorney for the account holder's
+account. The user's purchases using Mobile Money have the same legal
+effects as if the purchases had been made by the account holder himself and
+according to these rules for Mobile Money.
+.sp
+Applicable maximum limits appear in the screen View details
+in &WEBSYSNAVN..
+.sp
+.kp off
+:COUR10.
+.ti ¤ 05
+.fo left
+.**************************************************************************
+.da BOX 20mm 41mm width 175mm
+.da OVERSKR 20mm 38mm width 170mm
+.da VEND 7mm 270mm width 85mm rotate -90
+.**************************************************************************
+.rh on
+.*SIDEHOVEDDEFINITION******************************************************
+.ar BOX on
+.bx left right
+.sp 235mm
+.bx off
+.ar off
+.**************************************************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.br
+.tp 20mm
+¤&DATO.
+.ar off
+.**************************************************************************
+.ar OVERSKR on
+:SWISS10.
+:FED.
+Rules for Mobile Money (Mobilpenge)
+.ar off
+.**************************************************************************
+.sp 28mm
+.rh off
+.rh execute
+.*.sp 5mm
+.**************************************************************************
+.*.RH CANCEL STOPPER RUNNING HEADING I O-AFSNITTET FOR VILKÅR**************
+.*.SC = SINGLE COLUMN * STOPPER KOLONNEDEFINITIONEN************************
+.*.PA NOSTART INDSÆTTER SIDESKIFT, HVIS DER TILFØJES MERE TEKST************
+.*.RH CANCEL BENYTTES SOM FLG. FOR AT VÆRE SLÅET FRA PÅ FLG. SIDE:
+.* .RH CANCEL
+.* .PA
+.*KOLONNEDEFINITION********************************************************
+.cd 2 1mm 88mm
+.cl 85mm
+.**************************************************************************
+.pm 20mm
+.tm 18mm
+.bm 18mm
+.*******************
+.kp on

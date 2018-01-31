@@ -1,0 +1,203 @@
+.**************************************************************************
+.da MEDDEB1 25mm 60mm width 85mm
+.**************************************************************************
+.ar MEDDEB1 on
+.tp 14mm
+.if &L'&DEB03KNDNR = 0
+.th .go UDOM03
+&DEB03ADR1
+.br
+&DEB03ADR2
+.br
+&DEB03ADR3
+.br
+&DEB03ADR4
+.br
+&DEB03ADR5
+.br
+.if &num03 = 00
+.th CVR-nr. ¤&DEB03KNDNR.
+.th .sp 3mm
+.th .go UDOM03
+.if &num03 > 31
+.th Kundenr. ¤&DEB03KNDNR.
+.el CPR-nr. ¤&DEB03KNDNR.
+.sp 3mm
+...UDOM03
+.********
+.if &L'&DEB04KNDNR = 0
+.th .go UDOM04
+&DEB04ADR1
+.br
+&DEB04ADR2
+.br
+&DEB04ADR3
+.br
+&DEB04ADR4
+.br
+&DEB04ADR5
+.br
+.if &num04 = 00
+.th CVR-nr. ¤&DEB04KNDNR.
+.th .sp 3mm
+.th .go UDOM04
+.if &num04 > 31
+.th Kundenr. ¤&DEB04KNDNR.
+.el CPR-nr. ¤&DEB04KNDNR.
+.sp 3mm
+...UDOM04
+.********
+.if &L'&DEB05KNDNR = 0
+.th .go UDOM05
+&DEB05ADR1
+.br
+&DEB05ADR2
+.br
+&DEB05ADR3
+.br
+&DEB05ADR4
+.br
+&DEB05ADR5
+.br
+.if &num05 = 00
+.th CVR-nr. ¤&DEB05KNDNR.
+.th .sp 3mm
+.th .go UDOM05
+.if &num05 > 31
+.th Kundenr. ¤&DEB05KNDNR.
+.el CPR-nr. ¤&DEB05KNDNR.
+.sp 3mm
+...UDOM05
+.********
+.if &L'&DEB06KNDNR = 0
+.th .go UDOM06
+&DEB06ADR1
+.br
+&DEB06ADR2
+.br
+&DEB06ADR3
+.br
+&DEB06ADR4
+.br
+&DEB06ADR5
+.br
+.if &num06 = 00
+.th CVR-nr. ¤&DEB06KNDNR.
+.th .sp 3mm
+.th .go UDOM06
+.if &num06 > 31
+.th Kundenr. ¤&DEB06KNDNR.
+.el CPR-nr. ¤&DEB06KNDNR.
+.sp 3mm
+...UDOM06
+.********
+.if &L'&DEB07KNDNR = 0
+.th .go UDOM07
+&DEB07ADR1
+.br
+&DEB07ADR2
+.br
+&DEB07ADR3
+.br
+&DEB07ADR4
+.br
+&DEB07ADR5
+.br
+.if &num07 = 00
+.th CVR-nr. ¤&DEB07KNDNR.
+.th .sp 3mm
+.th .go UDOM07
+.if &num07 > 31
+.th Kundenr. ¤&DEB07KNDNR.
+.el CPR-nr. ¤&DEB07KNDNR.
+.sp 3mm
+...UDOM07
+.********
+.if &L'&DEB08KNDNR = 0
+.th .go UDOM08
+&DEB08ADR1
+.br
+&DEB08ADR2
+.br
+&DEB08ADR3
+.br
+&DEB08ADR4
+.br
+&DEB08ADR5
+.br
+.if &num08 = 00
+.th CVR-nr. ¤&DEB08KNDNR.
+.th .sp 3mm
+.th .go UDOM08
+.if &num08 > 31
+.th Kundenr. ¤&DEB08KNDNR.
+.el CPR-nr. ¤&DEB08KNDNR.
+.sp 3mm
+...UDOM08
+.********
+.if &L'&DEB09KNDNR = 0
+.th .go UDOM09
+&DEB09ADR1
+.br
+&DEB09ADR2
+.br
+&DEB09ADR3
+.br
+&DEB09ADR4
+.br
+&DEB09ADR5
+.br
+.if &num09 = 00
+.th CVR-nr. ¤&DEB09KNDNR.
+.th .sp 3mm
+.th .go UDOM09
+.if &num09 > 31
+.th Kundenr. ¤&DEB09KNDNR.
+.el CPR-nr. ¤&DEB09KNDNR.
+.sp 3mm
+...UDOM09
+.********
+.if &L'&DEB10KNDNR = 0
+.th .go UDOM10
+&DEB10ADR1
+.br
+&DEB10ADR2
+.br
+&DEB10ADR3
+.br
+&DEB10ADR4
+.br
+&DEB10ADR5
+.br
+.if &num10 = 00
+.th CVR-nr. ¤&DEB10KNDNR.
+.th .sp 3mm
+.th .go UDOM10
+.if &num10 > 31
+.th Kundenr. ¤&DEB10KNDNR.
+.el CPR-nr. ¤&DEB10KNDNR.
+.sp 3mm
+...UDOM10
+.**********
+.if &L'&DEB11KNDNR = 0
+.th .go UDOM11
+&DEB11ADR1
+.br
+&DEB11ADR2
+.br
+&DEB11ADR3
+.br
+&DEB11ADR4
+.br
+&DEB11ADR5
+.br
+.if &num11 = 00
+.th CVR-nr. ¤&DEB11KNDNR.
+.th .sp 3mm
+.th .go UDOM11
+.if &num11 > 31
+.th Kundenr. ¤&DEB11KNDNR.
+.el CPR-nr. ¤&DEB11KNDNR.
+.sp 3mm
+...UDOM11
+.ar off

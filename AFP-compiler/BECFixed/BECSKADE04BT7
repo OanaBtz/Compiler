@@ -1,0 +1,49 @@
+.********************************
+.da KOLH 113mm 40mm width 85mm
+.da STREGER 24mm 182mm width 175mm
+.********************************
+.ar KOLH on
+:SWISS8.
+.tp 4mm 7mm
+.of 4mm
+5.¤Pantet kan ikke stilles til fordel for debitors (skyldners eller
+pantsætters) nærtstående, jf. tinglysningslovens § 47 e, stk. 1. Ved
+nærtstående forstås, jf. konkurslovens § 2:
+.sp 3mm
+.of
+.in 4mm
+.of 3mm
+a)¤¤ægtefæller, slægtninge i op- og nedstigende linjer, søskende,
+de nævnte personers ægtefæller og andre personer, der har
+stået hinanden særlig nær,
+.sp 3mm
+.of
+.of 3mm
+b)¤¤et selskab og en person, såfremt personen eller dennes
+nærtstående direkte eller indirekte ejer en væsentlig del af
+selskabets kapital,
+.br
+.sp 3mm
+.of 3mm
+c)¤¤to selskaber, såfremt det ene eller dettes nærtstående direkte
+eller indirekte ejer en væsentlig del af det andet selskabs
+kapital, eller såfremt en væsentlig del af begge selskabers
+kapital direkte eller indirekte ejes af samme person eller selskab
+eller af indbyrdes nærtstående personer eller selskaber,
+.sp 3mm
+.of
+.of 3mm
+d)¤¤andre personer, selskaber eller organisationer, som har
+tilsvarende interessefællesskab som under litra b eller c angivet.
+.of
+.in
+.ar off
+.**************************************************************************
+.ar STREGER on
+.** her laves 2 lodrette linier, så man kan se at der ikke kommer ****
+.** mere tekst på siden   ********************
+.sp 5mm
+.vr 40mm 130mm
+.sp 90mm
+.vr off
+.ar off

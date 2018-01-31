@@ -1,0 +1,54 @@
+.**************************************************************************
+.** INDBETALINGSKASSEN fortsat. Test på SELVPENSION
+.** AREAL FORTSAT FRA BECPEN01T3 ******************************************
+.**************************************************************************
+.* BODELINGSKONTRAKT - tekst er afhængig af metode:                       *
+.* Metode 1 - ingen        tekst MEN henvisning til Særlige vilkår        *
+.* Metode 2 - eksisterende tekst PLUS henvisning til Særlige vilkår       *
+.* Metode 3 - eksisterende tekst INGEN henvisning til Særlige vilkår      *
+.**************************************************************************
+.if &L'&PENMETODE > 0
+.an X&PENMETODE = X1
+.th .go UTEKST
+.*************************************************************************
+.if &U'&PENSELV = J
+.th Indbetaling sker i henhold til særlige betingelser for selvstændige
+.th erhvervsdrivende jf. punkt 7 "Skatte- og afgiftsregler" i
+.th generelle vilkår for ratepensioner.
+.th .sp 1mm
+.th .go UTEKST
+.**************************************************************************
+.**TEST PÅ OM OVERLØB ER UDFYLDT******************************************
+.if &L'&OLTYPE > 0
+.th .go PRIS
+.**************************************************************************
+.***TEST PÅ TYPE O OG U SAMT PRISTAL**********************************
+.if &U'&PENTYPE = U
+.or &U'&PENTYPE = F
+.or &U'&PENTYPE = O
+.or &U'&PENTYPE = E
+.th .go TEKST
+.el .go UTEKST
+...TEKST
+.if &U'&PENLOFT = N
+.th I forbindelse med, at aftalen er indgået, er det aftalt, at
+.th kontohaver indbetaler et beløb, der højst kan udgøre det til enhver tid
+.th gældende årlige loft for fradrag for indbetalinger til
+.th ratepensioner m.fl.,
+.th der i &GENMAXDATO udgør &GENMAXRAT kr. Beløbet reguleres årligt.
+.th .sp 1mm
+.th .go PRTAL
+...PRIS
+I forbindelse med, at aftalen er indgået, er det aftalt, at
+kontohaver indbetaler et beløb, der højst kan udgøre det til enhver tid
+gældende årlige loft for fradrag for indbetalinger til
+ratepensioner m.fl., der i &GENMAXDATO. udgør &GENMAXRAT. KR. Beløbet
+reguleres årligt.
+.sp 1mm
+.go PRTAL
+...PRTAL
+.**TEST PÅ PRISTAL********************************************************
+.if &L'&PENPRISTAL gt 0
+.th Indbetalingen pristalreguleres årligt på grundlag af &PENPRISTAL..
+.**************************************************************************
+...UTEKST

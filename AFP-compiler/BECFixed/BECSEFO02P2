@@ -1,0 +1,16 @@
+.*TEST PÅ VILKÅR **********************************************************
+.if &U'&VILKÅRJN = J
+.or &U'&VILKÅRJN = N
+.th
+.el .mg/T/Vilkår: Skriv J eller N/
+.**TEST PÅ OM DET ER ET LÅN ELLER EN KREDIT *******************************
+.if &U'&LÅNKRED = L
+.or &U'&LÅNKRED = K
+.th
+.el .mg/T/Vælg L for Lån - eller K for Kredit/
+.*TEST PÅ FORTRYDELSESRET *************************************************
+.if &U'&FORTRYDJN = J
+.or &U'&FORTRYDJN = N
+.th
+.el .mg/T/Fortrydelsesret: Skriv J eller N/
+.**************************************************************************

@@ -1,0 +1,37 @@
+.da UDSTYRT  21mm  89.5mm width 171mm
+.da LEVDØR   21mm 102.5mm width 173mm
+.da LEVTXT   21mm   150mm width 171mm
+.**************************************************************************
+:SWISS8.
+.**************************************************************************
+.ar UDSTYRT on
+der har indgået leasingaftale i perioden fra den
+:SKRSLUT.
+.ct  &FFDATO.
+:SWISS8.
+.ct  til den
+:SKRSLUT.
+.ct  &UDATO.
+:SWISS8.
+.ct , på følgende udstyr:
+.ar off
+.**************************************************************************
+.ar LEVDØR on
+Leverandør:
+.ar off
+.**************************************************************************
+.ar LEVTXT on
+Jf. §11 i leasingaftalen har leasinggiver på foranledning af leasingtager
+alene tegnet ansvarsforsikring hos ACE Europe v/Crawford & Company Denmark,
+filial af Crawford & Company (Sweden) AB, Vestergade 2 A, 3., 1456
+København K. Leasingtager indestår for, at holde leasinggiver skadesløs for
+alle tab som leasinggiver måtte lide som følge af, der alene er tegnet
+ansvarsforsikring, at forstå således, at leasinggiver er sikret som var der
+tegnet fuld kasko.
+.sp
+Leasingtager anerkender med sin underskrift at have modtaget en kopi af
+nærværende aftale, samt at have gennemlæst og at være bekendt med aftalens
+bestemmelser. Aftalen er bindende for leasinggiver, når den er underskrevet
+af tegningsberettiget for samme.
+.ar off
+.**************************************************************************

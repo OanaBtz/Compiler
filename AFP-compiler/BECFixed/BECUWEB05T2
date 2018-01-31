@@ -1,0 +1,54 @@
+:SWISS8.
+.*******************************************************
+.da KUNDE      21mm  43mm    width 150mm
+.da KUNDECPR   142mm 68mm    width 30mm
+.da PI         21mm  72,5mm  width 85mm
+.da KUNDENR    135mm 68mm    width 85mm
+.da BRUGERNR   21mm  99mm    width 150mm
+.da AUTORIS    21mm 116mm    width 165mm
+.da FRI        21mm 182.5mm  width 150mm
+.da UNDERSKRKU 21mm 208.7mm  width 165mm
+.*******************************************************
+.ar KUNDE on
+Customer
+.ar off
+.*******************************************************
+.ar KUNDECPR on
+Civil reg. no./CVR no.
+.ar off
+.*******************************************************
+.ar PI on
+Bank
+.ar off
+.*******************************************************
+.ar BRUGERNR on
+In accordance with the &WEBSYSNAVN agreement between the above
+parties, I, the undersigned &ÅCONT
+.if &U'&WEBBRUANS = J
+.th manager of users,
+.el customer,
+hereby apply for the setting up or change of the below user's
+connection to and use of &WEBSYSNAVN..
+.tp 87.5mm
+.sp
+User ID: ¤Name:
+.ar off
+.*******************************************************
+.ar AUTORIS on
+The above user is authorised to use the following services for the
+customer:
+.sp 14mm
+User authorisation:
+.ar off
+.*******************************************************
+.ar FRI on
+Any restrictions/extensions of the above authorisation:
+.ar off
+.*******************************************************
+.ar UNDERSKRKU on
+.tp 145mm
+.if &U'&WEBBRUANS = J
+.th .ct The signature of the manager of users ¤Date:
+.el .ct The signature of the customer ¤Date:
+.ar off
+.*******************************************************

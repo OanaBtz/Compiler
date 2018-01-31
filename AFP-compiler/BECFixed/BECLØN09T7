@@ -1,0 +1,86 @@
+.da BILAG1 21mm 216mm width 90mm
+.da BILAG2 108mm 216mm width 90mm
+.da UNDER1 21mm 241mm width 80mm
+.da UNDER2 108mm 241mm width 80mm
+.tp 12mm
+.**************************************************************************
+.ar BILAG1 on
+:SWISS8.
+.se taeller = 0
+.if &L'&GENBILAG1 gt 0
+.th .se taeller1 = &taeller + 1
+.el .se taeller1 = &taeller
+.if &L'&GENBILAG2 gt 0
+.th .se taeller2 = &taeller1 + 1
+.el .se taeller2 = &taeller1
+.if &L'&GENBILAG3 gt 0
+.th .se taeller3 = &taeller2 + 1
+.el .se taeller3 = &taeller2
+.if &L'&GENBILAG4 gt 0
+.th .se taeller4 = &taeller3 + 1
+.el .se taeller4 = &taeller3
+.if &L'&GENBILAG5 gt 0
+.th .se taeller5 = &taeller4 + 1
+.el .se taeller5 = &taeller4
+.if &L'&GENBILAG6 gt 0
+.th .se taeller6 = &taeller5 + 1
+.el .se taeller6 = &taeller5
+.***********************
+.if &L'&GENBILAG1 gt 0
+.th Bilag &taeller1.:¤&GENBILAG1
+.th .sp 3mm
+.if &L'&GENBILAG2 gt 0
+.th Bilag &taeller2.:¤&GENBILAG2
+.th .sp 3mm
+.if &L'&GENBILAG3 gt 0
+.th Bilag &taeller3.:¤&GENBILAG3
+.th .sp 3mm
+.if x&taeller4 gt x3
+.th .go HSPALTE
+.if &L'&GENBILAG4 gt 0
+.th Bilag &taeller4.:¤&GENBILAG4
+.th .sp 3mm
+.if x&taeller5 gt x3
+.th .go HSPALTE
+.if &L'&GENBILAG5 gt 0
+.th Bilag &taeller5.:¤&GENBILAG5
+.th .sp 3mm
+.if x&taeller6 gt x3
+.th .go HSPALTE
+.if &L'&GENBILAG6 gt 0
+.th Bilag &taeller6.:¤&GENBILAG6
+.th .go UNDER
+...HSPALTE
+.ar off
+.**** HØJRE BILAGSSPALTE **************************************************
+.ar BILAG2 on
+:SWISS8.
+.if x&taeller6 eq x3
+.th .go UNDER
+.if &L'&GENBILAG4 gt 0
+.th Bilag &taeller4.:¤&GENBILAG4
+.th .sp 3mm
+.if &L'&GENBILAG5 gt 0
+.th Bilag &taeller5.:¤&GENBILAG5
+.th .sp 3mm
+.if &L'&GENBILAG6 gt 0
+.th Bilag &taeller6.:¤&GENBILAG6
+...UNDER
+.ar off
+.**************************************************************************
+.ar UNDER1 on
+:SWISS8.
+.tp 58mm
+Serviceleverandør¤Dato:
+.sp 30mm
+:SKRSLUT.
+.ce &NAVN
+.**************************************************************************
+.ar UNDER2 on
+:SWISS8.
+.tp 58mm
+Pengeinstitut¤Dato:
+.sp 30mm
+:SKRSLUT.
+.ce &BANKNAVN.
+.**************************************************************************

@@ -1,0 +1,122 @@
+.**************************************************************************
+.da SIDE1  20mm 38mm width 175mm
+.**************************************************************************
+.ar SIDE1 on
+.tp 1mm 88.5mm 131.5mm
+:SWISS10.
+:FED.
+Parter
+:SKRSLUT.
+:SKRSLUT.
+.***** her laves kassen til kontohaver og evt.arbejdsgiver ****************
+.bx left 87.5mm right
+¤Kontohaver ¤Arbejdsgiver
+.sp 17.5mm
+.***** her laves kassen til pengeinstitut og regnr ************************
+.bx new left 87.5mm 130.5mm right
+¤Pengeinstitut ¤Kontohavers CPR-nr.¤Arbejdsgivers CVR-nr.
+.sp 4.5mm
+.***** her laves kassen til kontonr og depotnr ****************************
+.bx new 87.5mm 130.5mm right
+¤¤Kontonr. ¤Depotnr.
+.sp 4.5mm
+.***** her laves kassen til formål ****************************************
+.bx new left right
+.sp 9.5mm
+.bx off
+.bx can
+.bx can
+.bx can
+:SWISS10.
+:FED.
+Indhold
+:SKRSLUT.
+:SKRSLUT.
+.***** her laves kassen til indbetalinger   *******************************
+.bx left right
+¤Indbetalinger
+.if &L'&PENMETODE > 0
+.th
+.el .sp 40mm
+.el .go INDBEND
+.if X&PENMETODE = X1
+.th .sp 30mm
+.th .go INDBEND
+.if X&PENMETODE = X2
+.th .sp 43mm
+.th .go INDBEND
+.if X&PENMETODE = X3
+.th .sp 40mm
+...INDBEND
+.***** her laves kassen til placering af opsparing*************************
+.bx new left right
+¤Placering af opsparing
+.if &L'&PENMETODE > 0
+.an X&PENMETODE = X2
+.th .sp 7mm
+.el .sp 9.5mm
+.***** her laves kassen til Udbetalinger **********************************
+.bx new left right
+¤Udbetaling
+.if &L'&PENMETODE > 0
+.th
+.el .sp 21mm
+.if X&PENMETODE = X1
+.th .sp 29mm
+.if X&PENMETODE = X2
+.th .sp 24mm
+.if X&PENMETODE = X3
+.th .sp 21mm
+.***** her laves kassen til Begunstigede **********************************
+.bx new left right
+¤Begunstigede udbetaling ved død
+.if &L'&PENMETODE > 0
+.an X&PENMETODE = X2
+.th .sp 10mm
+.el .sp 12mm
+.***** her laves kassen til Væsentlige aftaler ****************************
+.bx new left right
+¤Væsentlige aftaler
+.sp 5mm
+.bx off
+.bx can
+.bx can
+.bx can
+.bx can
+.**************************************************************************
+:SWISS10.
+:FED.
+Underskrift
+:SKRSLUT.
+:SKRSLUT.
+.if &U'&PENSAMLVR ne J
+.th .go UDENSAM
+.***** her laves kassen begunstigelse af samlever *************************
+.bx left right
+.sp 19mm
+.***** her laves kassen til kontohaver. underskrift ***********************
+.tp 1mm 61mm 89mm 145mm
+.bx new left right
+¤Kontohavers underskrift ¤¤¤Dato:
+.sp 5mm
+.bx off
+.bx can
+.sp
+.*UDEN SAMLEVER************************************************************
+...UDENSAM
+.***** her laves kassen til generelle vilkår  *****************************
+.bx left right
+.sp 7mm
+.***** her laves kassen til kontohaver/arbejdsg. underskrift **************
+.bx new left 87.5mm right
+.tp 1mm 61mm 89mm 145mm
+¤Kontohavers underskift ¤Dato: ¤Arbejdsgivers underskrift ¤Dato:
+.sp 6.5mm
+.***** her laves kassen til pi- underskrift *******************************
+.bx new left right
+¤Pengeinstituttets underskrift ¤¤¤Dato:
+.sp 6.5mm
+.bx off
+.bx can
+.bx can
+.ar off

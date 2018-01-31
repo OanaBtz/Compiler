@@ -1,0 +1,36 @@
+.*******************************************************
+.da KUNDEOPL   25mm 48mm width 84mm
+.da KUNDENR    113mm 53.5mm width 84mm
+.da BRUGER     113mm 69mm width 76mm
+.da BANK       25mm 78.5mm width 84mm
+.*******************************************************
+.ar KUNDEOPL on
+&WEBADRLIN1
+.br
+&WEBADRLIN2
+.br
+&WEBADRLIN3
+.br
+&WEBADRLIN4
+.br
+&WEBADRLIN5
+.ar off
+.*******************************************************
+.ar KUNDENR on
+&KUNDENR
+.ar off
+.*******************************************************
+.ar BRUGER on
+.if &U'&WEBPRIERH = P
+.th &GENBRUGNR
+.ar off
+.*******************************************************
+.ar BANK on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off

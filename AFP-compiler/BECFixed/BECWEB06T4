@@ -1,0 +1,56 @@
+.*************************************************************************
+.*KODERNE NEDENFOR AFSLUTTER TIDLIGERE SKRIFTTYPER, DER ER DEFINERET
+.*UDEN FOR AREALER. HVIS DE SLETTES SKIFTES TYPOGRAFI ********************
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:COUR10.
+.sc
+.cd 1 1mm 175mm
+.cl 174mm
+.*.LL 175mm
+.***UNDERSKRIFTER *********************************************************
+.**************************************************************************
+.kp on
+.sp 3mm
+:SWISS8.
+Kunden forpligter sig herved til udelukkende at anvende de af aftalen
+omfattede ydelser erhvervsmæssigt. Kunden erklærer at være bekendt med, at
+denne herefter ikke kan påberåbe sig § 7 og §§ 9-13 i lov om visse
+betalingsmidler. Ikke-erhvervsmæssig brug af systemet udgør
+hæveberettigende misligholdelse af denne aftale.
+.sp 3mm
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+.tp 5mm  _/50mm 87.5mm _/137.5mm
+:SWISS10.
+:FED.
+¤Underskrift
+.sp 3mm
+:SKRSLUT.
+:SWISS8.
+.sp 5mm
+¤Den ¤ ¤Den ¤
+.sp 10mm
+.hr tynd 5mm 80mm 87.5mm 167.5mm
+.br
+.tp 5mm 87.5mm
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:COUR10.
+¤&NAVN ¤&BANKNAVN
+.kp off

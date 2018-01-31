@@ -1,0 +1,50 @@
+.* Transport - På tilgodehavende - 1.Kasser og ledetekster
+.da BOX 20mm 40mm WIDTH 175mm
+.ll 174mm
+.in 1mm
+.**********************************
+.ar BOX on
+:SWISS10.
+:FED.
+Anmeldelsespåtegning
+.sp 0.1mm
+.*Box til matrikelnr.
+.bx left right
+.sp 5mm
+.bx off
+.****** Box til sælgernavn
+.bx set left right
+.sp 36mm
+.bx off
+.****** Box til tekst
+.bx set left right
+.sp 35mm
+.bx off
+.****** Box til Købers underskrift
+.bx set left right
+.sp 30mm
+.bx off
+.****** Evt. Box til evt. medkøbers underskrift *
+.if &L'&GENNAVN4 > 0
+.th .bx set left right
+.th .sp 30mm
+.th .bx off
+.****** Box til lidt tekst
+.if &L'&GENNAVN1 > 0
+.or &L'&BKNAVN > 0
+.el .go SLUTK2
+.bx set left right
+.sp 5mm
+.bx off
+.***** Box til Købers advokats underskrift *
+.if &L'&GENNAVN1 > 0
+.th .bx set left right
+.th .sp 30mm
+.th .bx off
+.***** Box til Købers PI's underskrift **
+.if &L'&BKNAVN > 0
+.th .bx set left right
+.th .sp 30mm
+.th .bx off
+...SLUTK2
+.ar off

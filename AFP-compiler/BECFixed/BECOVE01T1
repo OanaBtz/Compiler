@@ -1,0 +1,50 @@
+.da TEKST 20mm 108mm width 75mm
+.da KUNDE 20mm 117mm width 75mm
+.da MEDKTO 115mm 117mm width 75mm
+.da KUNDENR 20mm 139mm width 175mm
+.*********************************
+.ar TEKST on
+På foranledning af
+.ar off
+.********************************
+.ar KUNDE on
+.if &L'&STILL gt 0
+.th &STILL
+.th .br
+&NAVN
+.br
+.if &L'&COADR gt 0
+.th &COADR
+.th .br
+&GADE
+.br
+&BY
+.sp
+.ar off
+.*******************************
+.ar MEDKTO on
+.if &L'&GENSTILL1 gt 0
+.th &GENSTILL1
+.th .br
+&GENNAVN1
+.br
+.if &L'&GENCOADR1 gt 0
+.th &GENCOADR1
+.th .br
+&GENGADE1
+.br
+&GENBY1
+.ar off
+.********************************
+.ar KUNDENR on
+.tp 95mm
+.if &L'&GENKUNDENR gt 0
+.an &L'&GENNAVN1 gt 0
+.th Kundenr. &KUNDENR.¤Kundenr. &GENKUNDENR
+.el Kundenr. &KUNDENR
+.ar off
+.********************************
+.dr thin weight 0.1mm
+.tp 95mm
+.sp 124mm
+.*****************************

@@ -1,0 +1,44 @@
+.*&SDIT &B11KTTYPT. &B11KTNR..
+.* Vi er blevet bedt om at sløre de 8 midterste cifre i kortnummeret!
+&SDIT &B11KTTYPT. &knr1. XXXX XXXX &knr4.
+.sp
+Vi har den &GENDATO1 kl. &GENKL spærret &DIT
+&B11KTTYPT. på grund af &GENÅRSSPR..
+.sp
+.* Hvis korttype 13-39 (Hævekort) skal tekst springes over!!************
+.if X&B11KTTYPE > X10
+.an X&B11KTTYPE < X40
+.th .go HÆVE
+.el Kortnummeret er registreret i pengeinstitutternes fælles register over
+.el spærrede betalingskort.
+.sp
+...HÆVE
+Hvis &DU er utilfreds eller har spørgsmål til spærringen
+beder vi &DIG kontakte os.
+.sp
+Ønsker &DU at klage over spærringen skal du kontakte vores
+klageansvarlige. Hvis du ikke får medhold
+i &DIN klage, har &DU mulighed for at henvende &DIG
+til Datatilsynet, Borgergade 28, 5., 1300 København K.
+.sp
+.if X&U'&FORSIK = XJ
+.th &SDU skal være opmærksom på, at når &DIT &B11KTTYPT spærres, bortfalder
+.th tillægsydelserne, herunder forsikringen.
+.th .sp
+.if X&B11KTTYPE > X39
+.an X&B11KTTYPE < X55
+.th Nets Denmark A/S
+.el &BANKNAVN
+er dataansvarlig for registeret over for Datatilsynet. Registeret
+er til rådighed for pengeinstitutter og betalingsmodtagere
+(fx forretninger). I medfør af
+Persondatalovens § 31 om indsigtsret kan &DU henvende &DIG til
+.if X&B11KTTYPE > X39
+.an X&B11KTTYPE < X55
+.th Nets Denmark A/S, Lautrupbjerg 10, DK-2750 Ballerup,
+.el Pengeinstitutankenævnet, Østerbrogade 62, 4, 2100 København Ø,
+hvor &DU kan få oplyst, om &DIT kortnummer fortsat er i
+.if X&B11KTTYPE > X39
+.an X&B11KTTYPE < X55
+.th registeret over spærrede Dankort og Visa/Dankort.
+.el registeret.

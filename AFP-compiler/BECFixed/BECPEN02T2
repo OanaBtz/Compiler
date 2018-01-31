@@ -1,0 +1,22 @@
+.**************************************************************************
+.da INDBENG 21mm  101mm width 170mm
+.**************************************************************************
+.ar INDBENG on
+.if &U'&PENTYPE = E
+.th .go PENG
+.el .go PENGSL
+...PENG
+.if &L'&PENFKTONR1 = 0
+.an &L'&PENSTDATO1 = 0
+.th .go PENGSL
+Kontohaver indbetaler et engangsindskud på &PENTOTAL1. kr.
+.if &L'&PENFKTONR1 = 0
+.th .go DATOENGA
+.el .se regnrf1 = substr &PENFKTONR1 1 4
+.el .se ktonrf1 = substr &PENFKTONR1 5 10
+.el .ct , der overføres fra kontonr. &regnrf1. &ktonrf1.
+...DATOENGA
+.ct  den &PENSTDATO1..
+...PENGSL
+.ar off
+.****************************************************

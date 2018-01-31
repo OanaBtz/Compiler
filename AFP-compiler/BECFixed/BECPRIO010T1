@@ -1,0 +1,67 @@
+.da TEKST 20mm 117mm width 170mm
+.**************************************************************************
+.ar TEKST on
+Den &RTEBINDGL. udløb en rentebindingsperiode på nedenstående lån.
+.sp 3mm
+Lånet er blevet rentetilpasset og fortsætter med en ny rentebindingsperiode
+på følgende vilkår
+.sp 5mm
+Kontonr.:¤&reg.-&kto. i
+.if x&KNDTILH. = x088400
+.th &BANKNAVN. Kredit
+.el &BANKNAVN.
+.br
+Låntype:¤&LAANETYPE.
+.sp 3mm
+.tp 60mm 100mm
+.*****Hvis værdien af TXTSW001 = 'J', så udelader jeg kolonnen "før"*****
+.if &U'&TXTSW001 = J
+.th .go TXTNY
+.el .go TXTFØR
+...TXTFØR
+¤Ny
+.sp
+Rentebindingsperiode: ¤&RTEBINPRD.
+.sp 3mm
+Rentebindingsperiodens udløb:¤&RTEBINDAU.
+.sp 3mm
+Rentesats:¤&PRIRENTE. % p.a.
+.sp 3mm
+...TXTNY
+¤Ny¤Før
+.sp
+Rentebindingsperiode: ¤&RTEBINPRD. ¤&RTEBINPGL.
+.sp 3mm
+Rentebindingsperiodens udløb:¤&RTEBINDAU.¤&RTEBINDGL.
+.sp 3mm
+Rentesats:¤&PRIRENTE. % p.a.¤&PRIGLRENTE. % p.a.
+.sp 3mm
+.if &U'&PRIERH = P
+.th .go PRITXT
+.el .go ERHTXT
+...PRITXT
+.if &U'&TXTSW001 = J
+.th Referencerente:¤&REFRENTE. % p.a.¤
+.el Referencerente:¤&REFRENTE. % p.a.¤&REFRTEGL. % p.a.
+.sp 5mm
+I rentebindingsperioden ligger lånets rentesats og afvikling fast.
+.br
+Den anførte referencerente anvendes kun til beregning af indfrielseskursen
+ved eventuelle ekstraordinære afdrag eller indfrielse af lånet i
+rentebindingsperioden.
+.sp 3mm
+Ændringer i rentebetalinger giver et andet skattefradrag. for at undgå
+evt. restskat anbefaler vi at ændre forskudsopgørelsen.
+.sp 3mm
+.if &L'&RTEVILKGEB > 0
+.th Gebyr for nye rentevilkår kr. &RTEVILKGEB. er hævet på
+.th konto &DEBKONTO18..
+.th .sp 3mm
+...ERHTXT
+:FED.
+Der gælder særlige vilkår for indfrielse i en rentebindingsperiode. Det
+betyder, at indfrielse af lånet i nogle tilfælde
+kun kan ske med et beløb, som
+er højere end restgælden. Indfrielsesvilkårene er næremere beskrevet i
+låneaftalen.
+:SKRSLUT.

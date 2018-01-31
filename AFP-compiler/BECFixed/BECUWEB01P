@@ -1,0 +1,19 @@
+.********************************************************************
+.*Hvis det er en Erhvervsaftale og brugernummeret er udfyldt, så skal
+.*brugernavnet også være udfyldt!
+.*Brugernummeret (Erhverv) er ikke længere et kravsfelt!
+.********************************************************************
+.if &U'&WEBPRIERH = P
+.th .go SLUTP
+.if &L'&GENBRUGNR = 0
+.th .go TEST2
+.if &L'&GENBRUGNVN > 0
+.th
+.el .mg/T/Erhverv: 1. Brugernavn skal udfyldes, hvis brugernr. er udfyldt/
+...TEST2
+.if &L'&GENBRUGNR1 = 0
+.th .go SLUTP
+.if &L'&GENBRUGNV1 > 0
+.th
+.el .mg/T/Erhverv: 2. Brugernavn skal udfyldes, hvis brugernr. er udfyldt/
+...SLUTP

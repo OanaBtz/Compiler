@@ -1,0 +1,185 @@
+.**************************************************************************
+.** § 8 t.om. § 12 ******************************************************
+.tp 10mm 15mm
+.kp on
+:FED.
+§ 8¤¤Tilbagetagelse
+:SKRSLUT.
+.sp
+Sælger er berettiget til at tage køretøjet tilbage når køber misligholder
+kontrakten, jf. § 9 og tillige berettiget til at registrere køber i et
+eller flere advarselsregistre i forbindelse hermed.
+.sp
+Fremgangsmåden ved tilbagetagelse og opgørelse af fordringen og opgørelse
+af køretøjets værdi, sker i overensstemmelse med lov om kreditaftaler.
+.sp
+.kp off
+.kp on
+:FED.
+§ 9¤¤Misligholdelse
+:SKRSLUT.
+.sp
+Hele den til enhver tid værende restgæld med mulige renter, gebyrer og
+andre omkostninger, beregnet i henhold til kreditaftaleloven, er straks
+forfalden til betaling, såfremt:
+.sp
+.of 5mm
+a)¤køber ikke har opfyldt sin betalingspligt, jf. § 29 i lov om
+kreditaftaler,
+.br
+.kp off
+.kp on
+.of 5mm
+b)¤køretøjet sælges, eller der på anden måde rådes over køretøjet, jf. § 1
+i strid med den forbeholdte ejendomsret,
+.kp off
+.kp on
+.of 5mm
+c)¤køretøjet anvendes til andre formål end det indregistrerede,
+.kp off
+.kp on
+.of 5mm
+d)¤køretøjet ikke vedligeholdes på behørig vis og dette medfører væsentlig
+misligholdelse af køretøjet,
+.kp off
+.kp on
+.of 5mm
+e)¤der indtræder manglende forsikringsdækning af køretøjet, herunder
+manglende betaling af skyldig forsikringspræmie, eller såfremt sælger i
+øvrigt af anden grund modtager meddelelse om, at panthaverdeklarationen vil
+blive bragt til ophør,
+.kp off
+.kp on
+.of 5mm
+f)¤køretøjet bringes varigt ud af landet, uden at der foreligger tilladelse
+hertil,
+.kp off
+.kp on
+.of 5mm
+g)¤køretøjet går tabt eller bliver gjort til genstand for konfiskation,
+beslaglæggelse, eller lignende,
+.kp off
+.kp on
+.of 5mm
+h)¤køber i øvrigt på nogen måde misligholder bestemmelserne i nærværende
+købekontrakt, eller køber har afgivet urigtige oplysninger i forbindelse
+med finansieringens etablering, forudsat at misligholdelsen eller de
+urigtige oplysninger er af væsentlig karakter,
+.kp off
+.kp on
+.of 5mm
+i)¤køber standser sine betalinger eller i øvrigt bliver ude af rådighed
+over sit bo.
+.of
+.sp
+I det i punkt:FED. i) :SKRSLUT.nævnte tilfælde, indtræder misligholdelse
+dog ikke såfremt tilsynet, kurator eller værge, erklærer at ville indtræde
+i kontrakten med den virkning, at fremtidige ydelser skal betales som
+massekrav. Kreditgiver kan betinge indtræden af, at der sker betaling af
+eventuelle allerede bestående restancer, og af at der for boets regning
+indhentes en vurderingsrapport vedrørende køretøjets vedligeholdelsesstand
+samt eventuelle mangler ved denne.
+.sp
+Indtrædes der ikke i kontrakten, vil eventuelle ydelser, der forfalder i
+tiden frem til køretøjet frivilligt afleveres eller eventuelt tilbagetages
+ved en fogedforretning, under alle omstændigheder kunne kræves betalt som
+massekrav.
+.sp
+.kp off
+.kp on
+:FED.
+§ 10¤¤Force Majeure
+:SKRSLUT.
+.sp
+Sælger og kreditgiver er ikke ansvarlig for tab der skyldes lovforskrifter,
+myndighedsforanstaltninger eller lignende, truende krig, borgerlige
+uroligheder, terror, sabotage, naturkatastrofer, strejke, lockout, boykot
+og blokade, uanset om sælger selv er part i konflikten, herunder at denne
+kun rammer dele af sælgers funktioner. Dette fritager dog ikke sælger og
+kreditgiver for ansvar, hvis der fra sælgers side er udvist fejl eller
+forsømmelse, som vil kunne medføre erstatningsansvar.
+.sp
+.kp off
+.kp on
+:FED.
+§ 11¤¤Forsikring
+:SKRSLUT.
+.sp
+I overensstemmelse med det ovenfor under § 6, litra B anførte, erklærer
+undertegnede køber/forsikringstager sig hermed indforstået med, at sælger
+eller kreditgiver indtræder i den tegnede forsikring hos det i § 1 nævnte
+forsikringsselskab, og at parterne i den forbindelse udveksler mit
+CPR/CVR-nr. via forsikringsselskabernes panthaverudvalg og i øvrigt
+udveksler oplysninger om forsikringsforholdet, herunder om
+præmierestancer.
+.sp
+Jeg/vi bekræfter samtidig at være blevet gjort bekendt med vilkårene i den
+finansieringsdeklaration, som forsikringsselskabet noterer.
+.sp
+.kp off
+.kp on
+:FED.
+.if &L'&MDEBKNDNR. > 0
+.th § 12¤¤Køberes og sælgers erklæring
+.el § 12¤¤Købers og sælgers erklæring
+:SKRSLUT.
+.sp
+Ved deres underskrift på nærværende købekontrakt erklærer undertegnede
+sælger og
+.if &L'&MDEBKNDNR. > 0
+.th købere på tro og love:
+.el køber på tro og love:
+.sp
+.of 5mm
+:FED.
+.us at
+:SKRSLUT.¤køretøjet ikke er blevet overgivet til køber før underskriften
+af nærværende købekontrakt, og førend udbetalingen ifølge kontrakten er
+blevet erlagt af køber.
+.sp
+.kp off
+.kp on
+.if &L'&MDEBKNDNR. > 0
+.th Undertegnede købere erklærer endvidere:
+.el Undertegnede køber erklærer endvidere:
+.sp
+.of 5mm
+*¤at jeg/vi er myndig(e) og ikke i betalingsstandsning eller konkurs.
+.sp
+.kp off
+.kp on
+.of 5mm
+*¤at jeg/vi forud for aftalens indgåelse har modtaget skemaet
+"STANDARDISEREDE EUROPÆISKE FORBRUGERKREDITOPLYSNINGER" i udfyldt stand i
+overensstemmelse med lov om kreditaftaler.
+.sp
+.kp off
+.kp on
+.of 5mm
+*¤at jeg/vi herudover har modtaget fyldestgørende oplysninger og
+forklaringer, således at jeg/vi har været i stand til at vurdere, om
+kreditaftalen passer til mine/vore behov og finansielle situation.
+.sp
+.kp off
+.kp on
+.of 5mm
+*¤at jeg/vi er blevet gjort bekendt med, at yderligere oplysninger kan
+indhentes på kreditgivers hjemmeside :SKRSLUT.&GENWWW..:SWISS8.
+.sp
+.kp off
+.kp on
+.of 5mm
+*¤at jeg/vi er nøje bekendt med indholdet i købekontrakten og har modtaget
+en genpart af kontrakten.
+.sp
+.kp off
+.kp on
+.of 5mm
+*¤at være indforstået med vilkårene i udleverede service- og
+reklamationsbestemmelser vedrørende det købte køretøj.
+.sp
+.of 5mm
+*¤at have modtaget det købte i kontraktmæssig stand, jf. købekontraktens
+§ 5.
+.sp
+.kp off

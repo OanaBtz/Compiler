@@ -1,0 +1,22 @@
+.dm becfst on
+.*
+.*       Sæt formularnummer start på brevet
+.*
+.*       Start af en formular:
+.*
+.*       :becfst.xxxxxx
+.*
+.*       hvor xxxxxx = formularnummeret
+.*
+.*       Formularnummeret gemmes i den interne variabel becformnr, og skal
+.*       bruges i macroen 'becfsl' til at afslutte formularen.
+.*
+.*   NB! Hvis ipdt-brevet fylder mere end en side, skal der benyttes
+.*       et sæt formular-start/stop pr. brevside.
+.*
+.gs scan becformnr
+.se becformnr = &U'&becformnr
+.gs tag off
+.oc  //LA!&becformnr.!!
+.gs tag on
+.dm off

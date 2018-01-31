@@ -1,0 +1,227 @@
+.tp 5mm 8mm
+.se fk01 = 'rentenedsættelse'
+.kp on
+:SWISS10.
+.br
+:FED.
+1. Renter og priser på serviceydelser
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Priser betegnes også som gebyrer.
+.sp 3mm
+.kp off
+.kp on
+.us 1.1 Oplysning om rentesatser og priser på serviceydelser
+.br
+&SDU. modtager og/eller betaler renter af ind- og udlån.
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN. kan tage betaling for sine serviceydelser til &DIG. og for at
+besvare henvendelser om &DIG., når &BANKNAVN. har pligt til at svare.
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN.s almindelige rentesatser og priser for serviceydelser
+fremgår af &BANKNAVN.s hjemmeside og oplyses på forespørgsel.
+.sp 3mm
+.kp off
+.kp on
+Priserne og rentesatserne er tillige frit tilgængelige i
+&BANKNAVN.s afdelinger.
+.sp 3mm
+.kp off
+.kp on
+Alle rentesatser og priser er variable, medmindre andet fremgår
+udtrykkeligt.
+.sp 3mm
+.kp off
+:FED.
+.kp on
+.us 1.2 Ændring af variable rentesatser og priser uden varsel
+.br
+.kp off
+.kp on
+&BANKNAVN. kan i løbende aftaleforhold uden varsel, sætte rentesatser
+ned på indlån og op på lån og kreditter, samt sætte sine priser op og
+indføre nye priser, på grund af udefrakommende forhold som &BANKNAVN. ikke
+har indflydelse på og som har betydning for &BANKNAVN., bl.a. når der sker
+- ikke udtømmende opremsning:
+.br
+.of 8mm
+¤*¤inden- eller udenlandske ændringer i penge- eller kreditpolitik, som
+påvirker det almindelige renteniveau
+.of
+.br
+.kp off
+.kp on
+.of 8mm
+¤*¤anden udvikling i det almindelige renteniveau, f.eks. på penge- og
+obligationsmarkederne, eller
+.of
+.br
+.kp off
+.kp on
+.of 8mm
+¤*¤ændringer i skatter og afgifter.
+.sp 3mm
+.kp off
+.kp on
+.us 1.3 Ændring af variable rentesatser og priser med 1 måneds varsel
+.br
+.kp off
+.kp on
+&BANKNAVN. kan i løbende aftaleforhold med 1 måneds varsel, sætte
+rentesatser ned på indlån og op på lån og kreditter, samt sætte sine
+priser op, hvis
+.br
+.of 8mm
+¤*¤der sker ændringer i de forhold, som individuelt blev lagt til grund
+ved fastsættelsen af &DINE rente- og prisvilkår, eller
+.of
+.br
+.kp off
+.kp on
+.of 8mm
+¤*¤&BANKNAVN. ændrer sin generelle rente- og prisfastsættelse af
+forretningsmæssige grunde, f.eks. for at øge indtjeningen eller opnå en
+mere hensigtsmæssig anvendelse af &BANKNAVN.s ressourcer eller kapacitet.
+.of
+.sp 3mm
+.kp off
+.kp on
+For etablerede boliglån kan &BANKNAVN. af samme årsager kun sætte
+sine priser op med &GENVARSEL4. måneders varsel.
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN. kan af samme årsager indføre nye priser i løbende
+aftaleforhold, men med et varsel på &GENVARSEL. måneder. Nye priser er
+priser for ydelser, som &BANKNAVN. ikke tidligere har taget betaling for.
+.sp 3mm
+.kp off
+.kp on
+Ændring eller indførelse af priser til ugunst for &DIG. i løbende
+aftaleforhold om betalingskonti sker dog altid med 2 måneders varsel.
+.sp 3mm
+.kp off
+.kp on
+Løbende aftaleforhold omfatter indgåede aftaleforhold, f.eks. en aftale om
+en konto eller aftale om netbank.
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN. kan uden varsel indføre og sætte priser op for enkeltstående
+ydelser og generelt for nye aftaler.
+.sp 3mm
+.kp off
+:SKRSLUT.
+.kp on
+.us 1.4 Ekstraordinær ret til at hæve indlån med opsigelsesvarsel ved &fk01
+.br
+&SDU. kan se bort fra et aftalt opsigelsesvarsel og kan uden at betale
+rentedekort hæve beløbet på en indlånskonto med opsigelsesvarsel, hvis
+renten nedsættes, inden &DU. kunne få beløbet udbetalt.
+.sp 3mm
+.kp off
+.kp on
+Beløbet skal dog hæves senest 14 dage efter, at rentenedsættelsen er trådt
+i kraft.
+.sp 3mm
+.kp off
+.kp on
+.us 1.5 Overtræksrente og rykkergebyr m.v.
+.br
+&BANKNAVN. kan kræve overtræksrente/-provision ved overtræk eller
+forsinket betaling eller ved udnyttelse i strid med det aftalte samt
+gebyr for at udsende rykkerbreve og udgifter til juridisk bistand ved
+inkassation m.v.
+.sp 3mm
+.kp off
+.kp on
+Overtræksrente omfatter også morarente.
+.sp 3mm
+.kp off
+.kp on
+Oplysning om overtræksrente fås i &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+For betalingskonti fremgår rentesatser for overtræk af kontoudtog og
+kontoaftalen.
+.sp 3mm
+.kp off
+.kp on
+Størrelsen af rykkergebyrer fremgår af &BANKNAVN.s oversigt over priser
+for serviceydelser.
+.sp 3mm
+.kp off
+.kp on
+.us 1.6 Meddelelse om rente- og prisændringer
+.br
+&BANKNAVN. annoncerer i dagspressen eller giver skriftlig eller
+elektronisk besked ved rente- og prisændringer. Væsentlige
+prisændringer eller indførelse af nye priser varsles ved individuel
+kommunikation. Det vil fremgå, hvorfor der sker ændringer.
+.sp 3mm
+.kp off
+.kp on
+Renteændringer vil også fremgå af det første kontoudskrift - eller
+opgørelse efter ændringen.
+.sp 3mm
+.kp off
+.kp on
+&SDU. får under alle omstændigheder skriftlig eller elektronisk besked
+senest dagen forud om
+.br
+.of 8mm
+¤*¤enhver ændring af renten på udlån og
+.of
+.br
+.kp off
+.kp on
+.of 8mm
+¤*¤forhøjelse af renten eller priser på kreditter.
+.of
+.sp 3mm
+.kp off
+.kp on
+Ved ændring af renten på udlån indeholder den skriftlige eller elektroniske
+besked også oplysninger om eventuelle ændringer af fremtidige betalingers
+størrelse, antal eller hyppighed.
+.sp 3mm
+.kp off
+.kp on
+&SDU. får også skriftlig eller elektronisk besked om prisændringer på
+betalingskonti.
+.sp 3mm
+.kp off
+.kp on
+&SDU. får også skriftlig eller elektronisk besked om renteændringer på
+SDO-lån, efter ændringen er trådt i kraft ved refinansiering af lånet.
+.sp 3mm
+.kp off
+.kp on
+Ændring af renter baseret på referencesatser, f.eks. Nationalbankens
+indskudsbevisrente, fremgår alene af kontoudskrifter eller opgørelser fra
+&BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+.us 1.7 Rentedato
+.br
+Rentedatoen er den dag, hvor en indbetaling, udbetaling eller anden
+kontobevægelse påvirker beregningen af renten på en konto.
+.sp 3mm
+.kp off
+.kp on
+Bogføringsdatoen er den dag, hvor &BANKNAVN. registrerer en
+kontobevægelse. Bogføringsdatoen har ikke betydning for renteberegningen.
+.sp 3mm
+.kp off
+.kp on
+Lørdage, søn- og helligdage, Grundlovsdag, juleaftensdag og
+nytårsaftensdag samt dagen efter Kristi Himmelfartsdag er ikke bankdage.
+.sp 3mm
+.kp off

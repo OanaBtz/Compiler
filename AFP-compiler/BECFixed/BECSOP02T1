@@ -1,0 +1,19 @@
+.da OVER 27mm 48mm width 100mm
+.da TEXT 35mm 62.5mm width 120mm
+.**** HER LAVES TEKSTEN I DEN ØVERSTE KASSE *********************
+.ar OVER on
+:SWISS8.
+.tp 60mm
+Banksted¤Aftalenr.
+:SKRSLUT.
+.ar off
+.**** HER LAVES TEKSTEN I NEDERSTE KASSE ************************
+.ar TEXT on
+:SWISS8.
+.tp 49mm 90mm
+Medlems nr.¤Betalingsdag DD.MM.ÅÅÅÅ¤Beløb
+.tp 57mm
+.sp 81mm
+¤Indbetalt i alt
+:SKRSLUT.
+.ar off

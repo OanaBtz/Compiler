@@ -1,0 +1,114 @@
+:SWISS8.
+.*******************************************************
+.da GIVER      21mm    44mm width 170mm
+.da GIVERCPR  146mm    68mm width 30mm
+.da PI         21mm    73mm width 85mm
+.da TEKST      21mm    98.6mm width 170mm
+.da HAVER      21mm    109mm width 85mm
+.da UNDHAVER   108.5mm 109mm width 85mm
+.da BRUGERNR   21mm    139mm width 170mm
+.da FORHOLD    21mm 155.5mm width 100mm
+.da BETING     21mm    171.5mm width 150mm
+.da KOLONNE1   21mm    176mm width 78mm
+.da KOLONNE2  108mm    176mm width 78mm
+.da UNDERSKRKU 21mm    251mm width 85mm
+.da UNDERSKRPI 108.5mm 251mm width 85mm
+.*******************************************************
+.ar GIVER on
+Kunde og fuldmagtsgiver
+.ar off
+.*******************************************************
+.ar GIVERCPR on
+CPR-nr./CVR-nr.
+.ar off
+.*******************************************************
+.ar PI on
+Pengeinstitut
+.ar off
+.*******************************************************
+.ar TEKST on
+Mellem ovennævnte parter indgås herved aftale om, at
+kunden giver fuldmagt til tilslutning til og anvendelse af &BANKNAVN.s
+selvbetjeningssystemer til:
+.ar off
+.*******************************************************
+.ar HAVER on
+Fuldmagtshaver
+.sp 21mm
+CPR-nr./CVR-nr.
+.ar off
+.*******************************************************
+.ar UNDHAVER on
+.tp 56.5mm
+Fuldmagtshavers underskrift ¤Dato:
+.ar off
+.*******************************************************
+.ar BRUGERNR on
+Med mindre andet fremgår nedenfor bemyndiger fuldmagtsgiver
+fuldmagtshaver til via &BANKNAVN.s selvbetjeningssystemer, at disponere
+frit over fuldmagtgivers konti, depoter og e-Boks, og de der værende
+dokumenter, herunder at foretage tilvalg af produkter eller funktioner,
+at indhente oplysninger vedrørende disse  hos &BANKNAVN., at modtage
+oplysning om ændrede vilkår for kundeforhold og at acceptere sådanne
+vilkår med bindende virkning for fuldmagtsgiver.
+.ar off
+.*******************************************************
+.ar FORHOLD on
+Særlige forhold for og indskrænkninger i fuldmagten:
+.ar off
+.*******************************************************
+.ar BETING on
+Øvrige vilkår
+.ar off
+.*******************************************************
+.ar KOLONNE1 on
+1. Fuldmagten er et tillæg til fuldmagtgivers aftaler
+med &BANKNAVN.. Endvidere gælder de aftaler og vilkår, som fuldmagtshaver
+har tiltrådt eller tiltræder på fuldmagtgivers vegne med &BANKNAVN..
+Fuldmagtshaver hverken berettiges eller forpligtes efter aftaler og
+vilkår, som er gældende for fuldmagtsgiver, og som ikke er tiltrådt
+af fuldmagtshaver.
+.sp 3mm
+2. Fuldmagtshaver forpligter sig til at meddele fuldmagtsgiver om de
+af fuldmagtshaver foretagne tilvalg af produkter eller funktioner,
+indhentede oplysninger samt ændrede vilkår for kundeforhold, i det
+omfang fuldmagtshaver selv foretager sådanne eller modtager oplysning
+herom fra &BANKNAVN..
+.sp 3mm
+3. Fuldmagtsgiver erklærer ved sin underskrift på denne fuldmagt at
+være bekendt med, at fuldmagtshaver gives adgang til alle dokumenter
+i e-Boks, herunder dokumenter fra andre end &BANKNAVN samt de af
+fuldmagtsgiver selv i e-Boks indlagte dokumenter.
+.ar off
+.********************************************************
+.ar KOLONNE2 on
+4. Fuldmagtsgiver erklærer ved sin underskrift på denne fuldmagt at være
+bekendt med, at fuldmagtshaver kan opsige fuldmagtsforholdet i forhold
+til e-Boks, uden at &BANKNAVN er vidende herom, og at &BANKNAVN ikke
+er ansvarlig herfor. Opsigelse af fuldmagtsforholdet med virkning for
+&BANKNAVN kan alene ske efter bestemmelsen i pkt. 5.
+.sp 3mm
+5. Fuldmagten træder i kraft ved underskrivelsen og er gældende indtil den
+skriftligt tilbagekaldes. Tilbagekaldelsen har først virkning for
+&BANKNAVN., når &BANKNAVN modtager skriftlig besked herom, uanset
+fuldmagtsgiver eller fuldmagtshaver i øvrigt har ophævet
+fuldmagtsforholdet.
+.sp 3mm
+6. Fuldmagtsgiver tager som kunde overfor &BANKNAVN det fulde ansvar
+for fuldmagtshavers anvendelse af systemet.
+.sp 3mm
+7. Denne fuldmagtsaftale er underskrevet i to eksemplarer, der
+fordeles med et til fuldmagtshaver og et til &BANKNAVN.. Fuldmagtsgiveren
+modtager en kopi.
+.ar off
+.*******************************************************
+.ar UNDERSKRKU on
+.tp 57mm
+Kundens underskrift ¤Dato:
+.ar off
+.*******************************************************
+.ar UNDERSKRPI on
+.tp 56.5mm
+Pengeinstituttets underskrift ¤Dato:
+.ar off
+:SKRSLUT.

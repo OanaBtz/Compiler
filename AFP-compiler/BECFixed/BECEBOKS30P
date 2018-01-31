@@ -1,0 +1,5 @@
+.*
+.if &L'&MOBSYSNAVN = 0
+.th .se MOBSYSNAVN = 'Mobilbank'
+.if &L'&WEBSYSNAVN = 0
+.th .se WEBSYSNAVN = 'Netbank'

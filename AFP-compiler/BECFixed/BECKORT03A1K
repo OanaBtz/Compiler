@@ -1,0 +1,68 @@
+:GL.
+.sp 3
+.in 1
+.*:FED.
+.*.br
+.*INTERNATIONALT KORT
+.*.br
+.*INDDRAGET I ATM
+.*:SKRSLUT.
+:EGL.
+:NY.
+:COUR10.
+:ENY.
+:GL.
+.sp 3
+:EGL.
+:NY.
+.sp 30.5mm
+:ENY.
+Vedlagte kort
+.sp
+:GL.
+.in 6
+.ll 35
+:EGL.
+:NY.
+.in 16mm
+.ll 76mm
+:ENY.
+.*.sx /Regnr.  :/ /&GENREGNR2
+.* Regnr.  : ...........&GENREGNR2
+.*.br
+Kortnr. : &GENKTNR3
+.* Kortnr. : .........&GENKTNR3
+.ll
+.sp
+.in 1
+:NY.
+.in 0mm
+:ENY.
+.if &L'&GENIND gt 0
+.an &L'&GENINDKL1 gt 0
+.th er inddraget den &GENIND kl. &GENINDKL1 i pengeautomaten i
+.if &L'&GENIND eq 0
+.an &L'&GENINDKL1 eq 0
+.th er inddraget i pengeautomaten i
+.if &L'&GENIND gt 0
+.an &L'&GENINDKL1 eq 0
+.th er inddraget den &GENIND i pengeautomaten i
+.if &L'&GENIND eq 0
+.an &L'&GENINDKL1 gt 0
+.th er inddraget kl. &GENINDKL1 i pengeautomaten i
+.sp
+:GL.
+.in 6
+:EGL.
+:NY.
+.in 16mm
+:ENY.
+&BKNAVN
+.br
+&BKAFD
+.br
+&BKADR
+.br
+&BKBY
+.sp
+.in 7

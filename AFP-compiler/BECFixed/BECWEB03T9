@@ -1,0 +1,88 @@
+:SWISS8.
+.******************************************
+.if &L'&WEBHBORS gt 0
+.th .go BORS5
+.el .go MARKED3
+...BORS5
+.kp on
+:SWISS8.
+:FED.3.&taeller2..6 Afbrydelse af kundens adgang:SKRSLUT.
+.sp 3mm
+3.&taeller2..6.1 &BANKNAVN forbeholder sig ret til uden ansvar frit
+og til enhver tid at afbryde kundens adgang til at foretage
+børshandel. &BANKNAVN forbeholder sig endvidere ret til at
+kontrollere de hos kunden installerede tekniske systemer og
+dataforbindelser, samt alle øvrige forhold der kan have betydning for
+børshandlen.
+.sp 3mm
+.kp off
+.kp on
+3.&taeller2..6.2 Afbrydes kundens adgang, er &BANKNAVN berettiget,
+men ikke forpligtet, til at slette afgivne ordrer.
+Ønsker kunden at sikre sig, at afgivne ordrer slettes,
+skal der ske særskilt henvendelse til &BANKNAVN herom. Slettede
+ordrer skal, såfremt dette ønskes, afgives på ny når/hvis
+adgangen retableres. I tilfælde af, at en ordre på afbrydelsestidspunktet
+er delhandlet, er &BANKNAVN berettiget til at afregne den
+handlede del af ordren og slette restordren, såfremt dette er muligt.
+.sp 3mm
+.kp off
+.kp on
+:FED.3.&taeller2..7 Åbningstider, tidsfrister, handelsomkostninger mv. for
+børshandel :SKRSLUT.
+.sp 3mm
+3.&taeller2..7.1 Med hensyn til handelsomkostninger, åbningstider,
+tidsfrister mv. for børshandel
+henvises der til bilag vedrørende
+handelsomkostninger, åbningstider, tidsfrister mv.
+.if &L'&WEBHMARKED gt 0
+.or &L'&WEBHLIMIT gt 0
+.or &L'&WEBHGNS gt 0
+.or &L'&WEBHUDL gt 0
+.th .sp 3mm
+.el .sp 5mm
+.kp off
+...MARKED3
+.if &L'&WEBHMARKED gt 0
+.th .go MARKED4
+.el .go LIMIT1
+...MARKED4
+.kp on
+:FED.3.&taeller3. &WEBHMARKED
+:SKRSLUT.
+.sp 3mm
+3.&taeller3..1 Kunden har mulighed for elektronisk at indlægge ordrer om
+køb og salg af værdipapirer til markedskurs. Kunden kan fastsætte en
+fremtidig dato, på hvilken ordren ønskes afregnet. &BANKNAVN er
+berettiget til diskretionært at indskrænke kundens adgang til indlæggelse
+af ordrer om køb og salg til markedskurs for så vidt angår visse
+værdipapirer.
+.sp 3mm
+.kp off
+.kp on
+3.&taeller3..2 For markedsordrer henvises til/gælder afsnittet om
+markedsordrer i &BANKNAVN.s forretningsbetingelser for
+handel med finansielle instrumenter,
+som kunden har fået udleveret.
+.sp 3mm
+.kp off
+.kp on
+3.&taeller3..3 &BANKNAVN er ikke forpligtet til at afregne
+markedsordrer, såfremt værdipapiret ikke kan erhverves eller
+afhændes i markedet.
+.sp 3mm
+.kp off
+.kp on
+:FED.3.&taeller3..4 Kontrol:SKRSLUT.
+.sp 3mm
+3.&taeller3..4.1 Kunden opfordres efter afgivelse af ordrer til at
+kontrollere
+oversigten "Uafviklede handler" med henblik på at sikre, at ordren er
+korrekt registreret. Kunden
+skal kontrollere indholdet af de notaer, &BANKNAVN gør
+tilgængelige for kunden elektronisk eller i papirform. Kunden skal uden
+ophold gøre &BANKNAVN opmærksom på, hvis en
+nota ikke er i overensstemmelse med den afgivne ordre.
+.sp 3mm
+.kp off
+...LIMIT1

@@ -1,0 +1,434 @@
+.**************************************************************************
+.* SLUTNING AF TEKST TIL AFSNIT 6 - Valuta-delen...... for kreditter
+.**************************************************************************
+.*.kp on
+.if &U'&REVOLV = J
+.th .go VALKX
+.if &L'&GENEXVAL > 0
+.th .go VALUV
+.el .go VALKX
+...VALUV
+.if &U'&LÅNKRED = K
+.th .go VALKRE
+.el .go VALKX
+.************************************
+.if &L'&BEVOVTSUM > 0
+.th .go BVKTXT
+.************************************
+...VALKRE
+.if &L'&INDFRIDATO > 0
+.an &L'&AFVBEL01 > 0
+.an &L'&AFVBEL02 > 0
+.an &L'&AFVBEL03 > 0
+.th .go VLAFV3
+.******************
+.if &L'&INDFRIDATO > 0
+.an &L'&AFVBEL01 > 0
+.an &L'&AFVBEL02 > 0
+.an &L'&AFVBEL03 = 0
+.th .go VLAFV2
+.******************
+.if &L'&INDFRIDATO > 0
+.an &L'&AFVBEL01 > 0
+.an &L'&AFVBEL02 = 0
+.an &L'&AFVBEL03 = 0
+.th .go VLAFV1
+.******************
+.if &L'&INDFRIDATO > 0
+.th .go VAKIND
+.******************
+.if &L'&AFVBEL01 = 0
+.an &L'&AFVBEL02 = 0
+.an &L'&AFVBEL03 = 0
+.th .go VKTX
+.************************************
+.if &L'&AFVBEL01 > 0
+.an &L'&AFVBEL02 > 0
+.an &L'&AFVBEL03 > 0
+.th .go VKT123
+.************************************
+.if &L'&AFVBEL01 > 0
+.an &L'&AFVBEL02 > 0
+.an &L'&AFVBEL03 = 0
+.th .go VKT12
+.************************************
+.if &L'&AFVBEL01 > 0
+.an &L'&AFVBEL02 = 0
+.an &L'&AFVBEL03 = 0
+.th .go VKT1
+.************************************
+...BVKTXT
+ydelser på
+:VS. &KRERTE01
+&GENVAL. skulle betale yderligere
+:VS. &KRERTETVL1
+&GENEXVAL..
+.go VKTX
+.************************************
+...VAKIND
+.ct  ydelser skulle betale yderligere
+:VS. &KRERTETVL1
+&GENEXVAL. hvert kvartal.
+.kp off
+.go VKTX
+.************************************
+...VLAFV1
+ydelser på
+:VS. &KRERTE01
+&GENVAL. skulle betale yderligere
+:VS. &KRERTETVL1
+&GENEXVAL. hvert kvartal og for
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dine
+ydelser på
+:VS. &AFVBEL01
+&GENVAL. skulle betale yderligere
+:VS. &AFVTILV01
+&GENEXVAL. hver
+.if x&AFVFREK01 = x01
+.th måned.
+.if x&AFVFREK01 = x03
+.th .ct t kvartal.
+.if x&AFVFREK01 = x04
+.th 2. måned.
+.if x&AFVFREK01 = x06
+.th .ct t halvår.
+.if x&AFVFREK01 = x07
+.th uge.
+.if x&AFVFREK01 = x09
+.th .ct t år.
+.if x&AFVFREK01 = x14
+.th 14. dag.
+.if x&AFVFREK01 = x15
+.th den 15. og sidste i måneden.
+.kp off
+.go VKTX
+.************************************
+...VLAFV2
+ydelser på
+:VS. &KRERTE01
+&GENVAL. skulle betale yderligere
+:VS. &KRERTETVL1
+&GENEXVAL. hvert kvartal og for
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dine
+ydelser på
+:VS. &AFVBEL01
+&GENVAL. skulle betale yderligere
+:VS. &AFVTILV01
+&GENEXVAL. hver
+.if x&AFVFREK01 = x01
+.th måned
+.if x&AFVFREK01 = x03
+.th .ct t kvartal
+.if x&AFVFREK01 = x04
+.th 2. måned
+.if x&AFVFREK01 = x06
+.th .ct t halvår
+.if x&AFVFREK01 = x07
+.th uge
+.if x&AFVFREK01 = x09
+.th .ct t år
+.if x&AFVFREK01 = x14
+.th 14. dag
+.if x&AFVFREK01 = x15
+.th den 15. og sidste i måneden
+.*******************************
+.ct , og for
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dine
+ydelser på
+:VS. &AFVBEL02
+&GENVAL. skulle betale yderligere
+:VS. &AFVTILV02
+&GENEXVAL. hver
+.if x&AFVFREK02 = x01
+.th måned.
+.if x&AFVFREK02 = x03
+.th .ct t kvartal.
+.if x&AFVFREK02 = x04
+.th 2. måned.
+.if x&AFVFREK02 = x06
+.th .ct t halvår.
+.if x&AFVFREK02 = x07
+.th uge.
+.if x&AFVFREK02 = x09
+.th .ct t år.
+.if x&AFVFREK02 = x14
+.th 14. dag.
+.if x&AFVFREK02 = x15
+.th den 15. og sidste i måneden.
+.kp off
+.go VKTX
+.************************************
+...VLAFV3
+ydelser på
+:VS. &KRERTE01
+&GENVAL. skulle betale yderligere
+:VS. &KRERTETVL1
+&GENEXVAL. hvert kvartal og for
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dine
+ydelser på
+:VS. &AFVBEL01
+&GENVAL. skulle betale yderligere
+:VS. &AFVTILV01
+&GENEXVAL. hver
+.if x&AFVFREK01 = x01
+.th måned
+.if x&AFVFREK01 = x03
+.th .ct t kvartal
+.if x&AFVFREK01 = x04
+.th 2. måned
+.if x&AFVFREK01 = x06
+.th .ct t halvår
+.if x&AFVFREK01 = x07
+.th uge
+.if x&AFVFREK01 = x09
+.th .ct t år
+.if x&AFVFREK01 = x14
+.th 14. dag
+.if x&AFVFREK01 = x15
+.th den 15. og sidste i måneden
+.*******************************
+.ct , og for
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dine
+ydelser på
+:VS. &AFVBEL02
+&GENVAL. skulle betale yderligere
+:VS. &AFVTILV02
+&GENEXVAL. hver
+.if x&AFVFREK02 = x01
+.th måned
+.if x&AFVFREK02 = x03
+.th .ct t kvartal
+.if x&AFVFREK02 = x04
+.th 2. måned
+.if x&AFVFREK02 = x06
+.th .ct t halvår
+.if x&AFVFREK02 = x07
+.th uge
+.if x&AFVFREK02 = x09
+.th .ct t år
+.if x&AFVFREK02 = x14
+.th 14. dag
+.if x&AFVFREK02 = x15
+.th den 15. og sidste i måneden
+.*******************************
+.ct , og for
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dine
+ydelser på
+:VS. &AFVBEL03
+&GENVAL. skulle betale yderligere
+:VS. &AFVTILV03
+&GENEXVAL. hver
+.if x&AFVFREK03 = x01
+.th måned.
+.if x&AFVFREK03 = x03
+.th .ct t kvartal.
+.if x&AFVFREK03 = x04
+.th 2. måned.
+.if x&AFVFREK03 = x06
+.th .ct t halvår.
+.if x&AFVFREK03 = x07
+.th uge.
+.if x&AFVFREK03 = x09
+.th .ct t år.
+.if x&AFVFREK03 = x14
+.th 14. dag.
+.if x&AFVFREK03 = x15
+.th den 15. og sidste i måneden.
+.kp off
+.go VKTX
+.************************************
+...VKT123
+ydelser på
+:VS. &KRERTE01
+&GENVAL. skulle betale yderligere
+:VS. &KRERTETVL1
+&GENEXVAL. hvert kvartal og for
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dine
+ydelser på
+:VS. &AFVBEL01
+&GENVAL. skulle betale yderligere
+:VS. &AFVTILV01
+&GENEXVAL. hver
+.if x&AFVFREK01 = x01
+.th måned,
+.if x&AFVFREK01 = x03
+.th .ct t kvartal,
+.if x&AFVFREK01 = x04
+.th 2. måned,
+.if x&AFVFREK01 = x06
+.th .ct t halvår,
+.if x&AFVFREK01 = x07
+.th uge,
+.if x&AFVFREK01 = x09
+.th .ct t år,
+.if x&AFVFREK01 = x14
+.th 14. dag,
+.if x&AFVFREK01 = x15
+.th den 15. og sidste i måneden,
+.ct  og for
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dine
+ydelser på
+:VS. &AFVBEL02
+&GENVAL. skulle betale yderligere
+:VS. &AFVTILV02
+&GENEXVAL. hver
+.if x&AFVFREK02 = x01
+.th måned.
+.if x&AFVFREK02 = x03
+.th .ct t kvartal.
+.if x&AFVFREK02 = x04
+.th 2. måned.
+.if x&AFVFREK02 = x06
+.th .ct t halvår.
+.if x&AFVFREK02 = x07
+.th uge.
+.if x&AFVFREK02 = x09
+.th .ct t år.
+.if x&AFVFREK02 = x14
+.th 14. dag.
+.if x&AFVFREK02 = x15
+.th den 15. og sidste i måneden.
+.ct  og for
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dine
+ydelser på
+:VS. &AFVBEL03
+&GENVAL. skulle betale yderligere
+:VS. &AFVTILV03
+&GENEXVAL. hver
+.if x&AFVFREK03 = x01
+.th måned.
+.if x&AFVFREK03 = x03
+.th .ct t kvartal.
+.if x&AFVFREK03 = x04
+.th 2. måned.
+.if x&AFVFREK03 = x06
+.th .ct t halvår.
+.if x&AFVFREK03 = x07
+.th uge.
+.if x&AFVFREK03 = x09
+.th .ct t år.
+.if x&AFVFREK03 = x14
+.th 14. dag.
+.if x&AFVFREK03 = x15
+.th den 15. og sidste i måneden.
+.kp off
+.go VKTX
+.******************************************
+...VKT12
+ydelser på
+:VS. &KRERTE01
+&GENVAL. skulle betale yderligere
+:VS. &KRERTETVL1
+&GENEXVAL. hvert kvartal og for
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dine
+ydelser på
+:VS. &AFVBEL01
+&GENVAL. skulle betale yderligere
+:VS. &AFVTILV01
+&GENEXVAL. hver
+.if x&AFVFREK01 = x01
+.th måned,
+.if x&AFVFREK01 = x03
+.th .ct t kvartal,
+.if x&AFVFREK01 = x04
+.th 2. måned,
+.if x&AFVFREK01 = x06
+.th .ct t halvår,
+.if x&AFVFREK01 = x07
+.th uge,
+.if x&AFVFREK01 = x09
+.th .ct t år,
+.if x&AFVFREK01 = x14
+.th 14. dag,
+.if x&AFVFREK01 = x15
+.th den 15. og sidste i måneden,
+.ct  og for
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dine
+ydelser på
+:VS. &AFVBEL02
+&GENVAL. skulle betale yderligere
+:VS. &AFVTILV02
+&GENEXVAL. hver
+.if x&AFVFREK02 = x01
+.th måned.
+.if x&AFVFREK02 = x03
+.th .ct t kvartal.
+.if x&AFVFREK02 = x04
+.th 2. måned.
+.if x&AFVFREK02 = x06
+.th .ct t halvår.
+.if x&AFVFREK02 = x07
+.th uge.
+.if x&AFVFREK02 = x09
+.th .ct t år.
+.if x&AFVFREK02 = x14
+.th 14. dag.
+.if x&AFVFREK02 = x15
+.th den 15. og sidste i måneden.
+.kp off
+.go VKTX
+.******************************************
+...VKT1
+ydelser på
+:VS. &KRERTE01
+&GENVAL. skulle betale yderligere
+:VS. &KRERTETVL1
+&GENEXVAL. hvert kvartal og for
+.if &U'&GENMEDKTOH = J
+.th jeres
+.el dine
+ydelser på
+:VS. &AFVBEL01
+&GENVAL. skulle betale yderligere
+:VS. &AFVTILV01
+&GENEXVAL. hver
+.if x&AFVFREK01 = x01
+.th måned.
+.if x&AFVFREK01 = x03
+.th .ct t kvartal.
+.if x&AFVFREK01 = x04
+.th 2. måned.
+.if x&AFVFREK01 = x06
+.th .ct t halvår.
+.if x&AFVFREK01 = x07
+.th uge.
+.if x&AFVFREK01 = x09
+.th .ct t år.
+.if x&AFVFREK01 = x14
+.th 14. dag.
+.if x&AFVFREK01 = x15
+.th den 15. og sidste i måneden.
+.kp off
+.go VKTX
+.*************************************************
+...VKTX
+.kp on
+.if &U'&GENMEDKTOH = J
+.th .ct Jeres
+.el .ct Dine
+betalinger vil kunne stige mere end dette.
+...VALKX
+.sp 3mm
+.kp off

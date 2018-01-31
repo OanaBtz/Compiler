@@ -1,0 +1,57 @@
+.da HØJRE 177mm 44mm width 20mm
+.da TEKST 15mm 46mm width 210mm
+.da GENT  15mm 59.5mm width 210mm
+.da MIDT 15mm 78.5mm width 210mm
+.da OTTE 46mm 103.5mm width 5mm
+.ti ¤ 05
+.**********************************
+.ar HØJRE on
+:SWISS8.
+.tp 4mm
+O¤= Opret.
+.br
+Æ¤= Ændre
+:SKRSLUT.
+.ar off
+.ar TEKST on
+.**** Her laves teksten i øverste kasse *************************
+:SWISS8.
+.tp 7mm 58mm 89mm
+¤Banksted¤Aftalenr.¤Medlemsnr.
+.br
+.ar off
+.****her laves teksten i den midterste kasse ********************
+.ar GENT on
+:SWISS8.
+.se tab1 = '9mm 18mm 27mm 36mm 45mm 54mm 63mm 72mm 81mm 90mm'
+.se tab2 = '99mm 108mm 117mm 126mm 134mm 144mm 153mm 163mm'
+.tp &tab1 &tab2
+Kode¤Slet¤Kode¤Slet¤Kode¤Slet¤Kode¤Slet¤Kode¤Slet¤Kode¤Slet¤Kode¤Slet¤Kode¤
+Slet¤Kode¤Slet¤Kode¤Slet
+:SKRSLUT.
+.ar off
+.ar MIDT on
+:SWISS8.
+.tp 25mm right 30mm 102mm 131mm
+¤¤¤Alternativ beløb vedligeholdelse:
+.sp 1.5mm
+Antal værelser¤¤¤Indvendig:
+.sp 3.5mm
+Oplysninger BEC-bogføring:¤¤¤Udvendig:
+.sp 4mm
+Bruttoareal
+.br
+¤¤¤Forbrugsafregning:
+.sp 2mm
+Konto indv. vedl.¤¤¤Gammel målerstand
+.sp 13mm
+¤Måned og år
+.sp 3mm
+Beløbskode¤¤Opkrævet¤¤Indbetalt
+.sp 86mm
+¤Totalt
+.ar off
+.ar OTTE on
+:SWISS12.
+8
+.AR OFF

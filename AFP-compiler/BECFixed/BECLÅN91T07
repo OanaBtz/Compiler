@@ -1,0 +1,129 @@
+.**ØVRIGE RÅD *************************************************************
+:FED.
+.*Anden lånemulighed
+:SKRSLUT.
+.*.br
+.if &U'&GENLÅNAMUL = J
+.th .go AMULTX1
+.el .go AMULTX2
+...AMULTX1
+I forbindelse med rådgivningen er &JEG. blevet gjort opmærksom på, at
+&GENALTLN1. kan udgøre et alternativ til den boligkreditaftale, som &JEG.
+har indgået.
+.sp 3mm
+&GENLÅN1. har
+:VS.&GENOPTÅOP.
+årlige omkostninger i procent (ÅOP).
+.sp 3mm
+Det alternative lån har
+:VS.&GENALTÅOP.
+årlige omkostninger i procent (ÅOP).
+.go TXT7EX
+...AMULTX2
+I forbindelse med rådgivningen er der gjort opmærksom på, at
+&BANKNAVN. ikke udbyder et lån, der kan udgøre et alternativ til det
+lån som der er indgået aftale om. Dette skyldes, at der
+ikke kan tilbydes et realkreditlån, og at &BANKNAVN. ikke udbyder
+et relevant alternativt lån.
+.sp 3mm
+&GENLÅN1. har &GENOPTÅOP. % årlige omkostninger i procent (ÅOP).
+...TXT7EX
+.sp 3mm
+.kp off
+.if &U'&GENJANEJ1 = J
+.th .kp on
+.th I forbindelse med rådgivningen har &deblomt. fået vist
+.th beregningseksempler,
+.th der illustrerer, hvor længe gælden ved den valgte afdragsprofil vil
+.th overstige ejendomsværdien (købesummen) ved et prisfald på 15%.
+.th .sp 3mm
+.th .kp off
+.kp on
+Boligkreditgiver har oplyst &dig. om, at rådgivningen ikke er uafhængig
+og kun omfatter de produkter, som boligkreditgiver udbyder.
+.sp 3mm
+.kp off
+.kp on
+.if &U'&GENJANEJ2 = J
+.th Boligkreditgiver anbefaler det valgte lån.
+.el Boligkreditgiver anbefaler ikke det valgte lån men derimod:
+.el .br
+.kp on
+.**BEGRUNDELSE FOR VALG AF LÅNET ******************************************
+.if &L'&LÅNGR1 > 0
+.or &L'&LÅNGR2 > 0
+.or &L'&LÅNGR3 > 0
+.or &L'&LÅNGR4 > 0
+.or &L'&LÅNGR5 > 0
+.or &L'&LÅNGR6 > 0
+.or &L'&LÅNGR7 > 0
+.or &L'&LÅNGR8 > 0
+.or &L'&LÅNGR9 > 0
+.or &L'&LÅNGR10 > 0
+.th .go GRUND
+.el .go ENDGRUND
+...GRUND
+:FED.
+Begrundelse for valget af boligkreditaftalen i lyset af &MIN
+økonomiske situation
+:SKRSLUT.
+.br
+&GENLÅNGR1.&GENLÅNGR2.&GENLÅNGR3.&GENLÅNGR4.&GENLÅNGR5.&GENLÅNGR6.
+.ct &GENLÅNGR7.&GENLÅNGR8.&GENLÅNGR9.&GENLÅNGR10.
+.sp 3mm
+...ENDGRUND
+.kp off
+.kp on
+.**ØVRIGE RÅD *************************************************************
+.if &L'&GENØVRIG1 > 0
+.or &L'&GENØVRIG2 > 0
+.or &L'&GENØVRIG3 > 0
+.or &L'&GENØVRIG4 > 0
+.or &L'&GENØVRIG5 > 0
+.or &L'&GENØVRIG6 > 0
+.or &L'&GENØVRIG7 > 0
+.or &L'&GENØVRIG8 > 0
+.or &L'&GENØVRIG9 > 0
+.or &L'&GENØVRIG10 > 0
+.th .go RAAD
+.el .go ENDRAAD
+...RAAD
+:FED.
+Øvrige råd
+:SKRSLUT.
+.br
+&GENØVRIG1.&GENØVRIG2.&GENØVRIG3.&GENØVRIG4.&GENØVRIG5.&GENØVRIG6.&ÅCONT.
+&GENØVRIG7.&GENØVRIG8.&GENØVRIG9.&GENØVRIG10.
+.sp 5mm
+...ENDRAAD
+.kp off
+.kp on
+.el &GENTEKST51
+.el &GENTEKST52
+.el &GENTEKST53
+.el &GENTEKST54
+.el &GENTEKST55
+.el &GENTEKST56
+.el &GENTEKST57
+.el &GENTEKST58
+.el &GENTEKST59
+.el &GENTEKST60
+.sp 3mm
+.kp off
+.kp on
+Såfremt den valgte boligkreditaftale er i udenlandsk valuta,
+jf. bekendtgørelse om god skik for boligkredit §3 stk. 10,
+skal &du. være opmærksom på, at værdien
+af boligkreditten omregnet til &din. nationale valuta kan ændre sig
+og værdien af det beløb, som &du. skal betale i &din. nationale valuta,
+kan ændre sig.
+.sp 3mm
+I det omfang boligkreditgiver tilbyder at konvertere &din. boligkredit
+til en anden valuta, har &du. ret til at konvertere boligkreditten til en
+anden valuta eller efter aftale med boligkreditgiver at etablere en
+anden ordning, som kan begrænse &din. valutarisiko. &sdu. kan til enhver
+tid få oplyst af boligkreditgiver, om denne tilbyder at konvertere
+&din. boligkredit til en anden valuta.
+.sp 3mm
+.kp off
+.*******

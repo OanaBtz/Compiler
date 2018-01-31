@@ -1,0 +1,148 @@
+.kp on
+:SWISS8.
+:FED.
+Konto
+:SKRSLUT.
+.br
+Konto, hvorpå transaktioner i forbindelse med &DIT Visa
+hæves. Hver gang &DU bruger &DIT kort registreres
+transaktionen på kontoen.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Forbrugs- og hævemaksimum
+:SKRSLUT.
+.br
+Det maksimale beløb &DU. kan disponere over.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Gebyrperiode
+:SKRSLUT.
+.br
+Kortgebyr opkræves årligt. Gebyrperioden starter ved kortets
+udstedelse.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Kvittering
+:SKRSLUT.
+.br
+Oplysninger om en betaling på papir eller i elektronisk form.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Transaktion
+:SKRSLUT.
+.br
+En transaktion er, når &DU. enten betaler med kortet, f.eks. i en
+butik eller lignende, eller når &DU. hæver kontanter i en
+pengeautomat.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Nets (i det følgende benævnt Nets)
+:SKRSLUT.
+.br
+Indløserorganisation for Visa.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Pinkode
+:SKRSLUT.
+.br
+Den 4-cifrede personlige kode, der er knyttet til &DIT. kort.
+.br
+Én pinkode: Pinkode, som &DU. har valgt at bruge som fælles pinkode
+fra et af &DINE. andre fysiske
+betalingskort, der er udstedt af &BANKNAVN., hvis &BANKNAVN.
+giver mulighed herfor.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Verified by Visa
+:SKRSLUT.
+.br
+Et sikkerhedssystem, som beskytter mod misbrug af kortdata ved
+handel på internettet.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Engangskode
+:SKRSLUT.
+.br
+En kode kortindehaver modtager via sms til den tilmeldte
+mobiltelefon. Koden skal anvendes ved fremtidige køb i
+forretninger, der anvender Verified by Visa.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+NemID
+:SKRSLUT.
+.br
+NemID er en digital signatur. Der skelnes teknisk mellem Bank NemID og
+OCES NemID, men &DU. kan anvende begge typer til at tilmelde
+&DIG. Verified by Visa.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Prisliste
+:SKRSLUT.
+.br
+Prislisten: Den liste over gebyrer m.v., der til enhver tid
+gælder. Se på &BANKNAVN.s hjemmeside.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Datacentral
+:SKRSLUT.
+.br
+Den EDB central, der leverer IT-ydelser til &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Kontaktløs betaling
+:SKRSLUT.
+.br
+Kort med indbygget antenne, som er forbundet med kortets chip, gør
+det muligt at foretage betaling, uden at kortet kommer i direkte
+kontakt med betalingsterminalen, hvis betalingsterminalen også har
+kontaktløs funktion.
+.br
+&SDU. kan nøjes med at holde kortet i en afstand af 0-3 cm fra
+betalingsterminalens kontaktløse symbol. Kort og
+betalingsterminaler, der er forsynet med den kontaktløse funktion,
+bærer symbolet ))) på forsiden.
+.sp 5mm
+.kp off
+.kp on
+:FED.
+Wallet til brug i fysisk handel
+:SKRSLUT.
+.br
+En personlig softwarebaseret løsning, der giver &DIG. mulighed for at
+foretage betalinger med et Visa Debit på mobil i fysisk handel.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Digital wallet
+:SKRSLUT.
+.br
+En personlig softwarebaseret løsning, hvor &DU. registrerer &DINE.
+kortoplysninger til brug for fremtidige køb i internetforretning.
+.sp 5mm
+.kp off
+.**************************************************************************

@@ -1,0 +1,20 @@
+:GL.
+.da INDH 5 21 width 72
+:EGL.
+:NY.
+.da INDH 8 22 width 67
+:ENY.
+.ar INDH on
+Ifølge aftale fremsender vi et nyt budgetskema til &DIN Budgetservice,
+kontonr. &KTONR.. &SDU bedes bemærke, at overførslen er ændret fra
+kr. &BECBELOB4. til kr. &BECBELOB5.. Det nye beløb bliver første gang
+trukket fra &DIN konto nr. &BECKONTO02. den &BECDATO1..
+.sp
+Har &DU spørgsmål til budgettet, er &DU velkommen til at kontakte
+&EKSPNAVN..
+.if &L'&BECTEKST1 > 0
+.th .sp
+&BECTEKST1.
+&BECTEKST2.
+&BECTEKST3.
+&BECTEKST4.

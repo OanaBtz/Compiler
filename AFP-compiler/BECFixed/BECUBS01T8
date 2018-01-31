@@ -1,0 +1,80 @@
+.sp 3mm
+.kp off
+.kp on
+The creditor bears the risk in relation to the customer if the
+payment is delayed or erroneous. As a result, the creditor may not
+rely on any remedies for breach of contract against the customer.
+.sp 3mm
+.kp off
+.kp on
+In order to remain entitled to raise objections, the customer must
+contact &BANKNAVN as soon as possible after having ascertained
+that an electronic notification has not been received as described
+in clause 3, or having detected defects in his or her equipment
+preventing the customer from receiving the payment information
+electronically.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+6. Amendment to the rules
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+Any amendment to these rules is subject to one month's written
+notice. Material amendments are subject to three months' written
+notice.
+.sp 5mm
+.kp off
+...NEJTIL2
+.if X&GENVALG = X1
+.th .go NEJTIL2
+.**************************************************************************
+.kp on
+:SWISS10.
+:FED.
+4. Termination
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+If the customer's &WEBSYSNAVN. agreement is terminated, the
+registration agreement for the receipt of electronic payment
+information is deemed to have been terminated.
+.sp 3mm
+.kp off
+.kp on
+The customer will then receive the list of payments in paper form
+unless the customer's account with &BANKNAVN has been closed to
+the effect that the entire registration agreement is deemed to
+have been terminated.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+5. Errors, delays, etc.
+:SKRSLUT.
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+In the event of errors or delays in connection with electronic
+payment information, and such errors or delays have been caused by
+the banks involved or Nets, the banks or Nets must remedy the error
+or reprovide the service if possible without financial
+consequences that are disproportionate to the agreed service.
+.sp 3mm
+.kp off
+.kp on
+The bank is liable for direct losses inflicted on the customer due
+to negligence on the part of the banks involved or Nets. This does
+not apply where such losses are due to the customer's own affairs,
+including defects in the customer's own equipment such as
+computers, programmes and modem. Neither the bank nor Nets incurs
+liability if losses are due to the affairs of a provider chosen by
+the customer, such as a telecom company or an Internet provider.
+.sp 3mm
+.kp off
+.kp on
+Neither the banks involved nor Nets are liable for indirect loss.

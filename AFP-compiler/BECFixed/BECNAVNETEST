@@ -1,0 +1,3 @@
+.* ændring af banknavn til at følge banksteds-banknavn
+.if &L'&BANKNAVN GT 0
+.th .se BANKNAVN = '&AFDBNKNAVN.'

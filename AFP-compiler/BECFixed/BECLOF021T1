@@ -1,0 +1,31 @@
+.********************AREAL-DEFINITIONER************************************
+.*Faktura
+.da FAKT 20mm 82mm width 160mm
+.********** Faktura/Kreditnota for aftale (1. aftale ved Samlefaktura) ****
+.ar FAKT on
+.tp 107mm 157mm right
+Samlet opkrævning ekskl. moms¤kr.¤&AFTALESUM.
+.br
+Samlet moms &MOMSPCT.%¤kr.¤&MOMS.
+.if &L'&ACONTOBLB > 0
+.th .br
+.th Samlet betalt aconto¤kr.¤&ACONTOBLB.
+.hr 107mm 157mm
+.br
+.if &U'&GENVALGA = F
+.th I alt samlefaktura¤kr.¤&FAKTSUM.
+.if &U'&GENVALGA = K
+.th I alt kreditnota¤kr.¤&FAKTSUM.
+.sp
+.if &L'&MOMSFRA = 0
+.th .go CONT1
+Samlet momsfradrag jf. ML P42
+.br
+for så vidt angår hvidpladebiler¤kr.¤&MOMSFRA.
+.sp
+...CONT1
+.sp
+De med * markerede beløb er momsfri.
+.br
+Ved betaling efter forfald opkræves morarenter jf. kontrakterne.
+.sp

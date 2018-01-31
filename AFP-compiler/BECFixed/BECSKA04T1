@@ -1,0 +1,132 @@
+.kp on
+:SWISS10.
+:FED.
+1. Brugen af kommandoerne .kp on og .kp off
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+:FED.
+For at sammenholde en overskrift med tilhørende tekst
+skrives kommandoerne ".kp on" og ".kp off" om de linier, der skal
+sammenholdes. Det gælder også det mellemrum ".sp 3mm eller .sp 5mm",
+der skal sammenholdes med teksten.
+:SKRSLUT.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+1.1 Brugen af kommandoen .kp x
+.sp 3mm
+Hvis man fx benytter kommandoen ".kp 4" betyder det, at de næste
+4 linier skal sammenholdes. Ved denne kommando benyttes
+IKKE nogen slutkommando ".kp off".
+:SKRSLUT.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+2. Brugen af skrifttyper
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+:FED.
+Den skrifttype, der er placeret øverst i o-afsnittet under GENEREL
+OPSÆTNING kaldes den overordnede skrifttype. Det er den overordnede
+skrifttype, der anvendes, når der IKKE skrives nogen skrifttype ind mellem
+kommandoerne ".kp on" og ".kp off".
+.sp 3mm
+Hvis man ønsker at benytte en anden skrifttype end den overordnede
+skrifttype, skrives den ind efter kommandoen ".kp on", den er så kun
+aktiv inden for dette afsnit. Derefter benyttes igen den overordnede
+skrifttype.
+.sp 3mm
+Man kan sige, at skrifttyper, der er placeret mellem kommandoerne
+".kp on" og ".kp off",
+virker som hvis de var placeret inden for arealer.
+:SKRSLUT.
+.sp 5mm
+.kp off
+:SKRSLUT.
+.kp on
+:SWISS10.
+:FED.
+3. Overskrift til punkt 3
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+Her skrives tekst til punkt 3. Her skrives tekst til punkt 3.
+Her skrives tekst til punkt 3. Her skrives tekst til punkt 3.
+Her skrives tekst til punkt 3. Her skrives tekst til punkt 3.
+Her skrives tekst til punkt 3. Her skrives tekst til punkt 3.
+Her skrives tekst til punkt 3. Her skrives tekst til punkt 3.
+Her skrives tekst til punkt 3.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+3.1 Overskrift til punkt 3.1
+:SKRSLUT.
+.sp 3mm
+Her skrives tekst til punkt 3.1. Her skrives tekst til punkt 3.1.
+Her skrives tekst til punkt 3.1. Her skrives tekst til punkt 3.1.
+Her skrives tekst til punkt 3.1. Her skrives tekst til punkt 3.1.
+Her skrives tekst til punkt 3.1. Her skrives tekst til punkt 3.1.
+Her skrives tekst til punkt 3.1. Her skrives tekst til punkt 3.1.
+Her skrives tekst til punkt 3.1.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+3.2 Overskrift til punkt 3.2
+:SKRSLUT.
+.sp 3mm
+Her skrives tekst til punkt 3.2. Her skrives tekst til punkt 3.2.
+Her skrives tekst til punkt 3.2. Her skrives tekst til punkt 3.2.
+Her skrives tekst til punkt 3.2. Her skrives tekst til punkt 3.2.
+Her skrives tekst til punkt 3.2. Her skrives tekst til punkt 3.2.
+Her skrives tekst til punkt 3.2. Her skrives tekst til punkt 3.2.
+Her skrives tekst til punkt 3.2.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+4. Overskrift til punkt 4
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+Her skrives tekst til punkt 4. Her skrives tekst til punkt 4.
+Her skrives tekst til punkt 4. Her skrives tekst til punkt 4.
+Her skrives tekst til punkt 4. Her skrives tekst til punkt 4.
+Her skrives tekst til punkt 4. Her skrives tekst til punkt 4.
+Her skrives tekst til punkt 4. Her skrives tekst til punkt 4.
+Her skrives tekst til punkt 4.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+4.1 Overskrift til punkt 4.1
+:SKRSLUT.
+.sp 3mm
+Her skrives tekst til punkt 4.1. Her skrives tekst til punkt 4.1.
+Her skrives tekst til punkt 4.1. Her skrives tekst til punkt 4.1.
+Her skrives tekst til punkt 4.1. Her skrives tekst til punkt 4.1.
+Her skrives tekst til punkt 4.1. Her skrives tekst til punkt 4.1.
+Her skrives tekst til punkt 4.1. Her skrives tekst til punkt 4.1.
+Her skrives tekst til punkt 4.1.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+4.2 Overskrift til punkt 4.2
+:SKRSLUT.
+.sp 3mm
+Her skrives tekst til punkt 4.2. Her skrives tekst til punkt 4.2.
+Her skrives tekst til punkt 4.2. Her skrives tekst til punkt 4.2.
+Her skrives tekst til punkt 4.2. Her skrives tekst til punkt 4.2.
+Her skrives tekst til punkt 4.2. Her skrives tekst til punkt 4.2.
+Her skrives tekst til punkt 4.2. Her skrives tekst til punkt 4.2.
+Her skrives tekst til punkt 4.2.
+.sp 5mm
+.kp off

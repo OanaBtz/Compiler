@@ -1,0 +1,187 @@
+.kp on
+:SWISS8.
+:FED.
+Forfaldsdag
+:SKRSLUT.
+.br
+Den dag, beløbet hæves på den løbende konto.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Kortkonto
+:SKRSLUT.
+.br
+Konto, hvorpå transaktioner i forbindelse med &DIT MasterCard opsamles.
+Hver gang &DU bruger &DIT kort registreres transaktionen på kortkontoen.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Løbende konto
+:SKRSLUT.
+.br
+&SDIN konto i &BANKNAVN., hvorpå afviklingen af &DIT MasterCard forbrug kan
+hæves en gang om måneden.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Saldo
+:SKRSLUT.
+.br
+Størrelsen af &DIT mellemværende med &BANKNAVN. på kortkontoen (det trukne
+beløb).
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Kreditmaksimum
+:SKRSLUT.
+.br
+Det maksimale beløb &DU kan trække på
+&DIN kortkonto, hvis det er aftalt, at
+saldoen kan betales delvist hver måned, idet der til kortkontoen kan være
+knyttet en kreditaftale.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Forbrugsmaksimum
+:SKRSLUT.
+.br
+Det maksimale beløb, der kan trækkes på kortet, hvis det er aftalt, at hele
+saldoen betales hver måned på forfaldsdatoen.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Opsamlingsperiode
+:SKRSLUT.
+.br
+Perioden mellem to faktureringsdatoer hvor &DIT forbrug m.m. opsamles på
+kortkontoen.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Gebyrperiode
+:SKRSLUT.
+.br
+Kortgebyr opkræves årligt. Gebyrperioden starter ved kortkontoens
+oprettelse.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Overtræksrente
+:SKRSLUT.
+.br
+En rente, der beregnes af den del af saldoen, der overskrider det fastsatte
+forbrugsmaksimum/kreditmaksimum, eller af et beløb, som ikke er betalt på
+forfaldsdagen.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Nets (i det følgende benævnt Nets)
+:SKRSLUT.
+.br
+Indløserorganisation for MasterCard.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Pinkode
+:SKRSLUT.
+.br
+Den 4-cifrede personlige kode, der er knyttet til &DIT. kort.
+.br
+Én pinkode: Pinkode, som &DU. har valgt at bruge som fælles
+pinkode, fra et af &DINE. andre fysiske betalingskort,
+der er udstedt af &BANKNAVN., hvis &BANKNAVN.
+giver mulighed herfor.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+MasterCard SecureCode
+:SKRSLUT.
+.br
+Et sikkerhedssystem, som beskytter mod misbrug af kortdata ved
+handel på internettet.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Engangskode
+:SKRSLUT.
+.br
+En kode kortindehaver modtager via sms til den tilmeldte
+mobiltelefon. Koden skal anvendes ved fremtidige køb i
+forretninger, der anvender MasterCard SecureCode.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+NemID
+:SKRSLUT.
+.br
+NemID er en digital signatur. Der skelnes teknisk mellem Bank NemID og
+OCES NemID, men &DU. kan anvende begge typer til at tilmelde
+&DIG. MasterCard SecureCode.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Prisliste
+:SKRSLUT.
+.br
+Den til enhver tid gældende oversigt over årlige kortafgifter, rentesatser,
+gebyrer m.v. for MasterCard, som &DU kan få udleveret i &BANKNAVN
+eller evt. se på &BANKNAVN.s hjemmeside.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Datacentral
+:SKRSLUT.
+.br
+Den EDB central, der leverer IT-ydelser til &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Kontaktløs betaling
+:SKRSLUT.
+.br
+Kort med indbygget antenne, som er forbundet med kortets chip, gør
+det muligt at foretage betaling, uden at kortet kommer i direkte
+kontakt med betalingsterminalen, hvis betalingsterminalen også har
+kontaktløs funktion.
+.br
+&SDU. kan nøjes med at holde kortet i en afstand af 0-3 cm fra
+betalingsterminalens kontaktløse symbol. Kort og
+betalingsterminaler, der er forsynet med den kontaktløse funktion,
+bærer symbolet ))) på forsiden.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Wallet til brug i fysisk handel
+:SKRSLUT.
+.br
+En personlig softwarebaseret løsning, der giver &DIG. mulighed for at
+foretage betalinger med et MasterCard på mobil i fysisk handel.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+Digital wallet
+:SKRSLUT.
+.br
+En personlig softwarebaseret løsning, hvor &DU. registrerer &DINE.
+kortoplysninger til brug for fremtidige køb i internetforretning.
+.sp 5mm
+.kp off
+.**************************************************************************

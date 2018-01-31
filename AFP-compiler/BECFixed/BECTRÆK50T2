@@ -1,0 +1,97 @@
+:FED.
+Beløb
+:SKRSLUT.
+.br
+Debitor har af &BANKNAVN. fået tilsagn om en midlertidig trækningsret på
+&MIDLTRÆK. kr. (kreditrammen).
+.sp 5mm
+:FED.
+Afvikling
+:SKRSLUT.
+.br
+Kreditrammen indestår uden nedbringelse indtil &AFTDATO10., hvor
+kreditten skal indfries.
+.sp 5mm
+:FED.
+Rente og omkostninger
+:SKRSLUT.
+.br
+Renter og omkostninger fastsættes til enhver tid af
+&BANKNAVN..
+.br
+Den årlige rente er variabel og udgør p.t. &RENTE. %.
+.br
+Det svarer til en årlig debitorrente på p.t. &GENÅRNOMRE. % (årlig rente
+inklusive rentes rente).
+.br
+Renten beregnes dagligt af den udnyttede kreditramme og tilskrives
+.*afviklingsfrekvens******
+.if &RTEFREK01 = 1
+.th hver måned,
+.if &RTEFREK01 = 3
+.th hvert kvartal,
+.if &RTEFREK01 = 4
+.th hver 2. måned,
+.if &RTEFREK01 = 6
+.th hvert halvår,
+.if &RTEFREK01 = 7
+.th hver uge,
+.if &RTEFREK01 = 9
+.th hvert år,
+.if &RTEFREK01 = 14
+.th hver 14. dag,
+.if &RTEFREK01 = 15
+.th hver den 15. og sidste i måneden,
+næste gang den &AFVDATO01..
+.sp 5mm
+:FED.
+Det samlede kreditbeløb
+:SKRSLUT.
+.br
+.tp 114mm 144mm
+Det samlede beløb, som stilles til disposition:¤Beløb i kroner
+.ct ¤Beløb i kroner
+.sp 3mm
+.tp 8mm 130mm char , 160mm char ,
+.dr tynd weight 0.1mm
+¤Kreditrammen¤¤&MIDLTRÆK.
+.br
+¤Ekspeditionsgebyr¤&GENEKSPGEB.
+.sp 3mm
+¤I alt hæves på kreditten¤¤&GENEKSPGEB.
+.br
+¤Til disposition¤¤&RESULTA.
+.sp 5mm
+:FED.
+De samlede omkostninger, som skal betales
+:SKRSLUT.
+.br
+.tp 114mm
+.*¤Beløb i kroner
+.tp 8mm 130mm char , 160mm char ,
+¤Renter i hele kreditaftalens løbetid¤&RTNLBTID.
+.br
+¤Stiftelsesomkostninger:
+.br
+¤  Ekspeditionsgebyr¤&GENEKSPGEB.
+.*hr tynd 136mm 166mm
+.br
+¤Samlede omkostninger¤¤&TOTKREOMK.
+.*hr tynd 136mm 166mm
+.sp 3mm
+De samlede omkostninger, som skal betales, er beregnet ud fra 100 %
+udnyttelse af kreditaftalen, gældende rente og omkostninger på tidspunktet
+for indgåelsen af kreditaftalen. Beløbet vil variere ved ændringer heri.
+.sp 3mm
+De årlige omkostninger i procent (ÅOP) udgør p.t. &ÅOP. % under følgende
+antagelser:
+.br
+At det samlede kreditbeløb udnyttes i sin helhed og for kreditaftalens
+fulde løbetid. Nutidsværdien af alle fremtidige og eksisterende
+forpligtelser, tilbagebetaling af kreditbeløbet og de samlede omkostninger
+i forbindelse med kreditaftalen som fastsat i kreditaftalen, at
+kreditaftalen forbliver gyldig i det aftalte tidsrum, og at alle parter
+opfylder deres forpligtelser på de vilkår og datoer, der er angivet i
+kreditaftalen. De årlige omkostninger i procent er beregnet ud fra den
+antagelse, at renten er konstant i forhold til udgangspunktet og finder
+anvendelse, indtil kreditaftalen udløber.

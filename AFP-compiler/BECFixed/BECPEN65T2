@@ -1,0 +1,114 @@
+.**************************************************************************
+.** midlertidige parametre ************************************************
+.**************************************************************************
+.if &PENFREKV1 = 9
+.th .se frek = 'årligt'
+.if &PENFREKV1 = 6
+.th .se frek = 'halvårligt'
+.if &PENFREKV1 = 3
+.th .se frek = 'pr. kvartal'
+.if &PENFREKV1 = 1
+.th .se frek = 'månedligt'
+.if &PENFREKV1 = 14
+.th .se frek = 'pr. 14. dag'
+.**************************************************************************
+.if &U'&PENTYPE = F
+.or &U'&PENTYPE = E
+.or &U'&PENTYPE = B
+.th .se enhed = 'kr.'
+.if &U'&PENTYPE = F
+.or &U'&PENTYPE = E
+.or &U'&PENTYPE = B
+.th .se enhedsl = 'kr'
+.**************************************************************************
+.da INDBPRIFAST 21mm 102.2mm width 170mm
+.**************************************************************************
+.ar INDBPRIFAST on
+.**************************************************************************
+.*Aldersopsparing - arbejdsgiver skal fungere som i BECPEN20 *
+.*Og der er følgende mulige varianter:
+.*Ingen Indbetaling - PENTYPE = 'H'
+.*Løbende indbetaling (fast) og/eller et engangsindskud i kr. = PENTYPE 'B'
+.*Og hvis der kun er tale om et engangsindskud, så er PENTYPE = 'E'
+.**************************************************************************
+.**INGEN INDBETALINGER **(type H)- start***********************************
+.if &U'&PENTYPE = H
+.th I forbindelse med, at aftalen er indgået, er det aftalt, at
+.th der ikke indbetales på aldersopsparingen.
+.th .go INDEXI
+.**INGEN INDBETALINGER **(type H)- slut************************************
+Kontohaver kan årligt indbetale op til det i henhold
+til loven fastsatte maksimumbeløb, der i &GENMAXDATO. udgør
+&GENMAXALD. kr.
+.br
+Beløbet reguleres hvert år. Der er ikke fradragsret/bortseelsesret for
+indbetalingerne.
+.sp 1mm
+.**************************************************************************
+.if &U'&PENTYPE = E
+.th .go FASTSL
+.if &U'&PENTYPE = B
+.th .go FSTIND
+.if &U'&PENTYPE = F
+.th .go FSTIND
+.el .go FASTSL
+.*Indbetaling fast beløb - ******************************************
+...FSTIND
+Arbejdsgiver indbetaler et fast beløb på &PENSUBTOT. &enhed &frek
+.if &PENFREKV1 ne 9
+.th .ct , svarende til &PENTOTAL1 &enhed årligt.
+.el .ct .
+.br
+Beløbet &PENSUBTOT. &enhed indbetales første gang den &PENSTDATO1. og
+sidste gang den &PENSLDATO1..
+.sp 1mm
+.tp 40mm 81mm char , 86mm
+Af pensionsbidraget betaler:¤- Arbejdsgiver ¤&PENARB1 ¤&enhed
+.br
+¤- Kontohaver ¤&PENMED1 ¤&enhed
+.sp 1mm
+...FASTSL
+.********ENGANGSINDSKUD****************************************************
+.if &U'&PENTYPE = F
+.th .go SLUTB1
+.if &U'&PENTYPE = B
+.or &U'&PENTYPE = E
+.th
+Arbejdsgiver indbetaler
+.if &U'&PENTYPE = E
+.th .go PENENG
+.if &U'&PENTYPE = B
+.th desuden et engangsindskud på &PENTOTAL2. kr.
+.if &L'&PENSTDATO2 = 0
+.th .go PENSL
+.el .ct , der indbetales den &PENSTDATO2..
+.el .go PENSL
+...PENENG
+.if &U'&PENTYPE = E
+.th et engangsindskud på &PENTOTAL1. kr.
+.if &L'&PENSTDATO1 = 0
+.th .go PENSL
+.el .ct , der indbetales den &PENSTDATO1..
+...PENSL
+.if &U'&PENTYPE = E
+.th .br
+.th .tp 40mm 81mm char , 86mm
+.th Af pensionsbidraget betaler:¤- Arbejdsgiver ¤&PENARB1 ¤&enhed
+.th .br
+.th ¤- Kontohaver ¤&PENMED1 ¤&enhed
+.th .sp 1mm
+.th .go SLUTB1
+.if &U'&PENTYPE = B
+.th .br
+.th .tp 40mm 81mm char , 86mm
+.th Af pensionsbidraget betaler:¤- Arbejdsgiver ¤&PENARB2 ¤&enhed
+.th .br
+.th ¤- Kontohaver ¤&PENMED2 ¤&enhed
+.th .sp 1mm
+.**********
+...SLUTB1
+.**** pristalsregulering ************
+.if &L'&PENPRISTAL > 0
+.th Indbetalingen pristalsreguleres årligt på grundlag af &PENPRISTAL..
+...INDEXI
+.ar off

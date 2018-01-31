@@ -1,0 +1,51 @@
+.*************** definer siden som et areal *******************************
+.da SIDE 20mm 40mm width 175mm
+.************ PARTER ******************************************************
+.ar SIDE on
+:SWISS10.
+:FED.
+Parter
+:SKRSLUT.
+:SKRSLUT.
+.bx left right
+.sp 21mm
+.bx off
+.sp 4mm
+.*LÅNGIVER*****************************************************************
+.bx left right
+.sp 21mm
+.bx off
+.*******************************************
+.sp 5mm
+:SWISS10.
+:FED.
+Indfrielsesvilkår
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+.bx left right
+.sp 60mm
+.bx off
+.*******************************************
+.sp 5mm
+:SWISS10.
+:FED.
+Vilkår
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+.bx left right
+.sp 15mm
+.bx off
+.*******************************************
+.sp 15mm
+:SWISS10.
+:FED.
+Underskrifter
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+.bx left right
+.sp 15mm
+.bx off
+.ar off

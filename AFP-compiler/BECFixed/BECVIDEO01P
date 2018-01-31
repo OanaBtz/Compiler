@@ -1,0 +1,166 @@
+.*TEST PÅ OM AFKRYDSNINGSFELT FOR MERE END 6 FOREKOMSTER ER UDFYLDT*******
+.*****FØRST SAMMENHÆNGSVALIDERING - 1. transaktionsfelter ***************
+.if &U'&GENVALG7 = J
+.an &L'&GENIDTO001 > 0
+.th .mg/T/1. transaktionsfelter skal slettes/
+.if &U'&GENVALG7 = J
+.an &L'&TRAKTID1 > 0
+.th .mg/T/1. transaktionsfelter skal slettes/
+.if &U'&GENVALG7 = J
+.an &L'&ATMNR1 > 0
+.th .mg/T/1. transaktionsfelter skal slettes/
+.*****FØRST SAMMENHÆNGSVALIDERING - 2. transaktionsfelter ***************
+.if &U'&GENVALG7 = J
+.an &L'&GENIDTO002 > 0
+.th .mg/T/2. transaktionsfelter skal slettes/
+.if &U'&GENVALG7 = J
+.an &L'&TRAKTID2 > 0
+.th .mg/T/2. transaktionsfelter skal slettes/
+.if &U'&GENVALG7 = J
+.an &L'&ATMNR2 > 0
+.th .mg/T/2. transaktionsfelter skal slettes/
+.*****FØRST SAMMENHÆNGSVALIDERING - 3. transaktionsfelter ***************
+.if &U'&GENVALG7 = J
+.an &L'&GENIDTO003 > 0
+.th .mg/T/3. transaktionsfelter skal slettes/
+.if &U'&GENVALG7 = J
+.an &L'&TRAKTID3 > 0
+.th .mg/T/3. transaktionsfelter skal slettes/
+.if &U'&GENVALG7 = J
+.an &L'&ATMNR3 > 0
+.th .mg/T/3. transaktionsfelter skal slettes/
+.*****FØRST SAMMENHÆNGSVALIDERING - 4. transaktionsfelter ***************
+.if &U'&GENVALG7 = J
+.an &L'&GENIDTO004 > 0
+.th .mg/T/4. transaktionsfelter skal slettes/
+.if &U'&GENVALG7 = J
+.an &L'&TRAKTID4 > 0
+.th .mg/T/4. transaktionsfelter skal slettes/
+.if &U'&GENVALG7 = J
+.an &L'&ATMNR4 > 0
+.th .mg/T/4. transaktionsfelter skal slettes/
+.*****FØRST SAMMENHÆNGSVALIDERING - 5. transaktionsfelter ***************
+.if &U'&GENVALG7 = J
+.an &L'&GENIDTO005 > 0
+.th .mg/T/5. transaktionsfelter skal slettes/
+.if &U'&GENVALG7 = J
+.an &L'&TRAKTID5 > 0
+.th .mg/T/5. transaktionsfelter skal slettes/
+.if &U'&GENVALG7 = J
+.an &L'&ATMNR5 > 0
+.th .mg/T/5. transaktionsfelter skal slettes/
+.*****FØRST SAMMENHÆNGSVALIDERING - 6. transaktionsfelter ***************
+.if &U'&GENVALG7 = J
+.an &L'&GENIDTO006 > 0
+.th .mg/T/6. transaktionsfelter skal slettes/
+.if &U'&GENVALG7 = J
+.an &L'&TRAKTID6 > 0
+.th .mg/T/6. transaktionsfelter skal slettes/
+.if &U'&GENVALG7 = J
+.an &L'&ATMNR6 > 0
+.th .mg/T/6. transaktionsfelter skal slettes/
+.if &U'&GENVALG7 = J
+.th .go TRAEND
+.*TEST PÅ 1. TRANSAKTION **************************************************
+.se tran1 = 0
+.if &L'&GENIDTO001 > 0
+.th .se tran1 = &tran1 + 1
+.el .se tran1 = &tran1
+.if &L'&TRAKTID1 > 0
+.th .se tran1 = &tran1 + 1
+.el .se tran1 = &tran1
+.if &L'&ATMNR1 > 0
+.th .se tran1 = &tran1 + 1
+.el .se tran1 = &tran1
+.if x&tran1 > x0
+.an x&tran1 < x3
+.th .mg/T/Udfyld manglende felter vedr. 1. transaktion/
+.*TEST PÅ 2. TRANSAKTION **************************************************
+.se tran2 = 0
+.if &L'&GENIDTO002 > 0
+.th .se tran2 = &tran2 + 1
+.el .se tran2 = &tran2
+.if &L'&TRAKTID2 > 0
+.th .se tran2 = &tran2 + 1
+.el .se tran2 = &tran2
+.if &L'&ATMNR2 > 0
+.th .se tran2 = &tran2 + 1
+.el .se tran2 = &tran2
+.if x&tran2 > x0
+.an x&tran2 < x3
+.th .mg/T/Udfyld manglende felter vedr. 2. transaktion/
+.*TEST PÅ 3. TRANSAKTION **************************************************
+.se tran3 = 0
+.if &L'&GENIDTO003 > 0
+.th .se tran3 = &tran3 + 1
+.el .se tran3 = &tran3
+.if &L'&TRAKTID3 > 0
+.th .se tran3 = &tran3 + 1
+.el .se tran3 = &tran3
+.if &L'&ATMNR3 > 0
+.th .se tran3 = &tran3 + 1
+.el .se tran3 = &tran3
+.if x&tran3 > x0
+.an x&tran3 < x3
+.th .mg/T/Udfyld manglende felter vedr. 3. transaktion/
+.*TEST PÅ 4. TRANSAKTION **************************************************
+.se tran4 = 0
+.if &L'&GENIDTO004 > 0
+.th .se tran4 = &tran4 + 1
+.el .se tran4 = &tran4
+.if &L'&TRAKTID4 > 0
+.th .se tran4 = &tran4 + 1
+.el .se tran4 = &tran4
+.if &L'&ATMNR4 > 0
+.th .se tran4 = &tran4 + 1
+.el .se tran4 = &tran4
+.if x&tran4 > x0
+.an x&tran4 < x3
+.th .mg/T/Udfyld manglende felter vedr. 4. transaktion/
+.*TEST PÅ 5. TRANSAKTION **************************************************
+.se tran5 = 0
+.if &L'&GENIDTO005 > 0
+.th .se tran5 = &tran5 + 1
+.el .se tran5 = &tran5
+.if &L'&TRAKTID5 > 0
+.th .se tran5 = &tran5 + 1
+.el .se tran5 = &tran5
+.if &L'&ATMNR5 > 0
+.th .se tran5 = &tran5 + 1
+.el .se tran5 = &tran5
+.if x&tran5 > x0
+.an x&tran5 < x3
+.th .mg/T/Udfyld manglende felter vedr. 5. transaktion/
+.*TEST PÅ 6. TRANSAKTION **************************************************
+.se tran6 = 0
+.if &L'&GENIDTO006 > 0
+.th .se tran6 = &tran6 + 1
+.el .se tran6 = &tran6
+.if &L'&TRAKTID6 > 0
+.th .se tran6 = &tran6 + 1
+.el .se tran6 = &tran6
+.if &L'&ATMNR6 > 0
+.th .se tran6 = &tran6 + 1
+.el .se tran6 = &tran6
+.if x&tran6 > x0
+.an x&tran6 < x3
+.th .mg/T/Udfyld manglende felter vedr. 6. transaktion/
+...TRAEND
+.*TEST PÅ *****************************************************************
+.if x&GENVALG1 < x1
+.or x&GENVALG1 > x3
+.th .mg/T/Misbrug: Vælg type 1-3/
+.**************************************************************************
+.if x&GENVALG1 = x3
+.an &L'&GENTEKST1 = 0
+.an &L'&GENTEKST2 = 0
+.th .mg/T/Misbrug: Ved valg 3 = Andet, udfyld årsagsfelt/
+.**************************************************************************
+.if x&GENVALG1 = x1
+.an &L'&GENTEKST1 > 0
+.th .mg/T/Misbrug: Ved valg 1 må tekstfelt ikke være udfyldt/
+.**************************************************************************
+.if x&GENVALG1 = x2
+.an &L'&GENTEKST1 > 0
+.th .mg/T/Misbrug: Ved valg 2 må tekstfelt ikke være udfyldt/
+.**************************************************************************

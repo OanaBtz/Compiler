@@ -1,0 +1,40 @@
+.*************** definer siden som et areal *******************************
+.da SIDE 20mm 40mm width 175mm
+.** PARTER ****************************************************************
+.ar SIDE on
+.tp 1mm 88.5mm
+:SWISS10.
+:FED.
+Parter
+:SKRSLUT.
+:SWISS8.
+.bx left right
+.tp 1mm 88.5mm 135mm
+.if x&DEBANTAL = x1
+.th ¤Kunde/debitor
+.th .go BX1END
+.if x&DEBANTAL = x2
+.th ¤Kunde/debitor ¤Kunde/meddebitor
+.th .go BX1END
+.if x&DEBANTAL > x2
+.th ¤Kunde/debitor ¤Kunde/meddebitor ¤Kunder/meddebitorer
+...BX1END
+.sp 23mm
+.if x&DEBANTAL > x1
+.th ¤Kundenummer ¤Kundenummer
+.el ¤Kundenummer
+.bx off
+.sp 4mm
+.bx left right
+¤Pengeinstitut
+.sp 23mm
+.bx off
+.sp 4mm
+:SWISS10.
+:FED.
+De væsentligste egenskaber
+:SKRSLUT.
+.bx left right
+.sp 169mm
+.bx off
+.ar off

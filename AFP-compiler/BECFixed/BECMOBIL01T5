@@ -1,0 +1,291 @@
+.**************************************************************************
+.*** BRUGES I BECMOBIL01D, SOM BRUGES I:
+.*** BECMOBIL01/BECMOBIL90 OG BECWEB01
+.**************************************************************************
+.kp on
+:SWISS10.
+:FED.
+.hy off
+4. Oprettelse af andre brugere - kun for kontohaver
+.hy on
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+Ønsker kontohaver, at anden person (bruger) skal kunne
+betale med Mobilpenge fra kontoen, skal brugers
+mobilnummer tilmeldes Mobilpenge. Brugers køb via
+Mobilpenge sker med samme retsvirkning, som hvis det
+var kontohaver selv og efter disse regler for Mobilpenge. Ved
+tilmelding af anden person (bruger), giver kontohaver
+samtidig samtykke til, at den tilmeldte bruger kan iværksætte
+betalingstransaktioner indenfor det mellem kontohaver og
+&BANKNAVN. aftalte forbrugsmaksimum for Mobilpenge med den
+virkning, at kontohaver bliver forpligtet af sådanne
+betalingstransaktioner.
+.sp 3mm
+.kp off
+.kp on
+Der kan ikke tilmeldes andre brugere, hvis kontohaver
+er umyndig.
+.sp 3mm
+.kp off
+.kp on
+Hvis kontohaver tilmelder umyndige brugere hæfter kontohaver
+for disses efterlevelse af brugerreglerne.
+.sp 3mm
+.kp off
+.kp on
+Kontohaver hæfter for transaktioner foretaget med
+Mobilpenge, jf. dog pkt. 7. Kontohaver skal derfor være
+opmærksom på pligten til løbende at kontrollere
+posteringerne på kontoen. Derfor bør det aftales med
+bruger, hvordan kontohavers kontrol af brugers
+transaktioner kan ske, jf. pkt. 10.
+.sp 3mm
+.kp off
+.kp on
+Hvis bruger ikke længere skal kunne betale med
+Mobilpenge fra kontoen, skal kontohaver sikre, at
+Mobilpengeaftalen for det pågældende mobilnummer afmeldes.
+.sp 3mm
+.kp on
+&BANKNAVN.s ansvarsfrihed gælder ikke, hvis:
+.sp 3mm
+*¤&BANKNAVN.
+.in 5mm nobreak
+burde have forudset det forhold, som er årsag til
+tabet, da aftalen blev indgået eller burde have
+undgået eller overvundet årsagen til tabet
+.in 0mm
+*¤lovgivningen
+.in 5mm nobreak
+under alle omstændigheder gør &BANKNAVN. ansvarlig for
+det forhold, som er årsag til tabet.
+.in 0mm
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN. er desuden i intet tilfælde ansvarlig for indirekte
+tab hos kontohaver eller bruger, herunder
+driftstab, rentetab, tidstab, tab af goodwill eller for skade
+på ting hos kunden herunder tab af data eller programmer, ej
+heller såfremt skaden skyldes en defekt ved Mobilpenge. Dette
+gælder, uanset om &BANKNAVN. har været underrettet om mulighed
+for sådanne tab, og uanset om &BANKNAVN. har udvist uagtsomhed.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+9. Fejl og mangler ved varen eller tjenesteydelsen
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+&BANKNAVN. har intet ansvar for fejl, mangler, forsinkelser
+m.v. ved de varer og tjenesteydelser, forretningen
+leverer. Eventuelle klager over fejl og mangler ved de
+leverede varer og tjenesteydelser skal rettes til
+forretningen. &BANKNAVN. indestår i øvrigt ikke på nogen
+måde for forretningens forretningsmetoder m.v.
+.sp 5mm
+.kp off
+:SWISS10
+:FED.
+8. &BANKNAVN.s ansvar
+:SKRSLUT
+:SKRSLUT
+.sp 3mm
+&BANKNAVN. er erstatningsansvarlig, hvis &BANKNAVN. på grund af
+fejl eller forsømmelser opfylder aftalte forpligtelser for
+sent eller mangelfuldt.
+.sp 3mm
+.kp off
+.kp on
+Selv på de områder, hvor der gælder et strengere
+ansvar, er &BANKNAVN. ikke ansvarlig for tab, som
+skyldes:
+.sp 3mm
+*¤nedbrud
+.in 5mm nobreak
+i/manglende adgang til it-systemer eller
+beskadigelser af data i disse systemer, der kan
+henføres til nedennævnte begivenheder, uanset om
+det er &BANKNAVN. selv eller en ekstern
+leverandør, der står for driften af systemerne
+.in 0mm
+.kp off
+.kp on
+*¤svigt
+.in 5mm nobreak
+i &BANKNAVN.s strømforsyning eller
+telekommunikation, lovindgreb eller
+forvaltningsakter, naturkatastrofer, krig, oprør, borgerlige
+uroligheder, sabotage, terror eller hærværk
+(herunder computervirus og  hacking)
+.in 0mm
+.kp off
+.kp on
+*¤strejke
+.in 5mm nobreak
+.ct , lockout, boykot eller blokade, uanset om
+konflikten er rettet mod eller iværksat af
+&BANKNAVN. selv eller dens organisation, og
+uanset konfliktens årsag. Det gælder også, når
+konflikten kun rammer dele af &BANKNAVN.
+.in 0mm
+*¤andre
+.in 5mm nobreak
+omstændigheder, som er uden for &BANKNAVN.s kontrol.
+.in 0mm
+.sp 3mm
+.kp off
+Når &BANKNAVN. har spærret for adgangen til
+Mobilpenge for det pågældende mobilnummer, vil
+kontohaver blive informeret med angivelse af årsag
+til og tidspunkt for spærringen.
+.br
+Information om spærring vil blive sendt til
+&WEBSYSNAVN.en, såfremt kontohaver er tilmeldt
+denne. Beskeden vil være tilgængelig
+i &WEBSYSNAVN.en i minimum 18 måneder efter
+spærringstidspunktet. Hvis ikke kontohaver er tilmeldt
+&WEBSYSNAVN., vil beskeden blive sendt som fysisk brev.
+.sp
+For ophævelse af spærring, skal kontohaver kontakte &BANKNAVN..
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+7. Ansvar, hvis andre misbruger Mobilpenge
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+I tilfælde af, at Mobilpenge har været misbrugt af en
+anden person, vil &BANKNAVN. dække tabet, medmindre
+bruger eller kontohaver:
+.sp 3mm
+*¤har handlet svigagtigt eller
+.br
+*¤med
+.in 5mm nobreak
+forsæt har undladt at opfylde sine forpligtelser eller
+.in 0mm
+*¤har
+.in 5mm nobreak
+undladt at spærre Mobilpenge, jf. pkt. 5.
+.in 0mm
+.sp 3mm
+I så fald hæfter kontohaver for hele tabet.
+.sp 3mm
+.kp off
+.kp on
+Kontohaver er ikke ansvarlig for tab, der opstår efter, at
+&BANKNAVN. har fået besked om, at Mobilpenge
+skal spærres. Kontohaver hæfter heller ikke for tab, hvis
+bruger eller kontohaver ikke har haft mulighed for
+at spærre Mobilpenge, på grund af forhold hos
+&BANKNAVN..
+.sp 5mm
+.kp off
+.kp on
+.br
+Når Mobilpenge er spærret af kontohaver eller bruger, vil
+dokumentation vedrørende spærringen blive sendt pr. brev
+til kontohaver. Hvis kontohaver er tilmeldt
+&WEBSYSNAVN., sendes dokumentationen dog som en
+besked i &WEBSYSNAVN.en, hvor den vil være tilgængelig i 18
+måneder efter spærringen.
+.sp
+For ophævelse af spærring, skal kontohaver kontakte &BANKNAVN..
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+6. &BANKNAVN.s ret til at spærre Mobilpenge
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+&BANKNAVN. har ret til uden varsel at spærre for
+adgangen til at benytte Mobilpenge:
+.sp 3mm
+¤1¤Hvis
+.in 10mm nobreak
+kontoen, der er tilknyttet Mobilpenge, opsiges, ophæves
+eller spærres.
+.in 0mm
+.kp off
+.kp on
+¤2¤Hvis
+.in 10mm nobreak
+disse regler for Mobilpenge overtrædes
+(misligholdelse).
+.in 0mm
+.kp off
+.kp on
+¤3¤Hvis
+.in 10mm nobreak
+mobilnummeret tilknyttet Mobilpenge aftalen
+er blevet misbrugt eller formodes misbrugt af
+tredjemand.
+.in 0mm
+¤4¤Hvis
+.in 10mm nobreak
+kontohaver kommer under konkursbehandling, rekonstruktionsbehandling
+eller anden insolvensbehandling eller indleder
+forhandling om gældssanering.
+.in 0mm
+.sp 3mm
+.kp off
+.kp on
+Kontakt &BANKNAVN. for nærmere information om
+oprettelse og afmelding af brugers adgang til træk på
+kontoen via Mobilpenge.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+5. Pligt til at spærre Mobilpenge
+:SKRSLUT.
+:SKRSLUT.
+.sp 3mm
+Bruger/kontohaver skal snarest muligt kontakte
+&BANKNAVN. for at spærre for brug af Mobilpenge
+på det tilmeldte mobilnummer, hvis:
+.sp 3mm
+*¤mobiltelefonen
+.in 5mm nobreak
+eller SIM-kortet er tabt eller stjålet - eller
+bruger/kontohaver har mistanke herom
+.in 0mm
+.kp off
+.kp on
+*¤bruger/kontohaver
+.in 5mm nobreak
+opdager eller har mistanke om, at Mobilpenge er blevet
+misbrugt, eller
+.in 0mm
+*¤bruger/kontohaver
+.in 5mm nobreak
+på anden måde får mistanke om, at Mobilpenge kan
+blive misbrugt.
+.sp 3mm
+.kp off
+.kp on
+Når &BANKNAVN. har modtaget underretningen, spærres
+adgangen til at benytte Mobilpenge til træk på
+kontoen for det pågældende mobilnummer.
+.sp 3mm
+.kp off
+.kp on
+Inden for &BANKNAVN.s åbningstid skal
+henvendelse ske til &BANKNAVN.. Uden for
+&BANKNAVN.s åbningstid skal henvendelse ske til
+&NETS. Kundeservice på tlf.nr. &PBSTLF., der
+svarer døgnet rundt. Ved henvendelse skal oplyses
+navn, fødselsdato, mobilnummer der skal spærres og hvilket
+pengeinstitut Mobilpengeaftalen er tilknyttet, for
+straks at få spærret Mobilpenge for den pågældende
+mobiltelefon.

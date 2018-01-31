@@ -1,0 +1,18 @@
+.ti ¤ 05
+.fo left
+:COUR10.
+.*********************************************************************
+.* Modtagers adresse
+.da ADR 20mm 47mm
+.*********************************************************************
+.ar ADR on
+&GENNAVN
+.br
+&GENCO
+.br
+&GENGADE
+.br
+&GENBY
+.br
+&GENLAND
+.ar off

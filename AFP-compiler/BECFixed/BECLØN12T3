@@ -1,0 +1,109 @@
+:SWISS8.
+.*KOLONNEDEFINITION********************************************************
+.pm 20mm
+.tm 18mm
+.bm 18mm
+.cd 2 1mm 88mm
+.cl 85mm
+.**************************************************************************
+.kp on
+:SWISS10.:FED.
+1.  Serviceleverandør og brugere
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+1.1 Serviceleverandøren er den person eller det selskab,
+som indgår aftale med formidleren af &LOENSYSTEM
+om brug af &LOENSYSTEM via internet.
+.sp 3mm
+.kp off
+.kp on
+1.2 Brugeren er den person, der hos serviceleverandøren har adgang
+til at foretage registreringer via &LOENSYSTEM.. Serviceleverandøren
+bestemmer hvilke funktioner, den enkelte bruger skal have adgang
+til.
+.sp 3mm
+.kp off
+.kp on
+1.3 Serviceleverandøren foretager tilmelding af eventuelle
+yderligere brugere til &LOENSYSTEM..
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.:FED.
+2. Anvendelse af &LOENSYSTEM via internet
+:SKRSLUT.
+.sp 3mm
+:SWISS8.:FED.
+2.1 Brugernummer og kode
+:SKRSLUT.
+.sp 3mm
+2.1.1 Når brugeren tilsluttes &LOENSYSTEM tildeler formidleren af
+&LOENSYSTEM brugeren et brugernummer. Herudover fremsender
+&LOENEJER en pinkode, der konstrueres og udskrives maskinelt, i
+lukket kuvert til brugeren på serviceleverandørens
+adresse. Brugeren
+er forpligtet til straks at underrette formidleren af &LOENSYSTEM.,
+hvis brevet med koden har været åbnet, eller ikke
+er intakt ved modtagelsen. Brugeren er forpligtet til at
+destruere brevet med koden.
+.sp 3mm
+.kp off
+.kp on
+2.1.2 Brugeren får adgang til &LOENSYSTEM ved at indtaste
+pinkode og brugernummeret. Brugeren skal herefter selv
+indtaste en personlig underskriftskode i &LOENSYSTEM.. &ÅCONT
+Underskriftskoden bør læres udenad. Hvis den nedskrives, skal
+den opbevares utilgængeligt for andre og må aldrig opbevares
+med brugernummeret. Det skal jævnligt kontrolleres, at en
+eventuelt nedskrevet underskriftskode og brugernummer ikke er
+fjernet eller bortkommet.
+.sp 3mm
+.kp off
+.kp on
+2.1.3 Ved anvendelse af &LOENSYSTEM., skal brugeren indtaste
+brugernummer og underskriftskode.
+.sp 3mm
+.kp off
+.kp on
+2.1.4 Efter 3 fejlagtige indtastninger af underskriftskoden
+afbrydes forbindelsen, og brugerens brugernummer spærres
+automatisk af sikkerhedshensyn. Formidleren af &LOENSYSTEM
+underretter skriftligt serviceleverandøren
+om, at spærring har fundet
+sted.
+.sp 3mm
+.kp off
+.kp on
+2.1.5 Brugerens adgang til &LOENSYSTEM er strengt personlig. og at brugeren
+ikke må give andre adgang til at anvende sit brugernummer og
+underskriftskode.
+.sp 3mm
+.kp off
+.**********'
+.kp on
+:FED.
+2.2 Brugerens adgang til &LOENSYSTEM
+:SKRSLUT.
+.sp 3mm
+2.2.1 Såfremt serviceleverandøren eller brugeren får mistanke om, at andre
+end brugeren har fået kendskab til underskriftskoden eller ved
+mistanke om misbrug af brugernummer og/eller underskriftskode, skal
+brugeren straks enten ændre underskriftskoden eller spærre brugere.
+.sp 3mm
+.kp off
+.kp on
+2.2.2 Ved anvendelsen af &LOENSYSTEM skal serviceleverandøren eller
+brugeren sikre, at &LOENSYSTEM distribueres af &LOENEJER.. Programmet
+indeholder mulighed for at foretage denne kontrol.
+.kp off
+.sp 3mm
+.kp on
+:FED.
+2.3 Spærring
+:SKRSLUT.
+.sp 3mm
+2.3.1 Skal en bruger spærres kan dette ske ved henvendelse til
+formidleren af &LOENSYSTEM i dennes åbningstid.
+.sp 3mm
+.kp off

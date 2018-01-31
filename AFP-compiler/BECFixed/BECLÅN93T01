@@ -1,0 +1,49 @@
+.******************************************************************
+.da KUNDEOPL    25mm   48mm width 80mm
+.da MEDKTOH  112.5mm   48mm width 80mm
+.da KUNDENR     43mm 70.5mm width 80mm
+.da MEKTONR  142.5mm 70.5mm width 80mm
+.da PI          25mm   86mm width 80mm
+.******************************************************************
+.ar KUNDEOPL on
+&STILL
+.br
+&NAVN
+.br
+&COADR
+.br
+&GADE
+.br
+&BY
+.ar off
+.*************************************
+.ar MEDKTOH on
+.if &DEBANTAL > 1
+.th &MEDEJER1
+.th .br
+.th &MEDEJER2
+.th .br
+.th &MEDEJER3
+.th .br
+.th &MEDEJER4
+.th .br
+.th &MEDEJER5
+.ar off
+.*************************************
+.ar KUNDENR on
+&KUNDENR
+.ar off
+.*************************************
+.ar MEKTONR on
+&MEDEJERNR
+.ar off
+.*************************************
+.ar PI on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off

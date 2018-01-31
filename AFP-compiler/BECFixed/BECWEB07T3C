@@ -1,0 +1,156 @@
+.******************************************************************
+.if X&GENVALG = X1
+.th
+.el .go T3CSLUT
+.sp 5mm
+.******* 1. administrator ******************
+.if &L'&ADMIN01 = 0
+.th .bx off
+.th .go T3CSLUT
+.bx off
+.if &L'&ADMIN42 = 0
+.th .go T3CSLUT
+.sp 12mm
+.tp 1mm 60mm 119mm 145mm
+.bx left 59mm 118mm 144mm 175mm
+:FED.
+¤Navn: ¤Identifikation: ¤Brugernr: ¤Autorisation:
+:SKRSLUT.
+:SWISS8.
+.sp 2mm
+.******* 42. administrator ******************
+.if x&AUTOAL2F42 = x1
+.th .se autxt42 = 'Alene'
+.if x&AUTOAL2F42 = x2
+.th .se autxt42 = '2 i forening'
+.if &L'&AUTOAL2F42 = 0
+.th .se autxt42 = ' '
+.bx set
+¤¤&IDTYPE42.
+.br
+¤&ADMIN42. ¤&IDENT42. ¤&WEBBRUG42. ¤&autxt42
+.if &L'&ADMIN43 = 0
+.th .bx off
+.th .go T3CSLUT
+.******* 43. administrator ******************
+.if x&AUTOAL2F43 = x1
+.th .se autxt43 = 'Alene'
+.if x&AUTOAL2F43 = x2
+.th .se autxt43 = '2 i forening'
+.if &L'&AUTOAL2F43 = 0
+.th .se autxt43 = ' '
+.bx set
+¤¤&IDTYPE43.
+.br
+¤&ADMIN43. ¤&IDENT43. ¤&WEBBRUG43. ¤&autxt43
+.if &L'&ADMIN44 = 0
+.th .bx off
+.th .go T3CSLUT
+.******* 44. administrator ******************
+.if x&AUTOAL2F44 = x1
+.th .se autxt44 = 'Alene'
+.if x&AUTOAL2F44 = x2
+.th .se autxt44 = '2 i forening'
+.if &L'&AUTOAL2F44 = 0
+.th .se autxt44 = ' '
+.bx set
+¤¤&IDTYPE44.
+.br
+¤&ADMIN44. ¤&IDENT44. ¤&WEBBRUG44. ¤&autxt44
+.if &L'&ADMIN45 = 0
+.th .bx off
+.th .go T3CSLUT
+.******* 45. administrator ******************
+.if x&AUTOAL2F45 = x1
+.th .se autxt45 = 'Alene'
+.if x&AUTOAL2F45 = x2
+.th .se autxt45 = '2 i forening'
+.if &L'&AUTOAL2F45 = 0
+.th .se autxt45 = ' '
+.bx set
+¤¤&IDTYPE45.
+.br
+¤&ADMIN45. ¤&IDENT45. ¤&WEBBRUG45. ¤&autxt45
+.if &L'&ADMIN46 = 0
+.th .bx off
+.th .go T3CSLUT
+.*pa
+.*bx left 59mm 118mm 144mm 175mm
+.*:FED.
+.*¤Navn: ¤Identifikation: ¤brugernr: ¤Autorisation:
+.*:SKRSLUT.
+.*:SWISS8.
+.*sp 2mm
+.******* 46. administrator ******************
+.if x&AUTOAL2F46 = x1
+.th .se autxt46 = 'Alene'
+.if x&AUTOAL2F46 = x2
+.th .se autxt46 = '2 i forening'
+.if &L'&AUTOAL2F46 = 0
+.th .se autxt46 = ' '
+.bx set
+¤¤&IDTYPE46.
+.br
+¤&ADMIN46. ¤&IDENT46. ¤&WEBBRUG46. ¤&autxt46
+.if &L'&ADMIN47 = 0
+.th .bx off
+.th .go T3CSLUT
+.******* 47. administrator ******************
+.if x&AUTOAL2F47 = x1
+.th .se autxt47 = 'Alene'
+.if x&AUTOAL2F47 = x2
+.th .se autxt47 = '2 i forening'
+.if &L'&AUTOAL2F47 = 0
+.th .se autxt47 = ' '
+.bx set
+¤¤&IDTYPE47.
+.br
+¤&ADMIN47. ¤&IDENT47. ¤&WEBBRUG47. ¤&autxt47
+.if &L'&ADMIN48 = 0
+.th .bx off
+.th .go T3CSLUT
+.******* 48. administrator ******************
+.if x&AUTOAL2F48 = x1
+.th .se autxt48 = 'Alene'
+.if x&AUTOAL2F48 = x2
+.th .se autxt48 = '2 i forening'
+.if &L'&AUTOAL2F48 = 0
+.th .se autxt48 = ' '
+.bx set
+¤¤&IDTYPE48.
+.br
+¤&ADMIN48. ¤&IDENT48. ¤&WEBBRUG48. ¤&autxt48
+.if &L'&ADMIN49 = 0
+.th .bx off
+.th .go T3CSLUT
+.******* 49. administrator ******************
+.if x&AUTOAL2F49 = x1
+.th .se autxt49 = 'Alene'
+.if x&AUTOAL2F49 = x2
+.th .se autxt49 = '2 i forening'
+.if &L'&AUTOAL2F49 = 0
+.th .se autxt49 = ' '
+.bx set
+¤¤&IDTYPE49.
+.br
+¤&ADMIN49. ¤&IDENT49. ¤&WEBBRUG49. ¤&autxt49
+.if &L'&ADMIN50 = 0
+.th .bx off
+.th .go T3CSLUT
+.******* 50. administrator ******************
+.if x&AUTOAL2F50 = x1
+.th .se autxt50 = 'Alene'
+.if x&AUTOAL2F50 = x2
+.th .se autxt50 = '2 i forening'
+.if &L'&AUTOAL2F50 = 0
+.th .se autxt50 = ' '
+.bx set
+¤¤&IDTYPE50.
+.br
+¤&ADMIN50. ¤&IDENT50. ¤&WEBBRUG50. ¤&autxt50
+.bx off
+.sp 2mm
+...T3CSLUT
+.ll
+.hy on
+.**************************************************************************

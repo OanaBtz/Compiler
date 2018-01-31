@@ -1,0 +1,133 @@
+den af kautionisten i øvrigt sikrede gæld.
+.sp 3mm
+.kp off
+.kp on
+Hvis lånet/kreditten kun er delvist sikret ved kaution, anvendes
+indbetalinger først til nedbringelse af den usikrede del af gælden.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+4. Henstand
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+&BANKNAVN. kan uden samtykke fra kautionist give &DIG. henstand med
+betaling af afdrag, renter og øvrige omkostninger, dog med respekt af lov
+om finansiel virksomhed § 47.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+5. Stemmeret på skiftesamlinger
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+&BANKNAVN. udøver på enhver skiftesamling vedrørende &DIG. den
+stemmeret, som er tilknyttet kautionens genstand. Det gælder indtil
+&BANKNAVN. har opnået fuld og uomstødelig dækning for sine krav.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+6. Samkaution og andre sikkerheder
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+&BANKNAVN. forbeholder sig ret til at realisere de sikkerheder, der er
+stillet af &DIG. eller tredjemand og afskrive provenuet efter
+&BANKNAVN.s frie valg. Kautionisten har ingen regresret i sådanne
+sikkerheder.
+.sp 3mm
+.kp off
+.kp on
+Det betyder blandt andet:
+.sp 3mm
+.of 3mm
+*¤at &BANKNAVN. uden kautionistens tilladelse kan frigive andre
+sikkerheder for den kautionssikrede forpligtelse
+.of
+.br
+.of 3mm
+*¤at &BANKNAVN. kan anvende pant, der tillige tjener til sikkerhed for
+andre fordringer end den kautionssikrede til forlods fyldestgørelse af
+sådanne fordringer.
+.of
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+7. Anmeldelsesret og ret til dividende ved &DIN. konkurs
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Såfremt kautionisten må indfri &DINE. forpligtelser over for
+&BANKNAVN., har &BANKNAVN. anmeldelsesret og ret til dividende af det
+betalte beløb i &DIT. bo.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+8. Tvangsfuldbyrdelse
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Hvis kautionen tjener til sikkerhed for lån, kan lånedokumentet med
+kautionserklæring tjene som grundlag for tvangsfuldbyrdelse hos
+kautionisten i henhold til retsplejelovens § 478, stk. 1, nr. 5.
+.kp off
+.**************************************************************************
+.*OBS OBS OBS OBS OBS OBS OBS OBS OBS OBS OBS OBS OBS OBS
+.*         DETTE MODUL ANVENDES OGSÅ I BECEKAU50
+.*OBS OBS OBS OBS OBS OBS OBS OBS OBS OBS OBS OBS OBS OBS
+.**************************************************************************
+.tp 3mm
+:SWISS8.
+.**************************************************************************
+.kp on
+.sp 5mm
+:SWISS12.
+:FED.
+Særligt om kaution
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+1. Kautionens omfang
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Kautionisten hæfter som selvskyldner for &DINE. forpligtelser over for
+&BANKNAVN. inklusive renter og andre biydelser.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+2. Omstødelse
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Hvis det kautionssikrede lån/kredit indfries helt eller delvist, og
+betalingerne eller supplerende sikkerheder senere omstødes, opretholdes
+kautionen, uanset om kautionisten har modtaget meddelelse om indfrielse
+fra &DIG. eller &BANKNAVN..
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+3. Anvendelse af indbetalinger
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Indbetaling fra kautionister anvendes først til dækning af
+renter, provision og omkostninger og dernæst til nedbringelse af

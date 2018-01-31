@@ -1,0 +1,24 @@
+.********************AREAL-DEFINITIONER************************************
+.* Brevnavn, roteret i venstre hjørne
+.da OVERSKR 20mm 110mm width 170mm
+.da VEND 7mm 270mm width 180mm rotate -90
+.da KONTRAKT 126.8mm 63mm
+.********************ROTERET BREVNAVN**************************************
+:tiltale &TILTALEF
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.********************OPLYSNING OM KONTRAKTNUMMER***************************
+.ar KONTRAKT on
+:COUR8.
+Kontrakt nr.: &AFTALENR.
+.ar off
+.******************* START-POSITION AF BREVET, INCL. OVERSKRIFT************
+.ar OVERSKR on
+.us on
+.if &L'&FORMIDADR1. > 0
+.th Tilbud på finansiering af din kundes kommende køretøj
+.el Tilbud på finansiering af dit kommende køretøj
+.us off
+.sp

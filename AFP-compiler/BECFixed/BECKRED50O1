@@ -1,0 +1,14 @@
+.********************GENEREL OPSÆTNING*************************************
+:SWISS9.
+.fo left
+.ti ¤ 05
+.********************ROTERET BREVNAVN**************************************
+.* SIDEHOVED SIDE 1 (MED Y = 83 + 13MM (TOPMARGIN) = 96MM ****************
+.* SIDEHOVEDDEFINITION STARTER ********************************************
+.rh on
+.sp 83mm
+.rh off
+.* SIDEHOVEDDEFINITION SLUTTER ********************************************
+.rh execute
+.*LINIELÆNGDEN ************************************************************
+.ll 175mm

@@ -1,0 +1,33 @@
+.tp 1mm 89mm char , 128mm char , 166mm char ,
+Â¤Samlet trÄk Â¤&GENEG1TRÄK kr. Â¤&GENEG5TRÄK kr. Â¤&GENEG2TRÄK kr.
+.br
+.******
+Â¤Ärligt kortgebyr incl. evt. Ävrige omkostninger
+.ct Â¤&GENEG1OMK kr. Â¤&GENEG5OMK kr. Â¤&GENEG2OMK kr.
+.br
+.******
+Â¤Sum af samlet trÄk og Ärligt kortgebyr incl.
+.ct Â¤&GENEG1IALT kr. Â¤&GENEG5IALT kr. Â¤&GENEG2IALT kr.
+.br
+Â¤Ävrige omkostninger
+.hr left right
+.******
+:KURSIV.
+Â¤Beregnet Ärlige omkostninger i procent (ÄOP) Â¤&GENEG1ÄOP % Â¤&GENEG5ÄOP %
+.ct Â¤&GENEG2ÄOP %
+:SKRSLUT.
+.bx new left right
+.sp 2mm
+.************************
+.in 1mm
+.ir 1mm
+Vi gÄr opmÄrksom pÄ, at &BANKNAVN modtager provision ved kortets
+anvendelse i forretninger mv.
+.in
+.ir
+.bx off
+.bx can
+.bx can
+.bx can
+.ar off
+...ERHGSL

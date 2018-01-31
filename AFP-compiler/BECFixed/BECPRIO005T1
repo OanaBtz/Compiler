@@ -1,0 +1,34 @@
+.*************** AREAL-DEFINITIONER **************************************
+.da TEKST 20mm 103mm width 165mm
+.*************** TEKST              **************************************
+.ar TEKST on
+.***************
+.tp 52mm
+.***************
+.if &U'X&PRIERH = XE
+.th Dokumentet kan ikke benyttes for erhvervskunder
+.th .go AFSLUT
+.if &L'&TXTSW001. > 0
+.*** teksten udskrives kun ved exist. lån
+.th Rentevilkår er gældende fra dagen efter udløb af nærværende
+.th rentebindingsperiode.
+.th .sp 2mm
+Pålydende rente: ¤&PRIRENTE.
+.in 52mm nobreak
+% p.a. Renten er variabel og kan ændres
+jf. bankens almindelige forretningsbestemmelser
+.in 0mm
+.sp 2mm
+Rentetilskrivning: ¤&RTEFREKV. - første gang &RTEFFDATO.
+.sp 2mm
+Renteberegning:¤Renten beregnes dagligt iflg. kalenderdage &RTEKONV.
+¤som Saldo * Pålydende rente / &RTEKONVDIV.
+.if &L'&TXTSW001. = 0
+.*TEKSTEN UDSKRIVES KUN VED EKSIST. LÅN
+.th .go AFSLUT
+.if &L'&RTEVILKGEB. > 0
+.th .sp 2mm
+.th Der beregnes et gebyr på &RTEVILKGEB. kr. for ovenstående ændring af
+.th rentevilkår.
+...AFSLUT
+.ar off

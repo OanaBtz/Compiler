@@ -1,0 +1,125 @@
+:SWISS9.
+&BANKNAVN.
+has informed us that, the &instrur. will be kept in
+&BANKNAVN.
+in &ser. &dep attached to
+&KTONAVN.'s
+annuity pension plan
+.sp
+.tp 5mm 52mm 70mm 83mm 102mm 121mm 150mm
+.if &L'&DEPOTNR > 0
+.th *¤&pension ¤reg.no. ¤&reg ¤acc.no. ¤&kto ¤cust.acc.no. ¤&DEPOTNR.
+.el *¤&pension ¤reg.no. ¤&reg ¤acc.no. ¤&kto
+.br
+.***************
+.if &L'&KONTO10 = 0
+.th .go IKKE4
+.if &L'&GENDEPOT01 > 0
+.th *¤&pension1 ¤reg.no. ¤&reg1 ¤acc.no. ¤&kto1 ¤cust.acc.no. ¤&GENDEPOT01.
+.th .br
+.el *¤&pension1 ¤reg.no. ¤&reg1 ¤acc.no. ¤&kto1
+.el .br
+...IKKE4
+.***************
+.if &L'&KONTO11 = 0
+.th .go IKKE5
+.if &L'&GENDEPOT02 > 0
+.th *¤&pension2 ¤reg.no. ¤&reg2 ¤acc.no. ¤&kto2 ¤cust.acc.no. ¤&GENDEPOT02.
+.th .br
+.el *¤&pension2 ¤reg.no. ¤&reg2 ¤acc.no. ¤&kto2
+.el .br
+...IKKE5
+.***************
+.if &L'&KONTO12 = 0
+.th .go IKKE6
+.if &L'&GENDEPOT03 > 0
+.th *¤&pension3 ¤reg.no. ¤&reg3 ¤acc.no. ¤&kto3 ¤cust.acc.no. ¤&GENDEPOT03.
+.th .br
+.el *¤&pension3 ¤reg.no. ¤&reg3 ¤acc.no. ¤&kto3
+.el .br
+...IKKE6
+.sp
+.**********************************
+.tp 5mm
+&GENNAVN.
+confirms that
+.sp
+*¤to
+.in 5mm nobreak
+the best of its knowledge,
+&KTONAVN.,
+transaction involving the securities that
+&KTONAVN.
+may enter into is to sell them.
+.sp
+As a result of the above rules, all future payments relating to
+the &instrur. must
+be made to the above account.
+.ct  &GENNAVN.
+confirms that all future payments relating to the above
+&instru., such as current dividends, sales proceeds and any other payments
+must be made to the above &koo..
+.sp
+:SWISS10.
+:FED.
+Signature of the company
+.*** :SKRSLUT.MHB ***
+:SKRSLUT.
+.sp 14mm
+.****************UNDERSKRIFT OG DATO********************
+.dr tynd weight 0.2mm
+.tp 1mm 50mm
+.hr tynd 1mm 45mm 50mm 170mm
+.br
+¤Date :SKRSLUT.¤&GENNAVN.
+.ar off
+related parties or companies in which
+&KTONAVN.
+or related parties exercise control will not jointly own
+&GENUNPROC.% or more of the capital in
+&GENNAVN.,
+when the purchase set out above has been effected.
+.in 0mm
+.sp
+*¤it
+.in 5mm nobreak
+is not the main objective of the company or one of its objectives to grant
+rights of use, discounts etc in the company.
+.in 0mm
+.sp
+*¤the company
+.in 5mm nobreak
+has not and will not issue physical &instru..
+.in 0mm
+.sp
+*¤the above
+.in 5mm nobreak
+&instru. which
+&KTONAVN.
+wishes to buy may be sold to a third party or acquired by
+&KTONAVN.
+provided that the funds used are not pension funds released upon retirement
+or provided that the value of
+&KTONAVN.'s
+pension plans with
+&BANKNAVN.
+with the exception of unlisted shares has fallen to less than
+&GENUNOEBEL. kr.
+.in 0mm
+.sp
+*¤in case of the demise of
+.in 5mm nobreak
+&KTONAVN.
+prior to the disbursement of the above &pen., the beneficiaries or
+the estate of the deceased are vested with
+&KTONAVN.'s
+rights and duty to sell the &instru. to
+&GENNAVN.
+or a third party.
+.in 0mm
+.sp 2
+&KTONAVN.'s
+purchase of &instru. is subject to the provisions
+of the Danish Executive Order on pension pools and other
+tax-privileged savings, etc concerning investment of pension funds in
+securities. Under the provisions of the Executive Order, the only

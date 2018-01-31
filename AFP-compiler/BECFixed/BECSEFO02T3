@@ -1,0 +1,150 @@
+.*PUNKT 3 (9) ***
+.ta row SEFO2 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 1mm
+Morarenter
+.br
+Manglende betalinger kan have alvorlige følger for &DIG
+(f.eks. tvangsauktion) og gøre det vanskeligere at opnå kredit.
+.ta cell 2
+&SDU vil blive pålagt &MORARTE. % for forsinkede betalinger.
+.sp 3mm
+.**LÅN ***
+.if &U'&LÅNKRED = L
+.th Debitor får oplysning om ændring af morarenten på &BANKNAVN.s
+.th hjemmeside.
+.th .sp 3mm
+.th Ved forsinket betaling kan der påløbe rykkergebyrer. &ÅCONT
+.**KREDIT*
+.el Overtrækkes eller indfries kassekreditten ikke senest på forfaldsdagen,
+.el er &BANKNAVN berettiget til at opkræve
+.el overtræks-/morarente. Overtræks-/morarenten beregnes af overtrækket/det
+.el forfaldne beløb. Ved overtræk og forsinket betaling kan
+.el der påløbe rykkergebyrer. &ÅCONT
+.**BÅDE LÅN OG KREDIT *
+Rykkergebyr og andre misligholdelsesomkostninger fremgår af &BANKNAVN.s
+prisbog. Ved overdragelse af kundens gæld til inkasso vil der påløbe
+omkostninger til advokat, domstole m.v. &ÅCONT
+.**LÅN *
+.if &U'&LÅNKRED = L
+.th Manglende betaling vil kunne medføre, at kreditaftalen ophæves og vil
+.th gøre det vanskeligt at opnå kredit. Ophævelse af kreditaftalen vil
+.th medføre en forhøjelse af renter og gebyrer.
+.**KREDIT*
+.el Overtræk vil kunne medføre, at kreditten ophæves, ligesom overtræk og
+.el manglende indfrielse vil medføre, at det er vanskeligt at opnå kredit.
+.**BÅDE LÅN OG KREDIT *
+.sp 3mm
+&BANKNAVN. kan ændre morarenten på samme måde som debitorrenten.
+.ta table off
+.******************
+.*PUNKT 4 (1) **********
+:FED.
+4. Andre vigtige retlige aspekter
+:SKRSLUT.
+.**********
+.ta table SEFO2 on
+.ta row SEFO2 on
+.ta cell 1
+.in 5mm
+.ir 1mm
+Søgning i en database
+.br
+:KURSIV.
+Kreditgiver skal straks og gratis underrette &DIG om resultatet af en
+søgning i en database, hvis en anmodning om kredit afslås på grundlag af en
+sådan søgning. Dette gælder ikke, hvis en sådan underretning er forbudt i
+henhold til fællesskabsretten eller strider mod den offentlige orden eller
+den offentlige sikkerhed.
+:SKRSLUT.
+.ta cell 2
+&DATABSØG1. &DATABSØG2.
+.ta row SEFO2 off
+.*PUNKT 4 (5) *************************************************************
+.ta row SEFO2 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 1mm
+Ret til et udkast til kreditaftale
+.br
+:KURSIV.
+&SDU har ret til efter anmodning gratis at modtage en kopi af udkastet til
+kreditaftale. Denne bestemmelse finder ikke anvendelse, hvis kreditgiveren
+på tidspunktet for anmodningen ikke er villig til at indgå kreditaftalen
+med &DIG..
+:SKRSLUT.
+.ta cell 2
+&KREUDKAS1. &KREUDKAS2. &KREUDKAS3. &KREUDKAS4. &KREUDKAS5. &KREUDKAS6.
+.ta row SEFO2 off
+.*PUNKT 4 (6) *************************************************************
+.**UDSKRIVES, HVIS RELEVANT *********
+.ta row SEFO2 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 1mm
+.if &L'&OPLBIND1 > 0
+.or &L'&OPLBIND2 > 0
+.th Hvor længe oplysningerne forud for aftaleindgåelsen er bindende for
+.th kreditgiveren.
+.ta cell 2
+.if &L'&OPLBIND1 > 0
+.or &L'&OPLBIND2 > 0
+.th &OPLBIND1. &OPLBIND2.
+.th .sp 3mm
+:KURSIV.
+Nærværende er ikke et tilbud, men alene et oplysningsskema i henhold til
+Lov om Kreditaftaler. Samtlige oplysninger er afgivet med forbehold for
+fremtidige ændringer, herunder ændringer i rente og omkostninger.
+:SKRSLUT.
+.ta table off
+.ir 1mm
+Fortrydelsesret
+.br
+:KURSIV.
+&SDU har ret til at fortryde kreditaftalen inden for en periode på 14
+kalenderdage
+:SKRSLUT.
+.ta cell 2
+.if &U'&FORTRYDJN = J
+.th Ja
+.el Nej
+.ta row SEFO2 off
+.*PUNKT 4 (2) *************************************************************
+.ta row SEFO2 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 1mm
+Førtidig tilbagebetaling
+.br
+:KURSIV.
+&SDU har ret til helt eller delvis at tilbagebetale kreditbeløbet før
+tiden.
+:SKRSLUT.
+.ta cell 2
+&FØRTIDBET1. &FØRTIDBET2. &FØRTIDBET3. &FØRTIDBET4.
+.ta row SEFO2 off
+.*PUNKT 4 (3) *************************************************************
+.**UDSKRIVES, HVIS RELEVANT *********
+.if &L'&KOMPENS1 = 0
+.an &L'&KOMPENS2 = 0
+.an &L'&KOMPENS3 = 0
+.an &L'&KOMPENS4 = 0
+.an &L'&KOMPENS5 = 0
+.an &L'&KOMPENS6 = 0
+.th .go DATABASE
+.****************
+.ta row SEFO2 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 1mm
+Kreditgiver har ret til kompensation i tilfælde af førtidig
+tilbagebetaling.
+.ta cell 2
+&KOMPENS1. &KOMPENS2. &KOMPENS3. &KOMPENS4. &KOMPENS5. &KOMPENS6.
+.ta row SEFO2 off
+.*PUNKT 4 (4) *************************************************************
+...DATABASE
+.ta row SEFO2 on SPLIT
+.ta cell 1
+.in 5mm

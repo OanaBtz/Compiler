@@ -1,0 +1,35 @@
+.im (makroer)
+.* Test af afdelingsnavn
+.*.su off
+.*.if &E'&BECAFDNAVN eq 1
+.*.th .se banknavn = &AFDBNKNAVN
+.*.el .se banknavn = &BANKNAVN
+.*.su on
+.* Test slut
+.sp 10
+.in 3
+.ti > 05
+.tp 38
+&BANKNAVN    >&FNAVN
+.br
+&AFDNAVN     >&FSTILL
+.br
+&AFDGADE     >&GADE
+.br
+&AFDBY       >&BY
+.sp 2
+.in 3
+.tp 11 12 38
+&REGNR >>&GENKTO1 >&KUNDENR
+.sp11
+.tp 07 26 52
+>&GENKR   >&GENHVER  >&GENFØRST
+.sp
+>>&GENKTONR
+.sp7
+.tp 21 40
+>&EKSPBY   >&DATO1
+.sp7
+.tp 26
+>&NAVN
+.br

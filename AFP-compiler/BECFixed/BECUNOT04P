@@ -1,0 +1,45 @@
+.*
+.su off
+.se by = substr &GENADR4 6 25
+.su on
+.*******
+.*TEST PÅ OM DER ER TASTET 1,2 ELLER 3 I VALG AF INSTRUMENT **************
+.if &GENVALG > 0
+.an &GENVALG < 4
+.th .go TYPEOK
+.el .mg/T/Valg af instrument skal være 1, 2 eller 3./
+...TYPEOK
+.*******
+.if &GENVALG = 1
+.th .se instru = 'andele'
+.if &GENVALG = 2
+.th .se instru = 'aktier'
+.if &GENVALG = 3
+.th .se instru = 'anparter'
+.**********
+.if &L'&BECNOM = 0
+.an &L'&STKDEC = 0
+.an &L'&STKHEL = 0
+.th .mg/T/Udfyld enten nominel-felt eller ét af stk-felterne/
+.**********
+.if &L'&BECNOM > 0
+.an &L'&STKDEC > 0
+.an &L'&STKHEL = 0
+.th .mg/T/Udfyld enten nominel-felt eller ét af stk-felterne/
+.**********
+.if &L'&BECNOM > 0
+.an &L'&STKHEL > 0
+.an &L'&STKDEC = 0
+.th .mg/T/Udfyld enten nominel-felt eller ét af stk-felterne/
+.**********
+.if &L'&STKDEC > 0
+.an &L'&STKHEL > 0
+.th .mg/T/Kun ét af stk-felterne må være udfyldt/
+.**********
+.if &L'&BECNOM > 0
+.th .se valg1 = 'nominelt'
+.if &L'&STKDEC > 0
+.th .se valg1 = 'stk.'
+.if &L'&STKHEL > 0
+.th .se valg1 = 'stk.'
+.**********

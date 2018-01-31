@@ -1,0 +1,96 @@
+.if &GENFORBRUG = 1
+.th X
+.el .sp 5.25mm
+.if &GENFORBRUG = 2
+.th X
+.ar off
+.**************************************************************************
+.ar AFREGN2 on
+.tp 10mm 36mm
+:SWISS8.
+Reg.nr.
+:SKRSLUT.
+:USENKEL.&BANKREGNR.:SKRSLUT.
+:SWISS8.
+Kontonr.
+:SKRSLUT.
+:USENKEL. &GENKONTO9.:SKRSLUT.
+:SWISS8.
+.is 3mm
+i
+:SKRSLUT.
+.tp 4mm
+.sp 3mm
+¤&BKNAVN
+.br
+¤&BKAFD
+.ar off
+.**************************************************************************
+.ar PI on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.**************************************************************************
+.ar PITLF on
+&AFDTLF
+.ar off
+.**************************************************************************
+.ar PIFAX on
+&AFDFAX
+.ar off
+.**************************************************************************
+.**************************************************************************
+.da KORTHOLD  25mm  69.5mm width 170mm
+.da FIRMA     25mm 121.5mm width 170mm
+.da AFREGN1 25.5mm   184mm width 169mm
+.da AFREGN2   21mm   197mm width 173mm
+.da PI        25mm   223mm width 175mm
+.da PITLF  112.5mm 227.5mm width 175mm
+.da PIFAX  112.5mm   241mm width 175mm
+.*SUBSTRINGS **************************************************************
+.su off
+.se postnr = substr &BY 1 4
+.se bynavn = substr &BY 7 28
+.se fapostnr = substr &KTOBY 1 4
+.se fabynavn = substr &KTOBY 7 28
+.su on
+.************************************
+.*KORTHOLDER **************************************************************
+.ar KORTHOLD on
+.tp 40mm
+&NAVN
+.sp 6mm
+.if &L'&COADR > 0
+.th &COADR., &GADE
+.el &GADE
+.sp 6mm
+&postnr ¤&bynavn
+.sp 6mm
+.tp 87.8mm
+&KTTLF2 ¤&KTMOBIL2
+.sp 6mm
+.tp 40mm
+&KUNDENR ¤&STILL
+.ar off
+.*FIRMA *******************************************************************
+.ar FIRMA on
+&KTONAVN
+.sp 6mm
+&KTOGADE
+.sp 6mm
+.tp 40mm
+&fapostnr ¤&fabynavn
+.sp 6mm
+.tp 87.5mm 130.5mm
+&GENKONTAKT ¤&KTOKNDNR1 ¤&LANGKTONR
+.sp 6mm
+.tp 65mm 115mm
+&GENSELFRM ¤&KTTLF3 ¤&KTFAX3
+.ar off
+.**************************************************************************
+.ar AFREGN1 on

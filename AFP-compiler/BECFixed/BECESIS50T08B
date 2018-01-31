@@ -1,0 +1,235 @@
+.th .br
+.el .ct &YDLFOR37A.
+.el .br
+.el .go YDL38
+...YDL37
+&YDLFOR37A.
+.if &U'&LINJSKIP37 = J
+.th .br
+.el .ct &YDLFOR38A.
+.el .br
+.el .go YDL39
+...YDL38
+&YDLFOR38A.
+.if &U'&LINJSKIP38 = J
+.th .br
+.el .ct &YDLFOR39A.
+.el .br
+.el .go YDL40
+...YDL39
+&YDLFOR39A.
+.if &U'&LINJSKIP39 = J
+.th .br
+.el .ct &YDLFOR40A.
+.el .br
+.el .go YDL41
+...YDL40
+&YDLFOR40A.
+.if &U'&LINJSKIP40 = J
+.th .br
+.th .kp off
+.th .kp on
+.el .ct &YDLFOR41A.
+.el .br
+.el .kp off
+.el .kp on
+.el .go YDL42
+...YDL41
+&YDLFOR41A.
+.if &U'&LINJSKIP41 = J
+.th .br
+.el .ct &YDLFOR42A.
+.el .br
+.el .go YDL43
+...YDL42
+&YDLFOR42A.
+.if &U'&LINJSKIP42 = J
+.th .br
+.el .ct &YDLFOR43A.
+.el .br
+.el .go YDL44
+.******************************************************************
+.tp 5mm 10mm
+.*.dr tynd weight 0.2mm
+.****************************
+.kp on
+.tp 5mm 10mm
+.if &U'&LINJSKIP30 = N
+.an &L'&YDLFOR31A > 0
+.th .go YDL32
+.if &U'&LINJSKIP31 = J
+.an &L'&YDLFOR31A > 0
+.th .go YDL31
+...YDL31
+&YDLFOR31A.
+.if &U'&LINJSKIP31 = J
+.th .br
+.el .ct &YDLFOR32A.
+.el .br
+.el .go YDL33
+...YDL32
+&YDLFOR32A.
+.if &U'&LINJSKIP32 = J
+.th .br
+.el .ct &YDLFOR33A.
+.el .br
+.el .go YDL34
+...YDL33
+&YDLFOR33A.
+.if &U'&LINJSKIP33 = J
+.th .br
+.el .ct &YDLFOR34A.
+.el .br
+.el .go YDL35
+...YDL34
+&YDLFOR34A.
+.if &U'&LINJSKIP34 = J
+.th .br
+.el .ct &YDLFOR34A.
+.el .br
+.el .go YDL36
+...YDL35
+&YDLFOR35A.
+.if &U'&LINJSKIP35 = J
+.th .br
+.el .ct &YDLFOR36A.
+.el .br
+.el .go YDL37
+...YDL36
+&YDLFOR36A.
+.if &U'&LINJSKIP36 = J
+.el .br
+.el .go YDL58
+...YDL57
+&YDLFOR57A.
+.if &U'&LINJSKIP57 = J
+.th .br
+.el .ct &YDLFOR58A.
+.el .br
+.el .go YDL59
+...YDL58
+:SWISS8.
+&YDLFOR58A.
+.if &U'&LINJSKIP58 = J
+.th .br
+.el .ct &YDLFOR59A.
+.el .br
+.el .go YDL60
+...YDL59
+&YDLFOR59A.
+.if &U'&LINJSKIP59 = J
+.th .br
+.th .kp off
+.th .kp on
+.el .ct &YDLFOR60A.
+.el .br
+.el .kp off
+.el .kp on
+.el .go T08BX
+...YDL60
+&YDLFOR60A.
+.if &U'&LINJSKIP60 = J
+.th .br
+...T08BX
+.kp off
+
+&YDLFOR50A..
+if &U'&LINJSKIP50 = J.
+th .br.
+th .kp off.
+th .kp on.
+el .ct &YDLFOR51A..
+el .br.
+el .kp off.
+el .kp on.
+el .go YDL52.
+..YDL51&
+YDLFOR51A..
+if &U'&LINJSKIP51 = J.
+th .br.
+el .ct &YDLFOR52A..
+el .br.
+el .go YDL53.
+..YDL52&
+YDLFOR52A..
+if &U'&LINJSKIP52 = J.
+th .br.
+el .ct &YDLFOR53A..
+el .br.
+el .go YDL54.
+..YDL53&
+YDLFOR53A..
+if &U'&LINJSKIP53 = J.
+th .br.
+el .ct &YDLFOR54A..
+el .br.
+el .go YDL55.
+..YDL54&
+YDLFOR54A..
+if &U'&LINJSKIP54 = J.
+th .br.
+el .ct &YDLFOR55A..
+el .br.
+el .go YDL56.
+..YDL55&
+YDLFOR55A..
+if &U'&LINJSKIP55 = J.
+th .br.
+el .ct &YDLFOR26A..
+el .br.
+el .go YDL57.
+..YDL56&
+YDLFOR56A..
+if &U'&LINJSKIP56 = J.
+th .br.
+el .ct &YDLFOR57A.
+...YDL43&
+YDLFOR43A..
+if &U'&LINJSKIP43 = J.
+th .br.
+el .ct &YDLFOR44A..
+el .br.
+el .go YDL45.
+..YDL44&
+YDLFOR44A..
+if &U'&LINJSKIP44 = J.
+th .br.
+el .ct &YDLFOR45A..
+el .br.
+el .go YDL46.
+..YDL45&
+YDLFOR45A..
+if &U'&LINJSKIP45 = J.
+th .br.
+el .ct &YDLFOR46A..
+el .br.
+el .go YDL47.
+..YDL46&
+YDLFOR46A..
+if &U'&LINJSKIP46 = J.
+th .br.
+el .ct &YDLFOR47A..
+el .br.
+el .go YDL48.
+..YDL47&
+YDLFOR47A..
+if &U'&LINJSKIP47 = J.
+th .br.
+el .ct &YDLFOR48A..
+el .br.
+el .go YDL49.
+..YDL48&
+YDLFOR48A..
+if &U'&LINJSKIP48 = J.
+th .br.
+el .ct &YDLFOR49A..
+el .br.
+el .go YDL50.
+..YDL49&
+YDLFOR49A..
+if &U'&LINJSKIP49 = J.
+th .br.
+el .ct &YDLFOR50A..
+el .br.
+el .go YDL51.
+..YDL50

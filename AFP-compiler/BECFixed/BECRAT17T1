@@ -1,0 +1,182 @@
+.** test ratepensionstype ***
+.if &L'&GENPRIFAST > 0
+.th .go TEST2
+.if &L'&GENPRIENGA > 0
+.th .go TEST3
+.if &L'&GENPRIOPFY > 0
+.th .go OKTEST
+.el .mg /T/Ratepensionstype skal vælges/
+...TEST2
+.if &L'&GENPRIENGA > 0
+.or &L'&GENPRIOPFY > 0
+.th .go FEJL
+.el .go OKTEST
+...TEST3
+.if &L'&GENPRIOPFY > 0
+.th .go FEJL
+.el .go OKTEST
+...FEJL
+.th .mg /T/Højst een ratepensionstype må vælges/
+...OKTEST
+.*** test beløb **
+.if &L'&GENPRIENGA > 0
+.th .go ENGATST
+.el .go FREKTST
+.** beløbstest for engangsindskud ***
+...ENGATST
+.if &L'&RESULTA gt 12
+.th .go ENGAFEJL
+.if &L'&RESULTA eq 12
+.an X&RESULTA gt X&GENMAX15B
+.th .go ENGAFEJL
+.if &L'&RESULTA eq 4
+.an X&RESULTA eq X0,00
+.th .go ENGAFEJL
+.el .go TESTSLUT
+...ENGAFEJL
+.mg /T/Indb.beløb skal indtastes og være mindre end &GENMAX15B./
+...FREKTST
+.** test frekvens for både fast og op-til-opfyld ***
+.if &L'&GENLØNINDB = 0
+.th .mg /T/Frekvens skal vælges/
+.if x&GENLØNINDB < x1
+.or x&GENLØNINDB > x6
+.th .mg /T/Frekvens skal have værdien 1-6/
+.*begynd beløbstest for fast
+.if &L'&GENPRIFAST > 0
+.th .go FASTTST
+.** beløbstest for op til opfyldningsfradrag **
+.if x&GENLØNINDB ne x1
+.th .go AAR1SL
+.if &L'&RESULTA gt 9
+.th .go TEKST1A
+.if &L'&RESULTA eq 9
+.an X&RESULTA gt X&GENMAXBEL
+.th .go TEKST1A
+.el .go TESTSLUT
+...TEKST1A
+.mg /T/BELØB SKAL VÆRE MINDRE END &GENMAXBEL./
+...AAR1SL
+.if x&GENLØNINDB ne x2
+.th .go HALV1SL
+.if &L'&RESULTH gt 9
+.th .go TEKST1H
+.if &L'&RESULTH eq 9
+.an X&RESULTH gt X&GENMAXBEL
+.th .go TEKST1H
+.el .go TESTSLUT
+...TEKST1H
+.mg /T/BELØB SKAL VÆRE MINDRE END &GENMAXBEL./
+...HALV1SL
+.if x&GENLØNINDB ne x3
+.th .go KVART1SL
+.if &L'&RESULTB gt 9
+.th .go TEKST1K
+.if &L'&RESULTB eq 9
+.an X&RESULTB gt X&GENMAXBEL
+.th .go TEKST1K
+.el .go TESTSLUT
+...TEKST1K
+.mg /T/BELØB SKAL VÆRE MINDRE END &GENMAXBEL./
+...KVART1SL
+.if x&GENLØNINDB ne x4
+.th .go MDR7SL
+.if &L'&RESULTC gt 9
+.th .go TEKST1M
+.if &L'&RESULTC eq 9
+.an X&RESULTC gt X&GENMAXBEL
+.th .go TEKST1M
+.el .go TESTSLUT
+...TEKST1M
+.mg /T/BELØB SKAL VÆRE MINDRE END &GENMAXBEL./
+...MDR7SL
+.if x&GENLØNINDB ne x5
+.th .go 14DAGSL
+.if &L'&RESULTD gt 9
+.th .go TEKST1D
+.if &L'&RESULTD eq 9
+.an X&RESULTD gt X&GENMAXBEL
+.th .go TEKST1D
+.el .go TESTSLUT
+...TEKST1D
+.mg /T/BELØB SKAL VÆRE MINDRE END &GENMAXBEL./
+...14DAGSL
+.if x&GENLØNINDB ne x6
+.th .go TESTSLUT
+.if &L'&RESULTI gt 9
+.th .go TEKST1X
+.if &L'&RESULTI eq 9
+.an X&RESULTI gt X&GENMAXBEL
+.th .go TEKST1X
+.el .go TESTSLUT
+...TEKST1X
+.mg /T/BELØB SKAL VÆRE MINDRE END &GENMAXBEL./
+.*  Her testes på beløb kun for (fast-beløb)********
+...FASTTST
+.if x&GENLØNINDB ne x1
+.th .go NYAARSL
+.if &L'&RESULTA gt 12
+.th .mg /T/BELØB SKAL VÆRE MINDRE END &GENMAX15B./
+.if &L'&RESULTA lt 12
+.th .go PRISTAL
+.if X&RESULTA gt X&GENMAX15B
+.th .mg /T/BELØB SKAL VÆRE MINDRE END &GENMAX15B./
+.el .go PRISTAL
+...NYAARSL
+.if x&GENLØNINDB ne x2
+.th .go NYHALVSL
+.if &L'&RESULTH gt 12
+.th .mg /T/BELØB SKAL VÆRE MINDRE END &GENMAX15B./
+.if &L'&RESULTH lt 12
+.th .go PRISTAL
+.if X&RESULTH gt X&GENMAX15B
+.th .mg /T/BELØB SKAL VÆRE MINDRE END &GENMAX15B./
+.el .go PRISTAL
+...NYHALVSL
+.if x&GENLØNINDB ne x3
+.th .go NYKVASL
+.if &L'&RESULTB gt 12
+.th .mg /T/BELØB SKAL VÆRE MINDRE END &GENMAX15B./
+.if &L'&RESULTB lt 12
+.th .go PRISTAL
+.if X&RESULTB gt X&GENMAX15B
+.th .mg /T/BELØB SKAL VÆRE MINDRE END &GENMAX15B./
+.el .go PRISTAL
+...NYKVASL
+.if x&GENLØNINDB ne x4
+.th .go NYMDRSL
+.if &L'&RESULTC gt 12
+.th .mg /T/BELØB SKAL VÆRE MINDRE END &GENMAX15B./
+.if &L'&RESULTC lt 12
+.th .go PRISTAL
+.if X&RESULTC gt X&GENMAX15B
+.th .mg /T/BELØB SKAL VÆRE MINDRE END &GENMAX15B./
+.el .go PRISTAL
+...NYMDRSL
+.if x&GENLØNINDB ne x5
+.th .go NY14DASL
+.if &L'&RESULTD gt 12
+.th .mg /T/BELØB SKAL VÆRE MINDRE END &GENMAX15B./
+.if &L'&RESULTD lt 12
+.th .go PRISTAL
+.if X&RESULTD gt X&GENMAX15B
+.th .mg /T/BELØB SKAL VÆRE MINDRE END &GENMAX15B./
+.el .go PRISTAL
+...NY14DASL
+.if x&GENLØNINDB ne x6
+.th .go PRISTAL
+.if &L'&RESULTI gt 12
+.th .mg /T/BELØB SKAL VÆRE MINDRE END &GENMAX15B./
+.if &L'&RESULTI lt 12
+.th .go PRISTAL
+.if X&RESULTI gt X&GENMAX15B
+.th .mg /T/BELØB SKAL VÆRE MINDRE END &GENMAX15B./
+...PRISTAL
+.*   pristal gælder kun til fast beløb
+.if &L'&GENPRISTAL eq 0
+.th .go TESTSLUT
+.if x&GENPRISTAL < x1
+.or x&GENPRISTAL > x4
+.th .mg /T/Ved pristalsregulering skal indeks være 1-4/
+...TESTSLUT
+.**********

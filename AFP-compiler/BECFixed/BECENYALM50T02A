@@ -1,0 +1,53 @@
+other than Danish kroner in Denmark, reference is made to &GENUDLOVFN..
+.sp 3mm
+.kp off
+************************************************************************
+.* Mulighed 1 - For institutter med rentedato bankdagen efter modtagelse,*
+.*              modtagelse, bortset fra betalingskonti                   *
+.*************************************************************************
+.tp 5mm
+.kp on
+.us 1.8 Deposits
+.br
+For deposits, the value date depends on whether the account is a payment
+account under the Danish Act on Payment Services or another type of
+account. A payment account is an account for payment transactions, e.g. a
+payroll account, but not a children's savings account.
+.sp 3mm
+.kp off
+.kp on
+As regards cash deposits to a payment
+account, the value date is the same business day as the deposit date. The
+value date is the first business day after the deposit if the account is
+not a payment account.
+.sp 3mm
+.kp off
+.kp on
+In connection with deposits into a payment account by means of cards, e.g.
+Dankort or Visa/Dankort, the value date is the business day on which the
+amount is received by &BANKNAVN.. However, the value date is the first
+business day after the receipt if the account is not a payment account.
+.sp 3mm
+.kp off
+.kp on
+In connection with a transfer in Danish kroner from other Danish banks, the
+value date is the business day on which the amount is received by
+&BANKNAVN.. However, the value date is the first business day after the
+receipt if the account is not a payment account.
+.sp 3mm
+.kp off
+.kp on
+In connection with a transfer in Danish kroner between accounts with
+&BANKNAVN., the value date is the business day on which the amount is
+deposited on the recipient's account. The value date is, however, the
+first business day after the amount has been deposited on the
+recipient's account if the account is not a payment account.
+.sp 3mm
+.kp off
+.kp on
+For transfers between own accounts with &BANKNAVN.,the value date is the
+business day on which the transfer is made.n which the transfer is made.
+.sp 3mm
+.kp off
+.kp on
+If an amount is transferred to Denmark and the receipt is in a currency

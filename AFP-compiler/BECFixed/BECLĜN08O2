@@ -1,0 +1,11 @@
+.*UDEN "".RH EXECUTE STARTER SIDEHOVEDET FÄRST FRA NÄSTE SIDE *************
+*.*MAN KAN SLUTTE SIDEHOVEDET VED AT DEFINERE ET NYT SIDEHOVED - ELLE
+R.*VED AT BENYTTE TEKSTMODULET ""BECRHCANCEL"" ****************************
+***.pm 2
+0mm.tm 1
+3mm.bm 2
+5mm.*KOLONNEDEFINITION ****************************************************
+***.cd 2 1mm 8
+8mm.cl 8
+5mm.***********************************************************************
+***"

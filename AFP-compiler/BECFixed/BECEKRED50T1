@@ -1,0 +1,35 @@
+.******************************************************************
+.da BANKSTED      20mm  47mm width 175mm
+.da KUNDEOPL       25mm  61.5mm width 85mm
+.da KUNDEOPL2    112.5mm 61.5mm width 85mm
+.******************************************************************
+.ar BANKSTED on
+.tp 1mm 30mm 65mm 140mm
+¤&BANKSTED  ¤&IREGKTO ¤&REGTYPE11 &REGTYPELNG ¤&DATO
+.ar off
+.**************************************
+.ar KUNDEOPL on
+&DEB1ADR1
+.br
+&DEB1ADR2
+.br
+&DEB1ADR3
+.br
+&DEB1ADR4
+.br
+&DEB1ADR5
+.ar off
+.*************************************
+.ar KUNDEOPL2 on
+.if &DEBANTAL > 1
+.th &DEB2ADR1
+.th .br
+.th &DEB2ADR2
+.th .br
+.th &DEB2ADR3
+.th .br
+.th &DEB2ADR4
+.th .br
+.th &DEB2ADR5
+.ar off
+.*************************************

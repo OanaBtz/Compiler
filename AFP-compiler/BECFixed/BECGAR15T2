@@ -1,0 +1,93 @@
+.kp on
+:SWISS8.
+:FED.
+Betaling
+:SKRSLUT.
+.br
+Garantien erstattes af betaling den
+:SKRSLUT.
+.ct  &GARUDLDATO
+:SWISS8.
+til andelsboligforeningen
+på de vilkår, der er bestemt i købsaftalen/salgsaftalen. Hvis
+betalingsdagen ændres, skal
+:SKRSLUT.
+.ct  &BANKNAVN.
+:SWISS8.
+orienteres herom.
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+Betaling sker under forbehold af, at andelsboligen overdrages ubehæftet
+og i øvrigt fri for enhver anden form for gæld, medmindre andet er
+aftalt i købsaftalen/salgsaftalen.
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+Hvis køber hæver handlen på grund af sælgers misligholdelse, erstattes
+garantien ikke af kontant indbetaling til andelsboligforeningen
+på betalingsdagen. Garantien vil i stedet løbe videre, indtil køber og
+sælger, ved forlig eller endelig retsafgørelse, har afklaret, om
+garantibeløbet skal udbetales. Garantien bortfalder, hvis der ikke er
+indgået forlig eller taget retsskridt senest 1 år efter betalingsdagen.
+.if X&GENJANEJ1 = XN
+.an X&GENJANEJ2 = XN
+.th :SKRSLUT.
+.th .go PIUNDER
+.kp off
+.***
+.if &U'X&GENJANEJ1 = XJ
+.th .go KLAU1
+.el .go KLAU1SL
+.***
+...KLAU1
+.kp on
+:SWISS8.
+.sp 5mm
+:FED.
+Klausul om transport i tilbagesøgningskrav
+:SKRSLUT.
+.br
+Køber har givet
+:SKRSLUT.
+.ct  &BANKNAVN.
+:SWISS8.
+transport i sit krav på
+eventuel tilbagebetaling af købesummen
+med tillæg af renter i den situation, hvor handlen ikke
+gennemføres, eller købesummen nedsættes. En eventuel tilbagebetaling
+af købesummen med tillæg af renter kan alene med frigørende
+virkning tilbagebetales til
+:SKRSLUT.
+.ct  &BANKNAVN..
+.if &U'X&GENJANEJ2 = XN
+.th .go PIUNDER
+.kp off
+...KLAU1SL
+.***
+.kp on
+:SWISS8.
+.sp 5mm
+:FED.
+Klausul om tilbagelevering af garantibrevet
+:SKRSLUT.
+.br
+Når der er betalt under garantien, eller denne på anden måde er
+ophørt, skal garantibrevet tilbageleveres til
+:SKRSLUT.
+.ct  &BANKNAVN..
+.***
+...PIUNDER
+.sp 15mm
+.ce on
+:SWISS8.
+den
+:SKRSLUT.
+.ct  &DATO8
+.br
+&BANKNAVN
+.ce off
+.sp 15mm
+.kp off

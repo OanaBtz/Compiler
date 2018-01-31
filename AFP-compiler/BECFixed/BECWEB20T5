@@ -1,0 +1,136 @@
+.kp on
+:SWISS10.
+:FED.
+3. Dokumentation
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+3.1 Oplysninger om posteringer, der fremgår af &WEBSYSNAVN., er ikke
+nødvendigvis endelige. Kunden er selv ansvarlig for at
+kontrollere, at betalingsanmodninger gennemføres, ved gennemgang
+af bevægelser på saldi, forespørgsler på og senere kontrol af
+posteringer og eventuelle kontoudskrifter.
+:SWISS8.
+.sp 3mm
+.kp off
+.kp on
+3.2 Kunden accepterer, at posteringsoversigter, eventuelle
+kontoudtog, handelsnotaer og anden
+dokumentation kan modtages i elektronisk form. Kunden er selv
+ansvarlig for at hente og printe elektroniske udtog og dokumenter.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+4. Ansvar
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+4.1 &BANKNAVN er til enhver tid berettiget til, uden ansvar,
+at afvise at gennemføre betalinger, overførsler mv., såfremt
+begrænsninger aftalt med &BANKNAVN overskrides, eller
+såfremt der ikke er dækning for en overførsel. &BANKNAVN er
+ikke ansvarlig for tab, som kunden måtte lide som følge af
+driftsforstyrrelser, der forhindrer anvendelsen af systemet, eller
+som følge af afbrydelser i kundens adgang til at indhente
+information eller afgive instruktioner. &BANKNAVN.s ansvar
+er i øvrigt begrænset jf. vilkårene nedenfor, hvortil der
+henvises.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+5. Ændringer og opsigelse
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+5.1 Indholdet af &WEBSYSNAVN og vilkårene
+herfor ændres løbende. Ændringer i denne aftale kan ske i
+overensstemmelse med pkt. 7 i Vilkår for &WEBSYSNAVN., og såfremt
+&WEBSYSNAVN tilføres ny funktionalitet, som er gebyrbelagt, eller som
+kan få væsentlige økonomiske konsekvenser for kunden, varsles
+dette overfor kunden i overensstemmelse med Vilkår for &WEBSYSNAVN.,
+eller kunden tilmeldes funktionen særskilt via &WEBSYSNAVN eller ved
+aftale med &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+5.2
+Aftalen kan opsiges af parterne i overensstemmelse med pkt. 8
+i Vilkår for &WEBSYSNAVN..
+.sp 5mm
+.kp off
+.if &U'&WEBPRIERH = P
+.th .go PRIPKT6
+.*** UDSKRIVES KUN FOR ERHVERV ********************************************
+.kp on
+:SWISS10.
+:FED.
+6. Erklæring om erhvervsmæssig anvendelse mv.
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+6.1 De af aftalen omfattede ydelser må alene anvendes
+erhvervsmæssigt. Ikke-erhvervsmæssig brug af systemet udgør
+hæveberettigende misligholdelse af aftalen.
+.sp 3mm
+.kp off
+.kp on
+6.2 Kunden erklærer at være bekendt med, at Lov om betalingstjenester
+er fraveget, og at kunden ikke kan påberåbe sig kapitel
+5, §§ 55, 62, 64-66, 68, 73, 74 og 85 samt kapitel 10 i Lov om
+betalingstjenester.
+.sp 5mm
+.kp off
+.**************************************************************************
+...PRIPKT6
+.kp on
+:SWISS10.
+:FED.
+.if &U'&WEBPRIERH = P
+.th 6.
+.el 7.
+Sprog mv.
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+.if &U'&WEBPRIERH = P
+.th 6.1
+.el 7.1
+Aftalen indgås på dansk og al kommunikation mellem kunden
+.if &U'&WEBPRIERH = E
+.th eller dennes brugere
+og &BANKNAVN. skal foregå på dansk.
+.if &U'&WEBPRIERH = E
+.th .sp 5mm
+.el .sp 3mm
+.kp off
+.*** UDSKRIVES KUN FOR PRIVAT *********************************************
+.if &U'&WEBPRIERH = E
+.th .go ERHPKT8
+.kp on
+6.2 Kunden kan til enhver tid anmode om at modtage aftalen og de
+oplysninger og betingelser, hvortil der henvises i aftalen, på
+papir eller andet varigt medium. &BANKNAVN. kan stille oplysningerne
+til rådighed for kunden i &WEBSYSNAVN..
+.sp 5mm
+.kp off
+.**************************************************************************
+.if &U'&WEBPRIERH = P
+.th .go EJMER
+.***
+...ERHPKT8
+.kp on
+:SWISS10.
+:FED.
+8. Eksemplarer
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+8.1 Nærværende aftale underskrives i to enslydende eksemplarer, hvoraf
+det ene udleveres til og opbevares af kunden og det andet
+opbevares af &BANKNAVN..
+.kp off
+...EJMER

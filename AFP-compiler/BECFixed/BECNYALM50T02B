@@ -1,0 +1,28 @@
+.*************************************************************************
+.* Mulighed 2 - For institutter, hvor rentedatoen er ens for alle konti  *
+.*              og overførselstyper                                      *
+.*************************************************************************
+.tp 5mm
+.kp on
+.us 1.8 Indbetalinger
+.br
+Ved kontant indbetaling, herunder indbetaling med
+kort, f.eks. Dankort eller Visa/Dankort, er rentedatoen samme
+bankdag som indbetalingen.
+.sp 3mm
+.kp off
+.kp on
+Ved overførsel i danske kroner fra andre danske pengeinstitutter er
+rentedatoen den bankdag, beløbet modtages af &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+Ved overførsel i danske kroner mellem konti i &BANKNAVN. er rentedatoen
+den bankdag, beløbet indsættes på modtagerens konto.
+.sp 3mm
+.kp off
+.kp on
+Ved overførsel fra udlandet og modtagelse i anden valuta end DKK i Danmark
+henvises til &GENUDLOVFN..
+.sp 3mm
+.kp off

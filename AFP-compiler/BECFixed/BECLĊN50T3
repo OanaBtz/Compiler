@@ -1,0 +1,20 @@
+.th fortrydelsesretten.
+.th .sp 5mm
+.***************
+.if &L'&DEBKONTO = 0
+.th .go MORARTE
+.if &U'&PRIERH = P
+.th
+.el .sp 5mm
+:FED.
+Betaling
+.br
+:SKRSLUT.
+Forfaldne ydelser/ekstraordinÄre afdrag hÄves pÄ
+konto &DEBKONTO..
+.br
+&debsomt fÄr ikke separat meddelelse om belÄb, der er
+hÄvet pÄ kontoen. &debsomt skal selv sÄrge for, at der er dÄkning.
+.sp 5mm
+...MORARTE
+.***

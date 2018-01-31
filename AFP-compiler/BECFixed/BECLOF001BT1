@@ -1,0 +1,135 @@
+leasingbetingelser. Aftalen er bindende for
+:SKRSLUT.
+&AFDBNKNAVN.
+:SWISS8.
+, når den er underskrevet af tegningsberettiget for samme.
+.sp
+:SKRSLUT.
+&AFDBNKNAVN
+:SWISS8.
+kan i overensstemmelse med reglerne i Lov om Finansiel Virksomhed
+videregive/samkøre sædvanlige kundeoplysninger med
+:SKRSLUT.
+&GENBANK.,
+:SWISS8.
+som er nødvendige for kundeadministration, risikostyring og
+kreditvurdering.
+.sp 2
+.***UNDERSKRIFTER**********************************************************
+.***LEASINGTAGER OG LEASINGGIVER*******************************************
+:FED.
+For leasinggiver
+:SKRSLUT.
+.sp 11mm
+.tp _/30mm 40mm _/155mm
+¤¤¤
+.br
+.tp 6mm 95mm CENTER
+¤Dato
+:SKRSLUT.
+¤&AFDBNKNAVN.
+:SWISS8.
+.sp 2
+:FED.
+Leasingtagers stempel og underskrift
+:SKRSLUT.
+.br
+(Påfør med blokbogstaver navn og titel på tegningsberettigede
+underskrivere)
+.sp 11mm
+.tp _/30mm 40mm _/155mm
+¤¤¤
+.tp 6mm 95mm CENTER
+¤Dato
+:SKRSLUT.
+¤&UNDSNAVN.
+:SWISS8.
+.sp 2
+.kp off
+.***TEST PÅ HÅNDPANTSÆTTER*************************************************
+.if &L'&DEPOBEL > 0
+.***PBS AFSNITTET**********************************************************
+&AFTALENR.
+.sp 8mm
+:SWISS8.
+.kp on
+:FED.
+PBS/&NETS. tilmelding & original registreringsattest
+:SKRSLUT.
+.br
+Ved min/vor underskrift gives tilladelse til at trække ydelserne via
+PBS/&NETS.
+på min/vor konto. Såfremt tilladelsen for tilmelding til PBS/&NETS.
+ikke gives, tillægges administrationsgebyr
+kr. 50,00 + moms pr. opkrævning.
+.sp
+.tp _/30mm 40mm _/100mm
+Reg.nr.:¤ ¤Kontonummer ¤
+.sp
+.kp off
+.***TEST PÅ KØRETØJ ELLER ANDET FOR NÆSTE AFSNIT***************************
+.if &U'X&AKTIVVALG = XK
+.th .go KØRET
+.el .go ANDET
+...KØRET
+.tp _/30mm 40mm
+(sæt kryds) ¤ ¤Ja tak, del 1 af den originale registreringsattest bedes
+.in 40mm nobreak
+fremsendt til os og vi opbevarer denne på leasinggivers vegne samt
+tilbageleverer denne ved leasingkontraktens udløb eller på
+anmodning fra leasinggiver. Ekspeditionsgebyr kr. 125,00 + moms vil blive
+opkrævet med førstkommende
+.hw leasing-opkræv-ning.
+.sp
+.in 5mm
+...ANDET
+.tp _/30mm 40mm _/145mm
+(sæt kryds) ¤ ¤Ja tak, jeg/vi vil gerne modtage nyhedsmail
+.br
+.tp 40mm _/150mm
+¤fra leasinggiver på efterfølgende e-mail:¤
+.sp
+.**************************************************************************
+.kp on
+:FED.
+Underskrifter
+:SKRSLUT.
+.br
+Leasingtager anerkender med sin underskrift at have modtaget et eksemplar
+af denne aftale, samt at have gennemlæst og være bekendt med aftalens
+bestemmelser, herunder omstående almindelige
+.th .go HÅNDP
+.el .go IHÅND
+...HÅNDP
+.kp on
+:FED.
+Håndpantsætters stempel og underskrift
+:SKRSLUT.
+.sp 11mm
+.tp _/30mm 40mm _/155mm
+¤¤¤
+.tp 6mm 95mm CENTER
+¤Dato ¤Navn/titel på tegningsberettigede underskriver(e)
+.sp 2
+.kp off
+...IHÅND
+.***VITTERLIGHED***********************************************************
+.kp on
+:FED.
+Til vitterlighed om ægte underskrift, dateringens rigtighed
+og udstederens myndighed
+:SKRSLUT.
+.sp 5mm
+.**************************************************************************
+.tp _/75mm 85mm _/160mm
+Navn ¤ ¤Navn ¤
+.sp 4mm
+Stilling ¤ ¤Stilling ¤
+.sp 4mm
+Adresse ¤ ¤Adresse ¤
+.sp 4mm
+Postnr./by ¤ ¤Postnr./by ¤
+.sp 4mm
+Underskrift ¤ ¤Underskrift ¤
+.kp off
+.**************************************************************************

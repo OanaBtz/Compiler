@@ -1,0 +1,23 @@
+.ti ¤ 05
+:COUR10.
+.**********************************************************************
+.* Brevnavn, roteret i nederste venstre hjørne
+.da VEND 7mm 270mm width 180mm rotate -90
+.* Uddata-overskrift
+.da OVERSKR 20mm 40mm width 170mm
+:ENY.
+.***********************************************************************
+.ar VEND on
+:COUR6.
+BECBOL01
+.ar off
+.***********************************************************************
+.ar OVERSKR on
+:COUR14.:FED.
+.us Boligopsparing - deludbetaling
+:SKRSLUT.
+.sp
+:COUR10.
+.us Beregning og vejledning vedr. deludbetaling med præmie
+.sp
+.**********************************************************************

@@ -1,0 +1,112 @@
+.* Transport - På tilgodehavende - 1.Kasser og ledetekster
+.ti ¤ 05
+.da BOX   20mm 40mm WIDTH 175mm
+.ll 174mm
+.tp 1mm
+.**********************************
+.ar BOX on
+:SWISS10.:FED.
+¤Parter
+:SWISS8.
+.sp 0.1mm
+.**** FORDRINGSHAVER **************
+.bx left right
+.tp 1mm
+:SWISS8.
+¤Til sikkerhed for enhver forpligtelse som
+.sp 2mm
+¤Fordringshaver
+:SKRSLUT.
+.sp 20mm
+.bx off
+.****** PENGEINSTITUT *************
+.bx set left right
+:SWISS8.
+.tp 1mm
+¤nu har eller senere måtte få overfor pengeinstituttet, herunder enhver af
+pengeinstituttets filialer og afdelinger
+.sp 2mm
+¤Pengeinstitut:
+:SKRSLUT.
+.sp 15mm
+.bx off
+.****** DEBITOR *******************
+.bx set left right
+.tp 1mm
+¤giver underskrevne herved pengeinstituttet uigenkaldelig transport på
+mit/vort nuværende og fremtidige tilgodehavende hos
+.sp 2mm
+¤Fordringens debitor:
+:SKRSLUT.
+.sp 19mm
+.bx off
+.***** BELØB **************************
+:SWISS10.:FED.
+¤Specifikationer
+:SWISS8.
+.bx left right
+¤Entreprisesum kr.
+.sp 1mm
+¤Beløb i tekst:
+.sp 1mm
+¤Transporten omfatter tillige ethvert beløb, der måtte tilfalde
+underskrevne
+for udførelse af ekstraarbejde og/eller for løn- og prisstigninger.
+.sp 5mm
+:SKRSLUT.
+.bx off
+.***** VEDR. *******************************
+.bx set left right
+:SWISS8.
+¤Entreprisesummen vedrører kontrakt af den:
+.sp 1mm
+¤Entreprisesummen vedrører udførelse af:
+:SKRSLUT.
+.sp 24mm
+.***** FASTE BETINGELSER **********
+.hr left right
+.sp 10mm
+.bx off
+.***** FORDRINGSHAVERS UNDERSKRIFT **
+.bx set left 87mm right
+.tp 1mm 57mm 88mm _/171mm
+:SWISS8.
+¤Fordringshavers underskrift ¤Dato:
+.sp 7mm
+¤¤¤Navn ¤
+.sp 3mm
+¤¤¤Stilling ¤
+.sp 3mm
+¤¤¤Adresse ¤
+.sp 3mm
+¤¤¤Underskrift ¤
+:SKRSLUT.
+.sp 1mm
+.bx off
+.***** ANMELDELSES PÅTEGNING ******
+:SWISS10.:FED.
+¤Noteringspåtegning
+:SWISS8.
+.sp 0.1mm
+.**********************************
+.bx left right
+.sp 7mm
+.bx off
+.**********************************
+.bx set left 87mm right
+:SWISS8.
+¤Underskrift af fordringens debitor ¤Dato:
+.sp 7mm
+¤¤¤Navn ¤
+.sp 3mm
+¤¤¤Stilling ¤
+.sp 3mm
+¤¤¤Adresse ¤
+.sp 3mm
+¤¤¤Underskrift ¤
+:SKRSLUT.
+.sp 1mm
+.bx off
+.ar off
+.***** FORTSÆTTES afsnit 2 ********
+:COUR10.

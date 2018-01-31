@@ -1,0 +1,22 @@
+.********************GENEREL OPSÆTNING*************************************
+:COUR10.
+.fo left
+.ti ¤ 05
+:TILTALE &TILTALE
+.********************AREAL-DEFINITIONER************************************
+.* Brevstart, incl. overskrift
+.da START 20mm 100mm
+.* Brevnavn, roteret i venstre hjørne
+.da VEND 7mm 270mm width 180mm rotate -90
+.********************ROTERET BREVNAVN**************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.********************START-POSITION AF BREVET, INCL. OVERSKRIFT************
+.ar START on
+:FED.
+.us Udbetaling af &DIN. indekskonto &regnr. &ktonr. skal til at begynde
+:SKRSLUT.
+.sp
+.**************************************************************************

@@ -1,0 +1,103 @@
+.da SIDE1 20mm 38mm width 175mm
+.ar SIDE1 on
+.tp 1mm 88.5mm
+.***********************************************************
+:SWISS10.
+:FED.
+Parties
+:SKRSLUT.
+.***** her laves kassen til kunde og cpr-nr ****************
+.bx left 87.5mm right
+:SWISS8.
+¤Customer ¤Civil reg. no./CVR no.
+.sp 9mm
+.***** her laves kassen til debiteringskontonr. ************
+.hr 87.5mm right
+.sp 12mm
+.****** her lavers kassen til Pengeinstituttet ********
+.bx new left right
+¤Bank
+.sp 20mm
+.bx off
+.bx can
+:SWISS10.
+:FED.
+Contents
+:SKRSLUT.
+:SWISS8.
+.***** her laves kassen til Indhold  ****
+.bx left right
+.sp 8mm
+.*****her laves kassen til Brugernavn og -nummer *******
+.if &U'&WEBPRIERH = P
+.th .go PRIV1
+.el .go ERHV1
+...PRIV1
+:SWISS8.
+.bx new left right
+¤User:
+.sp 1mm
+¤User-ID:
+.sp 10mm
+.go FORHOLD1
+...ERHV1
+.* ERHVERV: KUN 2 BRUGERE ***************************
+.bx new left right
+.if &L'&GENBRUGNR = 0
+.an &L'&GENBRUGNVN = 0
+.an &L'&GENBRUGNR1 = 0
+.an &L'&GENBRUGNV1 = 0
+.th ¤The manager of users, if any:
+.th .sp 50mm
+.th .go FORHOLD1
+.if &L'&GENBRUGNR > 0
+.or &L'&GENBRUGNVN > 0
+.th ¤The customer appoints and authorises the following person as
+.if &L'&GENBRUGNR1 > 0
+.or &L'&GENBRUGNV1 > 0
+.th .ct ¤The customer appoints and authorises the following person as
+.br
+.if &L'&GENBRUGNR > 0
+.or &L'&GENBRUGNVN > 0
+.th ¤manager of users:
+.if &L'&GENBRUGNR1 > 0
+.or &L'&GENBRUGNV1 > 0
+.th .ct ¤manager of users:
+.sp 1mm
+.if &L'&GENBRUGNR = 0
+.an &L'&GENBRUGNR1 = 0
+.th &ÅRB
+.if &L'&GENBRUGNR > 0
+.th ¤User-ID:
+.if &L'&GENBRUGNR1 > 0
+.th .ct ¤User-ID:
+.sp 7mm
+.if &L'&GENBRUGNVN > 0
+.th ¤User name:
+.if &L'&GENBRUGNV1 > 0
+.th .ct ¤User name:
+.sp 7mm
+.if &L'&GENBRUGNVN > 0
+.th ¤Signature:
+.if &L'&GENBRUGNV1 > 0
+.th .ct ¤Signature:
+.sp 24mm
+.*************************************************
+...FORHOLD1
+.*****her laves kassen til Særlige forhold *************
+.bx new left right
+¤Special circumstances
+.sp 13mm
+.***** her laves kassen til betingelser  ***************
+.bx new left right
+¤Conditions
+.if &U'&WEBPRIERH = E
+.th .sp 92mm
+.el .sp 128mm
+.bx off
+.bx can
+.bx can
+.bx can
+.bx can
+.bx can
+.ar off

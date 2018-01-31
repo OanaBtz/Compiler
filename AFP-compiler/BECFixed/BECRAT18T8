@@ -1,0 +1,105 @@
+:SWISS8.
+.tp 5mm
+.*********************************************
+.kp on
+Vilkårene for rateopsparing omfattet af pensionsbeskatningslovens
+§ 15B gælder, medmindre andet udtrykkeligt er aftalt.
+Vilkårene
+ændres, hvis lovgivningen om ratepension ændres. I øvrigt gælder
+&BANKNAVN.s almindelige forretningsbetingelser.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+1. Indbetalinger
+:SWISS8.
+.sp 3mm
+De aftalte indbetalinger indsættes i &BANKNAVN på en ratepensionskonto
+tilhørende kontohaver.
+.sp 3mm
+.kp off
+.kp on
+Hvis det er aftalt, at &BANKNAVN automatisk skal overføre beløbet til
+pensionskontoen, kan &BANKNAVN undlade overførslen, hvis den bevirker
+overtræk på den konto midlerne overføres fra.
+.sp 3mm
+.kp off
+.kp on
+§ 15B-ratepensionsaftaler kan kun oprettes af sportsudøvere, der har
+indkomst, som stammer fra deres sportsudøvelse, og som endnu ikke er fyldt
+40 år. Ratepensionen anses først for oprettet, når første indbetaling til
+kontoen er gennemført.
+.sp 3mm
+.kp off
+.kp on
+Der kan samlet højst indbetales &GENMAX15B kr. (&GENMAXDATO.). Beløbet
+reguleres hvert år. Den årlige indbetaling kan dog ikke overstige den
+indkomst sportsudøveren har optjent ved sin sportsudøvelse i det
+pågældende år.
+.sp 3mm
+.kp off
+.kp on
+Ordningen kan oprettes enten som en privatordning eller som en
+arbejdsgiverordning. Der kan dog kun oprettes én ordning per
+sportsudøver. På en privatordning må der kun indbetales af
+kontohaver. På en arbejdsgiverordning må der kun indbetales af
+arbejdsgiver.
+.sp 3mm
+.kp off
+.kp on
+Muligheden for at indbetale ophører i kalenderåret før første aftalte
+rateudbetaling.
+.sp 3mm
+.kp off
+.kp on
+&BANKNAVN sender mindst én gang årligt meddelelse til kontohaver
+med angivelse af indbetalinger, tilskrevet afkast, betalte skatter,
+eventuelle administrationsomkostninger og forsikringspræmier.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+.tp 5mm
+2. ¤Placering af opsparing
+.sp 3mm
+:SWISS8.
+Kontoens indestående kan efter kontohavers eget valg placeres efter de i
+lovgivningen og efter &BANKNAVN.s til enhver tid gældende regler.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+.tp 5mm
+3. ¤Udbetaling
+.sp 3mm
+:SWISS8.
+Opsparingen udbetales til kontohaver i overensstemmelse med aftalen.
+.sp 3mm
+Kontohaver aftaler med &BANKNAVN., hvornår rateudbetalingerne skal
+starte. Raterne skal udbetales over højst ti år og
+skal være påbegyndt inden udgangen af det indkomstår, hvor
+kontohaver fylder 40 år. Den årlige rateudbetaling kan højst udgøre
+&GENUDBT15B kr. (&GENMAXDATO.). Beløbet reguleres hvert år.
+.sp 3mm
+.kp off
+.kp on
+Før udbetalingens start skal kontohaver tage stilling til, hvor stor en
+del af ordningen, der skal danne grundlag for udbetaling. Kontohaver skal
+tillige vælge mellem to udbetalingsforløb:
+.sp 3mm
+.in 4mm
+.tp 8mm
+.of 4mm
+a)¤En samlet årlig rateudbetaling, der ved en konstant rente vil give et
+jævnt stigende udbetalingsforløb, eller
+.sp 3mm
+.of 4mm
+b)¤En samlet årlig rateudbetaling, der ved en konstant rente vil give
+lige store årlige rater.
+.of
+.in
+.sp 3mm
+Er hele kontoens indestående udbetalt inden udløbet af den valgte
+udbetalingsperiode, ophører udbetalingerne.
+.sp 3mm
+.kp off

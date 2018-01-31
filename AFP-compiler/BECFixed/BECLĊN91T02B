@@ -1,0 +1,50 @@
+.or &L'&GENFKUA1A > 0
+.or &L'&GENFKMA1B > 0
+.th .go TXT2BF
+.el .go ENDRIT
+...TXT2BF
+.if &L'&GENFFOMA > 0
+.th .go FFOMA
+.if &L'&GENFFOUA > 0
+.th .go FFOUA
+.if &L'&GENFF10MA > 0
+.th .go FF10MA
+.if &L'&GENFF10UA > 0
+.th .go FF10UA
+.if &L'&GENRM10MA > 0
+.th .go RM10MA
+.*th .go RM10MA9
+.if &L'&GENRM10UA > 0
+.th .go RM10UA
+.if &L'&GENRM5MA > 0
+.th .go RM5MA
+.if &L'&GENRM5UA > 0
+.th .go RM5UA
+.if &L'&GENBKVR1A > 0
+.th .go BKVR1A
+.if &L'&GENBLVR1B > 0
+.th .go BLVR1B
+.if &L'&GENPLÄNT1 > 0
+.th .go PLÄNT1
+.if &L'&GENFKUA1A > 0
+.th .go FKUA1A
+.if &L'&GENFKMA1B > 0
+.th .go FKMA1B
+.****** Fast forrentet obligationslÄn med afdrag***************************
+...FFOMA
+.kp on
+Fastforrentet lÄn med afdrag klassificeres som grÄn i henhold til
+bekendtgÄrelsen om risikoklassificering af lÄn.
+.sp 3mm
+.kp off
+.go ENDRIT
+.****** Fast forrentet obligationslÄn uden afdrag**************************
+...FFOUA
+.kp on
+Fastforrentet lÄn uden afdrag klassificeres som gul i henhold til
+bekendtgÄrelsen om risikoklassificering af lÄn.
+.sp 3mm
+.kp off
+.go ENDRIT
+.****** F1 - F10 med afdrag ***********************************************
+...FF10MA

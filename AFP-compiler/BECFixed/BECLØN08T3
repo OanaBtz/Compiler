@@ -1,0 +1,140 @@
+:SWISS8.
+.****************************************
+.kp on
+:SWISS10.
+:FED.
+Definitioner
+:SKRSLUT.
+.sp 3mm
+:SWISS8.:FED.
+Aftale
+:SKRSLUT.
+.br
+Aftalen mellem &LOENEJER og virksomheden om tilslutning til
+&LOENSYSTEM., herunder Almindelige regler
+og vilkår for &LOENSYSTEM.,
+den til enhver tid gældende Vejledning for
+Arbejdsgiver, prislister, samt andre vejledninger og
+bilag til den valgte anvendelse af &LOENSYSTEM..
+.sp 3mm
+.kp off
+.kp on
+:FED.&LOENSYSTEM:SKRSLUT.
+.br
+Et lønberegnings- og overførselssystem, hvor &LOENEJER
+varetager lønbehandlingen på vegne af arbejdsgiver i form
+af beregning og administration af løn, skat, ATP,
+feriepenge, ferietillæg, søgnehelligdagsopsparing,
+feriefridagsopsparing, pensionsbidrag, lønindeholdelse,
+bidrag til fonde, statistik, samt behandling af fast løn
+og variable tillæg/fradrag m.m. ved træk på virksomhedens
+konto i pengeinstitut.
+.sp 3mm
+.kp off
+.kp on
+:FED.Formidler af &LOENSYSTEM:SKRSLUT.
+.br
+Formidleren har indgået aftale med &LOENEJER om, at tilbyde
+&LOENSYSTEM til sine erhvervskunder. Formidlerne kan være
+pengeinstitutter, revisionsvirksomheder eller andre
+serviceleverandører.
+.sp 3mm
+.kp off
+.kp on
+:FED.Grundmateriale:SKRSLUT.
+.br
+Har virksomheden valgt &LOENSYSTEM via blanket, skal
+virksomheden benytte de blanketter, der udleveres af
+formidleren af &LOENSYSTEM..
+.sp 3mm
+.kp off
+.kp on
+:FED.OS02 - aftale:SKRSLUT.
+.br
+Er virksomheden ikke kontoførende hos formidleren af &LOENSYSTEM.,
+skal virksomheden udfylde en OS02-aftale, for
+at der kan ske betalingsoverførsler.
+.sp 3mm
+.kp off
+.kp on
+:FED.Vejledning for Arbejdsgiver:SKRSLUT.
+.br
+Det vejledningsmateriale, som virksomheden får udleveret
+ved indgåelse af Aftalen med senere udsendte rettelser,
+som der også er adgang til elektronisk.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+Aftalens omfang:SKRSLUT.
+.sp 3mm
+:SWISS8.
+Aftalen fastlægger vilkårene for virksomhedens anvendelse
+af &LOENSYSTEM..
+.sp 3mm
+&LOENSYSTEM må kun anvendes erhvervsmæssigt.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+Support:SKRSLUT.
+.sp 3mm
+:SWISS8.
+Ved tilslutning og oprettelse af virksomheden, som bruger
+af &LOENSYSTEM samt ved løsning af individuelle
+forhold rettes henvendelse til den supportfunktion, som
+formidleren af &LOENSYSTEM har oplyst.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+&LOENEJER.'s ydelser:SKRSLUT.
+.sp 3mm
+:SWISS8.
+Gennem &LOENSYSTEM foretager &LOENEJER bl.a. lønbehandling
+og leverer uddatamateriale, enten på papir eller
+elektronisk. Ydelsernes nærmere indhold og omfang er
+beskrevet i Vejledning for Arbejdsgiver.
+.sp 3mm
+.kp off
+.kp on
+Formidleren af &LOENSYSTEM og &LOENEJER er ikke forpligtet til
+at gennemføre betalinger, der ikke er dækning for, eller
+som ikke kan gennemføres som følge af virksomhedens
+mangelfulde angivelse af informationer, som er nødvendige
+for lønudbetalingens gennemførelse.
+.sp 3mm
+.kp off
+.kp on
+Endvidere er formidleren af &LOENSYSTEM og &LOENEJER ikke
+forpligtet til at gennemføre betalinger, såfremt
+virksomheden anmelder betalingsstandsning, kommer under
+konkursbehandling, afgår ved døden eller indleder
+gældssanering eller forhandlinger om tvangsakkord.
+.sp 3mm
+.kp off
+.kp on
+I tilfælde af forkerte oplysninger fra virksomhedens side
+vil formidleren af &LOENSYSTEM og &LOENEJER gøre sit bedste
+for at foretage korrektion, men virksomheden er da
+forpligtet til at godtgøre formidleren af &LOENSYSTEM og
+&LOENEJER de hermed forbundne udgifter.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+Virksomhedens pligter:SKRSLUT.
+.sp 3mm
+.kp off
+.kp on
+Har virksomheden valgt at benytte &LOENSYSTEM via
+blanket, skal virksomheden levere Grundmateriale, så det
+med hensyn til form, opbygning og indhold m.v. opfylder
+de nærmere regler i Vejledning for Arbejdsgiver og andre
+vejledninger for &LOENSYSTEM..
+.sp 3mm
+.kp off

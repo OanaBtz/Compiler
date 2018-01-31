@@ -1,0 +1,51 @@
+.**************************************************************************
+.da OVERSKR 20mm 32mm width 175mm
+.da BOX 20mm 40mm width 175mm
+.da BANKSTED 20mm 47mm width 175mm
+.da VEND 7mm 270mm width 180mm rotate -90
+.**************************************************************************
+:SWISS9.
+.**************************************************************************
+.* SIDEHOVEDDEFINITION STARTER ********************************************
+.**************************************************************************
+.rh on
+.**************************************************************************
+.ar BOX on
+:SWISS9.
+.tp 1mm 30mm 65mm 140mm
+.bx left right
+Â¤BranchÂ¤Account no. Â¤Credit type Â¤Date generated
+.sp 6mm
+.bx off
+.sp 4mm
+.bx left right
+.sp 221.5mm
+.bx off
+.ar off
+.**************************************************************************
+.ar BANKSTED on
+:SWISS9.
+.tp 1mm 30mm 65mm 140mm
+Â¤&BANKSTED  Â¤&IREGKTO Â¤&REGTYPE11 &REGTYPELNG Â¤&DATO
+.ar off
+.**************************************************************************
+.ar VEND on
+:SWISS6.
+&BREVNAVN
+.ar off
+.**************************************************************************
+.ar OVERSKR on
+:SWISS12.
+:FED.
+.if &U'&PRIERH = P
+.th .us Loan agreement - Consumer (instrument of debt)
+.if &U'&PRIERH = E
+.th .us Loan agreement - Business (instrument of debt)
+:SKRSLUT.
+.ar off
+.**************************************************************************
+.*STARTPOSITION PÄ SIDEN BEREGNES UD FRA FLG:
+.*"".PM"" = PAGEMARGIN = X-KOORDINATEN(ER SOM STANDARD 20M
+M).*"".BM"" = BUNDMARGIN (MIN. 1
+8MM).*"".TM"" = TOPMARGIN (STANDARD 24MM), MEN MAN SKAL VÄRE OPMÄRKSOM 
+PÄ, AT"

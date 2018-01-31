@@ -1,0 +1,136 @@
+.*****************************
+.*Afsnit for hvad der vedlægges - valgfrit
+.*****************************
+.if &ÅLC lt 6
+.th .pa
+.tp 2mm
+.if &L'&GENVEDL gt 0
+.or &L'&GENCHECK gt 0
+.or &L'&GENKORT gt 0
+.or &L'&GENKONTA gt 0
+.or &L'&GENANDET1 gt 0
+.th .sp
+.th Der vedlægges:
+.th .sp
+.tp 15mm char .
+.if X&GENVEDL eq X1
+.th ¤&GENVEDL stk. bankbog som bedes returneret
+.th .br
+.if X&GENVEDL gt X1
+.th ¤&GENVEDL stk. bankbøger, der bedes returneret
+.th .br
+.if X&GENKORT eq X1
+.th ¤&GENKORT stk. annulleret hævekort, dankort, Visadankort, ID-kort i
+.th annulleret stand
+.th .br
+.if X&GENKORT gt X1
+.th ¤&GENKORT stk. annullerede hævekort, dankort, Visadankort, ID-kort i
+.th annulleret stand
+.th .br
+.if X&GENCHECK eq X1
+.th ¤&GENCHECK stk. ubenyttet checkblanket i annulleret stand
+.th .br
+.if X&GENCHECK gt X1
+.th ¤&GENCHECK stk. ubenyttede checkblanketter i annulleret stand
+.th .br
+.if X&GENKONTA eq X1
+.th ¤&GENKONTA stk. kontrakt
+.th .br
+.if X&GENKONTA gt X1
+.th ¤&GENKONTA stk. kontrakter
+.th .br
+.sp
+.if &L'&GENANDET1 gt 0
+.th &GENANDET1.
+.if &U'&LINSKIP01 = J
+.th .br
+.if &L'&GENANDET2 gt 0
+.th &GENANDET2
+.th .br
+.in 0mm
+.sp
+.if &L'&GENTEKST11 gt 0
+.th &GENTEKST11.
+.if &U'&LINSKIP02 = J
+.th .br
+.if &L'&GENTEKST12 gt 0
+.th &GENTEKST12
+.if &U'&LINSKIP03 = J
+.th .br
+.if &L'&GENTEKST13 gt 0
+.th &GENTEKST13
+.if &U'&LINSKIP04 = J
+.th .br
+.if &L'&GENTEKST14 gt 0
+.th &GENTEKST14
+.if &U'&LINSKIP05 = J
+.th .br
+.if &L'&GENTEKST15 gt 0
+.th &GENTEKST15
+.if &U'&LINSKIP06 = J
+.th .br
+.or &L'&GENTEKST16 gt 0
+.th &GENTEKST16
+.sp
+.*** afsnit vedr bemærkninger ****
+.*Afsnit til overførselsanmodning
+Bemærkninger
+.th .sp
+.tp 5mm
+*¤&BANKNAVN forbeholder sig ret til at tilbageføre/debitere beløb,
+.in 5mm nobreak
+som ikke er anført i overførselsanmodningen.
+.sp
+.in 0mm
+*¤Vi overtager &DIN forpligtelser vedrørende lovregulerede indlån,
+.in 5mm nobreak
+i det omfang aftalerne ved overførslen opfylder lovens krav.
+.if x&GENTAL2 gt x0
+.th .sp
+.th .in 0mm
+.th *¤Hvis &DU forventer
+.th .in 5mm nobreak
+.th at det vil tage mere end &GENTAL2 dage, vil vi meget gerne have besked.
+.if &U'&GENJANEJ2 = J
+.th .go JGEBYR
+.el .go VIDERE
+...JGEBYR
+.sp
+.in 0mm
+*¤Såfremt
+.in 5mm nobreak
+der opkræves gebyr for flytning af særlige indlån, beder vi &DIG trække
+gebyret særskilt på en mellemregning.
+...VIDERE
+.sp 4mm
+.in 0mm
+.kp on
+Undertegnede er bekendt med, at der kan være omkostninger i forbindelse med
+overførslen fra mit hidtidige pengeinstitut.
+.*************************************
+.sp 10mm
+.if &L'&GENKUNDE gt 0
+.th Jeg ønsker ikke at blive kontaktet af mit tidligere pengeinstitut
+.th vedrørende denne overførselsanmodning.
+.th .sp 17mm
+.el
+.****************************
+.dr thin weight 0.5
+.tp 82mm center
+Dato
+.hr left right
+.br
+¤&NAVN
+.if &L'&GENNAVN1 gt 0
+.th .sp 17mm
+.th Dato
+.th .hr left right
+.th .br
+.th ¤&GENNAVN1
+.sp 17mm
+Dato
+.hr left right
+.th .br
+¤&BANKNAVN
+.kp off
+.**********************************

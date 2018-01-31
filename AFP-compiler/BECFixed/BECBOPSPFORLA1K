@@ -1,0 +1,70 @@
+.*Areal definition for anmodning om forlængelse
+:GL.
+.da FORLENG 8 32 width 70
+:EGL.
+:NY.
+.da FORLENG 20mm 125mm width 166mm
+:ENY.
+.*********************************
+.ar FORLENG on
+.us
+FORLÆNGELSE AF BINDINGSPERIODEN
+.sp
+:GL.
+Jeg ønsker forlængelse af bindingsperioden i mindst syv år, så
+.br
+børneopsparingskontoen frigives den &GENDATO4..
+:EGL.
+:NY.
+Jeg ønsker forlængelse af bindingsperioden i mindst syv år, så
+børneopsparingskontoen frigives den &GENDATO4..
+:ENY.
+:GL.
+.sp
+:EGL.
+:NY.
+.sp 8mm
+:ENY.
+.us
+UNDERSKRIFT
+.ar off
+.*******************************************
+:GL.
+.sp 27
+:EGL.
+:NY.
+.sp 101mm
+:ENY.
+:GL.
+.ll 70
+.tp 32
+.se streg = '_______________________________'
+&streg ¤, den¤&streg
+.tp 38
+.se streg = '_______________________________'
+.sp 3
+&streg      &streg
+.br
+&BANKNAVN.¤&NAVN
+.br
+&AFDNAVN
+.br
+:EGL.
+.*********
+:NY.
+.ll 170mm
+.tp 72mm
+.se streg = '__________________________________'
+&streg ¤, den¤&streg
+.tp 85mm
+.se streg = '__________________________________'
+.sp 17mm
+&streg       ¤&streg
+.br
+&BANKNAVN.¤&NAVN
+.br
+&AFDNAVN
+.br
+:ENY
+.****************
+.fo off

@@ -1,0 +1,36 @@
+.ti ¤ 05
+.fo left
+:SWISS8.
+.tp 3mm
+.**************************************************************************
+.da KOLON1 21mm 41mm width 85mm
+.da KOLON2 109mm 41mm width 85mm
+.**************************************************************************
+.ar KOLON1 on
+Kreditor og debitor anmoder forsikringsselskabet om, i henhold til
+denne erklæring, at udbetale erstatningsbeløb, som efter skade ikke
+anvendes til lystfartøjets reparation, til kreditor.
+.sp 3mm
+Udbetalingen kan
+ske inden for det beløb, kreditor har til gode hos debitor, og er
+betinget af, at den tegnede kaskoforsikring er holdt i kraft.
+.sp 3mm
+Forsikringsselskabet forpligter sig ved nærværende deklaration til at
+afgive oplysninger til kreditor om præmierestance, opsigelse,
+forsikringsophør, selskabsskift samt ændringer i policevilkår.
+.ar off
+.**************************************************************************
+.ar KOLON2 on
+Deklarationen træder i kraft ved forsikringsselskabets meddelelse til
+kreditor om accept af deklarationen, dog senest 14 dage efter, at
+kreditor elektronisk har ekspederet deklarationen.
+.sp 3mm
+Ved selskabets
+afvisning af deklarationen senere end 14 dage efter, at kreditor
+elektronisk har ekspederet deklarationen, eller ved selskabets
+meddelelse til kreditor om, at forsikringsforholdets er ophørt,
+sikrer deklarationen kreditor dækning i henhold til
+kaskoforsikringens betingelser i op til 21 dage efter, at kreditor
+har modtaget selskabets meddelelse om afvisning henholdsvis ophør af
+forsikring.
+.ar off

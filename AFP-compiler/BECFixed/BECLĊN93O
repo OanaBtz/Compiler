@@ -1,0 +1,22 @@
+.*************** GENEREL OPSÄTNING ***************************************
+.ti Â¤ 05
+:COUR10.
+.fo left
+:omtale &OMTALEF
+:tiltale &TILTALEF
+.dr tynd weight 0.2mm
+.*************** AREAL-DEFINITIONER **************************************
+.da VEND 7mm 270mm width 180mm rotate -90
+.da OVERSKR 20mm 32mm width 175mm
+.*************** ROTERET BREVNAVN ****************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.*************** UDDATA-OVERSKRIFT ***************************************
+.ar OVERSKR on
+:SWISS12.:FED.
+.us Dokumentation for rÄdgivning i forbindelse med en boligkreditaftale
+:SKRSLUT.
+.ar off
+.*************************************************************************

@@ -1,0 +1,53 @@
+.**************************************************************************
+.tp 1mm 74mm
+.*UNDERSKRIFT *************************************************************
+.kp on
+:SWISS9.
+:FED.
+Underskrift
+.sp 2mm
+:SKRSLUT.
+.***** her laves kassen til Dato og sted X 2 ******
+.bx left 73mm right
+:SWISS7.
+¤Dato og Sted ¤Dato og Sted
+.sp 7mm
+.***** her laves kasserne til Person 1 **************
+.bx set
+¤&NAVN. Person 1 ¤&NAVN2. Person 1
+.sp 7mm
+.***** her laves kassen til Navn med blokbogstaver*
+.bx set
+¤Navn med blokbogstaver ¤Navn med blokbogstaver
+.sp 7mm
+.bx off
+.sp 7mm
+.***** her laves kassen til Dato og sted X 2 ******
+.bx left 73mm right
+:SWISS7.
+¤Dato og Sted ¤Dato og Sted
+.sp 7mm
+.***** her laves kasserne til Person 2 **************
+.bx set
+¤&NAVN. Person 2 ¤&NAVN2. Person 2
+.sp 7mm
+.***** her laves kassen til Navn med blokbogstaver*
+.bx set
+¤Navn med blokbogstaver ¤Navn med blokbogstaver
+.sp 7mm
+.bx off
+.sp 7mm
+.***** her laves kassen til Dato og sted x 1*******
+.bx left 73mm
+¤Dato og sted
+.sp 7mm
+.***** her laves kassen til PI's underskrift****
+.bx set
+¤&BANKNAVN. underskrift
+.sp 7mm
+.***** her laves kassen til Navn med blokbogstaver*
+.bx set
+¤Navn med blokbogstaver
+.sp 7mm
+.bx off
+.kp off

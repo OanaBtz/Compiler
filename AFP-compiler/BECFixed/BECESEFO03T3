@@ -1,0 +1,46 @@
+.*PUNKT 4 (1) *************************************************************
+:FED.
+4. Other important legal aspects
+:SKRSLUT.
+.**************************************************************************
+.ta table SEFO3 on
+.ta row SEFO3 on
+.ta cell 1
+.in 5mm
+.ir 1mm
+Termination of the credit agreement
+.ta cell 2
+&BETOPSAFT1. &BETOPSAFT2. &BETOPSAFT3. &BETOPSAFT4. &BETOPSAFT5.
+.ta row SEFO3 off
+.*PUNKT 4 (2) *************************************************************
+.ta row SEFO3 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 5mm
+Database search
+.br
+:KURSIV.
+The creditor must notify you immediately and without charge of the result
+of a database search if a credit application is rejected on the basis of
+such search. This will not apply if such notification is prohibited under
+community law or is inconsistent with public law and order or public
+security.
+:SKRSLUT.
+.ta cell 2
+&DATABSØG1. &DATABSØG2.
+.ta row SEFO3 off
+.**UDSKRIVES, HVIS RELEVANT *********
+.if &L'&OPLBIND1 = 0
+.an &L'&OPLBIND1 = 0
+.th .go PKT5
+.*PUNKT 4 (3) *************************************************************
+.ta row SEFO3 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 5mm
+Period of time during which the creditor is bound by the pre-contractual
+information This information is valid from
+.ta cell 2
+&OPLBIND1. &OPLBIND2.
+...PKT5
+.ta table off

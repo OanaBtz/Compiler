@@ -1,0 +1,20 @@
+.da UNDTEKST1  21mm 191mm    width 170mm
+.da AFSL1      25mm 211.5mm  width 170mm
+.*******************************
+.ar UNDTEKST1 on
+Jeg erklærer herved med min underskrift, at jeg har fået
+udleveret og gjort mig bekendt med "Generelle vilkår for
+aldersopsparing", dateret &PENVERALDO.. Jeg bekræfter
+samtidigt, at jeg har fået rådgivning om og er enig i, hvorledes
+afgiften i forbindelse med konverteringen skal afregnes, ligesom
+jeg har forholdt mig til begunstigelsen på aldersopsparingen.
+.ar off
+.*******************************
+.ar AFSL1 on
+.if &U'&PENVALG = J
+.th .tp 39mm center 126mm center
+.th ¤&PENKNAVN.¤&PENANAVN.
+.el .ce &PENKNAVN.
+.sp 7.8mm
+.ce &BANKNAVN
+.ar off

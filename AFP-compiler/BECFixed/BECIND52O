@@ -1,0 +1,14 @@
+.* Brevstart, incl. overskrift
+.da START 20mm 110mm width 170mm
+.* Brevnavn, roteret i nederste venstre hjørne
+.da VEND 7mm 270mm width 180mm rotate -90
+.**************************************************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.**************************************************************************
+.ar START on
+.us Udbetalinger til &NAVN
+.sp
+.**************************************************************************

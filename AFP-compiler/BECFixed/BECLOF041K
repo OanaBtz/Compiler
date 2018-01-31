@@ -1,0 +1,60 @@
+.*************** definer siden som et areal *******************************
+.da SIDE 20mm 40mm width 175mm
+.************ PARTER ******************************************************
+.ar SIDE on
+.tp 1mm 88.5mm
+.bx left right
+:SWISS8.
+¤Kontrakt nr.
+.sp 4mm
+.bx left right
+¤Undertegnede leverandør
+.sp 20mm
+.bx off
+.bx can
+.**************************************************************************
+.tp 1mm 88.5mm
+:SWISS10.:FED.
+Aktiv
+:SKRSLUT.
+:SKRSLUT.
+.bx left right
+¤I forbindelse med vor fakturering til leasinggiver omfattende levering af
+.sp 10mm
+.bx new left 87.5mm right
+¤Stel/serienr.  ¤Evt. reg.nr.
+.sp 5mm
+.bx off
+.bx can
+.**************************************************************************
+:SWISS10.:FED.
+Levering
+:SKRSLUT.
+:SKRSLUT.
+.tp 1mm 88.5mm
+.bx left 87.5mm right
+¤Leveringsadresse¤Anbringelsessted
+.sp 20mm
+.bx off
+.if &U'&FORTSÆT = J
+.th .go SLUT
+.************ UNDERSKRIFT *************************************************
+:SWISS10.:FED.
+Underskrift
+:SKRSLUT.
+:SKRSLUT.
+.bx left right
+.in 1mm
+erklærer vi herved, at vi er indforstået med, at vi som leverandør har
+samme ansvar for service på de(n) leverede genstand(e), som vi ville have
+haft, hvis den pågældende lejer havde købt genstanden(e) direkte hos os,
+ligesom genstanden(e) vil være behørigt forsikret (brand, tyveri og
+vandskade samt skade under transport), indtil levering har fundet sted.
+.sp
+.tp 1mm 143mm
+¤Leverandørs stempel og underskrift¤Dato
+.sp 25mm
+.bx off
+.ar off
+...SLUT
+.**************************************************************************

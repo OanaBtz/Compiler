@@ -1,0 +1,46 @@
+.*PUNKT 4 (1) *************************************************************
+:FED.
+4. Andre vigtige retlige aspekter
+:SKRSLUT.
+.**************************************************************************
+.ta table SEFO3 on
+.ta row SEFO3 on
+.ta cell 1
+.in 5mm
+.ir 1mm
+Opsigelse af kreditaftalen
+.ta cell 2
+&BETOPSAFT1. &BETOPSAFT2. &BETOPSAFT3. &BETOPSAFT4. &BETOPSAFT5.
+.ta row SEFO3 off
+.*PUNKT 4 (2) *************************************************************
+.ta row SEFO3 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 5mm
+Søgning i en database
+.br
+:KURSIV.
+Kreditgiver skal straks og gratis underrette &DIG om resultatet af en
+søgning i en database, hvis en anmodning om kredit afslås på grundlag af en
+sådan søgning. Dette gælder ikke, hvis en sådan underretning er forbudt i
+henhold til fællesskabsretten eller strider mod den offentlige orden eller
+den offentlige sikkerhed.
+:SKRSLUT.
+.ta cell 2
+&DATABSØG1. &DATABSØG2.
+.ta row SEFO3 off
+.**UDSKRIVES, HVIS RELEVANT *********
+.if &L'&OPLBIND1 = 0
+.an &L'&OPLBIND1 = 0
+.th .go PKT5
+.*PUNKT 4 (3) *************************************************************
+.ta row SEFO3 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 5mm
+Hvor længe oplysningerne forud for aftaleindgåelsen er bindende for
+kreditgiveren
+.ta cell 2
+&OPLBIND1. &OPLBIND2.
+...PKT5
+.ta table off

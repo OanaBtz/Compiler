@@ -1,0 +1,7 @@
+.** kort - ophævelse af spærring
+.su off
+.se knr1 = substr &B11KTNR 1 4
+.se knr2 = substr &B11KTNR 6 4
+.se knr3 = substr &B11KTNR 11 4
+.se knr4 = substr &B11KTNR 16 4
+.su on

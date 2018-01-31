@@ -1,0 +1,12 @@
+:COUR10.
+.fo left
+.ti ¤ 05
+.da VEND 7mm 270mm width 180mm rotate -90
+.da START 20mm 100mm width 170mm
+.ar VEND on
+:COUR6.
+BECBREV04
+.ar off
+.ar START on
+.us &BECTEKST1
+.sp

@@ -1,0 +1,68 @@
+.*******************************************************
+.da KUNDEOPL   25mm 48mm width 80mm
+.da PIOPL      112.5mm 48mm width 80mm
+.da PIMAIL     25mm 82.5mm width 81mm
+.da KUNDENR    25mm 73mm width 80mm
+.da KTONR      65mm 73mm width 80mm
+.da BUDGET     112.5mm 73mm width 80mm
+.da OVERSIGT   25mm 87mm width 165mm
+.*******************************************************
+.if &GENVALG = 0
+.or &GENVALG > 3
+.th .mg/T/Der kan kun vælges 1 til 3 for betalingsoversigt/
+.*******************************************************
+.ar KUNDEOPL on
+&STILL
+.br
+&NAVN
+.br
+&COADR
+.br
+&GADE
+.br
+&BY
+.ar off
+.*******************************************************
+.ar PIOPL on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.*******************************************************
+.ar PIMAIL on
+&BANKEMAIL.
+.ar off
+.*******************************************************
+.ar KUNDENR on
+&KUNDENR
+.ar off
+.*******************************************************
+.ar KTONR on
+.***** HER DELES KONTONUMMER  OP I TO PARAMETRE *******
+.se regnr = substr &GENKTO 1 4
+.se ktonr = substr &GENKTO 5 10
+&regnr &ktonr
+.ar off
+.*******************************************************
+.ar BUDGET on
+.if &U'&GENBUDGET = J
+.th Med budgetskema
+.el Uden budgetskema
+.ar off
+.*******************************************************
+.ar OVERSIGT on
+.if &GENVALG = 1
+.th Betalingsoversigt ønskes fremsendt, &WEBSYSNAVN benyttes ikke.
+.if &GENVALG = 2
+.th Betalingsoversigt ønskes fremsendt, Betalingsservice benyttes
+.th samtidig i &WEBSYSNAVN..
+.if &GENVALG = 3
+.th Betalingsoversigt på papir afmeldes, Betalingsservice benyttes
+.th i &WEBSYSNAVN..
+.ar off
+.*******************************************************
+.*Tekst i rubrikken kundens/pengeinstituttes underskrift er i K-afsnittet**

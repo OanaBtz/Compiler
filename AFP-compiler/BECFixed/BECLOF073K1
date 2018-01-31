@@ -1,0 +1,50 @@
+.******************************************
+.da KASSE1    24mm  38mm width 175mm
+.********************* SIDE 1 ********************************************
+.ar KASSE1 on
+.bx 86mm right
+.tp 87mm
+:SWISS8.
+¤Anmelder
+:SKRSLUT.
+.sp 20mm
+.bx off
+.sp 15mm
+:SWISS14.:FED.
+Anmeldelse om ejendomsforbehold (BIL) :SKRSLUT.:SKRSLUT.
+.bx left right
+.sp 6mm
+.bx off
+:SWISS10.
+Køretøj
+:SKRSLUT.
+.bx left right
+.sp 11mm
+.bx off
+:SWISS10.
+Køber
+:SKRSLUT.
+.bx left right
+.sp 21mm
+.bx off
+.sp 3mm
+.bx left 88mm right
+.tp 89,5mm
+.in 1mm
+:SWISS8.
+erklærer herved, at ejendomsretten til ovennævnte køretøj er ¤Adressat
+for eventuel meddelelse om retsforfølgning m.v.:
+.br
+forbeholdt sælger/transporthaver:
+:SKRSLUT.
+.sp 18mm
+.bx off
+.bx can
+:SWISS10.
+Til sikkerhed for
+:SKRSLUT.
+.bx left right
+.sp 90mm
+.bx off
+.ar off
+.**************************************************************************

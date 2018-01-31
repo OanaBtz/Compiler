@@ -1,0 +1,84 @@
+:SWISS8.
+.da SUBBEGUN   21mm  40.5mm width 170mm
+.da NYGLBEG    21mm  85mm width 170mm
+.da AFTAL      21mm  93mm width 175mm
+.da BEGUNSAML  21mm 199.5mm width 170mm
+.da KTOHAVR    21mm 221.5mm width 170mm
+.da UNDTEKST1   21mm 200.5mm width 170mm
+.da UNDTEKST2   21mm 240.5mm width 170mm
+.da UNDKONTO1  21mm 211.5mm width 85mm
+.da UNDKONTO2  21mm 251.5mm width 85mm
+.da UNDARB1   108.5mm 211.5mm width 85mm
+.da UNDARB2   108.5mm 251.5mm width 85mm
+.da UNDPI1     21mm 224mm width 170mm
+.da UNDPI2     21mm 265mm width 170mm
+.******************************************
+.ar SUBBEGUN on
+Subsidiær begunstigelse
+.sp
+Er den /de begunstigede alle døde, udbetales indestående til kontohavers
+"nærmest pårørende", med mindre kontohaver har aftalt andet med &BANKNAVN.,
+jævnfør generelle vilkår punkt 5.
+.sp
+I stedet for "nærmeste pårørende" skal følgende begunstiges subsidiært:
+.ar off
+.******************************************
+.ar NYGLBEG on
+.if &U'&NYBEGUN = N
+.th Der er ikke aftalt ændringer til begunstigelsesbestemmelsen, der derfor
+.th fortsat er omfattet af reglerne fra før den 1. januar 2008.
+.ar off
+.******************************************
+.ar AFTAL on
+Væsentlige aftaler/forudsætninger
+.ar off
+.***********************
+.if &U'&GENSAMLVR ne J
+.th .go NEJSAM
+.ar BEGUNSAML on
+Ved begunstigelse af "samlever" og/eller "samlevers livsarvinger":
+.sp
+Jeg erklærer hermed, at min samlever har fælles
+folkeregisteradresse med mig. Jeg har fået oplyst, at manglende fælles
+folkeregisteradresse på begunstigelsestidspunktet medfører, at
+pensionsordningen skal ophæves med 60 pct.'s afgift til staten, samt at
+jeg ikke har fradragsret for indbetalinger efter begunstigelsestidspunktet,
+ligesom eventuel pensionsafkastskat mv. skal reguleres.
+.ar off
+.***********************
+.ar KTOHAVR on
+.tp 144mm
+Kontohavers underskrift¤Dato:
+.ar off
+...NEJSAM
+.******************************************
+.if &U'&GENSAMLVR ne J
+.th .ar UNDTEKST1 on
+.el .ar UNDTEKST2 on
+Vedlagte "Generelle vilkår for ratepension (§ 15B-ordning)" er
+gældende for denne aftale. Jeg erklærer hermed at have modtaget vilkårene,
+og at &BANKNAVN har gennemgået vilkårene med mig.
+.ar off
+.******************************************
+.if &U'&GENSAMLVR ne J
+.th .ar UNDKONTO1 on
+.el .ar UNDKONTO2 on
+.tp 60mm
+Kontohavers underskrift¤Dato:
+.ar off
+.******************************************
+.if &U'&GENSAMLVR ne J
+.th .ar UNDARB1 on
+.el .ar UNDARB2 on
+.tp 60mm
+Arbejdsgivers underskrift¤Dato:
+.ar off
+.******************************************
+.if &U'&GENSAMLVR ne J
+.th .ar UNDPI1 on
+.el .ar UNDPI2 on
+.tp 144mm
+Pengeinstituttets underskrift¤Dato:
+.ar off
+.******************************************
+.pa

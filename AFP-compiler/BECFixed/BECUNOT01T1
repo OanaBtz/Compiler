@@ -1,0 +1,44 @@
+.******************************************************************
+.da KUNDEOPL       25mm   56mm width  80mm
+.da PI          112.5mm   56mm width  80mm
+.da CPRSENR        42mm   74,9mm width  80mm
+.da KTONR          25mm   84,5mm width  80mm
+.da DEPOTNR     112.5mm   84,5mm width  80mm
+.******************************************************************
+.ar KUNDEOPL on
+&KTONAVN
+.br
+&KTOCO
+.br
+&KTOGADE
+.br
+&KTOBY
+.br
+&KTOLAND
+.ar off
+.*************************************
+.ar PI on
+.br
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.*************************************
+.ar CPRSENR on
+&KTOKNDNR1
+.ar off
+.*************************************
+.ar KTONR on
+.se konto = substr &LANGKTONR 1 14
+&konto
+.ar off
+.*************************************
+.ar DEPOTNR on
+&DEPOTNR
+.ar off
+.*************************************
+

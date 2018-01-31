@@ -1,0 +1,22 @@
+.**************************************************************************
+.da SÆLGER 25mm  46mm width 150mm
+.**SÆLGER  ****************************************************************
+.ar SÆLGER on
+&GARMODADR1.
+.br
+&GARMODADR2.
+.br
+&GARMODADR3.
+.br
+&GARMODADR4.
+.br
+&GARMODADR5.
+.ar off
+.**************************************************************************
+.da ENTREPR 20mm  70mm width 150mm
+.**************************************************************************
+.ar ENTREPR on
+:SWISS8.
+i det følgende kaldet entreprenøren
+:SKRSLUT.
+.ar off

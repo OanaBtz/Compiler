@@ -1,0 +1,67 @@
+:SWISS8.
+.tp 7mm right 18mm right
+.*PKT. 5 SMÅ KASSER OG TEKSTER ********************************************
+.da BOX1 24mm 65mm width 40mm
+.da TXTBOX1 25mm 66mm width 40mm
+.da BOX2 64mm 65mm width 40mm
+.da TXTBOX2 65mm 66mm width 40mm
+.da BOX3 104mm 65mm width 40mm
+.da TXTBOX3 105mm 66mm width 40mm
+.da BOX4 144mm 65mm width 40mm
+.da TXTBOX4 145mm 66mm width 40mm
+.*PKT. 8 SMÅ KASSER OG TEKSTER ********************************************
+.da BOX8 104mm 163mm width 40mm
+.da TXTBOX8 105mm 164mm width 40mm
+.*SMÅ KASSER TIL PKT. 5 ***************************************************
+.ar BOX1 on
+.bx 8mm 11mm / 20mm 23mm
+.sp 1.5mm
+.bx off
+.ar off
+.**************************************************************************
+.ar BOX2 on
+.bx 8mm 11mm / 20mm 23mm
+.sp 1.5mm
+.bx off
+.ar off
+.**************************************************************************
+.ar BOX3 on
+.bx 8mm 11mm / 20mm 23mm
+.sp 1.5mm
+.bx off
+.ar off
+.**************************************************************************
+.ar BOX4 on
+.bx 8mm 11mm / 20mm 23mm
+.sp 1.5mm
+.bx off
+.ar off
+.*TEKST PKT. 5 ************************************************************
+.ar TXTBOX1 on
+1) ¤Ja ¤Nej
+.ar off
+.**************************************************************************
+.ar TXTBOX2 on
+2) ¤Ja ¤Nej
+.ar off
+.**************************************************************************
+.ar TXTBOX3 on
+3) ¤Ja ¤Nej
+.ar off
+.**************************************************************************
+.ar TXTBOX4 on
+4) ¤Ja ¤Nej
+.ar off
+.*SMÅ KASSER TIL PKT. 8 ***************************************************
+.ar BOX8 on
+.bx 8mm 11mm / 20mm 23mm
+.sp 1.5mm
+.bx off
+.ar off
+.*TEKST PKT. 8 ************************************************************
+.ar TXTBOX8 on
+:FED.
+¤Ja ¤Nej
+.ar off
+:SKRSLUT.
+.**************************************************************************

@@ -1,0 +1,4 @@
+.*
+.if X&BECTEST01 < X1
+.or X&BECTEST01 > X3
+.th .mg/T/Vælg enten 1, 2 eller 3 for løn, pension eller dagpenge

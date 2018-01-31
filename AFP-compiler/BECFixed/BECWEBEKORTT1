@@ -1,0 +1,35 @@
+.*** Særlige regler for Elektronisk indbetalingskort
+.*** Bruges i BECWEB01/20 (Pkt. 1-1.2.1)
+.**************************************************************************
+:SWISS8.
+.**************************************************************************
+.kp on
+:SWISS10.
+:FED.
+1. Regler for Elektronisk indbetalingskort
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+:FED.
+1.1 Tilslutning
+:SKRSLUT.
+.sp 3mm
+1.1.1 Kundens tilslutning til Elektronisk indbetalingskort er underlagt de
+generelle "Debitorregler for Elektronisk indbetalingskort", der fremgår
+nedenfor, samt de særlige regler, der fremgår af dette pkt. 1.
+.sp 3mm
+.kp off
+.kp on
+1.1.2 Kundens tilslutningsaftale er denne Aftale om &WEBSYSNAVN..
+.sp 3mm
+.kp off
+.kp on
+:FED.
+1.2 Opsigelse
+:SKRSLUT.
+.sp 3mm
+1.2.1 Efter opsigelsen vil kunden modtage allerede fremsendte men endnu
+ikke godkendte elektroniske betalingskort på papir. Kunden kan efter
+opsigelsen ikke længere betale elektroniske betalingskort i &WEBSYSNAVN..
+.sp 5mm
+.kp off

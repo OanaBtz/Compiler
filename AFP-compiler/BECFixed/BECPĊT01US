@@ -1,0 +1,42 @@
+.hr tynd 5mm 80mm 85mm 170mm
+Â¤&GENUNDSKR3.Â¤&GENUNDSKR4.
+.sp 10mm
+.go UNSKRS
+...3UNDSK
+.hr tynd 5mm 80mm
+Â¤&GENUNDSKR3.
+.sp 10mm
+.go UNSKRS
+...UNSKRS
+.kp off
+.if &U'&GENVITT. = J
+.th
+.el .go VITTSLUT
+.kp on
+Til vitterlighed om Ägte underskrift/underskrifter, dateringens rigtighed
+og udstederens/udstedernes myndighed:
+.sp 10mm
+.tp 40mm 85mm 130mm
+.hr tynd 5mm 80mm 85mm 170mm
+.br
+UnderskriftÂ¤Â¤Underskrift
+.sp 5mm
+.hr tynd 5mm 80mm 85mm 170mm
+:SWISS8
+.br
+NavnÂ¤(i blokbogstaver)Â¤NavnÂ¤(i blokbogstaver)
+.sp 5mm
+.hr tynd 5mm 80mm 85mm 170mm
+.br
+StillingÂ¤(i blokbogstaver)Â¤StillingÂ¤(i blokbogstaver)
+.sp 5mm
+.hr tynd 5mm 80mm 85mm 170mm
+.br
+AdresseÂ¤(i blokbogstaver)Â¤AdresseÂ¤(i blokbogstaver)
+.sp 5mm
+.hr tynd 5mm 80mm 85mm 170mm
+.br
+Postnr./byÂ¤(i blokbogstaver)Â¤Postnr/byÂ¤(i blokbogstaver)
+.kp off
+...VITTSLUT
+.**************************************************************************

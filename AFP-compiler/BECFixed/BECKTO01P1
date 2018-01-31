@@ -1,0 +1,30 @@
+.*SUBSTRINGS***************************************************************
+.su off
+.se cprcvr = substr &KTOKNDNR1 1 2
+.se mcprcvr = substr &MEDKNDNR1 1 2
+.su on
+.**************************************************************************
+.* TEST PÅ KONSTRUERET KUNDENUMMER
+.if x&cprcvr > x31
+.th .se kunnr = 'Kundenr.'
+.***************************************
+.if x&mcprcvr > x31
+.th .se mkunnr = 'Kundenr.'
+.***************************************
+.* TEST PÅ VIRKSOMHED
+.if x&cprcvr = x00
+.th .se kunnr = 'CVR-nr.'
+.**************************************
+.if x&mcprcvr = x00
+.th .se mkunnr = 'CVR-nr.'
+.**************************************
+.* TEST PÅ ØVRIGE KUNDER
+.if x&cprcvr > x00
+.an x&cprcvr < x32
+.th .se kunnr = 'CPR-nr.'
+.**************************************
+.* TEST PÅ ØVRIGE KUNDER
+.if x&mcprcvr > x00
+.an x&mcprcvr < x32
+.th .se mkunnr = 'CPR-nr.'
+.**************************************

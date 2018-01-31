@@ -1,0 +1,16 @@
+.dm BECEDATO on
+.se m01 = January
+.se m02 = February
+.se m03 = March
+.se m04 = April
+.se m05 = May
+.se m06 = June
+.se m07 = July
+.se m08 = August
+.se m09 = September
+.se m10 = October
+.se m11 = November
+.se m12 = December
+.se SYSDAYOFM = &SYSDAYOFM + 0
+.se DATE = '&m&SYSMONTH &SYSDAYOFM., 19&SYSYEAR..'
+.dm off

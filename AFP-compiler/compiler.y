@@ -202,7 +202,8 @@ TOKEN		:	TOKEN DA
 
 																										}
 			|	DA
-			|	PM																						
+			|	PM	
+			|	COMMENT																					
 			;
 PM			:	PM_T SIZE_T NEW_LINE_T																	{
 																											Node pmNode(PM, "");
@@ -366,6 +367,25 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 																											Node identifierNode(STRINGLITERAL, $2);
 																											list.push_back(gotoNode);
 																											list.push_back(identifierNode);	
+																										}
+			|	SP_T SIZE_T NEW_LINE_T																	{
+																											cout << "SP" << endl;
+																											Node spaceNode(SP, "");
+																											
+																											numberFct($2);
+																											Node spacenNode(NUMBER, number);
+
+																											list.push_back(spaceNode);
+																											list.push_back(spacenNode);
+																										}
+			|	SP_T NEW_LINE_T																			{
+																											cout << "SP" << endl;
+																											Node spaceNode(SP, "");
+																											
+																											Node spacenNode(NUMBER, "1");
+
+																											list.push_back(spaceNode);
+																											list.push_back(spacenNode);
 																										}
 			|	LL_T SIZE_T NEW_LINE_T																	{
 																											cout << "LL" << endl;
@@ -716,16 +736,6 @@ BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
 																											cout << "BOX OFF" << endl;
 																											Node boxOff(OFF_BOX, "");
 																											list.push_back(boxOff);	
-																										}
-			|	SP_T SIZE_T NEW_LINE_T																	{
-																											cout << "SP" << endl;
-																											Node spaceNode(SP, "");
-																											
-																											numberFct($2);
-																											Node spacenNode(NUMBER, number);
-
-																											list.push_back(spaceNode);
-																											list.push_back(spacenNode);
 																										}
 			;
 

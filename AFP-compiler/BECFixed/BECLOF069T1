@@ -1,0 +1,38 @@
+.**************************************************************************
+.da AFTALE        25mm    85.5mm width 170mm
+.da KUNDEOPL      25mm      99mm width 80mm
+.da GIVER      112,5mm      99mm width 80mm
+.da CPR           25mm   123,5mm width 80mm
+.da CVR        112,5mm   123,5mm width 80mm
+.**************************************************************************
+.ar AFTALE on
+.tp 88.5mm 130mm
+&AFTALENR.¤&GENKORTREF.¤&DATO.
+.ar off
+.****LEASINGTAGERS NAVN OG ADRESSE*****************************************
+.ar KUNDEOPL on
+&ADR1
+.br
+&ADR2.
+.br
+&ADR3.
+.br
+&ADR4.
+.br
+&ADR5.
+.ar off
+.****EJER OG LEASINGGIVER NAVN OG ADRESSE**********************************
+.ar GIVER on
+&AFDBNKNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.**************************************************************************
+.ar CPR on
+&KUNDENR.
+.ar off
+.**************************************************************************
+.ar CVR on
+&AFDSENR.
+.ar off

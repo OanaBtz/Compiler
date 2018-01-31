@@ -1,0 +1,109 @@
+.**AREALER*****************************************************************
+.da SIDE    20mm  60mm width 175mm
+.da AFREGN1 20mm 120mm width  10mm
+.dr thin weight 0.2mm
+.*KORTHINDEHAVER-OPLYSNINGER***********************************************
+.ar SIDE on
+.tp 1mm
+:SWISS10.
+:FED.
+Kontoindehaver
+:SKRSLUT.
+.bx left right
+:SWISS8.
+¤Navn
+.sp 3mm
+:SWISS8.
+.bx new left right
+¤Adresse
+.sp 3mm
+.tp 1mm 41mm
+.bx new left 40mm right
+¤Postnr. ¤By
+.sp 3mm
+.bx new left right
+¤CPR-nr.
+.sp 3mm
+.bx new left 58.5mm 117mm right
+.tp 1mm 59.5mm 118mm
+¤Telefon arbejde ¤Telefon privat ¤Mobiltelefon
+.sp 3mm
+.bx off
+.bx can
+.bx can
+.bx can
+.bx can
+.*AFREGNING ***************************************************************
+.tp 1mm 88.5mm
+:SWISS10.
+:FED.
+Afregning
+:SKRSLUT.
+:SWISS8.
+.bx left right
+.sp 2mm
+:FED.
+¤Vi opkræver kortgebyret én gang om året på kortets konto.
+:SKRSLUT.
+.sp 2mm
+.bx new left right
+:FED.
+¤Afregning af forbrug
+:SKRSLUT.
+.sp 11mm
+:FED.
+¤Månedlig afvikling af kredit (beløb eller procent)
+:SKRSLUT.
+.sp 27mm
+.bx off
+.bx can
+.*PENGEINSTITUT ***********************************************************
+.tp 1mm
+:SWISS10.
+:FED.
+Pengeinstitut
+:SKRSLUT.
+:SWISS8.
+.tp  88.5mm
+.bx left 87.5mm right
+¤Tlf.nr.
+.sp 4mm
+.hr 87.5mm right
+¤Faxnr.
+.sp 4mm
+.bx off
+.*ERKLÆRING ***************************************************************
+.tp 1mm
+:SWISS10.
+:FED.
+Erklæring
+:SKRSLUT.
+:SWISS8.
+.bx left right
+.sp 87mm
+.bx off
+.ar off
+.** HER LAVES DE SMÅ AFKRYDSNINGSKASSER I RUBRIKKEN AFREGNING ************
+.ar AFREGN1 on
+:SWISS10.
+.*1 ks *******
+.bx thin 5mm 8mm
+.sp 1.5mm
+.bx off
+.sp 1mm
+.*2 ks *******
+.bx thin 5mm 8mm
+.sp 1.5mm
+.bx off
+.sp 4.8mm
+.*3 ks *******
+.bx thin 5mm 8mm
+.sp 1.4mm
+.bx off
+.sp 1mm
+.*4 ks *******
+.bx thin 5mm 8mm
+.sp 1.5mm
+.bx off
+.ar off
+.**************************************************************************

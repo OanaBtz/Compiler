@@ -1,0 +1,27 @@
+.sp 20mm
+.bx 0mm 87,5mm 174mm
+.sp 21mm
+.bx new left 87,5mm 174mm
+.sp 17mm
+.bx can
+.bx off
+.bx off
+.sp 3mm
+.bx 0mm 174mm
+.sp 30mm
+.hr 0mm 174mm
+.sp 30mm
+.bx 0mm  87,5mm 174mm
+.sp 34mm
+.bx new left 174mm
+.sp 12mm
+.bx off
+.bx can
+.bx off
+.sp 3mm
+.bx 0mm 174mm
+.sp 10mm
+.bx 0mm 87,5mm 174mm
+.sp 40mm
+.bx off
+.bx off

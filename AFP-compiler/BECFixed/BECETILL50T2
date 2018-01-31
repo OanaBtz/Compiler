@@ -1,0 +1,74 @@
+:FED.
+Calculation of repayment value
+:SKRSLUT.
+.br
+The agreed loan payments for the remaining term of the fixed-rate period
+are discounted using the following interest rate:
+.sp 3mm
+.in 15mm
+The reference rate
+.br
+ruling on the day before the repayment date less 0.25 percentage point
+.br
+- the reference rate ruling at the time of entering into the agreement
+.br
+.us + the annual nominal interest rate
+.br
+.us = interest rate for discounting
+.sp 5mm
+.in 5mm
+The repayment value is then calculated as:
+.sp 3mm
+.in 15mm
+.us The discounted value x 100
+.br
+the nominal outstanding loan balance
+.sp 5mm
+.in 5mm
+:FED.
+Calculation of repayment amount
+:SKRSLUT.
+.sp
+.in 15mm
+Outstanding loan balance at the time of repayment x repayment value
+.br
+.us + Interest from latest interest payment date until repayment
+.br
+.us = Repayment amount
+.sp 5mm
+.in 5mm
+.kp on
+:FED.
+Examples of repayment values for fixed-rate loans
+:SKRSLUT.
+.br
+Assumptions: The term of the loan is 60 months.
+.br
+The loan interest rate used in the examples is 8.0% p.a. (the current
+interest rate is specified in the instrument of debt).
+.br
+The reference rate used at the time of establishment is 7.0% p.a.
+.sp 3mm
+.tp 80mm
+Reference rate at ¤Value at maturity period stated
+.br
+Early repayment
+.tp 80mm 100mm 122mm
+¤24 months ¤36 months ¤48 months
+.br
+11,0 % ¤96,6 ¤95,1 ¤93,7
+.br
+10,0 % ¤97,5 ¤96,4 ¤95,3
+.br
+9,0 % ¤98,4 ¤97,7 ¤97,0
+.br
+8,0 % ¤99,3 ¤99,0 ¤98,7
+.br
+7,0 % ¤100 ¤100 ¤100
+.br
+6,0 % ¤101,2 ¤101,7 ¤102,3
+.br
+5,0 % ¤102,2 ¤103,2 ¤104,2
+.br
+4,0 % ¤103,2 ¤104,7 ¤106,1
+.kp off

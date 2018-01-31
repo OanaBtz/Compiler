@@ -1,0 +1,7 @@
+.** TEKST KUNDEKOPI hvor KOPI normalt påføres
+.da KUNDKOPI 169.1mm 34.4mm
+.ar KUNDKOPI on
+:COUR14.
+:FED.KUNDEKOPI:SKRSLUT.
+.ar off
+:COUR10.

@@ -1,0 +1,49 @@
+.da SIDE1 20mm 38mm width 175mm
+.ar SIDE1 on
+.tp 1mm 88.5mm
+:SWISS8.
+.***her laves kasser til kontohaver og medktohaver ************************
+.bx left right
+¤Virksomhed
+.sp 21mm
+.bx left right
+¤CVR-nr.
+.sp 5mm
+.***her laves kassen til teksten "bestiller" ******************************
+.bx new left right
+.sp 8mm
+.***her laves kassen til Brugernavn og Cpr-nr. ****************************
+.bx new left right
+¤Mobilnummer:
+.sp 7mm
+¤Kaldenavn:
+.sp 7mm
+¤Swippkode:
+.sp 15mm
+.***her laves kasserne til Pengeinstituts oplysninger *********************
+.bx new left right
+.vr 87.5mm
+¤Pengeinstitut ¤Telefonnummer
+.sp 5mm
+.hr 87.5mm 175mm
+¤¤E-mail adresse
+.sp 5mm
+.hr 87.5mm 175mm
+¤¤Ekspederet af
+.sp 5mm
+.bx off
+.vr off
+.bx can
+.bx can
+.bx can
+.bx can
+.***her laves kassen til erklæring ****************************************
+:SWISS10.
+:FED.
+Erklæring
+:SKRSLUT.
+.bx left right
+.sp 120mm
+.bx off
+.bx can
+.ar off

@@ -1,0 +1,161 @@
+:SWISS8.
+.kp on
+:SWISS10.
+:FED.
+3. Documentation
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+3.1 The information about entries stated in &WEBSYSNAVN is not
+necessarily final. The customer must verify that payment requests
+are executed by checking movements in the accounts, by making
+inquiries and subsequently controlling entries and statements of
+account, if any.
+:SWISS8.
+.sp 3mm
+.kp off
+.kp on
+3.2 The customer accepts that lists of account entries, bank statements,
+if any, trading confirmations and other documentation may be received
+electronically. It is the responsibility of the customer to retrieve and
+print electronic statements and documents.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+4. Liability
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+4.1 &BANKNAVN may at any time, without incurring liability,
+refuse to effect payments, transfers, etc. if the limitations agreed
+with &BANKNAVN are not observed, or if the funds available in the
+account are insufficient for a transfer. &BANKNAVN is not liable
+for any losses suffered by the customer due to business
+interruption preventing the use of the system or due to
+interruption of the customer's access to retrieve information or
+give instructions. &BANKNAVN.'s liability is limited, see the below
+terms and conditions to which reference is made.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+5. Amendments and termination
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+5.1 The contents of &WEBSYSNAVN and the terms and conditions
+applicable thereto are amended on a regular basis. Such amendments
+must be in accordance with clause 8 of the Terms and Conditions
+for &WEBSYSNAVN., and if a new functionality, which
+is subject to payment of a fee or which may have material
+financial consequences for the customer, is added to &WEBSYSNAVN.,
+notice must be given thereof to the customer in accordance with
+the Terms and Conditions for &WEBSYSNAVN., or the customer must
+accept the functionality separately via &WEBSYSNAVN or by an agreement
+with &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+5.2 Either party may terminate this agreement in accordance with
+clause 9 of the Terms and Conditions for &WEBSYSNAVN..
+.sp 5mm
+.kp off
+.if &U'&WEBPRIERH eq E
+.th .go SPROG
+.kp on
+:SWISS10.
+:FED.
+6. Language, etc.
+:SKRSLUT.
+.sp 3mm
+.kp off
+.kp on
+6.1 This agreement is entered into in the English language, and any
+communication between the customer and &BANKNAVN. must be in either the
+Danish or the English language.
+.sp 3mm
+.kp off
+.kp on
+6.2 The customer may at any time request to receive the agreement and the
+information and terms and condition to which reference is made therein in
+paper form or on any other durable medium. &BANKNAVN. may make such
+information available to the customer in &WEBSYSNAVN..
+.kp off
+.if &U'&WEBPRIERH eq P
+.th .go SLUT5
+...SPROG
+.kp on
+:SWISS10.
+:FED.
+6. Declaration on use for business purposes, etc.
+:SKRSLUT.
+.sp 3mm
+.kp off
+.kp on
+6.1 The services comprised by this agreement may only be used for
+business purposes. Use of the system for non-business purposes
+gives rise to a right to terminate the agreement without notice.
+The customer declares that it is aware that the Danish Payment Service
+and Electronic Money Act (lov om betalingstjenester og elektroniske
+penge) has been deviated from, and that he or she cannot rely on chapter
+5, sections 55, 62, 64-66, 68, 73, 74 and 85 and chapter 10 thereof.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+7. Language, etc.
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+7.1 This agreement is entered into in the English language, and any
+communication between the customer
+.if &U'&WEBPRIERH eq E
+.th or the customer's users
+and &BANKNAVN. must be in either the
+Danish or the English language.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+8. Copies
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+8.1 This agreement is executed in two identical copies of which one is
+delivered to and stored by the customer, and the other remains
+with &BANKNAVN..
+.kp off
+...SLUT5
+.**********
+.sp 5mm
+.sc
+.LL 175mm
+.***UNDERSKRIFTER *********************************************************
+.kp on
+.tp 5mm  _/50mm 87.5mm _/137.5mm
+:SWISS10.
+:FED.
+¤Signatures
+.sp 3mm
+:SKRSLUT.
+:SWISS8.
+.sp 5mm
+¤Date ¤ ¤Date ¤
+.sp 10mm
+.hr tynd 5mm 80mm 87.5mm 167.5mm
+.br
+.tp 5mm 87.5mm
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:SKRSLUT.
+:COUR10.
+¤&NAVN ¤&BANKNAVN
+.kp off

@@ -1,0 +1,171 @@
+.**************************************************************************
+.dr thin weight 0.1mm
+.tp 35mm 75mm right 80mm 120mm 169mm right
+.kp on
+:SWISS8.
+:FED.
+Afvikling/sikkerhed
+:SKRSLUT.
+.br
+Frekvens¤¤:SKRSLUT.&FREKVENS.
+.br
+:SWISS8.
+Beløb¤kr.¤:SKRSLUT.&BELINCLOMK.¤:SWISS8.Løbetid¤perioder¤:SKRSLUT.&LØBETID.
+.br
+:SWISS8.
+Eks.ord. ydelse¤kr.¤:SKRSLUT.&UDBETAL.¤:SWISS8.Første gang den¤¤
+:SKRSLUT.&FFDATO.
+.br
+:SWISS8.
+Hovedstol¤kr.¤:SKRSLUT.&FINANSSUM.:SWISS8.¤Scrapværdi ekstern¤kr.
+:SKRSLUT.¤&RESTVEXT.:SWISS8.
+.br
+¤¤¤Scrapværdi intern¤kr.:SKRSLUT.¤&RESTVINT.
+.br
+.tp 35mm 75mm right 80mm 102mm
+:SWISS8.
+¤¤¤Tilbagekøber:SKRSLUT. &TILKNAVN.
+.sp
+.kp off
+.kp on
+:SWISS8.
+Pålydende rente p.a.¤¤:SKRSLUT.&PÅRENTE1.%¤&RENTBESK.
+.br
+:SWISS8.
+- grundrentesats¤¤:SKRSLUT.&RENTE.%
+.if &L'&RENTEPERI. > 0
+.th .ct ¤Gennemsnit for &RENTEPERI.
+.hr thin 58mm 75mm
+:SWISS8.
+= kontraktmarginal¤¤:SKRSLUT.&MARGRENTE.%
+.hr thin 58mm 75mm
+.sp
+.kp off
+.tp 55mm 60mm
+.kp on
+:SWISS8.
+Sikkerhed¤Leasingkontrakt
+.hr thin 45mm 50mm
+.br
+¤Anden sikkerhed
+.hr thin 45mm 50mm
+.***TEST PÅ KAUTIONISTER***************************************************
+.if &L'&KAUKNDNR01 > 0
+.th
+.el .go KAUSLUT
+.br
+:SKRSLUT.
+¤&KAUTYP01.:SWISS8. af:SKRSLUT. &KAUKNDNR01.
+.br
+¤¤&KAUNAVN01.:SWISS8.
+.if &L'&KAUKNDNR02 > 0
+.th
+.el .go KAUSLUT
+.br
+:SKRSLUT.
+¤&KAUTYP02.:SWISS8. af:SKRSLUT. &KAUKNDNR02.
+.br
+¤¤&KAUNAVN02.:SWISS8.
+.if &L'&KAUKNDNR03 > 0
+.th
+.el .go KAUSLUT
+.br
+:SKRSLUT.
+¤&KAUTYP03.:SWISS8. af:SKRSLUT. &KAUKNDNR03.
+.br
+¤¤&KAUNAVN03.:SWISS8.
+.if &L'&KAUKNDNR04 > 0
+.th
+.el .go KAUSLUT
+.br
+:SKRSLUT.
+¤&KAUTYP04:SWISS8. af:SKRSLUT. &KAUKNDNR04.
+.br
+¤¤&KAUNAVN04.:SWISS8.
+.if &L'&KAUKNDNR05 > 0
+.th
+.el .go KAUSLUT
+.br
+:SKRSLUT.
+¤&KAUTYP05:SWISS8. af:SKRSLUT. &KAUKNDNR05.
+.br
+¤¤&KAUNAVN05.:SWISS8.
+...KAUSLUT
+.if &L'&DEPOBEL. = 0
+.th .go DEPOSLUT
+¤Depositum kr. :SKRSLUT.&DEPOBEL. :SWISS8. excl. moms,
+stillet af :SKRSLUT.&DEPOKNDNR.
+.br
+¤¤&DEPONAVN.
+...DEPOSLUT
+.sp
+.kp off
+:SWISS8.
+.kp on
+:FED.
+Vedlagt
+:SKRSLUT.
+.br
+Leasingansøgning
+.hr thin 45mm 60mm
+Bankoplysning
+.hr thin 45mm 60mm
+Pengeinstitut-reg.nr.
+.hr thin 45mm 60mm
+Regnskaber
+.hr thin 45mm 60mm
+Tegningsudskrift
+.hr thin 45mm 60mm
+Bestyrelsesindberetning
+.hr thin 45mm 60mm
+Andet
+.hr thin 45mm 60mm 65mm 170mm
+.sp
+.hr thin 65mm 170mm
+Bemærkninger
+.hr thin 65mm 169mm
+.sp
+.hr thin 65mm 169mm
+.sp
+.kp off
+.tp 115mm
+.kp on
+:FED.
+Engagement
+:SKRSLUT.
+.br
+Nærværende leasingkontrakt¤kr.
+.hr thin 120mm 170mm
+Engagement i leasingselskab excl. nærværende (evt. relaterende)¤kr.
+.hr thin 120mm 170mm
+Engagement i bank/moderselskab (evt. relaterende) - reg.nr.¤kr.
+.hr thin 82mm 97mm 120mm 170mm
+.br
+Engagement i alt¤kr.
+.hr thin 120mm 170mm
+.sp
+.kp off
+.tp 10mm 30mm
+.kp on
+:FED.
+Bevilling
+:SKRSLUT.
+.br
+Indstillingskonklusion
+.hr thin 32mm 170mm
+.sp
+.hr thin 32mm 170mm
+.sp
+.hr thin 32mm 170mm
+.sp
+¤Bevilget den
+.hr thin 2mm 7mm 32mm 60mm
+¤Indstillet den
+.hr thin 2mm 7mm 32mm 60mm
+¤Afslået den
+.hr thin 2mm 7mm 32mm 60mm
+.sp
+.hr thin 65mm 165mm
+.tp 107mm
+¤(underskrift)
+.kp off

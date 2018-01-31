@@ -1,0 +1,30 @@
+.**************************************************************************
+.*****DETTE BREV BENYTTER TEKSTAFSNIT FRA BECGAR01*************************
+.**************************************************************************
+.*************** GENEREL OPSÆTNING ***************************************
+.ti ¤ 05
+:COUR10.
+.fo left
+.*************** AREAL-DEFINITIONER **************************************
+.da VEND 7mm 270mm width 181mm rotate -90
+.da SIDENR  177mm 32mm width 75mm
+.da OVERSKR 20mm 32mm width 175mm
+.*************** ROTERET BREVNAVN ****************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.*************** SIDENR **************************************************
+.ar SIDENR on
+:COUR8.
+Side 2 af 2
+.ar off
+.*************** OVERSKRIFT **********************************************
+.ar OVERSKR on
+:SWISS11.:FED.
+.us Entreprenørgaranti i medfør af ABT 93 § 6 (med 5-års mangelsansvar)
+.br
+.us (byggearbejder m.v.)
+:SKRSLUT.
+.ar off
+.*************************************************************************

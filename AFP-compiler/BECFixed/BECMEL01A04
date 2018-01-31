@@ -1,0 +1,279 @@
+.ti ¤ 05
+.da DATO1     128mm 127mm width 15mm
+.da TEKST1A   16mm 140mm width 40mm
+.da TEKST1B   16mm 143.8mm width 40mm
+.da TEKST1C   16mm 147.8mm width 40m
+.da TEKST1D   16mm 152mm width 38mm
+.da TEKST1E   16mm 156mm width 40mm
+.da TEKST1F   16mm 159.8mm width 40mm
+.da TEKST1G   63mm 140mm width 50mm
+.da TEKST1H   69mm 143.8mm width 50mm
+.da TEKST1I   69mm 147.8mm width 50mm
+.da TEKST1J   69mm 152mm width 50mm
+.da CPR1      56mm 156mm width 50mm
+.da KTONR1    56mm 159mm width 50mm
+.da BEMÆRK1   128mm 131mm width 50mm
+.da TIL1      25mm 164mm width 10mm
+.da UDSTED1   10.5mm 172mm width 25mm
+.da UNDERSK1  129mm 178mm width 70mm
+.da LBNR1     18mm 185mm width 25mm
+.da TRUKKET1  57mm 185mm width 19mm
+.da BELØB1    153mm 185mm width 30mm
+.da OVERSK    12mm 220.5mm width 110mm
+.da DATO2     128mm 216mm width 15mm
+.da TEKST2A   16mm 229mm width 40mm
+.da TEKST2B   16mm 232.8mm width 40mm
+.da TEKST2C   16mm 237mm width 40m
+.da TEKST2D   16mm 241mm width 40mm
+.da TEKST2E   16mm 245mm width 40mm
+.da TEKST2F   16mm 248.5mm width 40mm
+.da TEKST2G   63mm 229mm width 50mm
+.da TEKST2H   69mm 232.8mm width 50mm
+.da TEKST2I   69mm 237mm width 50mm
+.da TEKST2J   69mm 241mm width 50mm
+.da CPR2      56mm 245mm width 50mm
+.da KTONR2    56mm 248.5mm width 50mm
+.da BEMÆRK2   128mm 220mm width 50mm
+.da TIL2      25mm 253mm width 10mm
+.da UDSTED2   10.5mm 260mm width 25mm
+.da UNDERSK2  129mm 268mm width 70mm
+.da LBNR2     18mm 274mm width 25mm
+.da TRUKKET2  59mm 274mm width 19mm
+.da TK2       81mm 274mm width 19mm
+.da KONTONR   92mm 274mm width 19mm
+.da BELØB2    153mm 274mm width 30mm
+.da BETRUK2   95mm 284.6mm width 30mm
+.******************************************
+.ar DATO1 on
+:SWISS8.
+Dato:
+.ar off
+.***************************
+.ar TEKST1A on
+:SWISS8.
+Se vedlagte
+.ar off
+.***************************
+.ar TEKST1B on
+:SWISS8.
+Se bemærkninger
+.ar off
+.***************************
+.ar TEKST1C on
+:SWISS8.
+Protestmeddelelse (check)
+.ar off
+.***************************
+.ar TEKST1D on
+:SWISS8.
+Protestmeddelelse (Dankort)
+.ar off
+.***************************
+.ar TEKST1E on
+:SWISS8.
+Udenlandsk checkrimesse
+.ar off
+.***************************
+.ar TEKST1F on
+:SWISS8.
+Rembursmateriale
+.ar off
+.****************************
+.ar TEKST1G on
+:SWISS8.
+Debet Finansstyrelsens konto nr.
+.ar off
+.****************************
+.ar TEKST1H on
+:SWISS8.
+Boligsparekontrakt (deludbetaling)
+.ar off
+.****************************
+.ar TEKST1I on
+:SWISS8.
+Boligsparekontrakt (slutudbetaling)
+.ar off
+.****************************
+.ar TEKST1J on
+:SWISS8.
+Uddannelsesopsparing
+.ar off
+.************************
+.ar CPR1 on
+:SWISS8.
+Kontohavers CPR-nr.
+.ar off
+.************************
+.ar KTONR1 on
+:SWISS8.
+Kontohavers konto nr.
+.ar off
+.************************
+.ar BEMÆRK1 on
+:SWISS8.
+Bemærkninger:
+.ar off
+.**************************
+.ar TIL1 on
+:SWISS8.
+Til*
+.ar off
+.**************************
+.ar UDSTED1 on
+:SWISS8.
+Udsteders
+.tp 2mm
+¤reg.nr.
+.br
+¤(4cifre)
+.ar off
+.**************************
+.ar UNDERSK1 on
+:SWISS8.
+.hr left 67mm
+Underskrift
+.ar off
+.**************************
+.ar LBNR1 on
+:SWISS8.
+Løbenr.(8 cifre)
+.ar off
+.**************************
+.ar TRUKKET1 on
+:SWISS8.
+Trukket på*
+.ar off
+.**************************
+.ar BELØB1 on
+:SWISS8.
+Kroner
+.ar off
+.**************************
+.ar OVERSK on
+:SWISS8.
+Vi meddeler Dem herved, at vi i dag har trukket nedennævnte beløb på Dem*
+.br
+på grundlag af medfølgende:
+.ar off
+.***************************
+.ar DATO2 on
+:SWISS8.
+Dato:
+.ar off
+.***************************
+.ar TEKST2A on
+:SWISS8.
+Se vedlagte
+.ar off
+.***************************
+.ar TEKST2B on
+:SWISS8.
+Se bemærkninger
+.ar off
+.**********************************
+.ar TEKST2C on
+:SWISS8.
+Protestmeddelelse (check)
+.ar off
+.**********************************
+.ar TEKST2D on
+:SWISS8.
+Protestmeddelelse (Dankort)
+.ar off
+.**********************************
+.ar TEKST2E on
+:SWISS8.
+Udenlandsk checkrimesse
+.ar off
+.************************************
+.ar TEKST2F on
+:SWISS8.
+Rembursmateriale
+.ar off
+.************************************
+.ar TEKST2G on
+:SWISS8.
+Debet Finansstyrelsens konto nr.
+.ar off
+.************************************
+.ar TEKST2H on
+:SWISS8.
+Boligsparekontrakt (deludbetaling)
+.ar off
+.************************************
+.ar TEKST2I on
+:SWISS8.
+Boligsparekontrakt (slutudbetaling)
+.ar off
+.*********************************
+.ar TEKST2J on
+:SWISS8.
+Uddannelsesopsparing
+.ar off
+.*********************************
+.ar CPR2 on
+:SWISS8.
+Kontohavers CPR-nr.
+.ar off
+.*********************************
+.ar KTONR2 on
+:SWISS8.
+Kontohavers konto nr.
+.ar off
+.*********************************
+.ar BEMÆRK2 on
+:SWISS8.
+Bemærkninger:
+.ar off
+.***********************************
+.ar TIL2 on
+:SWISS8.
+Til*
+.ar off
+.***********************************
+.ar UDSTED2 on
+:SWISS8.
+Udsteders
+.tp 2mm
+¤reg.nr.
+.br
+¤(4cifre)
+.ar off
+.***********************************
+.ar UNDERSK2 on
+:SWISS8.
+.hr left 67mm
+Underskrift
+.ar off
+.***********************************
+.ar LBNR2 on
+:SWISS8.
+Løbenr.(8 cifre)
+.ar off
+.***********************************
+.ar TRUKKET2 on
+:SWISS8.
+Trukket på*
+.ar off
+.***********************************
+.ar TK2 on
+:SWISS8.
+TK
+.ar off
+.***********************************
+.ar KONTONR on
+:SWISS8.
+Kontonr.
+.ar off
+.******************************
+.ar BELØB2 on
+:SWISS8.
+Kroner
+.ar off
+.******************************
+.ar BETRUK2 on
+:SWISS8.
+Udfyldes af betrukne
+.ar off
+.******************************
+.pa

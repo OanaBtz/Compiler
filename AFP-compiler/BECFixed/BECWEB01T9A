@@ -1,0 +1,112 @@
+.tp 5mm
+.***
+.if &U'&WEBPRIERH = E
+.th .go ERHSLT9A
+.***KUN FOR PRIVAT (Erhverv forsætter i T10)*******************************
+.kp on
+:SWISS10.:FED.
+4. Kundens ansvar
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+4.1 Bestemmelserne i dette pkt. 4 finder kun anvendelse, når
+kunden benytter &WEBSYSNAVN.s betalingstjenester. Bestemmelserne
+finder ikke anvendelse på elektronisk indgåede
+aftaler, medmindre disse efter deres indhold udgør en
+betalingstjeneste.
+.sp 3mm
+.kp off
+.kp on
+4.2 I tilfælde af, at kundens &WEBSYSNAVN.-adgang har været misbrugt af en
+anden person,
+vil &BANKNAVN. dække tabet, medmindre tabet er omfattet af en
+af bestemmelserne nedenfor.
+.sp 3mm
+.kp off
+.kp on
+4.3 Kunden skal dække tab op til kr. 1.100 (selvrisiko), hvis
+&WEBSYSNAVN.-adgangen er misbrugt af en anden ved anvendelse af kundens
+personlige sikkerhedsoplysninger.
+.sp 3mm
+.kp off
+.kp on
+4.4 Kunden skal dække tab op til kr. 8.000 i tilfælde af, at kundens
+personlige sikkerhedsoplysninger har været anvendt, og
+.sp 3mm
+.kp off
+.kp on
+.of 5mm
+a)¤kunden har undladt at underrette
+&BANKNAVN snarest muligt efter, at kunden har fået kendskab
+til, at en anden har fået kendskab til
+kundens personlige sikkerhedsoplysninger, eller
+.of
+.sp 3mm
+.kp off
+.kp on
+.of 5mm
+b)¤kunden har oplyst sine personlige sikkerhedsoplysninger
+til den, der har foretaget
+den uberettigede anvendelse, uden at kunden
+indså eller burde have indset, at der var risiko for misbrug, eller
+.of
+.sp 3mm
+.kp off
+.kp on
+.of 5mm
+c)¤kunden ved groft uforsvarlig adfærd har
+muliggjort den uberettigede anvendelse.
+.of
+.sp 3mm
+.kp off
+.kp on
+4.5 Kunden hæfter for det fulde tab, hvis
+.sp 3mm
+.of 5mm
+a)¤kunden har oplyst sine personlige sikkerhedsoplysninger
+til den, der
+har foretaget den uberettigede anvendelse, og
+.of
+.sp 3mm
+.of 5mm
+b)¤kunden indså eller burde have
+indset, at der var risiko for misbrug.
+.of
+.sp 3mm
+.kp off
+.kp on
+4.6 Kunden hæfter endvidere for det fulde tab, hvis kunden har
+handlet svigagtigt eller med forsæt har undladt at opfylde sine
+forpligtelser om at beskytte sine personlige sikkerhedsoplysninger,
+jf. pkt. 2.1.1 og 2.1.2, eller
+har undladt at spærre &WEBSYSNAVN.-adgangen, jf. pkt. 2.3.1.
+.sp 3mm
+.kp off
+.kp on
+4.7 Kunden er ikke ansvarlig for uberettiget brug af &WEBSYSNAVN.,
+der finder sted, efter at kunden har underrettet
+&BANKNAVN. om, at &WEBSYSNAVN.adgangen skal spærres.
+.sp 3mm
+.kp off
+.kp on
+4.8 Kunden er kun ansvarlig i henhold til pkt. 4.3, 4.4 og 4.5,
+såfremt transaktionerne er korrekt registreret og bogført.
+.sp 3mm
+.kp off
+.kp on
+4.9 Kunden gøres endvidere opmærksom på, at betalingsmodtager er
+ansvarlig for tab over for kunden, såfremt betalingsmodtageren
+vidste eller burde vide, at den, der har benyttet &WEBSYSNAVN., var
+uberettiget til dette, ligesom
+&BANKNAVN kan hæfte under visse omstændigheder, hvor
+en betalingsmodtager vidste eller burde vide, at en betaling
+var uberettiget.
+.sp 3mm
+.kp off
+.kp on
+4.10 De nærmere ansvarsregler fremgår af §§ 61 og 62 i Lov om
+betalingstjenester og elektroniske penge.
+.sp 5mm
+.kp off
+.**************************************************************************
+...ERHSLT9A

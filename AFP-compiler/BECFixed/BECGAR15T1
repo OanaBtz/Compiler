@@ -1,0 +1,120 @@
+:SWISS8.
+vedrørende andel nr.
+:SKRSLUT.
+.ct  &ANDLEJLNR
+:SWISS8.
+i andelsboligforeningen
+:SKRSLUT.
+.ct  &FORENING.,
+:SWISS8.
+beliggende
+:SKRSLUT.
+.ct  &ANDADRES..
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+Garantien skal sendes til andelsboligforeningen
+med kopi til eventuelt medvirkende ejendomsformidler.
+.sp 5mm
+.kp off
+.th .br
+.***
+...EJSTILL3
+&MEDNAVN
+.br
+.if &L'&MEDCO > 0
+.th &MEDCO
+.th .br
+&MEDGADE
+.br
+&MEDBY
+.if &L'&MEDLAND > 0
+.th .br
+.th &MEDLAND
+.sc
+.***
+...MEDNVNSL
+.sp 3mm
+:SWISS8.
+Herefter kaldet "køber".
+:SKRSLUT.
+.sp 3mm
+.kp on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.sp 3mm
+:SWISS8.
+indestår sælger uigenkaldeligt for betaling af
+.sp 3mm
+kr.
+:SKRSLUT.
+.ct  &RESULTA
+.br
+:SWISS8.
+skriver
+:SKRSLUT.
+.ct  &RESULTAT1.&RESULTAT2.
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+Beløbet tjener sælger til sikkerhed for ethvert krav, som følger af den
+mellem sælger og køber indgåede købsaftale/salgsaftale af
+:SKRSLUT.
+.ct  &GENDATO
+:SWISS8.
+.se regnr = substr &LANGKTONR 1 4
+.se ktonr = substr &LANGKTONR 5 21
+Kontonr. for garanti:
+:SKRSLUT.
+.ct  &regnr. &ktonr.
+.sp 3mm
+:SWISS8.
+Garantien er udstedt på foranledning af
+.if &L'&MEDNAVN > 0
+.th (købere):
+.el (køber):
+.sp 3mm
+:SKRSLUT.
+.***
+.if &L'&MEDNAVN > 0
+.th .cd 2 0mm 87mm
+.th .cl 85mm
+.***
+.if &L'&KTOLAND > 0
+.th .go EJSTILL2
+.***
+.if &L'&KTOSTILL > 0
+.th &KTOSTILL
+.th .br
+.***
+...EJSTILL2
+&KTONAVN
+.br
+.if &L'&KTOCO > 0
+.th &KTOCO
+.th .br
+&KTOGADE
+.br
+&KTOBY
+.if &L'&KTOLAND > 0
+.th .br
+.th &KTOLAND
+.***
+.if &L'&MEDNAVN > 0
+.th .go MEDNVN
+.el .go MEDNVNSL
+.***
+...MEDNVN
+.cb
+.if &L'&MEDLAND > 0
+.th .go EJSTILL3
+.***
+.if &L'&MEDSTILL > 0
+.th &MEDSTILL

@@ -1,0 +1,102 @@
+.***************
+.if &L'&AFTDATO10 = 0
+.an &L'&GENFDATO = 0
+.th .go INDFRI
+:FED.
+Genforhandling
+.br
+:SKRSLUT.
+.if &L'&AFTDATO10 > 0
+.th &debsomt aftaler den videre afvikling eller indfrielse med &BANKNAVN
+.th den &AFTDATO10..
+.if &L'&GENFDATO > 0
+.th .br
+.th Kreditten genforhandles
+.th &GENFDATO..
+.sp 5mm
+...INDFRI
+.**************************
+.if &L'&INDFRIDATO > 0
+.th
+.el .go RENTE
+:FED.
+Slutdato
+.br
+:SKRSLUT.
+Trækningsretten på kreditten bortfalder den &INDFRIDATO., hvor et
+eventuelt skyldigt beløb skal indbetales.
+.sp 5mm
+...RENTE
+.***************
+:FED.
+Rente og omkostninger
+.br
+:SKRSLUT.
+Rente og omkostninger er
+.if &U'&RENTETYP = V
+.th variabel
+.if &U'&RENTETYP = D
+.th differentieret
+.if &U'&RENTETYP = F
+.th fast
+og fastsættes til enhver tid af
+&BANKNAVN..
+.sp 3mm
+.if &U'&RENTETYP = V
+.th .go TYPV
+.el .go TYPD
+...TYPV
+Den årlige rente er variabel og udgør p.t. &RENTE %
+...TYPD
+...FORBI
+.sp 5mm
+.if &U'&RENTETYP = D
+.th Renten er differentieret og fremgår af kreditoplysningerne.
+.sp 3mm
+Renten beregnes dagligt af den udnyttede kreditramme og
+tilskrives kreditten
+.if &RTEFREK01 = 1
+.th hver måned,
+.if &RTEFREK01 = 3
+.th hvert kvartal,
+.if &RTEFREK01 = 6
+.th hvert halvår,
+.if &RTEFREK01 = 9
+.th hvert år,
+første gang den &RTEDATO01..
+.if &L'&PROV = 0
+.an &L'&PROVOVERTR = 0
+.an &L'&PROVBEVILG = 0
+.th .go PROVSL
+.el .sp 3mm
+.el .go PROV
+.***************
+...PROV
+.if &L'&PROV > 0
+.th Provisionen er for tiden &PROV % om året af kreditrammen.
+.th .br
+...PROVSL
+.if &L'&PROVOVERTR > 0
+.th Ved overtræk eller forsinket indfrielse af kassekreditten er
+.th &BANKNAVN berettiget til at opkræve en årlig variabel
+.th morarente/overtræksrente som udgør et variabelt tillæg på
+.th p.t. &PROVOVERTR % i tillæg til renten.
+.if &U'&PRIERH = P
+.th .br
+.th Ved &min udnyttelse af fortrydelsesretten udgør det daglige rentebeløb
+.th kr. &FTRRTEDAG ved fuld udnyttelse af kreditrammen.
+.***************
+.sp 5mm
+.if &L'&AFDYDL01 > 0
+.an &U'&AFDYDL01 = H
+.th .go FORBI
+.**ERHVERV *****
+.if &U'&PRIERH = E
+.th :FED.
+.th Betaling
+.th .br
+.th :SKRSLUT.
+.th &BANKNAVN er berettiget til at debitere kontoen for ethvert beløb, som
+.th &deblomt på en hvilken som helst måde måtte blive &BANKNAVN skyldig.
+.sp 5mm
+.*****************************

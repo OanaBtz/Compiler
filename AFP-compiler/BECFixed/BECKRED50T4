@@ -1,0 +1,54 @@
+.if &U'&PRIERH = E
+.th .go ENDKRED
+.**************************************************************************
+.kp on
+:FED.
+Førtidig tilbagebetaling
+:SKRSLUT.
+.br
+&debsomt. har til enhver tid ret til helt eller delvis at indfri &mine
+forpligtelser i henhold til kreditaftalen, &deblomt. har
+herefter ret til en reduktion af de samlede kreditomkostninger, der består
+af renter og omkostninger i den resterende del af kreditaftalens løbetid.
+Indfrielse skal ske ved indbetaling til kreditkontoen.
+.sp 5mm
+.kp off
+.kp on
+:FED.
+Fortrydelsesret
+:SKRSLUT.
+.br
+&debsomt. har ret til at fortryde kreditaftalen inden for 14 dage fra
+kreditten stilles til disposition. Hvis fortrydelsesfristens sidste dag
+falder på en lørdag, søndag, helligdag, grundlovsdag,
+fredag efter Kristi Himmelfartsdag, juleaftensdag eller
+nytårsaftensdag, udløber fristen den følgende hverdag.
+.sp 3mm
+.kp off
+.kp on
+Ønsker &deblomt. at benytte fortrydelsesretten
+kan det ske ved at ringe eller
+skrive til &min afdeling inden fristen udløber. Desuden skal det
+modtagne beløb tilbagebetales sammen med
+eventuelle omkostninger, som &BANKNAVN.
+måtte have betalt til offentlige myndigheder og som ikke kan refunderes.
+.sp 3mm
+.kp off
+.kp on
+Derudover skal &deblomt. betale de renter, der er påløbet fra den dag
+kreditten blev stillet til disposition, indtil
+beløbet tilbagebetales. Det angivne
+rentebeløb, der påløber pr. dag er beregnet på baggrund af renteforholdene
+på aftaletidspunktet, ligesom der
+ikke er taget højde for renters rente. Det rentebeløb,
+der skal betales ved udnyttelse af fortrydelsesretten, er
+de påløbne renter
+beregnet på grundlag af den aftalte rente.
+.sp 3mm
+.kp off
+.kp on
+Det samlede beløb skal tilbagebetales uden unødig forsinkelse, og senest 30
+dage efter &deblomt. har givet besked om udøvelsen af fortrydelsesretten.
+.sp 5mm
+.kp off
+...ENDKRED

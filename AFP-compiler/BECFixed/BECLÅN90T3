@@ -1,0 +1,279 @@
+.br
+&GENLÅNGR1.
+&GENLÅNGR2.
+&GENLÅNGR3.
+&GENLÅNGR4.
+&GENLÅNGR5.
+&GENLÅNGR6.
+&GENLÅNGR7.
+&GENLÅNGR8.
+&GENLÅNGR9.
+&GENLÅNGR10.
+.sp 3mm
+...ENDGRUND
+.kp off
+.kp on
+.**ØVRIGE RÅD *************************************************************
+.if &L'&GENØVRIG1 > 0
+.or &L'&GENØVRIG2 > 0
+.or &L'&GENØVRIG3 > 0
+.or &L'&GENØVRIG4 > 0
+.or &L'&GENØVRIG5 > 0
+.or &L'&GENØVRIG6 > 0
+.or &L'&GENØVRIG7 > 0
+.or &L'&GENØVRIG8 > 0
+.or &L'&GENØVRIG9 > 0
+.or &L'&GENØVRIG10 > 0
+.th .go RAAD
+.el .go ENDRAAD
+...RAAD
+:FED.
+Øvrige råd
+:SKRSLUT.
+.br
+&GENØVRIG1.
+&GENØVRIG2.
+&GENØVRIG3.
+&GENØVRIG4.
+&GENØVRIG5.
+&GENØVRIG6.
+&GENØVRIG7.
+&GENØVRIG8.
+&GENØVRIG9.
+&GENØVRIG10.
+.sp 5mm
+...ENDRAAD
+.kp off
+.kp on
+.**ØVRIGE RÅD *************************************************************
+&ÅCONT
+.br
+.kp off
+.kp on
+.**************************************************************************
+:FED.
+Er det muligt at foretage låneomlægning
+:SKRSLUT.
+.if &U'X&GENLÅNOML = XJ
+.th Ja
+.el Nej
+.sp 3mm
+.kp off
+.kp on
+.**************************************************************************
+:FED.
+Omkostninger ved låneomlægning eller indfrielse
+:SKRSLUT.
+.br
+.if x&GENLÅNOMK = x1
+.th &SJEG kan læse mere om indfrielsesmetoder og priser/omkostninger
+.th &GENANDET1..
+.if x&GENLÅNOMK = x2
+.th Omkostningerne ved låneomlægning afhænger af indfrielsesmetoden. Valg
+.th af indfrielsesmetode afhænger af kursniveau og opsigelsestidspunkt.
+.if x&GENLÅNOMK = x3
+.th &SDU skal påregne omkostninger til tinglysning og eventuel beskatning.
+.if x&GENLÅNOMK = x4
+.th Ved omlægning til et andet lån må &DU påregne omkostninger hertil.
+.if x&GENLÅNOMK = x5
+.th Der henvises til &BANKNAVN.s prisblad.
+.sp 3mm
+.kp off
+.kp on
+.**BEGRUNDELSE FOR VALG AF LÅNET ******************************************
+.if &L'&LÅNGR1 > 0
+.or &L'&LÅNGR2 > 0
+.or &L'&LÅNGR3 > 0
+.or &L'&LÅNGR4 > 0
+.or &L'&LÅNGR5 > 0
+.or &L'&LÅNGR6 > 0
+.or &L'&LÅNGR7 > 0
+.or &L'&LÅNGR8 > 0
+.or &L'&LÅNGR9 > 0
+.or &L'&LÅNGR10 > 0
+.th .go GRUND
+.el .go ENDGRUND
+...GRUND
+:FED.
+Begrundelse for valget af boligkreditaftale i lyset af &MIN
+økonomiske situation
+:SKRSLUT.
+:SKRSLUT.
+.br
+.if &U'X&GENLÅNVILK = XA
+.th Lånet har sammenhæng til obligationer. Vi anbefaler i
+.th udgangspunktet kurssikring.
+.if &U'X&GENLÅNVILK = XB
+.th Lånet har sammenhæng til obligationer. Der er mulighed for at
+.th kurssikre lånet.
+.if &U'X&GENLÅNVILK = XC
+.th Lånet har ikke sammenhæng til obligationer, hvorfor der ikke skal
+.th tages stilling til kurssikring mv.
+.sp 3mm
+.kp off
+.kp on
+.**************************************************************************
+:FED.
+Opsigelsesvilkår for den valgte boligkreditaftale
+:SKRSLUT.
+.br
+.if &U'X&GENTYPEPE = XP
+.th .go PRIV
+.el .go ERHV
+...PRIV
+.*OPSIGELSESVILKÅR - PRIVAT************************************************
+&SJEG kan opsige lånet uden varsel og indbetale det skyldige beløb
+inklusive rente, provision og eventuelle andre omkostninger til
+indfrielsesdagen. &BANKNAVN kan opsige lånet
+med 3 måneders varsel og forlange, at &JEG
+betaler det skyldige beløb inklusive rente, provision og eventuelle
+andre omkostninger pr. opsigelsesdagen.
+.sp 3mm
+.go INDFRI
+...ERHV
+.*OPSIGELSESVILKÅR - ERHVERV***********************************************
+Såvel &JEG som &BANKNAVN har altid ret til at opsige lånet
+uden varsel. I så fald skal &JEG betale det skyldige beløb,
+herunder påløbne renter og omkostninger til indfrielsesdagen.
+.sp 3mm
+.**************************************************************************
+...INDFRI
+.kp off
+.kp on
+:FED.
+Indfrielsesvilkår for den valgte boligkreditaftale
+:SKRSLUT.
+.br
+Lånet kan indfries til kurs 100. Dog gøres opmærksom på, at ved
+fastforrentede lån eller lån i anden valuta end DKK kan der være
+specielle indfrielsesvilkår.
+.sp 3mm
+.*KUNDEN ØNSKER IKKE: RÅDGIVNING / AT AFGIVE ØKONOMISKE OPLYSNINGER *******
+.if &L'&GENKRYDS1 > 0
+.or &L'&GENKRYDS2 > 0
+.th .go ENDSKEM2
+.**************************************************************************
+.kp on
+:FED.
+.us Boligkreditgiver har i den forbindelse oplyst &MIG. om følgende:
+:SKRSLUT.
+.sp 3mm
+.kp off
+.kp on
+.**************************************************************************
+:SWISS9.
+:FED.
+De væsentligste egenskaber ved den valgte boligkreditaftale
+:SKRSLUT.
+.br
+.if &U'X&GENRENTETP = XF
+.th Lånet er med fast rente.
+.if &U'X&GENRENTETP = XV
+.th Lånet er variabelt forrentet.
+.if &U'X&GENRENTETP = XD
+.th Lånet er med differentieret rente.
+.sp 3mm
+.kp off
+.**************************************************************************
+.if &L'&GENRTELAV > 0
+.an &L'&GENRTEHØJ > 0
+.th
+.el .go EJGENRTE
+.kp on
+:FED.
+Instituttets normale prismæssige vilkår for det valgte lån
+:SKRSLUT.
+.br
+Den laveste rentesats er
+:VS. &GENRTELAV.
+%
+og den højeste rentesats er
+:VS. &GENRTEHØJ.
+%.
+.sp 3mm
+.kp off
+.**************************************************************************
+...EJGENRTE
+.kp on
+:FED.
+Vilkår i forbindelse med optagelse af boligkreditaftalen
+(fastkursaftale, hjemtagelse mv.)
+I forbindelse med rådgivningen er &JEG opmærksomme på, at
+&GENALTLN1.
+&GENALTLN2.
+&GENALTLN3.
+&GENALTLN4.
+&GENALTLN5.
+&GENALTLN6.
+&GENALTLN7.
+&GENALTLN8.
+&GENALTLN9.
+&GENALTLN10.
+kan udgøre et alternativ til den boligkreditaftale,
+som &JEG. har indgået.
+.sp 5mm
+&GENLÅN1.
+&GENLÅN2.
+&GENLÅN3.
+&GENLÅN4.
+&GENLÅN5.
+&GENLÅN6.
+&GENLÅN7.
+&GENLÅN8.
+&GENLÅN9.
+&GENLÅN10.
+har
+:VS.&GENOPTÅOP.
+årlige omkostninger i procent (ÅOP).
+.sp 5mm
+Det alternative lån har
+:VS.&GENALTÅOP.
+årlige omkostninger i procent (ÅOP).
+.sp 5mm
+.kp off
+.if &U'&GENJANEJ1 = J
+.th .kp on
+.th I forbindelse med rådgivningen har &JEG fået vist beregningseksempler,
+.th der illustrerer, hvor længe gælden ved den valgte afdragsprofil vil
+.th overstige ejendomsværdien (købesummen) ved et prisfald på 15%.
+.th .sp 5mm
+.th .kp off
+.kp on
+Boligkreditgiver har oplyst &DIG om, at rådgivningen ikke er uafhængig
+og kun omfatter de produkter, som boligkreditgiver udbyder.
+.sp 5mm
+.kp off
+.kp on
+.if &U'&GENJANEJ2 = J
+.th Boligkreditgiver anbefaler det valgte lån.
+.el Boligkreditgiver anbefaler ikke det valgte lån men derimod:
+.el .br
+.el &GENTEKST51
+.el &GENTEKST52
+.el &GENTEKST53
+.el &GENTEKST54
+.el &GENTEKST55
+.el &GENTEKST56
+.el &GENTEKST57
+.el &GENTEKST58
+.el &GENTEKST59
+.sp 5mm
+.kp off
+.kp on
+Såfremt den valgte boligkreditaftale er i udenlandsk valuta,
+jf. bekendtgørelse om god skik for boligkredit §3 stk. 10,
+skal &DU. være opmærksom på, at værdien
+af boligkreditten omregnet til &DIN. nationale valuta kan ændre sig
+og værdien af det beløb, som &DU. skal betale i &DIN. nationale valuta,
+kan ændre sig.
+.sp 5mm
+I det omfang boligkreditgiver tilbyder at konvertere &DIN. boligkredit
+til en anden valuta, har &DU. ret til at konvertere boligkreditten til en
+anden valuta eller efter aftale med boligkreditgiver at etablere en
+anden ordning, som kan begrænse &DIN. valutarisiko. &SDU. kan til enhver
+tid få oplyst af boligkreditgiver, om denne tilbyder at konvertere
+&DIN. boligkredit til en anden valuta.
+.sp 5mm
+.kp off
+...ENDSKEM2
+.**********

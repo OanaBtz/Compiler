@@ -1,0 +1,18 @@
+.********************AREAL-DEFINITIONER************************************
+.* Brevnavn, roteret i venstre hjørne
+:COUR10.
+.da OVERSKR 20mm 43mm width 170mm
+.da VEND 7mm 270mm width 180mm rotate -90
+.********************ROTERET BREVNAVN**************************************
+:tiltale &TILTALEF
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.********************AFVIKLINGSSIDE****************************************
+.ar OVERSKR on
+:SWISS11.:FED.
+.us Afvikling
+:SKRSLUT.
+:SKRSLUT.
+.sp

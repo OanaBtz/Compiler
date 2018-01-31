@@ -1,0 +1,23 @@
+.*************** GENEREL OPSÆTNING ***************************************
+.ti ¤ 05
+:COUR10.
+.fo left
+.*************** AREAL-DEFINITIONER **************************************
+.da VEND 7mm 270mm width 180mm rotate -90
+.da OVERSKR 24mm 32mm width 175mm
+.*************** ROTERET BREVNAVN ****************************************
+.ar VEND on
+:COUR6.
+BECOPANT02
+.br
+Kl. &TID
+.ar off
+.*************** UDDATA-OVERSKRIFT ***************************************
+.ar OVERSKR on
+:SWISS12.:FED.
+.us on
+Foranstående hæftelser
+.us off
+:SKRSLUT.
+.ar off
+.*************************************************************************

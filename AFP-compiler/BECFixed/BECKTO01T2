@@ -1,0 +1,107 @@
+:SWISS9.
+.*************************************************************************
+.if &FRIDATO = 01.01.0001
+.th .se frid = &ÅRB
+.el .se frid = &FRIDATO
+.if &FRISTDATO = 01.01.0001
+.th .se fristd = &ÅRB
+.el .se fristd = &FRISTDATO
+.*************************************************************************
+.tp 55mm 80mm
+.kp on
+:FED.
+Konto
+:SKRSLUT.
+.br
+Kontonr. ¤Regtype/betegnelse
+.br
+&LANGKTONR. ¤&REGTYPELNG.
+.sp 3mm
+.if &L'&GENMÆRKE = 0
+.an &FRIDATO = 01.01.0001
+.an &FRISTDATO = 01.01.0001
+.th .go IMRK
+.el .go MRK
+...MRK
+Evt. mærke ¤Frigivelsesdato ¤Fristdato
+.br
+&GENMÆRKE ¤&frid ¤&fristd
+.sp 5mm
+...IMRK
+.kp off
+.kp on
+.**TEST PÅ OM DER ER FULDMAGTSHAVERE ***
+.if &L'&GENNAVN1 = 0
+.an &L'&GENNAVN2 = 0
+.an &L'&GENNAVN3 = 0
+.an &L'&GENNAVN4 = 0
+.th .go FULDEND
+.***************************************
+:FED.
+Fuldmagtshaver(e):
+:SKRSLUT.
+.br
+.*****
+.tp 28mm 88mm _/173mm
+CPR-nr ¤Navn ¤Underskrift
+.sp 5mm
+.if &L'&GENNAVN1 > 0
+.th &GENCPR1 ¤&GENNAVN1 ¤¤
+.th .sp 5mm
+.if &L'&GENNAVN2 > 0
+.th &GENCPR2 ¤&GENNAVN2 ¤¤
+.th .sp 5mm
+.if &L'&GENNAVN3 > 0
+.th &GENCPR3 ¤&GENNAVN3 ¤¤
+.th .sp 5mm
+.if &L'&GENNAVN4 > 0
+.th &GENCPR4 ¤&GENNAVN4 ¤¤
+.th .sp 3mm
+:SKRSLUT.
+...FULDEND
+.kp off
+.*****
+.kp on
+Hver kontohaver og fuldmagtshaver er berettiget til at disponere alene over
+den anførte konto ved anvendelse af betalingskort, check eller på
+anden måde, medmindre andet er aftalt.
+.sp 3mm
+.kp off
+.kp on
+En fuldmagt kan til enhver tid tilbagekaldes af en kontohaver. Kontohaver
+skal samtidig tilbagelevere betalingskort og checks, som er udleveret til
+fuldmagtshaveren.
+.sp 3mm
+.kp off
+.if &U'X&KTOPRIERH = XP
+.an &U'X&BETKTO01 = XJ
+.th .go RENTE
+.el .go ENDRENTE
+...RENTE
+.** UDSKRIVES KUN FOR PRIVATE ***
+.kp on
+I tilfælde af overtræk på kontonummer &LANGKTONR. beregner &BANKNAVN.
+en overtræksrente på p.t. &OVTRTE01 % p.a.,
+som beregnes dag til dag af det til
+enhver tid værende overtræk, svarende til en debitorrente på
+&DEBRTE01 % p.a.
+.sp 3mm
+.kp off
+.*********************************
+...ENDRENTE
+.kp on
+For kundeforholdet gælder i øvrigt følgende regler i det omfang, reglerne
+ikke er udtrykkeligt fraveget ved skriftlig aftale:
+.tp 8mm
+.br
+.of 3mm
+*¤&BANKNAVN.s Almindelige forretningsbetingelser og vilkår for
+kreditaftaler
+.of
+.sp 3mm
+.kp off
+.kp on
+Jeg/vi har modtaget og gjort mig/os bekendt med de anførte regler forud for
+godkendelsen af denne aftale.
+.sp 5mm
+.kp off

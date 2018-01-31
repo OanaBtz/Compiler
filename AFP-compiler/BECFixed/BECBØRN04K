@@ -1,0 +1,65 @@
+.da oversk 20mm 35mm width 175mm
+.da side1 20mm 42mm width 175mm
+.**********************************
+.ar oversk on
+:SWISS12
+:FED.
+Børneopsparing, overtagelse af status som "opretter"
+.sp 0mm
+.hr left 109mm
+:SKRSLUT.
+.ar off
+.**********************************
+.ar side1 on
+:SWISS10.
+:FED.
+Parter
+:SKRSLUT.
+.**** Her laves kassen til kontohaver og opretter ********
+.bx left 87,5mm right
+.sp 28mm
+.**** Her laves kassen til Kontonummer og oprettelsestidspunkt *********
+.bx new left 87,5mm right
+.sp 10mm
+.**** Her laves kassen til pengeinstitut og Ny "opretter" ************
+.bx new left 87,5mm right
+.sp 28mm
+.**** Her laves kassen til periodeudløb ******************
+.bx new left right
+.sp 5mm
+.bx off
+.bx can
+.bx can
+.bx can
+:SWISS10.
+:FED.
+Indhold
+:SKRSLUT.
+.**** Her laves kassen til indhold ***************
+.bx left right
+.sp 23mm
+.bx off
+:SWISS10.
+:FED.
+Underskrift
+:SKRSLUT.
+.**** Her laves kassen til opretters underskrift **
+.bx left right
+.sp31mm
+.**** Her laves kassen til ny opretters underskrift ********
+.if &L'&GENNAVN1 = 0
+.th .go NED
+.up on
+.tu 40 A
+.up off
+.if &U'&GENNAVN1 = &U'&GENNAVN
+.th .go NED
+.el .go VIDERE
+...VIDERE
+.if &L'&GENNAVN1 gt 0
+.th .bx left right
+.th .sp 31mm
+...NED
+.bx off
+.bx can
+.ar off

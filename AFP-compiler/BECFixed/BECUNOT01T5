@@ -1,0 +1,121 @@
+.******************************************************************
+.DA OPLKND 25mm 57mm width 80mm
+.DA OPLKTO 111mm 57mm width 80mm
+.DA OPLCPR 25mm 82mm width 80mm
+.DA KONTO 110mm 82mm width 80mm
+.DA DEPOT 154mm 82mm width 80mm
+.DA OPLAFT 42mm 98.5mm width 160mm
+.DA FONDSK 42mm 104.7mm width 160mm
+.DA KURS 42mm 110.7mm width 160mm
+.DA KURSV 42mm 116.8mm width 160mm
+.******************************************************************
+.AR OPLKND on
+&KTONAVN
+.br
+&KTOCO
+.br
+&KTOGADE
+.br
+&KTOBY
+.br
+&KTOLAND
+:SKRSLUT.
+.AR off
+.*************************************
+.AR OPLKTO on
+.IF &U'&GENVALG7 = R
+.TH Ratepension
+.IF &U'&GENVALG7 = K
+.TH Kapitalpension
+.AR off
+.*************************************
+.AR OPLCPR on
+&KTOKNDNR1
+.AR off
+.*************************************
+.AR KONTO on
+.se ktoord = substr &LANGKTONR 1 14
+&ktoord
+.AR off
+.*************************************
+.AR DEPOT on
+&DEPOTNR
+.AR off
+.*************************************
+.AR OPLAFT on
+.***Hvis der er valgt nominelt ****
+.IF &L'&BECNOM > 0
+.TH .go T5T1
+.EL .go T5T1END
+...T5T1
+.*************************************
+:VS. &BECNOM.
+&instru.
+:SKRSLUT.
+:SWISS8.
+udstedt i
+:SKRSLUT.
+&U'&GENMØNTK.
+:SWISS8.
+i
+:SKRSLUT.
+&SELSKAB..
+:SKRSLUT.
+...T5T1END
+.***Hvis der er valgt stk. dec ****
+.IF &L'&STKDEC > 0
+.TH .go T5T2
+.EL .go T5T2END
+...T5T2
+.*************************************
+:VS. &STKDEC.
+&valg1. &instru.
+:SKRSLUT.
+:SWISS8.
+udstedt i
+:SKRSLUT.
+&U'&GENMØNTK.
+:SKRSLUT.
+:SWISS8.
+i
+:SKRSLUT.
+:COUR10.
+&SELSKAB..
+:SKRSLUT.
+...T5T2END
+.***Hvis der er valgt stk. hel ****
+.IF &L'&STKHEL > 0
+.TH .go T5T3
+.EL .go T5T3END
+...T5T3
+.*************************************
+:VS. &STKHEL.
+&valg1. &instru.
+:SKRSLUT.
+:SWISS8.
+udstedt i
+:SKRSLUT.
+&U'&GENMØNTK.
+:SKRSLUT.
+:SWISS8.
+i
+:SKRSLUT.
+:COUR10.
+&SELSKAB..
+:SKRSLUT.
+...T5T3END
+.AR off
+.***********************
+.AR FONDSK on
+&GENFONDSK.
+:SKRSLUT.
+.AR off
+.***********************
+.AR KURS on
+:VS. &GENKURS01.
+:SKRSLUT.
+.AR off
+.***********************
+.AR KURSV on
+:VS. &GENBELØB3.
+.AR off

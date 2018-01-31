@@ -1,0 +1,91 @@
+.*************** TEST PÅ OM DER ER NOGEN INTERESSENTER *******************
+.if &L'&DEP01CPR = 0
+.an &L'&DEP02CPR = 0
+.an &L'&DEP03CPR = 0
+.an &L'&DEP04CPR = 0
+.an &L'&DEP05CPR = 0
+.th .go INTKSEND
+.*************** definer siden som et areal *******************************
+.da SIDE 20mm 40mm width 175mm
+.tp 1mm 88.5mm 145mm
+.************ INTERESSENTER ***********************************************
+.ar SIDE on
+:SWISS10.:FED.
+Interessenter
+:SKRSLUT.
+.* 1. INTERESSENT *********************************************************
+.if &L'&DEP01CPR = 0
+.th .go 2INTRES
+:SWISS8.
+.bx left 87.5mm right
+¤&rol1 ¤&rettxt1
+.sp 27.5mm
+¤CPR-nr./CVR-nr.
+.**1. Underskrift*******
+.bx new left right
+¤Underskrift ¤¤Dato
+.sp 7mm
+.* 2. INTERESSENT *********************************************************
+...2INTRES
+.if &L'&DEP02CPR = 0
+.th .go 3INTRES
+.bx new left 87.5mm right
+¤&rol2 ¤&rettxt2
+.sp 27.5mm
+¤CPR-nr./CVR-nr.
+.**2. Underskrift*******
+.bx new left right
+¤Underskrift ¤¤Dato
+.sp 7mm
+.* 3. INTERESSENT *********************************************************
+...3INTRES
+.if &L'&DEP03CPR = 0
+.th .go 4INTRES
+.bx new left 87.5mm right
+:SWISS8.
+¤&rol3 ¤&rettxt3
+.sp 27.5mm
+¤CPR-nr./CVR-nr.
+.**3. Underskrift*******
+.bx new left right
+¤Underskrift ¤¤Dato
+.sp 7mm
+.* 4. INTERESSENT *********************************************************
+...4INTRES
+.if &L'&DEP04CPR = 0
+.th .go 5INTRES
+.bx new left 87.5mm right
+:SWISS8.
+¤&rol4 ¤&rettxt4
+.sp 27.5mm
+¤CPR-nr./CVR-nr.
+.**4. Underskrift*******
+.bx new left right
+¤Underskrift ¤¤Dato
+.sp 7mm
+.* 5. INTERESSENT *********************************************************
+...5INTRES
+.if &L'&DEP05CPR = 0
+.th .go INTREND
+.bx new left 87.5mm right
+:SWISS8.
+¤&rol5 ¤&rettxt5
+.sp 27.5mm
+¤CPR-nr./CVR-nr.
+.**5. Underskrift*******
+.bx new left right
+¤Underskrift ¤¤Dato
+.sp 7mm
+...INTREND
+.bx off
+.bx can
+.bx can
+.bx can
+.bx can
+.bx can
+.bx can
+.bx can
+.bx can
+.bx can
+.ar off
+...INTKSEND

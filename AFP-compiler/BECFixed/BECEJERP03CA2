@@ -1,0 +1,73 @@
+.********************************
+.da PANT2 114mm 46mm width 80mm
+.da STREGER 24mm 200mm width 175mm
+.********************************
+.tp 6mm 10mm
+.********************************
+.ar PANT2 on
+:SWISS8.
+6. ¤Kreditor
+.in 6mm nobreak
+har panteret for krav ifølge pantebrevet på betaling af
+kapital, renter og andre ydelser af tilsvarende karakter samt morarenter.
+Kreditor har endvidere panteret for omkostninger, som med føje er afholdt
+ved opsigelse, inddrivelse samt til varetagelse af kreditors interesse
+i tilfælde af retsskridt mod pantet fra anden side.
+.sp 3mm
+For så vidt angår udenretlige inkassoomkostninger, har kreditor panteret
+for de omkostninger, der kan kræves betalt i overensstemmelse med
+reglerne i lov om renter ved forsinket betaling mv. og den i medfør af
+loven udstedte bekendtgørelse om udenretlige inddrivelsesomkostninger i
+anledning af forsinket betaling.
+.sp 5mm
+.in 0mm
+7. ¤Uanset
+.in 6mm nobreak
+uopsigelighed eller opsigelsesfrist kan kreditor forlange kapitalen
+indfriet i følgende tilfælde:
+.sp 3mm
+a) ¤¤hvis
+.in 10mm nobreak
+renter eller afdrag ikke betales senest sidste rettidige betalingsdag.
+Det er dog en betingelse for, at kapitalen kan forlanges indfriet, at
+debitor ikke har betalt renter og afdrag senest 7 dage efter, at skriftligt
+påkrav herom er afsendt eller fremsat.
+.sp 3mm
+Kreditors påkrav skal være afgivet efter sidste rettidige betalingsdag, og
+skal udtrykkeligt angive, at kapitalen kan forlanges indfriet, hvis renter
+og afdrag ikke betales inden fristens udløb, jf. herved pkt. 2,
+.sp 3mm
+.in 6mm
+b) ¤¤hvis
+.in 10mm nobreak
+pantet væsentligt forringes eller vanrøgtes, uden at der efter påkrav
+stilles betryggende sikkerhed,
+.sp 3mm
+.in 6mm
+c) ¤¤hvis
+.in 10mm nobreak
+debitor nægter kreditor eller dennes fuldmægtig adgang  til at efterse
+pantet,
+.sp 3mm
+.in 6mm
+d) ¤¤hvis
+.in 10mm nobreak
+debitor ikke på opfordring godtgør, at pantet er behørigt
+brandforsikret, og
+.sp 3mm
+.in 6mm
+e) ¤¤hvis
+.in 10mm nobreak
+pantet eller for pantesikkerheden væsentlige dele heraf overdrages
+til trediemand eller sælges på tvangsauktion.
+.ar off
+.*************************************************************************
+.ar STREGER on
+.** her laves 2 lodrette linier, så man kan se at der ikke kommer ****
+.** mere tekst på siden   ********************
+.sp 5mm
+.vr 40mm 130mm
+.sp 70mm
+.vr off
+.ar off
+.*************************************************************************

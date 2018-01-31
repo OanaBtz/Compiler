@@ -1,0 +1,47 @@
+.**************************************************************************
+.da SIDE1 20mm  145mm width 175mm
+.ar SIDE1 on
+.tp 1mm 88.5mm
+.*UNDERSKRIFT *************************************************************
+:SWISS8.
+:FED.
+Underskrift
+.sp 2mm
+:SKRSLUT.
+.***** her laves kassen til Dato og sted X 2 ******
+.bx left 87.5mm right
+:SWISS7.
+¤Dato og Sted ¤Dato og Sted
+.sp 7mm
+.***** her laves kassen til Selskabet  2 **********
+.bx left 87.5mm right
+¤&NAVN.¤&NAVN.
+.*¤Selskabet ¤Selskabet
+.sp 7mm
+.***** her laves kassen til Navn med blokbogstaver*
+.bx left 87.5mm right
+¤Navn med blokbogstaver ¤Navn med blokbogstaver
+.sp 7mm
+.***** her laves blank kassen *********************
+.bx left 87.5mm
+.sp 7mm
+.***** her laves kassen til Dato og sted x 1*******
+.bx left 87.5mm
+¤Dato og sted
+.sp 7mm
+.***** her laves kassen til Bankens underskrift****
+.bx left 87.5mm
+¤&BANKNAVN.
+.*¤Bankens underskrift
+.sp 7mm
+.***** her laves kassen til Navn med blokbogstaver*
+.bx left 87.5mm
+¤Navn med blokbogstaver
+.sp 7mm
+.bx off
+.bx can
+.bx can
+.bx can
+.bx can
+.bx can
+.ar off

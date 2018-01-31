@@ -1,0 +1,24 @@
+.*************** GENEREL OPSÆTNING ***************************************
+.ti ¤ 05
+:COUR10.
+.fo left
+.*************** AREAL-DEFINITIONER **************************************
+.da VEND 7mm 270mm width 180mm rotate -90
+.da OVERSKR 20mm 32mm width 175mm
+.*************** ROTERET BREVNAVN ****************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.**************************************************************************
+.** OVERSKRIFT (hvis BECKARAK1 = J så Anfordringsgaranti ellers Garanti)*
+.** Fast tekst skifter i overensstemmelse med garantitypen BECKARAK1 ****
+.ar OVERSKR on
+:SWISS12.:FED.
+.us
+.if .&U'&BECKARAK1 = .J
+.th Anfordringsgaranti
+.el Garanti
+:SKRSLUT.
+.ar off
+.*************************************************************************

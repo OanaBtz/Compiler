@@ -1,0 +1,98 @@
+.* TEST PÅ "PENVÆSAFT" ER FLYTTET LIDT NED I DETTE TEKSTMODUL *************
+.**************************************************************************
+.if &L'&PENMETODE > 0
+.th
+.el .go VAEK1
+.if X&PENMETODE = X1
+.or X&PENMETODE = X2
+.th .go BODEL1
+...VAEK1
+.if &U'&PENVÆSAFT = N
+.th .go VAESSL3
+...BODEL1
+.**************************************************************************
+.da SIDE3  20mm 38mm width 175mm
+.**************************************************************************
+.ar SIDE3 on
+.tp 1mm 88.5mm 131.5mm
+:SWISS10.
+:FED.
+Parter
+:SKRSLUT.
+:SKRSLUT.
+.***** her laves kassen til kontohaver og evt.arbejdsgiver ****************
+.bx left 87.5mm right
+¤Kontohaver ¤CPR-nr.
+.sp 6.5mm
+.***** her laves kassen til kontonr og depotnr ****************************
+.bx new 87.5mm 130.5mm right
+¤¤Kontonr. ¤Depotnr.
+.sp 6.5mm
+.hr left right
+.bx can
+.bx can
+.***** her laves kassen til Særlige vilkår ifm Bodeling/skilsmisse*********
+.if &L'&PENMETODE > 0
+.an X&PENMETODE ne X3
+.th .go SAERVI
+.el .go VAEK2
+...SAERVI
+.if X&PENMETODE = X3
+.th .go VAEK2
+.*************************************************************************
+:SWISS10.
+:FED.
+Særlige vilkår
+:SKRSLUT.
+:SKRSLUT.
+.bx left right
+.if &U'&PENGODKJN = J
+.th .go GODLAV
+.el .sp 44mm
+.el .go SAEREND
+...GODLAV
+.if X&PENMETODE = X1
+.th .sp 52mm
+.if X&PENMETODE = X2
+.th .sp 49mm
+...SAEREND
+.bx off
+.**************************************************************************
+.if &U'&PENVÆSAFT = J
+.th .go VAEK2
+.if &U'&PENVÆSAFT = N
+.an X&PENMETODE ne X3
+.th .go VAEK2
+.el .go VAESSL3
+...VAEK2
+.***** her laves kassen til Væsentlige aftaler og forudsætninger **********
+:SWISS10.
+:FED.
+Væsentlige aftaler/forudsætninger
+:SKRSLUT.
+:SKRSLUT.
+.bx left right
+.if &L'&PENMETODE > 0
+.th .go VAEMET
+.el .sp 205mm
+.el .go VAESOFF
+...VAEMET
+.if &U'&PENGODKJN = J
+.th .go LAVVAE
+.if X&PENMETODE ne X3
+.th .sp 156mm
+.th .go VAESOFF
+.el .sp 205mm
+.el .go VAESOFF
+...LAVVAE
+.if X&PENMETODE = X1
+.th .sp 150mm
+.if X&PENMETODE = X2
+.th .sp 153mm
+.if X&PENMETODE = X3
+.th .sp 205mm
+...VAESOFF
+.bx off
+.ar off
+.**************************************************************************
+...VAESSL3

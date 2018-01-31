@@ -1,0 +1,43 @@
+&SDIN leasingaftale udløber den &UDATO.. Som oplyst i aftalen er &DU.
+forpligtet til at anvise en køber til den leasede bil.
+.sp
+Nedenfor har &JEG. med kryds markeret de steder, som skal udfyldes af
+den kommende ejer. Kopi af brevet returneres til &MIG. senest 3 uger før
+leasingaftalens udløb.
+.sp
+:FED.
+Bilsyn
+.br
+:SKRSLUT.
+Bilen skal igennem et bilsyn, hvis den er 4 eller 6 år. &SDU skal sørge
+for, at bilen er synet inden leasingaftalen udløber, for at bilen kan
+omregistreres til køber.
+.sp
+:FED.
+Omregistrering
+.br
+:SKRSLUT.
+Køber af køretøjet skal sørge for omregistrering af bilen senest 21 dage
+efter leasingaftalens udløb. I modsat fald vil bilen blive afmeldt. Køber
+betaler udgiften på kr. 380,00 for omregistreringen.
+.sp
+Når bilen er indfriet hos leasinggiver, fremsender &JEG. del II af
+registreringsattesten sammen med kvitteret faktura.
+.sp
+:FED.
+Oplysning om købet
+:SKRSLUT.
+.tp 20mm 40mm
+Bilen¤Købspris¤&RESTVEXT. kr. ekskl. moms.
+.sp
+¤Model¤&BESKRIV01.
+.sp
+¤Reg.nr.¤&REGISNR01.
+.sp
+Køber¤CVR-nr.
+.sp
+¤Navn
+.sp
+¤Adresse
+.sp
+¤Postnr.

@@ -1,0 +1,16 @@
+.*************** GENEREL OPSÆTNING ***************************************
+.ti ¤ 05
+.*:SWISS8.
+:COUR8.
+.fo left
+.dr tynd weight 0.2mm
+.*************** AREAL-DEFINITIONER **************************************
+.da VEND 7mm 270mm width 180mm rotate -90
+.******************ROTERET BREVNAVN**********************************
+.ar VEND on
+:SWISS6.
+&BREVNAVN
+.br
+Kl. &TID
+:SKRSLUT.
+.ar off

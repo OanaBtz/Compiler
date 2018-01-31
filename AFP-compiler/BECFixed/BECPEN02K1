@@ -1,0 +1,96 @@
+.**************************************************************************
+.da SIDE1  20mm 38mm width 175mm
+.**************************************************************************
+.ar SIDE1 on
+.tp 1mm 88.5mm 131.5mm
+:SWISS10.
+:FED.
+Parter
+:SKRSLUT.
+:SKRSLUT.
+.***** her laves kassen til kontohaver og evt.arbejdsgiver ****************
+.bx left 87.5mm right
+¤Kontohaver
+.sp 18mm
+.***** her laves kassen til pengeinstitut og regnr ************************
+.bx new left 87.5mm right
+¤Pengeinstitut ¤CPR-nr.
+.sp 4.5mm
+.***** her laves kassen til kontonr og depotnr ****************************
+.bx new 87.5mm 130.5mm right
+¤¤Kontonr. ¤Depotnr.
+.sp 4.5mm
+.***** her laves kassen til formål ****************************************
+.bx new left right
+.sp 6.5mm
+.bx off
+.bx can
+.bx can
+.bx can
+:SWISS10.
+:FED.
+Indhold
+:SKRSLUT.
+:SKRSLUT.
+.***** her laves kassen til indbetalinger   *******************************
+.bx left right
+¤Indbetalinger
+.sp 40mm
+.***** her laves kassen til placering af opsparing*************************
+.bx new left right
+¤Placering af opsparing
+.sp 9.5mm
+.***** her laves kassen til Udbetalinger **********************************
+.bx new left right
+¤Udbetaling
+.sp 19mm
+.***** her laves kassen til Begunstigede **********************************
+.bx new left right
+¤Begunstigede udbetaling ved død
+.sp 17mm
+.***** her laves kassen til Væsentlige aftaler ****************************
+.bx new left right
+¤Væsentlige aftaler
+.sp 5mm
+.bx off
+.bx can
+.bx can
+.bx can
+.bx can
+.**************************************************************************
+:SWISS10.
+:FED.
+Underskrift
+:SKRSLUT.
+:SKRSLUT.
+.if &U'&PENSAMLVR ne J
+.th .go UDENSAM
+.***** her laves kassen begunstigelse af samlever *************************
+.bx left right
+.sp 19mm
+.***** her laves kassen til kontohaver. underskrift ***********************
+.tp 1mm 61mm 145mm
+.bx new left right
+¤Kontohavers underskrift ¤¤Dato:
+.sp 5mm
+.bx off
+.bx can
+.sp
+.*UDEN SAMLEVER************************************************************
+...UDENSAM
+.***** her laves kassen til generelle vilkår  *****************************
+.bx left right
+.sp 7mm
+.***** her laves kassen til kontohaver/arbejdsg. underskrift **************
+.bx new left 87.5mm right
+.tp 1mm 61mm 145mm
+¤Kontohavers underskrift ¤Dato:
+.sp 6.5mm
+.***** her laves kassen til pi- underskrift *******************************
+.bx new left right
+¤Pengeinstituttets underskrift ¤¤Dato:
+.sp 6.5mm
+.bx off
+.bx can
+.bx can
+.ar off

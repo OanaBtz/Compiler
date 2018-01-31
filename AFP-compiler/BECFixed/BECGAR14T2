@@ -1,0 +1,105 @@
+.kp on
+:SWISS8.
+:KURSIV.
+3. Færdigmelding
+:SKRSLUT.
+.br
+De i henhold til købsaftalen fornødne anmeldelser til
+myndigheder/myndighedsgodkendelser skal foreligge.
+.sp 5mm
+.kp off
+.kp on
+:SWISS8.
+:FED.
+Frigivelse ved misligholdelse
+:SKRSLUT.
+.br
+I tilfælde af købers misligholdelse, før køber har fået et endeligt
+tinglyst skøde uden præjudicerende retsanmærkninger, kommer
+garantibeløbet/det deponerede beløb helt eller delvist til
+udbetaling til sælger, når der foreligger dokumentation for sælgers krav
+i form af en erklæring underskrevet af køber, frivilligt forlig, endelig
+dom, kendelse eller retsforlig.
+.sp 5mm
+.kp off
+.kp on
+:SWISS8.
+:FED.
+Gyldighedsperiode
+:SKRSLUT.
+.br
+Garantien er gyldig til den
+:SKRSLUT.
+&GENDATO1
+:SWISS8.
+(forventet overtagelsesdag tillagt 6 måneder). Såfremt der inden
+deponering eller - hvis deponering ikke sker - inden garantiperiodens
+udløb iværksættes retsskridt fra nogen af parterne vedrørende handlens
+opfyldelse og gennemførelse, suspenderes garantiens udløbstidspunkt til
+1 måned efter, at endelig afgørelse foreligger, eller retssagen ophæves.
+.***
+.if &U'X&GENJANEJ1 = XN
+.an &U'X&GENJANEJ2 = XN
+.th :SKRSLUT.
+.th .go PIUNDER
+.kp off
+.***
+.if &U'X&GENJANEJ1 = XJ
+.th .go KLAU1
+.el .go KLAU1SL
+.***
+...KLAU1
+.kp on
+.sp 5mm
+:SWISS8.
+:FED.
+Klausul om transport i tilbagesøgningskrav
+:SKRSLUT.
+.br
+Køber har givet
+:SKRSLUT.
+&BANKNAVN.
+:SWISS8.
+transport i sit krav på
+eventuel tilbagebetaling af købesummen
+med tillæg af renter i den situation, hvor handlen ikke
+gennemføres, eller købesummen nedsættes. En eventuel tilbagebetaling
+af købesummen med tillæg af renter kan alene med frigørende
+virkning tilbagebetales til
+:SKRSLUT.
+&BANKNAVN..
+.if &U'X&GENJANEJ2 = XN
+.th .go PIUNDER
+...KLAU1SL
+.kp off
+.***
+.kp on
+.sp 5mm
+:SWISS8.
+:FED.
+Klausul om tilbagelevering af garantibrevet
+:SKRSLUT.
+.br
+Når der er betalt under garantien, eller denne på anden måde er
+ophørt, skal garantibrevet tilbageleveres til
+:SKRSLUT.
+.ct  &BANKNAVN..
+.***
+...PIUNDER
+.sp 15mm
+.ce on
+:SWISS8.
+den
+:SKRSLUT.
+.ct  &DATO8
+.br
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ce off
+.sp 15mm
+.kp off

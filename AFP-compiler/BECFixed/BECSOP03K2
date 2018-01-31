@@ -1,0 +1,61 @@
+.*AREAL SIDE 1 FORTSAT FRA BECSOP03K1*****************
+.se streg1e = '9.5mm 21.5mm 26mm 30.5mm 35mm 39.5mm 44mm 48.5mm 53mm'
+.se streg2e = '57.5mm 62mm 66.5mm 71mm 75.5mm 80mm 84.5mm 89mm 93.5mm'
+.se streg3e = '98mm 102.5mm 107mm 111.5mm 116mm 120.5mm 125mm'
+.BX NEW 5MM 14MM / 18MM 130.5MM
+.SP 3mm
+.vr &streg1e &streg2e  &streg3e
+.sp 0.1mm
+.bx off
+.vr off
+.bx new 47.5mm 97mm / 99mm 130.5mm / 132.5mm 182mm
+.SP 3mm
+.vr &streg1f &streg2f  &streg3f &streg4f
+.sp 0.1mm
+.bx off
+.vr off
+.sp 1mm
+.**********
+.BX NEW 5MM 14MM / 18MM 130.5MM
+.SP 3mm
+.vr &streg1e &streg2e  &streg3e
+.sp 0.1mm
+.bx off
+.vr off
+.bx new 47.5mm 97mm / 99mm 130.5mm / 132.5mm 182mm
+.SP 3mm
+.vr &streg1f &streg2f  &streg3f &streg4f
+.sp 0.1mm
+.bx off
+.vr off
+.sp 5mm
+.*Alternativ bet.frekvens*****
+.se streg1g = '34mm 43mm 52mm 61mm 70mm 79mm 88mm 97mm 106mm'
+.se streg2g = '115mm 124mm 133mm 142mm'
+.bx new &streg1g &streg2g
+.sp 4mm
+.bx off
+.sp 4mm
+.***Kasserne til Beløbskode*1
+.bx new 34mm 43mm / 63mm 112.5mm
+.SP 3mm
+.vr 38.5mm 67.5mm 72mm 81mm 85.5mm 94.5mm 99mm 108mm
+.sp 0.1mm
+.bx off
+.vr off
+.***Kasserne til Beløbskode*2
+.bx new 34mm 43mm / 63mm 112.5mm
+.SP 3mm
+.vr 38.5mm 67.5mm 72mm 81mm 85.5mm 94.5mm 99mm 108mm
+.sp 0.1mm
+.bx off
+.vr off
+.***Kasserne til Beløbskode*3
+.bx new 34mm 43mm / 63mm 112.5mm
+.SP 3mm
+.vr 38.5mm 67.5mm 72mm 81mm 85.5mm 94.5mm 99mm 108mm
+.sp 0.1mm
+.bx off
+.vr off
+.BX off
+.ar off

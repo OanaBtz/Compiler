@@ -1,0 +1,193 @@
+.or &U'&GENVALG8 = A
+.th .go VALGOK8
+.el .mg/T/Valg af Pension skal være R, K eller A./
+...VALGOK8
+.if &L'&GENDEPOT02 > 0
+.an &L'&KONTO11 = 0
+.th .mg/T/Ved indtastning af depotnummer skal kontonummer være udfyldt/
+.if &L'&KONTO11 > 0
+.an &L'&GENDEPOT02 = 0
+.th .mg/T/Ved indtastning af kontonummer skal depotnummer være udfyldt/
+.***************************************************
+.if &L'&KONTO12 = 0
+.or &L'&GENVALG9 = 0
+.th .go VALGOK9
+.if &U'&GENVALG9 = R
+.or &U'&GENVALG9 = K
+.or &U'&GENVALG9 = A
+.th .go VALGOK9
+.el .mg/T/Valg af Pension skal være R, K eller A./
+...VALGOK9
+.if &L'&GENDEPOT03 > 0
+.an &L'&KONTO12 = 0
+.th .mg/T/Ved indtastning af depotnummer skal kontonummer være udfyldt/
+.if &L'&KONTO12 > 0
+.an &L'&GENDEPOT03 = 0
+.th .mg/T/Ved indtastning af kontonummer skal depotnummer være udfyldt/
+.***************************************************
+.if &L'&KONTO10 > 0
+.or &L'&KONTO11 > 0
+.or &L'&KONTO12 > 0
+.th .se kon = 'cash accounts'
+.th .se konf = 'the cash accounts'
+.th .se ser = 'separate'
+.th .se dep = 'custody accounts'
+.th .se pen = 'pension plans'
+.th .se koo = 'accounts'
+.el .se kon = 'cash account'
+.el .se konf = 'the cash account'
+.el .se ser = 'a separate'
+.el .se dep = 'custody account'
+.el .se pen = 'pension plan'
+.el .se koo = 'account'
+.***********
+.if &U'&GENVALG13 = K
+.th .se pension = 'Capital payment plan'
+.if &U'&GENVALG13 = R
+.th .se pension = 'Annuity pension plan'
+.if &U'&GENVALG13 = A
+.th .se pension = 'Retirement pension plan'
+.*********
+.th .mg/T/Udfyld enten nominel-felt eller ét af stk-felterne/
+.**********
+.if &L'&STKDEC > 0
+.an &L'&STKHEL > 0
+.th .mg/T/Kun ét af stk-felterne må være udfyldt/
+.**********
+.*TEST PÅ OM DET ER EN RATE-, KAPITAL- PENION ELLER ALDERSOPSPARING     ***
+.* - DER KAN VÆRE 4 KONTI                                               ***
+.if &U'&GENVALG13 = R
+.or &U'&GENVALG13 = K
+.or &U'&GENVALG13 = A
+.th .go PENOK
+.el .mg/T/Valg af Pension skal være R, K eller A./
+...PENOK
+.if &L'&KONTO10 > 0
+.an &L'&GENVALG7 = 0
+.th .go FEJL1
+.if &L'&KONTO11 > 0
+.an &L'&GENVALG8 = 0
+.th .go FEJL1
+.if &L'&KONTO12 > 0
+.an &L'&GENVALG9 = 0
+.th .go FEJL1
+.el .go OK
+...FEJL1
+.mg/T/Ved indtast af kontonummer, skal R, K eller A også vælges./
+...OK
+.***************************************************
+.if &L'&KONTO10 = 0
+.or &L'&GENVALG7 = 0
+.th .go VALGOK
+.if &U'&GENVALG7 = R
+.or &U'&GENVALG7 = K
+.or &U'&GENVALG7 = A
+.th .go VALGOK
+.el .mg/T/Valg af Pension skal være R, K eller A./
+...VALGOK
+.if &L'&GENDEPOT01 > 0
+.an &L'&KONTO10 = 0
+.*.th .mg/T/2. Kontonummer skal være udfyldt/
+.th .mg/T/Ved indtastning af depotnummer skal kontonummer være udfyldt/
+.if &L'&KONTO10 > 0
+.an &L'&GENDEPOT01 = 0
+.th .mg/T/Ved indtastning af kontonummer skal depotnummer være udfyldt/
+.***************************************************
+.if &L'&KONTO11 = 0
+.or &L'&GENVALG8 = 0
+.th .go VALGOK8
+.if &U'&GENVALG8 = R
+.or &U'&GENVALG8 = K
+.*
+.*OPSPLIT REG OG KONTO NUMMER ********************************************
+.su off
+.se reg  = substr &LANGKTONR 1 4
+.se kto  = substr &LANGKTONR 5 21
+.se reg1 = substr &KONTO10 1 4
+.se kto1 = substr &KONTO10 5 10
+.se reg2 = substr &KONTO11 1 4
+.se kto2 = substr &KONTO11 5 10
+.se reg3 = substr &KONTO12 1 4
+.se kto3 = substr &KONTO12 5 10
+.su on
+.*TEST PÅ OM DER ER TASTET 1,2 ELLER 3 I VALG AF INSTRUMENT **************
+.if &GENVALG > 0
+.an &GENVALG < 4
+.th .go TYPEOK
+.el .mg/T/Valg af instrument skal være 1, 2 eller 3./
+...TYPEOK
+.if &GENVALG = 1
+.th .se instru = 'units'
+.th .se instrur = 'units'
+.th .se instrud = 'units'
+.th .se instruf = 'increases the share capital'
+.th .se instrus = 'units'
+.if &GENVALG = 2
+.th .se instru = 'shares'
+.th .se instrur = 'shares'
+.th .se instrud = 'bonus shares'
+.th .se instruf = 'increases the share capital by issue with pre-emption'
+.th .se instrus = 'rights'
+.if &GENVALG = 3
+.th .se instru = 'shares'
+.th .se instrur = 'shares'
+.th .se instrud = 'shares'
+.th .se instruf = 'increases the share capital'
+.th .se instrus = 'shares'
+.**********
+.if &L'&BECNOM1 = 0
+.an &L'&STKDEC = 0
+.an &L'&STKHEL = 0
+.th .mg/T/Udfyld enten nominel-felt eller ét af stk-felterne/
+.**********
+.if &L'&BECNOM1 > 0
+.an &L'&STKDEC > 0
+.an &L'&STKHEL = 0
+.th .mg/T/Udfyld enten nominel-felt eller ét af stk-felterne/
+.**********
+.if &L'&BECNOM1 > 0
+.an &L'&STKHEL > 0
+.an &L'&STKDEC = 0
+.if &L'&KONTO10 = 0
+.th .go EJKTO10
+.if &U'&GENVALG7 = K
+.th .se pension1 = 'Capital payment plan'
+.if &U'&GENVALG7 = R
+.th .se pension1 = 'Annuity pension plan'
+.if &U'&GENVALG7 = A
+.th .se pension1 = 'Retirement pension plan'
+...EJKTO10
+.************
+.if &L'&KONTO11 = 0
+.th .go EJKTO11
+.if &U'&GENVALG8 = K
+.th .se pension2 = 'Capital payment plan'
+.if &U'&GENVALG8 = R
+.th .se pension2 = 'Annuity pension plan'
+.if &U'&GENVALG8 = A
+.th .se pension2 = 'Retirement pension plan'
+...EJKTO11
+.*********
+.if &L'&KONTO12 = 0
+.th .go EJKTO12
+.if &U'&GENVALG9 = K
+.th .se pension3 = 'Capital payment plan'
+.if &U'&GENVALG9 = R
+.th .se pension3 = 'Annuity pension plan'
+.if &U'&GENVALG9 = A
+.th .se pension3 = 'Retirement pension plan'
+...EJKTO12
+.************
+.if &U'&GENJANEJ = J
+.or &U'&GENJANEJ = N
+.th
+.el .mg/T/Feltet skal være udfyldt med enten J eller N/
+.**********
+.if &U'&GENJANEJ = J
+.an &GENPROC ne 0,00
+.th .mg/T/Procentsatsen må ikke være udfyldt ved ja til manuel påføring/
+.**********
+.if &U'&GENJANEJ = N
+.an &GENPROC = 0,00
+.th .mg/T/Procentsatsen skal være udfyldt ved nej til manuel påføring/
+.**********

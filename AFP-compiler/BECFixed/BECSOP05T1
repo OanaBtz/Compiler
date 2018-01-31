@@ -1,0 +1,106 @@
+:SWISS8.
+.da BANK 12mm 47mm width 190mm
+.da DATO 12mm 50mm width 190mm
+.da MEDLEM 12mm 67mm width 190mm
+.da FORBRUG1 93mm 75.5mm width 190mm
+.**************************************
+.ar BANK on
+.tp 17MM 86mm right
+¤Banksted ¤Aftalenr.
+.ar off
+.********
+.ar DATO ON
+.tp 143mm 147.5mm 152mm 156.5mm 161mm 165.5mm 170mm 174.5mm
+¤D ¤D ¤M ¤M ¤Å ¤Å ¤Å ¤Å
+.br
+.tp 17mm 110mm
+¤¤Individuel afregning
+.br
+¤Beløbskode Forbrug ¤pr. dato
+.sp 1.5mm
+¤Beløbskode Vandafgift
+.ar off
+.**Her starter arealet for medlemsnr.**
+.AR MEDLEM ON
+.TP 2MM 42MM 103MM 146MM 162MM
+¤¤¤¤Individuel ¤Mindste Opkræv./
+.br
+¤Medlemsnr. ¤Ny målerstand ¤¤afregning ¤Udbetaling
+.AR OFF
+.***********1
+.AR FORBRUG1 ON
+Forbrug i Kr.
+.sp 3mm
+Vandafgift i Kr.
+.sp 3mm
+.***********2
+Forbrug i Kr.
+.sp 3mm
+Vandafgift i Kr.
+.sp 3mm
+.***********3
+Forbrug i Kr.
+.sp 3mm
+Vandafgift i Kr.
+.sp 2.9mm
+.***********4
+Forbrug i Kr.
+.sp 3mm
+Vandafgift i Kr.
+.sp 3.0mm
+.***********5
+Forbrug i Kr.
+.sp 3mm
+Vandafgift i Kr.
+.sp 3mm
+.***********6
+Forbrug i Kr.
+.sp 3mm
+Vandafgift i Kr.
+.sp 2.9mm
+.***********7
+Forbrug i Kr.
+.sp 3mm
+Vandafgift i Kr.
+.sp 3mm
+.***********8
+Forbrug i Kr.
+.sp 3mm
+Vandafgift i Kr.
+.sp 3mm
+.***********9
+Forbrug i Kr.
+.sp 3mm
+Vandafgift i Kr.
+.sp 2.9mm
+.***********10
+Forbrug i Kr.
+.sp 3mm
+Vandafgift i Kr.
+.sp 3mm
+.***********11
+.AR FORBRUG1 ON
+Forbrug i Kr.
+.sp 3mm
+Vandafgift i Kr.
+.sp 3mm
+.***********12
+Forbrug i Kr.
+.sp 3mm
+Vandafgift i Kr.
+.sp 2.9mm
+.***********13
+Forbrug i Kr.
+.sp 3mm
+Vandafgift i Kr.
+.sp 3mm
+.***********14
+Forbrug i Kr.
+.sp 3mm
+Vandafgift i Kr.
+.sp 3mm
+.***********15
+Forbrug i Kr.
+.sp 3mm
+Vandafgift i Kr.
+.ar off

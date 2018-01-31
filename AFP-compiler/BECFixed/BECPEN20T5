@@ -1,0 +1,176 @@
+.*Bodeling*****************************************************************
+.if &L'&PENMETODE > 0
+.th
+.el .da PLACERING  21mm  147mm    width 170mm
+.el .da UDBETAL    21mm  161mm    width 170mm
+.if X&PENMETODE = X1
+.th .da PLACERING  21mm  137mm    width 170mm
+.th .da UDBETAL    21mm  151mm    width 170mm
+.if X&PENMETODE = X2
+.th .da PLACERING  21mm  150mm    width 170mm
+.th .da UDBETAL    21mm  160.5mm  width 170mm
+.if X&PENMETODE = X3
+.th .da PLACERING  21mm  147mm    width 170mm
+.th .da UDBETAL    21mm  161mm    width 170mm
+.**************************************************************************
+.ar PLACERING on
+Opsparingen kan efter kontohavers valg placeres efter de i lovgivningen
+og &BANKNAVN.s til enhver tid gældende regler
+.********Bodelingskontrakt*************************************************
+.if &L'&PENMETODE > 0
+.th
+.el .ct .
+.el .go OPSEND
+.if X&PENMETODE = X1
+.or X&PENMETODE = X2
+.th .ct , uafhængigt af den fraskilte ægtefælles bestemmelser.
+.if X&PENMETODE = X3
+.th .ct .
+...OPSEND
+.ar off
+.*UDBETALINGSÅR ***********************************************************
+.su off
+.se uddag = substr &PENUDBDATO 1 2
+.se udmd = substr &PENUDBDATO 4 2
+.se udaar = substr &PENUDBDATO 7 4
+.se udbddmm = substr &PENUDBDATO 1 5
+.su on
+.**************************************************************************
+.if &L'&PENMETODE > 0
+.th
+.el .se ktohav = 'kontohaver'
+.el .go UDBSTA
+.if X&PENMETODE = X3
+.th .se ktohav = 'kontohaver'
+.th .go UDBSTA
+.if X&PENMETODE = X1
+.or X&PENMETODE = X2
+.th .se ktoh1 = 'kontohaveren på den konto, hvorfra denne pensionsordning'
+.th .se ktoh2 = 'er udloddet,'
+.th .se ktohav = '&ktoh1 &ktoh2.'
+.*************************************************************************
+...UDBSTA
+.*UDBETALINGSKASSEN********************************************************
+.ar UDBETAL on
+.if &L'&PENMETODE > 0
+.th
+.el .go UDBTXT
+.if X&PENMETODE = X3
+.th .go UDBTXT
+.if X&PENMETODE = X1
+.or X&PENMETODE = X2
+.th Det er alder, varigt nedsatte arbejdsevne eller
+.th død for kontohaveren, på den konto hvorfra denne pensionsordning er
+.th udloddet, der er bestemmende for, hvornår udbetaling kan finde sted.
+.th .br
+.**************
+...UDBTXT
+.if &U'&PENGODKJN = J
+.th .go LAVPEN
+.el .go ALM
+.****LAVERE GODKENDT PENSIONSALDER**
+...LAVPEN
+Rateudbetaling kan
+.if &L'&PENMETODE > 0
+.th
+.el .go UDBTXT1
+.if X&PENMETODE = X3
+.th .go UDBTXT1
+.if X&PENMETODE = X1
+.or X&PENMETODE = X2
+.th derfor
+...UDBTXT1
+tidligst starte når &ktohav bliver &PENALDER. år
+i henhold til den af Skatterådet godkendte lavere pensionsalder.
+.br
+Det er aftalt, at udbetalingen til &ktohav begynder den &udbddmm i
+kalenderåret, hvor &ktohav fylder &PENSTALDER. år.
+.br
+.if &L'&PENMETODE > 0
+.an X&PENMETODE ne X3
+.th .sp 1mm
+.th .go MET12LAV
+Udbetalingen sker i rater over &PENANTUDÅR. år, således at sidste rate
+udbetales i det kalenderår, hvor &ktohav fylder &PENSLALDER. år.
+.sp 1mm
+Rateudbetalingen kan desuden i visse tilfælde påbegyndes ved
+kontohavers varigt nedsatte arbejdsevne, som efter reglerne i lov om
+.hw social
+pension berettiger kontohaver til førtidspension.
+.go UDBEND
+...ALM
+.***********************************
+.if &U'&PEN1MAJ07 = J
+.th .go GAMMEL
+.el .go NY
+************************************
+.**NY ORDNING - EFTER EFTERLØNSALDEREN
+...NY
+Rateudbetalingen til &ktohav
+.if &L'&PENMETODE > 0
+.th
+.el .go UDBTXT2
+.if X&PENMETODE = X3
+.th .go UDBTXT2
+.if X&PENMETODE = X1
+.or X&PENMETODE = X2
+.th kan derfor
+...UDBTXT2
+begyndes den &uddag..&udmd. i
+.***********
+.if X&PENSTANTÅR = X0
+.th kalenderåret, hvor
+.el kalenderåret
+.el &PENSTANTÅR.
+.el år efter, at
+.***********
+&ktohav når pensionsudbetalingsalderen, jf. generelle vilkår pkt. 3.
+.br
+Udbetalingen sker i rater over
+&PENANTUDÅR.
+år, således at sidste rate udbetales i kalenderåret &PENSLANTÅR
+år efter, at &ktohav når pensionsudbetalingsalderen, jf. generelle
+vilkår pkt. 3.
+.go RATUDBET
+.**GAMMEL ORDNING - PENSION VED 60 ÅR *************************************
+...GAMMEL
+Rateudbetalingen til &ktohav
+.if &L'&PENMETODE > 0
+.th
+.el .go UDBTXT3
+.if X&PENMETODE = X3
+.th .go UDBTXT3
+.if X&PENMETODE = X1
+.or X&PENMETODE = X2
+.th kan derfor
+...UDBTXT3
+begyndes den
+&PENUDBDATO., og i kalenderåret &udaar. fylder &ktohav &PENSTALDER. år.
+Udbetalingen sker i rater over
+&PENANTUDÅR. år, således at sidste rate udbetales i det kalenderår, hvor
+&ktohav fylder &PENSLALDER. år.
+.*******************************
+...RATUDBET
+.br
+.if &L'&PENMETODE > 0
+.th
+.el .go UDBEND1
+.if X&PENMETODE = X3
+.th .go UDBEND1
+.*************************************************************************
+.**test på, om Særlige vilkår kommer på side 2 eller 3 afhængigt af  ******
+.**om der udskrives side med begunstigede *dvs. kun for PENBEGUN = A ******
+...MET12LAV
+.if &U'&PENBEGUN = A
+.th Se desuden Udbetaling i Særlige vilkår på side 3.
+.th .go UDBEND
+.el Se desuden Udbetaling i Særlige vilkår på side 2.
+.el .go UDBEND
+...UDBEND1
+Rateudbetalingen kan desuden i visse tilfælde påbegyndes ved en
+af Skatterådet godkendt tidligere pensionsalder
+eller ved kontohavers varigt nedsatte
+arbejdsevne, som efter reglerne i lov om social pension berettiger
+kontohaver til førtidspension.
+...UDBEND
+.ar off

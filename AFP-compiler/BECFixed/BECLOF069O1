@@ -1,0 +1,49 @@
+.*************** GENEREL OPSÆTNING ***************************************
+.ti ¤ 05
+:COUR10.
+.fo left
+.*************** AREAL-DEFINITIONER **************************************
+.da VEND 7mm 270mm width 180mm rotate -90
+.da OVERSKR 20mm 32mm width 175mm
+.*************** ROTERET BREVNAVN ****************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+:SKRSLUT.
+.ar off
+.*************** UDDATA-OVERSKRIFT ***************************************
+.ar OVERSKR on
+:SWISS12.:FED.
+.if &U'X&RENTETYP = XF
+.th .us Privatleasingaftale - fast ydelse
+.el .us Privatleasingaftale - variabel ydelse
+:SKRSLUT.
+:SKRSLUT.
+.sp 0.9mm
+:SWISS8.
+Anbefalet af:
+.br
+'FDM (Forenede Danske Motorejere)' og 'Finans og Leasing
+- interesseorganisation for danske finansieringssselskaber'
+.sp
+Denne kontrakt er udarbejdet på grundlag af en standardkontrakt udarbejdet
+i juni 2010 i fællesskab mellem FDM og Finans og Leasing. Aftalen må alene
+benyttes af Finans og Leasing's medlemmer. På Finans og Leasings hjemmeside
+http://www.finansogleasing.dk/medlemmer_sortkategorier.aspx findes en
+oversigt over leasingselskaber, som leaser biler ud til privatpersoner.
+.sp
+Det er aftalt mellem FDM og Finans og Leasing, at 'Almindelige betingelser
+for billeasing til private - §§ 1-17' i intet tilfælde må ændres af
+leasinggiver (§6, pkt. 1 vil dog være udformet forskelligt afhængig af om
+bindingsperioden efter forbrugeraftaleloven er 6 eller 12 mdr.). Hvad angår
+resten af aftalen, må leasinggiver alene foretage ændringer, såfremt de
+ikke er til ugunst for leasingtager. Eventuelle ændringer skal være
+markeret (dog ikke leasinggivers individuelle gebyrer, der er anført under
+gebyroversigten under pkt. C). Bilag 2 om den tilknyttede
+service-/vedligeholdelsesaftale og bilag 1 om præcisering af almindeligt
+slid og ælde vil på grund af leasinggivers underleverandør m.v. være
+formuleret individuelt men vil dog altid overholde den minimumsstandard,
+der er beskrevet i service-/instruktionsbogen.
+:SKRSLUT.
+.ar off
+.*************************************************************************

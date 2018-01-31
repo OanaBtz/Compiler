@@ -1,0 +1,41 @@
+.da OVER 20mm 100mm width 170mm
+.da SIDE 20mm 105mm width 170mm
+.*******************************
+.ar OVER on
+:SWISS12.
+:FED.
+FÄlgebrev
+:SKRSLUT.
+.ar off
+.*******************************
+.ar SIDE on
+.bx left right
+.**** Her laves afkrydsnings kasserne *****
+.sp 3mm
+.bx new 5mm 10mm / 90mm 95mm
+.sp 4mm
+.bx off
+.sp 5mm
+.bx new 5mm 10mm / 90mm 95mm
+.sp 4mm
+.bx off
+.sp 5mm
+.bx new 5mm 10mm / 90mm 95mm
+.sp 4mm
+.bx off
+.sp 5mm
+.bx new 5mm 10mm / 90mm 95mm
+.sp 4mm
+.bx off
+.sp 5mm
+.bx new 5mm 10mm / 90mm 95mm
+.sp 4mm
+.bx off
+.sp 3mm
+.bx new left right
+.sp 27mm
+.bx off
+.bx can
+.bx can
+.bx can
+.ar off

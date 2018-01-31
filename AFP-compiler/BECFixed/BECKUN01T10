@@ -1,0 +1,99 @@
+.*SAMTYKKE - ELEKTRONISK POST *********************************************
+.kp on
+.if &U'&SWSAMTYK = J
+.an &U'&SWELPOST = J
+.th .go POST
+.el .go ENDPOST
+...POST
+*¤Elektronisk post
+.br
+.in 8mm
+Det aftales, at &BANKNAVN kan henvende sig til mig/os ved at sende e-mails
+på:
+.br
+.*MAIL1*******
+.if &L'&MAIL1 > 0
+.th &ARBPRIV1 &MAIL1
+.*MAIL2*******
+.if &L'&MAIL2 > 0
+.th .br
+.th &ARBPRIV2 &MAIL2
+.*MAIL3*******
+.if &L'&MAIL3 > 0
+.th .br
+.th &ARBPRIV3 &MAIL3
+.*MAIL4*******
+.if &L'&MAIL4 > 0
+.th .br
+.th &ARBPRIV4 &MAIL4
+.*MAIL5*******
+.if &L'&MAIL5 > 0
+.th .br
+.th &ARBPRIV5 &MAIL5
+.*MAIL6*******
+.if &L'&MAIL6 > 0
+.th .br
+.th &ARBPRIV6 &MAIL6
+.*MAIL7*******
+.if &L'&MAIL7 > 0
+.th .br
+.th &ARBPRIV7 &MAIL7
+.*MAIL8*******
+.if &L'&MAIL8 > 0
+.th .br
+.th &ARBPRIV8 &MAIL8
+.*MAIL9*******
+.if &L'&MAIL9 > 0
+.th .br
+.th &ARBPRIV9 &MAIL9
+.*MAIL10******
+.if &L'&MAIL10 > 0
+.th .br
+.th &ARBPRIV10 &MAIL10
+.**************************************************************************
+.if &L'&HENVMAIL1 = 0
+.an &L'&HENVMAIL2 = 0
+.an &L'&HENVMAIL3 = 0
+.an &L'&HENVMAIL4 = 0
+.an &L'&HENVMAIL5 = 0
+.an &L'&HENVMAIL6 = 0
+.th .go ENDPOST
+.*.if &L'&HENVMAIL1 > 0
+.*.an &L'&HENVMAIL2 > 0
+.*.an &L'&HENVMAIL3 > 0
+.*.an &L'&HENVMAIL4 > 0
+.*.an &L'&HENVMAIL5 > 0
+.*.an &L'&HENVMAIL6 > 0
+.*.th .sp 3mm
+.*.th .go ENDPOST
+.**************************************************************************
+.br
+Henvendelse via elektronisk post gælder inden for områderne:
+.br
+.**************************************************************************
+.if &L'&HENVMAIL1 > 0
+.th - &HENVMAIL1
+.th .br
+.*************
+.if &L'&HENVMAIL2 > 0
+.th - &HENVMAIL2
+.th .br
+.*************
+.if &L'&HENVMAIL3 > 0
+.th - &HENVMAIL3
+.th .br
+.*************
+.if &L'&HENVMAIL4 > 0
+.th - &HENVMAIL4
+.th .br
+.*************
+.if &L'&HENVMAIL5 > 0
+.th - &HENVMAIL5
+.th .br
+.*************
+.if &L'&HENVMAIL6 > 0
+.th - &HENVMAIL6
+.sp 3mm
+.in 5mm
+...ENDPOST
+.kp off

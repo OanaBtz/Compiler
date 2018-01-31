@@ -1,0 +1,53 @@
+.if &L'&GENINFTP01 = 0
+.an &tael1 > 0
+.th .go FEJLA
+.el .go TEST2A
+...TEST2A
+.if &L'&GENINFTP02 = 0
+.an &tael2 > 0
+.th .go FEJLA
+.el .go TEST3A
+...TEST3A
+.if &L'&GENINFTP03 = 0
+.an &tael3 > 0
+.th .go FEJLA
+.el .go TEST4A
+...TEST4A
+.if &L'&GENINFTP04 = 0
+.an &tael4 > 0
+.th .go FEJLA
+.el .go TEST5A
+...TEST5A
+.if &L'&GENINFTP05 = 0
+.an &tael5 > 0
+.th .go FEJLA
+.el .go TEST6A
+...TEST6A
+.if &L'&GENINFTP06 = 0
+.an &tael6 > 0
+.th .go FEJL
+.el .go TEST8A
+...TEST8A
+.if &L'&GENINFTP08 = 0
+.an &tael8 > 0
+.th .go FEJLA
+.el .go TEST10A
+...TEST10A
+.if &L'&GENINFTP10 = 0
+.an &tael10 > 0
+.th .go FEJLA
+.el .go TEST11A
+...TEST11A
+.if &L'&GENINFTP11 = 0
+.an &tael11 > 0
+.th .go FEJLA
+.el .go TEST12A
+...TEST12A
+.if &L'&GENINFTP12 = 0
+.an &tael12 > 0
+.th .go FEJLA
+.el .go TESTSLA
+...FEJLA
+.th .mg /T/Der mangler valg af aftaletype ud for et tlf.nr. eller e-mail/
+...TESTSLA
+.**************************************************************************

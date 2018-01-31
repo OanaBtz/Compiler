@@ -1,0 +1,70 @@
+.if &L'&GENLYST1 gt 0
+.or &L'&GENLYST2 gt 0
+.or &L'&GENLYST3 gt 0
+.or &L'&GENLYST4 gt 0
+.or &L'&GENLYST5 gt 0
+:GL.
+.th .sp
+:EGL.
+:NY.
+.th .sp 6mm
+:ENY.
+.th .us BRUGSRETTIGHEDER M.V.
+.th .sp
+.**********Understregning af Brugsret., servitut m.m.******
+:GL.
+.th .us on
+.th Lyst den
+.th .is 4
+.th Brugsrettigheder, servitut eller anden byrde
+.th .is 12
+.th .us off
+:EGL.
+:NY.
+.th .tp 26mm
+.th Lyst den ¤Brugsrettigheder, servitut eller anden byrde
+.th .HR 0mm for 155mm
+:ENY.
+.*************Tekst til brugsrettigheder**********
+.th .sp
+:GL.
+.th .tp 13
+:EGL.
+:NY.
+.th .tp 26mm
+:ENY
+.th .fo off
+.if &L'&GENLYST1 gt 0
+.th &GENLYST1 ¤&GENSERV1
+.if &L'&GENERV1A gt 0
+.th ¤&GENSERV1A
+.if &L'&GENSERV1B gt 0
+.th ¤&GENSERV1B
+.***********************
+.if &L'&GENLYST2 gt 0
+.th &GENLYST2 ¤&GENSERV2
+.if &L'&GENSERV2A gt 0
+.th ¤&GENSERV2A
+.if &L'&GENSERV2B gt 0
+.th ¤&GENSERV2B
+.***********************
+.if &L'&GENLYST3 gt 0
+.th &GENLYST3 ¤&GENSERV3
+.if &L'&GENSERV3A gt 0
+.th ¤&GENSERV3A
+.if &L'&GENSERV3B gt 0
+.th ¤&GENSERV3B
+.***********************
+.if &L'&GENLYST4 gt 0
+.th &GENLYST4 ¤&GENSERV4
+.if &L'&GENSERV4A gt 0
+.th ¤&GENSERV4A
+.if &L'&GENSERV4B gt 0
+.th ¤&GENSERV4B
+.***********************
+.if &L'&GENLYST5 gt 0
+.th &GENLYST5 ¤&GENSERV5
+.if &L'&GENSERV5A gt 0
+.th ¤&GENSERV5A
+.if &L'&GENSERV5B gt 0
+.th ¤&GENSERV5B

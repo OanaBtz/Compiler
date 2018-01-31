@@ -1,0 +1,7 @@
+.***************************
+.* Parameteren PRIMÆR anvendes til at styre udskrivningen af
+.* forsendelsesadresse til primær kontohaver
+.* og adresse til medkontohaver.
+.* Første gang brevet kaldes fra Overtræksbehandlingssystemet - er
+.* PRIMÆR = J, de næste gange brevet kaldes er PRIMÆR = N.
+.*****************************************

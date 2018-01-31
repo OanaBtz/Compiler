@@ -1,0 +1,226 @@
+.da OVER 12mm 32mm width 120mm
+.da BOX 12mm 39mm width 198mm
+.ti ¤ 05
+.******
+.ar OVER ON
+:SWISS12.
+:FED.
+:us.Service Opkrævning - Rekvisitioner
+:SKRSLUT.
+.sp 3mm
+.AR OFF
+.******
+.ar BOX on
+.**** Her laves den store kasse***********
+.tp 1mm
+.bx 0mm 190mm
+.sp 4mm
+.****her starter afsnit med små kasser til banksted*****
+.se streg1 = '37.5mm 42mm 46,5mm'
+.se streg2 = '62.5mm'
+.se streg3 = '93.5mm 98mm'
+.bx new 33mm 51mm / 58mm 67mm / 89mm 102.5mm
+.SP 3mm
+.vr &streg1 &streg2 &streg3
+.sp 0.1mm
+.bx off
+.vr off
+.bx off
+:swiss10.:FED.
+.tp 13mm
+96051 ¤Rekvisition af uddata på medlemmer:SKRSLUT.
+.BX 0MM 190MM
+.sp 6mm
+.*Her laves kasserne Kartotekskort*KS1*
+.bx new 3mm 8mm / 135mm 144mm / 148.5mm 184.5mm
+.SP 3mm
+.vr 139.5mm 153mm 162mm 171mm 175.5mm 180mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Her laves kasserne Labels*KS2*
+.bx new 3mm 8mm / 135mm 144mm / 148.5mm 184.5mm
+.SP 3mm
+.vr 139.5mm 153mm 162mm 171mm 175.5mm 180mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Kasse Bet.adr.**KS3
+.bx new 35mm 48.5mm
+.SP 3mm
+.vr 39.5mm 44mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Kasse Medlemsnr*KS4
+.bx new 35mm 48.5mm
+.SP 3mm
+.vr 39.5mm 44mm
+.sp 0.1mm
+.bx off
+.vr off
+.**Medlemsliste**KS5*
+.bx new 3mm 8mm / 135mm 144mm / 148.5mm 184.5mm
+.SP 3mm
+.vr 139.5mm 153mm 162mm 171mm 175.5mm 180mm
+.sp 0.1mm
+.bx off
+.vr off
+.**Restanceliste streger*
+.se streg1a = '58.5mm 67.5mm 76.5mm 81mm 85.5mm 99mm 108mm 117mm 121.5mm'
+.se streg2a = '126mm 139.5mm 153mm 162mm 171mm 175.5mm 180mm'
+.**Restanceliste kasser*
+.se ks1 ='3mm 8mm / 54mm 90mm / 94.5mm 130.5mm / '
+.se ks2 ='135mm 144mm / 148.5mm 184.5mm'
+.************KS6**
+.bx new &ks1 &ks2
+.SP 3mm
+.vr &streg1a &streg2a
+.sp 0.1mm
+.bx off
+.vr off
+.*Revisionsliste KS7**
+.bx new &ks1 &ks2
+.SP 3mm
+.vr &streg1a &streg2a
+.sp 0.1mm
+.bx off
+.vr off
+.*Udskrift tælleværk KS8**
+.bx new &ks1 &ks2
+.SP 3mm
+.vr &streg1a &streg2a
+.sp 0.1mm
+.bx off
+.vr off
+.*Kontoudskrift KS9**
+.bx new &ks1 &ks2
+.SP 3mm
+.vr &streg1a &streg2a
+.sp 0.1mm
+.bx off
+.vr off
+.*A contoliste KS10**
+.bx new &ks1 &ks2
+.SP 3mm
+.sp 0.1mm
+.vr &streg1a &streg2a
+.bx off
+.vr off
+.*Anlægsnr. KS11**
+.bx new 35mm 57.5mm
+.SP 3mm
+.vr 39.5mm 44mm 48.5mm 53mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Forbrugsliste KS12*
+.bx new &ks1 &ks2
+.SP 3mm
+.vr &streg1a &streg2a
+.sp 0.1mm
+.bx off
+.vr off
+.*Individuelle lister*KS13**
+.bx new 3mm 8mm / 135mm 144mm / 148.5mm 184.5mm
+.SP 3mm
+.vr 139.5mm 153mm 162mm 171mm 175.5mm 180mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Kun totaler*KS14**
+.bx new 35mm 48.5mm
+.SP 3mm
+.vr 39.5mm 44mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Overskrift*KS15**streger
+.se streg1b = '31.5mm 36mm 40.5mm 45mm 49.5mm 54mm 58.5mm 63mm 67.5mm'
+.se streg2b = '72mm 76.5mm 81mm 85.5mm 90mm 94.5mm 99mm 103.5mm 108mm'
+.se streg3b = '112.5mm 117mm 121.5mm 126mm 130.5mm 135mm 139.5mm 144mm'
+.se streg4b = '148.5mm 153mm 157.5mm 162mm 166.5mm 171mm 175.5mm 180mm'
+.bx new 27mm 184.5mm
+.SP 3mm
+.vr &streg1b &streg2b &streg3b &streg4b
+.sp 0.1mm
+.bx off
+.vr off
+.sp 1mm
+.BX off
+:swiss10.:FED.
+.tp 13mm
+96052 ¤Rekvisition af FI-kort:SKRSLUT.
+.BX 0MM 190MM
+.***Rekvisition KS1**
+.se streg1c = '47.5mm 56.5mm 61mm 65.5mm 102.5mm 153mm 162mm 171mm 175.5mm'
+.se streg2c = '180mm'
+.sp 8mm
+.bx new 3mm 8mm / 43mm 70mm / 98mm 107mm / 148.5mm 184.5mm
+.SP 3mm
+.vr &streg1c &streg2c
+.sp 0.1mm
+.bx off
+.vr off
+.sp 1mm
+.*Total udskrives*KS2**
+.bx new 43mm 56.5mm
+.SP 3mm
+.vr 47.5mm 52mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Nul FI-kort*KS3**
+.bx new 43mm 56.5mm
+.SP 3mm
+.vr 47.5mm 52mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Incl. restancer*KS4
+.bx new 43mm 56.5mm
+.SP 3mm
+.vr 47.5mm 52mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Incl forudbetalt*KS5*
+.bx new 43mm 56.5mm
+.SP 3mm
+.vr 47.5mm 52mm
+.sp 0.1mm
+.bx off
+.vr off
+.*Beløbskode og beløb**KS6*
+.bx new 43mm 52mm / 61mm 106mm
+.SP 3mm
+.vr 47.5mm 65.5mm 74.5mm 79MM 88mm 92.5mm 101.5mm
+.SP 0.1mm
+.bx off
+.vr off
+.*Restance Fi-kort*KS7*
+.se streg1d = '47.5mm 56.5mm 65.5mm 70mm 74.5mm 88mm 97mm 106mm'
+.se streg2d = '110.5mm 115mm 153mm 162mm 171mm 175.5mm 180mm'
+.sp 8mm
+.bx new 3mm 8mm / 43mm 79mm / 83.5mm 119.5mm / 148.5mm 184.5mm
+.SP 3mm
+.vr &streg1d &streg2d
+.sp 0.1mm
+.bx off
+.vr off
+.*Restancegebyr**KS8*
+.bx new 43mm 56.5mm
+.SP 3mm
+.vr 47.5mm 52mm
+.bx off
+.vr off
+.*Restancegebyr i kr.**KS9*
+.bx new 43mm 74.5mm
+.SP 3mm
+.vr 47.5mm 56.5mm 61mm 70mm
+.bx off
+.vr off
+.sp 42mm
+.bx off
+.ar off
+.**** KASSERNE FORTSÆTTER I BECSOP07K1A*********

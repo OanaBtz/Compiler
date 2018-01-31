@@ -1,0 +1,121 @@
+.*TEST PÅ OM PUNKT 5. SKAL UDSKRIVES **************************************
+.if &L'&GÆLDAFDR1 = 0
+.an &L'&GÆLDAFDR2 = 0
+.an &L'&GÆLDAFDR3 = 0
+.an &L'&GÆLDAFDR4 = 0
+.an &L'&GÆLDAFDR5 = 0
+.an &L'&GÆLDAFDR6 = 0
+.an &L'&SAMBELØB = 0
+.an &L'&GÆLDTBET1 = 0
+.an &L'&GÆLDTBET2 = 0
+.an &L'&GÆLDTBET3 = 0
+.an &L'&GÆLDTBET4 = 0
+.an &L'&GÆLDTBET5 = 0
+.an &L'&GÆLDTBET6 = 0
+.an &L'&KOMPENS1 = 0
+.an &L'&KOMPENS2 = 0
+.an &L'&KOMPENS3 = 0
+.an &L'&KOMPENS4 = 0
+.an &L'&KOMPENS5 = 0
+.an &L'&KOMPENS6 = 0
+.th .ta table SEFO3 on
+.th .go TXT
+.*PUNKT 5 (OVERSKRIFT)*****************************************************
+:FED.
+.of 5mm
+5.¤Supplerende oplysninger, som skal gives, hvis oplysningerne forud
+for aftaleindgåelse tilbydes i forbindelse med en forbrugerkredit med
+henblik på gældsomlægning
+:SKRSLUT.
+.ta table SEFO3 on
+.**UDSKRIVES, HVIS RELEVANT *********
+.if &L'&GÆLDAFDR1 = 0
+.an &L'&GÆLDAFDR2 = 0
+.an &L'&GÆLDAFDR3 = 0
+.an &L'&GÆLDAFDR4 = 0
+.an &L'&GÆLDAFDR5 = 0
+.an &L'&GÆLDAFDR6 = 0
+.th .go SAMLBEL
+.*PUNKT 5 (1) *************************************************************
+.ta row SEFO3 on
+.ta cell 1
+.in 5mm
+.ir 1mm
+Afdrag og, hvis det er relevant, i hvilken rækkefølge afdragene vil blive
+fordelt.
+.ta cell 2
+&SDU skal betale følgende:
+.br
+&GÆLDAFDR1. &GÆLDAFDR2. &GÆLDAFDR3. &GÆLDAFDR4. &GÆLDAFDR5. &GÆLDAFDR6.
+.ta row SEFO3 off
+.*PUNKT 5 (2) *************************************************************
+...SAMLBEL
+.**UDSKRIVES, HVIS RELEVANT *********
+.if &L'&SAMBELØB = 0
+.th .go FOERINDB
+.ta row SEFO3 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 1mm
+Det samlede beløb, &DU skal betale
+.ta cell 2
+&SAMBELØB. &GENVAL.
+.ta row SEFO3 off
+.*PUNKT 5 (3) *************************************************************
+...FOERINDB
+.**UDSKRIVES, HVIS RELEVANT *********
+.if &L'&GÆLDTBET1 = 0
+.an &L'&GÆLDTBET2 = 0
+.an &L'&GÆLDTBET3 = 0
+.an &L'&GÆLDTBET4 = 0
+.an &L'&GÆLDTBET5 = 0
+.an &L'&GÆLDTBET6 = 0
+.th .go KREDGIV
+.***************
+.ta row SEFO3 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 1mm
+Førtidig indbetaling
+.br
+:KURSIV.
+&SDU har ret til helt eller delvis at tilbagebetale kreditbeløbet før
+tiden.
+:SKRSLUT.
+.ta cell 2
+&GÆLDTBET1. &GÆLDTBET2. &GÆLDTBET3. &GÆLDTBET4. &GÆLDTBET5. &GÆLDTBET6.
+.ta row SEFO3 off
+.**************************************************************************
+...KREDGIV
+.*PUNKT 5 (4) *************************************************************
+.**UDSKRIVES, HVIS RELEVANT *********
+.if &L'&KOMPENS1 = 0
+.an &L'&KOMPENS2 = 0
+.an &L'&KOMPENS3 = 0
+.an &L'&KOMPENS4 = 0
+.an &L'&KOMPENS5 = 0
+.an &L'&KOMPENS6 = 0
+.th .go TXT1
+.ta row SEFO3 on SPLIT
+.ta cell 1
+.in 5mm
+.ir 1mm
+Kreditgiver har ret til kompensation i tilfælde af førtidig
+tilbagebetaling.
+.ta cell 2
+&KOMPENS1. &KOMPENS2. &KOMPENS3. &KOMPENS4. &KOMPENS5. &KOMPENS6.
+.sp 3mm
+...TXT1
+.ta row SEFO3 off
+.**TEKST, DER ALTID SKAL UDSKRIVES ****************************************
+...TXT
+.ta row SEFO3 on
+.ta cell 2
+.in 5mm
+.ir 1mm
+:KURSIV.
+Nærværende er ikke et tilbud, men alene et oplysningsskema i henhold til
+Lov om Kreditaftaler. Samtlige oplysninger er afgivet med forbehold for
+fremtidige ændringer, herunder ændringer i rente og omkostninger.
+:SKRSLUT.
+.ta table off

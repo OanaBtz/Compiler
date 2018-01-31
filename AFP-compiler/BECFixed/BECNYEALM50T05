@@ -1,0 +1,30 @@
+.tp 5mm
+.kp on
+:SWISS10.
+:FED.
+11. Lovvalg og værneting
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Retlige tvister med &DIG. afgøres efter dansk ret og ved en dansk
+domstol. Hvis sagsøgte ikke hører under dansk retskreds, kan
+sagen anlægges i den retskreds, &BANKNAVN.s hjemsted
+hører under.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+12. Ændring af de almindelige forretningsbetingelser
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+&BANKNAVN. kan uden varsel ændre de almindelige forretningsbetingelser.
+.sp 3mm
+.kp off
+.kp on
+Oplysning om ændring af de Almindelige forretningsbetingelser sker
+skriftligt, elektronisk eller ved annonce i dagspressen, med
+henvisning til, hvor på &BANKNAVN.s hjemmeside ændringerne kan ses.
+.sp 5mm
+.kp off

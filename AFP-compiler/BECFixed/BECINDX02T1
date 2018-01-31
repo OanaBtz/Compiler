@@ -1,0 +1,55 @@
+.tp 87.5mm
+.******************************************************************
+.da NAVN          25mm  47mm width 85mm
+.da PIOPL        112.5mm  47mm width 85mm
+.da CPR          25mm  73.5mm width 170mm
+.da KTONR        25mm 83mm width 170mm
+.da KRYDS1 25mm 109,5mm width 10mm
+.da KRYDS2 25mm 126,5mm width 10mm
+.da UNDER        107.5mm  194mm width 87mm
+.******************************************************************
+.ar PIOPL on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.******************************************************************
+.ar NAVN on
+&KTONAVN
+.br
+&KTOCO
+.br
+&KTOGADE
+.br
+&KTOBY
+.ar off
+.******************************************************************
+.ar CPR on
+&KTOKNDNR1 ¤&GENEKSP
+.ar off
+.******************************************************************
+.ar KTONR on
+&regnr &ktonr ¤&AFDTLF
+.ar off
+.*************************************
+.ar KRYDS1 on
+.tp 2,5mm center
+.if &GENVALG eq 1
+.th ¤X
+.ar off
+.*************************************
+.ar KRYDS2 on
+.tp 2,5mm center
+.if &GENVALG eq 2
+.th ¤X
+.ar off
+.*************************************
+.ar UNDER on
+.ce on
+&KTONAVN
+.ce off
+.ar off

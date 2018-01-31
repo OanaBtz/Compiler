@@ -1,0 +1,63 @@
+.*************** definer siden som et areal *******************************
+.da SIDE 20mm 40mm width 175mm
+.************ PARTER ******************************************************
+.ar SIDE on
+.tp 1mm 88.5mm 130mm
+.bx left right
+:SWISS8.
+¤Allonge til kontrakt nr.:
+.sp 4mm
+.bx left right
+¤Undertegnede tilbagekøber
+.sp 20mm
+.bx new
+¤Kundenummer
+.sp 5mm
+.bx off
+.bx can
+.**************************************************************************
+:SWISS10.:FED.
+Aktiv
+:SKRSLUT.
+:SKRSLUT.
+.bx left right
+¤I forbindelse med levering af:
+.sp 13mm
+.bx new left 87.5mm right
+¤Stel/serienr. ¤Evt. reg.nr.
+.sp 5mm
+.bx off
+.bx can
+.**************************************************************************
+:SWISS10.:FED.
+Levering
+:SKRSLUT.
+:SKRSLUT.
+.bx left 87.5mm right
+¤Leveringsadresse  ¤Anbringelsested / Bruger
+.sp 20mm
+.bx off
+.*KASSE MED "VILKÅR"*******************************************************
+.sp
+.bx new left right
+.sp 80mm
+.bx off
+.bx can
+.************ UNDERSKRIFT *************************************************
+.if &U'X&FORTSÆT = XJ
+.th .go FORTEND
+:SWISS10.:FED.
+Underskrift
+:SKRSLUT.
+:SKRSLUT.
+.bx new left right
+¤Påfør med blokbogstaver navn og titel på tegningsberettigede
+underskriver(e) ¤¤Dato:
+.br
+¤For tilbagekøber:
+.sp 15mm
+.br
+.bx off
+.bx can
+...FORTEND
+.ar off

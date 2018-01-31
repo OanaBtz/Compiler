@@ -1,0 +1,72 @@
+.da side1 20mm 35mm width 175mm
+.da oversk 20mm 32mm width 80mm
+.ar oversk on
+:SWISS12.
+:FED.
+.us Tillæg til aftale om ratepension
+:SKRSLUT.
+.ar off
+.ar side1 on
+.sp
+:SWISS10.
+.in 1mm
+:FED.
+Parter
+:SKRSLUT.
+.***** her laves kassen til kontohaver og evt.arbejdsgiver *****
+.bx new left 87.5mm right
+.sp 20mm
+.***** her laves kassen til pengeinstitut og regnr *****
+.bx new left 87.5mm right
+.sp 8.5mm
+.***** her laves kassen til kontonr og depotnr *****
+.hr 87.5mm right
+.vr 130.5mm
+.sp 8.5mm
+.***** her laves kassen til formål *****
+.bx new left right
+.vr off
+.sp 5mm
+.bx off
+.bx can
+.bx can
+:SWISS10.
+:FED.
+Indhold
+:SKRSLUT.
+.***** her laves kassen til indbetalinger *****
+.bx new left right
+.sp 31mm
+.***** her laves kassen til forhøjelsestillæg ******
+.bx new left right
+.sp 15mm
+.***** her laves kassen til forsikring  ******
+.bx new left right
+.sp 42mm
+.***** her laves kassen til udbetalinger *****
+.bx new left right
+.sp 37mm
+.***** her laves kassen til andre aftaler ****
+.bx new left right
+.sp 10mm
+.bx off
+.bx can
+.bx can
+.bx can
+.bx can
+:SWISS10.
+:FED.
+Underskrift
+:SKRSLUT.
+.***** her laves kassen til tekst ved underskrifts kasserne *******
+.bx new left right
+.sp 8mm
+.***** her laves kassen til underskrift *******
+.bx new left 87.5mm right
+.sp 12mm
+.***** her laves kassen til underskrift *******
+.bx new left right
+.sp 12mm
+.bx off
+.bx can
+.ar off

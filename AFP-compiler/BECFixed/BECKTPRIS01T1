@@ -1,0 +1,31 @@
+.da TEKST 20mm 44mm width 175mm
+.**************************************************************************
+.ar TEKST on
+:SWISS10.
+Det er bankens eget ansvar at tilrette denne side.
+Bilaget kan evt. indeholde disse afsnit.
+.sp 5mm
+:FED.
+Prisliste
+:SKRSLUT.
+.sp 3mm
+:FED.
+Spærring
+:SKRSLUT.
+.sp 3mm
+:FED.
+Fremfinding af notaer
+:SKRSLUT.
+.sp 3mm
+:FED.
+Årligt kortgebyr
+:SKRSLUT.
+.sp 3mm
+:FED.
+Kortgebyr
+:SKRSLUT.
+.sp 3mm
+:FED.
+Maksimumbeløb (Spil & lotteri)
+:SKRSLUT.
+.ar off

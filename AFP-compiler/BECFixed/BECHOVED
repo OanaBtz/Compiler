@@ -1,0 +1,80 @@
+.oc   *** denne linie fjernes
+.fo left
+.*** GENERELT BREVHOVED (4720/laser) ***
+.*** SKÆRM-TEST ***
+.IF &ÅPDEV EQ 3270
+.AN &U'&B50PRINT EQ JA
+.TH .se PM = 2
+.TH .se LL = 65
+.TH .se LL1 = 60
+.TH .se SP = 4
+.TH .se TP1 = 41
+.IF &ÅPDEV EQ 3270
+.AN &U'&B50PRINT EQ NEJ
+.TH .se PM = 2
+.TH .se LL = 65
+.TH .se LL1 = 60
+.TH .se SP = 3
+.TH .se TP1 = 39
+.*** PRINT-TEST ***
+.IF &ÅPDEV EQ 2741
+.AN &U'&B50PRINT EQ JA
+.TH .se PM = 9
+.TH .se LL = 65
+.TH .se LL1 = 60
+.TH .se SP = 5
+.TH .se TP1 = 41
+.IF &ÅPDEV EQ 2741
+.AN &U'&B50PRINT EQ NEJ
+.TH .se PM = 9
+.TH .se LL = 65
+.TH .se LL1 = 60
+.TH .se SP = 5
+.TH .se TP1 = 39
+.*** SÆT SKÆRM/PRINT-FORMAT ***
+.PM &PM
+.LL &LL
+.SP &SP
+.ti ¤ 05
+.tp &TP1
+.*** BREVSTART ***
+.** Sammentrækning af navnelinier
+.se NLIN1 = ' '
+.se NLIN2 = ' '
+.se NLIN3 = ' '
+.se NLIN4 = ' '
+.se NLIN5 = ' '
+.se NLIN6 = ' '
+.if &L'&LAND > 0
+.th .se NLIN6 = '&LAND'
+.se LNR = 6
+.if &L'&BY > 0
+.th .se LNR      = &LNR - 1
+.th .se NLIN&LNR = '&BY'
+.if &L'&GADE > 0
+.th .se LNR      = &LNR - 1
+.th .se NLIN&LNR = '&GADE'
+.if &L'&COADR > 0
+.th .se LNR      = &LNR - 1
+.th .se NLIN&LNR = '&COADR'
+.if &L'&NAVN > 0
+.th .se LNR      = &LNR - 1
+.th .se NLIN&LNR = '&NAVN'
+.if &L'&STILL > 0
+.th .se LNR      = &LNR - 1
+.th .se NLIN&LNR = '&STILL'
+.br
+&NLIN1
+.br
+&NLIN2
+.br
+&NLIN3 ¤&DATO
+.br
+&NLIN4
+.br
+&NLIN5 ¤&B50NAVN
+.br
+&NLIN6
+.sp 7
+.LL &LL1
+.tiltale &TILTALEF

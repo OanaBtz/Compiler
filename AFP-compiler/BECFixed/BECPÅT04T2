@@ -1,0 +1,166 @@
+.tp 15mm
+.sp 10mm
+.*** AFLYSNING ************************************************************
+.if &U'&GENKRYDS1. = J
+.th
+.el .go FORH
+.kp on
+Nærværende ejerpantebrev kvitteres herved til aflysning af tingbogen.
+.sp 3mm
+.kp off
+.*** FORHØJELSE ***********************************************************
+...FORH
+.if &U'&GENKRYDS4. = J
+.th
+.el .go FRITXT
+.kp on
+Nærværende ejerpantebrev, kr.
+:VS. &GENBELØB10.,
+forhøjes herved med kr.
+:VS. &GENBELØB11.
+til i alt kr. &RESULTA.
+.br
+Skriver kroner &RESULTAT1.&RESULTAT2.
+.br
+Ejerpantebrevets øvrige bestemmelser gentages i alle dets ord og
+punkter, idet dog bemærkes, at der for så vidt angår forhøjelsesbeløbet
+meddeles afkald på renteopskrivningsbestemmelsen.
+.sp 3mm
+.kp off
+...FRITXT
+.if &L'&GENTEKST1. > 0
+.or &L'&GENTEKST2. > 0
+.th
+.el .go FULDM
+.kp on
+&GENTEKST1.&GENTEKST2
+.sp 3mm
+.kp off
+...FULDM
+.if &U'&GENKRYDS5 = J
+.th
+.el .go RESP
+.kp on
+&BANKNAVN., &AFDNAVN., &AFDGADE., &AFDBY. bemyndiges til på mine vegne at
+underskrive påtegninger af enhver art på nærværende ejerpantebrev,
+herunder kvitterings-, transport-, moderations- og relaktionspåtegninger.
+.sp 3mm
+.kp off
+...RESP
+.if &L'&GENTEKST7. > 0
+.or &L'&GENTEKST8. > 0
+.th
+.el .go TRANS
+.kp on
+Nærværende ejerpantebrev respekterer fremtidig alene:
+.br
+&GENTEKST7.
+.br
+&GENTEKST8.
+.br
+samt de hidtil respekterede servitutter og andre byrder med eller
+uden pant.
+.sp 3mm
+.kp off
+...TRANS
+.if &L'&GENADR1. > 0
+.th
+.el .go OVERF
+.kp on
+Nærværende ejerpantebrev transporteres herved til &GENADR1., &GENADR2.,
+&GENADR3., &GENADR4. der har erhvervet den/de pantsatte køretøj, og som
+ved sin underskrift på nærværende påtegning overtager ejerpantebrevet som
+debitor og kreditor.
+.sp 3mm
+.kp off
+...OVERF
+.if &U'&GENKRYDS2 = J
+.an &U'&GENKRYDS3 = N
+.th
+.el .go VALG2
+.kp on
+Panteretten ifølge nærværende ejerpantebrev(Bil) udvides til at omfatte:
+.sp 3mm
+&GENTEKST9. &GENTEKST10.
+.sp 3mm
+.kp off
+.go CONT1
+...VALG2
+.if &U'&GENKRYDS2 = J
+.an &U'&GENKRYDS3 = J
+.th
+.el .go CONT1
+.kp on
+Panteretten ifølge nærværende ejerpantebrev(Bil) udvides til at omfatte:
+.sp 3mm
+&GENTEKST9. &GENTEKST10.
+.sp 3mm
+På betingelse heraf meddeles tilladelse til at:
+.sp 3mm
+&GENMÆRKE10., &GENBILRGNR., &GENÅRGANG., &GENSTEL.
+.sp 3mm
+må udgå af pantsætningen
+.sp 3mm
+.kp off
+...CONT1
+.kp on
+.*Nærværende ændring af pantet omfatter alene erhversaktiver.
+.if &U'&GENKRYDS6 = N
+.th Der sker herved ingen skift af pantsætter.
+.sp 3mm
+.kp off
+.kp on
+:FED.Særlige bestemmelser:SKRSLUT.
+.sp 3mm
+Panteretten omfatter tillige det/de pantsatte køretøjers indtægter,
+herunder leje samt erstatnings- og forsikringssummer.
+.sp 3mm
+.kp off
+.kp on
+Udlægsforretning kan straks foretages i pantet, hvor pantet findes uden
+at udlægsforretningen skal være påbebyndt på pantsætters bopæl.
+.sp 3mm
+.kp off
+.kp on
+Ud over pligten i Justitsministeriets Almindelige betingelser(BIL),
+pkt. 5, forpligter debitor sig til at holde pantet forsikret mod risiko,
+der af den til hvem ejerpantebrevet måtte være underpantsat særligt
+forlanges dækket.
+.sp 3mm
+.kp off
+.kp on
+Uanset uopsigelighed eller opsigelsesfrist kan den til hvem ejerpantebrevet
+måtte være underpantsat ud over de i Justitsministeriets Almindelige
+betingelser(BIL), pkt. 7, nævnte tilfælde ligeledes forlange kapitalen
+indfriet i følgende tilfælde.:
+.sp 3mm
+1.¤Hvis
+.in 15mm nobreak
+det pantsatte udlejes (herunder ved leasing, forpagtning eller andet) uden
+samtykke fra den til hvem ejerpantebrevet måtte være underpantsat.
+.sp 3mm
+.kp off
+.kp on
+2.¤Hvis der foretages arrest eller udlæg i det pantsatte.
+.sp 3mm
+.kp off
+.kp on
+3.¤Hvis
+.in 15mm nobreak
+debitor kommer under rekonstruktion, under konkurs, eller anden insolvent
+bobehandling eller indleder forhandling om gældssanering
+.sp 3mm
+.kp off
+.kp on
+.sp 3mm
+4.¤Hvis
+.in 15mm nobreak
+debitor ikke på opfordring godtgør, at det pantsatte er forsikret som
+forlangt af den til hvem ejerpantebrevet måtte være overdraget og
+underpantsat.
+.in 5mm
+.sp 3mm
+Ejerpantebrevet er ikke omfattet af lov om kreditaftaler.
+.sp 3mm
+.kp off
+...ENDSKEM1

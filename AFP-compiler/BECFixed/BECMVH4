@@ -1,0 +1,13 @@
+.sp 2
+Venlig hilsen
+.sp
+&BANKNAVN.
+.sp 3
+&GENEKSP.
+.br
+Kunderådgiver
+.br
+Direkte tlf.: &GENTLFNR.
+.br
+E-mail: &GENEMAIL.
+.ar off

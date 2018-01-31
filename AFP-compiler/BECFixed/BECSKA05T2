@@ -1,0 +1,59 @@
+.kp on
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+.sp
+.kp off
+.kp on
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+.sp
+.kp off
+.kp on
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+.sp
+.kp off
+.kp on
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+.sp
+.kp off
+.kp on
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+.sp
+.kp off
+.kp on
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+.sp
+.kp off
+.kp on
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+Dette er et langt brev. Dette er et langt brev. Dette er et langt brev.
+.sp
+.kp off
+.kp on
+:FED.
+HER SAMMENHOLDES DE SIDSTE LINIER AF BREVET MED AFSLUTNINGSHILSENEN, SÅ
+MAN UNDGÅR, AT ET BREV FÅR EN SIDE, HVOR DER KUN STÅR
+"Med venlig hilsen" UDEN ANDEN TEKST.
+:SKRSLUT.
+.sp 2
+.ce on
+Med venlig hilsen
+.sp
+&BANKNAVN
+.sp 3
+.if &L'&GENMEKSP gt 0
+.th &GENMEKSP          &GENEKSP
+.el &GENEKSP
+.ce off
+.kp off

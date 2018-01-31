@@ -1,0 +1,87 @@
+.*************** definer siden som et areal *******************************
+.da SIDE 20mm 40mm width 175mm
+.************ PARTER ******************************************************
+.ar SIDE on
+.tp 1mm 88.5mm
+.bx left right
+:SWISS8.
+¤Kontrakt nr.
+.sp 4mm
+.bx off
+:SWISS10.:FED.
+Parterne
+:SKRSLUT.
+:SKRSLUT.
+.bx left 87.5mm right
+¤Leasingtager¤Leverandør
+.sp 20mm
+.bx new left 87.5mm right
+¤Kundenummer¤Kundenummer
+.sp 5mm
+.bx off
+.bx can
+.**************************************************************************
+.tp 1mm 88.5mm
+:SWISS10.:FED.
+Aktiv
+:SKRSLUT.
+:SKRSLUT.
+.bx left right
+¤Undertegnede leasingtager erklærer herved at have modtaget nedennævnte
+genstand(e) i kontraktmæssig stand
+.sp 10mm
+.bx new left 87.5mm right
+¤Stel/serienr.¤Evt. reg.nr.
+.sp 5mm
+.bx off
+.bx can
+.**************************************************************************
+:SWISS10.:FED.
+Levering
+:SKRSLUT.
+:SKRSLUT.
+.tp 1mm 88.5mm
+.bx left 87.5mm right
+¤Leveringsadresse¤Anbringelsessted/Bruger
+.sp 20mm
+.bx off
+.if &U'&FORTSÆT = J
+.th .go SLUT
+.************ UNDERSKRIFT *************************************************
+:SWISS10.:FED.
+Underskrift
+:SKRSLUT.
+:SKRSLUT.
+.bx left right
+.in 1mm
+.ir 3mm
+Den ovenfor nævnte leasingaftale er hermed trådt i kraft. Leasingtager
+erklærer, at have undersøgt og afprøvet de(n) leasede genstand(e), uden
+at der er fundet fejl og mangler. Endvidere erklærer leasingtager, at
+de(n) leasede genstand(e) ikke har givet anledning til indsigelser, hvorfor
+leasingtager ser sig indforstået med, at undersøgelsespligten i henhold
+til Købeloven er overtaget af leasingtager, som herefter ikke kan påberåbe
+nogen form for fejl og mangler ved de(n) leasede genstand(e) overfor
+leasinggiver, jf. i øvrigt leasingaftalens bestemmelser herom. Samtidig
+hermed bemyndiges leasinggiver til at betale den af leverandøren
+fakturerede pris for de(n) leasede genstand(e).
+.sp
+Endelig erklærer leasingtager med sin underskrift, at de til enhver tid
+gældende miljøbestemmelser og eventuelle miljøgodkendelser gældende for
+leasingtagers virksomhed iagttages, ligesom ændringer i leasingtagers
+virksomheds miljøstatus  vil blive meddelt leasinggiver.
+.sp
+Såfremt leasingaftalen ikke på forhånd er oprettet med en forud fastsat
+startdato, erklærer jeg/vi med min/vor underskrift på denne
+modtagelseserklæring, at datoen for dette dokuments underskrivelse også er
+startdatoen for leasingaftalens periode.
+.sp
+.tp 1mm 143mm
+¤Påfør med blokbogstaver navn og titel på tegningsberettigede
+underskrivere¤Dato
+¤Leasingtagers stempel og underskrift
+.sp 25mm
+.bx off
+...SLUT
+.ar off
+.**************************************************************************

@@ -1,0 +1,16 @@
+.**
+.* Parametren BECRYKTYP skal bruges af VAU = Værdiregulering af udlån
+.*  til kriteriebehandling, og af system Kreditmodul.
+.*
+.* Hver bank skal give hver sit rykkerbrev en rykkertype fra 0 - 4
+.*  hvori der angives graden/typen af rykkeren.
+.*
+.* Det gøres ved at indsætte det af følgende tekstmoduler med den
+.*  standardværdi som jeres rykkerbrev skal have:
+.*
+.*  BEC1810P4-0, indeholder BECRYKTYP med standardværdien = 0
+.*  BEC1810P4-1, indeholder BECRYKTYP med standardværdien = 1
+.*  BEC1810P4-2, indeholder BECRYKTYP med standardværdien = 2
+.*  BEC1810P4-3, indeholder BECRYKTYP med standardværdien = 3
+.*  BEC1810P4-4, indeholder BECRYKTYP med standardværdien = 4
+.*

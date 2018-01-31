@@ -1,0 +1,202 @@
+&WEBSYSNAVN., hvis:
+.sp 3mm
+.of 5mm
+-¤&BANKNAVN. spærrer de konti, der er knyttet til &WEBSYSNAVN.
+.of
+.kp off
+.kp on
+.of 5mm
+-¤der er begrundet mistanke om misbrug af kundens konti, herunder såfremt
+kunden overtræder vilkårene i denne aftale eller aftalte
+begrænsninger i anvendelsen af kundens konti. Dette gælder også, hvis
+der vedrørende betalingskonti med tilknyttet kreditfacilitet er
+væsentligt forhøjet risiko for, at kunden ikke kan opfylde sine
+forpligtelser.
+.of
+.of 5mm
+-¤der er begrundet mistanke om risiko for brud på sikkerheden,
+herunder ved 3 fejlagtige indtastninger
+af sikkerhedskoden.
+.of
+.sp 3mm
+.kp off
+.kp on
+4.2.2.2 &BANKNAVN. underretter kunden skriftligt inden spærringen, hvis
+muligt, eller umiddelbart efter spærringen med oplysning om tidspunktet for
+spærringen og om muligt årsagen hertil, medmindre oplysning om årsag vil
+skade hensynet til sikkerheden i &WEBSYSNAVN.. &BANKNAVN. ophæver
+spærringen, når årsagerne til spærringen ikke længere er tilstede.
+.sp 3mm
+.kp off
+.kp on
+4.2.2.3 Genåbning af &WEBSYSNAVN. kan i øvrigt ske ved henvendelse
+til &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+:FED
+4.2.3 Konsekvenser af spærring
+:SKRSLUT
+.sp 3mm
+4.2.3.1 Spærringen afskærer adgang til &WEBSYSNAVN.. Allerede bogførte
+transaktioner er ikke omfattet af spærringen. &BANKNAVN. vil så vidt
+muligt foranledige, at transaktioner, der endnu ikke er bogførte,
+men hvor ordre er afgivet, standses. En afgiven ordre kan dog ikke
+altid standses, uanset at transaktionen ikke er bogført.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+4.3 Andres adgang til systemet
+.*********************************************
+.kp on
+:SWISS8.
+:FED.
+4.2 Spærring
+.sp 3mm
+4.2.1 Kundens pligt til at spærre adgangen til &WEBSYSNAVN.
+:SKRSLUT.
+.sp 3mm
+.kp off
+.kp on
+4.2.1.1 Kunden er forpligtet til at kontakte &BANKNAVN. snarest muligt
+på telefonnummer &BANKTLF. eller spærre adgangen til &WEBSYSNAVN. via
+&WEBSYSNAVN., hvis:
+.sp 3mm
+.of 5mm
+-¤en anden får kendskab til kundens brugernummer eller sikkerhedskode
+.of
+.kp off
+.kp on
+.of 5mm
+-¤kunden opdager eller har mistanke om, at kundens
+adgang til &WEBSYSNAVN. er blevet misbrugt
+.of
+.of 5mm
+-¤kunden på anden måde får mistanke om, at kundens
+adgang til &WEBSYSNAVN. kan blive misbrugt.
+.of
+.sp 3mm
+.kp off
+.kp on
+4.2.1.2 Uden for &BANKNAVN.s og&WEBSYSNAVN.s åbningstid kan
+kunden spærre for
+sin adgang til &WEBSYSNAVN. ved henvendelse til PBS på telefonnummer
+&PBSTLF., der svarer døgnet rundt. Kunden skal oplyse navn, adresse,
+i hvilken afdeling af &BANKNAVN. kontoen føres og om muligt
+brugernummer og CPR-nr.
+.sp 3mm
+.kp off
+.kp on
+4.2.1.3 &BANKNAVN. sender kunden en skriftlig bekræftelse med tidspunkt
+for modtagelse af og årsagen til spærringen.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+4.2.2 &BANKNAVN.s ret til at spærre kundens adgang til &WEBSYSNAVN.
+:SKRSLUT.
+.sp 3mm
+4.2.2.1 &BANKNAVN. er berettiget til at spærre kundens adgang til
+.sp 3mm
+.kp off
+frist for afgivelse af ordrer i &WEBSYSNAVN. til gennemførelse samme
+dag ved henvendelse til &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+:FED.
+4.5 Begrænsninger i gennemførelsen (dækning mv.)
+:SKRSLUT.
+.sp 3mm
+4.5.1 Betalinger gennemføres kun, hvis der er dækning på den anvendte
+konto.
+.sp 3mm
+.kp off
+.kp on
+4.5.2 &BANKNAVN. er ikke forpligtet til at gennemføre betalinger,
+såfremt kunden anmelder betalingsstandsning, kommer under
+konkursbehandling, afgår ved døden, indleder gældssanering eller
+forhandler om tvangsakkord.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+4.6 Maksimal gennemførelsestid
+:SKRSLUT.
+.sp 3mm
+4.6.1 Der kan gå op til en arbejdsdag fra det tidspunkt, hvor et beløb
+hæves fra kundens betalingskonto, til beløbet indsættes på en konto i
+betalingsmodtagerens pengeinstitut.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+4.7 Tilbagekaldelse og afvisning af betalinger
+:SKRSLUT.
+.sp 3mm
+4.7.1 Når kunden har endeligt godkendt en betalingsordre, kan
+denne ikke tilbagekaldes.
+.kp off
+.kp on
+.sp 3mm
+4.7.2 Hvis kunden ikke længere har adgang til en konto via &WEBSYSNAVN.
+efter ophør af denne aftale, hvis en konto spærres af &BANKNAVN.,
+eller hvis kontoen er udgået på betalingsdagen, vil ikke bogførte
+transaktioner som udgangspunkt ikke blive gennemført.
+.sp 3mm
+.kp off
+.kp on
+4.7.3 &BANKNAVN. kan, men har ikke pligt til, ud fra et konkret skøn at
+ændre eller afvise en ordre afgivet af kunden, såfremt &BANKNAVN. vurderer,
+at ordren eller dele heraf er udtryk for en fejl fra kundens side.
+:SKRSLUT.
+.sp 3mm
+4.3.1 Kundens adgang til &WEBSYSNAVN er strengt personlig. Kunden må
+ikke give andre adgang til at anvende sit brugernummer og sikkerhedskode.
+.sp 3mm
+.kp off
+.kp on
+4.3.2 Ønsker kunden, at andre skal have adgang til &WEBSYSNAVN.,
+skal kunden give særskilt fuldmagt til hver enkelt bruger.
+.sp 3mm
+.kp off
+.kp on
+4.3.3 Fuldmagten skal være skriftlig og utvetydig og have et indhold
+svarende til &BANKNAVN.s standard herfor. Fuldmagtsforholdet skal
+godkendes af &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+:FED.
+4.4 Kundens afgivelse af ordrer
+:SKRSLUT.
+.sp 3mm
+4.4.1 Kunden kan afgive ordrer i &WEBSYSNAVN. ved at indtaste de
+oplysninger, der angives af systemet.
+.sp 3mm
+.kp off
+.kp on
+4.4.2 For at gennemføre en betalingstransaktion, skal kunden i
+&WEBSYSNAVN. indtaste kontokode eller kontooplysninger
+vedrørende den betalingskonto, hvorfra betalingen skal foretages, beløb
+og kontokode eller kontooplysninger vedrørende den konto, som beløbet
+skal overføres til.
+.sp 3mm
+.kp off
+.kp on
+4.4.3 Kunden godkender ordren ved at følge de anvisninger for
+bekræftelse, der gives af systemet.
+.sp 3mm
+.kp off
+.kp on
+4.4.4 &BANKNAVN. betragter en ordre vedrørende en betalingstransaktion,
+der er gennemført i overensstemmelse med den entydige  identifikationskode,
+kunden har angivet i ordren, som korrekt gennemført.
+.sp 3mm
+.kp off
+.kp on
+4.4.5 En ordre vedrørende en betalingstransaktion anses for modtaget
+på den arbejdsdag, hvor kunden godkender ordren i &WEBSYSNAVN.. Ordrer,
+der afgives tæt på slutningen af en arbejdsdag, anses for at være modtaget
+den følgende arbejdsdag. Kunden kan få yderligere oplysninger om sidste

@@ -1,0 +1,85 @@
+.* Transport - På tilgodehavende - 1.Kasser og ledetekster
+.da MATRNR    20mm 45mm    WIDTH 174mm
+.da SAELGER   20mm 51.5mm  WIDTH 174mm
+.da TEKST1    20mm 89mm    WIDTH 174mm
+.da KUSKR     20mm 126mm   WIDTH 174mm
+.da RESTUSKR  20mm 157mm   WIDTH 174mm
+.**********************************
+:SWISS8.
+.in 1mm
+.tp 88.5mm
+.ar MATRNR on
+.**** Ledetekster Fordringshaver ***************
+Ejendommens matr.nr.:
+.ar off
+.ar SAELGER on
+Sælger:
+.if &L'&MEDNAVN > 0
+.th .ct ¤Medsælger:
+.sp 30mm
+CPR.nr.
+.if &L'&MEDNAVN > 0
+.th .ct ¤CPR.nr.
+.ar off
+.ar TEKST1 on
+.tp 5mm
+Køber af ejendommen skriver hermed under på, at:
+.sp 2mm
+.of 4mm
+-¤en kopi af transporten, som sælger har givet &BANKNAVN. den
+:SKRSLUT
+&GENDATO3.,
+:SWISS8
+er modtaget
+.of
+.of 4mm
+-¤det transportbeløb (købers skyld til sælger), der fremgår af
+transporten er korrekt
+.of
+.of 4mm
+-¤transporten tillige omfatter den garanti mit pengeinstitut har stillet
+for betaling af den kontante købesum
+.of
+.of 4mm
+-¤transportbeløbet forfalder til betaling som beskrevet i købsaftalen
+.of
+.of 4mm
+-¤transportbeløbet ikke kan reguleres for krav eller indsigelser,
+opstået i retsforhold mellem køber og sælger, der ikke har noget med
+med denne handel at gøre
+.of
+.of 4mm
+-¤transportbeløbet vil blive indbetalt til &BANKNAVN.. Indbetales
+transportbeløbet til andre end &BANKNAVN. er køber ikke frigjort og
+risikerer at skulle betale transportbeløbet igen
+.of
+.ar off
+.***** Ledetekster Købers underskrift **************
+.ar KUSKR on
+.tp 140mm
+Købers underskrift ¤Dato:
+.ar off
+.ar RESTUSKR on
+.if &L'&GENNAVN4 > 0
+.th .tp 140mm
+.th .sp 0.5mm
+.th Medkøbers underskrift ¤Dato:
+.th .sp 28mm
+.if &L'&GENNAVN1 > 0
+.or &L'&BKNAVN   > 0
+.el .go SLUTT4
+Ovennævnte transport er noteret:
+.***** Ledetekster Købers advokats underskrift **************
+.if &L'&GENNAVN1 > 0
+.th .sp 4mm
+.th .tp 140mm
+.th Købers advokats underskrift ¤Dato:
+.th .sp 25mm
+.***** Ledetekster Købers PI'S underskrift **************
+.if &L'&BKNAVN > 0
+.th .sp 4mm
+.th .tp 140mm
+.th Købers pengeinstituts underskrift ¤Dato:
+...SLUTT4
+.ar off
+:SKRSLUT.

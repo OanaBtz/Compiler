@@ -1,0 +1,13 @@
+.*************** GENEREL OPSÆTNING ***************************************
+.ti ¤ 05
+:SWISS9.
+.fo left
+.*************** AREAL-DEFINITIONER **************************************
+.da OVERSKR 20mm 32mm width 175mm
+.*************** UDDATA-OVERSKRIFT ***************************************
+.ar OVERSKR on
+:SWISS12.:FED.
+.us Statement of guarantee (Retail customers)
+:SKRSLUT.
+.ar off
+.*************************************************************************

@@ -1,0 +1,213 @@
+.*******************************************************
+.da KUNDEOPL   25mm 48mm width 84mm
+.da KUNDECPR   170mm 67.5mm   width 30mm
+.da PIOPL      25mm 76.6mm width 84mm
+.da BRUGERNR   33mm 108mm width 158mm
+.da FORESPG    25mm 120mm width 165mm
+.da BRUGERVALG 25mm 137mm width 165mm
+.da TEKST      25mm 186mm width 165mm
+.da UNDSKBRUG  25mm 235mm width 165mm
+.*******************************************************
+.* Test, Hvis brugeransvarlig findes skal brugeransvarliges
+.* navn til underskrift være indtastet.
+.if X&U'&WEBBRUANS = XN
+.th .go UDENOM
+.if &L'&GENNAVN3 > 0
+.or &L'&GENNAVN4 > 0
+.th .go UDENOM
+.el .mg/t/Den brugeransvarliges navn til underskrift skal indtastes/
+...UDENOM
+.*******************************************************
+.ar KUNDEOPL on
+.if &L'&LAND = 0
+.th &STILL
+.th .br
+&NAVN
+.br
+&COADR
+.br
+&GADE
+.br
+&BY
+.br
+.if &L'&LAND > 0
+.th &LAND
+.ar off
+.*******************************************************
+.ar KUNDECPR on
+&KUNDENR
+.ar off
+.*******************************************************
+.ar PIOPL on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.*******************************************************
+.ar BRUGERNR on
+.tp 85.5mm
+&GENBRUGNR ¤&GENBRUGNVN
+.ar off
+.*******************************************************
+.* NEDENSTÅENDE GÆLDER KUN FOR AUTORISATIONSKODE D******
+.ar FORESPG on
+.if &U'X&GENOVF ne XD
+.th .go EJFOR
+.if &L'&GENFOR1 gt 0
+.an &L'&GENFOR2 le 0
+.th - to make enquiries on existing and future accounts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.if &L'&GENLON gt 0.th - to use Payroll Service....EJFOR2.ar off.*******************************************************.ar BRUGERVALG on.if &U'X&GENOVF eq XA.th .go AUTA.el .go AUTB...AUTAA authorisation.sp 3mmThe user may enter/correct/delete information without the approvalof another user. &ÅCONT.if &L'&GENSTRAKS > 0.or &L'&GENBORS > 0.or &L'&GENMARKED > 0.or &L'&GENLIMIT > 0.or &L'&GENGNS > 0.th The user is authorised to perform the following types of trading.th activities:.el .go BBB.sp 3mm.if &L'&GENSTRAKS > 0.th - market order - real time.th .br.if &L'&GENBORS > 0.th - limit order - stock exchange.th .br.if &L'&GENMARKED > 0.th - market order.th .br.if &L'&GENLIMIT > 0.th - limit order.th .br.if &L'&GENGNS > 0.th - average price order.go BBB...AUTB.if &U'X&GENOVF eq XB.th B authorisation.th .sp 3mm.th The user may enter/correct/delete information in an envelope and.th approve the envelope jointly with another user who holds an A, B.th or C authorisation..th .sp 3mm.th If the user is authorised to transfer funds between his o
+wn.th accounts, the transfers
+ are subj
+ect to 
+the approval of another.th user. The user may not trade 
+in securities..th
+ .go BBB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.if &U'X&GENOVF eq XC.th C authorisation.th .sp 3mm.th The user may enter/correct/delete information in an envelope and.th approve the envelope jointly with another user who holds an A or B.th authorisation..th .sp 3mm.th The user must be the first approver as the user is not authorised.th to finally approve an envelope approved by another user holding a.th B or C authorisation..th .sp 3mm.th If the user is authorised to transfer funds between his own.th accounts, the transfers are subject to the approval of another.th user. The user may not trade in securities..th .go BBB.if &U'X&GENOVF eq XD.th D authorisation.th .sp 3mm.th The user may exclusively enter information in an envelope and.th correct/delete information in envelopes marked "Open"..th .sp 3mm.th The user is not authorised to approve information or envelopes or.th to correct information in envelopes that are partly or finally.th approved. The user may not trade in securities..th .go BBB...BBB.ar off.*******************************************************.ar TEKST on&GENTEK
+ST1..br&GENTEKST2..
+br&GENTEKST
+3..br&GENTEKST4..ar off.********************************************
+***********.ar UNDSKBRUG on.if X&U'&WEBBRUANS = XN.th .ce on.th &NAVN.
+th .ce off.th .go 
+UNDSL.if &L
+'&GENNAVN3 > 0.an &L'&GENNAVN4 > 0.th .tp 42mm center 125mm center.th
+ ¤&GENNAVN3 ¤&GENNAVN4.th .go UNDSL.if &L'&GENNAVN3 > 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.an &L'&GENNAVN4 = 0.th .ce on.th &GENNAVN3.th .ce off.th .go UNDSL.if &L'&GENNAVN3 = 0.an &L'&GENNAVN4 > 0.th .ce on.th &GENNAVN4.th .ce off...UNDSL.ar off.*******************************************************
+
+
+
+
+
+
+
+
+
+
+
+

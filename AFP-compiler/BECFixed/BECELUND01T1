@@ -1,0 +1,33 @@
+.*******************************************************
+.da KUNDEOPL   25mm 48mm width 84mm
+.da PIOPL      113mm 48mm width 84mm
+.da KUNDENR    25mm 78mm width 84mm
+.*******************************************************
+.ar KUNDEOPL on
+&STILL
+.br
+&NAVN
+.br
+&COADR
+.br
+&GADE
+.br
+&BY
+.br
+&LAND
+.ar off
+.*******************************************************
+.ar PIOPL on
+&BANKNAVN
+.br
+&AFDNAVN
+.br
+&AFDGADE
+.br
+&AFDBY
+.ar off
+.*******************************************************
+.ar KUNDENR on
+&KUNDENR
+.ar off
+.*******************************************************

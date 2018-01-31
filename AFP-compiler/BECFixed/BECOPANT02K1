@@ -1,0 +1,9 @@
+.*************** definer siden som et areal *******************************
+.da SIDE1 24mm 37mm width 175mm
+.************ AFTALE ******************************************************
+.ar SIDE1 on
+:SWISS8.
+.bx left right
+.sp 238mm
+.bx off
+.ar off

@@ -1,0 +1,36 @@
+.* Transport - På tilgodehavende - 1.Kasser og ledetekster
+.da SIDE1 20mm 40mm WIDTH 175mm
+.ll 174mm
+.in 1mm
+.**********************************
+.ar SIDE1 on
+:SWISS10.
+:FED.
+Parter
+.sp 0.1mm
+.**** Box til fordringshaver ******
+.bx left right
+.sp 36mm
+.bx off
+.****** Box til Pengeinstitut ****
+.bx set left right
+.sp 28mm
+.bx off
+.****** Box til fordringens debitor
+.bx set left right
+.sp 35mm
+.bx off
+.****** Box til datoer og matrikeloplysninger ********''
+.bx set left right
+.sp 17mm
+.bx off
+Specifikationer
+.***** Box til beløb samt beløbs fremkomst ****
+.bx left right
+.sp 47mm
+.bx off
+.***** Box til sikringskonto ****
+.bx set left right
+.sp 10mm
+.bx off
+.ar off

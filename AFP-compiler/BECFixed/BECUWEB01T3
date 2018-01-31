@@ -1,0 +1,183 @@
+c)¤inform &BANKNAVN. as soon as possible when the customer
+.if &U'&WEBPRIERH = E
+.th or the customer's users become
+.if &U'&WEBPRIERH = P
+.th becomes
+aware of any loss, misappropriation of the customer's
+.if &U'&WEBPRIERH = E
+.th or the user's
+personal security details
+and any other unauthorised use of &WEBSYSNAVN..
+.of
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+1.4 Furthermore, the customer declares that he or she has been informed
+and accepts that the access to &WEBSYSNAVN is personal for
+.if &U'&WEBPRIERH = P
+.th the customer
+.if &U'&WEBPRIERH = E
+.th the user(s)
+.th authorised by the customer or the customer's manager of users
+.ct , and that access by other persons or companies to the customer's
+accounts requires a separate agreement with &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+1.5 The customer must for his or her own account keep
+the equipment and necessary Internet connection software intact, if
+necessary according to &BANKNAVN.'s instructions.
+.sp 3mm
+.kp off
+.kp on
+1.6 The customer must ensure that a proper antivirus program is
+installed
+on the computer
+and active
+at all times, and that such program is
+updated.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+2. Contents
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+2.1 &WEBSYSNAVN gives the customer
+.if &U'&WEBPRIERH = E
+.tp 5mm
+.******************************************************
+.kp on
+:SWISS10.
+:FED.
+1. &WEBSYSNAVN
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+1.1 This agreement sets out the terms and conditions for the
+customer's registration with and use of &WEBSYSNAVN.. The customer has
+received and accepted the terms and conditions stated on the
+following pages. In addition, the General Terms of Business of
+&BANKNAVN. applicable from time to time, which the customer has also
+received and accepts, apply along with the rules on &WEBSYSNAVN.'s
+security solution, NemID, see clause 2.1.1 in the Terms
+and Conditions for &WEBSYSNAVN..
+.sp 3mm
+.kp off
+.kp on
+1.2 This agreement comprises all existing and future accounts and
+custody accounts with &BANKNAVN held by the customer, including
+any changes agreed with the customer
+.if &U'&WEBPRIERH = E
+.th or the manager of users
+from time to time.
+.sp 3mm
+.kp off
+.kp on
+1.3 By concluding this agreement, the customer accepts to:
+.sp 3mm
+.kp off
+.kp on
+.of 5mm
+a)¤take any measures necessary to protect the customer's
+.if &U'&WEBPRIERH = P
+.th personal
+security details,
+see clause 2.1. of the Terms and Conditions for &WEBSYSNAVN.
+
+
+
+
+
+
+
+
+
+
+
+with Betalingsservice and accepts to receive electronic payment informationvia statements and lists in &WEBSYSNAVN. and e-Boks. See "Rules forBetalingsservice debtors" attached hereto as appendi
+x..sp 3mm.kp off.kp on2.5 When the customer registers with &WEBSYSN
+AVN., he or she alsoregisters with electronic payment 
+forms).
+ See"Th
+e Gene
+ral Conditions for Elektronisk Indbetalingskort - debtors"attache
+d hereto as an appendix..sp 3mm.kp off.kp on2
+.6 When the customer registers with &WEBSYSNAVN., he or she alsoreg
+isters with electronic mail (e-
+Boks). 
+Use of 
+e-Boks
+ via &WEBSYSNAVNrequires that e-Boks is able to identify the cust
+omer by means ofhis or her.if &U'&WEBPRIERH eq P.th civil registration
+ number.el CVR no.and that &BANKNAVN is able toidentify any notic
+es that th
+e customer retrieves f
+rom e-Boks. Thecustomer hereb
+y consents 
+that &BANKNAVN and e-Boks exc
+hanging thecustomer's.if &U'&WEBPRIERH eq P.th civil registration
+ number.el CVR no.between them. &BANKNAVN.receives the customer's
+ consent o
+n behalf of and may pa
+ss on theconsent to e-Boks. S
+ee "General
+ rules for electronic ma
+il (e-Boks)"attached hereto as an appendix..sp 3mm.kp off
+
+
+
+
+.th and the authorised user(s)access to use the customer's accounts electronically in connection withtransfers, etc., and the customer may retrieve i
+nformation aboutthe customer's accounts and custody accounts, etc. &ÅCO
+NT.if &U'&WEBPRIERH = P.th Netbank also gives the customer the p
+ossibility of electronically.th concluding and approving 
+agreements with &BANK
+NAVN..When connecting to and using &WEBSYSNAVN. via &MOBSYSNAVN.,see 
+clause 2.1.2of the Terms and Conditions for &WEBSYSNAVN.
+, the customer.if &U'&WEBPRIERH = E.th or his or her usersm
+ay use selected&
+WEBSYSNAVN. functionalities via mobile units (smartphones 
+andthe like). &ÅCONT.
+&BANKNAVN.if &U'&WEBPRI
+ERH = E.th infor
+ms the customer upon request about the access to &WEBSYSNAVN.,
+ its.th functional
+ity and a
+ny limitations thereo
+f applicable from time to.th time. &BANKNAVNreserves the right to restrict 
+one or more functionalitiesavailable to the customer by giving notice
+ thereof..sp 3mm.kp
+ off.kp on2.2 The.if &U'&WEBPRIERH = E.th customer or his 
+or her users'.el customer'suse of NemID when connec
+ting to
+ and ap
+provin
+g finan
+cial transactionsin &
+WEBSYSNAVN. is subject to the rul
+es for use of 
+NemID applicable fromtime to time, which the customer will receive f
+rom DanID A/S. The rulesare also available at:USENKEL.www.nemid.nu.:SKRS
+LUT..sp 3mm.kp off.kp on2.3 Certain functionalities covered by this agr
+eement, see clauses.i
+f &U'&WEBPRIERH = E.th 2.4-2.6,
+.el 2.4
+-2.8,ar
+e subj
+ect to separate rules and must comply with suchrules to the extent
+ they deviate from th
+is agreement
+ withTerms a
+nd Conditions for &WEBSYSNAVN.. This applies, inter ali
+a, torules on the revocation of orders and deadlines for 
+disputing paymenttransactions and to amendments to and termination 
+of the separate rules..sp 3mm.kp off.kp on2.4 When the customer regis
+ters with &WEBSYSNAVN., he or she also registers
+
+
+
+

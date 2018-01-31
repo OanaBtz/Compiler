@@ -1,0 +1,26 @@
+:TILTALE &TILTALEF
+.HY on
+.SU OFF
+:NY.
+.da VEND 7mm 270mm width 180mm rotate -90
+.ar VEND on
+:COUR6.
+BECBUDG02
+.ar off
+:ENY.
+:GL.
+.da UDDATA 5 19
+:EGL.
+:NY.
+.da UDDATA 20mm 88mm
+:ENY.
+.***********************************************************************
+.ar UDDATA on
+.br
+.us Ændring af overførsel til &DIN Budgetservice
+.ar off
+.***********************************************************************
+.fo left
+:NY.
+.sp 23mm
+:ENY.

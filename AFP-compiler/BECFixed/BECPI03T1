@@ -1,0 +1,57 @@
+.da RAMME 20mm 40mm width 185mm
+.ar RAMME on
+.**************************************************************************
+:SWISS10.
+:FED.
+Til Pengeinstitut
+:SKRSLUT.
+.bx new 0mm 91mm 181mm
+.sp 30mm
+.bx new 0mm 181mm
+.sp 0.1mm
+.bx new 1mm 5mm
+.sp 2.5mm
+.bx off
+.sp 4mm
+.bx new 1mm 5mm
+.sp 2.5mm
+.bx off
+.sp 5.9mm
+.bx off
+.bx can
+:FED.
+Kortoplysninger/arkivnøgle
+:SKRSLUT.
+.bx new 0mm 109mm 181mm
+.sp 17mm
+.hr 0mm 109mm
+.sp 17mm
+.bx off
+:SWISS10.
+:FED.
+Yderligere oplysninger
+:SKRSLUT.
+.bx new 0mm 91mm 181mm
+.sp 1mm
+.bx new 93mm 97mm
+.sp 2.5mm
+.bx off
+.sp 7mm
+.bx new 93mm 97mm
+.sp 2.5mm
+.bx off
+.sp 17mm
+.bx new 0mm 91mm 181mm
+.sp 36mm
+.bx can
+.bx off
+:SWISS10.
+:FED.
+Underskrift
+:SKRSLUT.
+.bx new 0mm 91mm 181mm
+.sp 8mm
+.bx new 0mm 91mm 181mm
+.sp 28mm
+.bx off
+.ar off

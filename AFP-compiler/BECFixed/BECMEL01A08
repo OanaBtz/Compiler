@@ -1,0 +1,242 @@
+.ti ¤ 05
+:SWISS8.
+.da OVERSK3   12mm 131.5mm width 110mm
+.da DATO3     128mm 127mm width 15mm
+.da TEKST3A   16mm 140mm width 40mm
+.da TEKST3B   16mm 143.8mm width 40mm
+.da TEKST3C   16mm 147.8mm width 40m
+.da TEKST3D   16mm 152mm width 38mm
+.da TEKST3E   16mm 156mm width 40mm
+.da TEKST3F   16mm 159.8mm width 40mm
+.da TEKST3G   63mm 140mm width 50mm
+.da TEKST3H   69mm 143.8mm width 50mm
+.da TEKST3I   69mm 147.8mm width 50mm
+.da TEKST3J   69mm 152mm width 50mm
+.da CPR3      56mm 156mm width 50mm
+.da KTONR3    56mm 159mm width 50mm
+.da BEMÆRK3   128mm 131mm width 50mm
+.da TIL3      25mm 164mm width 10mm
+.da UDSTED3   10.5mm 172mm width 25mm
+.da LBNR3     18mm 185mm width 25mm
+.da TRUKKET3  59mm 185mm width 19mm
+.da TK3       81mm 185mm width 19mm
+.da BELØB3    153mm 185mm width 30mm
+.da OVERSK4   12mm 220.5mm width 110mm
+.da DATO4     128mm 216mm width 15mm
+.da TEKST4A   16mm 229mm width 40mm
+.da TEKST4B   16mm 232.8mm width 40mm
+.da TEKST4C   16mm 237mm width 40m
+.da TEKST4D   16mm 241mm width 40mm
+.da TEKST4E   16mm 245mm width 40mm
+.da TEKST4F   16mm 248.5mm width 40mm
+.da TEKST4G   63mm 229mm width 50mm
+.da TEKST4H   69mm 232.8mm width 50mm
+.da TEKST4I   69mm 237mm width 50mm
+.da TEKST4J   69mm 241mm width 50mm
+.da CPR4      56mm 245mm width 50mm
+.da KTONR4    56mm 248.5mm width 50mm
+.da BEMÆRK4   128mm 220mm width 50mm
+.da TIL4      25mm 253mm width 10mm
+.da UDSTED4   10.5mm 260mm width 25mm
+.da UNDERSK4  129mm 268mm width 70mm
+.da LBNR4     18mm 274mm width 25mm
+.da TRUKKET4  59mm 274mm width 19mm
+.da TK4       81mm 274mm width 19mm
+.da KONTONR4  92mm 274mm width 19mm
+.da BELØB4    153mm 274mm width 30mm
+.******************************************
+.ar OVERSK3 on
+Til debet for nedennævnte*) pengeinstitut har vi i mellemregning trukket
+.br
+anførte beløb til dækning af:
+.ar off
+.**********************************
+.ar DATO3 on
+Dato:
+.ar off
+.**********************************
+.ar TEKST3A on
+Se vedlagte
+.ar off
+.**********************************
+.ar TEKST3B on
+Se bemærkninger
+.ar off
+.**********************************
+.ar TEKST3C on
+Protestmeddelelse (check)
+.ar off
+.***********************************
+.ar TEKST3D on
+Protestmeddelelse (Dankort)
+.ar off
+.***********************************
+.ar TEKST3E on
+Udenlandsk checkrimesse
+.ar off
+.***********************************
+.ar TEKST3F on
+Rembursmateriale
+.ar off
+.***********************************
+.ar TEKST3G on
+Debet Finansstyrelsens konto nr.
+.ar off
+.************************************
+.ar TEKST3H on
+Boligsparekontrakt (deludbetaling)
+.ar off
+.************************************
+.ar TEKST3I on
+Boligsparekontrakt (slutudbetaling)
+.ar off
+.************************************
+.ar TEKST3J on
+Uddannelsesopsparing
+.ar off
+.************************************
+.ar CPR3 on
+Kontohavers CPR-nr.
+.ar off
+.*******************************
+.ar KTONR3 on
+Kontohavers konto nr.
+.ar off
+.*******************************
+.ar BEMÆRK3 on
+Bemærkninger:
+.ar off
+.*******************************
+.ar TIL3 on
+Til*
+.ar off
+.*******************************
+.ar UDSTED3 on
+Udsteders
+.tp 2mm
+¤reg.nr.
+.br
+¤(4cifre)
+.ar off
+.********************************
+.ar LBNR3 on
+Løbenr.(8 cifre)
+.ar off
+.********************************
+.ar TRUKKET3 on
+Trukket på*
+.ar off
+.**********************************
+.ar TK3 on
+.tp 2mm
+TK
+.sp 2mm
+¤80
+.ar off
+.**********************************
+.ar BELØB3 on
+Kroner
+.ar off
+.******************************************
+.ar OVERSK4 on
+Til debet for nedennævnte*) pengeinstitut har vi i mellemregning trukket
+.br
+anførte beløb til dækning af:
+.ar off
+.**********************************
+.ar DATO4 on
+Dato:
+.ar off
+.********************************
+.ar TEKST4A on
+Se vedlagte
+.ar off
+.********************************
+.ar TEKST4B on
+Se bemærkninger
+.ar off
+.********************************
+.ar TEKST4C on
+Protestmeddelelse (check)
+.ar off
+.********************************
+.ar TEKST4D on
+Protestmeddelelse (Dankort)
+.ar off
+.**********************************
+.ar TEKST4E on
+Udenlandsk checkrimesse
+.ar off
+.**********************************
+.ar TEKST4F on
+Rembursmateriale
+.ar off
+.**********************************
+.ar TEKST4G on
+Debet Finansstyrelsens konto nr.
+.ar off
+.**********************************
+.ar TEKST4H on
+Boligsparekontrakt (deludbetaling)
+.ar off
+.*************************************
+.ar TEKST4I on
+Boligsparekontrakt (slutudbetaling)
+.ar off
+.*************************************
+.ar TEKST4J on
+Uddannelsesopsparing
+.ar off
+.*************************************
+.ar CPR4 on
+Kontohavers CPR-nr.
+.ar off
+.*************************************
+.ar KTONR4 on
+Kontohavers konto nr.
+.ar off
+.**********************************
+.ar BEMÆRK4 on
+Bemærkninger:
+.ar off
+.**********************************
+.ar TIL4 on
+Til*
+.ar off
+.**********************************
+.ar UDSTED4 on
+Udsteders
+.tp 2mm
+¤reg.nr.
+.br
+¤(4cifre)
+.ar off
+.********************************
+.ar UNDERSK4 on
+.hr left 67mm
+Underskrift
+.ar off
+.********************************
+.ar LBNR4 on
+Løbenr.(8 cifre)
+.ar off
+.********************************
+.ar TRUKKET4 on
+Trukket på*
+.ar off
+.********************************
+.ar TK4 on
+.tp 2mm
+TK
+.sp 2mm
+¤80
+.ar off
+.*****************************
+.ar KONTONR4 on
+Kontonr.
+.ar off
+.*****************************
+.ar BELØB4 on
+Kroner
+.ar off
+.*****************************

@@ -1,0 +1,18 @@
+Ifølge aftale fremsender vi &DIT budgetskema. Vi beder &DIG kontrollere, om
+oplysningerne i skemaet er rigtige.
+.sp
+.if &U'&BECJA01 eq NEJ
+.th .go hop
+Endvidere vedlægger vi en ny budgetserviceaftale, som &DU bedes underskrive
+og returnere til os.
+.sp
+...hop
+Hvis &DU har ændringer eller tilføjelser til budgettet, bedes &DU kontakte
+&EKSPNAVN..
+.if &L'&BECTEKST1 > 0
+.th .sp
+&BECTEKST1.
+&BECTEKST2.
+&BECTEKST3.
+&BECTEKST4.
+.*************************************************************************

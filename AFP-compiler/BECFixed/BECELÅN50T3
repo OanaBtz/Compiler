@@ -1,0 +1,125 @@
+.el In the event of late payment, &BANKNAVN is entitled to charge an annual
+.el variable default interest rate, currently representing a variable
+.el surcharge of &PROVOVERTR. % in addition to the interest.
+...PROVSL
+.if &U'&PRIERH = P
+.th .br
+.th If the right of withdrawal is exercised, the daily amount of interest
+.th is DKK &FTRRTEDAG..
+.***************
+.if &L'&DEBKONTO = 0
+.th .go MORARTE
+.sp 5mm
+:FED.
+Payment
+.br
+:SKRSLUT.
+Due payments/extraordinary repayment is charged from account
+no. &DEBKONTO..
+.br
+&debsomt will not receive separate notification of amounts withdrawn from
+the account. &debsomt
+are responsible for ensuring that we have sufficient funds in our account.
+.sp 5mm
+...MORARTE
+.***
+.if &U'&RENTETYP = D
+.th differentiated
+and are set from time to time by
+&BANKNAVN..
+.sp 3mm
+.if &U'&RENTETYP = F
+.th The annual interest rate is fixed and makes up &RENTE %.
+.if &U'&RENTETYP = V
+.th .go RTEV
+.el .go RTED
+...RTEV
+At present, the interest rate is &RENTE % p.a. &ÅCONT
+Interest is calculated and charged
+.if &RTEFREK01 = 1
+.th monthly
+.if &RTEFREK01 = 3
+.th quarterly
+.if &RTEFREK01 = 6
+.th half-yearly
+.if &RTEFREK01 = 9
+.th yearly
+in arrears.
+...RTED
+.if &U'&RENTETYP = D
+.th Interest is differentiated and is set out in the credit information.
+.**PROVISION ***
+.if &L'&PROV = 0
+.an &L'&PROVOVERTR = 0
+.an &L'&PROVBEVILG = 0
+.th .go PROVSL
+.el .go PROV
+...PROV
+.sp 3mm
+.if &L'&PROV > 0
+.th At present, the commission is &PROV % p.a.
+.th .br
+.if &L'&PROVOVERTR > 0
+.th At present, overdraft commission is &PROVOVERTR % p.a.
+.th .br
+.if &L'&PROVBEVILG > 0
+.th At present, the commission for the overdraft limit is
+.th &PROVBEVILG % p.a.
+.th .br
+.if &L'&PROVOVERTR > 0
+.an &U'&PRIERH = P
+.th In the event of late payment, &BANKNAVN is entitled to charge an annual
+.th variable default interest rate, currently representing a variable
+.th surcharge of &PROVOVERTR. % in addition to the interest.
+.th It corresponds to an annual interest rate, currently representing
+.th %MORARTE. % (annual interest rate compound interest).
+.***************
+.if &L'&AFTDATO10 = 0
+.an &L'&GENFDATO = 0
+.th .go INDFRI
+:FED.
+Agreement date
+.br
+:SKRSLUT.
+.if &L'&AFTDATO10 > 0
+.th .go AFTDATO
+.el .go GENFDATO
+...AFTDATO
+&debsomt
+will pay the outstanding loan balance, including interest until the date of
+payment, on or before &AFTDATO10..
+...GENFDATO
+.if &L'&GENFDATO > 0
+.th .br
+.th The loan will be renegotiated on
+.th &GENFDATO..
+.sp 5mm
+...INDFRI
+.*******************************
+.if &L'&INDFRIDATO > 0
+.th
+.el .go RENTE
+:FED.
+Repayment
+:SKRSLUT.
+.br
+&debsomt. will pay the
+outstanding loan balance, including interest until the date of
+payment, on or before &INDFRIDATO..
+.sp 5mm
+...RENTE
+.*******************************
+.sp
+Settlement of payments and early repayments must be made into the loan
+account.
+.sp 5mm
+:FED.
+Interest and costs
+.br
+:SKRSLUT.
+Interest is payable on the loan amount from the date of disbursement.
+Interest and costs are
+.if &U'&RENTETYP = F
+.th fixed
+.if &U'&RENTETYP = V
+.th variable

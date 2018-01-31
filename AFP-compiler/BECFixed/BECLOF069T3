@@ -1,0 +1,97 @@
+.**************************************************************************
+.dr thin weight 0.1mm
+.kp on
+:FED.
+D - Forsikring
+:SKRSLUT.
+.sp
+Det påhviler leasingtager at tegne ansvars- og kaskoforsikring.
+.sp
+Leasingtager har valgt at tegne forsikring hos
+.if &L'&FORS1 > 0
+.th .go FORS
+.el .go EJFORS
+...FORS
+:SKRSLUT.&FORS1..:SWISS8.
+.go CONT1
+...EJFORS
+.hr 70mm 156mm
+.br
+:FED.
+(påfør venligst forsikringsselskab på linjen, såfremt det ikke er oplyst)
+:SKRSLUT.
+...CONT1
+.br
+Der henvises i øvrigt til § 11 i Almindelige betingelser.
+.sp
+.kp off
+.kp on
+:FED.
+E - Maksimumkilometer
+:SKRSLUT.
+.sp
+I den aftalte leasingperiode må leasingtager maksimalt køre
+:SKRSLUT. &ANTALKM.:SWISS8. km
+og forholdsmæssigt mindre, hvis leasingperioden bringes til ophør forinden.
+.sp
+Hvis der køres færre kilometer i perioden end det maksimalt tilladte
+(underkørte kilometer), ydes der tilbagebetaling til leasingtager pr. km
+med kr.:SKRSLUT. &UNDERKM..:SWISS8.
+.sp
+.kp off
+.kp on
+Hvis der køres flere kilometer i perioden end det maksimalt tilladte
+(overkørte kilometer), betales af leasingtager til leasinggiver pr. km
+kr.:SKRSLUT. &OVERKM..:SWISS8.
+.sp
+.kp off
+.kp on
+Leasinggiver er berettiget til at modtage oplysninger om kørte kilometer,
+når bilen er til service/reparation. Leasinggiver er herudover berettiget
+til at kræve dokumentation for antallet af kørte kilometer, når der er
+forløbet 12 måneder af leasingperioden, og herefter på ny for hver ny
+12-månedersperiode.
+.sp
+.kp off
+.kp on
+Såfremt der herved konstateres overkørte
+kilometer, der udgør mere end 25% af det aftalte kilometertal
+forholdsmæssigt fordelt over perioden, er leasinggiver berettiget
+til at kræve et depositum betalt, svarende til vederlaget for det
+pågældende antal overkørte kilometer.
+.sp
+.kp off
+.kp on
+Hvis leasingtager ved leasingperiodens udløb samlet ikke har kørt
+et højere antal kilometer, end aftalt for hele perioden, frigiver
+leasinggiver det stillede depositum uden renter, men er i modsat
+fald berettiget til at modregne sit krav på overkørte
+kilometer i det stillede depositum.
+.sp
+Såfremt leasingtager bliver opmærksom på ændret kørselsbehov, kan
+leasingtager rette henvendelse til leasinggiver med henblik på at få
+et tilbud om ændret maksimumkilometer, ny leasingafgift m.v.
+.sp
+.kp off
+.kp on
+:FED.
+F - Service
+:SKRSLUT.
+.sp
+Leasinggiver og leasingtager har indgået service- og
+vedligeholdelsesaftale som en integreret og fast del af
+privatleasingaftalen.
+.sp
+Service- og vedligeholdelsesaftalen omfatter ydelser som nævnt i
+vedlagte bilag 2.
+.sp
+.kp off
+.kp on
+:FED.
+G - Almindelige betingelser
+:SKRSLUT.
+.sp
+I øvrigt gælder efterstående 'Almindelige betingelser for billeasing
+til private' i retsforholdet mellem parterne.
+.sp
+.kp off

@@ -1,0 +1,26 @@
+.*TESTBREV*****************************************************************
+.* ant tegn *********************************************************
+OCRB08.
+.sp
+:OCRB08.
+abcdefgh ABCDEFGH 1234567
+:SKRSLUT.
+.sp
+OCRB10.
+.sp
+:OCRB10.
+abcdefgh ABCDEFGH 1234567
+:SKRSLUT.
+.sp
+OCRB11.
+.sp
+:OCRB11.
+abcdefgh ABCDEFGH 1234567
+:SKRSLUT.
+.sp
+OCRB12.
+.sp
+:OCRB12.
+abcdefgh ABCDEFGH 1234567
+:SKRSLUT.
+.sp

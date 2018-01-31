@@ -1,0 +1,10 @@
+.if &B50FORS = 1
+.th .se fsik = Motorkøretøjsforsikring
+.el .se fsik = Lystfartøjsforsikring
+.us &fsik police nr. &B50POLICE
+.sp2
+Vedlagt fremsendes forsikringspolice vedrørende ovennævnte
+forsikring.
+.sp2
+&SDIN forsikring har ikrafttrædelse pr. &B50DATO16..
+.sp

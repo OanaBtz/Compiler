@@ -1,0 +1,26 @@
+.*********************GENEREL OPSÆTNING************************************
+.*:TILTALE &TILTALEF
+:COUR10.
+.fo left
+.ti ¤ 05
+.*********************AREAL-DEFINITIONER***********************************
+.* Brevstart, incl. overskrift
+.da START 20mm 110mm
+.* Brevnavn, roteret i venstre hjørne
+.da VEND 7mm 250mm width 180mm rotate -90
+.*da VEND 7mm 270mm width 180mm rotate -90
+.*********************ROTERET BREVNAVN*************************************
+.ar VEND on
+:COUR6.
+&BREVNAVN
+.ar off
+.*********************STARTPOSITION FOR BREVET, INCL OVERSKRIFT************
+.ar START on
+:SWISS12.
+:FED.
+Det fælles indbetalingssystem
+:SKRSLUT.
+:SKRSLUT.
+:SWISS10.
+.sp
+.**************************************************************************

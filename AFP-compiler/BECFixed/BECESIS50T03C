@@ -1,0 +1,153 @@
+.sp 5mm
+.kp off
+
+.if &U'&LINSKIP53 = J.
+th .br.
+el .ct &SIKHED54A..
+el .br.
+el .go SIK55.
+..SIK54&
+SIKHED54A..
+if &U'&LINSKIP54 = J.
+th .br.
+el .ct &SIKHED55A..
+el .br.
+el .go SIK56.
+..SIK55&
+SIKHED55A..
+if &U'&LINSKIP55 = J.
+th .br.
+el .ct &SIKHED56A..
+el .br.
+el .go SIK57.
+..SIK56&
+SIKHED56A..
+if &U'&LINSKIP56 = J.
+th .br.
+el .ct &SIKHED57A..
+el .br.
+el .go SIK58.
+..SIK57&
+SIKHED57A..
+if &U'&LINSKIP57 = J.
+th .br.
+el .ct &SIKHED58A..
+el .br.
+el .go SIK59.
+..SIK58&
+SIKHED58A..
+if &U'&LINSKIP58 = J.
+th .br.
+el .ct &SIKHED59A..
+el .br.
+el .go SIK60.
+..SIK59&
+SIKHED59A..
+if &U'&LINSKIP59 = J.
+th .br.
+el .ct &SIKHED60A..
+el .br.
+el .go T03CX.
+..SIK60&
+SIKHED60A..
+..T03CX
+.el .br.
+el .go SIK48.
+..SIK47&
+SIKHED47A..
+if &U'&LINSKIP47 = J.
+th .br.
+el .ct &SIKHED48A..
+el .br.
+el .go SIK49.
+..SIK48&
+SIKHED48A..
+if &U'&LINSKIP48 = J.
+th .br.
+el .ct &SIKHED49A..
+el .br.
+el .go SIK50.
+..SIK49&
+SIKHED49A..
+if &U'&LINSKIP49 = J.
+th .br.
+el .ct &SIKHED50A..
+el .br.
+el .go SIK51.
+..SIK50&
+SIKHED50A..
+if &U'&LINSKIP50 = J.
+th .br.
+th .kp off.
+th .kp on.
+el .ct &SIKHED51A..
+el .br.
+el .kp off.
+el .kp on.
+el .go SIK52.
+..SIK51&
+SIKHED51A..
+if &U'&LINSKIP51 = J.
+th .br.
+el .ct &SIKHED52A..
+el .br.
+el .go SIK53.
+..SIK52&
+SIKHED52A..
+if &U'&LINSKIP52 = J.
+th .br.
+el .ct &SIKHED53A..
+el .br.
+el .go SIK54.
+..SIK53&
+SIKHED53A.
+.******************************************************************.
+tp 3mm 140mm right.
+*.dr tynd weight 0.2mm.
+******************************************************************.
+if &U'&LINSKIP40 = N.
+an &L'&SIKHED41A > 0.
+th .go SIK42.
+if &U'&LINSKIP40 = J.
+an &L'&SIKHED41A > 0.
+th .go SIK41.
+..SIK41&
+SIKHED41A..
+if &U'&LINSKIP41 = J.
+th .br.
+el .ct &SIKHED42A..
+el .br.
+el .go SIK43.
+..SIK42&
+SIKHED42A..
+if &U'&LINSKIP42 = J.
+th .br.
+el .ct &SIKHED43A..
+el .br.
+el .go SIK44.
+..SIK43&
+SIKHED43A..
+if &U'&LINSKIP43 = J.
+th .br.
+el .ct &SIKHED44A..
+el .br.
+el .go SIK45.
+..SIK44&
+SIKHED44A..
+if &U'&LINSKIP44 = J.
+th .br.
+el .ct &SIKHED45A..
+el .br.
+el .go SIK46.
+..SIK45&
+SIKHED45A..
+if &U'&LINSKIP45 = J.
+th .br.
+el .ct &SIKHED46A..
+el .br.
+el .go SIK47.
+..SIK46&
+SIKHED46A..
+if &U'&LINSKIP46 = J.
+th .br.
+el .ct &SIKHED47A.

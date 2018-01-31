@@ -1,0 +1,50 @@
+.*SUBSTRINGS***************************************************************
+.su off
+.se cprcvr = substr &KTOKNDNR1 1 2
+.se mcprcvr = substr &MEDKNDNR1 1 2
+.su on
+.**************************************************************************
+.* TEST PÅ KONSTRUERET KUNDENUMMER
+.if x&cprcvr > x31
+.th .se kunnr = 'Kundenr.'
+.**************************************************************************
+.if x&mcprcvr > x31
+.th .se mkunnr = 'Kundenr.'
+.**************************************************************************
+.* TEST PÅ VIRKSOMHED
+.if x&cprcvr = x00
+.th .se kunnr = 'CVR-nr.'
+.**************************************************************************
+.if x&mcprcvr = x00
+.th .se mkunnr = 'CVR-nr.'
+.**************************************************************************
+.* TEST PÅ ØVRIGE KUNDER
+.if x&cprcvr > x00
+.an x&cprcvr < x32
+.th .se kunnr = 'CPR-nr.'
+.**************************************************************************
+.* TEST PÅ ØVRIGE KUNDER
+.if x&mcprcvr > x00
+.an x&mcprcvr < x32
+.th .se mkunnr = 'CPR-nr.'
+.**************************************************************************
+.if &U'X&GENVITT ne XJ
+.an &U'X&GENVITT ne XN
+.th .mg/T/Vitterlighedsvidner: Vælg J(a) eller N(ej)/
+.**************************************************************************
+.if &L'&GENCPR1 > 0
+.an &L'&GENNAVN1 = 0
+.th .mg/T/1. fuldmagtshavers navn mangler/
+.**************************************************************************
+.if &L'&GENCPR2 > 0
+.an &L'&GENNAVN2 = 0
+.th .mg/T/2. fuldmagtshavers navn mangler/
+.**************************************************************************
+.if &L'&GENCPR3 > 0
+.an &L'&GENNAVN3 = 0
+.th .mg/T/3. fuldmagtshavers navn mangler/
+.**************************************************************************
+.if &L'&GENCPR4 > 0
+.an &L'&GENNAVN4 = 0
+.th .mg/T/4. fuldmagtshavers navn mangler/
+.**************************************************************************

@@ -1,0 +1,83 @@
+.******************************************************************
+.ll 175mm
+.in 1mm
+.ir 1mm
+:SWISS9.
+.sp 5mm
+.tp 5mm
+.kp on
+.bx left right
+.if X&GENVALG = X1
+.th.go T4FORBI
+.sp 3mm
+Brugeradministrator(er) med fuldmagt til og ret til brugeradministration af
+&NAVN2.s konti og depoter, er de til en hver tid fungerende
+brugeradministratorer hos &NAVN.. Brugeradministrator(er) kan kun oprettes
+af &BANKNAVN., men såfremt en eller flere nye
+Brugeradministrator(er) udpeges for &NAVN., gælder &NAVN2.s fuldmagt
+til &NAVN. også for den/de pågældende.
+.sp 3mm
+Brugeradministratorers autorisation til godkendelse er:
+.if X&GENVALG2 = X1
+.th Alene
+.if X&GENVALG2 = X2
+.th 2 i forening
+...T4FORBI
+.sp 3mm
+Nærværende fuldmagt og autorisation(er) er gældende, indtil &BANKNAVN.
+modtager en skriftlig tilbagekaldelse heraf, eller anmodning om ændring
+fra &NAVN. og/eller &NAVN2..
+.sp 3mm
+Brugeradministrators autorisation i henhold til denne aftale gælder for
+&NAVN2. til enhver tid eksisterende engagement og aftaler, som er
+tilgængelige i &WEBSYSNAVN. &prierh..
+.sp 3mm
+En brugers adgang og dispositionsret til konti og depoter, tildelt af en
+Brugeradministrator, er gældende indtil den skriftligt tilbagekaldes af
+&NAVN2., &NAVN. eller slettes/ændres af en Brugeradministrator, og ophører
+ikke selvom en eller flere Brugeradministratorers fuldmagt eller
+autorisation tilbagekaldes.
+.sp 3mm
+Enhver disposition foretaget af en Brugeradministrator eller Bruger i
+&BANKNAVN.s &WEBSYSNAVN. &prierh. på &NAVN2.s konti og depoter er omfattet
+af &WEBSYSNAVN. &prierh. aftalen. Enhver disposition foretaget af en
+Brugeradministrator vedrørende autorisation og adgang til konti og depoter
+er endvidere omfattet af aftale om selvbetjent brugeradministration, der
+finder anvendelse på denne aftale.
+.sp 3mm
+&NAVN. er bekendt med, og accepterer, at adgangen til selvbetjent
+brugeradministration er personlig for de af &NAVN.s godkendte
+brugeradministratorer, og der skal indgås særskilt aftale med &BANKNAVN.,
+såfremt andre personer skal have adgang som Brugeradministratorer. &NAVN.
+er overfor &NAVN2. ansvarlig for enhver disposition foretaget i &BANKNAVN.s
+&WEBSYSNAVN. &prierh. i henhold til &WEBSYSNAVN. &prierh. aftalen.
+.sp 3mm
+&NAVN2. er bekendt med, og accepterer, at brugere i &NAVN.s selskab kan se
+og disponere over &NAVN2.s konti og depoter i det omfang
+Brugeradministratorer har tildelt rettigheder. Se brugerrettigheder i
+bilag.
+.sp 3mm
+&NAVN2. er indforstået med, at &BANKNAVN. ikke kan gøres ansvarlig for
+tab, der følger af dispositioner foretaget af Brugeradministrator(er)
+eller brugere, eller hvor ansvaret ikke udtrykkeligt påhviler &BANKNAVN. i
+medfør af &WEBSYSNAVN. &prierh. aftalen.
+.sp 3mm
+&NAVN2. og &NAVN. har i forening det fulde ansvar for Brugeradministrators
+og bruger anvendelse af &WEBSYSNAVN. &prierh., og for tab som følge af
+uberettiget brug af en Brugeradministrators eller brugers adgang til at
+disponere via &BANKNAVN.s &WEBSYSNAVN. &prierh.. &BANKNAVN. har ikke
+ansvar for fordelingen af det interne ansvar mellem &NAVN2. og &NAVN..
+.sp 3mm
+&NAVN. er til enhver tid ansvarlig for at kunne identificere sine brugere
+og skal på &BANKNAVN.s foranledning kunne legitimere disse.
+.sp 3mm
+Denne aftale træder i kraft, når aftalen er underskrevet og &BANKNAVN. har
+modtaget og aktiveret den.
+.sp 3mm
+Aftalen kan opsiges uden varsel ved skriftlig henvendelse fra en af
+parterne til &BANKNAVN. Opsigelse af denne aftale medfører ikke opsigelse
+af &WEBSYSNAVN. &prierh..
+.sp 5mm
+.bx off
+.kp off
+.**************************************************************************

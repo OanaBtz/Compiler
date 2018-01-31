@@ -1,0 +1,50 @@
+:COUR10.
+.da KONTOHAV 25mm 51mm width 80mm
+.da KONTOCPR 32,5mm 71,5mm width 80mm
+.da OPRETTER 113mm 51mm width 70mm
+.da CPRNR 120,5mm 71,5mm width 70mm
+.da KONTONR 25mm 82mm width 70mm
+.da OPRTID 113mm 82mm width 70mm
+.da PENGEINS 25mm 93mm width 80mm
+.da VÄRGE 113mm 93mm width 70mm
+.da VÄRGECPR 120,5mm 104,5mm width 70mm
+.da BINDPER 54mm 111mm width 90mm
+.da BIDRAG 72mm 122,5mm width 19mm
+.da BETALMD 97mm 122,5mm width 30mm
+.da OVFÄROP 51mm 126,5mm width 30mm
+.da FÄRGANG 114mm 126,5mm width 30mm
+.da OPUNDSK 25mm 246,5mm width 170mm
+.da PIUNDSK 25mm 274mm width 170mm
+.**********************************************
+.ar KONTOHAV on
+&KTOSTILL
+.br
+&KTONAVN
+.br
+&KTOCO
+.br
+&KTOGADE
+.br
+&KTOBY
+.br
+&KTOLAND
+.ar off
+.************************************************
+.ar KONTOCPR on
+&KTOKNDNR1
+.ar off
+.************************************************
+.ar OPRETTER on
+&INDSTIL
+.br
+&INDNAVN
+.br
+&INDCO
+.br
+&INDGADE
+.br
+&INDBY
+.br
+&INDLAND
+.ar off
+.*************************************************

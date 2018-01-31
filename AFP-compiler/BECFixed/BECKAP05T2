@@ -1,0 +1,62 @@
+Denne attest betales af patienten til læge/sygehus og sendes til:
+.sp
+Pensionsinstitut:
+.ar off
+.******************************************
+.ar UNDER on
+Den almindelige Danske Lægeforening
+.br
+Skatteministeriet
+.ar off
+.******************************************
+.pa
+:SWISS8.
+.da KUNDE      21mm 46mm width 85mm
+.da CPR        21mm 71mm width 85mm
+.da ERKL       21mm 81mm width 170mm
+.da LÆGEU   107,5mm 125,5mm width 85mm
+.da SAMT       21mm 158mm width 170mm
+.da KUNDEU  107,5mm 172mm width 85mm
+.da PI         21mm 204mm width 85mm
+.da UNDER   107,5mm 256,5mm width 85mm
+.******************************************
+.ar KUNDE on
+Patient-/kundeoplysninger
+.ar off
+.*************************************************
+.ar CPR on
+CPR.nr
+.ar off
+.******************************************
+.ar ERKL on
+Undertegnede læge erklærer herved, at ovennævnte patient/kunde
+har en sygdom omfattet af Skatteministeriets bekendtgørelse nr.
+1293 af 13. december 2012 om udbetaling af kapitalpension m.v. ved
+livstruende sygdom. (Se bilag.)
+.sp 5mm
+Lægens navn og adresse: (evt. stempel)
+.ar off
+.******************************************
+.ar LÆGEU on
+Dato:
+.sp 18mm
+.hr left right
+.ce Lægens underskrift
+.ar off
+.******************************************
+.ar SAMT on
+(Udfyldes kun, hvor pensionsinstituttet på vegne af patient/kunde anmoder
+om erklæringen)
+.sp 5mm
+Jeg giver mit samtykke til, at denne attest må videregives til
+nedennævnte pensionsinstitut.
+.ar off
+.******************************************
+.ar KUNDEU on
+Dato:
+.sp 18mm
+.hr left right
+.ce &NAVN
+.ar off
+.******************************************
+.ar PI on

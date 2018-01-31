@@ -1,0 +1,35 @@
+Vedlagt fremsendes:
+.sp
+.in 15mm
+.if &L'&GENTXT1 gt 0
+.th - &GENTXT1
+.th .br
+.if &L'&GENTXT2 gt 0
+.th - &GENTXT2
+.th .br
+.if &L'&GENTXT3 gt 0
+.th - &GENTXT3
+.th .br
+.if &L'&GENTXT4 gt 0
+.th - &GENTXT4
+.th .br
+.if &L'&GENTXT5 gt 0
+.th - &GENTXT5
+.th .br
+.if &L'&GENTXT6 gt 0
+.th - &GENTXT6
+.th .br
+.sp 9mm
+.in 0mm
+&GENTEKST7.
+&GENTEKST8.
+&GENTEKST9.
+&GENTEKST10.
+&GENTEKST11.
+&GENTEKST12.
+&GENTEKST13.
+&GENTEKST14.
+&GENTEKST15.
+&GENTEKST16.
+&GENTEKST17.
+&GENTEKST18.

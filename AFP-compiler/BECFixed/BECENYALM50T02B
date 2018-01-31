@@ -1,0 +1,29 @@
+.*************************************************************************
+.* Mulighed 2 - For institutter, hvor rentedatoen er ens for alle konti  *
+.*              og overførselstyper                                      *
+.*************************************************************************
+.tp 5mm
+.kp on
+.us 1.8 Deposits
+.br
+For cash deposits, including deposits made by card, e.g. Dankort
+or Visa/Dankort, the value date is same business day as the deposit date.
+.sp 3mm
+.kp off
+.kp on
+In connection with a transfer in Danish kroner from other Danish
+banks the value date is the business day on which the amount is received
+by &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+In connection with a transfer in Danish kroner between accounts with
+&BANKNAVN., the value date is the business day on which the amount is
+deposited on the recipient's account.
+.sp 3mm
+.kp off
+.kp on
+If an amount is transferred to Denmark and the receipt is in a currency
+other than Danish kroner in Denmark, reference is made to &GENUDLOVFN..
+.sp 3mm
+.kp off
