@@ -1,6 +1,0 @@
-.*
-.su off
-.se reg = substr &DEPOTNR 1 4
-.se dep = substr &DEPOTNR 5 7
-.su on
-.***

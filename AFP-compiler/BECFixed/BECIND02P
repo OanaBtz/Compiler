@@ -1,8 +1,0 @@
-.*
-.**************************************************************************
-.*REGNR og KTONR1 er med i brevet men bruges ikke længere. De er bibeholdet
-.*for at nuv. banker kan fortsætte med at bruge disse.*********************
-.**************************************************************************
-.if &U'X&BECTEST01 < X1
-.or &U'X&BECTEST01 > X3
-.th .mg/T/Vælg enten 1, 2 eller 3 for løn, pension eller dagpenge

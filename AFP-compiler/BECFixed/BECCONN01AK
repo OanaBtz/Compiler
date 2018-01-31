@@ -1,8 +1,0 @@
-.*************** definer siden som et areal *******************************
-.da SIDE 20mm 40mm width 175mm
-.** PARTER ****************************************************************
-.ar SIDE on
-.bx left right
-.sp 235mm
-.bx off
-.ar off

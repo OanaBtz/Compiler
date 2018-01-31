@@ -1,5 +1,0 @@
-Ydelse før konvertering kr. &B20YDEL.
-.BR
-.se KONV = SUBSTR &B20YDEL 1 &L'&B20YDEL
-Ydelse efter konvertering kr. &KONV.
-.BR

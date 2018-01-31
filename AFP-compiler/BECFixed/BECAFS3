@@ -1,7 +1,0 @@
-.if &L'&BECTEKST61 > 0
-.th .fo on
-.th .sp
-&BECTEKST61.
-&BECTEKST62.
-&BECTEKST63.
-.fo off

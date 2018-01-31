@@ -1,3 +1,0 @@
-.*
-.se regnr = substr &LANGKTONR 1 4
-.se ktonr = substr &LANGKTONR 5 21

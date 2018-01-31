@@ -1,7 +1,0 @@
-.su off
-.se cprnr = substr &KTOKNDNR1 1
-.su on
-.if x&cprnr eq x0505
-.th Tillykke med fødsesldagen.
-.el Hej.
-.sp

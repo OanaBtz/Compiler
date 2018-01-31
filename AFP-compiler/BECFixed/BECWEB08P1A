@@ -1,8 +1,0 @@
-.*
-.*
-.if &L'&WEBSYSNAVN = 0
-.th .se WEBSYSNAVN = 'Netbank'
-.*****************************
-.if &U'&WEBPRIERH = E
-.th .se prierh = '(Erhverv)'
-.el .se prierh = '(Privat)'

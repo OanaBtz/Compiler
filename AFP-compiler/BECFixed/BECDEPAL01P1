@@ -1,5 +1,0 @@
-.**************************************************************************
-.su off
-.se regnr = substr &DEPOTNR 1 4
-.se depnr = substr &DEPOTNR 5 6
-.su on

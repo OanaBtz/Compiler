@@ -1,3 +1,0 @@
-.*
-.if &L'&MOBSYSNAVN = 0
-.th .se MOBSYSNAVN = 'mobilbank'

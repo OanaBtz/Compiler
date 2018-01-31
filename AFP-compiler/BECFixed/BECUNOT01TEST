@@ -1,4 +1,0 @@
-.*TEST PÅ OM ORDRESEDDEL SKAL UDSKRIVES ***********************************
-.*HVIS DER IKKE STÅR J I FELTET, STOPPER AL UDSKRIVNING *******************
-.if &U'&GENJANEJ ne J
-.th .qu

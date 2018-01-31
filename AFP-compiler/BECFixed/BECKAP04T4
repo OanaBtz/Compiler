@@ -1,9 +1,0 @@
-.da BETAL 21mm 166mm width 165mm
-.**************************************************************************
-.ar BETAL on
-Til min konto, regnr.
-:SKRSLUT.&udreg
-:SWISS8.
-.ct , kontonr.
-:SKRSLUT.&udkto
-.ar off

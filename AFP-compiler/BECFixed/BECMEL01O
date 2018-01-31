@@ -1,9 +1,0 @@
-.* GRUNDEN TIL AT BECMEL01 ER EJET AF KUNDEUDD, ER AT BANKERNE IKKE MÅ FÅ
-.* LOV TIL AT LAVE TILRETNINGER I BREVET. *********************************
-.*********************ROTERET BREVNAVN*************************************
-.da VEND 7mm 270mm width 180mm rotate -90
-.ar VEND on
-:COUR6.
-&BREVNAVN
-.ar off
-.**************************************************************************

@@ -1,5 +1,0 @@
-.*
-.*Parametrene PENPLEJE og PENPLEJE1 indeholder den pensionspleje der er
-.*valgt til kunden. Parameterne er indsat uden mellemrum, da teksten
-.*overføres fra Pensionsaftalesystemet. Hvis PENPLEJE1 skal starte med et
-.*mellemrum, indsættes dette fra Pensionsaftalesystemet.

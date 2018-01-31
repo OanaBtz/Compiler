@@ -1,5 +1,0 @@
-.*TEST PÅ OM FORRETNINGSBETINGELSERNE SKAL UDSKRIVES **********************
-.*DE UDSKRIVES IKKE FOR ERHVERV - KUN FOR PRIVATE**************************
-.*HVIS DER IKKE STÅR E I FELTET, STOPPER AL UDSKRIVNING *******************
-.if &U'&WEBPRIERH = E
-.th .qu

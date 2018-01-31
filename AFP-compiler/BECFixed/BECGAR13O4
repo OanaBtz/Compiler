@@ -1,8 +1,0 @@
-.*************** AREAL-DEFINITIONER **************************************
-.da SIDENR  160mm 34.5mm width 75mm
-.*************** SIDENR **************************************************
-.ar SIDENR on
-:COUR8.
-.if &U'&GENREGARAN = J
-.th Side 2 af 2
-.ar off
