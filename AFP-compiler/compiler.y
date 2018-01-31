@@ -28,8 +28,8 @@ Node docNode(DOCUMENT, "");
 	char tokens[1000];
 }
 
-%token <tokens> NOTEQUAL_T OF_T CL_T CD_T TM_T DEPTH_T HY_T HR_T MG_T DR_T WEIGHT_T UPPERCASE_T LENGTH_T IN_T PA_T NS_T IR_T IF_T EL_T TH_T OR_T AN_T CT_T EQUAL_T GTHANE_T LTHANE_T GTHAN_T LTHAN_T CANCEL_T RH_T KP_T LL_T GOTO_T EXECUTE_T LABEL_T SE_T PM_T BR_T BR_UP_T NV_T NY_T PAGE_T ENY_T COMMENT_T TI_T DA_T FO_T ON_T OFF_T AR_T BX_T SP_T US_T SIZE_T STYLE_T IDENT_T VAR_UP_T VAR_T DIRECTION_T NUM_T WIDTH_T TP_T TAB_T ROTATE_T NEW_LINE_T BM_T SU_T DM_T GS_T SK_T CE_T TB_T
-%type  <tokens> CT PM BR BR_UP NV NY ENY COMMENT TI DA KP FO AR BX RH TOKEN EX IF VARPROC OPERATOR AN COMPARISON OR OPTIONALDA OPTINALMEASURE STRING_LINE SIZE_LIST SU CE DM
+%token <tokens> SUBSTR_T NOTEQUAL_T OF_T CL_T CD_T TM_T DEPTH_T HY_T HR_T MG_T DR_T WEIGHT_T UPPERCASE_T LENGTH_T IN_T PA_T NS_T IR_T IF_T EL_T TH_T OR_T AN_T CT_T EQUAL_T GTHANE_T LTHANE_T GTHAN_T LTHAN_T CANCEL_T RH_T KP_T LL_T GOTO_T EXECUTE_T LABEL_T SE_T PM_T BR_T BR_UP_T NV_T NY_T PAGE_T ENY_T COMMENT_T TI_T DA_T FO_T ON_T OFF_T AR_T BX_T SP_T US_T SIZE_T STYLE_T IDENT_T VAR_UP_T VAR_T DIRECTION_T NUM_T WIDTH_T TP_T TAB_T ROTATE_T NEW_LINE_T BM_T SU_T DM_T GS_T SK_T CE_T TB_T MATHEX_T
+%type  <tokens> CT PM BR BR_UP NV NY ENY COMMENT TI DA KP FO AR BX RH TOKEN EX IF VARPROC OPERATOR AN COMPARISON OR OPTIONALDA OPTINALMEASURE STRING_LINE SIZE_LIST SU CE DM MATHEX
 
 %%
 TOKEN		:	TOKEN DA
@@ -52,6 +52,7 @@ TOKEN		:	TOKEN DA
 			|	TOKEN RH
 			| 	TOKEN KP
 			|	TOKEN ENY
+			| 	TOKEN MATHEX
 			|	TOKEN COMMENT
 			|	TOKEN STRING_LINE
 			|	TOKEN OF_T NEW_LINE_T																	{
@@ -335,6 +336,90 @@ OR 			:	OR_T COMPARISON NEW_LINE_T																{
 																											list.push_back(orNode);	
 																										}
 			;
+MATHEX		:	VAR_T MATHEX_T NUM_T NEW_LINE_T															{
+																											cout << "MATHEX" << endl;
+																											Node mathex_node(MATHEX, "");
+																											Node varNode(STRINGVARIABLE, "");
+																											Node varNameNode(NAME, $1);
+																											Node mathExSign(MATHEX_SIGN, $2);
+																											Node numberNode(NUMBER, number);
+																											Node newlineNode(NEWLINE, "");
+																											list.push_back(mathex_node);
+																											list.push_back(varNode);
+																											list.push_back(varNameNode);
+																											list.push_back(mathExSign);
+																											list.push_back(numberNode);
+																											list.push_back(newlineNode);
+																										}
+			|	NUM_T MATHEX_T NUM_T NEW_LINE_T															{
+																											cout<< "MATHEX" << endl;
+																											Node mathex_node(MATHEX, "");
+																											Node numNode(NUMBER, $1);
+																											Node mathExSign(MATHEX_SIGN, $2);
+																											Node numNode2(NUMBER, $3);
+																											Node newlineNode(NEWLINE, "");
+																											list.push_back(mathex_node);
+																											list.push_back(numNode);
+																											list.push_back(mathExSign);
+																											list.push_back(numNode2);
+																											list.push_back(newlineNode);
+
+																										}
+			|	VAR_T MATHEX_T VAR_T NEW_LINE_T															{
+																											cout << "MATHEX" << endl;
+																											Node mathex_node(MATHEX, "");
+																											Node varNode(STRINGVARIABLE, "");
+																											Node varNameNode(NAME, $1);
+																											Node mathExSign(MATHEX_SIGN, $2);
+																											Node varNode2(STRINGVARIABLE, "");
+																											Node varNameNode2(NAME, $3);
+																											Node newlineNode(NEWLINE, "");
+																											list.push_back(mathex_node);
+																											list.push_back(varNode);
+																											list.push_back(varNameNode);
+																											list.push_back(mathExSign);
+																											list.push_back(varNode2);
+																											list.push_back(varNameNode2);
+																											list.push_back(newlineNode);
+																										}
+			|	NUM_T MATHEX_T VAR_T NEW_LINE_T															{
+																											cout << "MATHEX" << endl;
+																											Node mathExNode(MATHEX, "");
+																											Node varNode(STRINGVARIABLE, "");
+																											Node varNameNode(NAME, $3);
+																											Node mathExSign(MATHEX_SIGN, $2);
+																											numberFct($1);
+																											Node numberNode(NUMBER, number);
+																											Node newlineNode(NEWLINE, "");
+																											list.push_back(mathExNode);
+																											list.push_back(numberNode);
+																											list.push_back(mathExSign);
+																											list.push_back(varNode);
+																											list.push_back(varNameNode);
+																											list.push_back(newlineNode);
+																										}
+			|	MATHEX MATHEX_T VAR_T NEW_LINE_T														{
+																											cout << "MATHEX CONTINUED"<<endl;
+																											Node mathExSign(MATHEX_SIGN, $2);
+																											Node varNode(STRINGVARIABLE, "");
+																											Node varNameNode(NAME, $3);
+																											Node newlineNode(NEWLINE, "");
+																											list.push_back(mathExSign);
+																											list.push_back(varNode);
+																											list.push_back(varNameNode);
+																											list.push_back(newlineNode);
+																											
+																										}
+			|	MATHEX MATHEX_T NUM_T NEW_LINE_T														{
+																											cout << "MATHEX CONTINUED"<<endl;
+																											Node mathExSign(MATHEX_SIGN, $2);
+																											Node numNode(NUMBER, $3);
+																											Node newlineNode(NEWLINE, "");
+																											list.push_back(mathExSign);
+																											list.push_back(numNode);
+																											list.push_back(newlineNode);
+																										}
+			;
 STRING_LINE	:	IDENT_T																					{
 																											cout << "STRING" << endl;
 																											cout << $1 << endl;
@@ -374,6 +459,15 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 																											
 																											numberFct($2);
 																											Node spacenNode(NUMBER, number);
+
+																											list.push_back(spaceNode);
+																											list.push_back(spacenNode);
+																										}
+			|	SP_T NUM_T NEW_LINE_T																	{
+																											cout << "SP" << endl;
+																											Node spaceNode(SP, "");
+																											
+																											Node spacenNode(NUMBER, $2);
 
 																											list.push_back(spaceNode);
 																											list.push_back(spacenNode);
@@ -459,19 +553,75 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 																											Node us(US, "");
 																											list.push_back(us);
 																										}
-			|	SE_T IDENT_T EQUAL_T VAR_UP_T NEW_LINE_T												{
+			|	SE_T IDENT_T EQUAL_T IDENT_T NEW_LINE_T													{
 																											cout << "SE" << endl;
 																											Node seNode(SE, "");
 																											Node identNode(STRINGLITERAL, $2);
 																											Node equalNode(CHARACTER, $3);
 																											Node valueNode(VALUE, "");
-																											styleName($4);
-																											Node stringLiteralNode(STRINGLITERAL, name);
+																											Node stringLiteralNode(STRINGLITERAL, $4);
 																											list.push_back(seNode);
 																											list.push_back(identNode);
 																											list.push_back(equalNode);
 																											list.push_back(valueNode);
 																											list.push_back(stringLiteralNode);
+																										}
+			|	SE_T IDENT_T EQUAL_T SUBSTR_T VAR_T NUM_T NUM_T NEW_LINE_T								{
+																											cout << "SE" << endl;
+																											Node seNode(SE, "");
+																											Node identNode(STRINGLITERAL, $2);
+																											Node equalNode(CHARACTER, $3);
+																											Node valueNode(VALUE, "");
+																											Node substrNode(SUBSTR, "");
+																											Node sub1Node(NUMBER, $6);
+																											Node sub2Node(NUMBER, $7);
+
+																											substrNode.addNode(&sub1Node);
+																											substrNode.addNode(&sub2Node);
+																											
+																											list.push_back(seNode);
+																											list.push_back(identNode);
+																											list.push_back(equalNode);
+																											list.push_back(valueNode);
+																											list.push_back(substrNode);
+																										}
+			|	SE_T IDENT_T EQUAL_T VAR_T NEW_LINE_T													{
+																											cout << "SE" << endl;
+																											Node seNode(SE, "");
+																											Node identNode(STRINGLITERAL, $2);
+																											Node equalNode(CHARACTER, $3);
+																											Node variable(STRINGVARIABLE, "");
+																											varName($4);
+																							    			Node varName0(NAME, var);
+																											list.push_back(seNode);
+																											list.push_back(identNode);
+																											list.push_back(equalNode);
+																											list.push_back(variable);
+																											list.push_back(varName0);
+																										}
+			|	SE_T IDENT_T EQUAL_T NUM_T NEW_LINE_T													{
+																											cout << "SE" << endl;
+																											Node seNode(SE, "");
+																											Node identNode(STRINGLITERAL, $2);
+																											Node equalNode(CHARACTER, $3);
+																											numberFct($4);
+																											Node valueNode(VALUE, "");
+																											Node numberNode(NUMBER, number);
+																											list.push_back(seNode);
+																											list.push_back(identNode);
+																											list.push_back(equalNode);
+																											list.push_back(valueNode);
+																											list.push_back(numberNode);
+																										}
+			|	SE_T IDENT_T EQUAL_T MATHEX																{
+																											cout << "SE" << endl;
+																											Node seNode(SE, "");
+																											Node identNode(STRINGLITERAL, $2);
+																											Node equalNode(CHARACTER, $3);
+																											list.push_back(seNode);
+																											list.push_back(identNode);
+																											list.push_back(equalNode);
+																											
 																										}
 			;
 CE 			:	CE_T ON_T																				{
@@ -604,6 +754,23 @@ DA			:	DA_T IDENT_T SIZE_T SIZE_T WIDTH_T SIZE_T OPTIONALDA OPTINALMEASURE NEW_L
 																											list.push_back(daxNode);
 																											list.push_back(dayNode);
 																											list.push_back(daWidthNode);
+																										}
+			|	DA_T IDENT_T SIZE_T SIZE_T NEW_LINE_T													{
+																											cout << "DA" << endl;
+																											Node daNode(AREADEFINITION, "");
+																											Node daNameNode(NAME, $2);
+																											
+																											numberFct($3);
+																											Node daxNode(NUMBER, number);
+
+																											numberFct($4);
+																											Node dayNode(NUMBER, number);
+																											
+																											list.push_back(daNode);
+																											list.push_back(daNameNode);
+																											list.push_back(daxNode);
+																											list.push_back(dayNode);
+																											
 																										}
 			;
 SIZE_LIST	:	SIZE_T 																					{

@@ -71,7 +71,10 @@ string types[] = {
     "OFF_CE",
     "IDENTIFIER",
     "SK",
-    "TB"
+    "TB",
+    "MATHEX",
+    "MATHEX_SIGN",
+    "SUBSTR"
 };
 
 #endif

@@ -45,153 +45,157 @@ extern int yydebug;
 # define YYTOKENTYPE
   enum yytokentype
   {
-    NOTEQUAL_T = 258,
-    OF_T = 259,
-    CL_T = 260,
-    CD_T = 261,
-    TM_T = 262,
-    DEPTH_T = 263,
-    HY_T = 264,
-    HR_T = 265,
-    MG_T = 266,
-    DR_T = 267,
-    WEIGHT_T = 268,
-    UPPERCASE_T = 269,
-    LENGTH_T = 270,
-    IN_T = 271,
-    PA_T = 272,
-    NS_T = 273,
-    IR_T = 274,
-    IF_T = 275,
-    EL_T = 276,
-    TH_T = 277,
-    OR_T = 278,
-    AN_T = 279,
-    CT_T = 280,
-    EQUAL_T = 281,
-    GTHANE_T = 282,
-    LTHANE_T = 283,
-    GTHAN_T = 284,
-    LTHAN_T = 285,
-    CANCEL_T = 286,
-    RH_T = 287,
-    KP_T = 288,
-    LL_T = 289,
-    GOTO_T = 290,
-    EXECUTE_T = 291,
-    LABEL_T = 292,
-    SE_T = 293,
-    PM_T = 294,
-    BR_T = 295,
-    BR_UP_T = 296,
-    NV_T = 297,
-    NY_T = 298,
-    PAGE_T = 299,
-    ENY_T = 300,
-    COMMENT_T = 301,
-    TI_T = 302,
-    DA_T = 303,
-    FO_T = 304,
-    ON_T = 305,
-    OFF_T = 306,
-    AR_T = 307,
-    BX_T = 308,
-    SP_T = 309,
-    US_T = 310,
-    SIZE_T = 311,
-    STYLE_T = 312,
-    IDENT_T = 313,
-    VAR_UP_T = 314,
-    VAR_T = 315,
-    DIRECTION_T = 316,
-    NUM_T = 317,
-    WIDTH_T = 318,
-    TP_T = 319,
-    TAB_T = 320,
-    ROTATE_T = 321,
-    NEW_LINE_T = 322,
-    BM_T = 323,
-    SU_T = 324,
-    DM_T = 325,
-    GS_T = 326,
-    SK_T = 327,
-    CE_T = 328,
-    TB_T = 329
+    SUBSTR_T = 258,
+    NOTEQUAL_T = 259,
+    OF_T = 260,
+    CL_T = 261,
+    CD_T = 262,
+    TM_T = 263,
+    DEPTH_T = 264,
+    HY_T = 265,
+    HR_T = 266,
+    MG_T = 267,
+    DR_T = 268,
+    WEIGHT_T = 269,
+    UPPERCASE_T = 270,
+    LENGTH_T = 271,
+    IN_T = 272,
+    PA_T = 273,
+    NS_T = 274,
+    IR_T = 275,
+    IF_T = 276,
+    EL_T = 277,
+    TH_T = 278,
+    OR_T = 279,
+    AN_T = 280,
+    CT_T = 281,
+    EQUAL_T = 282,
+    GTHANE_T = 283,
+    LTHANE_T = 284,
+    GTHAN_T = 285,
+    LTHAN_T = 286,
+    CANCEL_T = 287,
+    RH_T = 288,
+    KP_T = 289,
+    LL_T = 290,
+    GOTO_T = 291,
+    EXECUTE_T = 292,
+    LABEL_T = 293,
+    SE_T = 294,
+    PM_T = 295,
+    BR_T = 296,
+    BR_UP_T = 297,
+    NV_T = 298,
+    NY_T = 299,
+    PAGE_T = 300,
+    ENY_T = 301,
+    COMMENT_T = 302,
+    TI_T = 303,
+    DA_T = 304,
+    FO_T = 305,
+    ON_T = 306,
+    OFF_T = 307,
+    AR_T = 308,
+    BX_T = 309,
+    SP_T = 310,
+    US_T = 311,
+    SIZE_T = 312,
+    STYLE_T = 313,
+    IDENT_T = 314,
+    VAR_UP_T = 315,
+    VAR_T = 316,
+    DIRECTION_T = 317,
+    NUM_T = 318,
+    WIDTH_T = 319,
+    TP_T = 320,
+    TAB_T = 321,
+    ROTATE_T = 322,
+    NEW_LINE_T = 323,
+    BM_T = 324,
+    SU_T = 325,
+    DM_T = 326,
+    GS_T = 327,
+    SK_T = 328,
+    CE_T = 329,
+    TB_T = 330,
+    MATHEX_T = 331
   };
 #endif
 /* Tokens.  */
-#define NOTEQUAL_T 258
-#define OF_T 259
-#define CL_T 260
-#define CD_T 261
-#define TM_T 262
-#define DEPTH_T 263
-#define HY_T 264
-#define HR_T 265
-#define MG_T 266
-#define DR_T 267
-#define WEIGHT_T 268
-#define UPPERCASE_T 269
-#define LENGTH_T 270
-#define IN_T 271
-#define PA_T 272
-#define NS_T 273
-#define IR_T 274
-#define IF_T 275
-#define EL_T 276
-#define TH_T 277
-#define OR_T 278
-#define AN_T 279
-#define CT_T 280
-#define EQUAL_T 281
-#define GTHANE_T 282
-#define LTHANE_T 283
-#define GTHAN_T 284
-#define LTHAN_T 285
-#define CANCEL_T 286
-#define RH_T 287
-#define KP_T 288
-#define LL_T 289
-#define GOTO_T 290
-#define EXECUTE_T 291
-#define LABEL_T 292
-#define SE_T 293
-#define PM_T 294
-#define BR_T 295
-#define BR_UP_T 296
-#define NV_T 297
-#define NY_T 298
-#define PAGE_T 299
-#define ENY_T 300
-#define COMMENT_T 301
-#define TI_T 302
-#define DA_T 303
-#define FO_T 304
-#define ON_T 305
-#define OFF_T 306
-#define AR_T 307
-#define BX_T 308
-#define SP_T 309
-#define US_T 310
-#define SIZE_T 311
-#define STYLE_T 312
-#define IDENT_T 313
-#define VAR_UP_T 314
-#define VAR_T 315
-#define DIRECTION_T 316
-#define NUM_T 317
-#define WIDTH_T 318
-#define TP_T 319
-#define TAB_T 320
-#define ROTATE_T 321
-#define NEW_LINE_T 322
-#define BM_T 323
-#define SU_T 324
-#define DM_T 325
-#define GS_T 326
-#define SK_T 327
-#define CE_T 328
-#define TB_T 329
+#define SUBSTR_T 258
+#define NOTEQUAL_T 259
+#define OF_T 260
+#define CL_T 261
+#define CD_T 262
+#define TM_T 263
+#define DEPTH_T 264
+#define HY_T 265
+#define HR_T 266
+#define MG_T 267
+#define DR_T 268
+#define WEIGHT_T 269
+#define UPPERCASE_T 270
+#define LENGTH_T 271
+#define IN_T 272
+#define PA_T 273
+#define NS_T 274
+#define IR_T 275
+#define IF_T 276
+#define EL_T 277
+#define TH_T 278
+#define OR_T 279
+#define AN_T 280
+#define CT_T 281
+#define EQUAL_T 282
+#define GTHANE_T 283
+#define LTHANE_T 284
+#define GTHAN_T 285
+#define LTHAN_T 286
+#define CANCEL_T 287
+#define RH_T 288
+#define KP_T 289
+#define LL_T 290
+#define GOTO_T 291
+#define EXECUTE_T 292
+#define LABEL_T 293
+#define SE_T 294
+#define PM_T 295
+#define BR_T 296
+#define BR_UP_T 297
+#define NV_T 298
+#define NY_T 299
+#define PAGE_T 300
+#define ENY_T 301
+#define COMMENT_T 302
+#define TI_T 303
+#define DA_T 304
+#define FO_T 305
+#define ON_T 306
+#define OFF_T 307
+#define AR_T 308
+#define BX_T 309
+#define SP_T 310
+#define US_T 311
+#define SIZE_T 312
+#define STYLE_T 313
+#define IDENT_T 314
+#define VAR_UP_T 315
+#define VAR_T 316
+#define DIRECTION_T 317
+#define NUM_T 318
+#define WIDTH_T 319
+#define TP_T 320
+#define TAB_T 321
+#define ROTATE_T 322
+#define NEW_LINE_T 323
+#define BM_T 324
+#define SU_T 325
+#define DM_T 326
+#define GS_T 327
+#define SK_T 328
+#define CE_T 329
+#define TB_T 330
+#define MATHEX_T 331
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
@@ -202,7 +206,7 @@ union YYSTYPE
 
 	char tokens[1000];
 
-#line 206 "y.tab.h" /* yacc.c:1909  */
+#line 210 "y.tab.h" /* yacc.c:1909  */
 };
 
 typedef union YYSTYPE YYSTYPE;

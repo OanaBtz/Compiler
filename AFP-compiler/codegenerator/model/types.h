@@ -76,7 +76,10 @@ enum Type
     OFF_CE,
     IDENTIFIER,
     SK,
-    TB
+    TB,
+    MATHEX,
+    MATHEX_SIGN,
+    SUBSTR
 };
 
 #endif //AFPCG_TYPES_H

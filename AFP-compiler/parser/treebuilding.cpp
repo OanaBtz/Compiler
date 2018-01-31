@@ -24,26 +24,26 @@ int addNodeOfType(int addToIndex, int fromIndex)
 		case LINEBREAK:				return connectNextNodes(addToIndex, fromIndex, 0);
 		case STRINGVARIABLE:		return connectNextNodes(addToIndex, fromIndex, 1);
 		case US:					return connectNextNodes(addToIndex, fromIndex, 1);
-		case TM:			return connectNextNodes(addToIndex, fromIndex, 1);
-		case BM:			return connectNextNodes(addToIndex, fromIndex, 1);
-		case PM:			return connectNextNodes(addToIndex, fromIndex, 1);
-		case TI: 			return connectNextNodes(addToIndex, fromIndex, 2);
-		case SP:			return connectNextNodes(addToIndex, fromIndex, 1);
-		case LL:			return connectNextNodes(addToIndex, fromIndex, 1);
-		case IN:			return connectNextNodes(addToIndex, fromIndex, 1);
-		case IR:			return connectNextNodes(addToIndex, fromIndex, 1);
-		case PA:			return connectNextNodes(addToIndex, fromIndex, 1);
-		case DR:			return connectNextNodes(addToIndex, fromIndex, 3);
-		case MG:			return connectNextNodes(addToIndex, fromIndex, 2);
-		case SE:			return connectNextNodes(addToIndex, fromIndex, 4);
-		case LABEL:			return connectNextNodes(addToIndex, fromIndex, 0);
-		case HY:			return connectNextNodes(addToIndex, fromIndex, 1);
-		case OFF_HY:		return connectNextNodes(addToIndex, fromIndex, 0);
-		case NEWLINE:		return connectNextNodes(addToIndex, fromIndex, 0);
-		case SK:			return connectNextNodes(addToIndex, fromIndex, 1);
-		case TB:			return connectNextNodes(addToIndex, fromIndex, 2);
-		case GO:			return connectNextNodes(addToIndex, fromIndex, 1);
-		case CL:			return connectNextNodes(addToIndex, fromIndex, 1);
+		case TM:					return connectNextNodes(addToIndex, fromIndex, 1);
+		case BM:					return connectNextNodes(addToIndex, fromIndex, 1);
+		case PM:					return connectNextNodes(addToIndex, fromIndex, 1);
+		case TI: 					return connectNextNodes(addToIndex, fromIndex, 2);
+		case SP:					return connectNextNodes(addToIndex, fromIndex, 1);
+		case LL:					return connectNextNodes(addToIndex, fromIndex, 1);
+		case IN:					return connectNextNodes(addToIndex, fromIndex, 1);
+		case IR:					return connectNextNodes(addToIndex, fromIndex, 1);
+		case PA:					return connectNextNodes(addToIndex, fromIndex, 1);
+		case DR:					return connectNextNodes(addToIndex, fromIndex, 3);
+		case MG:					return connectNextNodes(addToIndex, fromIndex, 2);
+		case SE:					return connectNextNodes(addToIndex, fromIndex, 4);
+		case LABEL:					return connectNextNodes(addToIndex, fromIndex, 0);
+		case HY:					return connectNextNodes(addToIndex, fromIndex, 1);
+		case OFF_HY:				return connectNextNodes(addToIndex, fromIndex, 0);
+		case NEWLINE:				return connectNextNodes(addToIndex, fromIndex, 0);
+		case SK:					return connectNextNodes(addToIndex, fromIndex, 1);
+		case TB:					return connectNextNodes(addToIndex, fromIndex, 2);
+		case GO:					return connectNextNodes(addToIndex, fromIndex, 1);
+		case CL:					return connectNextNodes(addToIndex, fromIndex, 1);
 		case EXECUTE: 	list[fromIndex].addNode(&list[fromIndex]);
 						break;
 			case OF:	list[addToIndex].addNode(&list[fromIndex]);
@@ -177,6 +177,27 @@ int addNodeOfType(int addToIndex, int fromIndex)
 										list[lastKnownIfIndex].addNode(&list[j+2]);
 									}
 									return j+2;
+								}
+			case MATHEX:		{
+									int j = fromIndex + 1;
+									for (; list[j].getType() != NEWLINE ; ++j)
+									{
+										list[fromIndex].addNode(&list[j]);
+										if(list[j].getType() == STRINGVARIABLE)
+										{
+											list[j].addNode(&list[j+1]);
+											j++;
+										}
+									}
+									list[fromIndex].addNode(&list[j]);
+									j++;
+									if(list[j].getType() == SE){
+										list[addToIndex].addNode(&list[j]);
+										list[j].addNode(&list[j+1]);
+										list[j].addNode(&list[j+2]);
+										list[j].addNode(&list[fromIndex]);
+									}
+									return j+1;
 								}
 		break;
 	}
