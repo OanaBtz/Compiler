@@ -74,7 +74,10 @@ string types[] = {
     "TB",
     "MATHEX",
     "MATHEX_SIGN",
-    "SUBSTR"
+    "SUBSTR",
+    "BOX_RULE",
+    "OFF_US",
+    "BOX_SLASH"
 };
 
 #endif

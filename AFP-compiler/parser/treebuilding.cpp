@@ -44,6 +44,7 @@ int addNodeOfType(int addToIndex, int fromIndex)
 		case TB:					return connectNextNodes(addToIndex, fromIndex, 2);
 		case GO:					return connectNextNodes(addToIndex, fromIndex, 1);
 		case CL:					return connectNextNodes(addToIndex, fromIndex, 1);
+		case FO:					return connectNextNodes(addToIndex, fromIndex, 0);
 		case EXECUTE: 	list[fromIndex].addNode(&list[fromIndex]);
 						break;
 			case OF:	list[addToIndex].addNode(&list[fromIndex]);
@@ -96,23 +97,14 @@ int addNodeOfType(int addToIndex, int fromIndex)
 							}
 							return ii - 1;
 						}
-			case HR:	list[addToIndex].addNode(&list[fromIndex]);
-						if(list[fromIndex+1].getType() == STRINGLITERAL && list[fromIndex+2].getType() == NUMBER && list[fromIndex+3].getType() == NUMBER && list[fromIndex+4].getType() == NUMBER && list[fromIndex+5].getType() == NUMBER)
-						{
-							list[fromIndex].addNode(&list[fromIndex+1]);
-							list[fromIndex].addNode(&list[fromIndex+2]);
-							list[fromIndex].addNode(&list[fromIndex+3]);
-							list[fromIndex].addNode(&list[fromIndex+4]);
-							list[fromIndex].addNode(&list[fromIndex+5]);
-							fromIndex += 5;	
+			case HR:	{
+							list[addToIndex].addNode(&list[fromIndex]);
+							while(list[++fromIndex].getType() != NEWLINE)
+							{
+								list[addToIndex].addNode(&list[fromIndex]);
+							}
+							return fromIndex;
 						}
-						if(list[fromIndex+1].getType() == LEFT && list[fromIndex+2].getType() == RIGHT)
-						{
-							list[fromIndex].addNode(&list[fromIndex+1]);
-							list[fromIndex].addNode(&list[fromIndex+2]);
-							fromIndex += 2;
-						}
-						return fromIndex;
 			case THEN:			{
 									list[lastKnownIfIndex].addNode(&list[fromIndex]);
 									if(list[fromIndex +1].getType() == STRINGLITERAL || list[fromIndex +1].getType() == STRINGVARIABLE)
@@ -233,6 +225,10 @@ int recursiveContainerTraversal(int addToIndex, int fromIndex, int off_type)
 							break;
 			case DM: 		j = recursiveContainerTraversal(fromIndex, j, OFF_DM);
 							break;
+			case US:		if(list[j+1].getType() == ON)
+							{
+								j = recursiveContainerTraversal(fromIndex, j, OFF_US);	
+							}
 		}
 		if(j > list.size() - 1)
 		{
@@ -281,6 +277,10 @@ void startTreeBuilding(std::vector<Node> list)
 							break;
 			case DM: 		i = recursiveContainerTraversal(0, i, OFF_DM);
 							break;
+			case US:		if(list[j+1].getType() == ON)
+							{
+								j = recursiveContainerTraversal(0, i, OFF_US);	
+							}
 		}
 	}
 }

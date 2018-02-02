@@ -79,7 +79,10 @@ enum Type
     TB,
     MATHEX,
     MATHEX_SIGN,
-    SUBSTR
+    SUBSTR,
+    BOX_RULE,
+    OFF_US,
+    BOX_SLASH
 };
 
 #endif //AFPCG_TYPES_H
