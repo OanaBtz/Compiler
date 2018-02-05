@@ -10,7 +10,8 @@
 .BR
 .NV PAGE FORCERTØM '%&U'&FORCER.'
 .BR
-.NV PAGE PDFFORMAT '%&U'&PDFFORMAT.':NY.
+.NV PAGE PDFFORMAT '%&U'&PDFFORMAT.'
+:NY.
 .NV PAGE ARKIV '%&ARKIV.'
 .BR
 .NV PAGE SENDKUNDE '%&SANTKUNDE.'
@@ -236,7 +237,7 @@ CVR-nr.: &KUNDENR.
 .if &L'&BECTEKST31 > 0
 .th .br
 .th &BECTEKST31
-.If &L'&BECTEKST32 > 0
+.if &L'&BECTEKST32 > 0
 .th .br
 .th &BECTEKST32
 .or &L'&BECTEKST33 > 0
@@ -269,7 +270,7 @@ CVR-nr.: &KUNDENR.
 .th .br
 .th &BECTEKST18
 .el .sp 3mm
-.fi &L'&BECTEKST19 > 0
+.if &L'&BECTEKST19 > 0
 .th .br
 .th &BECTEKST19
 .el .sp 3mm

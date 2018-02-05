@@ -9,7 +9,8 @@
 .BR
 .NV PAGE FORCERTØM '%&U'&FORCER.'
 .BR
-.NV PAGE PDFFORMAT '%&U'&PDFFORMAT.':NY.
+.NV PAGE PDFFORMAT '%&U'&PDFFORMAT.'
+:NY.
 .NV PAGE ARKIV '%&ARKIV.'
 .BR
 .NV PAGE SENDKUNDE '%&SANTKUNDE.'
@@ -181,3 +182,4 @@ under 'Spørgsmål og svar'.
 Med venlig hilsen
 .br
 &BANKNAVN.
+.ar off

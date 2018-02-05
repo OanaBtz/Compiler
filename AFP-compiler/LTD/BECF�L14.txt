@@ -10,7 +10,8 @@
 .BR
 .NV PAGE FORCERTØM '%&U'&FORCER.'
 .BR
-.NV PAGE PDFFORMAT '%&U'&PDFFORMAT.'.******************* ATT FELT I ADR. **************************************
+.NV PAGE PDFFORMAT '%&U'&PDFFORMAT.'
+.******************* ATT FELT I ADR. **************************************
 .if &U'X&UDSKRSTED = XD
 .th .da ATT 24mm 68.5mm width 80mm
 .el .da ATT 20mm 68.5mm width 80mm

@@ -10,7 +10,8 @@
 .BR
 .NV PAGE FORCERTØM '%&U'&FORCER.'
 .BR
-.NV PAGE PDFFORMAT '%&U'&PDFFORMAT.':NY.
+.NV PAGE PDFFORMAT '%&U'&PDFFORMAT.'
+:NY.
 .NV PAGE ARKIV '%&ARKIV.'
 .BR
 .NV PAGE SENDKUNDE '%&SANTKUNDE.'
@@ -100,7 +101,7 @@ pensionsudbetalingsalderen dog, som det fremgår af nedenstående tabel:
 .hr left 90mm
 ¤01.01.1963 - 31.12.1966 ¤63
 .hr left 90mm
-¤01.01.1967 eller senere ¤63 år + evt. regulering
+¤01.01.1967 eller senere ¤63 år plus evt. regulering
 .bx off
 .*********TABEL SLUT*******************************************************
 .sp
@@ -173,6 +174,7 @@ arbejdsevnen eller varig nedsættelse af arbejdsevnen af
 en anden årsag, kan der udbetales på ny.
 .sp 5mm
 .kp off
+.kp on
 :SWISS8.
 Udbetaling af en aldersopsparing kan ske ved dokumentation
 fra de sociale myndigheder om modtagelse af
@@ -222,7 +224,6 @@ Der kan ikke udbetales flere gange fra den samme
 aldersopsparing på grund af den samme sygdom.
 .sp 3mm
 .kp off
-.kp on
 .kp on
 :SWISS10.
 :FED.

@@ -10,7 +10,8 @@
 .BR
 .NV PAGE FORCERTØM '%&U'&FORCER.'
 .BR
-.NV PAGE PDFFORMAT '%&U'&PDFFORMAT.':NY.
+.NV PAGE PDFFORMAT '%&U'&PDFFORMAT.'
+:NY.
 .NV PAGE ARKIV '%&ARKIV.'
 .BR
 .NV PAGE SENDKUNDE '%&SANTKUNDE.'
@@ -320,6 +321,7 @@ kunden betragtes som bekræftet, når filen er afsendt til kunden.
 .sp
 .in 0mm
 .kp off
+.kp on
 03.00-03.10 og søn- og helligdage 04.00-06.00. Herudover henvises til
 pengeinstituttets almindelige skæringstidpunkter for udførelse af de
 enkelte betalingsinstruktioner indeholdt i EDI-transmissionerne.
@@ -422,6 +424,7 @@ tilgængelige eller er lukkede p.g.a. vedligeholdelse (samlet herefter
 servicevinduet). Servicevinduet for pengeinstituttet er p.t. hverdage
 .**************************************************************************
 .**************************************************************************
+.kp off
 .kp on
 :FED.
 5.¤Fortrolige oplysninger og opbevaring af data
@@ -446,7 +449,7 @@ skal sørge for, at der gemmes en
 fuldstændig og uændret kopi af alle transmissionsdata i den form, de er
 sendt og modtaget. Denne kopi kan gemmes elektronisk. Kopien skal til
 enhver tid kunne udskrives i klar tekst, hvis det er påkrævet. Kunden og
-pengeinstituttet skal gemme kopien af transmissionsdata i transmissionsåret
+pengeinstituttet skal gemme kopien af transmissionsdata i transmissionsåret 
 + 5 år.
 .br
 Dog skal kunden gemme EDI-forsendelser, der ifølge myndighederne eller

@@ -10,7 +10,8 @@
 .BR
 .NV PAGE FORCERTØM '%&U'&FORCER.'
 .BR
-.NV PAGE PDFFORMAT '%&U'&PDFFORMAT.'.sp 2
+.NV PAGE PDFFORMAT '%&U'&PDFFORMAT.'
+.sp 2
 .ce on
 Med venlig hilsen
 .sp

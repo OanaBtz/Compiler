@@ -10,7 +10,8 @@
 .BR
 .NV PAGE FORCERTØM '%&U'&FORCER.'
 .BR
-.NV PAGE PDFFORMAT '%&U'&PDFFORMAT.'.sp 3mm
+.NV PAGE PDFFORMAT '%&U'&PDFFORMAT.'
+.sp 3mm
 .kp off
 .kp on
 &BANKNAVN. er berettiget, men ikke forpligtet (heller ikke i forhold
