@@ -28,7 +28,7 @@ Node docNode(DOCUMENT, "");
 	char tokens[1000];
 }
 
-%token <tokens> SUBSTR_T NOTEQUAL_T OF_T CL_T CD_T TM_T DEPTH_T HY_T HR_T MG_T DR_T WEIGHT_T UPPERCASE_T LENGTH_T IN_T PA_T NS_T IR_T IF_T EL_T TH_T OR_T AN_T CT_T EQUAL_T GTHANE_T LTHANE_T GTHAN_T LTHAN_T CANCEL_T RH_T KP_T LL_T GOTO_T EXECUTE_T LABEL_T SE_T PM_T BR_T BR_UP_T NV_T NY_T PAGE_T ENY_T COMMENT_T TI_T DA_T FO_T ON_T OFF_T AR_T BX_T SP_T US_T SIZE_T STYLE_T IDENT_T VAR_UP_T VAR_T DIRECTION_T NUM_T WIDTH_T TP_T TAB_T ROTATE_T NEW_LINE_T BM_T SU_T DM_T GS_T SK_T CE_T TB_T MATHEX_T
+%token <tokens> SUBSTR_T NOTEQUAL_T OF_T CL_T CD_T TM_T DEPTH_T HY_T HR_T MG_T DR_T WEIGHT_T UPPERCASE_T LENGTH_T IN_T PA_T NS_T IR_T IF_T EL_T TH_T OR_T AN_T CT_T EQUAL_T GTHANE_T LTHANE_T GTHAN_T LTHAN_T CANCEL_T RH_T KP_T LL_T GOTO_T EXECUTE_T LABEL_T SE_T PM_T BR_T BR_UP_T NV_T NY_T PAGE_T ENY_T COMMENT_T TI_T DA_T FO_T ON_T OFF_T AR_T BX_T SP_T US_T SIZE_T STYLE_T IDENT_T VAR_UP_T VAR_T DIRECTION_T NUM_T WIDTH_T TP_T TAB_T ROTATE_T NEW_LINE_T BM_T SU_T DM_T GS_T SK_T CE_T TB_T MATHEX_T VR_T
 %type  <tokens> CT PM BR BR_UP NV NY ENY COMMENT TI DA KP FO AR BX RH TOKEN EX IF VARPROC OPERATOR AN COMPARISON OR OPTIONALDA OPTINALMEASURE STRING_LINE SIZE_LIST SU CE DM MATHEX 
 
 %%
@@ -101,6 +101,23 @@ TOKEN		:	TOKEN DA
 																											Node tpNode(TP, "");
 																											list.push_back(tpNode);
 																										}
+			|	TOKEN VR_T SIZE_T NEW_LINE_T															{
+																											cout << "VR" << endl;
+																											Node* vrNode = new Node(VR, "");
+																											numberFct($3);
+																											Node* vrOnNode = new Node(ON, "");
+																											Node* sizeNode = new Node(NUMBER, number);
+
+																											vrNode->addNode(vrOnNode);
+																											vrNode->addNode(sizeNode);
+
+																											list.push_back(*vrNode);
+																										}		
+			|	TOKEN VR_T OFF_T NEW_LINE_T																{
+																											cout << "VR OFF" << endl;
+																											Node* vrNode = new Node(OFF_VR, "");
+																											list.push_back(*vrNode);
+																										}																					
 			|	TOKEN HR_T IDENT_T SIZE_T SIZE_T SIZE_T SIZE_T NEW_LINE_T								{
 																											cout << "HR WITH EXTRA STUFF" << endl;
 																											Node hyNode(HR, "");
@@ -210,11 +227,42 @@ TOKEN		:	TOKEN DA
 																											Node endNode(NEWLINE, "");
 																											list.push_back(endNode);
 																										}
+			|	TOKEN HR_T SIZE_T DIRECTION_T NEW_LINE_T												{
+																											cout << "HR" << endl;
+																											Node hrNode(HR, "");
+																											
+																											numberFct($4);
+																											Node sizeNode(NUMBER, number);
+																											
+																											Node* dirNode;
+																											if(strcmp($2, "left") == 0)
+																											{
+																												dirNode = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dirNode = new Node(RIGHT, "");
+																											}
+
+																											list.push_back(hrNode);
+																											list.push_back(sizeNode);
+																											list.push_back(*dirNode);
+
+																											Node endNode(NEWLINE, "");
+																											list.push_back(endNode);
+																										}
 			|	TOKEN EL_T																				{
 																											cout << "ELSE" << endl;
 																											Node elNode(ELSE, "");
 																											list.push_back(elNode);	
-																										}																			
+																										}	
+			|	TOKEN EL_T NEW_LINE_T																	{
+																											cout << "ELSE" << endl;
+																											Node elNode(ELSE, "");
+																											Node newline(NEWLINE, "");
+																											list.push_back(elNode);	
+																											list.push_back(newline);
+																										}																		
 			|	TOKEN TH_T																				{
 																											cout << "THEN" << endl;
 																											Node thNode(THEN, "");
@@ -223,7 +271,9 @@ TOKEN		:	TOKEN DA
 			|	TOKEN TH_T NEW_LINE_T																	{
 																											cout << "THEN" << endl;
 																											Node thNode(THEN, "");
+																											Node newline(NEWLINE, "");
 																											list.push_back(thNode);	
+																											list.push_back(newline);
 																										}
 			|	TOKEN DR_T IDENT_T WEIGHT_T SIZE_T NEW_LINE_T											{
 																											cout << "DR" << endl;
@@ -736,6 +786,19 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 																											list.push_back(equalNode);
 																											
 																										}
+			|	SE_T IDENT_T EQUAL_T VAR_UP_T NEW_LINE_T												{
+																											cout << "SE" << endl;
+																											Node* seNode = new Node(SE, "");
+																											Node* seidentNode = new Node(STRINGLITERAL, $2);
+																											Node* eqNode = new Node(CHARACTER, $3);
+																											Node* valueNode = new Node(VALUE, "");
+																											Node* valueDataNode = new Node(STRINGLITERAL, $4);
+																											list.push_back(*seNode);
+																											list.push_back(*seidentNode);
+																											list.push_back(*eqNode);
+																											list.push_back(*valueNode);
+																											list.push_back(*valueDataNode);
+																										}
 			;
 CE 			:	CE_T ON_T																				{
 																											cout << "CE ON" << endl;
@@ -743,6 +806,16 @@ CE 			:	CE_T ON_T																				{
 																											Node ceOnNode(ON, "");
 																											list.push_back(ceNode);
 																											list.push_back(ceOnNode);
+																										}
+			|	CE_T VAR_T																				{
+																											cout << "CE VAR" << endl;
+																											Node ceNode(CE, "");
+																											Node ceVarNode(STRINGVARIABLE, "");
+																											varName($2);
+																											Node varNameNode(NAME, name);
+																											ceVarNode.addNode(&varNameNode);
+																											list.push_back(ceNode);
+																											list.push_back(ceVarNode);
 																										}
 			|	CE_T OFF_T 																				{
 																											cout << "CE OFF" << endl;
@@ -889,6 +962,24 @@ DA			:	DA_T IDENT_T SIZE_T SIZE_T WIDTH_T SIZE_T OPTIONALDA OPTINALMEASURE NEW_L
 SIZE_LIST	:	SIZE_T 																					{
 																											styleSize($1);
 																											Node tpSizeNode(NUMBER, size);
+																											list.push_back(tpSizeNode);
+																										}
+			|	SIZE_T DIRECTION_T 																		{
+																											styleSize($1);
+																											Node tpSizeNode(NUMBER, size);
+																											
+																											Node* dirNode;
+																											
+																											if(strcmp($2, "left") == 0)
+																											{
+																												dirNode = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dirNode = new Node(RIGHT, "");
+																											}
+
+																											tpSizeNode.addNode(dirNode);
 																											list.push_back(tpSizeNode);
 																										}
 			|	SIZE_LIST SIZE_LIST
@@ -1259,7 +1350,7 @@ BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
 																															numberFct($9);
 																															Node size5Node(NUMBER, number);
 																															Node slash3Node(RULE, $10);
-																															// numberFct($11);											CAUSES BADALLOC
+																															// numberFct($11);											
 																															// Node size6Node(NUMBER, number);
 																															// numberFct($12);
 																															// Node size7Node(NUMBER, number);

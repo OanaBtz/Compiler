@@ -77,7 +77,9 @@ string types[] = {
     "SUBSTR",
     "BOX_RULE",
     "OFF_US",
-    "BOX_SLASH"
+    "BOX_SLASH",
+    "VR",
+    "OFF_VR"
 };
 
 #endif

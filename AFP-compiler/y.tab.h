@@ -118,7 +118,8 @@ extern int yydebug;
     SK_T = 328,
     CE_T = 329,
     TB_T = 330,
-    MATHEX_T = 331
+    MATHEX_T = 331,
+    VR_T = 332
   };
 #endif
 /* Tokens.  */
@@ -196,6 +197,7 @@ extern int yydebug;
 #define CE_T 329
 #define TB_T 330
 #define MATHEX_T 331
+#define VR_T 332
 
 /* Value type.  */
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
@@ -206,7 +208,7 @@ union YYSTYPE
 
 	char tokens[1000];
 
-#line 210 "y.tab.h" /* yacc.c:1909  */
+#line 212 "y.tab.h" /* yacc.c:1909  */
 };
 
 typedef union YYSTYPE YYSTYPE;

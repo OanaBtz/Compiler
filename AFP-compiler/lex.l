@@ -51,6 +51,7 @@
 ".an"               	                        { strcpy(yylval.tokens, yytext); return AN_T;}
 ".of"               	                        { strcpy(yylval.tokens, yytext); return OF_T;}
 ".hr"               	                        { strcpy(yylval.tokens, yytext); return HR_T;}
+".vr"               	                        { strcpy(yylval.tokens, yytext); return VR_T;}
 ".hy"               	                        { strcpy(yylval.tokens, yytext); return HY_T;}
 "ne"           			                        { strcpy(yylval.tokens, yytext); return NOTEQUAL_T;}
 "="|"eq"           		                        { strcpy(yylval.tokens, yytext); return EQUAL_T;}
@@ -59,8 +60,8 @@
 ">="|"ge"          		                        { strcpy(yylval.tokens, yytext); return GTHANE_T;}
 "<="|"le"          		                        { strcpy(yylval.tokens, yytext); return LTHANE_T;}
 "off"                                           { strcpy(yylval.tokens, yytext); return OFF_T;}
-"&U'"                                           { strcpy(yylval.tokens, yytext); return UPPERCASE_T;}
-"&L'"                                           { strcpy(yylval.tokens, yytext); return LENGTH_T;}
+"&U'"|"&u'"                                     { strcpy(yylval.tokens, yytext); return UPPERCASE_T;}
+"&L'"|"&l'"                                     { strcpy(yylval.tokens, yytext); return LENGTH_T;}
 ".ar"                                           { strcpy(yylval.tokens, yytext); return AR_T;}
 ".bx"                                           { strcpy(yylval.tokens, yytext); return BX_T;}
 ".sp"                                           { strcpy(yylval.tokens, yytext); return SP_T;}
@@ -82,9 +83,11 @@
 \'\%.*\'                                        { strcpy(yylval.tokens, yytext); return VAR_UP_T;}
 \&[A-Za-z\-\.ØÆÅ0-9]+                           { strcpy(yylval.tokens, yytext); return VAR_T;}
 X\&[A-Za-z\-\.ØÆÅ0-9]+                          { strcpy(yylval.tokens, yytext); return VAR_T;}
+x\&[A-Za-z\-\.ØÆÅ0-9]+                          { strcpy(yylval.tokens, yytext); return VAR_T;}
 \-*[0-9]+                                       { strcpy(yylval.tokens, yytext); return NUM_T;}
+\-*[0-9]+\.[0-9]+                               { strcpy(yylval.tokens, yytext); return NUM_T;}
 \.\.\.[A-Za-z\-ØÆÅæøå¤0-9.]+                    { strcpy(yylval.tokens, yytext); return LABEL_T;}
-[A-Za-z\'\-ØÆÅæøå,\.\\¤0-9\*\/\_]+                { strcpy(yylval.tokens, yytext); return IDENT_T;}
+[A-Za-z\'\-ØÆÅæøå,\.\\¤0-9\*\/\_\%]+                { strcpy(yylval.tokens, yytext); return IDENT_T;}
 [\+\-\/\*]                                      { strcpy(yylval.tokens, yytext); return MATHEX_T;}
 [ \t]                   ;
 %%
