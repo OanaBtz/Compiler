@@ -75,7 +75,7 @@
 "rotate"                                        { strcpy(yylval.tokens, yytext); return ROTATE_T;}
 "depth"                	                        { strcpy(yylval.tokens, yytext); return DEPTH_T;}
 "substr"               	                        { strcpy(yylval.tokens, yytext); return SUBSTR_T;}
-\.mg[\/A-Za-z\:\- ØÆÅéæøå,\.\\¤0-9\*]+          { strcpy(yylval.tokens, yytext); return MG_T;}
+\.mg[\/A-Za-z\:\- ØÆÅéæøå,\.\\¤0-9\*]+ || \.mg[\/A-Za-z\]         { strcpy(yylval.tokens, yytext); return MG_T;}
 (([0-9\.])+)(mm|cm)                             { strcpy(yylval.tokens, yytext); return SIZE_T;}
 (([0-9\.])+)\,(([0-9\.])+)(mm|cm)               { strcpy(yylval.tokens, yytext); return SIZE_T;}
 \n                                              { strcpy(yylval.tokens, yytext); return NEW_LINE_T; }
@@ -84,10 +84,10 @@
 \&[A-Za-z\-\.ØÆÅ0-9]+                           { strcpy(yylval.tokens, yytext); return VAR_T;}
 X\&[A-Za-z\-\.ØÆÅ0-9]+                          { strcpy(yylval.tokens, yytext); return VAR_T;}
 x\&[A-Za-z\-\.ØÆÅ0-9]+                          { strcpy(yylval.tokens, yytext); return VAR_T;}
-\-*[0-9]+                                       { strcpy(yylval.tokens, yytext); return NUM_T;}
+\+*\-*[0-9]+                                    { strcpy(yylval.tokens, yytext); return NUM_T;}
 \-*[0-9]+\.[0-9]+                               { strcpy(yylval.tokens, yytext); return NUM_T;}
 \.\.\.[A-Za-z\-ØÆÅæøå¤0-9.]+                    { strcpy(yylval.tokens, yytext); return LABEL_T;}
-[A-Za-z\'\-ØÆÅæøå,\.\\¤0-9\*\/\_\%]+                { strcpy(yylval.tokens, yytext); return IDENT_T;}
+[A-Za-z\'\-ØÆÅæøå,\.\\¤0-9\*\/\_]+              { strcpy(yylval.tokens, yytext); return IDENT_T;}
 [\+\-\/\*]                                      { strcpy(yylval.tokens, yytext); return MATHEX_T;}
 [ \t]                   ;
 %%
@@ -98,4 +98,4 @@ int yywrap(void){
 }
 
 
-     
+    

@@ -1,0 +1,915 @@
+.kp on
+:SWISS10.
+:FED.
+1. What is Betalingsservice?
+:SKRSLUT.
+:SWISS8.
+.br
+Betalingsservice is a payment service which enables the customer to pay
+bills in DKK to creditors registered in the system. Once the customer has
+given a BS mandate to his or her creditor, the creditor is authorised
+to collect payments from from the customer's account.
+.br
+Betalingsservice is a system designed for recurring payments, but the
+creditor may also execute one-off payments and pay e.g. excess amounts
+paid on account into the customer's account.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+2. Definitions
+.sp 3mm
+:SWISS8.
+:FED.
+2.1 Refusal
+:SKRSLUT.
+.br
+:SWISS8.
+If payment is refused, the system will not execute the payment
+transaction. The customer may refuse a future payment in accordance
+with the provisions set out in clause 8.1.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.2 Banking day
+:SKRSLUT.
+.br
+:SWISS8.
+Banking days are all days except Saturdays, Sundays, Danish public
+holidays, the Friday after Ascension Day, 5 June, 24 December and 31
+December.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.3 Betalingsservice mandate (BS mandate)
+:SKRSLUT.
+.br
+A BS mandate is an agreement between the customer and a creditor
+authorising the creditor to collect payments from the customer using
+Betalingsservice. The customer may give a BS mandate directly to the
+creditor or through &BANKNAVN. acting on behalf of the creditor.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.4 Payment date
+:SKRSLUT.
+.br
+The payment date is the day on which the amount is debited to the
+customer's account. Payments are executed on banking days only.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.5 Betalingsservice prenotification
+:SKRSLUT.
+.br
+The Betalingsservice prenotification lists the following month's
+Betalingsservice payments from the customer's account. The customer
+will receive his or her prenotification electronically or by ordinary
+mail just before the change of month.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.6 Electronic payment information
+:SKRSLUT.
+.br
+The customer may choose to receive electronic payment information in
+his or her online banking system or electronic mailbox.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.7 Electronic mailbox
+:SKRSLUT.
+.br
+An electronic mailbox is a system allowing the customer to receive
+electronic payment information.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.8 &NETS.
+:SKRSLUT.
+.br
+&NETS. Denmark A/S, CVR No. &PBSCVR. is the company that operates
+Betalingsservice. As payment service provider, &NETS. is
+subject to supervision by the Danish
+Financial Supervisory Authority.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.9 Return
+:SKRSLUT.
+.br
+Return of a payment means that the amount is returned from the creditor's
+account to the customer's account. The customer or &BANKNAVN. may request a
+transfer of a payment already executed if the conditions are met, see
+clause 8.
+.sp 3mm
+.kp off
+.kp on
+:FED.
+2.10 Betalingsservice debtor agreement (BS debtor agreement)
+:SKRSLUT.
+.br
+A debtor agreement is an agreement between the customer and
+&BANKNAVN. authorising the customer to pay bills through Betalingsservice.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+3. Registration for Betalingsservice
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+:FED.
+3.1 The BS debtor agreement
+:SKRSLUT.
+.br
+It is a condition for using Betalingsservice that the customer has
+concluded a BS debtor agreement with &BANKNAVN.. If the customer wishes to
+use Betalingsservice, the customer must contact &BANKNAVN..
+.br
+&BANKNAVN. is not obliged to conclude a BS debtor agreement with the
+customer but will make an individual assessment as to whether the customer
+may use Betalingsservice.
+.br
+Once the customer has a BS debtor agreement, the customer may give BS
+mandates.
+.br
+If the customer has no BS debtor agreement, &BANKNAVN. is entitled to
+return payments already effected and cancel BS mandates in accordance with
+the provisions set out in clause 8.3.
+.sp 3mm
+:FED.
+3.2 Rules
+:SKRSLUT.
+.br
+The BS debtor agreement obliges the customer to comply with the General
+conditions for Betalingsservice debtors.
+.sp 5mm
+.kp off
+.tp 5mm 6mm
+.*****************************************
+.kp on
+:SWISS10.
+:FED.
+4. BS mandates:SKRSLUT.
+.sp 3mm
+:SWISS8.
+:FED.
+4.1 Effect of BS mandates
+:SKRSLUT.
+.br
+When giving a BS mandate, the customer authorises the creditor to collect
+payments from the customer s account on the payment date specified by the
+creditor.
+.sp 3mm
+:SWISS8.
+:FED.
+4.2 Giving BS mandates
+:SKRSLUT.
+.br
+The customer may give a BS mandate in one of the following ways:
+.br
+.of 5mm
+*¤The customer may give a BS mandate to a creditor, who will register the
+mandate with &NETS.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pay his or her creditor in another way..sp 3mm.kp off.kp on:SWISS8.:FED.4.4 Change of account number:SKRSLUT..brIf the customer wishes to change the account number registered in the BSmandate, the customer must contact &BANKNAVN...sp 5mm.kp off.kp on:SWISS10.:FED.5. Prenotification in Betalingsservice:SKRSLUT..sp 3mm:SWISS8.:FED.5.1 The Betalingsservice prenotification:SKRSLUT..brIf payments fall due the following month, the customer will receiveone or more Betalingsservice prenotifications..brThe customer will receive his or her prenotification electronically and/orin print as agreed with &BANKNAVN...br
+If the 
+custome
+r has 
+opted fo
+r ele
+ctronic prenotification only
+, thecust
+ome
+r must read clause 6 carefully..sp 3mm.kp off.kp on:FED.5.2 When will th
+e customer receive the prenotification?:SKRSLU
+T..brIf
+ paymen
+ts fal
+l due the
+ foll
+owing month, the customer will receive
+ theprint
+ed pren
+otificat
+ion b
+efore the beginning of the month subject
+ toregula
+r p
+ostal delivery service..sp 3mm.kp off.kp onIf the customer has opte
+d for electronic prenotification, informationa
+bou
+t the following month s payments will be available in his or heronline ban
+king system and/or his or her elect
+ron
+ic mailbox before thebeginning of the month..sp 3mm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kp off.kp on:FED.5.3 Contents of the prenotification:SKRSLUT..brThe prenotification specifies the amount, payment date, creditor's nameand payment details that make it easy for the customer to identify thepayment..sp 3mm.kp off.kp onAdditional documents with information from the creditor may be enclosedwith the prenotification..sp 3mm.kp off.kp onElectronic payment information matches that on the printedprenotification..sp 3mm.kp off.kp on:FED.5.4 The prenotification as an invoice:SKRSLUT..brThe Betalingsservice prenotification and electronic payment informationmay serve 
+as an 
+invoi
+ce..sp 3mm.kp off.kp on:FED.5.5 Cop
+y of prin
+ted
+ prenotifications:SKRSLUT..brThe customer may ask &BANKNAVN. for copies
+ ofprenotifications. &BANKNAVN. will be able to provide a copy in thet
+ransacti
+on year
+ and th
+e foll
+owing five years..sp 3mm.kp off.kp on&BANKNAVN. will inform the custome
+r of the charge for this 
+service
+ onrequ
+est..s
+p 5mm.kp off.kp on:SWISS10.:FED.6. Special rules on electr
+onic payment inf
+ormatio
+n.sp 3m
+m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:SWISS8.:FED.6.1 Agreement on electronic payment information:SKRSLUT..brThe customer must make an agreement with &BANKNAVN. if the customer wantsto receive electronic payment information only..sp 3mm.kp off.kp onIf the customer later decides that he og she would like to receiveprinted prenotifications, thecustomer must amend the agreement with&BANKNAVN. accordingly.Termination of the customer's online banking agreement will automaticallyterminate the agreement on electronic payment information. Instead, thecustomer will receive printed Betalingsservice prenotifications, pro
+vided
+that the BS debtor agreement has not been termi
+nated..sp
+ 3m
+m.kp off.kp on:FED.6.2 The customer's obligations in connection with elec
+tronic paymentinformation:SKRSLUT..brIf the cus
+tomer h
+ave opt
+ed for
+ electronic information only, the customer isresponsible for check
+ing that he or she has actually received suchinformation. The custo
+mer must contact &BANKN
+AVN. immediately if thecustomer has not received the electronic payment i
+nformation the customerexpected at the beginning of the month or if the
+ customer has found errorsin his or her equipment preventing the customer
+ from receiving  the paymentinformation electronicall
+y. &BAN
+KNAVN. 
+will r
+esend
+ payment informationelectronically or in print..sp 3mm.kp off.kp onI
+f the custo
+mer fails
+ to
+ contact &BANKNAVN. immediately, the customer mayforfeit the option of refu
+sing a payment, see clause 8.1. The customer isresponsible for ens
+uring that his or her own equipment is set up toreceive electronic p
+ayment information. The customer is also liable iffailure to access the i
+nformation is due to his or her telecommunicationsoperator or Internet ser
+vice provider..sp 3mm.kp off.kp on:FED.6.3 Printed version:SKRSLUT..brThe c
+ustomer may ask &BANKNAVN. for a printed version of electronic payment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+information. &BANKNAVN. will be able to provide the customer with a printedcopy in the transaction year and the following five years. &BANKNAVN. willinform the customer of the charge for this service on request..sp 3mm.kp off.kp on:FED.6.4 Access to electronic payment information:SKRSLUT..brThe customer's online banking system and/or his or her electronic mailboxwill as a minimum store electronic payment information from the monthpayment is made and for a period of at least 13 months after such payment..sp 3mm.kp off.kp on&BANKNAVN. may inform the customer of the period of time the electronicpayment information is stored in his or her &WEB
+SYSNAVN.. The customer'selectronic mailbox provider may inform the custome
+r which time limitapplies to information in his or her mailbox
+..sp 3m
+m.kp of
+f.kp o
+nIf t
+he customer wants to save electronic payment
+ informat
+ion
+ beyond thisperiod, &BANKNAVN. and/or electronic mailbox provider may inf
+orm thecustomer of the various saving and printing options available 
+to thecustomer. They may also inform the customer of what to do if the cus
+tomerch
+anges b
+ank..s
+p 5mm.kp off.kp on:SWISS10.:FED.7. Payment execution.sp 3mm:SWISS8.:FED
+.7.1 Consent to payment execution:SKRSLUT..brWhen the customer gives a B
+S mandate to a creditor, the customer consentsto the execution of pa
+yments under the agreement. The customer may 
+revokeh
+is or h
+er con
+sent by cancelling the BS mandate (see clause 10.1) orby enforcing his o
+r her right to refuse or request a refund of a payment inaccordance 
+with the provisions set out in clause 8.1..sp 3mm.kp off.kp onIf no 
+valid BS mandate exists, the customer may dispute payments, seeclause 9.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sp 3mm.kp off.kp on:FED.7.2 Funds in the customer's account:SKRSLUT..brThe customer's account must hold sufficient funds at the payment date. Ifthe funds in the customer's account are insufficient to meet all paymentsthat fall due on a payment date, &BANKNAVN. is entitled to return thesepayments in accordance with the provisions set out in clause.if &U'&WEBPRIERH eq E.th  9..el 8.3..sp 3mm.kp off.kp on:FED.7.3 Payment execution date:SKRSLUT..brA payment is debited to the customer's account on the payment datespecified by the creditor..sp 3mm.kp off.kp on:FED.7.4 Specifica
+tion of
+ payme
+nt da
+te:SKRSLUT..brThe creditor must spe
+cify the 
+pay
+ment date in accordance with thecustomer's agreement. The customer and hi
+s or her creditor must agree onchanges to payment dates..sp 3mm.kp off.kp
+ on:FED.7.5 Payment and receipt:SKRSLUT..brCollection of payments throu
+gh Betalingsservice will discharge the customerfrom his or h
+er payment obligation 
+to his 
+or her c
+reditor
+.An acc
+ount s
+tatem
+ent specifying the payment
+ is consi
+der
+ed evidence ofexecution. This does not apply, however, if the paym
+ent is subsequentlyrefunde
+d or re
+turned 
+by &BA
+NKNAV
+N...sp 3mm.kp off.kp onIf the cus
+tomer wan
+ts 
+a separate receipt for a payment executed during thepast 15 month
+s, the customer must contact &BANKNAVN..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&BANKNAVN. will inform the customer of the charge for this service onrequest..sp 3mm.kp off.kp on:FED.7.6 Maximum execution time:SKRSLUT..brThe maximum total execution time is one banking day..sp 5mm.kp off
+
+
+
+
+
+
+
+
+
+
+
+.tp 5mm 6mm
+.*****************************************
+.kp on
+:SWISS10.
+:FED.
+8. Refusals and refunds
+.sp 3mm
+:SWISS8.
+:FED.
+8.1 General deadline for refusals/refunds
+:SKRSLUT.
+.br
+The customer may refuse an upcoming payment or request refund of a payment
+already executed no later than on the 7th day of the payment month.
+.sp 3mm
+.kp off
+.kp on
+If the prenotification, for example, specifies that a payment falls due on
+the 25th day of the month, the customer must refuse the payment no later
+than the 7th day of the payment month.
+.sp 3mm
+.kp off
+.kp on
+No transaction will be recorded in the customer's account if the customer
+refuses a payment. If the payment has already been executed, the amount
+will be debited to the creditor's account and credited to the customer's
+account. The list of account entries or the account statement will show the
+refund.
+.sp 3mm
+.kp off
+.kp on
+Only the payment in question will be refused or refunded - not future
+payments under the agreement. If the customer wants to stop all future
+payments in general, the customer must cancel his or her BS mandate in
+accordance with clause 10.1.
+.sp 3mm
+.kp off
+.kp on
+The customer can refuse or request a refund of the full amount only.
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+:FED.
+8.2 How to refuse/request refunds of payments
+:SKRSLUT.
+.br
+The customer must notify &BANKNAVN. that he or she wishes to refuse or
+request a refund of a payment no later than on the 7th day of the month.
+.sp 3mm
+.kp off
+.kp on
+The customer may notify &BANKNAVN. electronically through his or her online
+banking system, by letter or otherwise as agreed with &BANKNAVN..
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+:FED.
+8.3 &BANKNAVN.'s return of payments
+:SKRSLUT.
+.br
+&BANKNAVN. may return a payment if:
+.br
+.of 5mm
+*¤the customer's account does not hold sufficient funds and amount to be
+paid exceeds DKK 1,000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kp on:SWISS8.:FED.8.4 Deadlines:SKRSLUT..brIf the deadline for a refusal, a refund or a return is a non-banking day,the actual deadline is the following banking day..sp 5mm.kp off.kp on:SWISS10.:FED.9. Disputing payments.sp 3mm:SWISS8.:FED.9.1 Unauthorised and incorrectly executed payments:SKRSLUT..brPayments are unauthorised if no valid BS mandate exists.Payments are incorrectly executed if they are not registered and bookedcorrectly or if they are affected by technical failure or similar failurecaused by &NETS. or &BANKNAVN., for example a discrepancybetween the notified amount and the booked amount..sp 3mm.kp off.kp on:SWISS8.:FED.9.2 The customer's options:SKRSLUT..brThe customer may submit an objection to &BANKNAVN
+. statin
+g tha
+t.br.of 5mm*¤
+the custo
+mer
+ has not given a BS mandate to the creditor for the paymentin question
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kp off.kp onIf the payment is unauthorised or incorrectly executed, the payment will bereturned through &BANKNAVN.. The customer's position will be the same asbefore execution of the payment..sp 3mm.kp off.kp on:SWISS8.:FED.9.3 Deadlines:SKRSLUT..brIf the deadline for submitting the customer's objection is a nonbankingday, the actual deadline is the following banking day..sp 5mm.kp off.kp on:SWISS10.:FED.10. Termination of BS mandates.sp 3mm:SWISS8.:FED.10.1 Cancellation by the customer:SKRSLUT..brThe customer may notify &BANKNAVN. or his or her creditor that the customerwishes to cancel a BS mandate any time..sp 3mm.kp off.kp on:SWISS8.:FED.10.2 Effective date of cancellation:SKRSLUT..brThe customer's cancellation will take effect as soon as possible but nolater than three banking days after &NETS. received the request from&BANKNAVN. or creditor..sp 3mm.kp off.kp on:SWISS8.:FED.10.3 Expiry due to inactivity:SKRSLUT..brA BS mandate may expire if the mandate has been inactive for a period of 15months. The customer's next 
+prenot
+ification will notify the customer of
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+the expiry..sp 3mm.kp off.kp on:SWISS8.:FED.10.4 Expiry on termination of BS debtor agreement:SKRSLUT..brIf the BS debtor agreement with &BANKNAVN. is terminated, all BSmandates under the BS debtor agreement will expire see clause 12.2..sp 3mm.kp off.kp on:SWISS8.:FED.10.5 If the creditor ceases to use Betalingsservice:SKRSLUT..brIf the creditor ceases to use Betalingsservice, the customer'sBS mandate with the creditor automatically expires..sp 3mm.kp off.kp on:SWISS8.:FED.10.6 Effect of cancellation and expiry:SKRSLUT..brIf a BS mandate is cancelled or has expired, the creditor may nolonger collect payments from the customer. Any payments notifiedbut not yet executed will not be executed.The customer's Betalingsservice prenotification will show cancelled andexpired BS mandates..sp 5mm.kp off.kp on:SWISS10.:FED.11. Termination of the BS debtor agreement by the customer.sp 3mm:SWISS8.:FED.11.1 No deadline for notice of termination by the customer:SKRSLUT..brThe customer may terminate his or her BS debtor agreement with&BANKNAV
+N. in w
+riting 
+any ti
+me..sp 3
+mm.kp
+ off
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.kp on:SWISS8.:FED.11.2 Effect of termination by the customer:SKRSLUT..brOn termination, all BS mandates under the BS debtor agreement will expire.Consequently, the customer's creditors will have to collect payments inother ways..sp 3mm.kp off.kp on:SWISS8.Payments listed in the prenotification will not be executed if they falldue for payment after the expiry of the BS debtor agreement..sp 3mm.kp off.kp on:SWISS8.:FED.11.3 When does the notice of termination take effect?:SKRSLUT..brThe customer's termination of the BS debtor agreement will take effect assoon as possible but no later than three banking days after &BANKNAVN.has received the notice of termination..sp 3mm.kp off
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tp 5mm 6mm
+.*****************************************
+.kp on
+:SWISS10.
+:FED.
+12. Termination of the BS debtor agreement by &BANKNAVN.
+.sp 3mm
+:SWISS8.
+:FED.
+12.1 Notice of termination by &BANKNAVN.
+:SKRSLUT.
+.br
+:SWISS8.
+&BANKNAVN. may terminate the BS debtor agreement by giving at least two
+months' notice.
+.br
+&BANKNAVN. may terminate the agreement without notice in the event of a
+material breach of contract on the customer's part. In that case,
+&BANKNAVN. will inform the customer in writing of the reason for
+terminating the agreement. An example of a material breach would
+be if the customer failed on several occasions to ensure there were
+sufficient funds in the customer's account see clause 7.2.
+.sp 3mm
+.kp off
+.kp on
+:SWISS8.
+:FED.
+12.2 Effect of termination of the BS debtor agreement
+:SKRSLUT.
+.br
+On termination, all BS mandates under the BS debtor agreement will expire.
+Consequently, the customer may no longer use Betalingsservice for the
+payment of the customer's creditors.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+13. &BANKNAVN.'s failure to meet obligations
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+If Betalingsservice does not execute a payment because &BANKNAVN. suspends
+payments or goes bankrupt, the creditor is entitled to collect payment from
+the customer in another way.
+.sp 3mm
+.kp off
+.kp on
+The creditor is entitled to claim that the customer has defaulted on the
+customer's obligations only if the customer fails to effect payment within
+the new deadline set by the creditor.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+14. &BANKNAVN.'s liability
+:SKRSLUT.
+.sp 3mm
+:SWISS8.
+&BANKNAVN. is liable for late or defective performance of its
+contractual obligations resulting from error or negligence.
+Even in areas of stricter liability, &BANKNAVN. is not liable for
+losses arising from
+.br
+.of 5mm
+*¤breakdowns of/inability to access IT systems or damage to data in such
+systems as a result of the below events, irrespective of whether the
+operation of such systems is the responsibility of &BANKNAVN. itself or
+an external supplier
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+of the loss
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:FED.17. Law, jurisdiction and disputes.sp 3mm:SWISS8.These conditions are governed by Danish law.Disputes may be brought before the Danish Complaint Board of BankingServices or the ordinary courts in the jurisdiction of &BANKNAVN.'shome court as venue..sp 3mm.kp off.kp on:SWISS8.Disputes relating to &NETS.'s role as a payment service provider may bebrought before the Danish Financial Supervisory Authority..sp 3mm.kp off
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

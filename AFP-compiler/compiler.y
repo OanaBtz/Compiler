@@ -120,21 +120,41 @@ TOKEN		:	TOKEN DA
 																										}																					
 			|	TOKEN HR_T IDENT_T SIZE_T SIZE_T SIZE_T SIZE_T NEW_LINE_T								{
 																											cout << "HR WITH EXTRA STUFF" << endl;
-																											Node hyNode(HR, "");
-																											Node hyStrNode(STRINGLITERAL, $3);
-																											Node hyS1Node(NUMBER, $4);
-																											Node hyS2Node(NUMBER, $5);
-																											Node hyS3Node(NUMBER, $6);
-																											Node hyS4Node(NUMBER, $7);
-																											list.push_back(hyNode);
-																											list.push_back(hyStrNode);
-																											list.push_back(hyS1Node);
-																											list.push_back(hyS2Node);
-																											list.push_back(hyS3Node);
-																											list.push_back(hyS4Node);
+																											Node hrNode(HR, "");
+																											Node hrStrNode(STRINGLITERAL, $3);
+																											numberFct($4);
+																											Node hrS1Node(NUMBER, number);
+																											numberFct($5);
+																											Node hrS2Node(NUMBER, number);
+																											numberFct($6);
+																											Node hrS3Node(NUMBER, number);
+																											numberFct($7);
+																											Node hrS4Node(NUMBER, number);
+																											list.push_back(hrNode);
+																											list.push_back(hrStrNode);
+																											list.push_back(hrS1Node);
+																											list.push_back(hrS2Node);
+																											list.push_back(hrS3Node);
+																											list.push_back(hrS4Node);
 
 																											Node endNode(NEWLINE, "");
 																											list.push_back(endNode);
+																										}
+			|	TOKEN HR_T IDENT_T SIZE_T SIZE_T NEW_LINE_T												{
+																											cout << "HR WITH EXTRA STUFF" << endl;
+																											Node hrNode(HR, "");
+																											Node hrStrNode(STRINGLITERAL, $3);
+																											numberFct($4);
+																											Node hrS1Node(NUMBER, number);
+																											numberFct($5);
+																											Node hrS2Node(NUMBER, number);
+																											
+																											list.push_back(hrNode);
+																											list.push_back(hrStrNode);
+																											list.push_back(hrS1Node);
+																											list.push_back(hrS2Node);
+																											
+
 																										}
 			|	TOKEN HR_T IDENT_T DIRECTION_T IDENT_T SIZE_T SIZE_T IDENT_T SIZE_T NEW_LINE_T			{
 																											cout << "HR WITH EXTRA STUFF" << endl;
@@ -227,15 +247,16 @@ TOKEN		:	TOKEN DA
 																											Node endNode(NEWLINE, "");
 																											list.push_back(endNode);
 																										}
-			|	TOKEN HR_T SIZE_T DIRECTION_T NEW_LINE_T												{
+			|	TOKEN HR_T SIZE_T DIRECTION_T  NEW_LINE_T												{
 																											cout << "HR" << endl;
 																											Node hrNode(HR, "");
-																											
-																											numberFct($4);
+
+																											numberFct($3);
 																											Node sizeNode(NUMBER, number);
-																											
+
 																											Node* dirNode;
-																											if(strcmp($2, "left") == 0)
+
+																											if(strcmp($4, "left") == 0)
 																											{
 																												dirNode = new Node(LEFT, "");
 																											}
@@ -249,7 +270,46 @@ TOKEN		:	TOKEN DA
 																											list.push_back(*dirNode);
 
 																											Node endNode(NEWLINE, "");
+																											list.push_back(endNode);																										
+
+																										}
+			|	TOKEN HR_T SIZE_T IDENT_T SIZE_T  NEW_LINE_T											{
+																											cout << "HR" << endl;
+																											Node hrNode(HR, "");
+
+																											numberFct($3);
+																											Node sizeNode(NUMBER, number);
+
+																											Node forNode(STRINGLITERAL, $4);
+
+																											numberFct($5);
+																											Node size2Node(NUMBER, number);
+
+																											list.push_back(hrNode);
+																											list.push_back(sizeNode);
+																											list.push_back(forNode);
+																											list.push_back(size2Node);	
+																											
+																											Node endNode(NEWLINE, "");
 																											list.push_back(endNode);
+
+																										}
+			|	TOKEN HR_T	SIZE_T SIZE_T 	NEW_LINE_T													{
+																											cout << "HR" << endl;
+																											Node hrNode(HR, "");
+
+																											numberFct($3);
+																											Node sizeNode(NUMBER, number);
+																											numberFct($4);
+																											Node size2Node(NUMBER, number);
+																											
+																											list.push_back(hrNode);
+																											list.push_back(sizeNode);
+																											list.push_back(size2Node);
+
+																											Node endNode(NEWLINE, "");
+																											list.push_back(endNode);
+																											
 																										}
 			|	TOKEN EL_T																				{
 																											cout << "ELSE" << endl;
@@ -564,6 +624,12 @@ STRING_LINE	:	IDENT_T																					{
 																											Node numNode(NUMBER, $1);
 																											list.push_back(numNode);
 																										}
+			|	MATHEX_T																				{
+																											cout << "Mathex in a string" << endl;
+																											cout << $1 << endl;
+																											Node textNode(STRINGLITERAL, $1);
+																											list.push_back(textNode);
+																										}
 			|	STRING_LINE STRING_LINE
 			|	STRING_LINE	NEW_LINE_T																	{
 																											Node newlineNode(NEWLINE, "");
@@ -633,6 +699,16 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 																											list.push_back(inNode);
 																											list.push_back(sizeNode);
 																										}
+			|	IN_T SIZE_T IDENT_T NEW_LINE_T														{
+																											cout << "IN" << endl;
+																											Node inNode(IN, "");
+																											numberFct($2);
+																											Node sizeNode(NUMBER, number);
+																											Node ident(STRINGLITERAL, $3);
+																											list.push_back(inNode);
+																											list.push_back(sizeNode);
+																											list.push_back(ident);
+																										}
 			|	IN_T NEW_LINE_T																			{
 																											cout << "IN" << endl;
 																											Node inNode(IN, "");
@@ -648,6 +724,11 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 																											list.push_back(irNode);
 																											list.push_back(sizeNode);
 																										}
+			|	IR_T NEW_LINE_T																			{
+																											cout << "IR" << endl;
+																											Node irNode(IR, "");
+																											list.push_back(irNode);
+																										}
 			|	CT NEW_LINE_T
 			|	PA_T IDENT_T NEW_LINE_T																	{
 																											cout << "PA" << endl;
@@ -655,6 +736,11 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 																											Node identNode(STRINGLITERAL, $2);
 																											list.push_back(paNode);
 																											list.push_back(identNode);
+																										}
+			|	PA_T NEW_LINE_T																			{
+																											cout << "PA" << endl;
+																											Node paNode(PA, "");
+																											list.push_back(paNode);																											
 																										}
 			|	KP NEW_LINE_T
 			|	CE NEW_LINE_T
@@ -1151,6 +1237,18 @@ BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
 																											box.addNode(dir2Node);
 																											list.push_back(box);
 																										}
+			|	BX_T SIZE_T SIZE_T NEW_LINE_T															{
+																											cout << "BOX" << endl;
+																											Node box(BOX, "");
+																											numberFct($2);
+																											Node sizeNode(NUMBER, number);
+																											numberFct($3);
+																											Node sizeNode2(NUMBER, number);
+
+																											box.addNode(&sizeNode);
+																											box.addNode(&sizeNode2);
+																											list.push_back(box);
+																										}
 			| 	BX_T IDENT_T DIRECTION_T DIRECTION_T NEW_LINE_T											{
 																											cout << "BOX" << endl;
 																											Node box(BOX, "");
@@ -1350,10 +1448,7 @@ BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
 																															numberFct($9);
 																															Node size5Node(NUMBER, number);
 																															Node slash3Node(RULE, $10);
-																															// numberFct($11);											
-																															// Node size6Node(NUMBER, number);
-																															// numberFct($12);
-																															// Node size7Node(NUMBER, number);
+																														
 																															
 																															boxNode.addNode(dirNode);
 																															boxNode.addNode(&sizeNode);
@@ -1364,8 +1459,15 @@ BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
 																															boxNode.addNode(&size4Node);
 																															boxNode.addNode(&size5Node);
 																															boxNode.addNode(&slash3Node);
-																															// boxNode.addNode(&size6Node);
-																															// boxNode.addNode(&size7Node);
+
+
+
+																															numberFct($11);											
+																															Node* size6Node = new Node (NUMBER, number);
+																															numberFct($12);
+																															Node* size7Node = new Node (NUMBER, number);
+																															boxNode.addNode(size6Node);
+																															boxNode.addNode(size7Node);
 																															list.push_back(boxNode);
 
 																														}
