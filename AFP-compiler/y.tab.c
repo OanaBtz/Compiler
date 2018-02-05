@@ -106,10 +106,7 @@ Node docNode(DOCUMENT, "");
 # define YYERROR_VERBOSE 0
 #endif
 
-/* In a future release of Bison, this section will be replaced
-   by #include "y.tab.h".  */
-#ifndef YY_YY_Y_TAB_H_INCLUDED
-# define YY_YY_Y_TAB_H_INCLUDED
+
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 0
@@ -284,7 +281,7 @@ union YYSTYPE
 
 	char tokens[1000];
 
-#line 288 "y.tab.c" /* yacc.c:355  */
+#line 285 "y.tab.c" /* yacc.c:355  */
 };
 
 typedef union YYSTYPE YYSTYPE;
@@ -297,11 +294,11 @@ extern YYSTYPE yylval;
 
 int yyparse (void);
 
-#endif /* !YY_YY_Y_TAB_H_INCLUDED  */
+
 
 /* Copy the second part of user declarations.  */
 
-#line 305 "y.tab.c" /* yacc.c:358  */
+#line 302 "y.tab.c" /* yacc.c:358  */
 
 #ifdef short
 # undef short
@@ -1570,7 +1567,7 @@ yyreduce:
 																											Node ofNode(OF, "");
 																											list.push_back(ofNode);
 																										}
-#line 1574 "y.tab.c" /* yacc.c:1646  */
+#line 1571 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 26:
@@ -1582,7 +1579,7 @@ yyreduce:
 																											list.push_back(ofNode);
 																											list.push_back(ofSizeNode);
 																										}
-#line 1586 "y.tab.c" /* yacc.c:1646  */
+#line 1583 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 27:
@@ -1594,7 +1591,7 @@ yyreduce:
 																											list.push_back(clNode);
 																											list.push_back(clnumNode);
 																										}
-#line 1598 "y.tab.c" /* yacc.c:1646  */
+#line 1595 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 28:
@@ -1607,7 +1604,7 @@ yyreduce:
 																											list.push_back(cdValueNode);
 																											list.push_back(cdnumNode);	
 																										}
-#line 1611 "y.tab.c" /* yacc.c:1646  */
+#line 1608 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 29:
@@ -1619,7 +1616,7 @@ yyreduce:
 																											list.push_back(tmNode);
 																											list.push_back(tmsizeNode);
 																										}
-#line 1623 "y.tab.c" /* yacc.c:1646  */
+#line 1620 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 30:
@@ -1631,7 +1628,7 @@ yyreduce:
 																											list.push_back(bmNode);
 																											list.push_back(bmsizeNode);
 																										}
-#line 1635 "y.tab.c" /* yacc.c:1646  */
+#line 1632 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 31:
@@ -1640,7 +1637,7 @@ yyreduce:
 																											Node tpNode(TP, "");
 																											list.push_back(tpNode);
 																										}
-#line 1644 "y.tab.c" /* yacc.c:1646  */
+#line 1641 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 32:
@@ -1660,7 +1657,7 @@ yyreduce:
 																											list.push_back(hyS3Node);
 																											list.push_back(hyS4Node);
 																										}
-#line 1664 "y.tab.c" /* yacc.c:1646  */
+#line 1661 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 33:
@@ -1672,7 +1669,7 @@ yyreduce:
 																											list.push_back(hyNode);
 																											list.push_back(hyOnNode);
 																										}
-#line 1676 "y.tab.c" /* yacc.c:1646  */
+#line 1673 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 34:
@@ -1682,7 +1679,7 @@ yyreduce:
 																											Node hyOffNode(OFF_HY, "");
 																											list.push_back(hyOffNode);	
 																										}
-#line 1686 "y.tab.c" /* yacc.c:1646  */
+#line 1683 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 35:
@@ -1696,7 +1693,7 @@ yyreduce:
 																											list.push_back(lNode);
 																											list.push_back(rNode);
 																										}
-#line 1700 "y.tab.c" /* yacc.c:1646  */
+#line 1697 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 36:
@@ -1706,7 +1703,7 @@ yyreduce:
 																											Node elNode(ELSE, "");
 																											list.push_back(elNode);	
 																										}
-#line 1710 "y.tab.c" /* yacc.c:1646  */
+#line 1707 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 37:
@@ -1716,7 +1713,7 @@ yyreduce:
 																											Node thNode(THEN, "");
 																											list.push_back(thNode);	
 																										}
-#line 1720 "y.tab.c" /* yacc.c:1646  */
+#line 1717 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 38:
@@ -1726,7 +1723,7 @@ yyreduce:
 																											Node thNode(THEN, "");
 																											list.push_back(thNode);	
 																										}
-#line 1730 "y.tab.c" /* yacc.c:1646  */
+#line 1727 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 39:
@@ -1742,7 +1739,7 @@ yyreduce:
 																											list.push_back(drWeightNode);
 																											list.push_back(drSizeNode);
 																										}
-#line 1746 "y.tab.c" /* yacc.c:1646  */
+#line 1743 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 40:
@@ -1753,7 +1750,7 @@ yyreduce:
 																											Node labelStrNode(STRINGLITERAL, s.substr(3));
 																											Node labelNode(LABEL, s.substr(3));																											
 																										}
-#line 1757 "y.tab.c" /* yacc.c:1646  */
+#line 1754 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 41:
@@ -1774,7 +1771,7 @@ yyreduce:
 																												list.push_back(fontSize);
 																											}
 																										}
-#line 1778 "y.tab.c" /* yacc.c:1646  */
+#line 1775 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 42:
@@ -1795,7 +1792,7 @@ yyreduce:
 																												list.push_back(fontSize);
 																											}
 																										}
-#line 1799 "y.tab.c" /* yacc.c:1646  */
+#line 1796 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 43:
@@ -1803,7 +1800,7 @@ yyreduce:
     {
 
 																										}
-#line 1807 "y.tab.c" /* yacc.c:1646  */
+#line 1804 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 47:
@@ -1815,7 +1812,7 @@ yyreduce:
 																											list.push_back(pmNode);
 																											list.push_back(pmsizeNode);
 																										}
-#line 1819 "y.tab.c" /* yacc.c:1646  */
+#line 1816 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 48:
@@ -1827,7 +1824,7 @@ yyreduce:
 																											list.push_back(rhNode);
 																											list.push_back(rhonNode);
 																										}
-#line 1831 "y.tab.c" /* yacc.c:1646  */
+#line 1828 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 49:
@@ -1837,7 +1834,7 @@ yyreduce:
 																											Node rhoffNode(OFF_RH, "");
 																											list.push_back(rhoffNode);
 																										}
-#line 1841 "y.tab.c" /* yacc.c:1646  */
+#line 1838 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 50:
@@ -1847,7 +1844,7 @@ yyreduce:
 																											Node rhcancelNode(CANCEL, "");
 																											list.push_back(rhcancelNode);
 																										}
-#line 1851 "y.tab.c" /* yacc.c:1646  */
+#line 1848 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 51:
@@ -1857,7 +1854,7 @@ yyreduce:
 																											Node rhexecuteNode(EXECUTE, "");
 																											list.push_back(rhexecuteNode);
 																										}
-#line 1861 "y.tab.c" /* yacc.c:1646  */
+#line 1858 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 60:
@@ -1880,7 +1877,7 @@ yyreduce:
 																											list.push_back(valueNode);
 																											list.push_back(stringLiteralNode);
 																										}
-#line 1884 "y.tab.c" /* yacc.c:1646  */
+#line 1881 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 61:
@@ -1903,7 +1900,7 @@ yyreduce:
 																											list.push_back(valueNode);
 																											list.push_back(numNode);
 																										}
-#line 1907 "y.tab.c" /* yacc.c:1646  */
+#line 1904 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 62:
@@ -1924,7 +1921,7 @@ yyreduce:
 																											list.push_back(valueNode);
 																											list.push_back(stringLiteralNode);
 																										}
-#line 1928 "y.tab.c" /* yacc.c:1646  */
+#line 1925 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 63:
@@ -1945,7 +1942,7 @@ yyreduce:
 																											list.push_back(valueNode);
 																											list.push_back(numNode);
 																										}
-#line 1949 "y.tab.c" /* yacc.c:1646  */
+#line 1946 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 64:
@@ -1955,7 +1952,7 @@ yyreduce:
 																											Node ifNode(IF, "");
 																											list.push_back(ifNode);
 																										}
-#line 1959 "y.tab.c" /* yacc.c:1646  */
+#line 1956 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 65:
@@ -1965,7 +1962,7 @@ yyreduce:
 																											Node andNode(AND, "");
 																											list.push_back(andNode);
 																										}
-#line 1969 "y.tab.c" /* yacc.c:1646  */
+#line 1966 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 66:
@@ -1975,7 +1972,7 @@ yyreduce:
 																											Node orNode(OR, "");
 																											list.push_back(orNode);	
 																										}
-#line 1979 "y.tab.c" /* yacc.c:1646  */
+#line 1976 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 67:
@@ -1995,7 +1992,7 @@ yyreduce:
 																											list.push_back(numberNode);
 																											list.push_back(newlineNode);
 																										}
-#line 1999 "y.tab.c" /* yacc.c:1646  */
+#line 1996 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 68:
@@ -2014,7 +2011,7 @@ yyreduce:
 																											list.push_back(newlineNode);
 
 																										}
-#line 2018 "y.tab.c" /* yacc.c:1646  */
+#line 2015 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 69:
@@ -2036,7 +2033,7 @@ yyreduce:
 																											list.push_back(varNameNode2);
 																											list.push_back(newlineNode);
 																										}
-#line 2040 "y.tab.c" /* yacc.c:1646  */
+#line 2037 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 70:
@@ -2057,7 +2054,7 @@ yyreduce:
 																											list.push_back(varNameNode);
 																											list.push_back(newlineNode);
 																										}
-#line 2061 "y.tab.c" /* yacc.c:1646  */
+#line 2058 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 71:
@@ -2074,7 +2071,7 @@ yyreduce:
 																											list.push_back(newlineNode);
 																											
 																										}
-#line 2078 "y.tab.c" /* yacc.c:1646  */
+#line 2075 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 72:
@@ -2088,7 +2085,7 @@ yyreduce:
 																											list.push_back(numNode);
 																											list.push_back(newlineNode);
 																										}
-#line 2092 "y.tab.c" /* yacc.c:1646  */
+#line 2089 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 73:
@@ -2099,7 +2096,7 @@ yyreduce:
 																											Node textNode(STRINGLITERAL, (yyvsp[0].tokens));
 																											list.push_back(textNode);	
 																										}
-#line 2103 "y.tab.c" /* yacc.c:1646  */
+#line 2100 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 74:
@@ -2112,7 +2109,7 @@ yyreduce:
 																											list.push_back(variable);
 																											list.push_back(varName0);
 																										}
-#line 2116 "y.tab.c" /* yacc.c:1646  */
+#line 2113 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 75:
@@ -2122,7 +2119,7 @@ yyreduce:
 																											Node numNode(NUMBER, (yyvsp[0].tokens));
 																											list.push_back(numNode);
 																										}
-#line 2126 "y.tab.c" /* yacc.c:1646  */
+#line 2123 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 77:
@@ -2131,7 +2128,7 @@ yyreduce:
 																											Node newlineNode(NEWLINE, "");
 																											list.push_back(newlineNode);
 																										}
-#line 2135 "y.tab.c" /* yacc.c:1646  */
+#line 2132 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 78:
@@ -2144,7 +2141,7 @@ yyreduce:
 																											list.push_back(gotoNode);
 																											list.push_back(identifierNode);	
 																										}
-#line 2148 "y.tab.c" /* yacc.c:1646  */
+#line 2145 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 79:
@@ -2159,7 +2156,7 @@ yyreduce:
 																											list.push_back(spaceNode);
 																											list.push_back(spacenNode);
 																										}
-#line 2163 "y.tab.c" /* yacc.c:1646  */
+#line 2160 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 80:
@@ -2173,7 +2170,7 @@ yyreduce:
 																											list.push_back(spaceNode);
 																											list.push_back(spacenNode);
 																										}
-#line 2177 "y.tab.c" /* yacc.c:1646  */
+#line 2174 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 81:
@@ -2187,7 +2184,7 @@ yyreduce:
 																											list.push_back(spaceNode);
 																											list.push_back(spacenNode);
 																										}
-#line 2191 "y.tab.c" /* yacc.c:1646  */
+#line 2188 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 82:
@@ -2200,7 +2197,7 @@ yyreduce:
 																											list.push_back(llNode);
 																											list.push_back(sizeNode);	
 																										}
-#line 2204 "y.tab.c" /* yacc.c:1646  */
+#line 2201 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 84:
@@ -2215,7 +2212,7 @@ yyreduce:
 																											list.push_back(mgTNode);
 																											list.push_back(mgStrNode);
 																										}
-#line 2219 "y.tab.c" /* yacc.c:1646  */
+#line 2216 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 85:
@@ -2229,7 +2226,7 @@ yyreduce:
 																											list.push_back(sizeNode);
 
 																										}
-#line 2233 "y.tab.c" /* yacc.c:1646  */
+#line 2230 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 86:
@@ -2242,7 +2239,7 @@ yyreduce:
 																											list.push_back(irNode);
 																											list.push_back(sizeNode);
 																										}
-#line 2246 "y.tab.c" /* yacc.c:1646  */
+#line 2243 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 88:
@@ -2254,7 +2251,7 @@ yyreduce:
 																											list.push_back(paNode);
 																											list.push_back(identNode);
 																										}
-#line 2258 "y.tab.c" /* yacc.c:1646  */
+#line 2255 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 93:
@@ -2270,7 +2267,7 @@ yyreduce:
 																											list.push_back(tbNum1Node);
 																											list.push_back(tbNum2Node);
 																										}
-#line 2274 "y.tab.c" /* yacc.c:1646  */
+#line 2271 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 94:
@@ -2283,7 +2280,7 @@ yyreduce:
 																											list.push_back(sknode);
 																											list.push_back(skNumberNode);
 																										}
-#line 2287 "y.tab.c" /* yacc.c:1646  */
+#line 2284 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 95:
@@ -2293,7 +2290,7 @@ yyreduce:
 																											Node us(US, "");
 																											list.push_back(us);
 																										}
-#line 2297 "y.tab.c" /* yacc.c:1646  */
+#line 2294 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 96:
@@ -2311,7 +2308,7 @@ yyreduce:
 																											list.push_back(valueNode);
 																											list.push_back(stringLiteralNode);
 																										}
-#line 2315 "y.tab.c" /* yacc.c:1646  */
+#line 2312 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 97:
@@ -2335,7 +2332,7 @@ yyreduce:
 																											list.push_back(valueNode);
 																											list.push_back(substrNode);
 																										}
-#line 2339 "y.tab.c" /* yacc.c:1646  */
+#line 2336 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 98:
@@ -2354,7 +2351,7 @@ yyreduce:
 																											list.push_back(variable);
 																											list.push_back(varName0);
 																										}
-#line 2358 "y.tab.c" /* yacc.c:1646  */
+#line 2355 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 99:
@@ -2373,7 +2370,7 @@ yyreduce:
 																											list.push_back(valueNode);
 																											list.push_back(numberNode);
 																										}
-#line 2377 "y.tab.c" /* yacc.c:1646  */
+#line 2374 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 100:
@@ -2388,7 +2385,7 @@ yyreduce:
 																											list.push_back(equalNode);
 																											
 																										}
-#line 2392 "y.tab.c" /* yacc.c:1646  */
+#line 2389 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 101:
@@ -2400,7 +2397,7 @@ yyreduce:
 																											list.push_back(ceNode);
 																											list.push_back(ceOnNode);
 																										}
-#line 2404 "y.tab.c" /* yacc.c:1646  */
+#line 2401 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 102:
@@ -2410,7 +2407,7 @@ yyreduce:
 																											Node ceOffNode(OFF_CE, "");
 																											list.push_back(ceOffNode);
 																										}
-#line 2414 "y.tab.c" /* yacc.c:1646  */
+#line 2411 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 103:
@@ -2422,7 +2419,7 @@ yyreduce:
 																											list.push_back(suNode);
 																											list.push_back(suOnNode);
 																										}
-#line 2426 "y.tab.c" /* yacc.c:1646  */
+#line 2423 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 104:
@@ -2432,7 +2429,7 @@ yyreduce:
 																											Node suOffNode(OFF_SU, "");
 																											list.push_back(suOffNode);
 																										}
-#line 2436 "y.tab.c" /* yacc.c:1646  */
+#line 2433 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 105:
@@ -2446,7 +2443,7 @@ yyreduce:
 																											list.push_back(dmIdentNode);
 																											list.push_back(dmOnNode);
 																										}
-#line 2450 "y.tab.c" /* yacc.c:1646  */
+#line 2447 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 106:
@@ -2456,7 +2453,7 @@ yyreduce:
 																											Node dmOffNode(OFF_DM, "");
 																											list.push_back(dmOffNode);
 																										}
-#line 2460 "y.tab.c" /* yacc.c:1646  */
+#line 2457 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 107:
@@ -2468,7 +2465,7 @@ yyreduce:
 																											list.push_back(kpNode);
 																											list.push_back(kponNode);
 																										}
-#line 2472 "y.tab.c" /* yacc.c:1646  */
+#line 2469 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 108:
@@ -2478,7 +2475,7 @@ yyreduce:
 																											Node kpoffNode(OFF_KP, "");
 																											list.push_back(kpoffNode);
 			;																							}
-#line 2482 "y.tab.c" /* yacc.c:1646  */
+#line 2479 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 109:
@@ -2492,7 +2489,7 @@ yyreduce:
 																											list.push_back(ctvarNode);
 																											list.push_back(ctvarnameNode);
 																										}
-#line 2496 "y.tab.c" /* yacc.c:1646  */
+#line 2493 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 110:
@@ -2504,7 +2501,7 @@ yyreduce:
 																											list.push_back(ctNode);
 																											list.push_back(ctvarNode);
 																										}
-#line 2508 "y.tab.c" /* yacc.c:1646  */
+#line 2505 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 115:
@@ -2544,7 +2541,7 @@ yyreduce:
 																											list.push_back(*daOptionalNode);
 																											list.push_back(daRotateNumberNode);
 																										}
-#line 2548 "y.tab.c" /* yacc.c:1646  */
+#line 2545 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 116:
@@ -2569,7 +2566,7 @@ yyreduce:
 																											list.push_back(dayNode);
 																											list.push_back(daWidthNode);
 																										}
-#line 2573 "y.tab.c" /* yacc.c:1646  */
+#line 2570 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 117:
@@ -2591,7 +2588,7 @@ yyreduce:
 																											list.push_back(dayNode);
 																											
 																										}
-#line 2595 "y.tab.c" /* yacc.c:1646  */
+#line 2592 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 118:
@@ -2601,7 +2598,7 @@ yyreduce:
 																											Node tpSizeNode(NUMBER, size);
 																											list.push_back(tpSizeNode);
 																										}
-#line 2605 "y.tab.c" /* yacc.c:1646  */
+#line 2602 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 120:
@@ -2610,7 +2607,7 @@ yyreduce:
 																											Node newlineNode(NEWLINE, "");
 																											list.push_back(newlineNode);
 																										}
-#line 2614 "y.tab.c" /* yacc.c:1646  */
+#line 2611 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 121:
@@ -2624,7 +2621,7 @@ yyreduce:
 																											list.push_back(areaIdent);
 																											list.push_back(areaOn);
 																										}
-#line 2628 "y.tab.c" /* yacc.c:1646  */
+#line 2625 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 122:
@@ -2634,7 +2631,7 @@ yyreduce:
 																											Node areaOff(OFF_AREA, "");
 																											list.push_back(areaOff);
 																										}
-#line 2638 "y.tab.c" /* yacc.c:1646  */
+#line 2635 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 123:
@@ -2657,7 +2654,7 @@ yyreduce:
 																											list.push_back(fontType);
 
 																										}
-#line 2661 "y.tab.c" /* yacc.c:1646  */
+#line 2658 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 124:
@@ -2680,7 +2677,7 @@ yyreduce:
 																											list.push_back(varName2);
 
 																										}
-#line 2684 "y.tab.c" /* yacc.c:1646  */
+#line 2681 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 125:
@@ -2695,7 +2692,7 @@ yyreduce:
 																											list.push_back(variable);
 																											list.push_back(variableName);
 																										}
-#line 2699 "y.tab.c" /* yacc.c:1646  */
+#line 2696 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 128:
@@ -2703,7 +2700,7 @@ yyreduce:
     {
 																											cout << "FO" << endl;
 																										}
-#line 2707 "y.tab.c" /* yacc.c:1646  */
+#line 2704 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 129:
@@ -2718,7 +2715,7 @@ yyreduce:
 																											list.push_back(charNode);
 																											list.push_back(numNode);
 																										}
-#line 2722 "y.tab.c" /* yacc.c:1646  */
+#line 2719 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 130:
@@ -2726,7 +2723,7 @@ yyreduce:
     {
 																											cout << "NV" << endl;
 																										}
-#line 2730 "y.tab.c" /* yacc.c:1646  */
+#line 2727 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 131:
@@ -2734,7 +2731,7 @@ yyreduce:
     {
 																											cout << "BR_UP" << endl;
 																										}
-#line 2738 "y.tab.c" /* yacc.c:1646  */
+#line 2735 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 132:
@@ -2745,7 +2742,7 @@ yyreduce:
 																											Node linebreak(LINEBREAK, ""); 
 																											list.push_back(linebreak); 
 																										}
-#line 2749 "y.tab.c" /* yacc.c:1646  */
+#line 2746 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 133:
@@ -2753,7 +2750,7 @@ yyreduce:
     {
 																											cout << "NY" << endl;
 																										}
-#line 2757 "y.tab.c" /* yacc.c:1646  */
+#line 2754 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 134:
@@ -2761,7 +2758,7 @@ yyreduce:
     {
 																											cout << "ENY" << endl;
 																										}
-#line 2765 "y.tab.c" /* yacc.c:1646  */
+#line 2762 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 135:
@@ -2770,7 +2767,7 @@ yyreduce:
 																											cout << "COMMENT" << endl;
 																											cout << (yyvsp[-1].tokens) << endl;
 																										}
-#line 2774 "y.tab.c" /* yacc.c:1646  */
+#line 2771 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 136:
@@ -2779,7 +2776,7 @@ yyreduce:
 																											cout << "COMMENT" << endl;
 																											cout << (yyvsp[0].tokens) << endl;
 																										}
-#line 2783 "y.tab.c" /* yacc.c:1646  */
+#line 2780 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 137:
@@ -2789,7 +2786,7 @@ yyreduce:
 																											Node box(BOX, "");
 																											list.push_back(box);
 																										}
-#line 2793 "y.tab.c" /* yacc.c:1646  */
+#line 2790 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 138:
@@ -2799,11 +2796,11 @@ yyreduce:
 																											Node boxOff(OFF_BOX, "");
 																											list.push_back(boxOff);	
 																										}
-#line 2803 "y.tab.c" /* yacc.c:1646  */
+#line 2800 "y.tab.c" /* yacc.c:1646  */
     break;
 
 
-#line 2807 "y.tab.c" /* yacc.c:1646  */
+#line 2804 "y.tab.c" /* yacc.c:1646  */
       default: break;
     }
   /* User semantic actions sometimes alter yychar, and that requires

@@ -1,0 +1,260 @@
+.pm 20mm
+.BR
+.NV PAGE BANKSTED '%&EKSPBNKST.'
+.BR
+.NV PAGE BANK-EKSPEDIENT '%&BRUGERNR.'
+.BR
+.NV PAGE PRINTER '%&PRINTER.'
+.BR
+.NV PAGE TØMPOSTKASSE '%&U'&TØMPOST.'
+.BR
+.NV PAGE FORCERTØM '%&U'&FORCER.'
+.BR
+.NV PAGE PDFFORMAT '%&U'&PDFFORMAT.'.tp 3mm
+:SWISS8.
+.**************************************************************************
+.kp on
+.if &U'&BREVNAVN = BECEHÅND53
+.or &U'&BREVNAVN = BECEHÅND53-Z
+.th .go UDENOM
+.sp 5mm
+.:SWISS12.
+.:FED.
+Specifically about pledge/mortage
+.:SKRSLUT.
+:SWISS8.
+.sp 3mm
+The following additional provisions apply for loans and credits secured by
+pledge/mortgage.
+.sp 3mm
+.kp off
+...UDENOM
+.kp on
+:SWISS10.
+:FED.
+1. Extent of the security
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Pledge/mortgage serves as security for payment of funds, interest,
+commission, legal costs and other expenses incurred in connection with
+recovery of debt.
+.sp 2mm
+.kp off
+.kp on
+Pledge/mortgage applied by you serves as security for any obligation you
+have or may have in the future towards &BANKNAVN..
+.sp 2mm
+.kp off
+.kp on
+&BANKNAVN. has a free choice of which part of the consolidated credit
+balance, or which credit balance out of two or more, must be reduced by
+means of the pledge/mortgage.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+2. Insurance of pledged/mortgaged effects
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+If &BANKNAVN. has pledge/mortgage on car, boat, other movables or real
+property, the pledger is obliged to take out a comprehensive motor
+and/or fire insurance covering the pledged/mortgaged effects.
+.sp 2mm
+.kp off
+.kp on
+If the pledge/mortgage is applied by third party, you are obliged to pay
+the insurance premium, if not paid by third party.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+3. Depreciation of pledge/mortgage
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+If the value of the pledge/mortgage is considerably
+depreciated, &BANKNAVN. may require that you either extraordinarily reduce
+your debt/credit limit or that additional funding is made available
+corresponding to the actual depreciation. Otherwise, &BANKNAVN. may
+consider the loan/credit as non-performing.
+.sp 2mm
+.kp off
+.kp on
+However, if &BANKNAVN. has mortgage on real property which serves as
+your permanent residence, &BANKNAVN. will not require extraordinary
+settlement in case the property value is depreciated, or other
+security unless the depreciation is due to mismanagement.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+4. &BANKNAVN.'s right to pledged/mortgaged effects
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+&BANKNAVN. may use all rights of the pledger to the pledged/mortgaged
+effects, including receiving and confirming the receipt of any
+amount according to the pledged/mortgaged effects, terminating
+and collecting, signing and transferring pledged claims and
+mortgaging deeds to the bank or others, and withdrawing amounts
+from pledged deposit accounts.
+.sp 2mm
+.kp off
+.kp on
+In the event that shares etc. are pledged, &BANKNAVN. may exercise all
+rights of shareholders according to current company laws, articles of
+association, owner agreements, if any, etc. However, the voting right lies
+with the pledger, until &BANKNAVN. clearly notifies that the bank wants
+to make use of this right. If &BANKNAVN. requires so, the pledger must
+forward notification from the company, including, but not limited
+to, notices and minutes of annual general meetings.
+.sp 2mm
+.kp off
+.kp on
+If the pledge comprises insurance policies, the pledger is obliged, on
+demand, to present &BANKNAVN. to proper receipt for timely
+payment of the premium.
+.sp 2mm
+.kp off
+.kp on
+If &BANKNAVN. chooses to seek satisfaction in the buyback value of the
+policy, &BANKNAVN. must be entitled to do so without having to await the
+the notice laid down in the national insurance contract law.
+.sp 2mm
+.kp off
+.kp on
+&BANKNAVN. are not obliged to seek cover in the applied pledge/mortgage in
+advance, just as &BANKNAVN. has freedom of choice regarding use in
+relation to the consolidated commitment.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+5. Pledge/mortgage-related expenses
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+&BANKNAVN. may require payment of expenses for pledged/mortgaged effects.
+.sp 2mm
+.kp off
+.kp on
+&BANKNAVN. may also require payment of &BANKNAVN.'s expenses in connection
+with the handling of its interests as pledgee, including any expenses in
+connection with payment of insurance premium, inspection of the
+pledged/mortgaged effects, costs in connection with legal advice, etc.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+6. Return of investment on the pledge/mortgage
+:SKRSLUT.
+:SWISS8.
+.sp 2mm
+The pledging/mortgaging comprises any interest and dividend of the
+pledged/mortgaged effect(s), including bonus of life insurance policies,
+any bonus shares and rights of shares, revenue of drawn bonds, rental, etc.
+.sp 2mm
+.kp off
+.kp on
+&BANKNAVN. is entitled, but not bound (neither in relation to third party
+guarantors) to receive interest or dividend for payment of
+instalments, interest and expenses.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+7. Notifications
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+The pledger is obliged to immediately forward all notifications he or she
+receives of the pledged/mortgaged effects to &BANKNAVN..
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+8. Drawing of bonds
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+If pledged bonds are drawn, and other bonds are bought instead of the
+drawn bonds, &BANKNAVN. is entitled to register lien above these
+against VP Securities A/S.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+9. Expiry
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Pledge/mortgage applied by third party expires after 10
+years, however, after 5 years in case of pledge/mortgage with floating
+loan amount and loans without fixed due date. &BANKNAVN.'s claim
+against the third party pledger does not expire, if the claim
+is sustained by &BANKNAVN. prior to this.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+10. Reversal
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+If the pledged secured loan/credit is repaid, fully or partly, and the
+payments are set aside at a later point in time, the pledger is bound to
+establish the pledge/mortgage of &BANKNAVN., whether &BANKNAVN. has
+released the pledge or not.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+11. Respite
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Without consent of the pledger, &BANKNAVN. may grant a respite as to
+payment of instalments, interest and other expenses, however, with due
+deference to article 48 of the Danish Financial Business Act in so far
+as third party pledger is concerned.
+.sp 5mm
+.kp off
+.kp on
+:SWISS10.
+:FED.
+12. Enforcement
+:SKRSLUT.
+:SWISS8.
+.sp 3mm
+Any realisation of mortgage takes place after prior notice to the pledger
+on transaction or otherwise, which &BANKNAVN. considers
+expedient, including realisation on &BANKNAVN.'s own arrangement.
+.sp 2mm
+.kp off
+.kp on
+Prior to &BANKNAVN.'s sale of effects, a recommended letter is sent to
+the pledger, in which the pledger, with 1 week's notice, is urged to
+fulfil the requirements of &BANKNAVN..
+.sp 2mm
+.kp off
+.kp on
+However, this does not apply in case immediate sale is required, to avoid
+or limit any loss.
+.kp off
+.rh cancel
+.** SIDESKIFT
+.pa nostart
+.** INDRYK FRA VENSTREMARGIN NULSTILLES
+.in 0mm
