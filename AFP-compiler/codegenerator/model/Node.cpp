@@ -14,7 +14,6 @@ Node::Node(Type type, string data)
     this->type = type;
     this->data = data;
     this->parentNode = NULL;
-
     if(type == TYPE && data == "FED")
     {
         data = "bold";

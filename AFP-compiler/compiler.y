@@ -29,7 +29,7 @@ Node docNode(DOCUMENT, "");
 }
 
 %token <tokens> SUBSTR_T NOTEQUAL_T OF_T CL_T CD_T TM_T DEPTH_T HY_T HR_T MG_T DR_T WEIGHT_T UPPERCASE_T LENGTH_T IN_T PA_T NS_T IR_T IF_T EL_T TH_T OR_T AN_T CT_T EQUAL_T GTHANE_T LTHANE_T GTHAN_T LTHAN_T CANCEL_T RH_T KP_T LL_T GOTO_T EXECUTE_T LABEL_T SE_T PM_T BR_T BR_UP_T NV_T NY_T PAGE_T ENY_T COMMENT_T TI_T DA_T FO_T ON_T OFF_T AR_T BX_T SP_T US_T SIZE_T STYLE_T IDENT_T VAR_UP_T VAR_T DIRECTION_T NUM_T WIDTH_T TP_T TAB_T ROTATE_T NEW_LINE_T BM_T SU_T DM_T GS_T SK_T CE_T TB_T MATHEX_T
-%type  <tokens> CT PM BR BR_UP NV NY ENY COMMENT TI DA KP FO AR BX RH TOKEN EX IF VARPROC OPERATOR AN COMPARISON OR OPTIONALDA OPTINALMEASURE STRING_LINE SIZE_LIST SU CE DM MATHEX
+%type  <tokens> CT PM BR BR_UP NV NY ENY COMMENT TI DA KP FO AR BX RH TOKEN EX IF VARPROC OPERATOR AN COMPARISON OR OPTIONALDA OPTINALMEASURE STRING_LINE SIZE_LIST SU CE DM MATHEX 
 
 %%
 TOKEN		:	TOKEN DA
@@ -89,6 +89,7 @@ TOKEN		:	TOKEN DA
 																											list.push_back(tmsizeNode);
 																										}
 			|	TOKEN BM_T SIZE_T NEW_LINE_T															{
+																											cout << "BM" << endl;
 																											Node bmNode(BM, "");
 																											numberFct($3);
 																											Node bmsizeNode(NUMBER, number);
@@ -96,6 +97,7 @@ TOKEN		:	TOKEN DA
 																											list.push_back(bmsizeNode);
 																										}
 			| 	TOKEN TP_T 																				{
+																											cout << "TP" << endl;
 																											Node tpNode(TP, "");
 																											list.push_back(tpNode);
 																										}
@@ -113,6 +115,38 @@ TOKEN		:	TOKEN DA
 																											list.push_back(hyS2Node);
 																											list.push_back(hyS3Node);
 																											list.push_back(hyS4Node);
+
+																											Node endNode(NEWLINE, "");
+																											list.push_back(endNode);
+																										}
+			|	TOKEN HR_T IDENT_T DIRECTION_T IDENT_T SIZE_T SIZE_T IDENT_T SIZE_T NEW_LINE_T			{
+																											cout << "HR WITH EXTRA STUFF" << endl;
+																											Node hyNode(HR, "");
+																											Node hyStrNode(STRINGLITERAL, $3);
+																											Node* dirNode;
+																											
+																											if(strcmp($4, "left") == 0)
+																											{
+																												dirNode = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dirNode = new Node(RIGHT, "");
+																											}
+																											Node hyS1Node(NUMBER, $4);
+																											Node hyS2Node(NUMBER, $5);
+																											Node hyS3Node(STRINGLITERAL, $6);
+																											Node hyS4Node(NUMBER, $7);
+																											list.push_back(hyNode);
+																											list.push_back(hyStrNode);
+																											list.push_back(*dirNode);
+																											list.push_back(hyS1Node);
+																											list.push_back(hyS2Node);
+																											list.push_back(hyS3Node);
+																											list.push_back(hyS4Node);
+
+																											Node endNode(NEWLINE, "");
+																											list.push_back(endNode);
 																										}
 			|	TOKEN HY_T ON_T NEW_LINE_T																{
 																											cout << "HY ON" << endl;
@@ -134,7 +168,48 @@ TOKEN		:	TOKEN DA
 																											list.push_back(hrNode);
 																											list.push_back(lNode);
 																											list.push_back(rNode);
-																										}	
+
+																											Node endNode(NEWLINE, "");
+																											list.push_back(endNode);
+																										}
+			|	TOKEN HR_T IDENT_T DIRECTION_T DIRECTION_T NEW_LINE_T									{
+																											cout << "HR" << endl;
+																											Node hrNode(HR, "");
+																											Node ruleNode(RULE, $2);
+																											Node lNode(LEFT, "");
+																											Node rNode(RIGHT, "");
+																											hrNode.addNode(&ruleNode);
+																											list.push_back(hrNode);
+																											list.push_back(lNode);
+																											list.push_back(rNode);
+
+																											Node endNode(NEWLINE, "");
+																											list.push_back(endNode);
+																										}
+			|	TOKEN HR_T DIRECTION_T SIZE_T NEW_LINE_T												{
+																											cout << "HR" << endl;
+																											Node hrNode(HR, "");
+																											Node* dirNode;
+
+																											if(strcmp($3, "left") == 0)
+																											{
+																												dirNode = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dirNode = new Node(RIGHT, "");
+																											}
+
+																											numberFct($4);
+																											Node sizeNode(NUMBER, number);
+
+																											list.push_back(hrNode);
+																											list.push_back(*dirNode);
+																											list.push_back(sizeNode);
+
+																											Node endNode(NEWLINE, "");
+																											list.push_back(endNode);
+																										}
 			|	TOKEN EL_T																				{
 																											cout << "ELSE" << endl;
 																											Node elNode(ELSE, "");
@@ -507,7 +582,13 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 																											Node sizeNode(NUMBER, number);
 																											list.push_back(inNode);
 																											list.push_back(sizeNode);
-
+																										}
+			|	IN_T NEW_LINE_T																			{
+																											cout << "IN" << endl;
+																											Node inNode(IN, "");
+																											Node sizeNode(NUMBER, "0");
+																											list.push_back(inNode);
+																											list.push_back(sizeNode);
 																										}
 			|	IR_T SIZE_T NEW_LINE_T																	{
 																											cout << "IR" << endl;
@@ -552,6 +633,38 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 																											cout << "UNDERSCORE" << endl;
 																											Node us(US, "");
 																											list.push_back(us);
+																										}
+			|	US_T ON_T NEW_LINE_T																	{
+																											cout << "UNDERSCORE ON" << endl;
+																											Node us(US, "");
+																											Node onNode(ON, "");
+																											list.push_back(us);		
+																											list.push_back(onNode);																					
+																										}
+			|	US_T NUM_T 																				{
+																											cout << "UNDERSCORE NUM" << endl;
+																											Node offUsNode(OFF_US, "");
+																											Node us(US, "");
+																											numberFct($2);
+																											Node numNode(NUMBER, number);
+																											us.addNode(&numNode);
+																											list.push_back(offUsNode);
+																											list.push_back(us);
+																										}
+			|	US_T NUM_T NEW_LINE_T																	{
+																											cout << "UNDERSCORE NUM" << endl;
+																											Node offUsNode(OFF_US, "");
+																											Node us(US, "");
+																											numberFct($2);
+																											Node numNode(NUMBER, number);
+																											us.addNode(&numNode);
+																											list.push_back(offUsNode);
+																											list.push_back(us);
+																										}
+			| 	US_T OFF_T NEW_LINE_T																	{
+																											cout << "UNDERSCORE OFF" << endl;
+																											Node offUsNode(OFF_US, "");
+																											list.push_back(offUsNode);	
 																										}
 			|	SE_T IDENT_T EQUAL_T IDENT_T NEW_LINE_T													{
 																											cout << "SE" << endl;
@@ -849,6 +962,29 @@ AR			:	AR_T IDENT_T ON_T NEW_LINE_T															{
 			;
 FO			:	FO_T DIRECTION_T NEW_LINE_T																{
 																											cout << "FO" << endl;
+																											Node foNode(FO, "");
+
+																											Node* dirNode;
+																											
+																											if(strcmp($2, "left") == 0)
+																											{
+																												dirNode = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dirNode = new Node(RIGHT, "");
+																											}
+
+																											foNode.addNode(dirNode);
+																											list.push_back(foNode);
+																										}
+			|	FO_T ON_T NEW_LINE_T																	{
+																											cout << "FO" << endl;				
+																											Node foNode(FO, "");
+																											Node onNode(ON, "");
+																											
+																											foNode.addNode(&onNode);
+																											list.push_back(foNode);
 																										}
 			;
 TI			:	TI_T IDENT_T NUM_T NEW_LINE_T															{
@@ -897,13 +1033,251 @@ COMMENT		:	COMMENT_T NEW_LINE_T																	{
 BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
 																											cout << "BOX" << endl;
 																											Node box(BOX, "");
+
+																											Node* dir1Node;
+
+																											if(strcmp($2, "left") == 0)
+																											{
+																												dir1Node = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dir1Node = new Node(RIGHT, "");
+																											}
+
+																											Node* dir2Node;
+
+																											if(strcmp($3, "left") == 0)
+																											{
+																												dir2Node = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dir2Node = new Node(RIGHT, "");
+																											}
+
+																											box.addNode(dir1Node);
+																											box.addNode(dir2Node);
 																											list.push_back(box);
 																										}
+			| 	BX_T IDENT_T DIRECTION_T DIRECTION_T NEW_LINE_T											{
+																											cout << "BOX" << endl;
+																											Node box(BOX, "");
+																											Node keyword(BOX_RULE, $2);
+
+																											Node* dir1Node;
+
+																											if(strcmp($3, "left") == 0)
+																											{
+																												dir1Node = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dir1Node = new Node(RIGHT, "");
+																											}
+
+																											Node* dir2Node;
+
+																											if(strcmp($4, "left") == 0)
+																											{
+																												dir2Node = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dir2Node = new Node(RIGHT, "");
+																											}
+
+																											box.addNode(&keyword);
+																											box.addNode(dir1Node);
+																											box.addNode(dir2Node);
+																											list.push_back(box);
+																										}
+			|	BX_T IDENT_T DIRECTION_T SIZE_T DIRECTION_T NEW_LINE_T									{
+																											cout << "BOX" << endl;
+																											Node box(BOX, "");
+																											Node keyword(BOX_RULE, $2);
+
+																											Node* dir1Node;
+
+																											if(strcmp($3, "left") == 0)
+																											{
+																												dir1Node = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dir1Node = new Node(RIGHT, "");
+																											}
+																											numberFct($4);
+																											Node sizeNode(NUMBER, number);
+
+																											Node* dir2Node;
+
+																											if(strcmp($5, "left") == 0)
+																											{
+																												dir2Node = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dir2Node = new Node(RIGHT, "");
+																											}
+
+																											box.addNode(&keyword);
+																											box.addNode(dir1Node);
+																											box.addNode(&sizeNode);
+																											box.addNode(dir2Node);
+																											list.push_back(box);
+																										}
+			|	BX_T DIRECTION_T SIZE_T DIRECTION_T NEW_LINE_T											{
+																											cout << "BOX" << endl;
+																											Node box(BOX, "");
+
+																											Node* dir1Node;
+
+																											if(strcmp($2, "left") == 0)
+																											{
+																												dir1Node = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dir1Node = new Node(RIGHT, "");
+																											}
+																											numberFct($3);
+																											Node sizeNode(NUMBER, number);
+
+																											Node* dir2Node;
+
+																											if(strcmp($4, "left") == 0)
+																											{
+																												dir2Node = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dir2Node = new Node(RIGHT, "");
+																											}
+
+																											box.addNode(dir1Node);
+																											box.addNode(&sizeNode);
+																											box.addNode(dir2Node);
+																											list.push_back(box);
+																										}
+			|	BX_T IDENT_T NEW_LINE_T																	{
+																											cout << "BOX" << endl;
+																											Node boxnode(OFF_BOX, "");
+																											Node boxRule(BOX_RULE, $2);
+																											
+																											boxnode.addNode(&boxRule);
+																											list.push_back(boxnode);
+																										}
+			|	BX_T DIRECTION_T SIZE_T NEW_LINE_T														{
+																											cout << "BOX" << endl;
+																											Node boxNode(BOX, "");
+																											Node* dirNode;																			
+																											if(strcmp($2, "left") == 0)
+																											{
+																												dirNode = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dirNode = new Node(RIGHT, "");
+																											}
+																											numberFct($3);
+																											Node sizeNode(NUMBER, number);
+
+																											boxNode.addNode(dirNode);
+																											boxNode.addNode(&sizeNode);
+																											list.push_back(boxNode);
+																										}
+			|	BX_T DIRECTION_T SIZE_T SIZE_T NEW_LINE_T												{
+																											cout << "BOX" << endl;
+																											Node boxNode(BOX, "");
+																											Node* dirNode;	
+																											if(strcmp($2, "left") == 0)
+																											{
+																												dirNode = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dirNode = new Node(RIGHT, "");
+																											}
+																											numberFct($3);
+																											Node sizeNode(NUMBER, number);
+																											numberFct($4);
+																											Node size2Node(NUMBER, number);
+
+																											boxNode.addNode(dirNode);
+																											boxNode.addNode(&sizeNode);
+																											boxNode.addNode(&size2Node);
+																											list.push_back(boxNode);
+																										}	
 			|	BX_T OFF_T NEW_LINE_T																	{
 																											cout << "BOX OFF" << endl;
 																											Node boxOff(OFF_BOX, "");
 																											list.push_back(boxOff);	
 																										}
+			|	BX_T SIZE_T SIZE_T IDENT_T SIZE_T SIZE_T NEW_LINE_T 									{
+																											Node boxNode(BOX, "");
+																											numberFct($2);
+																											Node sizeNode(NUMBER, number);
+																											numberFct($3);
+																											Node size2Node(NUMBER, number);
+																											Node slashNode(RULE, $4);
+																											numberFct($5);
+																											Node size3Node(NUMBER, number);
+																											numberFct($6);
+																											Node size4Node(NUMBER, number);
+																											
+																											
+																											boxNode.addNode(&sizeNode);
+																											boxNode.addNode(&size2Node);
+																											boxNode.addNode(&slashNode);
+																											boxNode.addNode(&size3Node);
+																											boxNode.addNode(&size4Node);
+																											list.push_back(boxNode);
+
+																										}
+			|	BX_T DIRECTION_T SIZE_T IDENT_T SIZE_T SIZE_T IDENT_T SIZE_T SIZE_T IDENT_T SIZE_T SIZE_T NEW_LINE_T 	{
+																															Node boxNode(BOX, "");
+																															Node* dirNode;	
+																															if(strcmp($2, "left") == 0)
+																															{
+																																dirNode = new Node(LEFT, "");
+																															}
+																															else
+																															{
+																																dirNode = new Node(RIGHT, "");
+																															}
+																															numberFct($3);
+																															Node sizeNode(NUMBER, number);
+																															Node slashNode(RULE, $4);
+																															numberFct($5);
+																															Node size2Node(NUMBER, number);
+																															numberFct($6);
+																															Node size3Node(NUMBER, number);
+																															Node slash2Node(RULE, $7);
+																															numberFct($8);
+																															Node size4Node(NUMBER, number);
+																															numberFct($9);
+																															Node size5Node(NUMBER, number);
+																															Node slash3Node(RULE, $10);
+																															// numberFct($11);											CAUSES BADALLOC
+																															// Node size6Node(NUMBER, number);
+																															// numberFct($12);
+																															// Node size7Node(NUMBER, number);
+																															
+																															boxNode.addNode(dirNode);
+																															boxNode.addNode(&sizeNode);
+																															boxNode.addNode(&slashNode);
+																															boxNode.addNode(&size2Node);
+																															boxNode.addNode(&size3Node);
+																															boxNode.addNode(&slash2Node);
+																															boxNode.addNode(&size4Node);
+																															boxNode.addNode(&size5Node);
+																															boxNode.addNode(&slash3Node);
+																															// boxNode.addNode(&size6Node);
+																															// boxNode.addNode(&size7Node);
+																															list.push_back(boxNode);
+
+																														}
 			;
 
 %%
