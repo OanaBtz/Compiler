@@ -112,6 +112,23 @@ TOKEN		:	TOKEN DA
 																											vrNode->addNode(sizeNode);
 
 																											list.push_back(*vrNode);
+																										}	
+			|	TOKEN VR_T SIZE_T SIZE_T NEW_LINE_T														{
+																											cout << "VR" << endl;
+																											Node* vrNode = new Node(VR, "");
+																											Node* vrOnNode = new Node(ON, "");
+																											
+																											numberFct($3);
+																											Node* sizeNode = new Node(NUMBER, number);
+
+																											numberFct($4);
+																											Node* sizeNode2 = new Node(NUMBER, number);
+
+																											vrNode->addNode(vrOnNode);
+																											vrNode->addNode(sizeNode);
+																											vrNode->addNode(sizeNode2);
+
+																											list.push_back(*vrNode);
 																										}		
 			|	TOKEN VR_T OFF_T NEW_LINE_T																{
 																											cout << "VR OFF" << endl;
@@ -153,7 +170,8 @@ TOKEN		:	TOKEN DA
 																											list.push_back(hrStrNode);
 																											list.push_back(hrS1Node);
 																											list.push_back(hrS2Node);
-																											
+																											Node endNode(NEWLINE, "");
+																											list.push_back(endNode);
 
 																										}
 			|	TOKEN HR_T IDENT_T DIRECTION_T IDENT_T SIZE_T SIZE_T IDENT_T SIZE_T NEW_LINE_T			{
@@ -212,13 +230,13 @@ TOKEN		:	TOKEN DA
 			|	TOKEN HR_T IDENT_T DIRECTION_T DIRECTION_T NEW_LINE_T									{
 																											cout << "HR" << endl;
 																											Node hrNode(HR, "");
-																											Node ruleNode(RULE, $2);
-																											Node lNode(LEFT, "");
-																											Node rNode(RIGHT, "");
-																											hrNode.addNode(&ruleNode);
+																											Node* ruleNode = new Node(RULE, $2);
+																											Node* lNode = new Node(LEFT, "");
+																											Node* rNode = new Node(RIGHT, "");
+																											hrNode.addNode(ruleNode);
 																											list.push_back(hrNode);
-																											list.push_back(lNode);
-																											list.push_back(rNode);
+																											list.push_back(*lNode);
+																											list.push_back(*rNode);
 
 																											Node endNode(NEWLINE, "");
 																											list.push_back(endNode);
@@ -295,7 +313,7 @@ TOKEN		:	TOKEN DA
 
 																										}
 			|	TOKEN HR_T	SIZE_T SIZE_T 	NEW_LINE_T													{
-																											cout << "HR" << endl;
+																											cout << "HR   TOKEN HR_T	SIZE_T SIZE_T 	NEW_LINE_T" << endl;
 																											Node hrNode(HR, "");
 
 																											numberFct($3);
@@ -385,7 +403,27 @@ TOKEN		:	TOKEN DA
 																											}
 																										}
 			| 	TOKEN STYLE_T VAR_T NEW_LINE_T															{
+																											cout << "STYLE" << endl;
+																											Node font(FONT, "");
+																											styleName($2);
+																											styleSize($2);
+																											Node fontName(NAME, name);
 
+
+																											if(strlen(size)>0){
+																												list.push_back(font);
+																												list.push_back(fontName);
+																												// printf("%s\n", size);
+																												Node fontSize(NUMBER, size);
+																												list.push_back(fontSize);
+																											}
+																											varName($2);
+																											Node* varNameNode = new Node(NAME, var);
+																											list.push_back(*varNameNode);
+																										}
+			|	OF_T NEW_LINE_T																			{
+																											Node ofNode(OF, "");
+																											list.push_back(ofNode);
 																										}
 			|	DA
 			|	PM	
@@ -469,6 +507,45 @@ COMPARISON	:	VARPROC VAR_T OPERATOR IDENT_T															{
 																											list.push_back(operatorNode);
 																											list.push_back(valueNode);
 																											list.push_back(numNode);
+																										}
+			|	VARPROC VAR_T OPERATOR VAR_T															{
+																											cout << "COMPARISON" << endl;
+																											Node comparisonNode(CONDITION, "");
+																											Node ruleNode(RULE, $1);
+																											Node varNode(STRINGVARIABLE, "");
+																											varName($2);
+																											Node varNameNode(NAME, var);
+																											Node operatorNode(CHARACTER, $3);
+								
+																											Node varNode2(STRINGVARIABLE, "");
+																											varName($4);
+																											Node varNameNode2(NAME, var);
+																											list.push_back(comparisonNode);
+																											list.push_back(ruleNode);
+																											list.push_back(varNode);
+																											list.push_back(varNameNode);
+																											list.push_back(operatorNode);
+																											list.push_back(varNode2);
+																											list.push_back(varNameNode2);
+																										}
+			|	VAR_T OPERATOR VAR_T																	{
+																											cout << "COMPARISON" << endl;
+																											Node comparisonNode(CONDITION, "");
+																											
+																											Node varNode(STRINGVARIABLE, "");
+																											varName($1);
+																											Node varNameNode(NAME, var);
+																											Node operatorNode(CHARACTER, $2);
+								
+																											Node varNode2(STRINGVARIABLE, "");
+																											varName($3);
+																											Node varNameNode2(NAME, var);
+																											list.push_back(comparisonNode);
+																											list.push_back(varNode);
+																											list.push_back(varNameNode);
+																											list.push_back(operatorNode);
+																											list.push_back(varNode2);
+																											list.push_back(varNameNode2);
 																										}															
 			|	VAR_T OPERATOR IDENT_T																	{
 																											cout << "COMPARISON" << endl;
@@ -624,11 +701,37 @@ STRING_LINE	:	IDENT_T																					{
 																											Node numNode(NUMBER, $1);
 																											list.push_back(numNode);
 																										}
+			|	OFF_T																					{
+																											cout<< "off in a string" << endl;
+																											Node* textNode = new Node(STRINGLITERAL, $1);
+																											list.push_back(*textNode);
+																										}
+			|	ON_T																					{
+																											cout<< "ON in a string" << endl;
+																											Node* textNode = new Node(STRINGLITERAL, $1);
+																											list.push_back(*textNode);
+																										}
+			|	DIRECTION_T																				{
+																											cout<< "direction token in a string" << endl;
+																											Node* textNode = new Node(STRINGLITERAL, $1);
+																											list.push_back(*textNode);
+																										}
 			|	MATHEX_T																				{
 																											cout << "Mathex in a string" << endl;
 																											cout << $1 << endl;
 																											Node textNode(STRINGLITERAL, $1);
 																											list.push_back(textNode);
+																										}
+			|	VARPROC VAR_T																			{
+																											cout << "STRVAR" << endl;
+																											Node rule(RULE, $1);
+																											cout << "STRVAR" << endl;
+																											Node variable(STRINGVARIABLE, "");
+																											varName($1);
+																							    			Node varName0(NAME, var);
+																											list.push_back(rule);
+																											list.push_back(variable);
+																											list.push_back(varName0);
 																										}
 			|	STRING_LINE STRING_LINE
 			|	STRING_LINE	NEW_LINE_T																	{
@@ -699,6 +802,27 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 																											list.push_back(inNode);
 																											list.push_back(sizeNode);
 																										}
+			|	IN_T VAR_T NEW_LINE_T																	{
+																											cout << "IN" << endl;
+																											Node inNode(IN, "");
+																											cout << "STRVAR" << endl;
+																											Node variable(STRINGVARIABLE, "");
+																											varName($1);
+																							    			Node varName0(NAME, var);
+																											
+																											list.push_back(inNode);
+																											list.push_back(variable);
+																											list.push_back(varName0);
+																											
+																										}
+			|	IN_T NUM_T NEW_LINE_T																	{
+																											cout << "IN" << endl;
+																											Node inNode(IN, "");
+																											
+																											Node sizeNode(NUMBER, $2);
+																											list.push_back(inNode);
+																											list.push_back(sizeNode);
+																										}
 			|	IN_T SIZE_T IDENT_T NEW_LINE_T														{
 																											cout << "IN" << endl;
 																											Node inNode(IN, "");
@@ -733,9 +857,9 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 			|	PA_T IDENT_T NEW_LINE_T																	{
 																											cout << "PA" << endl;
 																											Node paNode(PA, "");
-																											Node identNode(STRINGLITERAL, $2);
+																											Node* identNode = new Node(STRINGLITERAL, $2);
+																											paNode.addNode(identNode);
 																											list.push_back(paNode);
-																											list.push_back(identNode);
 																										}
 			|	PA_T NEW_LINE_T																			{
 																											cout << "PA" << endl;
@@ -764,6 +888,11 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 																											Node skNumberNode(NUMBER, number);
 																											list.push_back(sknode);
 																											list.push_back(skNumberNode);
+																										}
+			|	US_T NEW_LINE_T																			{
+																											cout << "UNDERSCORE" << endl;
+																											Node us(US, "");
+																											list.push_back(us);
 																										}
 			|	US_T																					{
 																											cout << "UNDERSCORE" << endl;
@@ -817,22 +946,22 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 																										}
 			|	SE_T IDENT_T EQUAL_T SUBSTR_T VAR_T NUM_T NUM_T NEW_LINE_T								{
 																											cout << "SE" << endl;
-																											Node seNode(SE, "");
-																											Node identNode(STRINGLITERAL, $2);
-																											Node equalNode(CHARACTER, $3);
-																											Node valueNode(VALUE, "");
-																											Node substrNode(SUBSTR, "");
-																											Node sub1Node(NUMBER, $6);
-																											Node sub2Node(NUMBER, $7);
+																											Node* seNode  = new Node(SE, "");
+																											Node* identNode = new Node(STRINGLITERAL, $2);
+																											Node* equalNode = new Node(CHARACTER, $3);
+																											Node* valueNode = new Node(VALUE, "");
+																											Node* substrNode = new Node(SUBSTR, "");
+																											Node* sub1Node = new Node(NUMBER, $6);
+																											Node* sub2Node = new Node(NUMBER, $7);
 
-																											substrNode.addNode(&sub1Node);
-																											substrNode.addNode(&sub2Node);
+																											substrNode->addNode(sub1Node);
+																											substrNode->addNode(sub2Node);
 																											
-																											list.push_back(seNode);
-																											list.push_back(identNode);
-																											list.push_back(equalNode);
-																											list.push_back(valueNode);
-																											list.push_back(substrNode);
+																											list.push_back(*seNode);
+																											list.push_back(*identNode);
+																											list.push_back(*equalNode);
+																											list.push_back(*valueNode);
+																											list.push_back(*substrNode);
 																										}
 			|	SE_T IDENT_T EQUAL_T VAR_T NEW_LINE_T													{
 																											cout << "SE" << endl;
@@ -849,6 +978,20 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 																											list.push_back(varName0);
 																										}
 			|	SE_T IDENT_T EQUAL_T NUM_T NEW_LINE_T													{
+																											cout << "SE" << endl;
+																											Node seNode(SE, "");
+																											Node identNode(STRINGLITERAL, $2);
+																											Node equalNode(CHARACTER, $3);
+																											numberFct($4);
+																											Node valueNode(VALUE, "");
+																											Node numberNode(NUMBER, number);
+																											list.push_back(seNode);
+																											list.push_back(identNode);
+																											list.push_back(equalNode);
+																											list.push_back(valueNode);
+																											list.push_back(numberNode);
+																										}
+			|	SE_T IDENT_T EQUAL_T SIZE_T NEW_LINE_T													{
 																											cout << "SE" << endl;
 																											Node seNode(SE, "");
 																											Node identNode(STRINGLITERAL, $2);
@@ -888,25 +1031,43 @@ EX 			:	GOTO_T IDENT_T NEW_LINE_T																{
 			;
 CE 			:	CE_T ON_T																				{
 																											cout << "CE ON" << endl;
-																											Node ceNode(CE, "");
-																											Node ceOnNode(ON, "");
-																											list.push_back(ceNode);
-																											list.push_back(ceOnNode);
+																											Node* ceNode = new Node(CE, "");
+																											Node* ceOnNode = new Node(ON, "");
+																											list.push_back(*ceNode);
+																											list.push_back(*ceOnNode);
 																										}
 			|	CE_T VAR_T																				{
 																											cout << "CE VAR" << endl;
-																											Node ceNode(CE, "");
-																											Node ceVarNode(STRINGVARIABLE, "");
+																											Node* ceNode = new Node(CE, "");
+																											Node* ceVarNode = new Node(STRINGVARIABLE, "");
 																											varName($2);
-																											Node varNameNode(NAME, name);
-																											ceVarNode.addNode(&varNameNode);
-																											list.push_back(ceNode);
-																											list.push_back(ceVarNode);
+																											Node* varNameNode = new Node(NAME, name);
+																											ceVarNode->addNode(varNameNode);
+																											list.push_back(*ceNode);
+																											list.push_back(*ceVarNode);
+																										}
+			|	CE_T IDENT_T																			{
+																											cout << "CE ident" << endl;
+																											Node* ceNode = new Node(CE, "");
+																											Node* ceIdentNode = new Node(IDENTIFIER, $2);
+																											list.push_back(*ceNode);
+																											list.push_back(*ceIdentNode);	
 																										}
 			|	CE_T OFF_T 																				{
 																											cout << "CE OFF" << endl;
 																											Node ceOffNode(OFF_CE, "");
 																											list.push_back(ceOffNode);
+																										}
+			|   CE_T IDENT_T IDENT_T IDENT_T 															{
+																											cout << "CE IDENT IDENT IDENT" << endl;
+																											Node* ceNode = new Node(CE, "");
+																											Node* ceIdentNode1 = new Node(IDENTIFIER, $2);
+																											Node* ceIdentNode2 = new Node(IDENTIFIER, $3);
+																											Node* ceIdentNode3 = new Node(IDENTIFIER, $4);																											
+																											list.push_back(*ceNode);
+																											list.push_back(*ceIdentNode1);
+																											list.push_back(*ceIdentNode2);
+																											list.push_back(*ceIdentNode3);																											
 																										}
 			;
 SU 			:	SU_T ON_T																				{
@@ -921,6 +1082,7 @@ SU 			:	SU_T ON_T																				{
 																											Node suOffNode(OFF_SU, "");
 																											list.push_back(suOffNode);
 																										}
+			|	NEW_LINE_T
 			;
 DM 			:	DM_T IDENT_T ON_T																		{
 																											cout << "DM" << endl;
@@ -949,21 +1111,11 @@ KP 			:	KP_T ON_T																				{
 																											Node kpoffNode(OFF_KP, "");
 																											list.push_back(kpoffNode);
 			;																							}
-CT 			:	CT_T VAR_T																				{
+CT 			:	CT_T STRING_LINE																		{
 																											cout << "CT" << endl;
 																											Node ctNode(CT, "");
-																											Node ctvarNode(STRINGVARIABLE, "");
-																											Node ctvarnameNode(NAME, $2);
 																											list.push_back(ctNode);
-																											list.push_back(ctvarNode);
-																											list.push_back(ctvarnameNode);
-																										}
-			|	CT_T IDENT_T																			{
-																											cout << "CT" << endl;
-																											Node ctNode(CT, "");
-																											Node ctvarNode(STRINGLITERAL, "");
-																											list.push_back(ctNode);
-																											list.push_back(ctvarNode);
+																											
 																										}
 			;
 OPTIONALDA	:	ROTATE_T
@@ -1076,12 +1228,12 @@ SIZE_LIST	:	SIZE_T 																					{
 			;
 AR			:	AR_T IDENT_T ON_T NEW_LINE_T															{
 																											cout << "AR" << endl;
-																											Node area(AREA, "");
-																											Node areaIdent(NAME, $2);
-																											Node areaOn(ON, "");
-																											list.push_back(area);
-																											list.push_back(areaIdent);
-																											list.push_back(areaOn);
+																											Node* area = new Node(AREA, "");
+																											Node* areaIdent = new Node(NAME, $2);
+																											Node* areaOn = new Node(ON, "");
+																											list.push_back(*area);
+																											list.push_back(*areaIdent);
+																											list.push_back(*areaOn);
 																										}
 			|	AR_T OFF_T NEW_LINE_T																	{
 																											cout << "AR" << endl;
@@ -1123,7 +1275,7 @@ AR			:	AR_T IDENT_T ON_T NEW_LINE_T															{
 																											list.push_back(variable2);
 																											list.push_back(varName2);
 
-																										}									
+																										}					
 			|	VAR_T NEW_LINE_T																		{
 																											cout << "VARIABLE" << endl;
 																											Node variable(STRINGVARIABLE, "");
@@ -1133,7 +1285,7 @@ AR			:	AR_T IDENT_T ON_T NEW_LINE_T															{
 
 																											list.push_back(variable);
 																											list.push_back(variableName);
-																										}																							
+																										}																						
 			|	SIZE_LIST																	
 			|	BX																											
 			;
@@ -1162,6 +1314,11 @@ FO			:	FO_T DIRECTION_T NEW_LINE_T																{
 																											
 																											foNode.addNode(&onNode);
 																											list.push_back(foNode);
+																										}
+			|	FO_T OFF_T NEW_LINE_T																	{
+																											cout << "FO OFF" << endl;				
+																											Node offNode(OFF_FO, "");																											
+																											list.push_back(offNode);
 																										}
 			;
 TI			:	TI_T IDENT_T NUM_T NEW_LINE_T															{
@@ -1237,6 +1394,28 @@ BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
 																											box.addNode(dir2Node);
 																											list.push_back(box);
 																										}
+			|	BX_T SIZE_T DIRECTION_T NEW_LINE_T														{
+																											cout << "BOX" << endl;
+																											Node box(BOX, "");
+																											
+																											numberFct($3);
+																											Node* sizeNode = new Node(NUMBER, number);
+
+																											Node* dirNode;
+
+																											if(strcmp($2, "left") == 0)
+																											{
+																												dirNode = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dirNode = new Node(RIGHT, "");
+																											}
+
+																											box.addNode(sizeNode);
+																											box.addNode(dirNode);
+																											list.push_back(box);
+																										}
 			|	BX_T SIZE_T SIZE_T NEW_LINE_T															{
 																											cout << "BOX" << endl;
 																											Node box(BOX, "");
@@ -1252,7 +1431,7 @@ BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
 			| 	BX_T IDENT_T DIRECTION_T DIRECTION_T NEW_LINE_T											{
 																											cout << "BOX" << endl;
 																											Node box(BOX, "");
-																											Node keyword(BOX_RULE, $2);
+																											Node* keyword = new Node(RULE, $2);
 
 																											Node* dir1Node;
 
@@ -1276,7 +1455,7 @@ BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
 																												dir2Node = new Node(RIGHT, "");
 																											}
 
-																											box.addNode(&keyword);
+																											box.addNode(keyword);
 																											box.addNode(dir1Node);
 																											box.addNode(dir2Node);
 																											list.push_back(box);
@@ -1284,7 +1463,7 @@ BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
 			|	BX_T IDENT_T DIRECTION_T SIZE_T DIRECTION_T NEW_LINE_T									{
 																											cout << "BOX" << endl;
 																											Node box(BOX, "");
-																											Node keyword(BOX_RULE, $2);
+																											Node* keyword = new Node(RULE, $2);
 
 																											Node* dir1Node;
 
@@ -1297,7 +1476,7 @@ BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
 																												dir1Node = new Node(RIGHT, "");
 																											}
 																											numberFct($4);
-																											Node sizeNode(NUMBER, number);
+																											Node* sizeNode = new Node(NUMBER, number);
 
 																											Node* dir2Node;
 
@@ -1310,9 +1489,48 @@ BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
 																												dir2Node = new Node(RIGHT, "");
 																											}
 
-																											box.addNode(&keyword);
+																											box.addNode(keyword);
 																											box.addNode(dir1Node);
-																											box.addNode(&sizeNode);
+																											box.addNode(sizeNode);
+																											box.addNode(dir2Node);
+																											list.push_back(box);
+																										}
+			|	BX_T IDENT_T DIRECTION_T SIZE_T SIZE_T DIRECTION_T NEW_LINE_T							{
+																											cout << "BOX" << endl;
+																											Node box(BOX, "");
+																											Node* keyword = new Node(RULE, $2);
+
+																											Node* dir1Node;
+
+																											if(strcmp($3, "left") == 0)
+																											{
+																												dir1Node = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dir1Node = new Node(RIGHT, "");
+																											}
+																											numberFct($4);
+																											Node* sizeNode = new Node(NUMBER, number);
+
+																											numberFct($5);
+																											Node* sizeNode2 = new Node(NUMBER, number);
+
+																											Node* dir2Node;
+
+																											if(strcmp($6, "left") == 0)
+																											{
+																												dir2Node = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dir2Node = new Node(RIGHT, "");
+																											}
+
+																											box.addNode(keyword);
+																											box.addNode(dir1Node);
+																											box.addNode(sizeNode);
+																											box.addNode(sizeNode2);																											
 																											box.addNode(dir2Node);
 																											list.push_back(box);
 																										}
@@ -1351,11 +1569,19 @@ BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
 																										}
 			|	BX_T IDENT_T NEW_LINE_T																	{
 																											cout << "BOX" << endl;
-																											Node boxnode(OFF_BOX, "");
-																											Node boxRule(BOX_RULE, $2);
+																											if(strcmp($2, "can") == 0)
+																											{
+																												Node boxnode(OFF_BOX, "");
+																												list.push_back(boxnode);
+																											}
+																											else
+																											{
+																												Node boxNode(BOX, "");
+																												Node* boxRule = new Node(RULE, $2);
+																												boxNode.addNode(boxRule);
+																												list.push_back(boxNode);
+																											}
 																											
-																											boxnode.addNode(&boxRule);
-																											list.push_back(boxnode);
 																										}
 			|	BX_T DIRECTION_T SIZE_T NEW_LINE_T														{
 																											cout << "BOX" << endl;
@@ -1424,6 +1650,28 @@ BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
 																											list.push_back(boxNode);
 
 																										}
+			|	BX_T IDENT_T SIZE_T SIZE_T IDENT_T SIZE_T SIZE_T NEW_LINE_T 							{
+																											Node boxNode(BOX, "");
+																											Node* IDENTNode = new Node(RULE, $2);
+																											numberFct($3);
+																											Node* sizeNode = new Node(NUMBER, number);
+																											numberFct($4);
+																											Node* size2Node = new Node(NUMBER, number);
+																											Node* slashNode = new Node(RULE, $5);
+																											numberFct($6);
+																											Node* size3Node = new Node(NUMBER, number);
+																											numberFct($7);
+																											Node* size4Node = new Node(NUMBER, number);
+																											
+																											boxNode.addNode(IDENTNode);
+																											boxNode.addNode(sizeNode);
+																											boxNode.addNode(size2Node);
+																											boxNode.addNode(slashNode);
+																											boxNode.addNode(size3Node);
+																											boxNode.addNode(size4Node);
+																											list.push_back(boxNode);
+
+																										}
 			|	BX_T DIRECTION_T SIZE_T IDENT_T SIZE_T SIZE_T IDENT_T SIZE_T SIZE_T IDENT_T SIZE_T SIZE_T NEW_LINE_T 	{
 																															Node boxNode(BOX, "");
 																															Node* dirNode;	
@@ -1471,7 +1719,47 @@ BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
 																															list.push_back(boxNode);
 
 																														}
+			|	BX_T IDENT_T IDENT_T DIRECTION_T IDENT_T SIZE_T IDENT_T DIRECTION_T	NEW_LINE_T									{
+																															Node boxNode(BOX, "");
+																															Node* keyword1 = new Node(RULE, $2);
+																															Node* keyword2 = new Node(RULE, $3);
+																															
+																															Node* dirNode;	
+																															if(strcmp($4, "left") == 0)
+																															{
+																																dirNode = new Node(LEFT, "");
+																															}
+																															else
+																															{
+																																dirNode = new Node(RIGHT, "");
+																															}
+																															Node* keyword3 = new Node(RULE, $5);
+																															
+																															numberFct($6);
+																															Node* sizeNode = new Node(NUMBER, number);
+
+																															Node* keyword4 = new Node(RULE, $7);
+
+																															Node* dirNode2;	
+																															if(strcmp($4, "left") == 0)
+																															{
+																																dirNode2 = new Node(LEFT, "");
+																															}
+																															else
+																															{
+																																dirNode2 = new Node(RIGHT, "");
+																															}
+																															boxNode.addNode(keyword1);
+																															boxNode.addNode(keyword2);
+																															boxNode.addNode(dirNode);
+																															boxNode.addNode(keyword3);
+																															boxNode.addNode(sizeNode);
+																															boxNode.addNode(keyword4);
+																															boxNode.addNode(dirNode2);																															
+																															list.push_back(boxNode);
+																														}
 			;
+
 
 %%
 

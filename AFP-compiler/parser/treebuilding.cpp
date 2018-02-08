@@ -19,6 +19,7 @@ int addNodeOfType(int addToIndex, int fromIndex)
 	printNode(&list[fromIndex]);
 	switch(list[fromIndex].getType())
 	{
+		case NAME:					return connectNextNodes(addToIndex, fromIndex, 0);
 		case STRINGLITERAL:			return connectNextNodes(addToIndex, fromIndex, 0);
 		case ON: 					return connectNextNodes(addToIndex, fromIndex, 0);
 		case IDENTIFIER:			return connectNextNodes(addToIndex, fromIndex, 0);
@@ -33,7 +34,7 @@ int addNodeOfType(int addToIndex, int fromIndex)
 		case LL:					return connectNextNodes(addToIndex, fromIndex, 1);
 		case IN:					return connectNextNodes(addToIndex, fromIndex, 1);
 		case IR:					return connectNextNodes(addToIndex, fromIndex, 1);
-		case PA:					return connectNextNodes(addToIndex, fromIndex, 1);
+		case PA:					return connectNextNodes(addToIndex, fromIndex, 0);
 		case DR:					return connectNextNodes(addToIndex, fromIndex, 3);
 		case MG:					return connectNextNodes(addToIndex, fromIndex, 2);
 		case SE:					return connectNextNodes(addToIndex, fromIndex, 4);
@@ -201,6 +202,22 @@ int addNodeOfType(int addToIndex, int fromIndex)
 									}
 									return j+1;
 								}
+			case AREADEFINITION:	{
+										int j = 0;
+										list[addToIndex].addNode(&list[fromIndex]);
+										for(j=fromIndex+1; list[j].getType()!=AREADEFINITION && list[j].getType()!=AREA && list[j].getType()!=TI && list[j].getType()!=RH;j++)
+										{
+											if(list[j].getType()==ROTATE || list[j].getType()==DEPTH){
+												list[j].addNode(&list[j+1]);
+												list[fromIndex].addNode(&list[j]);
+												j++;
+											}else
+											{
+												list[fromIndex].addNode(&list[j]);							
+											}
+										}
+										return j - 1;
+									}
 		break;
 	}
 	return fromIndex;	
@@ -226,8 +243,6 @@ int recursiveContainerTraversal(int addToIndex, int fromIndex, int off_type, int
 	{
 		switch(list[j].getType())
 		{
-			case NAME:		list[fromIndex].addNode(&list[j]);
-							break;
 			case CANCEL: 	list[fromIndex].addNode(&list[j]);
 							break;
 			case KP:		j = recursiveContainerTraversal(fromIndex, j, OFF_KP, depth + 1);
@@ -260,11 +275,11 @@ int recursiveContainerTraversal(int addToIndex, int fromIndex, int off_type, int
 		}
 		if(j > list.size() - 1)
 		{
+			cout << "\nOn/Off trace: " << endl;
+			cout << onOffDebug << endl;
 			cout << "ERROR: ";
 			printNode(&list[fromIndex]);
 			cout << "Missing OFF node" << endl;
-			cout << "On/Off trace: " << endl;
-			cout << onOffDebug << endl;
 			exit(0);
 		}
 		j = addNodeOfType(fromIndex, j);

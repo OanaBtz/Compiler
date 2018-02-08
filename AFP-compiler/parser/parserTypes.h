@@ -79,7 +79,8 @@ string types[] = {
     "OFF_US",
     "BOX_SLASH",
     "VR",
-    "OFF_VR"
+    "OFF_VR",
+    "OFF_FO"
 };
 
 #endif
