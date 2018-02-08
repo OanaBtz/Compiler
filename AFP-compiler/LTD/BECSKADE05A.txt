@@ -230,3 +230,5 @@ Skadesløsbrevet kan til enhver tid opsiges af kreditor eller debitor med
 .sp 80mm
 .vr off
 .ar off
+.su off
+.ar off

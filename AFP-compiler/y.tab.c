@@ -106,10 +106,7 @@ Node docNode(DOCUMENT, "");
 # define YYERROR_VERBOSE 0
 #endif
 
-/* In a future release of Bison, this section will be replaced
-   by #include "y.tab.h".  */
-#ifndef YY_YY_Y_TAB_H_INCLUDED
-# define YY_YY_Y_TAB_H_INCLUDED
+
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 0
@@ -286,7 +283,7 @@ union YYSTYPE
 
 	char tokens[1000];
 
-#line 290 "y.tab.c" /* yacc.c:355  */
+#line 287 "y.tab.c" /* yacc.c:355  */
 };
 
 typedef union YYSTYPE YYSTYPE;
@@ -299,11 +296,11 @@ extern YYSTYPE yylval;
 
 int yyparse (void);
 
-#endif /* !YY_YY_Y_TAB_H_INCLUDED  */
+
 
 /* Copy the second part of user declarations.  */
 
-#line 307 "y.tab.c" /* yacc.c:358  */
+#line 304 "y.tab.c" /* yacc.c:358  */
 
 #ifdef short
 # undef short
@@ -1648,7 +1645,7 @@ yyreduce:
 																											Node* ofNode = new Node(OF, "");
 																											list.push_back(*ofNode);
 																										}
-#line 1652 "y.tab.c" /* yacc.c:1646  */
+#line 1649 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 26:
@@ -1660,7 +1657,7 @@ yyreduce:
 																											list.push_back(*ofNode);
 																											list.push_back(*ofSizeNode);
 																										}
-#line 1664 "y.tab.c" /* yacc.c:1646  */
+#line 1661 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 27:
@@ -1672,7 +1669,7 @@ yyreduce:
 																											list.push_back(*clNode);
 																											list.push_back(*clnumNode);
 																										}
-#line 1676 "y.tab.c" /* yacc.c:1646  */
+#line 1673 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 28:
@@ -1685,7 +1682,7 @@ yyreduce:
 																											list.push_back(*cdValueNode);
 																											list.push_back(*cdnumNode);	
 																										}
-#line 1689 "y.tab.c" /* yacc.c:1646  */
+#line 1686 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 29:
@@ -1697,7 +1694,7 @@ yyreduce:
 																											list.push_back(*tmNode);
 																											list.push_back(*tmsizeNode);
 																										}
-#line 1701 "y.tab.c" /* yacc.c:1646  */
+#line 1698 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 30:
@@ -1710,7 +1707,7 @@ yyreduce:
 																											list.push_back(*bmNode);
 																											list.push_back(*bmsizeNode);
 																										}
-#line 1714 "y.tab.c" /* yacc.c:1646  */
+#line 1711 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 31:
@@ -1720,7 +1717,7 @@ yyreduce:
 																											Node* tpNode = new Node(TP, "");
 																											list.push_back(*tpNode);
 																										}
-#line 1724 "y.tab.c" /* yacc.c:1646  */
+#line 1721 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 32:
@@ -1737,7 +1734,7 @@ yyreduce:
 
 																											list.push_back(*vrNode);
 																										}
-#line 1741 "y.tab.c" /* yacc.c:1646  */
+#line 1738 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 33:
@@ -1759,7 +1756,7 @@ yyreduce:
 
 																											list.push_back(*vrNode);
 																										}
-#line 1763 "y.tab.c" /* yacc.c:1646  */
+#line 1760 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 34:
@@ -1769,7 +1766,7 @@ yyreduce:
 																											Node* vrNode = new Node(OFF_VR, "");
 																											list.push_back(*vrNode);
 																										}
-#line 1773 "y.tab.c" /* yacc.c:1646  */
+#line 1770 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 35:
@@ -1796,7 +1793,7 @@ yyreduce:
 																											Node* endNode = new Node(NEWLINE, "");
 																											list.push_back(*endNode);
 																										}
-#line 1800 "y.tab.c" /* yacc.c:1646  */
+#line 1797 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 36:
@@ -1818,7 +1815,7 @@ yyreduce:
 																											list.push_back(*endNode);
 
 																										}
-#line 1822 "y.tab.c" /* yacc.c:1646  */
+#line 1819 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 37:
@@ -1852,7 +1849,7 @@ yyreduce:
 																											Node* endNode = new Node(NEWLINE, "");
 																											list.push_back(*endNode);
 																										}
-#line 1856 "y.tab.c" /* yacc.c:1646  */
+#line 1853 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 38:
@@ -1864,7 +1861,7 @@ yyreduce:
 																											list.push_back(*hyNode);
 																											list.push_back(*hyOnNode);
 																										}
-#line 1868 "y.tab.c" /* yacc.c:1646  */
+#line 1865 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 39:
@@ -1874,7 +1871,7 @@ yyreduce:
 																											Node* hyOffNode = new Node(OFF_HY, "");
 																											list.push_back(*hyOffNode);	
 																										}
-#line 1878 "y.tab.c" /* yacc.c:1646  */
+#line 1875 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 40:
@@ -1891,7 +1888,7 @@ yyreduce:
 																											Node* endNode = new Node(NEWLINE, "");
 																											list.push_back(*endNode);
 																										}
-#line 1895 "y.tab.c" /* yacc.c:1646  */
+#line 1892 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 41:
@@ -1910,7 +1907,7 @@ yyreduce:
 																											Node* endNode = new Node(NEWLINE, "");
 																											list.push_back(*endNode);
 																										}
-#line 1914 "y.tab.c" /* yacc.c:1646  */
+#line 1911 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 42:
@@ -1939,7 +1936,7 @@ yyreduce:
 																											Node* endNode = new Node(NEWLINE, "");
 																											list.push_back(*endNode);
 																										}
-#line 1943 "y.tab.c" /* yacc.c:1646  */
+#line 1940 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 43:
@@ -1970,7 +1967,7 @@ yyreduce:
 																											list.push_back(*endNode);																										
 
 																										}
-#line 1974 "y.tab.c" /* yacc.c:1646  */
+#line 1971 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 44:
@@ -1996,7 +1993,7 @@ yyreduce:
 																											list.push_back(*endNode);
 
 																										}
-#line 2000 "y.tab.c" /* yacc.c:1646  */
+#line 1997 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 45:
@@ -2018,7 +2015,7 @@ yyreduce:
 																											list.push_back(*endNode);
 																											
 																										}
-#line 2022 "y.tab.c" /* yacc.c:1646  */
+#line 2019 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 46:
@@ -2028,7 +2025,7 @@ yyreduce:
 																											Node* elNode = new Node(ELSE, "");
 																											list.push_back(*elNode);	
 																										}
-#line 2032 "y.tab.c" /* yacc.c:1646  */
+#line 2029 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 47:
@@ -2040,7 +2037,7 @@ yyreduce:
 																											list.push_back(*elNode);	
 																											list.push_back(*newline);
 																										}
-#line 2044 "y.tab.c" /* yacc.c:1646  */
+#line 2041 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 48:
@@ -2050,7 +2047,7 @@ yyreduce:
 																											Node* thNode = new Node(THEN, "");
 																											list.push_back(*thNode);	
 																										}
-#line 2054 "y.tab.c" /* yacc.c:1646  */
+#line 2051 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 49:
@@ -2062,7 +2059,7 @@ yyreduce:
 																											list.push_back(*thNode);	
 																											list.push_back(*newline);
 																										}
-#line 2066 "y.tab.c" /* yacc.c:1646  */
+#line 2063 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 50:
@@ -2078,7 +2075,7 @@ yyreduce:
 																											list.push_back(*drWeightNode);
 																											list.push_back(*drSizeNode);
 																										}
-#line 2082 "y.tab.c" /* yacc.c:1646  */
+#line 2079 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 51:
@@ -2089,7 +2086,7 @@ yyreduce:
 																											Node* labelNode = new Node(LABEL, s.substr(3));	
 																											list.push_back(*labelNode);																										
 																										}
-#line 2093 "y.tab.c" /* yacc.c:1646  */
+#line 2090 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 52:
@@ -2110,7 +2107,7 @@ yyreduce:
 																												list.push_back(*fontSize);
 																											}
 																										}
-#line 2114 "y.tab.c" /* yacc.c:1646  */
+#line 2111 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 53:
@@ -2131,7 +2128,7 @@ yyreduce:
 																												list.push_back(*fontSize);
 																											}
 																										}
-#line 2135 "y.tab.c" /* yacc.c:1646  */
+#line 2132 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 54:
@@ -2155,7 +2152,7 @@ yyreduce:
 																											Node* varNameNode = new Node(NAME, var);
 																											list.push_back(*varNameNode);
 																										}
-#line 2159 "y.tab.c" /* yacc.c:1646  */
+#line 2156 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 55:
@@ -2164,7 +2161,7 @@ yyreduce:
 																											Node* ofNode = new Node(OF, "");
 																											list.push_back(*ofNode);
 																										}
-#line 2168 "y.tab.c" /* yacc.c:1646  */
+#line 2165 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 59:
@@ -2176,7 +2173,7 @@ yyreduce:
 																											list.push_back(*pmNode);
 																											list.push_back(*pmsizeNode);
 																										}
-#line 2180 "y.tab.c" /* yacc.c:1646  */
+#line 2177 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 60:
@@ -2188,7 +2185,7 @@ yyreduce:
 																											list.push_back(*rhNode);
 																											list.push_back(*rhonNode);
 																										}
-#line 2192 "y.tab.c" /* yacc.c:1646  */
+#line 2189 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 61:
@@ -2198,7 +2195,7 @@ yyreduce:
 																											Node* rhoffNode = new Node(OFF_RH, "");
 																											list.push_back(*rhoffNode);
 																										}
-#line 2202 "y.tab.c" /* yacc.c:1646  */
+#line 2199 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 62:
@@ -2208,7 +2205,7 @@ yyreduce:
 																											Node* rhcancelNode = new Node(CANCEL, "");
 																											list.push_back(*rhcancelNode);
 																										}
-#line 2212 "y.tab.c" /* yacc.c:1646  */
+#line 2209 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 63:
@@ -2218,7 +2215,7 @@ yyreduce:
 																											Node* rhexecuteNode = new Node(EXECUTE, "");
 																											list.push_back(*rhexecuteNode);
 																										}
-#line 2222 "y.tab.c" /* yacc.c:1646  */
+#line 2219 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 72:
@@ -2241,7 +2238,7 @@ yyreduce:
 																											list.push_back(*valueNode);
 																											list.push_back(*stringLiteralNode);
 																										}
-#line 2245 "y.tab.c" /* yacc.c:1646  */
+#line 2242 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 73:
@@ -2264,7 +2261,7 @@ yyreduce:
 																											list.push_back(*valueNode);
 																											list.push_back(*numNode);
 																										}
-#line 2268 "y.tab.c" /* yacc.c:1646  */
+#line 2265 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 74:
@@ -2289,7 +2286,7 @@ yyreduce:
 																											list.push_back(*varNode2);
 																											list.push_back(*varNameNode2);
 																										}
-#line 2293 "y.tab.c" /* yacc.c:1646  */
+#line 2290 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 75:
@@ -2313,7 +2310,7 @@ yyreduce:
 																											list.push_back(*varNode2);
 																											list.push_back(*varNameNode2);
 																										}
-#line 2317 "y.tab.c" /* yacc.c:1646  */
+#line 2314 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 76:
@@ -2334,7 +2331,7 @@ yyreduce:
 																											list.push_back(*valueNode);
 																											list.push_back(*stringLiteralNode);
 																										}
-#line 2338 "y.tab.c" /* yacc.c:1646  */
+#line 2335 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 77:
@@ -2355,150 +2352,150 @@ yyreduce:
 																											list.push_back(*valueNode);
 																											list.push_back(*numNode);
 																										}
-#line 2359 "y.tab.c" /* yacc.c:1646  */
+#line 2356 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 78:
 #line 583 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "IF" << endl;
-																											Node ifNode(IF, "");
-																											list.push_back(ifNode);
+																											Node* ifNode = new Node(IF, "");
+																											list.push_back(*ifNode);
 																										}
-#line 2369 "y.tab.c" /* yacc.c:1646  */
+#line 2366 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 79:
 #line 589 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "AN" << endl;
-																											Node andNode(AND, "");
-																											list.push_back(andNode);
+																											Node* andNode = new Node(AND, "");
+																											list.push_back(*andNode);
 																										}
-#line 2379 "y.tab.c" /* yacc.c:1646  */
+#line 2376 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 80:
 #line 595 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "OR" << endl;
-																											Node orNode(OR, "");
-																											list.push_back(orNode);	
+																											Node* orNode = new Node(OR, "");
+																											list.push_back(*orNode);	
 																										}
-#line 2389 "y.tab.c" /* yacc.c:1646  */
+#line 2386 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 81:
 #line 601 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "MATHEX" << endl;
-																											Node mathex_node(MATHEX, "");
-																											Node varNode(STRINGVARIABLE, "");
-																											Node varNameNode(NAME, (yyvsp[-3].tokens));
-																											Node mathExSign(MATHEX_SIGN, (yyvsp[-2].tokens));
-																											Node numberNode(NUMBER, number);
-																											Node newlineNode(NEWLINE, "");
-																											list.push_back(mathex_node);
-																											list.push_back(varNode);
-																											list.push_back(varNameNode);
-																											list.push_back(mathExSign);
-																											list.push_back(numberNode);
-																											list.push_back(newlineNode);
+																											Node* mathex_node = new Node(MATHEX, "");
+																											Node* varNode = new Node(STRINGVARIABLE, "");
+																											Node* varNameNode = new Node(NAME, (yyvsp[-3].tokens));
+																											Node* mathExSign = new Node(MATHEX_SIGN, (yyvsp[-2].tokens));
+																											Node* numberNode = new Node(NUMBER, number);
+																											Node* newlineNode = new Node(NEWLINE, "");
+																											list.push_back(*mathex_node);
+																											list.push_back(*varNode);
+																											list.push_back(*varNameNode);
+																											list.push_back(*mathExSign);
+																											list.push_back(*numberNode);
+																											list.push_back(*newlineNode);
 																										}
-#line 2409 "y.tab.c" /* yacc.c:1646  */
+#line 2406 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 82:
 #line 616 "compiler.y" /* yacc.c:1646  */
     {
 																											cout<< "MATHEX" << endl;
-																											Node mathex_node(MATHEX, "");
-																											Node numNode(NUMBER, (yyvsp[-3].tokens));
-																											Node mathExSign(MATHEX_SIGN, (yyvsp[-2].tokens));
-																											Node numNode2(NUMBER, (yyvsp[-1].tokens));
-																											Node newlineNode(NEWLINE, "");
-																											list.push_back(mathex_node);
-																											list.push_back(numNode);
-																											list.push_back(mathExSign);
-																											list.push_back(numNode2);
-																											list.push_back(newlineNode);
+																											Node* mathex_node = new Node(MATHEX, "");
+																											Node* numNode = new Node(NUMBER, (yyvsp[-3].tokens));
+																											Node* mathExSign = new Node(MATHEX_SIGN, (yyvsp[-2].tokens));
+																											Node* numNode2 = new Node(NUMBER, (yyvsp[-1].tokens));
+																											Node* newlineNode = new Node(NEWLINE, "");
+																											list.push_back(*mathex_node);
+																											list.push_back(*numNode);
+																											list.push_back(*mathExSign);
+																											list.push_back(*numNode2);
+																											list.push_back(*newlineNode);
 
 																										}
-#line 2428 "y.tab.c" /* yacc.c:1646  */
+#line 2425 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 83:
 #line 630 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "MATHEX" << endl;
-																											Node mathex_node(MATHEX, "");
-																											Node varNode(STRINGVARIABLE, "");
-																											Node varNameNode(NAME, (yyvsp[-3].tokens));
-																											Node mathExSign(MATHEX_SIGN, (yyvsp[-2].tokens));
-																											Node varNode2(STRINGVARIABLE, "");
-																											Node varNameNode2(NAME, (yyvsp[-1].tokens));
-																											Node newlineNode(NEWLINE, "");
-																											list.push_back(mathex_node);
-																											list.push_back(varNode);
-																											list.push_back(varNameNode);
-																											list.push_back(mathExSign);
-																											list.push_back(varNode2);
-																											list.push_back(varNameNode2);
-																											list.push_back(newlineNode);
+																											Node* mathex_node = new Node(MATHEX, "");
+																											Node* varNode = new Node(STRINGVARIABLE, "");
+																											Node* varNameNode = new Node(NAME, (yyvsp[-3].tokens));
+																											Node* mathExSign = new Node(MATHEX_SIGN, (yyvsp[-2].tokens));
+																											Node* varNode2 = new Node(STRINGVARIABLE, "");
+																											Node* varNameNode2 = new Node(NAME, (yyvsp[-1].tokens));
+																											Node* newlineNode = new Node(NEWLINE, "");
+																											list.push_back(*mathex_node);
+																											list.push_back(*varNode);
+																											list.push_back(*varNameNode);
+																											list.push_back(*mathExSign);
+																											list.push_back(*varNode2);
+																											list.push_back(*varNameNode2);
+																											list.push_back(*newlineNode);
 																										}
-#line 2450 "y.tab.c" /* yacc.c:1646  */
+#line 2447 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 84:
 #line 647 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "MATHEX" << endl;
-																											Node mathExNode(MATHEX, "");
-																											Node varNode(STRINGVARIABLE, "");
-																											Node varNameNode(NAME, (yyvsp[-1].tokens));
-																											Node mathExSign(MATHEX_SIGN, (yyvsp[-2].tokens));
+																											Node* mathExNode = new Node(MATHEX, "");
+																											Node* varNode = new Node(STRINGVARIABLE, "");
+																											Node* varNameNode = new Node(NAME, (yyvsp[-1].tokens));
+																											Node* mathExSign = new Node(MATHEX_SIGN, (yyvsp[-2].tokens));
 																											numberFct((yyvsp[-3].tokens));
-																											Node numberNode(NUMBER, number);
-																											Node newlineNode(NEWLINE, "");
-																											list.push_back(mathExNode);
-																											list.push_back(numberNode);
-																											list.push_back(mathExSign);
-																											list.push_back(varNode);
-																											list.push_back(varNameNode);
-																											list.push_back(newlineNode);
+																											Node* numberNode = new Node(NUMBER, number);
+																											Node* newlineNode = new Node(NEWLINE, "");
+																											list.push_back(*mathExNode);
+																											list.push_back(*numberNode);
+																											list.push_back(*mathExSign);
+																											list.push_back(*varNode);
+																											list.push_back(*varNameNode);
+																											list.push_back(*newlineNode);
 																										}
-#line 2471 "y.tab.c" /* yacc.c:1646  */
+#line 2468 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 85:
 #line 663 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "MATHEX CONTINUED"<<endl;
-																											Node mathExSign(MATHEX_SIGN, (yyvsp[-2].tokens));
-																											Node varNode(STRINGVARIABLE, "");
-																											Node varNameNode(NAME, (yyvsp[-1].tokens));
-																											Node newlineNode(NEWLINE, "");
-																											list.push_back(mathExSign);
-																											list.push_back(varNode);
-																											list.push_back(varNameNode);
-																											list.push_back(newlineNode);
+																											Node* mathExSign = new Node(MATHEX_SIGN, (yyvsp[-2].tokens));
+																											Node* varNode = new Node(STRINGVARIABLE, "");
+																											Node* varNameNode = new Node(NAME, (yyvsp[-1].tokens));
+																											Node* newlineNode = new Node(NEWLINE, "");
+																											list.push_back(*mathExSign);
+																											list.push_back(*varNode);
+																											list.push_back(*varNameNode);
+																											list.push_back(*newlineNode);
 																											
 																										}
-#line 2488 "y.tab.c" /* yacc.c:1646  */
+#line 2485 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 86:
 #line 675 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "MATHEX CONTINUED"<<endl;
-																											Node mathExSign(MATHEX_SIGN, (yyvsp[-2].tokens));
-																											Node numNode(NUMBER, (yyvsp[-1].tokens));
-																											Node newlineNode(NEWLINE, "");
-																											list.push_back(mathExSign);
-																											list.push_back(numNode);
-																											list.push_back(newlineNode);
+																											Node* mathExSign = new Node(MATHEX_SIGN, (yyvsp[-2].tokens));
+																											Node* numNode = new Node(NUMBER, (yyvsp[-1].tokens));
+																											Node* newlineNode = new Node(NEWLINE, "");
+																											list.push_back(*mathExSign);
+																											list.push_back(*numNode);
+																											list.push_back(*newlineNode);
 																										}
-#line 2502 "y.tab.c" /* yacc.c:1646  */
+#line 2499 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 87:
@@ -2506,33 +2503,33 @@ yyreduce:
     {
 																											cout << "STRING" << endl;
 																											cout << (yyvsp[0].tokens) << endl;
-																											Node textNode(STRINGLITERAL, (yyvsp[0].tokens));
-																											list.push_back(textNode);	
+																											Node* textNode = new Node(STRINGLITERAL, (yyvsp[0].tokens));
+																											list.push_back(*textNode);	
 																										}
-#line 2513 "y.tab.c" /* yacc.c:1646  */
+#line 2510 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 88:
 #line 691 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "STRVAR" << endl;
-																											Node variable(STRINGVARIABLE, "");
+																											Node* variable = new Node(STRINGVARIABLE, "");
 																											varName((yyvsp[0].tokens));
-																							    			Node varName0(NAME, var);
-																											list.push_back(variable);
-																											list.push_back(varName0);
+																							    			Node* varName0 = new Node(NAME, var);
+																											list.push_back(*variable);
+																											list.push_back(*varName0);
 																										}
-#line 2526 "y.tab.c" /* yacc.c:1646  */
+#line 2523 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 89:
 #line 699 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "Number in a string" << endl;
-																											Node numNode(NUMBER, (yyvsp[0].tokens));
-																											list.push_back(numNode);
+																											Node* numNode = new Node(NUMBER, (yyvsp[0].tokens));
+																											list.push_back(*numNode);
 																										}
-#line 2536 "y.tab.c" /* yacc.c:1646  */
+#line 2533 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 90:
@@ -2542,7 +2539,7 @@ yyreduce:
 																											Node* textNode = new Node(STRINGLITERAL, (yyvsp[0].tokens));
 																											list.push_back(*textNode);
 																										}
-#line 2546 "y.tab.c" /* yacc.c:1646  */
+#line 2543 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 91:
@@ -2552,7 +2549,7 @@ yyreduce:
 																											Node* textNode = new Node(STRINGLITERAL, (yyvsp[0].tokens));
 																											list.push_back(*textNode);
 																										}
-#line 2556 "y.tab.c" /* yacc.c:1646  */
+#line 2553 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 92:
@@ -2562,7 +2559,7 @@ yyreduce:
 																											Node* textNode = new Node(STRINGLITERAL, (yyvsp[0].tokens));
 																											list.push_back(*textNode);
 																										}
-#line 2566 "y.tab.c" /* yacc.c:1646  */
+#line 2563 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 93:
@@ -2570,35 +2567,35 @@ yyreduce:
     {
 																											cout << "Mathex in a string" << endl;
 																											cout << (yyvsp[0].tokens) << endl;
-																											Node textNode(STRINGLITERAL, (yyvsp[0].tokens));
-																											list.push_back(textNode);
+																											Node* textNode = new Node(STRINGLITERAL, (yyvsp[0].tokens));
+																											list.push_back(*textNode);
 																										}
-#line 2577 "y.tab.c" /* yacc.c:1646  */
+#line 2574 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 94:
 #line 725 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "STRVAR" << endl;
-																											Node rule(RULE, (yyvsp[-1].tokens));
+																											Node* rule = new Node(RULE, (yyvsp[-1].tokens));
 																											cout << "STRVAR" << endl;
-																											Node variable(STRINGVARIABLE, "");
+																											Node* variable = new Node(STRINGVARIABLE, "");
 																											varName((yyvsp[-1].tokens));
-																							    			Node varName0(NAME, var);
-																											list.push_back(rule);
-																											list.push_back(variable);
-																											list.push_back(varName0);
+																							    			Node* varName0 = new Node(NAME, var);
+																											list.push_back(*rule);
+																											list.push_back(*variable);
+																											list.push_back(*varName0);
 																										}
-#line 2593 "y.tab.c" /* yacc.c:1646  */
+#line 2590 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 96:
 #line 737 "compiler.y" /* yacc.c:1646  */
     {
-																											Node newlineNode(NEWLINE, "");
-																											list.push_back(newlineNode);
+																											Node* newlineNode = new Node(NEWLINE, "");
+																											list.push_back(*newlineNode);
 																										}
-#line 2602 "y.tab.c" /* yacc.c:1646  */
+#line 2599 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 97:
@@ -2606,318 +2603,318 @@ yyreduce:
     {
 																											cout << "GOTO" << endl;
 																											cout << (yyvsp[-1].tokens) << endl;
-																											Node gotoNode(GO, "");
-																											Node identifierNode(STRINGLITERAL, (yyvsp[-1].tokens));
-																											list.push_back(gotoNode);
-																											list.push_back(identifierNode);	
+																											Node* gotoNode = new Node(GO, "");
+																											Node* identifierNode = new Node(STRINGLITERAL, (yyvsp[-1].tokens));
+																											list.push_back(*gotoNode);
+																											list.push_back(*identifierNode);	
 																										}
-#line 2615 "y.tab.c" /* yacc.c:1646  */
+#line 2612 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 98:
 #line 750 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "SP" << endl;
-																											Node spaceNode(SP, "");
+																											Node* spaceNode = new Node(SP, "");
 																											
 																											numberFct((yyvsp[-1].tokens));
-																											Node spacenNode(NUMBER, number);
+																											Node* spacenNode = new Node(NUMBER, number);
 
-																											list.push_back(spaceNode);
-																											list.push_back(spacenNode);
+																											list.push_back(*spaceNode);
+																											list.push_back(*spacenNode);
 																										}
-#line 2630 "y.tab.c" /* yacc.c:1646  */
+#line 2627 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 99:
 #line 760 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "SP" << endl;
-																											Node spaceNode(SP, "");
+																											Node* spaceNode = new Node(SP, "");
 																											
-																											Node spacenNode(NUMBER, (yyvsp[-1].tokens));
+																											Node* spacenNode = new Node(NUMBER, (yyvsp[-1].tokens));
 
-																											list.push_back(spaceNode);
-																											list.push_back(spacenNode);
+																											list.push_back(*spaceNode);
+																											list.push_back(*spacenNode);
 																										}
-#line 2644 "y.tab.c" /* yacc.c:1646  */
+#line 2641 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 100:
 #line 769 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "SP" << endl;
-																											Node spaceNode(SP, "");
+																											Node* spaceNode = new Node(SP, "");
 																											
-																											Node spacenNode(NUMBER, "1");
+																											Node* spacenNode = new Node(NUMBER, "1");
 
-																											list.push_back(spaceNode);
-																											list.push_back(spacenNode);
+																											list.push_back(*spaceNode);
+																											list.push_back(*spacenNode);
 																										}
-#line 2658 "y.tab.c" /* yacc.c:1646  */
+#line 2655 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 101:
 #line 778 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "LL" << endl;
-																											Node llNode(LL, "");
+																											Node* llNode = new Node(LL, "");
 																											numberFct((yyvsp[-1].tokens));
-																											Node sizeNode(NUMBER, number);
-																											list.push_back(llNode);
-																											list.push_back(sizeNode);	
+																											Node* sizeNode = new Node(NUMBER, number);
+																											list.push_back(*llNode);
+																											list.push_back(*sizeNode);	
 																										}
-#line 2671 "y.tab.c" /* yacc.c:1646  */
+#line 2668 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 103:
 #line 787 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "MG" << endl;
-																											Node mgNode(MG, "");
+																											Node* mgNode = new Node(MG, "");
 																											string s = (yyvsp[-1].tokens);
-																											Node mgTNode(MG_TYPE, s.substr(4, 1));
-																											Node mgStrNode(STRINGLITERAL, s.substr(6, s.length() - 7));
-																											list.push_back(mgNode);
-																											list.push_back(mgTNode);
-																											list.push_back(mgStrNode);
+																											Node* mgTNode = new Node(MG_TYPE, s.substr(4, 1));
+																											Node* mgStrNode = new Node(STRINGLITERAL, s.substr(6, s.length() - 7));
+																											list.push_back(*mgNode);
+																											list.push_back(*mgTNode);
+																											list.push_back(*mgStrNode);
 																										}
-#line 2686 "y.tab.c" /* yacc.c:1646  */
+#line 2683 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 104:
 #line 797 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "IN" << endl;
-																											Node inNode(IN, "");
+																											Node* inNode = new Node(IN, "");
 																											numberFct((yyvsp[-1].tokens));
-																											Node sizeNode(NUMBER, number);
-																											list.push_back(inNode);
-																											list.push_back(sizeNode);
+																											Node* sizeNode = new Node(NUMBER, number);
+																											list.push_back(*inNode);
+																											list.push_back(*sizeNode);
 																										}
-#line 2699 "y.tab.c" /* yacc.c:1646  */
+#line 2696 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 105:
 #line 805 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "IN" << endl;
-																											Node inNode(IN, "");
+																											Node* inNode = new Node(IN, "");
 																											cout << "STRVAR" << endl;
-																											Node variable(STRINGVARIABLE, "");
+																											Node* variable = new Node(STRINGVARIABLE, "");
 																											varName((yyvsp[-2].tokens));
-																							    			Node varName0(NAME, var);
+																							    			Node* varName0 = new Node(NAME, var);
 																											
-																											list.push_back(inNode);
-																											list.push_back(variable);
-																											list.push_back(varName0);
+																											list.push_back(*inNode);
+																											list.push_back(*variable);
+																											list.push_back(*varName0);
 																											
 																										}
-#line 2717 "y.tab.c" /* yacc.c:1646  */
+#line 2714 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 106:
 #line 818 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "IN" << endl;
-																											Node inNode(IN, "");
+																											Node* inNode = new Node(IN, "");
 																											
-																											Node sizeNode(NUMBER, (yyvsp[-1].tokens));
-																											list.push_back(inNode);
-																											list.push_back(sizeNode);
+																											Node* sizeNode = new Node(NUMBER, (yyvsp[-1].tokens));
+																											list.push_back(*inNode);
+																											list.push_back(*sizeNode);
 																										}
-#line 2730 "y.tab.c" /* yacc.c:1646  */
+#line 2727 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 107:
 #line 826 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "IN" << endl;
-																											Node inNode(IN, "");
+																											Node* inNode = new Node(IN, "");
 																											numberFct((yyvsp[-2].tokens));
-																											Node sizeNode(NUMBER, number);
-																											Node ident(STRINGLITERAL, (yyvsp[-1].tokens));
-																											list.push_back(inNode);
-																											list.push_back(sizeNode);
-																											list.push_back(ident);
+																											Node* sizeNode = new Node(NUMBER, number);
+																											Node* ident = new Node(STRINGLITERAL, (yyvsp[-1].tokens));
+																											list.push_back(*inNode);
+																											list.push_back(*sizeNode);
+																											list.push_back(*ident);
 																										}
-#line 2745 "y.tab.c" /* yacc.c:1646  */
+#line 2742 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 108:
 #line 836 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "IN" << endl;
-																											Node inNode(IN, "");
-																											Node sizeNode(NUMBER, "0");
-																											list.push_back(inNode);
-																											list.push_back(sizeNode);
+																											Node* inNode = new Node(IN, "");
+																											Node* sizeNode = new Node(NUMBER, "0");
+																											list.push_back(*inNode);
+																											list.push_back(*sizeNode);
 																										}
-#line 2757 "y.tab.c" /* yacc.c:1646  */
+#line 2754 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 109:
 #line 843 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "IR" << endl;
-																											Node irNode(IR, "");
+																											Node* irNode = new Node(IR, "");
 																											numberFct((yyvsp[-1].tokens));
-																											Node sizeNode(NUMBER, number);
-																											list.push_back(irNode);
-																											list.push_back(sizeNode);
+																											Node* sizeNode = new Node(NUMBER, number);
+																											list.push_back(*irNode);
+																											list.push_back(*sizeNode);
 																										}
-#line 2770 "y.tab.c" /* yacc.c:1646  */
+#line 2767 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 110:
 #line 851 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "IR" << endl;
-																											Node irNode(IR, "");
-																											list.push_back(irNode);
+																											Node* irNode = new Node(IR, "");
+																											list.push_back(*irNode);
 																										}
-#line 2780 "y.tab.c" /* yacc.c:1646  */
+#line 2777 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 112:
 #line 857 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "PA" << endl;
-																											Node paNode(PA, "");
+																											Node* paNode = new Node(PA, "");
 																											Node* identNode = new Node(STRINGLITERAL, (yyvsp[-1].tokens));
-																											paNode.addNode(identNode);
-																											list.push_back(paNode);
+																											paNode->addNode(identNode);
+																											list.push_back(*paNode);
 																										}
-#line 2792 "y.tab.c" /* yacc.c:1646  */
+#line 2789 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 113:
 #line 864 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "PA" << endl;
-																											Node paNode(PA, "");
-																											list.push_back(paNode);																											
+																											Node* paNode = new Node(PA, "");
+																											list.push_back(*paNode);																											
 																										}
-#line 2802 "y.tab.c" /* yacc.c:1646  */
+#line 2799 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 118:
 #line 873 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "TB" << endl;
-																											Node tbNode(TB, "");
+																											Node* tbNode = new Node(TB, "");
 																											numberFct((yyvsp[-2].tokens));
-																											Node tbNum1Node(NUMBER, number);
+																											Node* tbNum1Node = new Node(NUMBER, number);
 																											numberFct((yyvsp[-1].tokens));
-																											Node tbNum2Node(NUMBER, number);
-																											list.push_back(tbNode);
-																											list.push_back(tbNum1Node);
-																											list.push_back(tbNum2Node);
+																											Node* tbNum2Node = new Node(NUMBER, number);
+																											list.push_back(*tbNode);
+																											list.push_back(*tbNum1Node);
+																											list.push_back(*tbNum2Node);
 																										}
-#line 2818 "y.tab.c" /* yacc.c:1646  */
+#line 2815 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 119:
 #line 884 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "SK" << endl;
-																											Node sknode(SK, "");
+																											Node* sknode = new Node(SK, "");
 																											numberFct((yyvsp[-1].tokens));
-																											Node skNumberNode(NUMBER, number);
-																											list.push_back(sknode);
-																											list.push_back(skNumberNode);
+																											Node* skNumberNode = new Node(NUMBER, number);
+																											list.push_back(*sknode);
+																											list.push_back(*skNumberNode);
 																										}
-#line 2831 "y.tab.c" /* yacc.c:1646  */
+#line 2828 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 120:
 #line 892 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "UNDERSCORE" << endl;
-																											Node us(US, "");
-																											list.push_back(us);
+																											Node* us = new Node(US, "");
+																											list.push_back(*us);
 																										}
-#line 2841 "y.tab.c" /* yacc.c:1646  */
+#line 2838 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 121:
 #line 897 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "UNDERSCORE" << endl;
-																											Node us(US, "");
-																											list.push_back(us);
+																											Node* us = new Node(US, "");
+																											list.push_back(*us);
 																										}
-#line 2851 "y.tab.c" /* yacc.c:1646  */
+#line 2848 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 122:
 #line 902 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "UNDERSCORE ON" << endl;
-																											Node us(US, "");
-																											Node onNode(ON, "");
-																											list.push_back(us);		
-																											list.push_back(onNode);																					
+																											Node* us = new Node(US, "");
+																											Node* onNode = new Node(ON, "");
+																											list.push_back(*us);		
+																											list.push_back(*onNode);																					
 																										}
-#line 2863 "y.tab.c" /* yacc.c:1646  */
+#line 2860 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 123:
 #line 909 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "UNDERSCORE NUM" << endl;
-																											Node offUsNode(OFF_US, "");
-																											Node us(US, "");
+																											Node* offUsNode = new Node(OFF_US, "");
+																											Node* us = new Node(US, "");
 																											numberFct((yyvsp[0].tokens));
-																											Node numNode(NUMBER, number);
-																											us.addNode(&numNode);
-																											list.push_back(offUsNode);
-																											list.push_back(us);
+																											Node* numNode = new Node(NUMBER, number);
+																											us->addNode(numNode);
+																											list.push_back(*offUsNode);
+																											list.push_back(*us);
 																										}
-#line 2878 "y.tab.c" /* yacc.c:1646  */
+#line 2875 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 124:
 #line 919 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "UNDERSCORE NUM" << endl;
-																											Node offUsNode(OFF_US, "");
-																											Node us(US, "");
+																											Node* offUsNode = new Node(OFF_US, "");
+																											Node* us = new Node(US, "");
 																											numberFct((yyvsp[-1].tokens));
-																											Node numNode(NUMBER, number);
-																											us.addNode(&numNode);
-																											list.push_back(offUsNode);
-																											list.push_back(us);
+																											Node* numNode = new Node(NUMBER, number);
+																											us->addNode(numNode);
+																											list.push_back(*offUsNode);
+																											list.push_back(*us);
 																										}
-#line 2893 "y.tab.c" /* yacc.c:1646  */
+#line 2890 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 125:
 #line 929 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "UNDERSCORE OFF" << endl;
-																											Node offUsNode(OFF_US, "");
-																											list.push_back(offUsNode);	
+																											Node* offUsNode = new Node(OFF_US, "");
+																											list.push_back(*offUsNode);	
 																										}
-#line 2903 "y.tab.c" /* yacc.c:1646  */
+#line 2900 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 126:
 #line 934 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "SE" << endl;
-																											Node seNode(SE, "");
-																											Node identNode(STRINGLITERAL, (yyvsp[-3].tokens));
-																											Node equalNode(CHARACTER, (yyvsp[-2].tokens));
-																											Node valueNode(VALUE, "");
-																											Node stringLiteralNode(STRINGLITERAL, (yyvsp[-1].tokens));
-																											list.push_back(seNode);
-																											list.push_back(identNode);
-																											list.push_back(equalNode);
-																											list.push_back(valueNode);
-																											list.push_back(stringLiteralNode);
+																											Node* seNode = new Node(SE, "");
+																											Node* identNode = new Node(STRINGLITERAL, (yyvsp[-3].tokens));
+																											Node* equalNode = new Node(CHARACTER, (yyvsp[-2].tokens));
+																											Node* valueNode = new Node(VALUE, "");
+																											Node* stringLiteralNode = new Node(STRINGLITERAL, (yyvsp[-1].tokens));
+																											list.push_back(*seNode);
+																											list.push_back(*identNode);
+																											list.push_back(*equalNode);
+																											list.push_back(*valueNode);
+																											list.push_back(*stringLiteralNode);
 																										}
-#line 2921 "y.tab.c" /* yacc.c:1646  */
+#line 2918 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 127:
@@ -2941,79 +2938,79 @@ yyreduce:
 																											list.push_back(*valueNode);
 																											list.push_back(*substrNode);
 																										}
-#line 2945 "y.tab.c" /* yacc.c:1646  */
+#line 2942 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 128:
 #line 966 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "SE" << endl;
-																											Node seNode(SE, "");
-																											Node identNode(STRINGLITERAL, (yyvsp[-3].tokens));
-																											Node equalNode(CHARACTER, (yyvsp[-2].tokens));
-																											Node variable(STRINGVARIABLE, "");
+																											Node* seNode = new Node(SE, "");
+																											Node* identNode = new Node(STRINGLITERAL, (yyvsp[-3].tokens));
+																											Node* equalNode = new Node(CHARACTER, (yyvsp[-2].tokens));
+																											Node* variable = new Node(STRINGVARIABLE, "");
 																											varName((yyvsp[-1].tokens));
-																							    			Node varName0(NAME, var);
-																											list.push_back(seNode);
-																											list.push_back(identNode);
-																											list.push_back(equalNode);
-																											list.push_back(variable);
-																											list.push_back(varName0);
+																							    			Node* varName0 = new Node(NAME, var);
+																											list.push_back(*seNode);
+																											list.push_back(*identNode);
+																											list.push_back(*equalNode);
+																											list.push_back(*variable);
+																											list.push_back(*varName0);
 																										}
-#line 2964 "y.tab.c" /* yacc.c:1646  */
+#line 2961 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 129:
 #line 980 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "SE" << endl;
-																											Node seNode(SE, "");
-																											Node identNode(STRINGLITERAL, (yyvsp[-3].tokens));
-																											Node equalNode(CHARACTER, (yyvsp[-2].tokens));
+																											Node* seNode = new Node(SE, "");
+																											Node* identNode = new Node(STRINGLITERAL, (yyvsp[-3].tokens));
+																											Node* equalNode = new Node(CHARACTER, (yyvsp[-2].tokens));
 																											numberFct((yyvsp[-1].tokens));
-																											Node valueNode(VALUE, "");
-																											Node numberNode(NUMBER, number);
-																											list.push_back(seNode);
-																											list.push_back(identNode);
-																											list.push_back(equalNode);
-																											list.push_back(valueNode);
-																											list.push_back(numberNode);
+																											Node* valueNode = new Node(VALUE, "");
+																											Node* numberNode = new Node(NUMBER, number);
+																											list.push_back(*seNode);
+																											list.push_back(*identNode);
+																											list.push_back(*equalNode);
+																											list.push_back(*valueNode);
+																											list.push_back(*numberNode);
 																										}
-#line 2983 "y.tab.c" /* yacc.c:1646  */
+#line 2980 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 130:
 #line 994 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "SE" << endl;
-																											Node seNode(SE, "");
-																											Node identNode(STRINGLITERAL, (yyvsp[-3].tokens));
-																											Node equalNode(CHARACTER, (yyvsp[-2].tokens));
+																											Node* seNode = new Node(SE, "");
+																											Node* identNode = new Node(STRINGLITERAL, (yyvsp[-3].tokens));
+																											Node* equalNode = new Node(CHARACTER, (yyvsp[-2].tokens));
 																											numberFct((yyvsp[-1].tokens));
-																											Node valueNode(VALUE, "");
-																											Node numberNode(NUMBER, number);
-																											list.push_back(seNode);
-																											list.push_back(identNode);
-																											list.push_back(equalNode);
-																											list.push_back(valueNode);
-																											list.push_back(numberNode);
+																											Node* valueNode = new Node(VALUE, "");
+																											Node* numberNode = new Node(NUMBER, number);
+																											list.push_back(*seNode);
+																											list.push_back(*identNode);
+																											list.push_back(*equalNode);
+																											list.push_back(*valueNode);
+																											list.push_back(*numberNode);
 																										}
-#line 3002 "y.tab.c" /* yacc.c:1646  */
+#line 2999 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 131:
 #line 1008 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "SE" << endl;
-																											Node seNode(SE, "");
-																											Node identNode(STRINGLITERAL, (yyvsp[-2].tokens));
-																											Node equalNode(CHARACTER, (yyvsp[-1].tokens));
-																											list.push_back(seNode);
-																											list.push_back(identNode);
-																											list.push_back(equalNode);
+																											Node* seNode = new Node(SE, "");
+																											Node* identNode = new Node(STRINGLITERAL, (yyvsp[-2].tokens));
+																											Node* equalNode  = new Node(CHARACTER, (yyvsp[-1].tokens));
+																											list.push_back(*seNode);
+																											list.push_back(*identNode);
+																											list.push_back(*equalNode);
 																											
 																										}
-#line 3017 "y.tab.c" /* yacc.c:1646  */
+#line 3014 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 132:
@@ -3031,7 +3028,7 @@ yyreduce:
 																											list.push_back(*valueNode);
 																											list.push_back(*valueDataNode);
 																										}
-#line 3035 "y.tab.c" /* yacc.c:1646  */
+#line 3032 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 133:
@@ -3043,7 +3040,7 @@ yyreduce:
 																											list.push_back(*ceNode);
 																											list.push_back(*ceOnNode);
 																										}
-#line 3047 "y.tab.c" /* yacc.c:1646  */
+#line 3044 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 134:
@@ -3058,7 +3055,7 @@ yyreduce:
 																											list.push_back(*ceNode);
 																											list.push_back(*ceVarNode);
 																										}
-#line 3062 "y.tab.c" /* yacc.c:1646  */
+#line 3059 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 135:
@@ -3070,17 +3067,17 @@ yyreduce:
 																											list.push_back(*ceNode);
 																											list.push_back(*ceIdentNode);	
 																										}
-#line 3074 "y.tab.c" /* yacc.c:1646  */
+#line 3071 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 136:
 #line 1056 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "CE OFF" << endl;
-																											Node ceOffNode(OFF_CE, "");
-																											list.push_back(ceOffNode);
+																											Node* ceOffNode = new Node(OFF_CE, "");
+																											list.push_back(*ceOffNode);
 																										}
-#line 3084 "y.tab.c" /* yacc.c:1646  */
+#line 3081 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 137:
@@ -3096,103 +3093,103 @@ yyreduce:
 																											list.push_back(*ceIdentNode2);
 																											list.push_back(*ceIdentNode3);																											
 																										}
-#line 3100 "y.tab.c" /* yacc.c:1646  */
+#line 3097 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 138:
 #line 1073 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "SU" << endl;
-																											Node suNode(SU, "");
-																											Node suOnNode(ON, "");
-																											list.push_back(suNode);
-																											list.push_back(suOnNode);
+																											Node* suNode = new Node(SU, "");
+																											Node* suOnNode = new Node(ON, "");
+																											list.push_back(*suNode);
+																											list.push_back(*suOnNode);
 																										}
-#line 3112 "y.tab.c" /* yacc.c:1646  */
+#line 3109 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 139:
 #line 1080 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "SU OFF" << endl;
-																											Node suOffNode(OFF_SU, "");
-																											list.push_back(suOffNode);
+																											Node* suOffNode = new Node(OFF_SU, "");
+																											list.push_back(*suOffNode);
 																										}
-#line 3122 "y.tab.c" /* yacc.c:1646  */
+#line 3119 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 141:
 #line 1087 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "DM" << endl;
-																											Node dmNode(DM, "");
-																											Node dmIdentNode(IDENTIFIER, "");
-																											Node dmOnNode(ON, "");
-																											list.push_back(dmNode);
-																											list.push_back(dmIdentNode);
-																											list.push_back(dmOnNode);
+																											Node* dmNode = new Node(DM, "");
+																											Node* dmIdentNode = new Node(IDENTIFIER, "");
+																											Node* dmOnNode = new Node(ON, "");
+																											list.push_back(*dmNode);
+																											list.push_back(*dmIdentNode);
+																											list.push_back(*dmOnNode);
 																										}
-#line 3136 "y.tab.c" /* yacc.c:1646  */
+#line 3133 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 142:
 #line 1096 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "DM OFF" << endl;
-																											Node dmOffNode(OFF_DM, "");
-																											list.push_back(dmOffNode);
+																											Node* dmOffNode = new Node(OFF_DM, "");
+																											list.push_back(*dmOffNode);
 																										}
-#line 3146 "y.tab.c" /* yacc.c:1646  */
+#line 3143 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 143:
 #line 1102 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "KP ON" << endl;
-																											Node kpNode(KP, "");
-																											Node kponNode(ON, "");
-																											list.push_back(kpNode);
-																											list.push_back(kponNode);
+																											Node* kpNode = new Node(KP, "");
+																											Node* kponNode = new Node(ON, "");
+																											list.push_back(*kpNode);
+																											list.push_back(*kponNode);
 																										}
-#line 3158 "y.tab.c" /* yacc.c:1646  */
+#line 3155 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 144:
 #line 1109 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "KP OFF" << endl;
-																											Node kpoffNode(OFF_KP, "");
-																											list.push_back(kpoffNode);
+																											Node* kpoffNode = new Node(OFF_KP, "");
+																											list.push_back(*kpoffNode);
 			;																							}
-#line 3168 "y.tab.c" /* yacc.c:1646  */
+#line 3165 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 145:
 #line 1114 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "CT" << endl;
-																											Node ctNode(CT, "");
-																											list.push_back(ctNode);
+																											Node* ctNode = new Node(CT, "");
+																											list.push_back(*ctNode);
 																											
 																										}
-#line 3179 "y.tab.c" /* yacc.c:1646  */
+#line 3176 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 150:
 #line 1127 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "DA" << endl;
-																											Node daNode(AREADEFINITION, "");
-																											Node daNameNode(NAME, (yyvsp[-7].tokens));
+																											Node* daNode = new Node(AREADEFINITION, "");
+																											Node* daNameNode = new Node(NAME, (yyvsp[-7].tokens));
 																											
 																											numberFct((yyvsp[-6].tokens));
-																											Node daxNode(NUMBER, number);
+																											Node* daxNode = new Node(NUMBER, number);
 
 																											numberFct((yyvsp[-5].tokens));
-																											Node dayNode(NUMBER, number);
+																											Node* dayNode = new Node(NUMBER, number);
 
 																											numberFct((yyvsp[-3].tokens));
-																											Node daWidthNode(NUMBER, number);
+																											Node* daWidthNode = new Node(NUMBER, number);
 
 																											string s = (yyvsp[-2].tokens);
 																											Node* daOptionalNode;
@@ -3205,81 +3202,81 @@ yyreduce:
 																												daOptionalNode = new Node(DEPTH, "");;
 																											}
 																											numberFct((yyvsp[-1].tokens));
-																											Node daRotateNumberNode(NUMBER, number);
+																											Node* daRotateNumberNode = new Node(NUMBER, number);
 
-																											list.push_back(daNode);
-																											list.push_back(daNameNode);
-																											list.push_back(daxNode);
-																											list.push_back(dayNode);
-																											list.push_back(daWidthNode);
+																											list.push_back(*daNode);
+																											list.push_back(*daNameNode);
+																											list.push_back(*daxNode);
+																											list.push_back(*dayNode);
+																											list.push_back(*daWidthNode);
 																											list.push_back(*daOptionalNode);
-																											list.push_back(daRotateNumberNode);
+																											list.push_back(*daRotateNumberNode);
 																										}
-#line 3219 "y.tab.c" /* yacc.c:1646  */
+#line 3216 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 151:
 #line 1162 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "DA" << endl;
-																											Node daNode(AREADEFINITION, "");
-																											Node daNameNode(NAME, (yyvsp[-5].tokens));
+																											Node* daNode = new Node(AREADEFINITION, "");
+																											Node* daNameNode = new Node(NAME, (yyvsp[-5].tokens));
 																											
 																											numberFct((yyvsp[-4].tokens));
-																											Node daxNode(NUMBER, number);
+																											Node* daxNode = new Node(NUMBER, number);
 
 																											numberFct((yyvsp[-3].tokens));
-																											Node dayNode(NUMBER, number);
+																											Node* dayNode = new Node(NUMBER, number);
 
 																											numberFct((yyvsp[-1].tokens));
-																											Node daWidthNode(NUMBER, number);
+																											Node* daWidthNode = new Node(NUMBER, number);
 
-																											list.push_back(daNode);
-																											list.push_back(daNameNode);
-																											list.push_back(daxNode);
-																											list.push_back(dayNode);
-																											list.push_back(daWidthNode);
+																											list.push_back(*daNode);
+																											list.push_back(*daNameNode);
+																											list.push_back(*daxNode);
+																											list.push_back(*dayNode);
+																											list.push_back(*daWidthNode);
 																										}
-#line 3244 "y.tab.c" /* yacc.c:1646  */
+#line 3241 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 152:
 #line 1182 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "DA" << endl;
-																											Node daNode(AREADEFINITION, "");
-																											Node daNameNode(NAME, (yyvsp[-3].tokens));
+																											Node* daNode = new Node(AREADEFINITION, "");
+																											Node* daNameNode = new Node(NAME, (yyvsp[-3].tokens));
 																											
 																											numberFct((yyvsp[-2].tokens));
-																											Node daxNode(NUMBER, number);
+																											Node* daxNode = new Node(NUMBER, number);
 
 																											numberFct((yyvsp[-1].tokens));
-																											Node dayNode(NUMBER, number);
+																											Node* dayNode = new Node(NUMBER, number);
 																											
-																											list.push_back(daNode);
-																											list.push_back(daNameNode);
-																											list.push_back(daxNode);
-																											list.push_back(dayNode);
+																											list.push_back(*daNode);
+																											list.push_back(*daNameNode);
+																											list.push_back(*daxNode);
+																											list.push_back(*dayNode);
 																											
 																										}
-#line 3266 "y.tab.c" /* yacc.c:1646  */
+#line 3263 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 153:
 #line 1200 "compiler.y" /* yacc.c:1646  */
     {
 																											styleSize((yyvsp[0].tokens));
-																											Node tpSizeNode(NUMBER, size);
-																											list.push_back(tpSizeNode);
+																											Node* tpSizeNode = new Node(NUMBER, size);
+																											list.push_back(*tpSizeNode);
 																										}
-#line 3276 "y.tab.c" /* yacc.c:1646  */
+#line 3273 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 154:
 #line 1205 "compiler.y" /* yacc.c:1646  */
     {
 																											styleSize((yyvsp[-1].tokens));
-																											Node tpSizeNode(NUMBER, size);
+																											Node* tpSizeNode = new Node(NUMBER, size);
 																											
 																											Node* dirNode;
 																											
@@ -3292,19 +3289,19 @@ yyreduce:
 																												dirNode = new Node(RIGHT, "");
 																											}
 
-																											tpSizeNode.addNode(dirNode);
-																											list.push_back(tpSizeNode);
+																											tpSizeNode->addNode(dirNode);
+																											list.push_back(*tpSizeNode);
 																										}
-#line 3299 "y.tab.c" /* yacc.c:1646  */
+#line 3296 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 156:
 #line 1224 "compiler.y" /* yacc.c:1646  */
     {
-																											Node newlineNode(NEWLINE, "");
-																											list.push_back(newlineNode);
+																											Node* newlineNode = new Node(NEWLINE, "");
+																											list.push_back(*newlineNode);
 																										}
-#line 3308 "y.tab.c" /* yacc.c:1646  */
+#line 3305 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 157:
@@ -3318,17 +3315,17 @@ yyreduce:
 																											list.push_back(*areaIdent);
 																											list.push_back(*areaOn);
 																										}
-#line 3322 "y.tab.c" /* yacc.c:1646  */
+#line 3319 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 158:
 #line 1238 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "AR" << endl;
-																											Node areaOff(OFF_AREA, "");
-																											list.push_back(areaOff);
+																											Node* areaOff = new Node(OFF_AREA, "");
+																											list.push_back(*areaOff);
 																										}
-#line 3332 "y.tab.c" /* yacc.c:1646  */
+#line 3329 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 159:
@@ -3338,65 +3335,65 @@ yyreduce:
 																											styleName((yyvsp[-2].tokens));
 																											styleSize((yyvsp[-2].tokens));
 																											if(strlen(size)>0){
-																												Node fontName(NAME, name);
-																												Node font(FONT, "");
-																												Node fontSize(NUMBER, size);
-																												list.push_back(font);
-																												list.push_back(fontName);
-																												list.push_back(fontSize);
+																												Node* fontName = new Node(NAME, name);
+																												Node* font = new Node(FONT, "");
+																												Node* fontSize = new Node(NUMBER, size);
+																												list.push_back(*font);
+																												list.push_back(*fontName);
+																												list.push_back(*fontSize);
 																											}
 
 																											styleName((yyvsp[-1].tokens));
-																											Node fontType(TYPE, "bold");
-																											list.push_back(fontType);
+																											Node* fontType = new Node(TYPE, "bold");
+																											list.push_back(*fontType);
 
 																										}
-#line 3355 "y.tab.c" /* yacc.c:1646  */
+#line 3352 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 160:
 #line 1261 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "VARIABLE" << endl;
-																											Node variable(STRINGVARIABLE, "");
+																											Node* variable = new Node(STRINGVARIABLE, "");
 
 																											varName((yyvsp[-3].tokens));
-																											Node varName1(NAME, var);
+																											Node* varName1 = new Node(NAME, var);
 
-																											Node variable2(STRINGVARIABLE, "");
+																											Node* variable2 = new Node(STRINGVARIABLE, "");
 
 																											varName((yyvsp[-1].tokens));
-																											Node varName2(NAME, var);
+																											Node* varName2 = new Node(NAME, var);
 
-																											list.push_back(variable);
-																											list.push_back(varName1);
-																											list.push_back(variable2);
-																											list.push_back(varName2);
+																											list.push_back(*variable);
+																											list.push_back(*varName1);
+																											list.push_back(*variable2);
+																											list.push_back(*varName2);
 
 																										}
-#line 3378 "y.tab.c" /* yacc.c:1646  */
+#line 3375 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 161:
 #line 1279 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "VARIABLE" << endl;
-																											Node variable(STRINGVARIABLE, "");
+																											Node* variable = new Node (STRINGVARIABLE, "");
 
 																											varName((yyvsp[-1].tokens));
-																											Node variableName(NAME, var);
+																											Node* variableName = new Node(NAME, var);
 
-																											list.push_back(variable);
-																											list.push_back(variableName);
+																											list.push_back(*variable);
+																											list.push_back(*variableName);
 																										}
-#line 3393 "y.tab.c" /* yacc.c:1646  */
+#line 3390 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 164:
 #line 1292 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "FO" << endl;
-																											Node foNode(FO, "");
+																											Node* foNode = new Node(FO, "");
 
 																											Node* dirNode;
 																											
@@ -3409,48 +3406,48 @@ yyreduce:
 																												dirNode = new Node(RIGHT, "");
 																											}
 
-																											foNode.addNode(dirNode);
-																											list.push_back(foNode);
+																											foNode->addNode(dirNode);
+																											list.push_back(*foNode);
 																										}
-#line 3416 "y.tab.c" /* yacc.c:1646  */
+#line 3413 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 165:
 #line 1310 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "FO" << endl;				
-																											Node foNode(FO, "");
-																											Node onNode(ON, "");
+																											Node* foNode = new Node(FO, "");
+																											Node* onNode = new Node(ON, "");
 																											
-																											foNode.addNode(&onNode);
-																											list.push_back(foNode);
+																											foNode->addNode(onNode);
+																											list.push_back(*foNode);
 																										}
-#line 3429 "y.tab.c" /* yacc.c:1646  */
+#line 3426 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 166:
 #line 1318 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "FO OFF" << endl;				
-																											Node offNode(OFF_FO, "");																											
-																											list.push_back(offNode);
+																											Node* offNode = new Node(OFF_FO, "");																											
+																											list.push_back(*offNode);
 																										}
-#line 3439 "y.tab.c" /* yacc.c:1646  */
+#line 3436 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 167:
 #line 1324 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "TI" << endl;
-																											Node tiNode(TI, "");
-																											Node charNode(CHARACTER, (yyvsp[-2].tokens));
-																										    Node numNode(NUMBER, (yyvsp[-1].tokens));
+																											Node* tiNode = new Node(TI, "");
+																											Node* charNode = new Node(CHARACTER, (yyvsp[-2].tokens));
+																										    Node* numNode = new Node(NUMBER, (yyvsp[-1].tokens));
 																											
-																											list.push_back(tiNode);
-																											list.push_back(charNode);
-																											list.push_back(numNode);
+																											list.push_back(*tiNode);
+																											list.push_back(*charNode);
+																											list.push_back(*numNode);
 																										}
-#line 3454 "y.tab.c" /* yacc.c:1646  */
+#line 3451 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 168:
@@ -3458,7 +3455,7 @@ yyreduce:
     {
 																											cout << "NV" << endl;
 																										}
-#line 3462 "y.tab.c" /* yacc.c:1646  */
+#line 3459 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 169:
@@ -3466,7 +3463,7 @@ yyreduce:
     {
 																											cout << "BR_UP" << endl;
 																										}
-#line 3470 "y.tab.c" /* yacc.c:1646  */
+#line 3467 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 170:
@@ -3474,10 +3471,10 @@ yyreduce:
     {
 																											strcpy((yyval.tokens), (yyvsp[-1].tokens)); 
 																											cout << "BR" << endl;
-																											Node linebreak(LINEBREAK, ""); 
-																											list.push_back(linebreak); 
+																											Node* linebreak = new Node(LINEBREAK, ""); 
+																											list.push_back(*linebreak); 
 																										}
-#line 3481 "y.tab.c" /* yacc.c:1646  */
+#line 3478 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 171:
@@ -3485,7 +3482,7 @@ yyreduce:
     {
 																											cout << "NY" << endl;
 																										}
-#line 3489 "y.tab.c" /* yacc.c:1646  */
+#line 3486 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 172:
@@ -3493,7 +3490,7 @@ yyreduce:
     {
 																											cout << "ENY" << endl;
 																										}
-#line 3497 "y.tab.c" /* yacc.c:1646  */
+#line 3494 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 173:
@@ -3502,7 +3499,7 @@ yyreduce:
 																											cout << "COMMENT" << endl;
 																											cout << (yyvsp[-1].tokens) << endl;
 																										}
-#line 3506 "y.tab.c" /* yacc.c:1646  */
+#line 3503 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 174:
@@ -3511,14 +3508,14 @@ yyreduce:
 																											cout << "COMMENT" << endl;
 																											cout << (yyvsp[0].tokens) << endl;
 																										}
-#line 3515 "y.tab.c" /* yacc.c:1646  */
+#line 3512 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 175:
 #line 1367 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "BOX" << endl;
-																											Node box(BOX, "");
+																											Node* box = new Node(BOX, "");
 
 																											Node* dir1Node;
 
@@ -3542,18 +3539,18 @@ yyreduce:
 																												dir2Node = new Node(RIGHT, "");
 																											}
 
-																											box.addNode(dir1Node);
-																											box.addNode(dir2Node);
-																											list.push_back(box);
+																											box->addNode(dir1Node);
+																											box->addNode(dir2Node);
+																											list.push_back(*box);
 																										}
-#line 3550 "y.tab.c" /* yacc.c:1646  */
+#line 3547 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 176:
 #line 1397 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "BOX" << endl;
-																											Node box(BOX, "");
+																											Node* box = new Node(BOX, "");
 																											
 																											numberFct((yyvsp[-1].tokens));
 																											Node* sizeNode = new Node(NUMBER, number);
@@ -3569,35 +3566,35 @@ yyreduce:
 																												dirNode = new Node(RIGHT, "");
 																											}
 
-																											box.addNode(sizeNode);
-																											box.addNode(dirNode);
-																											list.push_back(box);
+																											box->addNode(sizeNode);
+																											box->addNode(dirNode);
+																											list.push_back(*box);
 																										}
-#line 3577 "y.tab.c" /* yacc.c:1646  */
+#line 3574 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 177:
 #line 1419 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "BOX" << endl;
-																											Node box(BOX, "");
+																											Node* box = new Node(BOX, "");
 																											numberFct((yyvsp[-2].tokens));
-																											Node sizeNode(NUMBER, number);
+																											Node* sizeNode = new Node(NUMBER, number);
 																											numberFct((yyvsp[-1].tokens));
-																											Node sizeNode2(NUMBER, number);
+																											Node* sizeNode2 = new Node(NUMBER, number);
 
-																											box.addNode(&sizeNode);
-																											box.addNode(&sizeNode2);
-																											list.push_back(box);
+																											box->addNode(sizeNode);
+																											box->addNode(sizeNode2);
+																											list.push_back(*box);
 																										}
-#line 3594 "y.tab.c" /* yacc.c:1646  */
+#line 3591 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 178:
 #line 1431 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "BOX" << endl;
-																											Node box(BOX, "");
+																											Node* box = new Node(BOX, "");
 																											Node* keyword = new Node(RULE, (yyvsp[-3].tokens));
 
 																											Node* dir1Node;
@@ -3622,19 +3619,19 @@ yyreduce:
 																												dir2Node = new Node(RIGHT, "");
 																											}
 
-																											box.addNode(keyword);
-																											box.addNode(dir1Node);
-																											box.addNode(dir2Node);
-																											list.push_back(box);
+																											box->addNode(keyword);
+																											box->addNode(dir1Node);
+																											box->addNode(dir2Node);
+																											list.push_back(*box);
 																										}
-#line 3631 "y.tab.c" /* yacc.c:1646  */
+#line 3628 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 179:
 #line 1463 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "BOX" << endl;
-																											Node box(BOX, "");
+																											Node* box = new Node(BOX, "");
 																											Node* keyword = new Node(RULE, (yyvsp[-4].tokens));
 
 																											Node* dir1Node;
@@ -3661,20 +3658,20 @@ yyreduce:
 																												dir2Node = new Node(RIGHT, "");
 																											}
 
-																											box.addNode(keyword);
-																											box.addNode(dir1Node);
-																											box.addNode(sizeNode);
-																											box.addNode(dir2Node);
-																											list.push_back(box);
+																											box->addNode(keyword);
+																											box->addNode(dir1Node);
+																											box->addNode(sizeNode);
+																											box->addNode(dir2Node);
+																											list.push_back(*box);
 																										}
-#line 3671 "y.tab.c" /* yacc.c:1646  */
+#line 3668 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 180:
 #line 1498 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "BOX" << endl;
-																											Node box(BOX, "");
+																											Node* box = new Node(BOX, "");
 																											Node* keyword = new Node(RULE, (yyvsp[-5].tokens));
 
 																											Node* dir1Node;
@@ -3704,21 +3701,21 @@ yyreduce:
 																												dir2Node = new Node(RIGHT, "");
 																											}
 
-																											box.addNode(keyword);
-																											box.addNode(dir1Node);
-																											box.addNode(sizeNode);
-																											box.addNode(sizeNode2);																											
-																											box.addNode(dir2Node);
-																											list.push_back(box);
+																											box->addNode(keyword);
+																											box->addNode(dir1Node);
+																											box->addNode(sizeNode);
+																											box->addNode(sizeNode2);																											
+																											box->addNode(dir2Node);
+																											list.push_back(*box);
 																										}
-#line 3715 "y.tab.c" /* yacc.c:1646  */
+#line 3712 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 181:
 #line 1537 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "BOX" << endl;
-																											Node box(BOX, "");
+																											Node* box = new Node(BOX, "");
 
 																											Node* dir1Node;
 
@@ -3731,7 +3728,7 @@ yyreduce:
 																												dir1Node = new Node(RIGHT, "");
 																											}
 																											numberFct((yyvsp[-2].tokens));
-																											Node sizeNode(NUMBER, number);
+																											Node* sizeNode = new Node(NUMBER, number);
 
 																											Node* dir2Node;
 
@@ -3744,12 +3741,12 @@ yyreduce:
 																												dir2Node = new Node(RIGHT, "");
 																											}
 
-																											box.addNode(dir1Node);
-																											box.addNode(&sizeNode);
-																											box.addNode(dir2Node);
-																											list.push_back(box);
+																											box->addNode(dir1Node);
+																											box->addNode(sizeNode);
+																											box->addNode(dir2Node);
+																											list.push_back(*box);
 																										}
-#line 3753 "y.tab.c" /* yacc.c:1646  */
+#line 3750 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 182:
@@ -3758,26 +3755,26 @@ yyreduce:
 																											cout << "BOX" << endl;
 																											if(strcmp((yyvsp[-1].tokens), "can") == 0)
 																											{
-																												Node boxnode(OFF_BOX, "");
-																												list.push_back(boxnode);
+																												Node* boxnode = new Node(OFF_BOX, "");
+																												list.push_back(*boxnode);
 																											}
 																											else
 																											{
-																												Node boxNode(BOX, "");
+																												Node* boxNode = new Node(BOX, "");
 																												Node* boxRule = new Node(RULE, (yyvsp[-1].tokens));
-																												boxNode.addNode(boxRule);
-																												list.push_back(boxNode);
+																												boxNode->addNode(boxRule);
+																												list.push_back(*boxNode);
 																											}
 																											
 																										}
-#line 3774 "y.tab.c" /* yacc.c:1646  */
+#line 3771 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 183:
 #line 1586 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "BOX" << endl;
-																											Node boxNode(BOX, "");
+																											Node* boxNode = new Node(BOX, "");
 																											Node* dirNode;																			
 																											if(strcmp((yyvsp[-2].tokens), "left") == 0)
 																											{
@@ -3788,20 +3785,20 @@ yyreduce:
 																												dirNode = new Node(RIGHT, "");
 																											}
 																											numberFct((yyvsp[-1].tokens));
-																											Node sizeNode(NUMBER, number);
+																											Node* sizeNode = new Node(NUMBER, number);
 
-																											boxNode.addNode(dirNode);
-																											boxNode.addNode(&sizeNode);
-																											list.push_back(boxNode);
+																											boxNode->addNode(dirNode);
+																											boxNode->addNode(sizeNode);
+																											list.push_back(*boxNode);
 																										}
-#line 3798 "y.tab.c" /* yacc.c:1646  */
+#line 3795 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 184:
 #line 1605 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "BOX" << endl;
-																											Node boxNode(BOX, "");
+																											Node* boxNode = new Node(BOX, "");
 																											Node* dirNode;	
 																											if(strcmp((yyvsp[-3].tokens), "left") == 0)
 																											{
@@ -3812,58 +3809,58 @@ yyreduce:
 																												dirNode = new Node(RIGHT, "");
 																											}
 																											numberFct((yyvsp[-2].tokens));
-																											Node sizeNode(NUMBER, number);
+																											Node* sizeNode = new Node(NUMBER, number);
 																											numberFct((yyvsp[-1].tokens));
-																											Node size2Node(NUMBER, number);
+																											Node* size2Node = new Node(NUMBER, number);
 
-																											boxNode.addNode(dirNode);
-																											boxNode.addNode(&sizeNode);
-																											boxNode.addNode(&size2Node);
-																											list.push_back(boxNode);
+																											boxNode->addNode(dirNode);
+																											boxNode->addNode(sizeNode);
+																											boxNode->addNode(size2Node);
+																											list.push_back(*boxNode);
 																										}
-#line 3825 "y.tab.c" /* yacc.c:1646  */
+#line 3822 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 185:
 #line 1627 "compiler.y" /* yacc.c:1646  */
     {
 																											cout << "BOX OFF" << endl;
-																											Node boxOff(OFF_BOX, "");
-																											list.push_back(boxOff);	
+																											Node* boxOff = new Node(OFF_BOX, "");
+																											list.push_back(*boxOff);	
 																										}
-#line 3835 "y.tab.c" /* yacc.c:1646  */
+#line 3832 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 186:
 #line 1632 "compiler.y" /* yacc.c:1646  */
     {
-																											Node boxNode(BOX, "");
+																											Node* boxNode = new Node(BOX, "");
 																											numberFct((yyvsp[-5].tokens));
-																											Node sizeNode(NUMBER, number);
+																											Node* sizeNode = new Node(NUMBER, number);
 																											numberFct((yyvsp[-4].tokens));
-																											Node size2Node(NUMBER, number);
-																											Node slashNode(RULE, (yyvsp[-3].tokens));
+																											Node* size2Node = new Node(NUMBER, number);
+																											Node* slashNode = new Node(RULE, (yyvsp[-3].tokens));
 																											numberFct((yyvsp[-2].tokens));
-																											Node size3Node(NUMBER, number);
+																											Node* size3Node = new Node(NUMBER, number);
 																											numberFct((yyvsp[-1].tokens));
-																											Node size4Node(NUMBER, number);
+																											Node* size4Node = new Node(NUMBER, number);
 																											
 																											
-																											boxNode.addNode(&sizeNode);
-																											boxNode.addNode(&size2Node);
-																											boxNode.addNode(&slashNode);
-																											boxNode.addNode(&size3Node);
-																											boxNode.addNode(&size4Node);
-																											list.push_back(boxNode);
+																											boxNode->addNode(sizeNode);
+																											boxNode->addNode(size2Node);
+																											boxNode->addNode(slashNode);
+																											boxNode->addNode(size3Node);
+																											boxNode->addNode(size4Node);
+																											list.push_back(*boxNode);
 
 																										}
-#line 3861 "y.tab.c" /* yacc.c:1646  */
+#line 3858 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 187:
 #line 1653 "compiler.y" /* yacc.c:1646  */
     {
-																											Node boxNode(BOX, "");
+																											Node* boxNode = new Node(BOX, "");
 																											Node* IDENTNode = new Node(RULE, (yyvsp[-6].tokens));
 																											numberFct((yyvsp[-5].tokens));
 																											Node* sizeNode = new Node(NUMBER, number);
@@ -3875,22 +3872,22 @@ yyreduce:
 																											numberFct((yyvsp[-1].tokens));
 																											Node* size4Node = new Node(NUMBER, number);
 																											
-																											boxNode.addNode(IDENTNode);
-																											boxNode.addNode(sizeNode);
-																											boxNode.addNode(size2Node);
-																											boxNode.addNode(slashNode);
-																											boxNode.addNode(size3Node);
-																											boxNode.addNode(size4Node);
-																											list.push_back(boxNode);
+																											boxNode->addNode(IDENTNode);
+																											boxNode->addNode(sizeNode);
+																											boxNode->addNode(size2Node);
+																											boxNode->addNode(slashNode);
+																											boxNode->addNode(size3Node);
+																											boxNode->addNode(size4Node);
+																											list.push_back(*boxNode);
 
 																										}
-#line 3888 "y.tab.c" /* yacc.c:1646  */
+#line 3885 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 188:
 #line 1675 "compiler.y" /* yacc.c:1646  */
     {
-																															Node boxNode(BOX, "");
+																															Node* boxNode = new Node(BOX, "");
 																															Node* dirNode;	
 																															if(strcmp((yyvsp[-11].tokens), "left") == 0)
 																															{
@@ -3901,29 +3898,29 @@ yyreduce:
 																																dirNode = new Node(RIGHT, "");
 																															}
 																															numberFct((yyvsp[-10].tokens));
-																															Node sizeNode(NUMBER, number);
-																															Node slashNode(RULE, (yyvsp[-9].tokens));
+																															Node* sizeNode = new Node(NUMBER, number);
+																															Node* slashNode = new Node(RULE, (yyvsp[-9].tokens));
 																															numberFct((yyvsp[-8].tokens));
-																															Node size2Node(NUMBER, number);
+																															Node* size2Node = new Node(NUMBER, number);
 																															numberFct((yyvsp[-7].tokens));
-																															Node size3Node(NUMBER, number);
-																															Node slash2Node(RULE, (yyvsp[-6].tokens));
+																															Node* size3Node = new Node(NUMBER, number);
+																															Node* slash2Node = new Node(RULE, (yyvsp[-6].tokens));
 																															numberFct((yyvsp[-5].tokens));
-																															Node size4Node(NUMBER, number);
+																															Node* size4Node = new Node(NUMBER, number);
 																															numberFct((yyvsp[-4].tokens));
-																															Node size5Node(NUMBER, number);
-																															Node slash3Node(RULE, (yyvsp[-3].tokens));
+																															Node* size5Node = new Node(NUMBER, number);
+																															Node* slash3Node = new Node(RULE, (yyvsp[-3].tokens));
 																														
 																															
-																															boxNode.addNode(dirNode);
-																															boxNode.addNode(&sizeNode);
-																															boxNode.addNode(&slashNode);
-																															boxNode.addNode(&size2Node);
-																															boxNode.addNode(&size3Node);
-																															boxNode.addNode(&slash2Node);
-																															boxNode.addNode(&size4Node);
-																															boxNode.addNode(&size5Node);
-																															boxNode.addNode(&slash3Node);
+																															boxNode->addNode(dirNode);
+																															boxNode->addNode(sizeNode);
+																															boxNode->addNode(slashNode);
+																															boxNode->addNode(size2Node);
+																															boxNode->addNode(size3Node);
+																															boxNode->addNode(slash2Node);
+																															boxNode->addNode(size4Node);
+																															boxNode->addNode(size5Node);
+																															boxNode->addNode(slash3Node);
 
 
 
@@ -3931,18 +3928,18 @@ yyreduce:
 																															Node* size6Node = new Node (NUMBER, number);
 																															numberFct((yyvsp[-1].tokens));
 																															Node* size7Node = new Node (NUMBER, number);
-																															boxNode.addNode(size6Node);
-																															boxNode.addNode(size7Node);
-																															list.push_back(boxNode);
+																															boxNode->addNode(size6Node);
+																															boxNode->addNode(size7Node);
+																															list.push_back(*boxNode);
 
 																														}
-#line 3940 "y.tab.c" /* yacc.c:1646  */
+#line 3937 "y.tab.c" /* yacc.c:1646  */
     break;
 
   case 189:
 #line 1722 "compiler.y" /* yacc.c:1646  */
     {
-																															Node boxNode(BOX, "");
+																															Node* boxNode = new Node(BOX, "");
 																															Node* keyword1 = new Node(RULE, (yyvsp[-7].tokens));
 																															Node* keyword2 = new Node(RULE, (yyvsp[-6].tokens));
 																															
@@ -3971,20 +3968,20 @@ yyreduce:
 																															{
 																																dirNode2 = new Node(RIGHT, "");
 																															}
-																															boxNode.addNode(keyword1);
-																															boxNode.addNode(keyword2);
-																															boxNode.addNode(dirNode);
-																															boxNode.addNode(keyword3);
-																															boxNode.addNode(sizeNode);
-																															boxNode.addNode(keyword4);
-																															boxNode.addNode(dirNode2);																															
-																															list.push_back(boxNode);
+																															boxNode->addNode(keyword1);
+																															boxNode->addNode(keyword2);
+																															boxNode->addNode(dirNode);
+																															boxNode->addNode(keyword3);
+																															boxNode->addNode(sizeNode);
+																															boxNode->addNode(keyword4);
+																															boxNode->addNode(dirNode2);																															
+																															list.push_back(*boxNode);
 																														}
-#line 3984 "y.tab.c" /* yacc.c:1646  */
+#line 3981 "y.tab.c" /* yacc.c:1646  */
     break;
 
 
-#line 3988 "y.tab.c" /* yacc.c:1646  */
+#line 3985 "y.tab.c" /* yacc.c:1646  */
       default: break;
     }
   /* User semantic actions sometimes alter yychar, and that requires

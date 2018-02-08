@@ -31,7 +31,7 @@ function parseFile(i)
         if (err) {
             
             console.log("I am here");
-            if(stdout.match("Missing OFF node")){
+            if(stdout.match("Missing OFF node") || stderr.match("Missing OFF node")){
                 nr++;
                 if(stdout.match("ERROR: BOX")){
                     fs.appendFile('LTD/'+files[i], '.bx off\n', function (err) {

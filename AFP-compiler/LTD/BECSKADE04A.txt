@@ -383,3 +383,5 @@ driver erhvervsvirksomhed med køb og salg af køretøjer).
 .ar off
 .************************************************************************
 :SKRSLUT.
+.su off
+.ar off
