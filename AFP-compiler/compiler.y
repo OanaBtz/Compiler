@@ -1364,400 +1364,433 @@ COMMENT		:	COMMENT_T NEW_LINE_T																	{
 																											cout << $1 << endl;
 																										}
 			;
-BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
-																											cout << "BOX" << endl;
-																											Node* box = new Node(BOX, "");
-
-																											Node* dir1Node;
-
-																											if(strcmp($2, "left") == 0)
-																											{
-																												dir1Node = new Node(LEFT, "");
-																											}
-																											else
-																											{
-																												dir1Node = new Node(RIGHT, "");
-																											}
-
-																											Node* dir2Node;
-
-																											if(strcmp($3, "left") == 0)
-																											{
-																												dir2Node = new Node(LEFT, "");
-																											}
-																											else
-																											{
-																												dir2Node = new Node(RIGHT, "");
-																											}
-
-																											box->addNode(dir1Node);
-																											box->addNode(dir2Node);
-																											list.push_back(*box);
-																										}
-			|	BX_T SIZE_T DIRECTION_T NEW_LINE_T														{
-																											cout << "BOX" << endl;
-																											Node* box = new Node(BOX, "");
-																											
-																											numberFct($3);
-																											Node* sizeNode = new Node(NUMBER, number);
-
-																											Node* dirNode;
-
-																											if(strcmp($2, "left") == 0)
-																											{
-																												dirNode = new Node(LEFT, "");
-																											}
-																											else
-																											{
-																												dirNode = new Node(RIGHT, "");
-																											}
-
-																											box->addNode(sizeNode);
-																											box->addNode(dirNode);
-																											list.push_back(*box);
-																										}
-			|	BX_T SIZE_T SIZE_T NEW_LINE_T															{
-																											cout << "BOX" << endl;
-																											Node* box = new Node(BOX, "");
-																											numberFct($2);
-																											Node* sizeNode = new Node(NUMBER, number);
-																											numberFct($3);
-																											Node* sizeNode2 = new Node(NUMBER, number);
-
-																											box->addNode(sizeNode);
-																											box->addNode(sizeNode2);
-																											list.push_back(*box);
-																										}
-			| 	BX_T IDENT_T DIRECTION_T DIRECTION_T NEW_LINE_T											{
-																											cout << "BOX" << endl;
-																											Node* box = new Node(BOX, "");
-																											Node* keyword = new Node(RULE, $2);
-
-																											Node* dir1Node;
-
-																											if(strcmp($3, "left") == 0)
-																											{
-																												dir1Node = new Node(LEFT, "");
-																											}
-																											else
-																											{
-																												dir1Node = new Node(RIGHT, "");
-																											}
-
-																											Node* dir2Node;
-
-																											if(strcmp($4, "left") == 0)
-																											{
-																												dir2Node = new Node(LEFT, "");
-																											}
-																											else
-																											{
-																												dir2Node = new Node(RIGHT, "");
-																											}
-
-																											box->addNode(keyword);
-																											box->addNode(dir1Node);
-																											box->addNode(dir2Node);
-																											list.push_back(*box);
-																										}
-			|	BX_T IDENT_T DIRECTION_T SIZE_T DIRECTION_T NEW_LINE_T									{
-																											cout << "BOX" << endl;
-																											Node* box = new Node(BOX, "");
-																											Node* keyword = new Node(RULE, $2);
-
-																											Node* dir1Node;
-
-																											if(strcmp($3, "left") == 0)
-																											{
-																												dir1Node = new Node(LEFT, "");
-																											}
-																											else
-																											{
-																												dir1Node = new Node(RIGHT, "");
-																											}
-																											numberFct($4);
-																											Node* sizeNode = new Node(NUMBER, number);
-
-																											Node* dir2Node;
-
-																											if(strcmp($5, "left") == 0)
-																											{
-																												dir2Node = new Node(LEFT, "");
-																											}
-																											else
-																											{
-																												dir2Node = new Node(RIGHT, "");
-																											}
-
-																											box->addNode(keyword);
-																											box->addNode(dir1Node);
-																											box->addNode(sizeNode);
-																											box->addNode(dir2Node);
-																											list.push_back(*box);
-																										}
-			|	BX_T IDENT_T DIRECTION_T SIZE_T SIZE_T DIRECTION_T NEW_LINE_T							{
-																											cout << "BOX" << endl;
-																											Node* box = new Node(BOX, "");
-																											Node* keyword = new Node(RULE, $2);
-
-																											Node* dir1Node;
-
-																											if(strcmp($3, "left") == 0)
-																											{
-																												dir1Node = new Node(LEFT, "");
-																											}
-																											else
-																											{
-																												dir1Node = new Node(RIGHT, "");
-																											}
-																											numberFct($4);
-																											Node* sizeNode = new Node(NUMBER, number);
-
-																											numberFct($5);
-																											Node* sizeNode2 = new Node(NUMBER, number);
-
-																											Node* dir2Node;
-
-																											if(strcmp($6, "left") == 0)
-																											{
-																												dir2Node = new Node(LEFT, "");
-																											}
-																											else
-																											{
-																												dir2Node = new Node(RIGHT, "");
-																											}
-
-																											box->addNode(keyword);
-																											box->addNode(dir1Node);
-																											box->addNode(sizeNode);
-																											box->addNode(sizeNode2);																											
-																											box->addNode(dir2Node);
-																											list.push_back(*box);
-																										}
-			|	BX_T DIRECTION_T SIZE_T DIRECTION_T NEW_LINE_T											{
-																											cout << "BOX" << endl;
-																											Node* box = new Node(BOX, "");
-
-																											Node* dir1Node;
-
-																											if(strcmp($2, "left") == 0)
-																											{
-																												dir1Node = new Node(LEFT, "");
-																											}
-																											else
-																											{
-																												dir1Node = new Node(RIGHT, "");
-																											}
-																											numberFct($3);
-																											Node* sizeNode = new Node(NUMBER, number);
-
-																											Node* dir2Node;
-
-																											if(strcmp($4, "left") == 0)
-																											{
-																												dir2Node = new Node(LEFT, "");
-																											}
-																											else
-																											{
-																												dir2Node = new Node(RIGHT, "");
-																											}
-
-																											box->addNode(dir1Node);
-																											box->addNode(sizeNode);
-																											box->addNode(dir2Node);
-																											list.push_back(*box);
-																										}
-			|	BX_T IDENT_T NEW_LINE_T																	{
-																											cout << "BOX" << endl;
-																											if(strcmp($2, "can") == 0)
-																											{
-																												Node* boxnode = new Node(OFF_BOX, "");
-																												list.push_back(*boxnode);
-																											}
-																											else
-																											{
-																												Node* boxNode = new Node(BOX, "");
-																												Node* boxRule = new Node(RULE, $2);
-																												boxNode->addNode(boxRule);
-																												list.push_back(*boxNode);
-																											}
-																											
-																										}
-			|	BX_T DIRECTION_T SIZE_T NEW_LINE_T														{
-																											cout << "BOX" << endl;
-																											Node* boxNode = new Node(BOX, "");
-																											Node* dirNode;																			
-																											if(strcmp($2, "left") == 0)
-																											{
-																												dirNode = new Node(LEFT, "");
-																											}
-																											else
-																											{
-																												dirNode = new Node(RIGHT, "");
-																											}
-																											numberFct($3);
-																											Node* sizeNode = new Node(NUMBER, number);
-
-																											boxNode->addNode(dirNode);
-																											boxNode->addNode(sizeNode);
-																											list.push_back(*boxNode);
-																										}
-			|	BX_T DIRECTION_T SIZE_T SIZE_T NEW_LINE_T												{
-																											cout << "BOX" << endl;
-																											Node* boxNode = new Node(BOX, "");
-																											Node* dirNode;	
-																											if(strcmp($2, "left") == 0)
-																											{
-																												dirNode = new Node(LEFT, "");
-																											}
-																											else
-																											{
-																												dirNode = new Node(RIGHT, "");
-																											}
-																											numberFct($3);
-																											Node* sizeNode = new Node(NUMBER, number);
-																											numberFct($4);
-																											Node* size2Node = new Node(NUMBER, number);
-
-																											boxNode->addNode(dirNode);
-																											boxNode->addNode(sizeNode);
-																											boxNode->addNode(size2Node);
-																											list.push_back(*boxNode);
-																										}	
-			|	BX_T OFF_T NEW_LINE_T																	{
+BX			:	BX_T OFF_T																				{
 																											cout << "BOX OFF" << endl;
 																											Node* boxOff = new Node(OFF_BOX, "");
 																											list.push_back(*boxOff);	
 																										}
-			|	BX_T SIZE_T SIZE_T IDENT_T SIZE_T SIZE_T NEW_LINE_T 									{
-																											Node* boxNode = new Node(BOX, "");
-																											numberFct($2);
-																											Node* sizeNode = new Node(NUMBER, number);
-																											numberFct($3);
-																											Node* size2Node = new Node(NUMBER, number);
-																											Node* slashNode = new Node(RULE, $4);
-																											numberFct($5);
-																											Node* size3Node = new Node(NUMBER, number);
-																											numberFct($6);
-																											Node* size4Node = new Node(NUMBER, number);
+			|	BX_T BX																					{
+																											cout << "BOX" << endl;
+																											Node* box = new Node(BOX, "");
 																											
-																											
-																											boxNode->addNode(sizeNode);
-																											boxNode->addNode(size2Node);
-																											boxNode->addNode(slashNode);
-																											boxNode->addNode(size3Node);
-																											boxNode->addNode(size4Node);
-																											list.push_back(*boxNode);
+																										}
+			|	BX IDENT_T																				{
 
 																										}
-			|	BX_T IDENT_T SIZE_T SIZE_T IDENT_T SIZE_T SIZE_T NEW_LINE_T 							{
-																											Node* boxNode = new Node(BOX, "");
-																											Node* IDENTNode = new Node(RULE, $2);
-																											numberFct($3);
-																											Node* sizeNode = new Node(NUMBER, number);
-																											numberFct($4);
-																											Node* size2Node = new Node(NUMBER, number);
-																											Node* slashNode = new Node(RULE, $5);
-																											numberFct($6);
-																											Node* size3Node = new Node(NUMBER, number);
-																											numberFct($7);
-																											Node* size4Node = new Node(NUMBER, number);
-																											
-																											boxNode->addNode(IDENTNode);
-																											boxNode->addNode(sizeNode);
-																											boxNode->addNode(size2Node);
-																											boxNode->addNode(slashNode);
-																											boxNode->addNode(size3Node);
-																											boxNode->addNode(size4Node);
-																											list.push_back(*boxNode);
+			|	BX DIRECTION_T																			{
 
 																										}
-			|	BX_T DIRECTION_T SIZE_T IDENT_T SIZE_T SIZE_T IDENT_T SIZE_T SIZE_T IDENT_T SIZE_T SIZE_T NEW_LINE_T 	{
-																															Node* boxNode = new Node(BOX, "");
-																															Node* dirNode;	
-																															if(strcmp($2, "left") == 0)
-																															{
-																																dirNode = new Node(LEFT, "");
-																															}
-																															else
-																															{
-																																dirNode = new Node(RIGHT, "");
-																															}
-																															numberFct($3);
-																															Node* sizeNode = new Node(NUMBER, number);
-																															Node* slashNode = new Node(RULE, $4);
-																															numberFct($5);
-																															Node* size2Node = new Node(NUMBER, number);
-																															numberFct($6);
-																															Node* size3Node = new Node(NUMBER, number);
-																															Node* slash2Node = new Node(RULE, $7);
-																															numberFct($8);
-																															Node* size4Node = new Node(NUMBER, number);
-																															numberFct($9);
-																															Node* size5Node = new Node(NUMBER, number);
-																															Node* slash3Node = new Node(RULE, $10);
+			|	BX SIZE_T																				{
+
+																										}
+			|	IDENT_T																					{
+
+																										}
+			|	DIRECTION_T																				{
+
+																										}
+			|	SIZE_T																					{
+
+																										}
+			|	BX NEW_LINE_T																			{
+																											cout<< "END OF .bx LINE"<<endl;
+																											Node* endNode = new Node(NEWLINE, "");
+																											list.push_back(*endNode);
+																										}
+// BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
+// 																											cout << "BOX" << endl;
+// 																											Node* box = new Node(BOX, "");
+
+// 																											Node* dir1Node;
+
+// 																											if(strcmp($2, "left") == 0)
+// 																											{
+// 																												dir1Node = new Node(LEFT, "");
+// 																											}
+// 																											else
+// 																											{
+// 																												dir1Node = new Node(RIGHT, "");
+// 																											}
+
+// 																											Node* dir2Node;
+
+// 																											if(strcmp($3, "left") == 0)
+// 																											{
+// 																												dir2Node = new Node(LEFT, "");
+// 																											}
+// 																											else
+// 																											{
+// 																												dir2Node = new Node(RIGHT, "");
+// 																											}
+
+// 																											box->addNode(dir1Node);
+// 																											box->addNode(dir2Node);
+// 																											list.push_back(*box);
+// 																										}
+// 			|	BX_T SIZE_T DIRECTION_T NEW_LINE_T														{
+// 																											cout << "BOX" << endl;
+// 																											Node* box = new Node(BOX, "");
+																											
+// 																											numberFct($3);
+// 																											Node* sizeNode = new Node(NUMBER, number);
+
+// 																											Node* dirNode;
+
+// 																											if(strcmp($2, "left") == 0)
+// 																											{
+// 																												dirNode = new Node(LEFT, "");
+// 																											}
+// 																											else
+// 																											{
+// 																												dirNode = new Node(RIGHT, "");
+// 																											}
+
+// 																											box->addNode(sizeNode);
+// 																											box->addNode(dirNode);
+// 																											list.push_back(*box);
+// 																										}
+// 			|	BX_T SIZE_T SIZE_T NEW_LINE_T															{
+// 																											cout << "BOX" << endl;
+// 																											Node* box = new Node(BOX, "");
+// 																											numberFct($2);
+// 																											Node* sizeNode = new Node(NUMBER, number);
+// 																											numberFct($3);
+// 																											Node* sizeNode2 = new Node(NUMBER, number);
+
+// 																											box->addNode(sizeNode);
+// 																											box->addNode(sizeNode2);
+// 																											list.push_back(*box);
+// 																										}
+// 			| 	BX_T IDENT_T DIRECTION_T DIRECTION_T NEW_LINE_T											{
+// 																											cout << "BOX" << endl;
+// 																											Node* box = new Node(BOX, "");
+// 																											Node* keyword = new Node(RULE, $2);
+
+// 																											Node* dir1Node;
+
+// 																											if(strcmp($3, "left") == 0)
+// 																											{
+// 																												dir1Node = new Node(LEFT, "");
+// 																											}
+// 																											else
+// 																											{
+// 																												dir1Node = new Node(RIGHT, "");
+// 																											}
+
+// 																											Node* dir2Node;
+
+// 																											if(strcmp($4, "left") == 0)
+// 																											{
+// 																												dir2Node = new Node(LEFT, "");
+// 																											}
+// 																											else
+// 																											{
+// 																												dir2Node = new Node(RIGHT, "");
+// 																											}
+
+// 																											box->addNode(keyword);
+// 																											box->addNode(dir1Node);
+// 																											box->addNode(dir2Node);
+// 																											list.push_back(*box);
+// 																										}
+// 			|	BX_T IDENT_T DIRECTION_T SIZE_T DIRECTION_T NEW_LINE_T									{
+// 																											cout << "BOX" << endl;
+// 																											Node* box = new Node(BOX, "");
+// 																											Node* keyword = new Node(RULE, $2);
+
+// 																											Node* dir1Node;
+
+// 																											if(strcmp($3, "left") == 0)
+// 																											{
+// 																												dir1Node = new Node(LEFT, "");
+// 																											}
+// 																											else
+// 																											{
+// 																												dir1Node = new Node(RIGHT, "");
+// 																											}
+// 																											numberFct($4);
+// 																											Node* sizeNode = new Node(NUMBER, number);
+
+// 																											Node* dir2Node;
+
+// 																											if(strcmp($5, "left") == 0)
+// 																											{
+// 																												dir2Node = new Node(LEFT, "");
+// 																											}
+// 																											else
+// 																											{
+// 																												dir2Node = new Node(RIGHT, "");
+// 																											}
+
+// 																											box->addNode(keyword);
+// 																											box->addNode(dir1Node);
+// 																											box->addNode(sizeNode);
+// 																											box->addNode(dir2Node);
+// 																											list.push_back(*box);
+// 																										}
+// 			|	BX_T IDENT_T DIRECTION_T SIZE_T SIZE_T DIRECTION_T NEW_LINE_T							{
+// 																											cout << "BOX" << endl;
+// 																											Node* box = new Node(BOX, "");
+// 																											Node* keyword = new Node(RULE, $2);
+
+// 																											Node* dir1Node;
+
+// 																											if(strcmp($3, "left") == 0)
+// 																											{
+// 																												dir1Node = new Node(LEFT, "");
+// 																											}
+// 																											else
+// 																											{
+// 																												dir1Node = new Node(RIGHT, "");
+// 																											}
+// 																											numberFct($4);
+// 																											Node* sizeNode = new Node(NUMBER, number);
+
+// 																											numberFct($5);
+// 																											Node* sizeNode2 = new Node(NUMBER, number);
+
+// 																											Node* dir2Node;
+
+// 																											if(strcmp($6, "left") == 0)
+// 																											{
+// 																												dir2Node = new Node(LEFT, "");
+// 																											}
+// 																											else
+// 																											{
+// 																												dir2Node = new Node(RIGHT, "");
+// 																											}
+
+// 																											box->addNode(keyword);
+// 																											box->addNode(dir1Node);
+// 																											box->addNode(sizeNode);
+// 																											box->addNode(sizeNode2);																											
+// 																											box->addNode(dir2Node);
+// 																											list.push_back(*box);
+// 																										}
+// 			|	BX_T DIRECTION_T SIZE_T DIRECTION_T NEW_LINE_T											{
+// 																											cout << "BOX" << endl;
+// 																											Node* box = new Node(BOX, "");
+
+// 																											Node* dir1Node;
+
+// 																											if(strcmp($2, "left") == 0)
+// 																											{
+// 																												dir1Node = new Node(LEFT, "");
+// 																											}
+// 																											else
+// 																											{
+// 																												dir1Node = new Node(RIGHT, "");
+// 																											}
+// 																											numberFct($3);
+// 																											Node* sizeNode = new Node(NUMBER, number);
+
+// 																											Node* dir2Node;
+
+// 																											if(strcmp($4, "left") == 0)
+// 																											{
+// 																												dir2Node = new Node(LEFT, "");
+// 																											}
+// 																											else
+// 																											{
+// 																												dir2Node = new Node(RIGHT, "");
+// 																											}
+
+// 																											box->addNode(dir1Node);
+// 																											box->addNode(sizeNode);
+// 																											box->addNode(dir2Node);
+// 																											list.push_back(*box);
+// 																										}
+// 			|	BX_T IDENT_T NEW_LINE_T																	{
+// 																											cout << "BOX" << endl;
+// 																											if(strcmp($2, "can") == 0)
+// 																											{
+// 																												Node* boxnode = new Node(OFF_BOX, "");
+// 																												list.push_back(*boxnode);
+// 																											}
+// 																											else
+// 																											{
+// 																												Node* boxNode = new Node(BOX, "");
+// 																												Node* boxRule = new Node(RULE, $2);
+// 																												boxNode->addNode(boxRule);
+// 																												list.push_back(*boxNode);
+// 																											}
+																											
+// 																										}
+// 			|	BX_T DIRECTION_T SIZE_T NEW_LINE_T														{
+// 																											cout << "BOX" << endl;
+// 																											Node* boxNode = new Node(BOX, "");
+// 																											Node* dirNode;																			
+// 																											if(strcmp($2, "left") == 0)
+// 																											{
+// 																												dirNode = new Node(LEFT, "");
+// 																											}
+// 																											else
+// 																											{
+// 																												dirNode = new Node(RIGHT, "");
+// 																											}
+// 																											numberFct($3);
+// 																											Node* sizeNode = new Node(NUMBER, number);
+
+// 																											boxNode->addNode(dirNode);
+// 																											boxNode->addNode(sizeNode);
+// 																											list.push_back(*boxNode);
+// 																										}
+// 			|	BX_T DIRECTION_T SIZE_T SIZE_T NEW_LINE_T												{
+// 																											cout << "BOX" << endl;
+// 																											Node* boxNode = new Node(BOX, "");
+// 																											Node* dirNode;	
+// 																											if(strcmp($2, "left") == 0)
+// 																											{
+// 																												dirNode = new Node(LEFT, "");
+// 																											}
+// 																											else
+// 																											{
+// 																												dirNode = new Node(RIGHT, "");
+// 																											}
+// 																											numberFct($3);
+// 																											Node* sizeNode = new Node(NUMBER, number);
+// 																											numberFct($4);
+// 																											Node* size2Node = new Node(NUMBER, number);
+
+// 																											boxNode->addNode(dirNode);
+// 																											boxNode->addNode(sizeNode);
+// 																											boxNode->addNode(size2Node);
+// 																											list.push_back(*boxNode);
+// 																										}	
+// 			|	BX_T OFF_T NEW_LINE_T																	{
+// 																											cout << "BOX OFF" << endl;
+// 																											Node* boxOff = new Node(OFF_BOX, "");
+// 																											list.push_back(*boxOff);	
+// 																										}
+// 			|	BX_T SIZE_T SIZE_T IDENT_T SIZE_T SIZE_T NEW_LINE_T 									{
+// 																											Node* boxNode = new Node(BOX, "");
+// 																											numberFct($2);
+// 																											Node* sizeNode = new Node(NUMBER, number);
+// 																											numberFct($3);
+// 																											Node* size2Node = new Node(NUMBER, number);
+// 																											Node* slashNode = new Node(RULE, $4);
+// 																											numberFct($5);
+// 																											Node* size3Node = new Node(NUMBER, number);
+// 																											numberFct($6);
+// 																											Node* size4Node = new Node(NUMBER, number);
+																											
+																											
+// 																											boxNode->addNode(sizeNode);
+// 																											boxNode->addNode(size2Node);
+// 																											boxNode->addNode(slashNode);
+// 																											boxNode->addNode(size3Node);
+// 																											boxNode->addNode(size4Node);
+// 																											list.push_back(*boxNode);
+
+// 																										}
+// 			|	BX_T IDENT_T SIZE_T SIZE_T IDENT_T SIZE_T SIZE_T NEW_LINE_T 							{
+// 																											Node* boxNode = new Node(BOX, "");
+// 																											Node* IDENTNode = new Node(RULE, $2);
+// 																											numberFct($3);
+// 																											Node* sizeNode = new Node(NUMBER, number);
+// 																											numberFct($4);
+// 																											Node* size2Node = new Node(NUMBER, number);
+// 																											Node* slashNode = new Node(RULE, $5);
+// 																											numberFct($6);
+// 																											Node* size3Node = new Node(NUMBER, number);
+// 																											numberFct($7);
+// 																											Node* size4Node = new Node(NUMBER, number);
+																											
+// 																											boxNode->addNode(IDENTNode);
+// 																											boxNode->addNode(sizeNode);
+// 																											boxNode->addNode(size2Node);
+// 																											boxNode->addNode(slashNode);
+// 																											boxNode->addNode(size3Node);
+// 																											boxNode->addNode(size4Node);
+// 																											list.push_back(*boxNode);
+
+// 																										}
+// 			|	BX_T DIRECTION_T SIZE_T IDENT_T SIZE_T SIZE_T IDENT_T SIZE_T SIZE_T IDENT_T SIZE_T SIZE_T NEW_LINE_T 	{
+// 																															Node* boxNode = new Node(BOX, "");
+// 																															Node* dirNode;	
+// 																															if(strcmp($2, "left") == 0)
+// 																															{
+// 																																dirNode = new Node(LEFT, "");
+// 																															}
+// 																															else
+// 																															{
+// 																																dirNode = new Node(RIGHT, "");
+// 																															}
+// 																															numberFct($3);
+// 																															Node* sizeNode = new Node(NUMBER, number);
+// 																															Node* slashNode = new Node(RULE, $4);
+// 																															numberFct($5);
+// 																															Node* size2Node = new Node(NUMBER, number);
+// 																															numberFct($6);
+// 																															Node* size3Node = new Node(NUMBER, number);
+// 																															Node* slash2Node = new Node(RULE, $7);
+// 																															numberFct($8);
+// 																															Node* size4Node = new Node(NUMBER, number);
+// 																															numberFct($9);
+// 																															Node* size5Node = new Node(NUMBER, number);
+// 																															Node* slash3Node = new Node(RULE, $10);
 																														
 																															
-																															boxNode->addNode(dirNode);
-																															boxNode->addNode(sizeNode);
-																															boxNode->addNode(slashNode);
-																															boxNode->addNode(size2Node);
-																															boxNode->addNode(size3Node);
-																															boxNode->addNode(slash2Node);
-																															boxNode->addNode(size4Node);
-																															boxNode->addNode(size5Node);
-																															boxNode->addNode(slash3Node);
+// 																															boxNode->addNode(dirNode);
+// 																															boxNode->addNode(sizeNode);
+// 																															boxNode->addNode(slashNode);
+// 																															boxNode->addNode(size2Node);
+// 																															boxNode->addNode(size3Node);
+// 																															boxNode->addNode(slash2Node);
+// 																															boxNode->addNode(size4Node);
+// 																															boxNode->addNode(size5Node);
+// 																															boxNode->addNode(slash3Node);
 
 
 
-																															numberFct($11);											
-																															Node* size6Node = new Node (NUMBER, number);
-																															numberFct($12);
-																															Node* size7Node = new Node (NUMBER, number);
-																															boxNode->addNode(size6Node);
-																															boxNode->addNode(size7Node);
-																															list.push_back(*boxNode);
+// 																															numberFct($11);											
+// 																															Node* size6Node = new Node (NUMBER, number);
+// 																															numberFct($12);
+// 																															Node* size7Node = new Node (NUMBER, number);
+// 																															boxNode->addNode(size6Node);
+// 																															boxNode->addNode(size7Node);
+// 																															list.push_back(*boxNode);
 
-																														}
-			|	BX_T IDENT_T IDENT_T DIRECTION_T IDENT_T SIZE_T IDENT_T DIRECTION_T	NEW_LINE_T							{
-																															Node* boxNode = new Node(BOX, "");
-																															Node* keyword1 = new Node(RULE, $2);
-																															Node* keyword2 = new Node(RULE, $3);
+// 																														}
+// 			|	BX_T IDENT_T IDENT_T DIRECTION_T IDENT_T SIZE_T IDENT_T DIRECTION_T	NEW_LINE_T							{
+// 																															Node* boxNode = new Node(BOX, "");
+// 																															Node* keyword1 = new Node(RULE, $2);
+// 																															Node* keyword2 = new Node(RULE, $3);
 																															
-																															Node* dirNode;	
-																															if(strcmp($4, "left") == 0)
-																															{
-																																dirNode = new Node(LEFT, "");
-																															}
-																															else
-																															{
-																																dirNode = new Node(RIGHT, "");
-																															}
-																															Node* keyword3 = new Node(RULE, $5);
+// 																															Node* dirNode;	
+// 																															if(strcmp($4, "left") == 0)
+// 																															{
+// 																																dirNode = new Node(LEFT, "");
+// 																															}
+// 																															else
+// 																															{
+// 																																dirNode = new Node(RIGHT, "");
+// 																															}
+// 																															Node* keyword3 = new Node(RULE, $5);
 																															
-																															numberFct($6);
-																															Node* sizeNode = new Node(NUMBER, number);
+// 																															numberFct($6);
+// 																															Node* sizeNode = new Node(NUMBER, number);
 
-																															Node* keyword4 = new Node(RULE, $7);
+// 																															Node* keyword4 = new Node(RULE, $7);
 
-																															Node* dirNode2;	
-																															if(strcmp($4, "left") == 0)
-																															{
-																																dirNode2 = new Node(LEFT, "");
-																															}
-																															else
-																															{
-																																dirNode2 = new Node(RIGHT, "");
-																															}
-																															boxNode->addNode(keyword1);
-																															boxNode->addNode(keyword2);
-																															boxNode->addNode(dirNode);
-																															boxNode->addNode(keyword3);
-																															boxNode->addNode(sizeNode);
-																															boxNode->addNode(keyword4);
-																															boxNode->addNode(dirNode2);																															
-																															list.push_back(*boxNode);
-																														}
+// 																															Node* dirNode2;	
+// 																															if(strcmp($4, "left") == 0)
+// 																															{
+// 																																dirNode2 = new Node(LEFT, "");
+// 																															}
+// 																															else
+// 																															{
+// 																																dirNode2 = new Node(RIGHT, "");
+// 																															}
+// 																															boxNode->addNode(keyword1);
+// 																															boxNode->addNode(keyword2);
+// 																															boxNode->addNode(dirNode);
+// 																															boxNode->addNode(keyword3);
+// 																															boxNode->addNode(sizeNode);
+// 																															boxNode->addNode(keyword4);
+// 																															boxNode->addNode(dirNode2);																															
+// 																															list.push_back(*boxNode);
+// 																														}
 			;
 
 

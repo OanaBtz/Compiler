@@ -37,11 +37,11 @@ function parseFile(i)
                      
             if(stderr.match("syntax error")){
                 nr++;
-            }else if(!stdout.match("Template generated")){
+            }else if(!stdout.match("Template generated successfully!")){
                 nr2++;
                 array.push(files[i]);
-                // console.log(stdout);         
-                console.log( array);
+                console.log(stdout);         
+                // console.log( array);
 
             }
             console.log("number of files with syntax error: "+nr);
@@ -59,11 +59,11 @@ function parseFile(i)
         //console.log(`stderr: ${stderr}`);
         if(stderr.match("syntax error")){
             nr++;
-        }else if(!stdout.match("Template generated")){
+        }else if(!stdout.match("Template generated successfully!")){
             nr2++;
             array.push(files[i]);
-            // console.log(stdout);
-            console.log( array);
+            console.log(stdout);
+            // console.log( array);
         }
         console.log("number of files with syntax error: "+nr);
         console.log("number of files with different errors: "+nr2);
