@@ -85,7 +85,8 @@ enum Type
     BOX_SLASH,
     VR,
     OFF_VR,
-    OFF_FO
+    OFF_FO,
+    NEWLINE_BOX
 };
 
 #endif //AFPCG_TYPES_H

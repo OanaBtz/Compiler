@@ -11,6 +11,10 @@ var nr2 = 0;
 
 parseFile(0);
 
+for(var k=0; k<array.length;k++){
+    cout<<array[k]<<endl;
+        break;
+}
 
 
 function parseFile(i)
@@ -37,15 +41,18 @@ function parseFile(i)
                      
             if(stderr.match("syntax error")){
                 nr++;
+                array.push(files[i]);
+                // console.log(stdout);         
+                console.log( array);
             }else if(!stdout.match("Template generated successfully!")){
                 nr2++;
                 array.push(files[i]);
-                console.log(stdout);         
+                //console.log(stdout);         
                 // console.log( array);
 
             }
-            console.log("number of files with syntax error: "+nr);
-            console.log("number of files with different errors: "+nr2);
+            //console.log("number of files with syntax error: "+nr);
+            //console.log("number of files with different errors: "+nr2);
             // for(var k=0; k<array.length;k++){
             //     console.log( array[k]);
             //     if(k>10)
@@ -59,18 +66,17 @@ function parseFile(i)
         //console.log(`stderr: ${stderr}`);
         if(stderr.match("syntax error")){
             nr++;
+            array.push(files[i]);
+            // console.log(stdout);
+            console.log( array);
         }else if(!stdout.match("Template generated successfully!")){
             nr2++;
             array.push(files[i]);
-            console.log(stdout);
+            // console.log(stdout);
             // console.log( array);
         }
-        console.log("number of files with syntax error: "+nr);
-        console.log("number of files with different errors: "+nr2);
-        // for(var k=0; k<array.length;k++){
-        //     if(k>10)
-        //         break;
-        // }
+        // console.log("number of files with syntax error: "+nr);
+        // console.log("number of files with different errors: "+nr2);
         parseFile(i+1);
         
     });

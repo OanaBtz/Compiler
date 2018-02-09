@@ -1372,29 +1372,61 @@ BX			:	BX_T OFF_T																				{
 			|	BX_T BX																					{
 																											cout << "BOX" << endl;
 																											Node* box = new Node(BOX, "");
+																											list.push_back(*box);
 																											
 																										}
 			|	BX IDENT_T																				{
-
+																											cout<<"in box keyword"<<endl;
+																											Node* keyword = new Node(RULE, $2);
+																											list.push_back(*keyword);
 																										}
 			|	BX DIRECTION_T																			{
+																											cout<<"in box direction"<<endl;
+																											Node* dirNode;
+
+																											if(strcmp($2, "left") == 0)
+																											{
+																												dirNode = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dirNode = new Node(RIGHT, "");
+																											}
+																											list.push_back(*dirNode);
 
 																										}
 			|	BX SIZE_T																				{
-
+																											numberFct($2);
+																											Node* sizeNode = new Node(NUMBER, number);
+																											list.push_back(*sizeNode);
 																										}
 			|	IDENT_T																					{
-
+																											cout<<"in box keyword"<<endl;
+																											Node* keyword = new Node(RULE, $1);
+																											list.push_back(*keyword);
 																										}
 			|	DIRECTION_T																				{
+																											cout<<"in box direction"<<endl;
+																											Node* dirNode;
 
+																											if(strcmp($1, "left") == 0)
+																											{
+																												dirNode = new Node(LEFT, "");
+																											}
+																											else
+																											{
+																												dirNode = new Node(RIGHT, "");
+																											}
+																											list.push_back(*dirNode);
 																										}
 			|	SIZE_T																					{
-
+																											numberFct($1);
+																											Node* sizeNode = new Node(NUMBER, number);
+																											list.push_back(*sizeNode);
 																										}
 			|	BX NEW_LINE_T																			{
 																											cout<< "END OF .bx LINE"<<endl;
-																											Node* endNode = new Node(NEWLINE, "");
+																											Node* endNode = new Node(NEWLINE_BOX, "");
 																											list.push_back(*endNode);
 																										}
 // BX			:	BX_T DIRECTION_T DIRECTION_T NEW_LINE_T													{
@@ -1813,11 +1845,11 @@ int main(){
 	cout<< endl << endl <<"*******************YYPARSE*********************"<<endl;
 	yyparse();
 
-	cout<< endl << endl <<"*******************LIST OF NODES*********************"<<endl;
-	printList(list);
+	//cout<< endl << endl <<"*******************LIST OF NODES*********************"<<endl;
+	//printList(list);
 
-	cout<< endl << endl <<"*******************TREEBUILDING*********************"<<endl;
-	startTreeBuilding(list);
+	//cout<< endl << endl <<"*******************TREEBUILDING*********************"<<endl;
+	//startTreeBuilding(list);
 
 	cout<< endl << endl <<"*******************FINISHED TREE*********************"<<endl;
 	printTree(&list[0], 0);

@@ -15,8 +15,8 @@ int connectNextNodes(int addToIndex, int fromIndex, int amount)
 
 int addNodeOfType(int addToIndex, int fromIndex)
 {
-	cout << "Building node: ";
-	printNode(&list[fromIndex]);
+	//cout << "Building node: ";
+	//printNode(&list[fromIndex]);
 	switch(list[fromIndex].getType())
 	{
 		case NAME:					return connectNextNodes(addToIndex, fromIndex, 0);
@@ -276,7 +276,7 @@ int recursiveContainerTraversal(int addToIndex, int fromIndex, int off_type, int
 		if(j > list.size() - 1)
 		{
 			cout << "\nOn/Off trace: " << endl;
-			cout << onOffDebug << endl;
+			//cout << onOffDebug << endl;
 			cout << "ERROR: ";
 			printNode(&list[fromIndex]);
 			cout << "Missing OFF node" << endl;

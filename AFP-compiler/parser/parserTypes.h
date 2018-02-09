@@ -80,7 +80,8 @@ string types[] = {
     "BOX_SLASH",
     "VR",
     "OFF_VR",
-    "OFF_FO"
+    "OFF_FO",
+    "NEWLINE_BOX"
 };
 
 #endif
