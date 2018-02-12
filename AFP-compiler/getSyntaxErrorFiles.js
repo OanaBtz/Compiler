@@ -53,12 +53,12 @@ function parseFile(i)
             }
             //console.log("number of files with syntax error: "+nr);
             //console.log("number of files with different errors: "+nr2);
-            if(nr == 242){
+            
             for(var k=0; k<array.length;k++){
                 console.log( array[k]);
+                console.log(array.length);
             }
-            }
-            //     console.log(array);
+            
             // }
 
             parseFile(i+1);
