@@ -15,8 +15,8 @@ int connectNextNodes(int addToIndex, int fromIndex, int amount)
 
 int addNodeOfType(int addToIndex, int fromIndex)
 {
-	//cout << "Building node: ";
-	//printNode(&list[fromIndex]);
+	cout << "Building node: ";
+	printNode(&list[fromIndex]);
 	switch(list[fromIndex].getType())
 	{
 		case NAME:					return connectNextNodes(addToIndex, fromIndex, 0);

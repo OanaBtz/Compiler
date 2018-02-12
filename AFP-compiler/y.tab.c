@@ -3848,11 +3848,11 @@ int main(){
 	cout<< endl << endl <<"*******************YYPARSE*********************"<<endl;
 	yyparse();
 
-	//cout<< endl << endl <<"*******************LIST OF NODES*********************"<<endl;
-	//printList(list);
+	// cout<< endl << endl <<"*******************LIST OF NODES*********************"<<endl;
+	// printList(list);
 
-	//cout<< endl << endl <<"*******************TREEBUILDING*********************"<<endl;
-	//startTreeBuilding(list);
+	cout<< endl << endl <<"*******************TREEBUILDING*********************"<<endl;
+	startTreeBuilding(list);
 
 	cout<< endl << endl <<"*******************FINISHED TREE*********************"<<endl;
 	printTree(&list[0], 0);

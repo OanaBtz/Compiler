@@ -257,7 +257,7 @@ Brugeradministrator(er), kræves det, at følgende er oplyst om
 ¤*¤CPR-nummer (eller pas nr. for personer som ikke er bosat i Danmark)
 ¤*¤navn,
 ¤*¤brugernummer.
-.tp
+.tp 
 .of
 .br
 &BANKNAVN. kan til enhver tid kræve yderligere identifikation samt
