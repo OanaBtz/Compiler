@@ -1,0 +1,9 @@
+.pm 20mm
+.bx left right
+Jeg er nu inde i en box
+.bx left right
+Jeg er nu inde i en anden box
+.bx off
+.bx off
+
+

@@ -523,7 +523,7 @@ initially &AFVDATO03.. &ÅCONT
 .go 4AFVIKL
 ...4AFVIKL
 .*4. AFVIKLING *********
-.if &L'AFDYDL04 = 0
+.if &L'&AFDYDL04 = 0
 .th .sp 5mm
 .th .go SLUTAFV
 .br
@@ -950,3 +950,4 @@ initially &RTEDATO01..
 .pa nostart
 .** INDRYK FRA VENSTREMARGIN NULSTILLES
 .in 0mm
+.rh off

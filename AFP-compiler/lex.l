@@ -8,6 +8,7 @@
 
 %}
 
+%option yylineno
 
 %%
 
@@ -30,7 +31,6 @@
 ".ll"                                           { strcpy(yylval.tokens, yytext); return LL_T;}
 ".rh"                                           { strcpy(yylval.tokens, yytext); return RH_T;}
 ".ct"                                           { strcpy(yylval.tokens, yytext); return CT_T;}
-"cancel"                                        { strcpy(yylval.tokens, yytext); return CANCEL_T;}
 ".pa"                                           { strcpy(yylval.tokens, yytext); return PA_T;}
 ".dr"                                           { strcpy(yylval.tokens, yytext); return DR_T;}
 "weight"                                        { strcpy(yylval.tokens, yytext); return WEIGHT_T;}
@@ -60,8 +60,8 @@
 ">="|"ge"          		                        { strcpy(yylval.tokens, yytext); return GTHANE_T;}
 "<="|"le"          		                        { strcpy(yylval.tokens, yytext); return LTHANE_T;}
 "off"                                           { strcpy(yylval.tokens, yytext); return OFF_T;}
-"&U'"|"&u'"                                     { strcpy(yylval.tokens, yytext); return UPPERCASE_T;}
-"&L'"|"&l'"                                     { strcpy(yylval.tokens, yytext); return LENGTH_T;}
+"&U'"|"&u'"|"x&U'"|"x&u'"                       { strcpy(yylval.tokens, yytext); return UPPERCASE_T;}
+"&L'"|"&l'"|"x&L'"|"x&l'"                       { strcpy(yylval.tokens, yytext); return LENGTH_T;}
 ".ar"                                           { strcpy(yylval.tokens, yytext); return AR_T;}
 ".bx"                                           { strcpy(yylval.tokens, yytext); return BX_T;}
 ".sp"                                           { strcpy(yylval.tokens, yytext); return SP_T;}

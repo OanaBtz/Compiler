@@ -895,3 +895,5 @@ It is the Danish version of the applicable regulations/provisions that
 apply at any and all times.
 .sp 3mm
 .kp off
+.kp off
+.rh off

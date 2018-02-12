@@ -3,9 +3,9 @@
 #ifndef AFPCG_PRINTING
 #define AFPCG_PRINTING
 
+
 void printNode(Node* node)
 {
-
 	cout << types[node->getType()];
 	if(node->getData().length() > 0)
 	{
@@ -60,5 +60,4 @@ void printTree(Node* currentNode, int indent)
 		printTree(currentNode->getNodes().at(i), indent+1);
 	}
 }
-
 #endif

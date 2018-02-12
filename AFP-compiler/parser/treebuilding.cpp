@@ -13,10 +13,13 @@ int connectNextNodes(int addToIndex, int fromIndex, int amount)
 	return fromIndex + amount;
 }
 
-int addNodeOfType(int addToIndex, int fromIndex)
+int addNodeOfType(int addToIndex, int fromIndex, bool printdebug)
 {
-	//cout << "Building node: ";
-	//printNode(&list[fromIndex]);
+	if(printdebug)
+	{
+		cout << "Building node: ";
+		printNode(&list[fromIndex]);
+	}
 	switch(list[fromIndex].getType())
 	{
 		case NAME:					return connectNextNodes(addToIndex, fromIndex, 0);
@@ -99,7 +102,7 @@ int addNodeOfType(int addToIndex, int fromIndex)
 							int ii = fromIndex + 1;
 							while(list[ii].getType() == STRINGLITERAL || list[ii].getType() == STRINGVARIABLE)
 							{
-								ii = addNodeOfType(fromIndex, ii);
+								ii = addNodeOfType(fromIndex, ii, printdebug);
 								ii++;
 							}
 							return ii - 1;
@@ -119,16 +122,16 @@ int addNodeOfType(int addToIndex, int fromIndex)
 										int ii = fromIndex + 1;
 										while(list[ii].getType() == STRINGLITERAL || list[ii].getType() == STRINGVARIABLE)
 										{
-											ii = addNodeOfType(fromIndex, ii);
+											ii = addNodeOfType(fromIndex, ii, printdebug);
 											ii++;
 										}
 										return ii - 1;
 									}
-									int thenindex = addNodeOfType(fromIndex, fromIndex + 1);
+									int thenindex = addNodeOfType(fromIndex, fromIndex + 1, printdebug);
 									while(list[thenindex + 1].getType() == THEN)
 									{
 										
-										thenindex = addNodeOfType(fromIndex, thenindex + 2);
+										thenindex = addNodeOfType(fromIndex, thenindex + 2, printdebug);
 									}
 									return thenindex;
 								}
@@ -143,16 +146,16 @@ int addNodeOfType(int addToIndex, int fromIndex)
 										int ii = fromIndex + 1;
 										while(list[ii].getType() == STRINGLITERAL || list[ii].getType() == STRINGVARIABLE)
 										{
-											ii = addNodeOfType(fromIndex, ii);
+											ii = addNodeOfType(fromIndex, ii, printdebug);
 											ii++;
 										}
 										return ii - 1;
 									}
-									int elseindex = addNodeOfType(fromIndex, fromIndex + 1);
+									int elseindex = addNodeOfType(fromIndex, fromIndex + 1, printdebug);
 									while(list[elseindex + 1].getType() == ELSE)
 									{
 										
-										elseindex = addNodeOfType(fromIndex, elseindex + 2);
+										elseindex = addNodeOfType(fromIndex, elseindex + 2, printdebug);
 									}
 									return elseindex;
 								}
@@ -233,10 +236,13 @@ string makeTabString(int n)
 	return tabs;
 }
 
-int recursiveContainerTraversal(int addToIndex, int fromIndex, int off_type, int depth)
+int recursiveContainerTraversal(int addToIndex, int fromIndex, int off_type, int depth, bool printdebug)
 {
-	cout << "   >>    Container start" << endl;
-	onOffDebug += makeTabString(depth) + "Starting: " + getNodeName(&list[fromIndex], &list, fromIndex) + " node!\n";
+	if(printdebug)
+	{
+		cout << "   >>    Container start" << endl;
+		onOffDebug += makeTabString(depth) + "Starting: " + getNodeName(&list[fromIndex], &list, fromIndex) + " node!\n";
+	}
 	list[addToIndex].addNode(&list[fromIndex]);
 	int j = fromIndex+1;
 	for(;list[j].getType()!=off_type;j++)
@@ -245,44 +251,47 @@ int recursiveContainerTraversal(int addToIndex, int fromIndex, int off_type, int
 		{
 			case CANCEL: 	list[fromIndex].addNode(&list[j]);
 							break;
-			case KP:		j = recursiveContainerTraversal(fromIndex, j, OFF_KP, depth + 1);
+			case KP:		j = recursiveContainerTraversal(fromIndex, j, OFF_KP, depth + 1, printdebug);
 							break;
-			case RH:		j = recursiveContainerTraversal(fromIndex, j, OFF_RH, depth + 1);
+			case RH:		j = recursiveContainerTraversal(fromIndex, j, OFF_RH, depth + 1, printdebug);
 							break;
-			case AREA: 		j = recursiveContainerTraversal(fromIndex, j, OFF_AREA, depth + 1);
+			case AREA: 		j = recursiveContainerTraversal(fromIndex, j, OFF_AREA, depth + 1, printdebug);
 							break;
-			case BOX:		j = recursiveContainerTraversal(fromIndex, j, OFF_BOX, depth + 1);
+			case BOX:		j = recursiveContainerTraversal(fromIndex, j, OFF_BOX, depth + 1, printdebug);
 							break; 
-			case SU: 		j = recursiveContainerTraversal(fromIndex, j, OFF_SU, depth + 1);
+			case SU: 		j = recursiveContainerTraversal(fromIndex, j, OFF_SU, depth + 1, printdebug);
 							break;
-			case DM: 		j = recursiveContainerTraversal(fromIndex, j, OFF_DM, depth + 1);
+			case DM: 		j = recursiveContainerTraversal(fromIndex, j, OFF_DM, depth + 1, printdebug);
 							break;
 			case CE: 		if(list[j + 1].getType() == ON)
 							{
-								j = recursiveContainerTraversal(fromIndex, j, OFF_CE, depth + 1);
+								j = recursiveContainerTraversal(fromIndex, j, OFF_CE, depth + 1, printdebug);
 							}
 							break;
 			case US:		if(list[j+1].getType() == ON)
 							{
-								j = recursiveContainerTraversal(fromIndex, j, OFF_US, depth + 1);	
+								j = recursiveContainerTraversal(fromIndex, j, OFF_US, depth + 1, printdebug);	
 							}
 							break;
 			case VR: 		if(list[j + 1].getType() == ON)
 							{
-								j = recursiveContainerTraversal(fromIndex, j, OFF_VR, depth + 1);
+								j = recursiveContainerTraversal(fromIndex, j, OFF_VR, depth + 1, printdebug);
 							}
 							break;
 		}
 		if(j > list.size() - 1)
 		{
-			cout << "\nOn/Off trace: " << endl;
-			//cout << onOffDebug << endl;
+			if(printdebug)
+			{
+				cout << "\nOn/Off trace: " << endl;
+				cout << onOffDebug << endl;
+			}
 			cout << "ERROR: ";
 			printNode(&list[fromIndex]);
 			cout << "Missing OFF node" << endl;
 			exit(0);
 		}
-		j = addNodeOfType(fromIndex, j);
+		j = addNodeOfType(fromIndex, j, printdebug);
 	}
 	list[fromIndex].addNode(&list[j]);
 	onOffDebug += makeTabString(depth) + "Ending: " + getNodeName(&list[fromIndex], &list, fromIndex) + " node!\n";
@@ -290,12 +299,12 @@ int recursiveContainerTraversal(int addToIndex, int fromIndex, int off_type, int
 	return j;
 }
 
-void startTreeBuilding(std::vector<Node> list)
+void startTreeBuilding(std::vector<Node> list, bool printdebug)
 {
 	int j;
 	
 	for(int i=0;i<list.size();i++){
-		i = addNodeOfType(0, i);
+		i = addNodeOfType(0, i, printdebug);
 		switch(list[i].getType()){
 			case AREADEFINITION:	list[0].addNode(&list[i]);
 									for(j=i+1; list[j].getType()!=AREADEFINITION && list[j].getType()!=AREA && list[j].getType()!=TI && list[j].getType()!=RH;j++)
@@ -311,21 +320,23 @@ void startTreeBuilding(std::vector<Node> list)
 									}
 									i=j-1;
 									break;
-			case KP:		i = recursiveContainerTraversal(0, i, OFF_KP, 0);
+			case KP:		i = recursiveContainerTraversal(0, i, OFF_KP, 0, printdebug);
 							break;
-			case RH:		i = recursiveContainerTraversal(0, i, OFF_RH, 0);
+			case RH:		i = recursiveContainerTraversal(0, i, OFF_RH, 0, printdebug);
 							break;
-			case AREA: 		i = recursiveContainerTraversal(0, i, OFF_AREA, 0);
+			case AREA: 		i = recursiveContainerTraversal(0, i, OFF_AREA, 0, printdebug);
 							break;
-			case SU: 		i = recursiveContainerTraversal(0, i, OFF_SU, 0);
+			case SU: 		i = recursiveContainerTraversal(0, i, OFF_SU, 0, printdebug);
 							break;
-			case CE: 		i = recursiveContainerTraversal(0, i, OFF_CE, 0);
+			case CE: 		i = recursiveContainerTraversal(0, i, OFF_CE, 0, printdebug);
 							break;
-			case DM: 		i = recursiveContainerTraversal(0, i, OFF_DM, 0);
+			case DM: 		i = recursiveContainerTraversal(0, i, OFF_DM, 0, printdebug);
+							break;
+			case BOX:		i = recursiveContainerTraversal(0, i, OFF_BOX, 0, printdebug);
 							break;
 			case US:		if(list[j+1].getType() == ON)
 							{
-								j = recursiveContainerTraversal(0, i, OFF_US, 0);	
+								j = recursiveContainerTraversal(0, i, OFF_US, 0, printdebug);	
 							}
 		}
 	}

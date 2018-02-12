@@ -75,8 +75,8 @@ function parseFile(i)
             // console.log(stdout);
             // console.log( array);
         }
-        // console.log("number of files with syntax error: "+nr);
-        // console.log("number of files with different errors: "+nr2);
+         console.log("number of files with syntax error: "+nr);
+         console.log("number of files with different errors: "+nr2);
         parseFile(i+1);
         
     });
