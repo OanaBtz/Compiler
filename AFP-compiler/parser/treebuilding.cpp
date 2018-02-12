@@ -15,8 +15,8 @@ int connectNextNodes(int addToIndex, int fromIndex, int amount)
 
 int addNodeOfType(int addToIndex, int fromIndex)
 {
-	//cout << "Building node: ";
-	//printNode(&list[fromIndex]);
+	cout << "Building node: ";
+	printNode(&list[fromIndex]);
 	switch(list[fromIndex].getType())
 	{
 		case NAME:					return connectNextNodes(addToIndex, fromIndex, 0);
@@ -31,7 +31,7 @@ int addNodeOfType(int addToIndex, int fromIndex)
 		case PM:					return connectNextNodes(addToIndex, fromIndex, 1);
 		case TI: 					return connectNextNodes(addToIndex, fromIndex, 2);
 		case SP:					return connectNextNodes(addToIndex, fromIndex, 1);
-		case LL:					return connectNextNodes(addToIndex, fromIndex, 1);
+		case LL:					return connectNextNodes(addToIndex, fromIndex, 0);
 		case IN:					return connectNextNodes(addToIndex, fromIndex, 1);
 		case IR:					return connectNextNodes(addToIndex, fromIndex, 1);
 		case PA:					return connectNextNodes(addToIndex, fromIndex, 0);
@@ -49,7 +49,12 @@ int addNodeOfType(int addToIndex, int fromIndex)
 		case FO:					return connectNextNodes(addToIndex, fromIndex, 0);
 		case CE:		if(list[fromIndex+1].getType() != ON)
 						{
-							return connectNextNodes(addToIndex, fromIndex, 1);
+							return connectNextNodes(addToIndex, fromIndex, 0);
+						}
+						break;
+		case KP:		if(list[fromIndex+1].getType() != ON)
+						{
+							return connectNextNodes(addToIndex, fromIndex, 0);
 						}
 						break;
 		case EXECUTE: 	list[addToIndex].addNode(&list[fromIndex]);
@@ -245,8 +250,6 @@ int recursiveContainerTraversal(int addToIndex, int fromIndex, int off_type, int
 		{
 			case CANCEL: 	list[fromIndex].addNode(&list[j]);
 							break;
-			case KP:		j = recursiveContainerTraversal(fromIndex, j, OFF_KP, depth + 1);
-							break;
 			case RH:		j = recursiveContainerTraversal(fromIndex, j, OFF_RH, depth + 1);
 							break;
 			case AREA: 		j = recursiveContainerTraversal(fromIndex, j, OFF_AREA, depth + 1);
@@ -256,6 +259,11 @@ int recursiveContainerTraversal(int addToIndex, int fromIndex, int off_type, int
 			case SU: 		j = recursiveContainerTraversal(fromIndex, j, OFF_SU, depth + 1);
 							break;
 			case DM: 		j = recursiveContainerTraversal(fromIndex, j, OFF_DM, depth + 1);
+							break;
+			case KP:		if(list[j + 1].getType() == ON)
+							{
+								j = recursiveContainerTraversal(fromIndex, j, OFF_KP, depth + 1);
+							}
 							break;
 			case CE: 		if(list[j + 1].getType() == ON)
 							{
@@ -276,7 +284,7 @@ int recursiveContainerTraversal(int addToIndex, int fromIndex, int off_type, int
 		if(j > list.size() - 1)
 		{
 			cout << "\nOn/Off trace: " << endl;
-			//cout << onOffDebug << endl;
+			cout << onOffDebug << endl;
 			cout << "ERROR: ";
 			printNode(&list[fromIndex]);
 			cout << "Missing OFF node" << endl;
@@ -311,7 +319,10 @@ void startTreeBuilding(std::vector<Node> list)
 									}
 									i=j-1;
 									break;
-			case KP:		i = recursiveContainerTraversal(0, i, OFF_KP, 0);
+			case KP:		if(list[j + 1].getType() == ON)
+							{
+								i = recursiveContainerTraversal(0, i, OFF_KP, 0);
+							}
 							break;
 			case RH:		i = recursiveContainerTraversal(0, i, OFF_RH, 0);
 							break;
@@ -319,13 +330,16 @@ void startTreeBuilding(std::vector<Node> list)
 							break;
 			case SU: 		i = recursiveContainerTraversal(0, i, OFF_SU, 0);
 							break;
-			case CE: 		i = recursiveContainerTraversal(0, i, OFF_CE, 0);
+			case CE: 		if(list[j + 1].getType() == ON)
+							{
+								i = recursiveContainerTraversal(0, i, OFF_CE, 0);
+							}
 							break;
 			case DM: 		i = recursiveContainerTraversal(0, i, OFF_DM, 0);
 							break;
 			case US:		if(list[j+1].getType() == ON)
 							{
-								j = recursiveContainerTraversal(0, i, OFF_US, 0);	
+								i = recursiveContainerTraversal(0, i, OFF_US, 0);	
 							}
 		}
 	}

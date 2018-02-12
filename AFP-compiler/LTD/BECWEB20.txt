@@ -2043,18 +2043,16 @@ Nedbrud i/manglende adgang til IT-systemer eller
 beskadigelse af data i disse systemer, der skyldes nedennævnte
 begivenheder, uanset om det er &BANKNAVN selv eller en ekstern
 leverandør, der står for driften af systemerne
-
-.kp off.kp on.i
-f &U'&
-WEBPRIERH = P.th 5.4.
-2.el 5.3.
-2Svigt i 
-&BANKNAVN.s strømforsyning eller telekommunikation,.hw lov-
-ind-grebeller fo
-rvaltningsakter, naturkatastrofer,krig, op
-rør, borgerlige uroligheder, sabotage, terroreller hæ
-rværk (herunder computervirusog -hack
-ing)
+.kp off
+.kp on
+.if &U'&WEBPRIERH = P
+.th 5.4.2
+.el 5.3.2
+Svigt i &BANKNAVN.s strømforsyning eller telekommunikation,
+.hw lov-ind-greb
+eller forvaltningsakter, naturkatastrofer,
+krig, oprør, borgerlige uroligheder, sabotage, terror
+eller hærværk (herunder computervirusog -hacking)
 
 
 
