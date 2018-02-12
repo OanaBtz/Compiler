@@ -11,10 +11,10 @@ var nr2 = 0;
 
 parseFile(0);
 
-for(var k=0; k<array.length;k++){
-    cout<<array[k]<<endl;
-        break;
-}
+// for(var k=0; k<array.length;k++){
+//             cout<<array[k]<<endl;
+//                 break;
+//         }
 
 
 function parseFile(i)
@@ -22,12 +22,12 @@ function parseFile(i)
     if(i>files.length-1){
         return;
     }
-    console.log("Processing file: " + files[i]);
+    //console.log("Processing file: " + files[i]);
     var data = fs.readFileSync("./LTD/"+files[i], "binary");
     data = iconv.decode(data, "iso-8859-1");
     
 
-    console.log("Trying to parse "+ files[i]);
+    //console.log("Trying to parse "+ files[i]);
 
     
     exec('./compiler <'+'LTD/'+files[i], (err, stdout, stderr) => {
@@ -43,7 +43,7 @@ function parseFile(i)
                 nr++;
                 array.push(files[i]);
                 // console.log(stdout);         
-                console.log( array);
+                //console.log( array);
             }else if(!stdout.match("Template generated successfully!")){
                 nr2++;
                 array.push(files[i]);
@@ -53,11 +53,14 @@ function parseFile(i)
             }
             //console.log("number of files with syntax error: "+nr);
             //console.log("number of files with different errors: "+nr2);
-            // for(var k=0; k<array.length;k++){
-            //     console.log( array[k]);
-            //     if(k>10)
-            //         break;
+            if(nr == 242){
+            for(var k=0; k<array.length;k++){
+                console.log( array[k]);
+            }
+            }
+            //     console.log(array);
             // }
+
             parseFile(i+1);
             return;
         }
@@ -68,13 +71,17 @@ function parseFile(i)
             nr++;
             array.push(files[i]);
             // console.log(stdout);
-            console.log( array);
+            //console.log( array);
         }else if(!stdout.match("Template generated successfully!")){
             nr2++;
             array.push(files[i]);
             // console.log(stdout);
             // console.log( array);
         }
+
+        // if(nr == 242){
+        //         console.log(array);
+        // }
         // console.log("number of files with syntax error: "+nr);
         // console.log("number of files with different errors: "+nr2);
         parseFile(i+1);
