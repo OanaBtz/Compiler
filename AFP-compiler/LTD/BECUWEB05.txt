@@ -113,157 +113,118 @@
 .if &L'&GENFOR1 gt 0
 .an &L'&GENFOR2 le 0
 .th - to make enquiries on existing and future accounts
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.if &L'&GENLON gt 0.th - to use Payroll Service....EJFOR2.ar off.*******************************************************.ar BRUGERVALG on.if &U'X&GENOVF eq XA.th .go AUTA.el .go AUTB...AUTAA authorisation.sp 3mmThe user may enter/correct/delete information without the approvalof another user. &ÅCONT.if &L'&GENSTRAKS > 0.or &L'&GENBORS > 0.or &L'&GENMARKED > 0.or &L'&GENLIMIT > 0.or &L'&GENGNS > 0.th The user is authorised to perform the following types of trading.th activities:.el .go BBB.sp 3mm.if &L'&GENSTRAKS > 0.th - market order - real time.th .br.if &L'&GENBORS > 0.th - limit order - stock exchange.th .br.if &L'&GENMARKED > 0.th - market order.th .br.if &L'&GENLIMIT > 0.th - limit order.th .br.if &L'&GENGNS > 0.th - average price order.go BBB...AUTB.if &U'X&GENOVF eq XB.th B authorisation.th .sp 3mm.th The user may enter/correct/delete information in an envelope and.th approve the envelope jointly with another user who holds an A, B.th or C authorisation..th .sp 3mm.th If the user is authorised to transfer funds between his o
-wn.th accounts, the transfers
- are subj
-ect to 
-the approval of another.th user. The user may not trade 
-in securities..th
- .go BBB
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.if &U'X&GENOVF eq XC.th C authorisation.th .sp 3mm.th The user may enter/correct/delete information in an envelope and.th approve the envelope jointly with another user who holds an A or B.th authorisation..th .sp 3mm.th The user must be the first approver as the user is not authorised.th to finally approve an envelope approved by another user holding a.th B or C authorisation..th .sp 3mm.th If the user is authorised to transfer funds between his own.th accounts, the transfers are subject to the approval of another.th user. The user may not trade in securities..th .go BBB.if &U'X&GENOVF eq XD.th D authorisation.th .sp 3mm.th The user may exclusively enter information in an envelope and.th correct/delete information in envelopes marked "Open"..th .sp 3mm.th The user is not authorised to approve information or envelopes or.th to correct information in envelopes that are partly or finally.th approved. The user may not trade in securities..th .go BBB...BBB.ar off.*******************************************************.ar TEKST on&GENTEK
-ST1..br&GENTEKST2..
-br&GENTEKST
-3..br&GENTEKST4..ar off.********************************************
-***********.ar UNDSKBRUG on.if X&U'&WEBBRUANS = XN.th .ce on.th &NAVN.
-th .ce off.th .go 
-UNDSL.if &L
-'&GENNAVN3 > 0.an &L'&GENNAVN4 > 0.th .tp 42mm center 125mm center.th
- ¤&GENNAVN3 ¤&GENNAVN4.th .go UNDSL.if &L'&GENNAVN3 > 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.an &L'&GENNAVN4 = 0.th .ce on.th &GENNAVN3.th .ce off.th .go UNDSL.if &L'&GENNAVN3 = 0.an &L'&GENNAVN4 > 0.th .ce on.th &GENNAVN4.th .ce off...UNDSL.ar off.*******************************************************
-
-
-
-
-
-
-
-
-
-
-
-
+.if &L'&GENLON gt 0
+.th - to use Payroll Service....EJFOR2
+.ar off
+.*******************************************************
+.ar BRUGERVALG on
+.if &U'X&GENOVF eq XA
+.th .go AUTA
+.el .go AUTB
+...AUTAA 
+authorisation
+.sp 3mm
+The user may enter/correct/delete information without the approvalof another user. &ÅCONT
+.if &L'&GENSTRAKS > 0
+.or &L'&GENBORS > 0
+.or &L'&GENMARKED > 0
+.or &L'&GENLIMIT > 0
+.or &L'&GENGNS > 0
+.th The user is authorised to perform the following types of trading
+.th activities:
+.el .go BBB
+.sp 3mm
+.if &L'&GENSTRAKS > 0
+.th - market order - real time
+.th .br
+.if &L'&GENBORS > 0
+.th - limit order - stock exchange
+.th .br
+.if &L'&GENMARKED > 0
+.th - market order
+.th .br
+.if &L'&GENLIMIT > 0
+.th - limit order
+.th .br
+.if &L'&GENGNS > 0
+.th - average price order
+.go BBB
+...AUTB
+.if &U'X&GENOVF eq XB
+.th B authorisation
+.th .sp 3mm
+.th The user may enter/correct/delete information in an envelope and
+.th approve the envelope jointly with another user who holds an A, B
+.th or C authorisation.
+.th .sp 3mm
+.th If the user is authorised to transfer funds between his own
+.th accounts, the transfers are subject to the approval of another
+.th user. The user may not trade in securities.
+.th .go BBB
+.if &U'X&GENOVF eq XC
+.th C authorisation
+.th .sp 3mm
+.th The user may enter/correct/delete information in an envelope and
+.th approve the envelope jointly with another user who holds an A or B
+.th authorisation.
+.th .sp 3mm
+.th The user must be the first approver as the user is not authorised
+.th to finally approve an envelope approved by another user holding a
+.th B or C authorisation.
+.th .sp 3mm
+.th If the user is authorised to transfer funds between his own
+.th accounts, the transfers are subject to the approval of another
+.th user. The user may not trade in securities.
+.th .go BBB
+.if &U'X&GENOVF eq XD
+.th D authorisation
+.th .sp 3mm
+.th The user may exclusively enter information in an envelope and
+.th correct/delete information in envelopes marked "Open".
+.th .sp 3mm
+.th The user is not authorised to approve information or envelopes or
+.th to correct information in envelopes that are partly or finally
+.th approved. The user may not trade in securities.
+.th .go BBB
+...BBB
+.ar off
+.*******************************************************
+.ar TEKST on
+&GENTEKST1.
+.br
+&GENTEKST2.
+.br
+&GENTEKST3.
+.br
+&GENTEKST4.
+.ar off
+.*******************************************************
+.ar UNDSKBRUG on
+.if X&U'&WEBBRUANS = XN
+.th .ce on
+.th &NAVN
+.th .ce off
+.th .go UNDSL
+.if &L'&GENNAVN3 > 0
+.an &L'&GENNAVN4 > 0
+.th 
+.tp 42mm center 125mm center
+.th ¤&GENNAVN3 ¤&GENNAVN4
+.th .go UNDSL
+.if &L'&GENNAVN3 > 0
+.an &L'&GENNAVN4 = 0
+.th .ce on
+.th &GENNAVN3
+.th .ce off
+.th .go UNDSL
+.if &L'&GENNAVN3 = 0
+.an &L'&GENNAVN4 > 0
+.th .ce on
+.th &GENNAVN4
+.th .ce off
+...UNDSL
+.ar off
+.*******************************************************
 .da SIDE1 20mm 38mm width 175mm
 .ar SIDE1 on
 :SWISS10.

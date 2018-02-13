@@ -8,6 +8,7 @@
 
 %}
 
+%option yylineno
 
 %%
 
@@ -60,8 +61,8 @@
 ">="|"ge"          		                        { strcpy(yylval.tokens, yytext); return GTHANE_T;}
 "<="|"le"          		                        { strcpy(yylval.tokens, yytext); return LTHANE_T;}
 "off"                                           { strcpy(yylval.tokens, yytext); return OFF_T;}
-"&U'"|"&u'"                                     { strcpy(yylval.tokens, yytext); return UPPERCASE_T;}
-"&L'"|"&l'"                                     { strcpy(yylval.tokens, yytext); return LENGTH_T;}
+"&U'"|"&u'"|"X&U'"|"x&u'"                         { strcpy(yylval.tokens, yytext); return UPPERCASE_T;}
+"&L'"|"&l'"|"X&L'"|"x&l'"                         { strcpy(yylval.tokens, yytext); return LENGTH_T;}
 ".ar"                                           { strcpy(yylval.tokens, yytext); return AR_T;}
 ".bx"                                           { strcpy(yylval.tokens, yytext); return BX_T;}
 ".sp"                                           { strcpy(yylval.tokens, yytext); return SP_T;}
@@ -70,7 +71,7 @@
 ".tm"                                           { strcpy(yylval.tokens, yytext); return TM_T;}
 ".bm"                                           { strcpy(yylval.tokens, yytext); return BM_T;}
 ".pm"                                           { strcpy(yylval.tokens, yytext); return PM_T;}
-"width"|"WIDTH"                                         { strcpy(yylval.tokens, yytext); return WIDTH_T;}
+"width"|"WIDTH"|"Width"                                         { strcpy(yylval.tokens, yytext); return WIDTH_T;}
 ".tp"                                           { strcpy(yylval.tokens, yytext); return TP_T;}
 "rotate"                                        { strcpy(yylval.tokens, yytext); return ROTATE_T;}
 "depth"                	                        { strcpy(yylval.tokens, yytext); return DEPTH_T;}
@@ -78,6 +79,7 @@
 \.mg[\/A-Za-z\:\- ØÆÅéæøå,\.\\¤0-9\*]+ || \.mg[\/A-Za-z\]         { strcpy(yylval.tokens, yytext); return MG_T;}
 \+*\-*(([0-9\.])+)(mm|cm|MM|CM)                             { strcpy(yylval.tokens, yytext); return SIZE_T;}
 \+*\-*(([0-9\.])+)\,(([0-9\.])+)(mm|cm)               { strcpy(yylval.tokens, yytext); return SIZE_T;}
+\+*\-*(([0-9\.])+)\.(([0-9\.])+)(mm|cm)               { strcpy(yylval.tokens, yytext); return SIZE_T;}
 \n                                              { strcpy(yylval.tokens, yytext); return NEW_LINE_T; }
 \:([A-Z]+)([0-9]*)\.                            { strcpy(yylval.tokens, yytext); return STYLE_T;}
 \'\%.*\'                                        { strcpy(yylval.tokens, yytext); return VAR_UP_T;}
@@ -87,7 +89,7 @@ x\&[A-Za-z\-\.ØÆÅ0-9]+                          { strcpy(yylval.tokens, yytex
 \+*\-*[0-9]+                                    { strcpy(yylval.tokens, yytext); return NUM_T;}
 \+*\-*[0-9]+\.[0-9]+                            { strcpy(yylval.tokens, yytext); return NUM_T;}
 \.\.\.[A-Za-z\-ØÆÅæøå¤0-9.]+                    { strcpy(yylval.tokens, yytext); return LABEL_T;}
-[A-Za-z\'\-ØÆÅæøå,\.\\¤0-9\*\/\_\^]+            { strcpy(yylval.tokens, yytext); return IDENT_T;}
+[A-Za-z\'\-ØÆÅæøå,\.\\¤0-9\*\/\_\^\(\)\:]+            { strcpy(yylval.tokens, yytext); return IDENT_T;}
 \'\ \'                                          { strcpy(yylval.tokens, yytext); return IDENT_T;}                  
 [\+\-\/\*]                                      { strcpy(yylval.tokens, yytext); return MATHEX_T;}
 [ \t]                   ;

@@ -2053,97 +2053,52 @@ Svigt i &BANKNAVN.s strømforsyning eller telekommunikation,
 eller forvaltningsakter, naturkatastrofer,
 krig, oprør, borgerlige uroligheder, sabotage, terror
 eller hærværk (herunder computervirusog -hacking)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.sp 3mm.kp off.kp on.if &U'&WEBPRIERH = P.th 5.6.el 5.5&BANKNAVN er ikke ansvarlig for tab, der følger af:.sp 3mm.if &U'&WEBPRIERH = P.th 5.6.1.el 5.5.1Driftsforstyrrelser, der forhindrer anvendelsen af&WEBSYSNAVN., herunder at der ikke kan etableres adgang til&WEBSYSNAVN eller forbindelse til &BANKNAVN.s edb-anlæg,eller at forbindelsen bliver afbrudt, uanset omdet skyldes &BANKNAVN.s fejl eller ydre omstændigheder..sp 3mm.kp off.kp on.if &U'&WEBPRIERH = P.th 5.6.2.el 5.5.2Spærring af kundens konti ved begrundet mistanke ommisbrug af kundens konti, eller af kundens adgang til&WEBSYSNAVN...sp 3mm.kp off.kp on.if &U'&WEBPRIERH = P.th 5.6.3.el 5.5.3Ændring i eller afvisning af overførselsordrer, som følgeaf indgreb fra &BANKNAVN.s side, jf. pkt..if &U'&WEBPRIERH = P.th 2.8.4.el 2.7.4ovenfor..sp 3mm.kp off.kp on.if &U'&WEBPRIERH = P.th 5.7.el 5.6&BANKNAVN. er d
-esuden 
-i inte
-t tilfælde ansvarlig 
-forindi
-rekte t
-ab hos kunden, herunder driftstab, rentetab, tidsta
-b,tab a
-f goodwill eller for 
-skade på 
-ting hos 
-kunden herunder tab afdata eller programmer, ej he
-ller såfremt skaden skyldes en defektved &BANKNAVN.s produk
-t. Dette gælder, uanset om&BANKNAVN. har været underrett
-et om mulighed for sådannetab, og uanset om &BA
-NKNAVN. har udvist uagtsomhed.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.sp 5mm.kp off
-
+.sp 3mm
+.kp off
+.kp on
+.if &U'&WEBPRIERH = P
+.th 5.6
+.el 5.5
+&BANKNAVN er ikke ansvarlig for tab, der følger af:
+.sp 3mm
+.if &U'&WEBPRIERH = P
+.th 5.6.1
+.el 5.5.1
+Driftsforstyrrelser, der forhindrer anvendelsen af
+&WEBSYSNAVN., herunder at der ikke kan etableres adgang til
+&WEBSYSNAVN eller forbindelse til &BANKNAVN.s edb-anlæg,
+eller at forbindelsen bliver afbrudt, uanset omdet skyldes &BANKNAVN.s fejl eller ydre omstændigheder.
+.sp 3mm
+.kp off
+.kp on
+.if &U'&WEBPRIERH = P
+.th 5.6.2
+.el 5.5.2
+Spærring af kundens konti ved begrundet mistanke ommisbrug af kundens konti, eller af kundens adgang til
+&WEBSYSNAVN..
+.sp 3mm
+.kp off
+.kp on
+.if &U'&WEBPRIERH = P
+.th 5.6.3
+.el 5.5.3
+Ændring i eller afvisning af overførselsordrer, som følgeaf indgreb fra &BANKNAVN.s side, jf. pkt.
+.if &U'&WEBPRIERH = P
+.th 2.8.4
+.el 2.7.4
+ovenfor.
+.sp 3mm
+.kp off
+.kp on
+.if &U'&WEBPRIERH = P
+.th 5.7
+.el 5.6
+&BANKNAVN. er desuden i intet tilfælde ansvarlig forindirekte tab hos kunden, herunder driftstab,
+rentetab, tidstab,tab af goodwill eller for skade på ting hos kunden herunder tab afdata eller programmer, 
+ej heller såfremt skaden skyldes en defektved &BANKNAVN.s produkt. Dette gælder, uanset om &BANKNAVN. 
+har været underrettet om mulighed for sådannetab, og uanset om &BANKNAVN. har udvist uagtsomhed.
+.sp 5mm
+.kp off
 .if &U'&WEBPRIERH = E
 .th .go ERHPKT6
 .*** KUN FOR PRIVAT *******************************************************

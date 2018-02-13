@@ -1,0 +1,353 @@
+Håndbogsafsnit;Brev ID;Beskrivelse;Menu gruppe
+4.1.1.;BECBØRN01 ;Aftale om børneopsparing                                                            ;Menuen: Børn (BECBØRN)
+4.1.2.;BECBØRN02 ;Børneopsparing – Forlængelse af bindingsperiode                                     ;Menuen: Børn (BECBØRN)
+4.1.3.;BECBØRN03 ;Børneopsparing – Overdragelse af status som opretter                                ;Menuen: Børn (BECBØRN)
+4.1.4.;BECBØRN04 ;Børneopsparing – Overtagelse af status som opretter                                 ;Menuen: Børn (BECBØRN)
+4.2.1.;BECUDD01 ;Uddannelseserklæring                                                                ;Menuen Uddannelse (BECUDD)
+4.3.1.;BECIND01 ;Mortifikation/Bortkomst af Bankbog                                                  ;Menuen Uddannelse (BECUDD)
+4.3.2.;BECIND02 ;Arbejdsgiverbrev                                                                    ;Menuen Uddannelse (BECUDD)
+4.3.3.;BECNEM01 ;3. mands aftale om NemKonto                                                         ;Menuen Uddannelse (BECUDD)
+4.3.4.;BECNEM02 ;Aftale om NemKonto                                                                  ;Menuen Uddannelse (BECUDD)
+4.3.5.;BECOVTINF01 ;Information om overtræk                                                             ;Menuen Uddannelse (BECUDD)
+4.4.1.;BECLÅN02 ;Lån i restance (til Kautionist/Deponent)                                            ;Menuen Udlån (BECLÅN)
+4.4.2.;BECLÅN03 ;Lån er opsagt (til Kautionist/Deponent)                                             ;Menuen Udlån (BECLÅN)
+4.4.3.;BECLÅN04 ;Lån er opsagt Kautionist/deponent skal indfri                                       ;Menuen Udlån (BECLÅN)
+4.4.4.;BECLÅN05 ;Lån Indfriet – Kautionsforpligtigelse ophørt                                        ;Menuen Udlån (BECLÅN)
+4.4.5.;BECLÅN06 ;Lån Indfriet – sikkerhed frigivet (til deponent)                                    ;Menuen Udlån (BECLÅN)
+4.4.6.;BECPANTH01 ;Panthaverdeklaration - F                                                            ;Menuen Udlån (BECLÅN)
+4.4.7.;BECPANTH02 ;Panthaverdeklaration - L                                                            ;Menuen Udlån (BECLÅN)
+4.4.8.;BECPANTH03 ;Panthaverdeklaration - R                                                            ;Menuen Udlån (BECLÅN)
+4.4.9.;BECLÅN90 ;Dokumentation for rådgivning om lån med sikkerhed i fast ejendom                    ;Menuen Udlån (BECLÅN)
+4.4.10;BECLÅN91 ;Dokumentation for rådgivning om lån med sikkerhed i fast ejendom                    ;Menuen Udlån (BECLÅN)
+4.4.11;BECLÅN93 ;Dokumentation for rådgivning om lån med sikkerhed i fast ejendom                    ;Menuen Udlån (BECLÅN)
+4.4.12;BECAFSL01 ;Kreditafslag                                                                        ;Menuen Udlån (BECLÅN)
+4.4.13;BECSEFO02 ;Standard. EU forbrugerkreditopl.                                                    ;Menuen Udlån (BECLÅN)
+4.4.14;BECSEFO03 ;EU forbrugerkreditopl.                                                              ;Menuen Udlån (BECLÅN)
+4.5.1.;BECGAR01 ;AB 92 – Byggearbejder                                                               ;Menuen Garantier (BECGAR )
+4.5.2.;BECGAR02 ;AB 92 – Anlægsarbejder                                                              ;Menuen Garantier (BECGAR )
+4.5.3.;BECGAR03 ;AB 92 – Leverance                                                                   ;Menuen Garantier (BECGAR )
+4.5.4.;BECGAR04 ;AB 92 – Bygherre                                                                    ;Menuen Garantier (BECGAR )
+4.5.5.;BECGAR05 ;AB 92 – 1 år – Nedskrivningsbrev incl. erklæring                                    ;Menuen Garantier (BECGAR )
+4.5.6.;BECGAR06 ;AB 92 – 5 år – Ophørsbrev                                                           ;Menuen Garantier (BECGAR )
+4.5.7.;BECGAR07 ;Garanti/anfordringsgaranti                                                          ;Menuen Garantier (BECGAR )
+4.5.8.;BECGAR09 ;Garantierklæring – max 20%                                                          ;Menuen Garantier (BECGAR )
+4.5.9.;BECGAR10 ;Garantierklæring – mere end 20%                                                     ;Menuen Garantier (BECGAR )
+4.5.10;BECGAR11 ;Kautionsbevis – Reg.afg. af motorkøretøjer                                          ;Menuen Garantier (BECGAR )
+4.5.11;BECGAR12 ;Entreprenørgaranti i medfør af ABT 93 § 6                                           ;Menuen Garantier (BECGAR )
+4.5.12;BECGAR13 ;Standardgaranti ved køb af eksisterende fast ejendom                                ;Menuen Garantier (BECGAR )
+4.5.13;BECGAR14 ;Standardgaranti ved køb af nybygget fast ejendom                                    ;Menuen Garantier (BECGAR )
+4.5.14;BECGAR15 ;Standardgaranti ved køb af eksisterende andelsbolig                                 ;Menuen Garantier (BECGAR )
+4.5.15;BECGAR16 ;Standardgaranti ved køb af nybygget andelsbolig (Brugerstyret)                      ;Menuen Garantier (BECGAR )
+4.5.16;BECGAR17 ;Std.garanti ved køb af nybygget andelsbolig (Entreprenørstyret)                     ;Menuen Garantier (BECGAR )
+4.5.17;BECGAR18 ;Garanti til AB-forbruger §10 (entreprenør)                                          ;Menuen Garantier (BECGAR )
+4.5.18;BECGAR19 ;Garanti til AB-forbruger §11 (forbruger)                                            ;Menuen Garantier (BECGAR )
+4.5.19;BECGAR20 ;Garanti - Realkredit                                                                ;Menuen Garantier (BECGAR )
+4.5.20;BECGAR21 ;ABT 93 § 7 - Bygherregaranti                                                        ;Menuen Garantier (BECGAR )
+4.5.21;BECRMB01 ;Remburserklæring Inkasso (eksport)                                                  ;Menuen Garantier (BECGAR )
+4.6.1.;BECTRAN01 ;Transport – på entreprisesum                                                        ;Menuen Transporter (BECTRAN)
+4.6.2.;BECTRAN02 ;Transport – på tilgodehavende                                                       ;Menuen Transporter (BECTRAN)
+4.6.3.;BECTRAN03 ;Transport i forsikringssum (Skadesforsikring)                                       ;Menuen Transporter (BECTRAN)
+4.6.4.;BECTRAN04 ;Transport i købesum - Kontanthandel                                                 ;Menuen Transporter (BECTRAN)
+4.7.1.;BECCHE02 ;Check – Anmodning om spærring                                                       ;Menuen Check (BECCHECK )
+4.7.2.;BECCHE03 ;Notifikation og returnering af check                                                ;Menuen Check (BECCHECK )
+4.8.1.;BECLØN08 ;Aftale om tilslutning til LønService                                                ;Menuen LønService kontrakter (BECLØN)
+4.8.2.;BECLØN09 ;Aftale om tilslutning til LønService for serviceleverandør                          ;Menuen LønService kontrakter (BECLØN)
+5.1.1.;BECBOLIG98 ;Boligopsparing 98 – kontrakt                                                        ;Menuen Boligopsparing (BECBOLIG1 )
+5.1.2.;BECBOL01 ;Boligsparekontrakt – deludbetaling                                                  ;Menuen Boligopsparing (BECBOLIG1 )
+5.2.1.;BECTING03 ;Tinglysning – Effekter til tinglysning                                              ;Menuen Tinglysning (BECTING)
+5.2.2.;BECTING05 ;Konvertering af panterettighed ejer-/pantebrev                                      ;Menuen Tinglysning (BECTING)
+5.2.1.;BECFULKRF01 ;Fuldmagt KRF-lån                                                                    ;Menuen Tinglysning (BECTING)
+5.2.1.;BECPÅT01;Kombinationspåtegning - Personbogen                                                 ;Menuen Tinglysning (BECTING)
+5.2.1.;BECPÅT02 ;Kombinationspåtegning - Andelsbolig                                                 ;Menuen Tinglysning (BECTING)
+5.2.1.;BECPÅT03 ;Påtegning - Andelsbolig - PBR til EPR                                               ;Menuen Tinglysning (BECTING)
+5.2.1.;BECPÅT04 ;Påtegning - Andelsbolig - PBR til EPR                                               ;Menuen Tinglysning (BECTING)
+5.3.1.;BECTER02 ;Terminskontrakt- ved tillæg/Konvertering                                            ;Menuen: Terminskontrakter (BECTER)
+5.3.2.;BECTER03 ;Terminskontrakt - ved ejerskiftelån / hjemtagelse                                   ;Menuen: Terminskontrakter (BECTER)
+5.3.3.;BECTER04 ;Terminskontrakt-ved ejerskifte / indfrielse                                         ;Menuen: Terminskontrakter (BECTER)
+6.2.1.;BECKAP04 ;Erklæring om udbetaling af kapitalpension                                           ;Menuen Kapitalpension (BECKAP)
+6.2.2.;BECKAP06 ;Vejl. ved udbet. og afgiftsberigtigelse af Kapitalpension                           ;Menuen Kapitalpension (BECKAP)
+6.2.3.;BECKAP05 ;Kapitalpensions-attest (ved udbetaling pga. livstruende sygdom)                     ;Menuen Kapitalpension (BECKAP)
+6.3.1.;BECRAT16 ;Aftale om ratepension – Arbejdsgiver (§ 15B-ordning)                                ;Menuen Ratepension (BECRAT)
+6.3.2.;BECRAT17 ;Aftale om ratepension – Privat (§ 15B-ordning)                                      ;Menuen Ratepension (BECRAT)
+6.3.3.;BECRAT04 ;Ratepensions opr. i andet pensionsinstitut efter det fyldte 60. år.                 ;Menuen Ratepension (BECRAT)
+6.3.4.;BECRAT05 ;RatePensionsudbetaling.                                                             ;Menuen Ratepension (BECRAT)
+6.4. ;BECALDER ;Aldersopsparing                                                                     ;Menuen Ratepension (BECRAT)
+6.5. ;BECPEN55 ;Aftale om konvertering - Kapitalpension til aldersopsparing                         ;Menuen Ratepension (BECRAT)
+6.1. ;BECALD04 ;Erklæring om udbetaling af aldersopsparing - inkl. vejledning                       ;Menuen Ratepension (BECRAT)
+6.1. ;BECALD06 ;Vejl. ved udbet. og afgiftsberigtigelse af aldersopsparing                          ;Menuen Ratepension (BECRAT)
+6.2.1.;BECSELV01 ;Selvpension - aftale                                                                ;Menuen Selvpension (BECSELV)
+6.2.2.;BECSELV02 ;Selvpension - forlængelsesbrev                                                      ;Menuen Selvpension (BECSELV)
+6.3. ;BECINDEKS ;Menuen Indekskontrakt                                                               ;Menuen Selvpension (BECSELV)
+6.3.1.;BECINDX01 ;Brev til indehaver af indeksopsparing ang. udbetaling (før 65. år)                  ;Menuen Selvpension (BECSELV)
+6.3.2.;BECINDX02 ;Udbetaling af indekskonto                                                           ;Menuen Selvpension (BECSELV)
+6.3.3.;BECINDX03 ;Opstartsbrev - Indekskontrakt                                                       ;Menuen Selvpension (BECSELV)
+6.3.4.;BECINDX04 ;Erklæring om ret til folkepension                                                   ;Menuen Selvpension (BECSELV)
+6.4.1.;BECSEP01 ;Deling af pension ved skilsmisse/separation                                         ;Menuen Pension diverse (BECPENSDIV)
+6.4.2.;BECBEGUN01 ;Indberetning af begunstigelse til skifteretten                                      ;Menuen Pension diverse (BECPENSDIV)
+6.5.1.;BECUNOT01 ;Erkl. vedr. investering af pensionsmidler i unot. værdipapirer.                     ;Menuen Pensionsskat (BECPENSKAT )
+6.5.2.;BECUNOT02 ;Meddelelse om investering for pensionsmidler                                        ;Menuen Pensionsskat (BECPENSKAT )
+6.5.3.;BECUNOT03 ;Ejerskabserklæring                                                                  ;Menuen Pensionsskat (BECPENSKAT )
+6.5.4.;BECUNOT04 ;Meddelelse til selskab om salg af unoterede værdipapirer                            ;Menuen Pensionsskat (BECPENSKAT )
+6.5.5.;BECUNOT12 ;Notification of Investment using Pension Funds                                      ;Menuen Pensionsskat (BECPENSKAT )
+6.5.6.;BECUNOT13 ;Certificate of Ownership                                                            ;Menuen Pensionsskat (BECPENSKAT )
+7.1.1.;BECPI02 ;Postering clearet dokumentløst                                                      ;Menuen: PI (BECPI)
+7.1.2.;BECPI03 ;Forespørgsel/meddelelse vedr. indbetalingskort                                      ;Menuen: PI (BECPI)
+7.1.3.;BECOVE01 ;Anmodning om overførsel af konti.                                                   ;Menuen: PI (BECPI)
+7.1.4.;BECDOK01 ;Dokumenter til underskrift                                                          ;Menuen: PI (BECPI)
+7.2.1.;BECBUD02 ;Budget – ændring af overførsel (if. aftale)                                         ;Menuen: PI (BECPI)
+7.2.2.;BECBUD03 ;Budget – ændring af overførsel (uden aftale)                                        ;Menuen: PI (BECPI)
+7.2.3.;BECBUD04 ;Budget – årlig gennemgang                                                           ;Menuen: PI (BECPI)
+7.2.4.;BECBUD05 ;Budget – Fremsendelse af budgetskema                                                ;Menuen: PI (BECPI)
+7.2.5.;BECBUD06 ;Budget – afvisning af betaling(er) (mgl. dækning)                                   ;Menuen: PI (BECPI)
+7.2.6.;BECBS01 ;Aftale om Betalingsservice                                                          ;Menuen: PI (BECPI)
+7.2.7.;BECBS02;Aftale om KonvoLet Betaling                                                         ;Menuen: PI (BECPI)
+7.2.8.;BECBET01 ;A-skat, feriekonto, ATP ikke afregnet                                               ;Menuen: PI (BECPI)
+7.2.9.;BECSOP01 ;Service Opkrævning – Kreditoroplysninger 96011                                      ;Menuen: PI (BECPI)
+7.2.10;BECSOP02 ;Service Opkrævning – Kreditoroplysninger 96022                                      ;Menuen: PI (BECPI)
+7.2.11;BECSOP03 ;Service Opkrævning – Medlemsoplysninger 96031                                       ;Menuen: PI (BECPI)
+7.2.12;BECSOP04 ;Service Opkrævning – Medlemsoplysninger 96037                                       ;Menuen: PI (BECPI)
+7.2.13;BECSOP05 ;Service Opkrævning – Medlemsoplysninger 96038                                       ;Menuen: PI (BECPI)
+7.2.14;BECSOP06 ;Service Opkrævning – Medlemsoplysninger 96040                                       ;Menuen: PI (BECPI)
+7.2.15;BECSOP07 ;Service Opkrævning – Rekvisitioner 96051                                            ;Menuen: PI (BECPI)
+7.2.16;BECSOP08 ;Service Opkrævning – Rekvisitioner 96056                                            ;Menuen: PI (BECPI)
+7.2.17;BECSOP09 ;Service Opkrævning – Rekvisitioner 96060                                            ;Menuen: PI (BECPI)
+7.2.18;BECSOP10 ;Service Opkrævning - Anmodning om udførelse                                         ;Menuen: PI (BECPI)
+7.3.1.;BECSEPA01 ;Tilslutningsaftale til SEPA Direct Debit - privatkunder                             ;Menuen: SEPA Direct Debit (BECSEPA)
+7.3.2.;BECSEPA02 ;Tilslutningsaftale til SEPA Direct Debit - erhvervskunder                           ;Menuen: SEPA Direct Debit (BECSEPA)
+8.1. ;BECKORT01 ;Meddelelse om spærring                                                              ;Menuen Kort (BECKORT)
+8.2. ;BECKORT02 ;Bekræftelse af spærring                                                             ;Menuen Kort (BECKORT)
+8.3. ;BECKORT03 ;Internationalt kort inddraget i ATM                                                 ;Menuen Kort (BECKORT)
+8.4. ;BECKORT04 ;Bestilling (ikke Mastercard)                                                        ;Menuen Kort (BECKORT)
+8.5. ;BECKORT05 ;Fornyelse ved udløb                                                                 ;Menuen Kort (BECKORT)
+8.6. ;BECKORT07 ;Tro og love erklæring                                                               ;Menuen Kort (BECKORT)
+8.7. ;BECKORT08 ;Spærring - forgæves pinkodeforsøg                                                   ;Menuen Kort (BECKORT)
+8.8. ;BECKORT11 ;Kort inddraget i ATM - brev til Nets/Fremmed PI                                     ;Menuen Kort (BECKORT)
+8.9. ;BECKORT23 ;Bekræftelse af spærring (Debetkort/MasterCard)                                      ;Menuen Kort (BECKORT)
+9.1.1.;BECLØN12 ;Aftale om LønService via internet for serviceleverandør                             ;I*net Kontrakter (BECINET)
+9.1.2.;BECLØN14 ;Aftale om LønService via internet                                                   ;I*net Kontrakter (BECINET)
+9.1.3.;BECEDAN01 ;Aftale om handelsbeløb til eDankort                                                 ;I*net Kontrakter (BECINET)
+9.1.4.;BECINFO01 ;Aftale om InfoService                                                               ;I*net Kontrakter (BECINET)
+9.1.5.;BECWEB20 ;Aftale om Netbank (e-Boks Fuldmagter)                                               ;I*net Kontrakter (BECINET)
+9.2.1.;BECFØL01-04 ;Følgebrev med kasser og rammer                                                      ;Følgebreve (BECFØL)
+9.2.2.;BECFØL11-14 ;Følgebrev i brevform                                                                ;Følgebreve (BECFØL)
+9.2.3.;BECBREV01-04;Breve – valgfri tekst                                                               ;Følgebreve (BECFØL)
+9.3.1.;BECSOL01 ;Kreditoplysningsforespørgsel.                                                       ;Soliditet (BECSOL)
+9.3.2.;BECSOL02 ;Kreditoplysningsbesvarelse                                                          ;Soliditet (BECSOL)
+9.4.1.;BECKVIT01 ;Kvittering for materiale udl. til kunder                                            ;Andre breve (BECAND)
+9.4.2.;BECKVIT02 ;Kvittering for materiale indl. af kunder                                            ;Andre breve (BECAND)
+9.4.3.;BECSAM01 ;Samtykkeerklæring - Videregivelse af kundeoplysninger                               ;Andre breve (BECAND)
+9.4.4.;BECÅRS01 ;Årsoplysning - Videregivelse af kundeoplysninger                                    ;Andre breve (BECAND)
+9.4.5.;BECFULD01 ;Fuldmagt i alle forhold                                                             ;Andre breve (BECAND)
+9.4.6.;BECDEPBAS50D;Basisaftale om handel med værdipapirer                                              ;Andre breve (BECAND)
+9.4.7.;BECVIDEO01 ;Begæring om udlevering af videooptagelser                                           ;Andre breve (BECAND)
+9.4.9.;BECEKSKP02 ;Erklæring om skatteindberetningspligt                                               ;Andre breve (BECAND)
+9.4.10;BECFIBS01 ;Det fælles indbetalingssystem                                                       ;Andre breve (BECAND)
+9.4.11;BECDGNB01 ;Aftale om døgnboks                                                                  ;Andre breve (BECAND)
+9.4.12;BECDBE01 ;Dødsbo brev til skifteretten                                                        ;Andre breve (BECAND)
+9.4.13;BECDBKDL01;Dødsbo brev til ægtefælle eller samlever                                            ;Andre breve (BECAND)
+9.4.1.;BECINDSKGAR ;Oplysningsskema - Indskydergaranti                                                  ;Andre breve (BECAND)
+9.4.1.;BECEBOKS30 ;Tak for din tilmelding til elektronisk post                                         ;Andre breve (BECAND)
+9.4.1.;BECDENAA01 ;Denunciation - aktier/anparter                                                      ;Andre breve (BECAND)
+9.5.1.;BECUWEB01 ;Aftale om Netbank - engelsk                                                         ;Engelske kontrakter (BECUDL)
+9.5.2.;BECUWEB02 ;Fuldmagt til selvbetjeningssystemer - engelsk                                       ;Engelske kontrakter (BECUDL)
+9.5.3.;BECUWEB05 ;Brugeraftale om Netbank - engelsk                                                   ;Engelske kontrakter (BECUDL)
+9.5.4.;BECUFULD01 ;Fuldmagt i alle forhold - engelsk                                                   ;Engelske kontrakter (BECUDL)
+9.5.5.;BECUEKSKP02 ;Erklæring om skatteindberetningspligt - Engelsk version                             ;Engelske kontrakter (BECUDL)
+10.2. ;BECRYK500 ;Overtræksbehandling                                                                 ;Menuen: Overtræksbehandling (BECRYKOVT)
+10.3. ;BECRYKD ;Parametre til rykkerbreve                                                           ;Menuen: Overtræksbehandling (BECRYKOVT)
+10.4. ;BECBEVOVT001;Bevilget overtræksbrev                                                              ;Menuen: Overtræksbehandling (BECRYKOVT)
+10.5. ;BECBEVOVTP1 ;Parametre til bevilling af overtræk                                                 ;Menuen: Overtræksbehandling (BECRYKOVT)
+10.6. ;BECKAURYK001;Skabelon til kautionist/deponent rykkerbrev                                         ;Menuen: Overtræksbehandling (BECRYKOVT)
+10.7. ;BECKAURYKP1 ;Parametre til kautionist/deponent-rykkerbrev                                        ;Menuen: Overtræksbehandling (BECRYKOVT)
+10.8. ;BECOVTINF51 ;Information om overtræk                                                             ;Menuen: Overtræksbehandling (BECRYKOVT)
+1. ;BECFSS01 ;nærpension - blanketter                                                             ;
+1.1. ;BECFSS01 ;nærpension – blanketter via I*net                                                   ;
+1.2. ;BECFSS03 ;nærpension – blanketter via 3270                                                    ;
+2.1. ;BECWEB01 ;Aftale om Netbank                                                                   ;Homebanking generelt                                                                
+2.2. ;BECWEB02 ;Fuldmagt til selvbetjeningssystemer                                                 ;Homebanking generelt                                                                
+2.3. ;BECWEB03 ;Aftale om Netbank værdipapirhandel - Privat                                         ;Homebanking generelt                                                                
+2.4. ;BECWEB04 ;Aftale om benyttelse af kursinformationer                                           ;Homebanking generelt                                                                
+2.5. ;BECWEB05 ;Brugeraftale om Netbank                                                             ;Homebanking generelt                                                                
+2.6. ;BECWEB06 ;Aftale om Netbank værdipapirhandel - Erhverv                                        ;Homebanking generelt                                                                
+2.7. ;BECWEB07 ;Aftale om Selvbetjent Brugeradministration                                          ;Homebanking generelt                                                                
+2.1. ;BECWEB08 ;Aftale om Selvbetjent Brugeradministration og fuldmagt til konti og depoter         ;Homebanking generelt                                                                
+2.2. ;BECLØN13 ;Aftale om LønService via internet                                                   ;Homebanking generelt                                                                
+2.3. ;BECSMS01 ;Aftale SMS-Service                                                                  ;Homebanking generelt                                                                
+2.4. ;BECNEMPU01 ;Aftale om NemKonto-systemet for Private Udbetalere (Erhverv)                        ;Homebanking generelt                                                                
+3.1. ;BECWEB80 ;Aftale om Netbank (version 1)                                                       ;Elektroniske aftaler via I*net                                                      
+3.2. ;BECWEB90 ;Aftale om Netbank (version 2)                                                       ;Elektroniske aftaler via I*net                                                      
+3.3. ;BECWEB70 ;Aftale om Netbank (version 3)                                                       ;Elektroniske aftaler via I*net                                                      
+3.4. ;BECWEB81 ;Tillægsaftale om Netbank værdipapirhandel – oblig. opsigelse                        ;Elektroniske aftaler via I*net                                                      
+3.5. ;BECWEB83 ;Tillægsaftale om Netbank værdipapirhandel – oblig. opsigelse                        ;Elektroniske aftaler via I*net                                                      
+3.6. ;BECWEB91 ;Tillægsaftale om Netbank værdipapirhandel – valgfri opsigelse                       ;Elektroniske aftaler via I*net                                                      
+3.7. ;BECWEB93 ;Tillægsaftale om Netbank værdipapirhandel – valgfri opsigelse                       ;Elektroniske aftaler via I*net                                                      
+3.8. ;BECWEB82 ;Tillægsaftale om benyttelse af kursinformation - oblig. opsigelse                   ;Elektroniske aftaler via I*net                                                      
+3.9. ;BECBS80 ;Tillægsaftale om Betalingsservice – obligatorisk opsigelse                          ;Elektroniske aftaler via I*net                                                      
+3.10. ;BECBS90 ;Tillægsaftale om Betalingsservice – valgfri opsigelse                               ;Elektroniske aftaler via I*net                                                      
+3.11. ;BECEKORT80 ;Tillægsaftale om elektronisk indbetalingskort – oblig. opsigelse                    ;Elektroniske aftaler via I*net                                                      
+3.12. ;BECEKORT90 ;Tillægsaftale om elektronisk indbetalingskort – valgfri opsigelse                   ;Elektroniske aftaler via I*net                                                      
+3.13. ;BECEBOKS80 ;Tillægsaftale om elektronisk post (e-Boks) – oblig. opsigelse                       ;Elektroniske aftaler via I*net                                                      
+3.14. ;BECEBOKS90 ;Tillægsaftale om elektronisk post (e-Boks) – valgfri opsigelse                      ;Elektroniske aftaler via I*net                                                      
+3.15. ;BECNETID80 ;Tillægsaftale om net-ID – obligatorisk opsigelse                                    ;Elektroniske aftaler via I*net                                                      
+3.16. ;BECNETID90 ;Tillægsaftale om net-ID – valgfri opsigelse                                         ;Elektroniske aftaler via I*net                                                      
+3.17. ;BECEDAN80 ;Tillægsaftale om eDankort – obligatorisk opsigelse                                  ;Elektroniske aftaler via I*net                                                      
+3.18. ;BECEDAN90 ;Tillægsaftale om eDankort – valgfri opsigelse                                       ;Elektroniske aftaler via I*net                                                      
+3.19. ;BECCONN01 ;Bank Connect aftale (Erhverv)                                                       ;Elektroniske aftaler via I*net                                                      
+3.20. ;BECCONN02 ;Rammeaftale om Bank Connect (Erhverv)                                               ;Elektroniske aftaler via I*net                                                      
+3.21. ;BECCONN03 ;Erhverv Connect ændringsformular                                                    ;Elektroniske aftaler via I*net                                                      
+4.1. ;BECMEL01 ;Mellemregningsbilag                                                                 ;Bankbogføring                                                                       
+5.1. ;BECKOPL50 ;Afviklingstabel                                                                     ;I*net Kontoversigt                                                                  
+6.1.1.;BECKUN02 ;Kontooprettelse/ændring                                                             ;I*net Kontoadministration                                                           
+7.1. ;BECKORT51 ;Meddelelse om spærring                                                              ;I*net Overtræksbehandling                                                           
+8.1. ;BECKORT80 ;Adhoc-udskrivning af kundeinfo vdr. kortændringer                                   ;Adhoc-udskrivning af kundeinfo vedr. kortændringer                                  
+9.1. ;BECKORT51 ;Meddelelse om spærring – fra I*net                                                  ;KortAdministration på I*net:                                                        
+9.2. ;BECKORT52 ;Bekræftelse af spærring - fra I*net                                                 ;KortAdministration på I*net:                                                        
+9.3. ;BECKORT60 ;Ophævelse af spærring - fra I*net                                                   ;KortAdministration på I*net:                                                        
+9.4. ;BECKORT63 ;Fejlagtig spærring - fra I*net                                                      ;KortAdministration på I*net:                                                        
+9.5. ;BECKORT73 ;Bekræf. af spærring (MAESTRO/Visa Electron/MasterCard), fra I*net                   ;KortAdministration på I*net:                                                        
+9.6. ;BECKTBEST01 ;Bestilling, undtagen MC Kredit                                                      ;KortAdministration på I*net:                                                        
+9.7. ;BECKTBEST02 ;Ansøgning om privatkort (nye kunder)                                                ;KortAdministration på I*net:                                                        
+9.8. ;BECKTBEST03 ;Ansøgning om privatkort                                                             ;KortAdministration på I*net:                                                        
+9.9. ;BECKTBEST04 ;Ansøgning om familiekort                                                            ;KortAdministration på I*net:                                                        
+9.10. ;BECKTBEST05 ;Ansøgning firmakort                                                                 ;KortAdministration på I*net:                                                        
+9.11. ;BECKTREGL01 ;Brugerregler – Dankort                                                              ;KortAdministration på I*net:                                                        
+9.12. ;BECKTREGL02 ;Brugerregler – Visa/Dankort                                                         ;KortAdministration på I*net:                                                        
+9.13. ;BECKTREGL03 ;Brugerregler – Hævekort                                                             ;KortAdministration på I*net:                                                        
+9.14. ;BECKTREGL04 ;Brugerregler for Visa/Debit/Visa Electron                                           ;KortAdministration på I*net:                                                        
+9.15. ;BECKTREGL05 ;Kortbestemmelser – MasterCard Kredit                                                ;KortAdministration på I*net:                                                        
+9.16. ;BECKTREGL06 ;Kortbestemmelser – MasterCard Debit                                                 ;KortAdministration på I*net:                                                        
+9.17. ;BECKTPRIS01 ;Priser for Dankort                                                                  ;KortAdministration på I*net:                                                        
+9.18. ;BECKTPRIS02 ;Priser for Visa/Dankort                                                             ;KortAdministration på I*net:                                                        
+9.19. ;BECKTPRIS03 ;Priser for Hævekort                                                                 ;KortAdministration på I*net:                                                        
+9.20. ;BECKTPRIS04 ;Priser for Visa Electron                                                            ;KortAdministration på I*net:                                                        
+9.22. ;BECKTPRIS05 ;Prisliste for MasterCard Standard u/forsikring                                      ;KortAdministration på I*net:                                                        
+9.23. ;BECKTPRIS06 ;Prisliste for MasterCard Standard                                                   ;KortAdministration på I*net:                                                        
+9.24. ;BECKTPRIS07 ;Prisliste for MasterCard Guld                                                       ;KortAdministration på I*net:                                                        
+9.25. ;BECKTPRIS08 ;Prisliste for MasterCard Platinum                                                   ;KortAdministration på I*net:                                                        
+9.26. ;BECKTPRIS09 ;Prisliste for MasterCard Business Standard u/forsikring                             ;KortAdministration på I*net:                                                        
+9.27. ;BECKTPRIS10 ;Prisliste for MasterCard Business Standard                                          ;KortAdministration på I*net:                                                        
+9.28. ;BECKTPRIS11 ;Prisliste for MasterCard Business Guld                                              ;KortAdministration på I*net:                                                        
+9.29. ;BECKTPRIS12 ;Prisliste for MasterCard Business Platinum                                          ;KortAdministration på I*net:                                                        
+9.30. ;BECKTFSIK01 ;Forsikringsbetingelser for MasterCard Silver                                        ;KortAdministration på I*net:                                                        
+9.31. ;BECKTFSIK02 ;Forsikringsbetingelser for MasterCard Standard                                      ;KortAdministration på I*net:                                                        
+9.32. ;BECKTFSIK03 ;Forsikringsbetingelser for MasterCard Guld                                          ;KortAdministration på I*net:                                                        
+9.33. ;BECKTFSIK04 ;Forsikringsbetingelser for MasterCard Platinum                                      ;KortAdministration på I*net:                                                        
+9.34. ;BECKTFSIK05 ;Forsikringsbetingelser for MasterCard Business Standard                             ;KortAdministration på I*net:                                                        
+9.35. ;BECKTFSIK06 ;Forsikringsbetingelser for MasterCard Business Guld                                 ;KortAdministration på I*net:                                                        
+9.36. ;BECKTFSIK07 ;Forsikringsbetingelser for MasterCard Business Platinum                             ;KortAdministration på I*net:                                                        
+10.1. ;BECKUN01 ;Aftale om kundeforhold                                                              ;Proces ny kunde                                                                     
+10.2. ;BECBS51 ;Aftale om Betalingsservice                                                          ;Proces ny kunde                                                                     
+10.3. ;BECBS52 ;Aftale om konvoLet Betaling                                                         ;Proces ny kunde                                                                     
+10.4. ;BECIND52 ;Arbejdsgiverbrev                                                                    ;Proces ny kunde                                                                     
+10.5. ;BECBØRN51 ;Aftale om børneopsparing                                                            ;Proces ny kunde                                                                     
+10.7. ;BECELUND01 ;Aft. om brug af elek. underskrift og bet.oversigt                                   ;BEC Anmodning om overførsel af konti.                                               
+10.8. ;BECEKSKP01 ;Erklæring om skatteindberetningspligt                                               ;BEC Anmodning om overførsel af konti.                                               
+10.9. ;BECUEKSKP01 ;Erklæring om skatteindberetningspligt – engelsk version                             ;BEC Anmodning om overførsel af konti.                                               
+11.1. ;BECDEPBAS50 ;Basisaftale om handel med værdipapirer                                              ;Depot I*Net                                                                         
+11.2. ;BECDEPAFT50 ;Depotaftale                                                                         ;Depot I*Net                                                                         
+12.2. ;BECKRED50 ;Kreditaftale – I*net                                                                ;Varslingstider                                                                      
+12.3. ;BECLÅN50 ;Låneaftale – I*net                                                                  ;Varslingstider                                                                      
+12.4. ;BECHÅND50 ;Håndpantsætningserklæring – I*net                                                   ;Varslingstider                                                                      
+12.5. ;BECKAU50 ;Kautionserklæring – I*net                                                           ;Varslingstider                                                                      
+12.6. ;BECEKAU50 ;Kautionserklæring – Erhverv, I*net                                                  ;Varslingstider                                                                      
+12.7. ;BECPANT03 ;Erklæring (privat tredjemandspant) – I*net                                          ;Varslingstider                                                                      
+12.8. ;BECNOTA50 ;Afregning lånesag                                                                   ;Varslingstider                                                                      
+12.9. ;BECUNOTA50 ;Afregning lånesag                                                                   ;Varslingstider                                                                      
+12.10.;BECKOPL50 ;Kreditoplysninger                                                                   ;Varslingstider                                                                      
+12.11.;BECUPANT01A ;Aftale om underpantsætning                                                          ;Varslingstider                                                                      
+12.12.;BECSEFO52 ;Standard. EU forbrugerkreditopl.                                                    ;Varslingstider                                                                      
+12.13.;BECSEFO53 ;EU forbrugerkreditopl.                                                              ;Varslingstider                                                                      
+12.1. ;BECESIS50 ;EU standardiseret informationsark – ESIS-skema                                      ;Varslingstider                                                                      
+12.2. ;BECTRÆK50 ;Aftale om midlertidig trækningsret                                                  ;Varslingstider                                                                      
+14.6. ;BECEJERP01A ;Ejerpantebrev (fast ejendom)                                                        ;Storkundeordning                                                                    
+14.7. ;BECEJERP02A ;Ejerpantebrev (Bil)                                                                 ;Storkundeordning                                                                    
+14.8. ;BECEJERP03A ;Ejerpantebrev (løsøre)                                                              ;Storkundeordning                                                                    
+14.9. ;BECEJERP04A ;Ejerpantebrev (Andel)                                                               ;Storkundeordning                                                                    
+14.10.;BECANDEL01A ;Erklæring om adkomst (andelsboliger                                                 ;Storkundeordning                                                                    
+14.11.;BECSKADE01A ;Skadeløsbrev (fast ejendom)                                                         ;Storkundeordning                                                                    
+14.12.;BECSKADE02A ;Skadeløsbrev (bil)                                                                  ;Storkundeordning                                                                    
+14.13.;BECSKADE03A ;Skadeløsbrev (løsøre)                                                               ;Storkundeordning                                                                    
+14.14.;BECSKADE04A ;Skadesløsbrev (Virksomhedspant)                                                     ;Storkundeordning                                                                    
+14.15.;BECSKADE05A ;Skadesløsbrev (Fordringspant)                                                       ;Storkundeordning                                                                    
+14.16.;BECSKADE06 ;Pantsætningsforbud (Personbogen)                                                    ;Storkundeordning                                                                    
+14.17.;BECPANT01 ;Pantsat                                                                             ;Storkundeordning                                                                    
+14.18.;BECPANT02 ;Ejerpantebrev, de pantsatte andele                                                  ;Storkundeordning                                                                    
+14.19.;BECOPANT01 ;Oprykkende panteret                                                                 ;Storkundeordning                                                                    
+14.20.;BECOPANT02 ;Foranstående hæftelser                                                              ;Storkundeordning                                                                    
+14.21.;BECELTING01A;Aftale om elektronisk tinglysning                                                   ;Storkundeordning                                                                    
+14.22.;BECEJERVIRK ;Virksomhedspant Ejerpantebrev                                                       ;Storkundeordning                                                                    
+15.1. ;BECPEN01 ;Aftale om ratepension, Privat ordning                                               ;Pensionsaftalesystemet                                                              
+15.2. ;BECPEN20 ;Aftale om ratepension, Arbejdsgiver ordning                                         ;Pensionsaftalesystemet                                                              
+15.3. ;BECPEN40 ;Aftale om kapitalpension, Privat ordning                                            ;Pensionsaftalesystemet                                                              
+15.4. ;BECPEN45 ;Aftale om aldersopsparing, Privat ordning                                           ;Pensionsaftalesystemet                                                              
+15.5. ;BECPEN50 ;Aftale om konvertering - Kapitalpension til aldersopsparing                         ;Pensionsaftalesystemet                                                              
+15.6. ;BECPEN60 ;Aftale om kapitalpension, Arb. ordning                                              ;Pensionsaftalesystemet                                                              
+15.7. ;BECPEN65 ;Aftale om aldersopsparing, Arbejdsgiverordning                                      ;Pensionsaftalesystemet                                                              
+15.8. ;BECPEN02 ;Aftale om ratepension - Privat (§ 15A ordning)                                      ;Pensionsaftalesystemet                                                              
+15.9. ;BECPEN90 ;Tillæg til aftale om kap/rat.pens, ny arbg./udtræd. arbg.                           ;Pensionsaftalesystemet                                                              
+15.10.;BECPENB01 ;Investeringsaftale                                                                  ;Pensionsaftalesystemet                                                              
+16.1. ;BECLOF001 ;Leasingaftale                                                                       ;Leasing og Finansiering (LOF)                                                       
+16.2. ;BECLOF002 ;Allonge - Service                                                                   ;Leasing og Finansiering (LOF)                                                       
+16.3. ;BECLOF003 ;Tilbagekøbserklæring 3. mand                                                        ;Leasing og Finansiering (LOF)                                                       
+16.4. ;BECLOF004 ;Allonge – Tilb.købserkl.kunde                                                       ;Leasing og Finansiering (LOF)                                                       
+16.5. ;BECLOF005 ;Allonge – Selvforsikrende                                                           ;Leasing og Finansiering (LOF)                                                       
+16.6. ;BECLOF006 ;Allonge – Tilb.købserkl.lb100%                                                      ;Leasing og Finansiering (LOF)                                                       
+16.7. ;BECLOF007 ;Allonge – Brændstofkort                                                             ;Leasing og Finansiering (LOF)                                                       
+16.8. ;BECLOF008 ;Allonge – Fleet Management                                                          ;Leasing og Finansiering (LOF)                                                       
+16.9. ;BECLOF009 ;Allonge – Kørsel-vedligh.kunde                                                      ;Leasing og Finansiering (LOF)                                                       
+16.10.;BECLOF010 ;Allonge – Vejhjælp                                                                  ;Leasing og Finansiering (LOF)                                                       
+16.11.;BECLOF011 ;Ryk forsikring-1                                                                    ;Leasing og Finansiering (LOF)                                                       
+16.12.;BECLOF012 ;Ryk forsikring-2                                                                    ;Leasing og Finansiering (LOF)                                                       
+16.13.;BECLOF013 ;Ryk forsikring-opsigelse                                                            ;Leasing og Finansiering (LOF)                                                       
+16.14.;BECLOF014 ;Ryk ingen forsikring-1                                                              ;Leasing og Finansiering (LOF)                                                       
+16.15.;BECLOF015 ;Rykker 1 og 2 - kautionist                                                          ;Leasing og Finansiering (LOF)                                                       
+16.16.;BECLOF016 ;Rykker 3 kautionist                                                                 ;Leasing og Finansiering (LOF)                                                       
+16.17.;BECLOF017 ;Rykker ydelse - kunde                                                               ;Leasing og Finansiering (LOF)                                                       
+16.18.;BECLOF018 ;Rykker pbs - kunde                                                                  ;Leasing og Finansiering (LOF)                                                       
+16.19.;BECLOF019 ;Opsigelse ydelse lån - kunde                                                        ;Leasing og Finansiering (LOF)                                                       
+16.20.;BECLOF020 ;Opsigelse ydl.forsikr. leasing                                                      ;Leasing og Finansiering (LOF)                                                       
+16.21.;BECLOF021 ;Faktura - ydelse                                                                    ;Leasing og Finansiering (LOF)                                                       
+16.22.;BECLOF022 ;Faktura – advisering og salg                                                        ;Leasing og Finansiering (LOF)                                                       
+16.23.;BECLOF023 ;Afregn. Brev-Bilinfo-takkebrev                                                      ;Leasing og Finansiering (LOF)                                                       
+16.24.;BECLOF024 ;Afregn.brev-forhandl.-formidl.                                                      ;Leasing og Finansiering (LOF)                                                       
+16.25.;BECLOF033 ;Forløbstabel                                                                        ;Leasing og Finansiering (LOF)                                                       
+16.26.;BECLOF034 ;Fremsendelsesbrev - forhandler                                                      ;Leasing og Finansiering (LOF)                                                       
+16.27.;BECLOF035 ;Fremsendelsesbrev - kauationist                                                     ;Leasing og Finansiering (LOF)                                                       
+16.28.;BECLOF036 ;Fremsendelsesbrev - kunde                                                           ;Leasing og Finansiering (LOF)                                                       
+16.29.;BECLOF037 ;Fremsendelsesbrev – tilb.køber                                                      ;Leasing og Finansiering (LOF)                                                       
+16.30.;BECLOF038 ;Indkøbsordre                                                                        ;Leasing og Finansiering (LOF)                                                       
+16.31.;BECLOF039 ;Kautionserklæring I                                                                 ;Leasing og Finansiering (LOF)                                                       
+16.32.;BECLOF040 ;Kautionserklæring II                                                                ;Leasing og Finansiering (LOF)                                                       
+16.33.;BECLOF041 ;Leverandørerklæring                                                                 ;Leasing og Finansiering (LOF)                                                       
+16.34.;BECLOF042 ;Modtagelseserklæring                                                                ;Leasing og Finansiering (LOF)                                                       
+16.35.;BECLOF043 ;Privatleasing Bilag 1                                                               ;Leasing og Finansiering (LOF)                                                       
+16.36.;BECLOF045 ;Ansøgning – bevilling - leasing                                                     ;Leasing og Finansiering (LOF)                                                       
+16.37.;BECLOF046 ;Frems.brev – org.Reg.attest d1                                                      ;Leasing og Finansiering (LOF)                                                       
+16.38.;BECLOF047 ;Afregningsbrev - Kunde                                                              ;Leasing og Finansiering (LOF)                                                       
+16.39.;BECLOF048 ;Afregning af GB og KK                                                               ;Leasing og Finansiering (LOF)                                                       
+16.40.;BECLOF049 ;Forsikringsskifte                                                                   ;Leasing og Finansiering (LOF)                                                       
+16.41.;BECLOF052 ;Allonge – ændr.afvikl.vilkår                                                        ;Leasing og Finansiering (LOF)                                                       
+16.42.;BECLOF053 ;Allonge – Køb af aktiv                                                              ;Leasing og Finansiering (LOF)                                                       
+16.43.;BECLOF054 ;Allonge – Salg af aktiv                                                             ;Leasing og Finansiering (LOF)                                                       
+16.44.;BECLOF058 ;Tilbagelev. Af bil hos Dekra                                                        ;Leasing og Finansiering (LOF)                                                       
+16.45.;BECLOF060 ;Udl. Kunde Gul&Hvid ej omreg.                                                       ;Leasing og Finansiering (LOF)                                                       
+16.46.;BECLOF061 ;Udstyr – skabelon 2006                                                              ;Leasing og Finansiering (LOF)                                                       
+16.47.;BECLOF062 ;Fremsend.brev – dok.t.underskr                                                      ;Leasing og Finansiering (LOF)                                                       
+16.48.;BECLOF063 ;Personoplysninger                                                                   ;Leasing og Finansiering (LOF)                                                       
+16.49.;BECLOF064 ;Allonge – Fortryd.retserklr.                                                        ;Leasing og Finansiering (LOF)                                                       
+16.50.;BECLOF066 ;Tilbudsbrev formidler og kunde                                                      ;Leasing og Finansiering (LOF)                                                       
+16.51.;BECLOF067 ;Privatleasing Bilag2 service                                                        ;Leasing og Finansiering (LOF)                                                       
+16.52.;BECLOF068 ;Privatleasing Bilag 3 sær.vilk.                                                     ;Leasing og Finansiering (LOF)                                                       
+16.53.;BECLOF069 ;Privatleasingaftale                                                                 ;Leasing og Finansiering (LOF)                                                       
+16.54.;BECLOF070 ;Købekontrakt - erhverv                                                              ;Leasing og Finansiering (LOF)                                                       
+16.55.;BECLOF071 ;Gældsbrev                                                                           ;Leasing og Finansiering (LOF)                                                       
+16.56.;BECLOF072 ;Ansøgning-bevilling-lån                                                             ;Leasing og Finansiering (LOF)                                                       
+16.57.;BECLOF073 ;Anm. om ejendomsforehold (BIL)                                                      ;Leasing og Finansiering (LOF)                                                       
+16.58.;BECLOF074 ;Ejerpantebrev (BIL)                                                                 ;Leasing og Finansiering (LOF)                                                       
+16.59.;BECLOF078 ;Posteringsoversigt                                                                  ;Leasing og Finansiering (LOF)                                                       
+16.60.;BECLOF080 ;FI-kort                                                                             ;Leasing og Finansiering (LOF)                                                       
+16.61.;BECLOF087 ;Forbrugerkøbekontrakt                                                               ;Leasing og Finansiering (LOF)                                                       
+17.1. ;BECKTO01 ;Kontooprettelse/ændring - I*net                                                     ;Bestilling af produkter i Netbanken                                                 
+17.1. ;BECDUMMYPDF ;Underskriftsrum teknik                                                              ;Bestilling af produkter i Netbanken                                                 
+18.1. ;BECEOP01 ;Overførselsanmodning                                                                ;Digital engagements overførsel                                                      
+19.1. ;BECSWIPE01 ;Aftale om Swipp Erhverv (SLETTES!!!)                                                ;SWIPP aftale for erhvervskunder                                                     
