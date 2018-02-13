@@ -306,3 +306,10 @@ mellem leasinggiver og brændstofselskabet ophører.
 har et låneforhold med leasinggiver.
 .ar off
 .**************************************************************************
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

@@ -238,3 +238,6 @@ at modtage markedsføringsmateriale:
 .sp 2
 .**************************************************************************
 .su off
+.bx off
+.ar off
+.su off

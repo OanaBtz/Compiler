@@ -300,3 +300,11 @@ til nævnte overkørte kilometer blive godtgjort ved beløbets opkrævning
 og indbetaling til leasinggiver fra brugeren/leasingtageren.
 .of
 .ar off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

@@ -227,3 +227,11 @@ videregive sædvanlige kundeoplysninger til:
 .ar off
 .**** RESTEN AF TEKSTEN ER VARIABEL, PGA. VARIABELT ANTAL SAMARBEJDS-***
 .**** PARTNERE, DERFOR ER TEKSTEN PLACERET I BECSAM01K ******************
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

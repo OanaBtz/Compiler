@@ -593,3 +593,12 @@ Underskrift  Underskrift 
 .in 5mm
 .ir 5mm
 .**********************
+.kp off
+.kp off
+.kp off
+.kp off
+.kp off
+.kp off
+.bx off
+.ar off
+.su off

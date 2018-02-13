@@ -355,3 +355,11 @@ Eventuelle begrænsninger/tilføjelser til ovennævnte autorisation:
 underskrift ¤Dato:
 .ar off
 .*******************************************************
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

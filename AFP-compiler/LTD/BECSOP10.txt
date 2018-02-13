@@ -276,3 +276,6 @@ Formidlende parts underskrift ¤Dato:
 .ar off
 .su off
 .ar off
+.bx off
+.bx off
+.ar off

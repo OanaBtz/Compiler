@@ -763,3 +763,13 @@ med &BANKNAVN. uden varsel.
 .sp 5mm
 .kp off
 .ar off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

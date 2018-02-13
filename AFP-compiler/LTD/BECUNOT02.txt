@@ -741,3 +741,7 @@ bekræfter, at
 .in 5mm nobreak
 vidt selskabet er bekendt vil
 &KTONAVN.,
+.bx off
+.bx off
+.ar off
+.su off

@@ -375,3 +375,11 @@ Generelle regler for debitorer i Betalingsservice pr. 1. august 2015
 .pa nostart
 .** INDRYK FRA VENSTREMARGIN NULSTILLES
 .in 0mm
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

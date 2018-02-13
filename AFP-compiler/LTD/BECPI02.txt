@@ -571,3 +571,5 @@ Check/nota vedlagt
 &GENEKSP
 .ar off
 .************************************************
+.ar off
+.ar off

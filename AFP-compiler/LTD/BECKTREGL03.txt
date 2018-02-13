@@ -876,3 +876,5 @@ godtgjort af den pågældende.
 .sp 3mm
 .ri
 Hele lovteksten findes på www.retsinformation.dk
+.kp off
+.rh off

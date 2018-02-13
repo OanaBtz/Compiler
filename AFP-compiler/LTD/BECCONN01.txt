@@ -643,3 +643,8 @@ Underskrift &BANKNAVN.
 .kp off
 .bx off
 .ar off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

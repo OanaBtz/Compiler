@@ -244,3 +244,10 @@ bestemmelser. Aftalen er bindende for leasinggiver, når den er underskrevet
 af tegningsberettiget for samme.
 .ar off
 .**************************************************************************
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

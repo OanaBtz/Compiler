@@ -298,3 +298,17 @@ Underskrift
 .pa nostart
 .** INDRYK FRA VENSTREMARGIN NULSTILLES
 .in 0mm
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off
+.su off

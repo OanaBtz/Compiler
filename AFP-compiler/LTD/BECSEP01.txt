@@ -644,3 +644,10 @@ Pengeinstituttets underskrift ¤Dato:
 .ar off
 .rh cancel
 .ar off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

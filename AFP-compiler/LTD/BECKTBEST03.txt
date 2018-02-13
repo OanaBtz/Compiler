@@ -365,3 +365,17 @@ Standardiserede europæiske
 :SWISS8.
 Den månedlige betaling hæves på nedenstående konto:
 .sp 1mm
+.ar off
+.ar off
+.ar off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

@@ -2544,3 +2544,23 @@ opsigelsen ikke længere betale elektroniske betalingskort i &WEBSYSNAVN..
 .pa nostart
 .** INDRYK FRA VENSTREMARGIN NULSTILLES
 .in 0mm
+.bx left 90mm right 
+.*TEST PÅ OM FORRETNINGSBETINGELSERNE SKAL UDSKRIVES **********************
+.*DE UDSKRIVES IKKE FOR ERHVERV - KUN FOR PRIVATE**************************
+.*HVIS DER IKKE STÅR E I FELTET, STOPPER AL UDSKRIVNING *******************
+.if &U'&WEBPRIERH = E
+.th .qu
+.bx off
+.kp off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

@@ -1355,3 +1355,11 @@ Pengeinstituttets underskrift
 .ar off
 :SKRSLUT.
 .**************************************************************************
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off
+.ar off
+.su off

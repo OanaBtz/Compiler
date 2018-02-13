@@ -608,3 +608,8 @@ stilet til ham, skal han om muligt advisere afsenderen om det, før han
 sletter den modtagne EDI-forsendelse. Samtlige data skal betragtes som
 fortrolige og må ikke benyttes eller videregives.
 .kp off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

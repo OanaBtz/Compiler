@@ -862,3 +862,11 @@ godtgøre fejlen. Gentegning uden gebyr skal ske senest 60 dage efter, at
 deklarationen er slettet ved en fejl.
 .of
 .kp off
+.kp off
+.kp off
+.ar off
+.su off
+.ar off
+.ar off
+.su off
+.ar off

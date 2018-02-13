@@ -871,3 +871,4 @@ Udgifter til lægeerklæring og anden dokumentation afholdes for egen
 regning af sikrede.
 .sp 5mm
 .kp off
+.rh off

@@ -1208,3 +1208,7 @@ Underskrift ¤
 .**********************************
 ...slut
 :COUR10.
+.bx off
+.ar off
+.bx off
+.ar off

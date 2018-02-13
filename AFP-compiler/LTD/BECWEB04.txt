@@ -481,3 +481,10 @@ herunder vedrørende anvendelse af systemet mv.
 .ar off
 .bx off
 .ar off
+.bx off
+.ar off
+.rh off
+.bx off
+.bx off
+.bx off
+.ar off

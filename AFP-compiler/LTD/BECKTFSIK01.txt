@@ -860,3 +860,4 @@ CHARTIS i sikredes plads og kan gøre krav gældende mod 3. mand.
 Endvidere henvises til FÆLLESBETINGELSER SEKTION A.
 .sp 5mm
 .kp off
+.rh off

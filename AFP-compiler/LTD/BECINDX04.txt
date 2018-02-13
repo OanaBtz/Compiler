@@ -194,3 +194,9 @@ Kontohavers underskrift
 .bx off
 .ar off
 .su off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off
+.su off

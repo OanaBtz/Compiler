@@ -726,3 +726,7 @@ purchase of &instru. is subject to the provisions
 of the Danish Executive Order on pension pools and other
 tax-privileged savings, etc concerning investment of pension funds in
 securities. Under the provisions of the Executive Order, the only
+.bx off
+.bx off
+.ar off
+.su off

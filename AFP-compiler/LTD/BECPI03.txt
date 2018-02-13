@@ -340,3 +340,10 @@ Forespørgsel/meddelelse vedr. indbetalingskort
 BECPI03
 .ar off
 .**************************************************************************
+.ar off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

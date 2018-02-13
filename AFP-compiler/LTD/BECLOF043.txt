@@ -220,3 +220,6 @@ denne være i køredygtig og lovlig stand.
 .ce &UNDSNAVN.
 .ar off
 .**************************************************************************
+.bx off
+.bx off
+.ar off

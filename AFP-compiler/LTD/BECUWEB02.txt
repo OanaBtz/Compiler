@@ -834,3 +834,34 @@ Signature of the customer ¤Date:
 Signature of the bank ¤Date:
 .ar off
 :SKRSLUT.
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off

@@ -399,3 +399,6 @@ pengeinstituttet beregne en timepris for sit arbejde, hvis kunden udnytter
 sin fortrydelsesret.
 .kp off
 .su off
+.bx off
+.ar off
+.su off

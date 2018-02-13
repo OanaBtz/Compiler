@@ -194,3 +194,8 @@ indtræk, interiør, lak etc. er ligeledes ikke omfattet af aftalen.
 .ar off
 .**************************************************************************
 .ar off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

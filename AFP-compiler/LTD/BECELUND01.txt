@@ -227,3 +227,8 @@ samtidig være en opsigelse af aftalen om anvendelse af &WEBSYSNAVN..
 Pengeinstituttets underskrift ¤Dato:
 .ar off
 .rh cancel
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

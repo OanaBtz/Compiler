@@ -813,3 +813,34 @@ Kundens underskrift ¤Dato:
 Pengeinstituttets underskrift ¤Dato:
 .ar off
 :SKRSLUT.
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off

@@ -314,3 +314,10 @@ De omtalte leasede genstande vil fra den
 .ar off
 .**************************************************************************
 .su off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

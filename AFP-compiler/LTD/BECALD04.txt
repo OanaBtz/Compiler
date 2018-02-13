@@ -613,3 +613,9 @@ aldersopsparing kræver samtykke fra arbejdsgiveren.
 .** INDRYK FRA VENSTREMARGIN NULSTILLES
 .in 0mm
 .su off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off
+.su off

@@ -320,3 +320,11 @@ Any restrictions/extensions of the above authorisation:
 .el .ct The signature of the customer ¤Date:
 .ar off
 .*******************************************************
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

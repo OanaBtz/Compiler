@@ -663,3 +663,6 @@ Kundens underskrift: ¤Dato: ¤Pengeinstituttets underskrift: ¤Dato:
 .rh off
 .kp off
 .kp off
+.bx off
+.bx off
+.ar off

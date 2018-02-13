@@ -191,3 +191,8 @@ Parterne indgår herved aftale om oprettelse i forbindelse med overførsel
 fra et andet pengeinstitut eller forlængelse af selvpensionskonto.
 .sp
 .ar off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

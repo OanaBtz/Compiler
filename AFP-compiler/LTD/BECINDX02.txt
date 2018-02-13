@@ -216,3 +216,10 @@ grundrente.
 .th .ct   Kontonr.
 .th :SKRSLUT.&udktonr
 .ar off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off
+.su off

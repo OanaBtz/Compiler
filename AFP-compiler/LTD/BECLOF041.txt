@@ -179,3 +179,8 @@ vandskade samt skade under transport), indtil levering har fundet sted.
 .ar off
 ...SLUT
 .*********************************************************************
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

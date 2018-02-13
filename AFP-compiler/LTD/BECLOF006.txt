@@ -239,3 +239,11 @@ leasinggiver måtte fremsætte anmodning herom, jf. dog leasingkontraktens
 almindelige standardbetingelser.
 .ar off
 .**************************************************************************
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

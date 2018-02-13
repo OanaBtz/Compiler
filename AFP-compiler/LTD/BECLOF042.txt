@@ -230,3 +230,8 @@ underskrivere¤Dato
 .ce &UNDSNAVN.
 .ar off
 ...SLUT
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off

@@ -230,3 +230,12 @@ kort).
 .tp _/120mm
 Kontohavers underskrift ¤
 .ar off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.bx off
+.ar off
